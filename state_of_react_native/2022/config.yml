@@ -1,76 +1,43 @@
 ---
+slug: rn2022
 surveyId: rn2022
-createdAt: December 10, 2022
-shareUrl: https://stateofreactnative.com
-# questionsUrl: https://survey.devographics.com/survey/state-of-graphql/2022
-# resultsUrl: https://2022.stateofreactnative.com/
+context: state_of_react_native
+topic: JavaScript
+createdAt: November 1, 2022
+prettySlug: state-of-react-native
+hashtag: StateOfJS
+shareUrl: https://stateofjs.com
+questionsUrl: https://survey.devographics.com/survey/state-of-js/2022
+# resultsUrl: https://2022.stateofjs.com/
+name: "State of JavaScript"
 year: 2022
 status: 2 # preview/open/closed/hidden
-imageUrl: https://devographics.github.io/surveys/state_of_graphql/2022/images/graphql2022.png
-faviconUrl: https://devographics.github.io/surveys/state_of_graphql/2022/images/graphql2022-favicon.svg
-socialImageUrl: https://devographics.github.io/surveys/state_of_graphql/2022/images/graphql2022-og.png
-
-colors:
-  primary: "#F999D3"
-  secondary: "#5C63E0"
-  text: "#FFF6E6"
-  background: "#263342"
-  backgroundSecondary: "#2C4461"
-
+imageUrl: https://devographics.github.io/surveys/state_of_js/2022/images/js2022.png
+faviconUrl: https://devographics.github.io/surveys/state_of_js/2022/images/js2022-favicon.svg
+socialImageUrl: https://devographics.github.io/surveys/state_of_js/2022/images/js2022-og.png
+domain: stateofjs.com
+bgColor: rgb(255, 255, 255)
+textColor: rgb(224, 228, 228)
+linkColor: rgb(65, 199, 199)
+hoverColor: rgb(254, 106, 106)
+tags: [js]
 credits:
-  - id: eric_burel
-    role: back_end_developement
-  - id: christopher_kirk_nielsen
-    role: logo_design
-  - id: praveen_durairaju
+  - id: shawn_wang
     role: survey_design
-  - id: benjie_gillam
+  - id: mark_erikson
     role: survey_design
-  - id: uri_goldshtein
-    role: survey_design
-  - id: michael_hayes
-    role: survey_design
-  - id: charly_poly
-    role: survey_design
-  - id: phil_prasek
-    role: survey_design
-  - id: laurin_quast
-    role: survey_design
-  - id: john_p_vajda
-    role: survey_design
+faq:
+  - data_used_js2022
+  # - survey_design_js2022
+  - results_released_js2022
+  - team
+  - questions_required
+  - learn_more_js2022
 
-partners:
-  - name: Nijibox
-    id: nijibox
-    url: https://www.nijibox.jp/
-    imageUrl: https://devographics.github.io/surveys/state_of_graphql/2022/images/sponsors/nijibox.svg
-
-sponsors:
-  - name: The Guild
-    id: the_guild
-    url: https://www.the-guild.dev/
-    imageUrl: https://devographics.github.io/surveys/state_of_graphql/2022/images/sponsors/the-guild-full-white-logo.svg
-  - name: Nhost
-    id: nhost
-    url: https://nhost.io/
-    imageUrl: https://devographics.github.io/surveys/state_of_graphql/2022/images/sponsors/nhost-logo-white.svg
-  - name: Apollo
-    id: apollo
-    url: https://www.apollographql.com/
-    imageUrl: https://devographics.github.io/surveys/state_of_graphql/2022/images/sponsors/apollo-graphql-logo.svg
-  - name: GraphQL.wtf
-    id: graphql_wtf
-    url: https://graphql.wtf/
-    imageUrl: https://devographics.github.io/surveys/state_of_graphql/2022/images/sponsors/graphql-wtf-pink-white.svg
-  - name: Grafbase
-    id: grafbase
-    url: https://grafbase.com/
-    imageUrl: https://devographics.github.io/surveys/state_of_graphql/2022/images/sponsors/grafbase-white-logo-w-text.svg
-  - name: Hasura
-    id: hasura
-    url: https://hasura.io/
-    imageUrl: https://devographics.github.io/surveys/state_of_graphql/2022/images/sponsors/hasura-logo-primary-light.svg
-  # - name: Frontend Masters
-  #   id: frontendmasters
-  #   url: https://frontendmasters.com/
-  #   imageUrl: https://devographics.github.io/surveys/state_of_graphql/2022/images/sponsors/frontend-masters-dark.png
+colors: 
+  primary: rgb(71, 207, 237)
+  secondary: "#8D4CA8"
+  text: rgb(255, 246, 230)
+  background: rgb(255, 255, 255)
+  backgroundSecondary: rgb(48, 52, 53)
+  

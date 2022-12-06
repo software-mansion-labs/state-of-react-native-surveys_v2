@@ -7,52 +7,109 @@
 # - Know about it
 # - Have used it
 
-- id: graphql_language
+- id: language
   template: feature
   slug: features
   questions:
-    - id: graphql_features_intro
+
+    - id: features_intro
       template: help
-    - id: custom_directives
-    - id: custom_scalars
-    - id: fragments
-    - id: unions
-    - id: interfaces
 
-- id: directives
+    # removed in 2021
+    # - id: async_await
+    # - id: promises
+    # - id: decorators
+    # - id: destructuring
+    # - id: spread_operator
+    # - id: arrow_functions
+
+    - id: proxies
+    - id: promise_all_settled
+    - id: dynamic_import
+    - id: nullish_coalescing
+    # - id: optional_chaining # removed in 2022, too popular
+    - id: private_fields
+    # - id: big_int # removed in 2022
+
+    # new in 2021
+    - id: numeric_separators
+      year: 2021
+    - id: string_replace_all
+      year: 2021
+    - id: string_match_all
+      year: 2021
+    - id: logical_assignment
+      year: 2021
+    - id: promise_any
+      year: 2021
+    - id: array_at
+      year: 2021
+    - id: top_level_await
+      year: 2021
+
+    # new in 2022
+    - id: temporal
+      year: 2022
+    - id: array_findlast
+      year: 2022
+    - id: error_cause
+      year: 2022
+    - id: object_hasown
+      year: 2022
+    - id: regexp_match_indices
+      year: 2022
+
+# removed in 2021
+# - id: data_structures
+#   template: feature
+#   slug: features
+#   questions:
+#     - id: maps
+#     - id: sets
+#     - id: typed_arrays
+#     - id: array_prototype_flat
+
+- id: browser_apis
   template: feature
   slug: features
   questions:
-    - id: at_skip
-    - id: at_include
-    - id: at_deprecated
-    - id: at_specified_by
-    - id: at_defer
-    - id: at_stream
+    # removed in 2021
+    # - id: local_storage
+    # - id: webvr
+    # - id: fetch
 
-- id: security_performance
-  template: feature
-  slug: features
-  questions:
-    - id: persisted_queries
-    # - id: query_allowlisting # redundant with persisted queries
-    - id: query_timeouts
-    - id: query_rate_limit
-    - id: query_depth_limit
-    # - id: query_amount_limit # not clear
-    - id: query_cost_analysis
-    - id: disabling_introspection
-    - id: ip_allowlisting
-    - id: require_authentication
+    - id: service_workers
+    - id: intl
+    # - id: web_audio # removed in 2022, too niche?
+    - id: webgl
+    - id: webgl2
+    - id: web_animations
+    - id: webrtc
+    - id: web_speech
+    - id: websocket
+    - id: custom_elements
+    - id: shadow_dom
+
+    # new in 2021
+    - id: page_visibility
+      year: 2021
+    - id: broadcast_channel
+      year: 2021
+    - id: geolocation
+      year: 2021
+    - id: file_system_access
+      year: 2021
+    - id: web_share
+      year: 2021
+    - id: webxr
+      year: 2021
 
 - id: other_features
   template: feature
   slug: features
   questions:
-    - id: graphql_subscriptions
-    - id: live_queries
-    - id: apollo_federation
-    - id: schema_stitching
+    - id: pwa
+    - id: wasm
 
 ######################################################
 #########                TOOLS               #########
@@ -65,182 +122,495 @@
 # - Have used, but wouldn't use again
 # - Have used, and would use again
 
-- id: graphql_servers
+# removed in 2021
+# - id: javascript_flavors
+#   template: tool
+#   slug: tools
+#   questions:
+#     - id: typescript
+#     - id: reason
+#     - id: elm
+#     - id: clojurescript
+#     - id: purescript
+#     - id: javascript_flavors
+#       intlId: tools.other_tools
+#       template: project
+#       sectionSlug: tools_others
+#     - id: javascript_flavors
+#       intlId: tools.happiness
+#       sectionSlug: happiness
+#       template: happiness
+
+- id: front_end_frameworks
   template: tool
   slug: tools
   questions:
-    - id: graphql_tools_intro
+
+    - id: tools_intro
       template: help
 
-    - id: apollo_server
-    - id: yoga
-    - id: graphql_js
-    - id: helix
-    - id: express_graphql
-    - id: mercurius
-    - id: dgs
-    # - id: strawberry
-    # - id: sangria
-    - id: graphql_dotnet
-    - id: absinthe
-    - id: graphql_go
-
-    - id: graphql_servers
+    - id: react
+    - id: vuejs
+    - id: angular
+    - id: preact
+    - id: ember
+    - id: svelte
+    - id: alpinejs
+    - id: litelement
+    # - id: stimulus # removed in 2022, too niche?
+    - id: solid
+      year: 2021
+    - id: qwik
+      year: 2022
+    - id: stencil
+      year: 2022
+    - id: front_end_frameworks
       intlId: tools.other_tools
-      # template: project
-      template: others
+      template: project
       sectionSlug: tools_others
-      matchTags: [libraries, graphql]
-    - id: graphql_servers
+    - id: front_end_frameworks
       intlId: tools.happiness
       template: happiness
       sectionSlug: happiness
 
-- id: graphql_clients
+# removed in 2021
+# - id: datalayer
+#   template: tool
+#   slug: tools
+#   questions:
+#     - id: redux
+#     - id: apollo
+#     - id: graphql
+#     - id: mobx
+#     - id: relay
+#     - id: xstate
+#     - id: vuex
+#     # - id: firebase
+#     # - id: react_query
+#     # - id: swr
+#     - id: datalayer
+#       intlId: tools.other_tools
+#       template: project
+#       sectionSlug: tools_others
+#     - id: datalayer
+#       intlId: tools.happiness
+#       template: happiness
+#       sectionSlug: happiness
+
+- id: rendering_frameworks
   template: tool
   slug: tools
   questions:
-    - id: apollo_client
-    - id: urql
-    - id: react_query
-    - id: relay
-    - id: apollo_ios
-    - id: swift_graphql
-    - id: apollo_kotlin
-    - id: graphql_hooks
-    - id: graphql_request
-    - id: no_client
 
-    - id: graphql_clients
+    - id: nextjs
+    - id: nuxt
+    - id: gatsby
+
+    # new in 2021
+    - id: remix
+      year: 2021
+    - id: astro
+      year: 2021
+    - id: eleventy
+      year: 2021
+    - id: sveltekit
+      year: 2021
+
+    - id: docusaurus
+      year: 2022
+
+    # - id: solidstart # too early?
+    #   year: 2022
+
+    - id: rendering_frameworks
       intlId: tools.other_tools
-      # template: project
-      template: others
-      matchTags: [libraries, graphql]
+      template: project
       sectionSlug: tools_others
-    - id: graphql_clients
+    - id: rendering_frameworks
       intlId: tools.happiness
       template: happiness
       sectionSlug: happiness
 
-- id: api_generators
+# - id: back_end_frameworks
+#   template: tool
+#   slug: tools
+#   questions:
+#     # removed in 2021
+#     # - id: meteor
+#     # - id: hapi
+
+#     - id: express
+#     - id: nest
+#     - id: strapi
+#     - id: fastify
+
+#     - id: blitz # removed in 2022?
+#       year: 2021
+
+#     - id: koa # added again in 2022
+
+#     # new in 2022
+#     - id: adonis
+#       year: 2022
+#     - id: directus
+#       year: 2022
+#     - id: keystone
+#       year: 2022
+#     - id: amplication
+#       year: 2022
+
+#     - id: back_end_frameworks
+#       intlId: tools.other_tools
+#       template: project
+#       sectionSlug: tools_others
+#     - id: back_end_frameworks
+#       intlId: tools.happiness
+#       template: happiness
+#       sectionSlug: happiness
+
+- id: testing
   template: tool
   slug: tools
   questions:
-    - id: postgraphile
-    - id: hasura
-    - id: graphcms
-    - id: datocms
-    - id: sanity
-    - id: wpgraphql
-    - id: wundergraph
-    - id: fauna
-    - id: dgraph
-    - id: graphql_editor
-    - id: strapi
-    - id: appsync
-    - id: contentful
-    - id: graphene
-    - id: graphql_mesh
-
-    - id: api_generators
+    - id: jest
+    - id: mocha
+    - id: storybook
+    - id: cypress
+    - id: ava
+    - id: jasmine
+    - id: puppeteer
+    - id: testing_library
+    - id: playwright
+    - id: webdriverio
+    - id: vitest
+      year: 2021
+    - id: selenium
+      year: 2022
+    - id: testcafe
+      year: 2022
+    - id: testing
       intlId: tools.other_tools
-      # template: project
-      template: others
-      matchTags: [libraries, graphql]
+      template: project
       sectionSlug: tools_others
-    - id: api_generators
+    - id: testing
       intlId: tools.happiness
       template: happiness
       sectionSlug: happiness
 
-- id: schema_builders
+# under consideration for 2022?
+# - id: graphics_animation
+#   template: tool
+#   slug: tools
+#   questions:
+#     # charts
+#     - id: echarts
+#     - id: chartjs
+#     - id: d3
+#     # - id: recharts
+#     - id: visx
+#     - id: nivo
+
+#     # drawing/3D
+#     - id: threejs
+#     - id: pixijs
+#     - id: fabricjs
+
+#     # animation
+#     - id: animejs
+#     - id: lottie
+#     - id: greensock
+#     - id: popmotion
+#     # - id: motion
+#     # - id: velocity
+
+#     - id: graphics_animation
+#       intlId: tools.other_tools
+#       template: project
+#       sectionSlug: tools_others
+#     - id: graphics_animation
+#       intlId: tools.happiness
+#       template: happiness
+#       sectionSlug: happiness
+
+- id: mobile_desktop
   template: tool
   slug: tools
   questions:
-    - id: nexus
-    - id: typegraphql
-    - id: pothos
-    - id: strawberry
-    # - id: hot_chocolate # taken out at request of creator
-    - id: sangria
-    - id: graphql_java
-
-    - id: gqlgen
-    - id: graphql_zeus
-    - id: genql
-    - id: graphql_code_generator
-
-    - id: schema_builders
+    - id: electron
+    - id: reactnative
+    - id: nativeapps
+    - id: cordova
+    - id: ionic
+    - id: capacitor
+    - id: nwjs
+    - id: expo
+    - id: quasar
+    - id: tauri
+      year: 2021
+    - id: nativescript
+      year: 2022
+    - id: mobile_desktop
       intlId: tools.other_tools
-      # template: project
-      template: others
-      matchTags: [libraries, graphql]
+      template: project
       sectionSlug: tools_others
-    - id: schema_builders
+    - id: mobile_desktop
+      intlId: tools.happiness
+      template: happiness
+      sectionSlug: happiness
+
+
+- id: build_tools
+  template: tool
+  slug: tools
+  questions:
+    - id: webpack
+    - id: parcel
+    - id: gulp
+    - id: rollup
+    - id: browserify # remove in 2023
+    - id: tsc
+    - id: rome
+    - id: snowpack
+    - id: swc
+    - id: esbuild
+
+    # new in 2021
+    - id: vite
+      year: 2021
+    - id: wmr
+      year: 2021
+
+    # new in 2022
+    - id: turbopack
+      year: 2022
+
+    - id: build_tools
+      intlId: tools.other_tools
+      template: project
+      sectionSlug: tools_others
+    - id: build_tools
+      intlId: tools.happiness
+      template: happiness
+      sectionSlug: happiness
+
+- id: monorepo_tools
+  template: tool
+  slug: tools
+  year: 2021
+  questions:
+    - id: rush
+      year: 2021
+    - id: turborepo
+      year: 2021
+    - id: yarn_workspaces
+      year: 2021
+    - id: yalc
+      year: 2021
+    - id: lerna
+      year: 2021
+    - id: npm_workspaces
+      year: 2021
+    - id: pnpm
+      year: 2021
+    - id: nx
+      year: 2021
+
+    - id: monorepo_tools
+      intlId: tools.other_tools
+      template: project
+      sectionSlug: tools_others
+    - id: monorepo_tools
       intlId: tools.happiness
       template: happiness
       sectionSlug: happiness
 
 ######################################################
-#########            Other Tools             #########
+#########             OTHER TOOLS            #########
 ######################################################
 
-- id: tools_others
+- id: other_tools
+  slug: tools_others
   questions:
-    - id: combining_schemas
+    - id: libraries
       template: multiple
-      allowother: true
       options:
-        - id: apollo_federation
-        - id: schema_stitching
-        - id: graphql_mesh
-        - id: hasura_data_federation
-        - id: wundergraph
-        - id: stepzen
-        - id: mulesoft
-        - id: graphql_modules
-    - id: combining_schemas
-      template: others
-      matchTags: [graphql]
+        - id: immer
+        - id: lodash
+        - id: underscore
+        - id: ramda
+        - id: jquery
+        - id: rxjs
+        - id: stdlib
+        - id: zod
+          year: 2022
+        - id: partytown
+          year: 2022
+        - id: mitosis
+          year: 2022
+    - id: libraries
+      template: project
 
-    - id: web_frameworks
+    - id: date_management
+      year: 2022
       template: multiple
-      allowother: true
       options:
-        - id: gatsby
+        - id: moment
+        - id: dayjs
+        - id: date_fns
+        - id: luxon
+    - id: date_management
+      year: 2022
+      template: project
+
+    - id: data_visualization
+      year: 2022
+      template: multiple
+      options:
+        - id: d3
+        - id: mermaid
+        - id: nivo
+        - id: recharts
+        - id: visx
+        - id: victory
+        - id: echarts
+        - id: chart_js
+        - id: highcharts
+        - id: plotly
+    - id: data_visualization
+      year: 2022
+      template: project
+
+    - id: graphics_animation
+      year: 2022
+      template: multiple
+      options:
+        - id: three_js
+        - id: theatre_js
+        - id: anime_js
+        - id: react_spring
+        - id: lottie
+        - id: greensock
+        - id: popmotion
+        - id: framer_motion
+        - id: motion_one
+    - id: graphics_animation
+      year: 2022
+      template: project
+
+    - id: data_fetching
+      year: 2022
+      template: multiple
+      options:
+        - id: trpc
+        - id: apollo_client
+        - id: axios
+        - id: tanstack_query
+        - id: swr
+        - id: relay
+    - id: data_fetching
+      year: 2022
+      template: project
+
+    - id: backend_frameworks
+      year: 2022
+      template: multiple
+      options:
+        - id: express
+        - id: nest
+        - id: strapi
+        - id: fastify
+        - id: meteor
+        - id: hapi
+        - id: koa # added again in 2022
+        - id: adonis
+          year: 2022
+        - id: keystone
+          year: 2022
         - id: redwood
-        - id: nextjs
-        - id: remix
-        - id: nuxt
-        - id: sveltekit
-        - id: create_react_app
-        - id: astro
-    - id: web_frameworks
-      template: others
-      matchTags: [libraries, graphql, frameworks]
+          year: 2021
+        - id: sails # added again in 2022
+        # new in 2022
+        - id: directus
+          year: 2022
+        - id: amplication
+          year: 2022
+        - id: blitz # removed in 2022?
+          year: 2021
+    - id: backend_frameworks
+      year: 2022
+      template: project
 
-    - id: databases
+    - id: utilities
       template: multiple
-      allowother: true
       options:
-        - id: mysql
-        - id: sqlite
-        - id: postgresql
-        - id: neo4j
-        - id: redis
-        - id: mongodb
-        - id: elasticsearch
-        - id: dynamodb
-    - id: databases
-      template: others
-      matchTags: [libraries, databases]
+        - id: babel
+        # - id: prettier
+        # - id: eslint
+        - id: nvm
+        - id: "n"
+        - id: zx
+          year: 2021
+        - id: volta
+          year: 2021
+        - id: verdaccio
+          year: 2021
+    - id: utilities
+      template: project
 
-    - id: server_languages
+    - id: runtimes
       template: multiple
-      allowother: true
       options:
-        - id: javascript
+        - id: browser_environment
+        - id: node
+        - id: deno
+        - id: chakracore
+        - id: hermes
+        - id: service_workers
+          year: 2021
+        - id: bun
+          year: 2022
+    - id: runtimes
+      template: others
+      matchTags: [libraries, other]
+
+    - id: edge_runtimes
+      template: multiple
+      year: 2022
+      options:
+        - id: aws_lambda
+        - id: cloudflare_workers
+        - id: netlify_edge_functions
+        - id: fastly_edge_compute
+        - id: google_cloud_functions
+        - id: akamai_edge_workers
+        - id: nextjs_edge_runtime
+        - id: fly_io
+        - id: digital_ocean_functions
+    - id: edge_runtimes
+      template: others
+      matchTags: [libraries, other]
+
+    - id: javascript_flavors
+      year: 2021
+      template: multiple
+      options:
         - id: typescript
+        - id: reason
+        - id: flow
+        - id: elm
+        - id: clojurescript
+        - id: purescript
+        - id: coffeescript
+        - id: rescript
+        - id: imba
+    - id: javascript_flavors
+      year: 2021
+      template: others
+      matchTags: [javascript_flavors, libraries]
+
+    - id: non_js_languages
+      template: multiple
+      options:
         - id: php
         - id: ruby
         - id: python
@@ -257,130 +627,149 @@
         - id: dart
         - id: kotlin
         - id: elixir
+        - id: bash
         - id: clojure
+        - id: elm
         - id: julia
-    - id: server_languages
+    - id: non_js_languages
       template: others
       matchTags: [languages]
 
-    - id: graphql_ides
-      template: multiple
-      allowother: true
-      options:
-        - id: graphiql
-        - id: graphql_playground
-        - id: apollo_studio
-        - id: altair
-        - id: insomnia
-        - id: postman
-        - id: graphql_editor
-        - id: apollo_sandbox
-    - id: graphql_ides
-      template: others
-      matchTags: [libraries, graphql]
+    # - id: performance_testing
+    #   template: multiple
+    #   options:
+    #     - id: lighthouse
+    # - id: performance_testing
+    #   template: others
+    #   matchTags: [tools]
 
-    - id: other_tools
-      template: multiple
-      allowother: true
-      options:
-        - id: envelop
-        - id: graphql_shield
-        - id: dataloader
-        - id: apollo_datasources
-        - id: graphql_voyager
-        - id: graphqurl
-        - id: stellate
-        - id: apollo_client_devtools
-        - id: graphql_hive
-        - id: graphql_inspector
-        - id: graphql_scalars
-        - id: graphql_config
-        - id: prisma
-        - id: graphql_eslint
-        - id: apollo_workbench
-    - id: other_tools
-      template: others
-      matchTags: [libraries, graphql]
+    # - id: error_reporting
+    #   template: multiple
+    #   options:
+    #     - id: sentry
+    # - id: error_reporting
+    #   template: others
+    #   matchTags: [tools]
+
+    # - id: code_analysis
+    #   template: multiple
+    #   options:
+    #     - id: prettier
+    #     - id: eslint
+    #     - id: sonarqube
+    # - id: code_analysis
+    #   template: others
+    #   matchTags: [tools]
+
+    # - id: browsers
+    #   template: multiple
+    #   options:
+    #     - id: edge
+    #     - id: chrome
+    #     - id: safari
+    #     - id: firefox
+    #     - id: internet_explorer_11
+    #     - id: internet_explorer_8_9_10
+    #     - id: opera_mini
+    #     - id: safari_ios
+    #     - id: chrome_ios
+    #     - id: chrome_android
+    #     - id: firefox_android
+    #     - id: samsung_internet
+    #     - id: vivaldi
+    #     - id: brave
+    #     - id: ucbrowser
+    #     - id: opera
+    #     - id: polypane
+
+    # - id: form_factors
+    #   template: multiple
+    #   options:
+    #     - id: desktop
+    #     - id: smartphone
+    #     - id: feature_phone
+    #     - id: tablet
+    #     - id: smart_watch
+    #     - id: tv
+    #     - id: gaming_console
+    #     - id: screen_reader
+    #     - id: print
+    #     - id: keyboard_only
+    #     - id: testing_tools
+    #     - id: vision_simulator
+
+    # - id: backend_as_a_service
+    #   template: multiple
+    #   options:
+    #     - id: firebase
+    #     - id: aws_amplify
+    #     - id: supabase
+    #     - id: nhost
+    #     - id: realm
+    #     - id: parse
+    #     - id: back4app
+    # - id: backend_as_a_service
+    #   template: others
+    #   matchTags: [tools]
+
+
+    # - id: tool_evaluation
+    #   year: 2021
+    #   template: bracket
+    #   options:
+    #     - id: learning_curve_documentation # is a tool is easy to learn?
+    #     - id: momentum_popularity # does it have a lot of hype?
+    #     - id: user_base_size # is it a well-established option?
+    #     - id: developer_experience_tooling # does it provide a good developer experience?
+    #     - id: performance_user_experience # does it provide a good user experience?
+    #     - id: creator_team # is it backed by a well-known/well-funded team?
+    #     - id: accessibility_features # does it implement accessibility features well?
+    #     - id: community_inclusivity # does it have a good community?
 
 ######################################################
-#########            GraphQL Usage           #########
+#########                USAGE               #########
 ######################################################
 
 - id: usage
-  intlId: usage_graphql
+  slug: usage
   questions:
-    - id: graphql_experience
+
+    - id: js_ts_balance
+      year: 2022
+      template: slider
+
+    - id: usage_type
+      year: 2022
       template: single
-      options:
-        - id: range_less_than_1
-        - id: range_1_2
-        - id: range_3_5
-        - id: range_6_10
-        # - id: range_more_than_10
-
-    - id: api_type
-      template: multiple
       allowother: true
       options:
-        - id: public_apis
-        - id: personal_apis
-        - id: private_apis
-    - id: api_type
-      template: others
-      matchTags: [graphql]
+        - id: professionally
+        - id: student
+        - id: hobby
+    # - id: usage_type
+    #   matchTags: [usage_types]
+    #   template: others
 
-    - id: client_type
+    - id: what_do_you_use_js_for
+      year: 2022
       template: multiple
-      allowother: true
       options:
-        - id: browsers
-        - id: mobile_devices
+        - id: frontend_development
+        - id: backend_development
+        - id: data_analysis
+        - id: machine_learning
         - id: desktop_apps
-        - id: other_servers
-    - id: client_type
+        - id: mobile_apps
+        - id: embedded_apps
+        - id: game_development
+        - id: data_visualization
+        - id: graphics_animation
+    - id: what_do_you_use_js_for
+      matchTags: [js_uses]
       template: others
-      matchTags: [graphql]
-
-    - id: data_sources
-      template: multiple
-      allowother: true
-      options:
-        - id: static_files
-        - id: databases
-        - id: spreadsheets
-        - id: cmses
-        - id: rest_apis
-        - id: other_graphql_apis
-        - id: other_api_protocols
-    - id: data_sources
-      template: others
-      matchTags: [graphql]
-
-    - id: code_generation_type
-      template: single
-      allowother: true
-      options:
-        - id: code_first
-        - id: schema_first
-        - id: database_first
-    - id: code_generation_type
-      template: others
-      matchTags: [graphql]
-
-    - id: code_generation_target
-      template: multiple
-      allowother: true
-      options:
-        - id: graphql_schema
-        - id: non_graphql_typings # e.g. TypeScript types
-        - id: server_resolvers
-        - id: fragments_or_queries
-        - id: client_code # e.g. React hooks
-    - id: code_generation_target
-      template: others
-      matchTags: [graphql]
 
     - id: industry_sector
+      intlId: usage.industry_sector_js
       template: multiple
       allowother: true
       options:
@@ -412,43 +801,101 @@
     - id: industry_sector
       template: others
       matchTags: [industry_sectors]
-
-    - id: bracket_intro
-      template: help
-
-    - id: graphql_strong_points
-      template: bracket
+      
+    - id: js_app_patterns
+      year: 2022
+      template: multiple
+      itemProperties:
+        cutoff: 0
       options:
-        - id: avoiding_overfetching
-        - id: introspection
-        - id: tooling_ecosystem
-        - id: type_checking
-        - id: api_aggregation
-        - id: aggregating_requests
-        - id: community
-        - id: fragment_colocation
-    - id: graphql_strong_points
-      sectionSlug: usage_others
+        - id: single_page_app
+        - id: multiple_page_app
+        - id: static_site_generation
+        - id: server_side_rendering
+        - id: partial_hydration
+        - id: progressive_rehydration
+        - id: islands_architecture
+        - id: progressive_enhancement
+        - id: incremental_static_generation
+        - id: streaming_ssr
+        - id: resumability
+        - id: edge_rendering
+    - id: js_app_patterns
+      year: 2022
+      matchTags: [js_patterns]
       template: others
-      matchTags: [graphql_strong_points]
 
-    - id: graphql_pain_points
-      template: bracket
+######################################################
+#########              OPINIONS              #########
+######################################################
+
+- id: opinions
+  slug: opinions
+  questions:
+    # removed in 2021
+    # - id: js_over_used_online
+    #   template: opinion
+    # - id: enjoy_building_js_apps
+    #   template: opinion
+    # - id: would_like_js_to_be_main_lang
+    #   template: opinion
+
+    - id: js_moving_in_right_direction
+      template: opinion
+    - id: building_js_apps_overly_complex
+      template: opinion
+    - id: js_ecosystem_changing_to_fast
+      template: opinion
+
+    - id: top_js_pain_points
+      year: 2021
+      # template: bracket
+      template: top_n
       options:
-        - id: performance
-        - id: security
-        - id: combining_schemas
-        - id: api_versioning
-        - id: file_upload
-        - id: testing
-        - id: error_handling
-        - id: client_side_caching
-    - id: graphql_pain_points
-      sectionSlug: usage_others
-      template: others
-      matchTags: [graphql_pain_points]
+        - id: state_management
+        - id: architecture
+        - id: finding_packages
+        - id: debugging
+        - id: managing_dependencies
+        - id: async_code
+        - id: writing_modules
+        - id: date_management
 
-    - id: state_of_graphql
+    - id: top_js_pain_points
+      year: 2021
+      sectionSlug: opinions_others
+      template: others
+      matchTags: [js_pain_points]
+
+    - id: top_currently_missing_from_js
+      year: 2021
+      # template: bracket
+      template: top_n
+      options:
+        - id: static_typing
+        - id: standard_library
+        - id: pattern_matching
+        - id: pipe_operator
+        - id: decorators
+        - id: immutable_data_structures
+        - id: better_date_management
+        - id: observable
+
+    - id: top_currently_missing_from_js
+      sectionSlug: opinions_others
+      template: others
+      matchTags: [js_missing_features]
+
+    # - id: pick_of_the_year
+    #   year: 2022
+    #   sectionSlug: opinions_others
+    #   template: others
+    #   matchTags: [js_missing_features]
+
+    - id: state_of_the_web
+      template: happiness
+      sectionSlug: happiness
+    - id: state_of_js
       template: happiness
       sectionSlug: happiness
 
@@ -457,12 +904,10 @@
 ######################################################
 
 - id: resources
-  intlId: resources_graphql
+  slug: resources
   questions:
     - id: first_steps
-      intlId: resources.first_steps_graphql
       template: multiple
-      allowother: true
       options:
         - id: books
         - id: videos
@@ -475,48 +920,151 @@
         - id: mentoring
         - id: self_directed
     - id: first_steps
-      intlId: resources.first_steps_graphql.others
       template: others
-      matchTags: [first_steps, courses, podcasts, people, youtube, sites, newsletters, socialmedia, graphql]
+      matchTags: [first_steps, courses, podcasts, people, youtube, sites, newsletters, socialmedia]
+
+    - id: blogs_news_magazines
+      template: multiple
+      options:
+
+        #  removed in 2021 (personal blogs)
+        # - id: david_walsh
+        # - id: overreacted
+        # - id: kentcdodds
+
+        - id: medium
+        - id: devto
+        - id: bestofjs
+        - id: smashing_magazine
+        - id: js_weekly
+        - id: bytes
+        - id: node_weekly
+        - id: codrops
+        - id: sitepoint
+        - id: echo_js
+        - id: css_tricks
+        - id: front_end_front
+        - id: frontend_horse
+        - id: frontend_focus
+        - id: alligator
+        - id: daily_js # remove in 2023?
+        - id: a_list_apart # remove in 2023?
+
+    - id: blogs_news_magazines
+      template: others
+      matchTags: [courses, people, youtube, sites, newsletters, socialmedia]
 
     - id: sites_courses
-      intlId: resources.sites_courses_graphql
       template: multiple
       options:
         - id: stack_overflow
+        - id: udemy
+        - id: w3schools
+        - id: mdn
         - id: freecodecamp
         - id: codecademy
-        - id: levelup
-        - id: wes_bos
+        - id: web_dev
+        - id: javascript_info
+        - id: scrimba
         - id: frontendmasters
-        - id: pluralsight
-        - id: udemy
+        - id: wes_bos
+        - id: platzi
+        - id: skillshare
+        - id: coursera
         - id: egghead
+        - id: kent_c_dodds
+        - id: o_reilly
+        - id: pluralsight
+        - id: linkedin_learning
+        - id: designcode
+        - id: academind
+        - id: ui_dev
+        - id: vue_mastery
         - id: newline
-        - id: edx
+        - id: epic_react
+        - id: miguel_angel_duran
+        - id: levelup
+        - id: doka
     - id: sites_courses
       template: others
-      matchTags: [courses, people, youtube, sites, newsletters, socialmedia, graphql]
+      matchTags: [courses, people, youtube, sites, newsletters, socialmedia]
+
+    - id: video_creators
+      template: multiple
+      options:
+        - id: fireship
+        - id: kevin_j_powell
+        - id: fun_fun_function
+        - id: theo_browne
+        - id: tina_huang
+        - id: jason_goodison # https://www.youtube.com/c/JasonGoodison/videos
+        - id: programming_with_mosh # mosh_hamedani https://codewithmosh.com/ https://www.youtube.com/c/programmingwithmosh
+        - id: kent_c_dodds
+        - id: brad_traversy
+        - id: clever_programmer # rafeh_qazi https://www.youtube.com/c/CleverProgrammer
+        - id: ben_awad # https://www.youtube.com/channel/UC-8QAzbLcRglXeN_MY9blyw
+        - id: web_dev_simplified # kyle cook https://www.youtube.com/c/WebDevSimplified/
+        - id: coding_train # Daniel Shiffman https://www.youtube.com/user/shiffman?app=desktop
+        - id: net_ninja # https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg?app=desktop
+        - id: the_primeagen # https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg?app=desktop
+        - id: jack_herrington # https://www.youtube.com/@jherr
+        - id: midudev
+        - id: mayuko
+        - id: coding_garden
+    - id: video_creators
+      template: others
+      matchTags: [video_creators, youtube, courses, people, sites, newsletters, socialmedia]
 
     - id: podcasts
-      intlId: resources.podcasts_graphql.others
+      template: multiple
+      options:
+        - id: syntaxfm
+        - id: js_party
+        - id: changelog
+        - id: http_203
+        - id: shop_talk_show
+        - id: full_stack_radio
+        - id: javascript_jabber
+        - id: front_end_happy_hour
+        - id: react_podcast
+        - id: ladybug
+        - id: web_standards_ru
+        - id: software_engineering_daily
+        - id: big_web_show
+        - id: jamstack_radio
+        - id: web_platform_podcast
+        - id: modern_web
+        - id: codepen_radio
+        - id: web_rush
+        - id: frontend_weekend
+        - id: frontend_first
+        - id: a11y_rules
+        - id: tools_day
+        - id: the_bike_shed
+        - id: css_podcast
+        - id: undefined_podcast
+    - id: podcasts
       template: others
-      matchTags: [podcasts, people, sites, graphql]
+      matchTags: [podcasts, people, sites]
 
     - id: people
-      intlId: resources.people_graphql.others
+      year: 2021
       template: others
-      matchTags: [people, youtube, graphql]
+      matchTags: [people, youtube]
 
     - id: other_surveys
       template: multiple
       allowother: true
       options:
+        # - id: state_of_js_survey
+        - id: state_of_css_survey
+        - id: state_of_graphql_survey
         - id: jetbrains_survey
         - id: stack_overflow_survey
         - id: codingame_survey
         - id: uxtools_survey
         - id: postman_survey
+        - id: jamstack_survey
     - id: other_surveys
       template: others
       matchTags: [surveys]
@@ -526,6 +1074,7 @@
 ######################################################
 
 - id: user_info
+  slug: user_info
   questions:
     - id: age
       template: single
@@ -592,7 +1141,7 @@
         - id: not_listed
 
     - id: race_ethnicity
-      template: race_ethnicity
+      template: multiple
       allowother: true
       options:
         - id: black_african
@@ -607,6 +1156,7 @@
         - id: not_listed
 
     - id: disability_status
+      year: 2021
       template: multiple
       allowother: true
       options:
@@ -616,9 +1166,10 @@
         - id: cognitive_impairments
         - id: not_listed
 
-    # - id: disability_status
-    #   template: others
-    #   matchTags: [disabilities]
+    - id: disability_status
+      year: 2021
+      template: others
+      matchTags: [disabilities]
 
     - id: how_did_user_find_out_about_the_survey
       template: text
@@ -632,4 +1183,3 @@
       hidden: true
     - id: email_temporary
       template: email2
-
