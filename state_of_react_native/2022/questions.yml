@@ -1,4 +1,4 @@
- ######################################################
+######################################################
 #########           PLATFORM APIS            #########
 ######################################################
 
@@ -54,6 +54,26 @@
       template: others
       description: "Other answers (freeform)"
       matchTags: [platform_apis_other]
+
+######################################################
+#########          STATE MANAGEMENT          #########
+######################################################
+
+- id: state_management
+  template: tool
+  slug: state_management
+  questions:
+    - id: state_management_rn_build_in
+    - id: state_management_jotai
+    - id: state_management_zustand
+    - id: state_management_redux
+    - id: state_management_recoil
+    - id: state_management_apollo
+    - id: state_management_react_query
+    - id: state_management_other
+      template: others
+      description: "Other answers (freeform)"
+      matchTags: [state_management_other]
 
 ######################################################
 #########              ASPECTS               #########
