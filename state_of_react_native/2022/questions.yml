@@ -95,6 +95,34 @@
       matchTags: [data_fetching]
 
 ######################################################
+#########               STYLING              #########
+######################################################
+
+- id: styling
+  template: tool
+  slug: styling
+  questions:
+    - id: styling_techniques_style_sheet
+    - id: styling_techniques_nativewind
+    - id: styling_techniques_tailwind_rn
+    - id: styling_techniques_styled_components
+    - id: styling_techniques_emotion
+    - id: styling_techniques_restyle
+    - id: styling_techniques_inline
+    - id: styling_techniques_other
+      template: others
+      matchTags: [styling_techniques_other]
+
+    - id: styling_component_libraries_rn_paper
+    - id: styling_component_libraries_ui_kitten
+    - id: styling_component_libraries_rn_elements
+    - id: styling_component_libraries_native_base
+    - id: styling_component_libraries_rn_ui_lib
+    - id: styling_component_libraries_other
+      template: others
+      matchTags: [styling_component_libraries_other]
+
+######################################################
 #########              ASPECTS               #########
 ######################################################
 
@@ -102,57 +130,6 @@
   template: multiple
   slug: react_native_app_aspects
   questions:
-    - id: react_native_app_aspects_state_management
-      options:
-        - id: react_native_app_aspects_state_management_rn_build_in
-        - id: react_native_app_aspects_state_management_jotai
-        - id: react_native_app_aspects_state_management_zustand
-        - id: react_native_app_aspects_state_management_redux
-        - id: react_native_app_aspects_state_management_recoil
-        - id: react_native_app_aspects_state_management_apollo
-        - id: react_native_app_aspects_state_management_react_query
-    - id: react_native_app_aspects_state_management_other
-      template: others
-      matchTags: [react_native_app_aspects_state_management]
-
-    - id: react_native_app_aspects_data_fetching
-      options:
-        - id: react_native_app_aspects_data_fetching_trpc
-        - id: react_native_app_aspects_data_fetching_fetch
-        - id: react_native_app_aspects_data_fetching_apollo
-        - id: react_native_app_aspects_data_fetching_axios
-        - id: react_native_app_aspects_data_fetching_tan_stack
-        - id: react_native_app_aspects_data_fetching_swr
-        - id: react_native_app_aspects_data_fetching_relay
-    - id: react_native_app_aspects_data_fetching_other
-      template: others
-      matchTags: [react_native_app_aspects_data_fetching]
-
-    - id: react_native_app_aspects_styling_techniques
-      options:
-        - id: react_native_app_aspects_styling_techniques_style_sheet
-        - id: react_native_app_aspects_styling_techniques_nativewind
-        - id: react_native_app_aspects_styling_techniques_tailwind_rn
-        - id: react_native_app_aspects_styling_techniques_styled_components
-        - id: react_native_app_aspects_styling_techniques_emotion
-        - id: react_native_app_aspects_styling_techniques_restyle
-        - id: react_native_app_aspects_component_libraries_tamagui
-        - id: react_native_app_aspects_styling_techniques_inline
-    - id: react_native_app_aspects_styling_techniques_other
-      template: others
-      matchTags: [react_native_app_aspects_styling_techniques]
-
-    - id: react_native_app_aspects_component_libraries
-      options:
-        - id: react_native_app_aspects_component_libraries_rn_paper
-        - id: react_native_app_aspects_component_libraries_ui_kitten
-        - id: react_native_app_aspects_component_libraries_rn_elements
-        - id: react_native_app_aspects_component_libraries_native_base
-        - id: react_native_app_aspects_component_libraries_rn_ui_lib
-    - id: react_native_app_aspects_component_libraries_other
-      template: others
-      matchTags: [react_native_app_aspects_component_libraries]
-
     - id: react_native_app_aspects_navigation_solutions
       options:
         - id: react_native_app_aspects_navigation_solutions_r_navigation
