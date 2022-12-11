@@ -123,6 +123,42 @@
       matchTags: [styling_component_libraries_other]
 
 ######################################################
+#########             NAVIGATION             #########
+######################################################
+
+- id: navigation
+  template: tool
+  slug: navigation
+  questions:
+    - id: navigation_react_navigation
+    - id: navigation_react_native_navigation
+    - id: navigation_react_router
+    - id: navigation_expo_router
+    - id: navigation_other
+      template: others
+      matchTags: [navigation_other]
+
+######################################################
+#########             ANIMATIONS             #########
+######################################################
+
+- id: animations
+  template: tool
+  slug: animations
+  questions:
+    - id: animations_animated_api
+    - id: animations_react_native_reanimated
+    - id: animations_moti
+    - id: animations_skia
+    - id: animations_react_native_animatable
+    - id: animations_threejs
+    - id: animations_lottie
+    - id: animations_expo_gl
+    - id: animations_other
+      template: others
+      matchTags: [animations_other]
+
+######################################################
 #########              ASPECTS               #########
 ######################################################
 
@@ -130,30 +166,6 @@
   template: multiple
   slug: react_native_app_aspects
   questions:
-    - id: react_native_app_aspects_navigation_solutions
-      options:
-        - id: react_native_app_aspects_navigation_solutions_r_navigation
-        - id: react_native_app_aspects_navigation_solutions_rn_navigation
-        - id: react_native_app_aspects_navigation_solutions_r_router
-        - id: react_native_app_aspects_navigation_solutions_e_router
-    - id: react_native_app_aspects_navigation_solutions_other
-      template: others
-      matchTags: [react_native_app_aspects_navigation_solutions]
-
-    - id: react_native_app_aspects_animations
-      options:
-        - id: react_native_app_aspects_animations_animated_api
-        - id: react_native_app_aspects_animations_react_native_reanimated
-        - id: react_native_app_aspects_animations_moti
-        - id: react_native_app_aspects_animations_skia
-        - id: react_native_app_aspects_animations_react_native_animatable
-        - id: react_native_app_aspects_animations_threejs
-        - id: react_native_app_aspects_animations_lottie
-        - id: react_native_app_aspects_animations_expo_gl
-    - id: react_native_app_aspects_animations_other
-      template: others
-      matchTags: [react_native_app_aspects_animations]
-
     - id: react_native_app_aspects_gestures
       options:
         - id: react_native_app_aspects_gestures_panresponder_api
