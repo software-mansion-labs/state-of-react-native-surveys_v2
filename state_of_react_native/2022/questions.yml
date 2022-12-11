@@ -76,6 +76,25 @@
       matchTags: [state_management_other]
 
 ######################################################
+#########            DATA FETCHING           #########
+######################################################
+
+- id: data_fetching
+  template: tool
+  slug: data_fetching
+  questions:
+    - id: data_fetching_trpc
+    - id: data_fetching_fetch
+    - id: data_fetching_apollo
+    - id: data_fetching_axios
+    - id: data_fetching_tan_stack
+    - id: data_fetching_swr
+    - id: data_fetching_relay
+    - id: data_fetching_other
+      template: others
+      matchTags: [data_fetching]
+
+######################################################
 #########              ASPECTS               #########
 ######################################################
 
