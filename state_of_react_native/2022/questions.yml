@@ -463,6 +463,13 @@
       template: others
       matchTags: [developer_background_before]
 
+    - id: developer_background_usage_type
+      template: single
+      options:
+        - id: developer_background_usage_type.answer.a
+        - id: developer_background_usage_type.answer.b
+        - id: developer_background_usage_type.answer.c
+
     - id: developer_background_primarily_system
       template: single
       options:
