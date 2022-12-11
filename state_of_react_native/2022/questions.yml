@@ -3,7 +3,6 @@
 ######################################################
 
 - id: platform_apis
-  template: multiple
   slug: platform_apis
   questions:
     - id: platform_apis_intro
@@ -11,6 +10,7 @@
 
     - id: platform_apis_questions
       template: multiple
+      description: Check all that apply.
       options:
         # - id: platform_apis_offline_mode
         - id: platform_apis_sensors
@@ -167,6 +167,7 @@
   slug: react_native_app_aspects
   questions:
     - id: react_native_app_aspects_gestures
+      description: Check all that apply.
       options:
         - id: react_native_app_aspects_gestures_panresponder_api
         - id: react_native_app_aspects_gestures_react_native_gesture_handler
@@ -175,6 +176,7 @@
       matchTags: [react_native_app_aspects_gestures]
 
     - id: react_native_app_aspects_internationalization
+      description: Check all that apply.
       options:
         - id: react_native_app_aspects_internationalization_react_native_localize
         - id: react_native_app_aspects_internationalization_react_i18next
@@ -183,6 +185,7 @@
       matchTags: [react_native_app_aspects_internationalization]
 
     - id: react_native_app_aspects_analytics
+      description: Check all that apply.
       options:
         - id: react_native_app_aspects_analytics_firebase_analytics
         - id: react_native_app_aspects_analytics_appcenter_analytics
@@ -197,6 +200,7 @@
       matchTags: [react_native_app_aspects_analytics]
 
     - id: react_native_app_aspects_crash_reporting
+      description: Check all that apply.
       options:
         - id: react_native_app_aspects_crash_reporting_sentry
         - id: react_native_app_aspects_crash_reporting_datadog
@@ -213,6 +217,7 @@
       matchTags: [react_native_app_aspects_crash_reporting]
 
     - id: react_native_app_aspects_testing
+      description: Check all that apply.
       options:
         - id: react_native_app_aspects_testing_jest
         - id: react_native_app_aspects_testing_react_native_testing_library
@@ -224,6 +229,7 @@
       matchTags: [react_native_app_aspects_testing]
 
     - id: react_native_app_aspects_storage
+      description: Check all that apply.
       options:
         - id: react_native_app_aspects_storage_react_native_async_storage
         - id: react_native_app_aspects_storage_realm
@@ -241,7 +247,7 @@
 ######################################################
 
 - id: react_native_specific_features
-  template: single
+  template: tool
   slug: react_native_specific_features
   questions:
     - id: react_native_features_version
@@ -258,40 +264,20 @@
         - id: react_native_features_version_0_63_or_lower
 
     - id: react_native_features_new_architecture
-      template: tool
-
     - id: react_native_features_fabric
-      template: tool
-
     - id: react_native_features_codegen
-      template: tool
-
     - id: react_native_features_custom_native_modules
-      template: tool
-
     - id: react_native_features_turbo_modules
-      template: tool
-
     - id: react_native_features_expo_modules
-      template: tool
-
     - id: react_native_features_custom_native_views
-      template: tool
-
     - id: react_native_features_jsc_runtime
-      template: tool
-
     - id: react_native_features_hermes_runtime
-      template: tool
-
     - id: react_native_features_v8_runtime
-      template: tool
-
     - id: react_native_features_jsi
-      template: tool
 
     - id: react_native_features_debugging
       template: multiple
+      description: Check all that apply.
       options:
         - id: react_native_features_debugging_react_native_debugger
         - id: react_native_features_debugging_chrome_dev_tools
@@ -306,6 +292,7 @@
 
     - id: react_native_features_performance_profile
       template: multiple
+      description: Check all that apply.
       options:
         - id: react_native_features_performance_native
         - id: react_native_features_performance_profile_react_native_performance
@@ -325,6 +312,7 @@
 
     - id: react_native_features_ota_updates
       template: multiple
+      description: Check all that apply.
       options:
         - id: react_native_features_ota_updates_code_push
         - id: react_native_features_ota_updates_eas_update
@@ -384,6 +372,7 @@
   questions:
     - id: resources_initially_learn_react_native
       template: multiple
+      description: Check all that apply.
       options:
         - id: resources_initially_learn_react_native_official_docs
         - id: resources_initially_learn_react_native_books
@@ -409,6 +398,7 @@
 
     - id: resources_surveys
       template: multiple
+      description: Check all that apply.
       options:
         - id: resources_surveys_state_of_js
         - id: resources_surveys_state_of_css
@@ -587,7 +577,6 @@
       template: country
 
     - id: about_you_age
-      template: single
       options:
         - id: about_you_age_18_or_youger
         - id: about_you_age_19_24
@@ -598,7 +587,6 @@
         - id: about_you_age_65_or_older
 
     - id: about_you_experience
-      template: single
       options:
         - id: about_you_experience_1_year_or_less
         - id: about_you_experience_2_to_3_years
@@ -607,7 +595,6 @@
         - id: about_you_experience_11_years_or_more
 
     - id: about_you_experience_in_rn
-      template: single
       options:
         - id: about_you_experience_in_rn_1_year_or_less
         - id: about_you_experience_in_rn_2_to_3_years
@@ -615,7 +602,6 @@
         - id: about_you_experience_in_rn_6_years_or_more
 
     - id: about_you_company_size
-      template: single
       options:
         - id: about_you_company_size_1_employee
         - id: about_you_company_size_2_to_4
@@ -628,14 +614,12 @@
         - id: about_you_company_size_1000_or_more
 
     - id: about_you_education_degree
-      template: single
       options:
         - id: about_you_education_degree_no
         - id: about_you_education_degree_yes_related
         - id: about_you_education_degree_yes_unrelated
 
     - id: about_you_salary
-      template: single
       options:
         - id: about_you_salary_free
         - id: about_you_salary_0_to_10k
@@ -646,7 +630,6 @@
         - id: about_you_salary_200k_or_more
 
     - id: about_you_gender
-      template: single
       options:
         - id: about_you_gender_female
         - id: about_you_gender_male
