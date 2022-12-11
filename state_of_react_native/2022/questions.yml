@@ -1,1185 +1,632 @@
-######################################################
-#########              FEATURES              #########
+ ######################################################
+#########           PLATFORM APIS            #########
 ######################################################
 
-# For each question in this section, possible answers are:
-# - Never heard of it
-# - Know about it
-# - Have used it
-
-- id: language
-  template: feature
-  slug: features
+- id: platform_apis
+  template: multiple
+  slug: platform_apis
   questions:
-
-    - id: features_intro
+    - id: platform_apis_intro
       template: help
 
-    # removed in 2021
-    # - id: async_await
-    # - id: promises
-    # - id: decorators
-    # - id: destructuring
-    # - id: spread_operator
-    # - id: arrow_functions
-
-    - id: proxies
-    - id: promise_all_settled
-    - id: dynamic_import
-    - id: nullish_coalescing
-    # - id: optional_chaining # removed in 2022, too popular
-    - id: private_fields
-    # - id: big_int # removed in 2022
-
-    # new in 2021
-    - id: numeric_separators
-      year: 2021
-    - id: string_replace_all
-      year: 2021
-    - id: string_match_all
-      year: 2021
-    - id: logical_assignment
-      year: 2021
-    - id: promise_any
-      year: 2021
-    - id: array_at
-      year: 2021
-    - id: top_level_await
-      year: 2021
-
-    # new in 2022
-    - id: temporal
-      year: 2022
-    - id: array_findlast
-      year: 2022
-    - id: error_cause
-      year: 2022
-    - id: object_hasown
-      year: 2022
-    - id: regexp_match_indices
-      year: 2022
-
-# removed in 2021
-# - id: data_structures
-#   template: feature
-#   slug: features
-#   questions:
-#     - id: maps
-#     - id: sets
-#     - id: typed_arrays
-#     - id: array_prototype_flat
-
-- id: browser_apis
-  template: feature
-  slug: features
-  questions:
-    # removed in 2021
-    # - id: local_storage
-    # - id: webvr
-    # - id: fetch
-
-    - id: service_workers
-    - id: intl
-    # - id: web_audio # removed in 2022, too niche?
-    - id: webgl
-    - id: webgl2
-    - id: web_animations
-    - id: webrtc
-    - id: web_speech
-    - id: websocket
-    - id: custom_elements
-    - id: shadow_dom
-
-    # new in 2021
-    - id: page_visibility
-      year: 2021
-    - id: broadcast_channel
-      year: 2021
-    - id: geolocation
-      year: 2021
-    - id: file_system_access
-      year: 2021
-    - id: web_share
-      year: 2021
-    - id: webxr
-      year: 2021
-
-- id: other_features
-  template: feature
-  slug: features
-  questions:
-    - id: pwa
-    - id: wasm
-
-######################################################
-#########                TOOLS               #########
-######################################################
-
-# For each question in this section, possible answers are:
-# - Never heard of it
-# - Have heard, but not interested
-# - Have heard, and interested in learning
-# - Have used, but wouldn't use again
-# - Have used, and would use again
-
-# removed in 2021
-# - id: javascript_flavors
-#   template: tool
-#   slug: tools
-#   questions:
-#     - id: typescript
-#     - id: reason
-#     - id: elm
-#     - id: clojurescript
-#     - id: purescript
-#     - id: javascript_flavors
-#       intlId: tools.other_tools
-#       template: project
-#       sectionSlug: tools_others
-#     - id: javascript_flavors
-#       intlId: tools.happiness
-#       sectionSlug: happiness
-#       template: happiness
-
-- id: front_end_frameworks
-  template: tool
-  slug: tools
-  questions:
-
-    - id: tools_intro
-      template: help
-
-    - id: react
-    - id: vuejs
-    - id: angular
-    - id: preact
-    - id: ember
-    - id: svelte
-    - id: alpinejs
-    - id: litelement
-    # - id: stimulus # removed in 2022, too niche?
-    - id: solid
-      year: 2021
-    - id: qwik
-      year: 2022
-    - id: stencil
-      year: 2022
-    - id: front_end_frameworks
-      intlId: tools.other_tools
-      template: project
-      sectionSlug: tools_others
-    - id: front_end_frameworks
-      intlId: tools.happiness
-      template: happiness
-      sectionSlug: happiness
-
-# removed in 2021
-# - id: datalayer
-#   template: tool
-#   slug: tools
-#   questions:
-#     - id: redux
-#     - id: apollo
-#     - id: graphql
-#     - id: mobx
-#     - id: relay
-#     - id: xstate
-#     - id: vuex
-#     # - id: firebase
-#     # - id: react_query
-#     # - id: swr
-#     - id: datalayer
-#       intlId: tools.other_tools
-#       template: project
-#       sectionSlug: tools_others
-#     - id: datalayer
-#       intlId: tools.happiness
-#       template: happiness
-#       sectionSlug: happiness
-
-- id: rendering_frameworks
-  template: tool
-  slug: tools
-  questions:
-
-    - id: nextjs
-    - id: nuxt
-    - id: gatsby
-
-    # new in 2021
-    - id: remix
-      year: 2021
-    - id: astro
-      year: 2021
-    - id: eleventy
-      year: 2021
-    - id: sveltekit
-      year: 2021
-
-    - id: docusaurus
-      year: 2022
-
-    # - id: solidstart # too early?
-    #   year: 2022
-
-    - id: rendering_frameworks
-      intlId: tools.other_tools
-      template: project
-      sectionSlug: tools_others
-    - id: rendering_frameworks
-      intlId: tools.happiness
-      template: happiness
-      sectionSlug: happiness
-
-# - id: back_end_frameworks
-#   template: tool
-#   slug: tools
-#   questions:
-#     # removed in 2021
-#     # - id: meteor
-#     # - id: hapi
-
-#     - id: express
-#     - id: nest
-#     - id: strapi
-#     - id: fastify
-
-#     - id: blitz # removed in 2022?
-#       year: 2021
-
-#     - id: koa # added again in 2022
-
-#     # new in 2022
-#     - id: adonis
-#       year: 2022
-#     - id: directus
-#       year: 2022
-#     - id: keystone
-#       year: 2022
-#     - id: amplication
-#       year: 2022
-
-#     - id: back_end_frameworks
-#       intlId: tools.other_tools
-#       template: project
-#       sectionSlug: tools_others
-#     - id: back_end_frameworks
-#       intlId: tools.happiness
-#       template: happiness
-#       sectionSlug: happiness
-
-- id: testing
-  template: tool
-  slug: tools
-  questions:
-    - id: jest
-    - id: mocha
-    - id: storybook
-    - id: cypress
-    - id: ava
-    - id: jasmine
-    - id: puppeteer
-    - id: testing_library
-    - id: playwright
-    - id: webdriverio
-    - id: vitest
-      year: 2021
-    - id: selenium
-      year: 2022
-    - id: testcafe
-      year: 2022
-    - id: testing
-      intlId: tools.other_tools
-      template: project
-      sectionSlug: tools_others
-    - id: testing
-      intlId: tools.happiness
-      template: happiness
-      sectionSlug: happiness
-
-# under consideration for 2022?
-# - id: graphics_animation
-#   template: tool
-#   slug: tools
-#   questions:
-#     # charts
-#     - id: echarts
-#     - id: chartjs
-#     - id: d3
-#     # - id: recharts
-#     - id: visx
-#     - id: nivo
-
-#     # drawing/3D
-#     - id: threejs
-#     - id: pixijs
-#     - id: fabricjs
-
-#     # animation
-#     - id: animejs
-#     - id: lottie
-#     - id: greensock
-#     - id: popmotion
-#     # - id: motion
-#     # - id: velocity
-
-#     - id: graphics_animation
-#       intlId: tools.other_tools
-#       template: project
-#       sectionSlug: tools_others
-#     - id: graphics_animation
-#       intlId: tools.happiness
-#       template: happiness
-#       sectionSlug: happiness
-
-- id: mobile_desktop
-  template: tool
-  slug: tools
-  questions:
-    - id: electron
-    - id: reactnative
-    - id: nativeapps
-    - id: cordova
-    - id: ionic
-    - id: capacitor
-    - id: nwjs
-    - id: expo
-    - id: quasar
-    - id: tauri
-      year: 2021
-    - id: nativescript
-      year: 2022
-    - id: mobile_desktop
-      intlId: tools.other_tools
-      template: project
-      sectionSlug: tools_others
-    - id: mobile_desktop
-      intlId: tools.happiness
-      template: happiness
-      sectionSlug: happiness
-
-
-- id: build_tools
-  template: tool
-  slug: tools
-  questions:
-    - id: webpack
-    - id: parcel
-    - id: gulp
-    - id: rollup
-    - id: browserify # remove in 2023
-    - id: tsc
-    - id: rome
-    - id: snowpack
-    - id: swc
-    - id: esbuild
-
-    # new in 2021
-    - id: vite
-      year: 2021
-    - id: wmr
-      year: 2021
-
-    # new in 2022
-    - id: turbopack
-      year: 2022
-
-    - id: build_tools
-      intlId: tools.other_tools
-      template: project
-      sectionSlug: tools_others
-    - id: build_tools
-      intlId: tools.happiness
-      template: happiness
-      sectionSlug: happiness
-
-- id: monorepo_tools
-  template: tool
-  slug: tools
-  year: 2021
-  questions:
-    - id: rush
-      year: 2021
-    - id: turborepo
-      year: 2021
-    - id: yarn_workspaces
-      year: 2021
-    - id: yalc
-      year: 2021
-    - id: lerna
-      year: 2021
-    - id: npm_workspaces
-      year: 2021
-    - id: pnpm
-      year: 2021
-    - id: nx
-      year: 2021
-
-    - id: monorepo_tools
-      intlId: tools.other_tools
-      template: project
-      sectionSlug: tools_others
-    - id: monorepo_tools
-      intlId: tools.happiness
-      template: happiness
-      sectionSlug: happiness
-
-######################################################
-#########             OTHER TOOLS            #########
-######################################################
-
-- id: other_tools
-  slug: tools_others
-  questions:
-    - id: libraries
+    - id: platform_apis_questions
       template: multiple
       options:
-        - id: immer
-        - id: lodash
-        - id: underscore
-        - id: ramda
-        - id: jquery
-        - id: rxjs
-        - id: stdlib
-        - id: zod
-          year: 2022
-        - id: partytown
-          year: 2022
-        - id: mitosis
-          year: 2022
-    - id: libraries
-      template: project
-
-    - id: date_management
-      year: 2022
-      template: multiple
-      options:
-        - id: moment
-        - id: dayjs
-        - id: date_fns
-        - id: luxon
-    - id: date_management
-      year: 2022
-      template: project
-
-    - id: data_visualization
-      year: 2022
-      template: multiple
-      options:
-        - id: d3
-        - id: mermaid
-        - id: nivo
-        - id: recharts
-        - id: visx
-        - id: victory
-        - id: echarts
-        - id: chart_js
-        - id: highcharts
-        - id: plotly
-    - id: data_visualization
-      year: 2022
-      template: project
-
-    - id: graphics_animation
-      year: 2022
-      template: multiple
-      options:
-        - id: three_js
-        - id: theatre_js
-        - id: anime_js
-        - id: react_spring
-        - id: lottie
-        - id: greensock
-        - id: popmotion
-        - id: framer_motion
-        - id: motion_one
-    - id: graphics_animation
-      year: 2022
-      template: project
-
-    - id: data_fetching
-      year: 2022
-      template: multiple
-      options:
-        - id: trpc
-        - id: apollo_client
-        - id: axios
-        - id: tanstack_query
-        - id: swr
-        - id: relay
-    - id: data_fetching
-      year: 2022
-      template: project
-
-    - id: backend_frameworks
-      year: 2022
-      template: multiple
-      options:
-        - id: express
-        - id: nest
-        - id: strapi
-        - id: fastify
-        - id: meteor
-        - id: hapi
-        - id: koa # added again in 2022
-        - id: adonis
-          year: 2022
-        - id: keystone
-          year: 2022
-        - id: redwood
-          year: 2021
-        - id: sails # added again in 2022
-        # new in 2022
-        - id: directus
-          year: 2022
-        - id: amplication
-          year: 2022
-        - id: blitz # removed in 2022?
-          year: 2021
-    - id: backend_frameworks
-      year: 2022
-      template: project
-
-    - id: utilities
-      template: multiple
-      options:
-        - id: babel
-        # - id: prettier
-        # - id: eslint
-        - id: nvm
-        - id: "n"
-        - id: zx
-          year: 2021
-        - id: volta
-          year: 2021
-        - id: verdaccio
-          year: 2021
-    - id: utilities
-      template: project
-
-    - id: runtimes
-      template: multiple
-      options:
-        - id: browser_environment
-        - id: node
-        - id: deno
-        - id: chakracore
-        - id: hermes
-        - id: service_workers
-          year: 2021
-        - id: bun
-          year: 2022
-    - id: runtimes
+        # - id: platform_apis_offline_mode
+        - id: platform_apis_sensors
+        - id: platform_apis_camera
+        - id: platform_apis_audio
+        # - id: platform_apis_security
+        # - id: platform_apis_encryption
+        - id: platform_apis_appearance
+        - id: platform_apis_accessibility
+        - id: platform_apis_microphone
+        - id: platform_apis_media_library
+        - id: platform_apis_file_system
+        - id: platform_apis_haptics
+        - id: platform_apis_video_playback
+        - id: platform_apis_clipboard
+        - id: platform_apis_openGL
+        - id: platform_apis_telephony
+        - id: platform_apis_location
+        - id: platform_apis_maps
+        - id: platform_apis_screen_orientation
+        - id: platform_apis_battery_level
+        - id: platform_apis_bluetooth
+        - id: platform_apis_nfc
+        - id: platform_apis_rtl
+        - id: platform_apis_biometric_authentication
+        - id: platform_apis_cryptography
+        - id: platform_apis_notifications
+        - id: platform_apis_in_app_payments
+        - id: platform_apis_in_app_reviews
+        # - id: platform_apis_ads
+        - id: platform_apis_webview
+        - id: platform_apis_storage
+        - id: platform_apis_deep_links
+        - id: platform_apis_concurrency
+        - id: platform_apis_printer
+        - id: platform_apis_ocr
+        - id: platform_apis_ar_av
+        - id: platform_apis_ml
+        - id: platform_apis_permissions
+    - id: platform_apis_other
       template: others
-      matchTags: [libraries, other]
-
-    - id: edge_runtimes
-      template: multiple
-      year: 2022
-      options:
-        - id: aws_lambda
-        - id: cloudflare_workers
-        - id: netlify_edge_functions
-        - id: fastly_edge_compute
-        - id: google_cloud_functions
-        - id: akamai_edge_workers
-        - id: nextjs_edge_runtime
-        - id: fly_io
-        - id: digital_ocean_functions
-    - id: edge_runtimes
-      template: others
-      matchTags: [libraries, other]
-
-    - id: javascript_flavors
-      year: 2021
-      template: multiple
-      options:
-        - id: typescript
-        - id: reason
-        - id: flow
-        - id: elm
-        - id: clojurescript
-        - id: purescript
-        - id: coffeescript
-        - id: rescript
-        - id: imba
-    - id: javascript_flavors
-      year: 2021
-      template: others
-      matchTags: [javascript_flavors, libraries]
-
-    - id: non_js_languages
-      template: multiple
-      options:
-        - id: php
-        - id: ruby
-        - id: python
-        - id: go
-        - id: rust
-        - id: java
-        - id: c_cplusplus
-        - id: objective_c
-        - id: scala
-        - id: swift
-        - id: csharp
-        - id: haskell
-        - id: ocaml
-        - id: dart
-        - id: kotlin
-        - id: elixir
-        - id: bash
-        - id: clojure
-        - id: elm
-        - id: julia
-    - id: non_js_languages
-      template: others
-      matchTags: [languages]
-
-    # - id: performance_testing
-    #   template: multiple
-    #   options:
-    #     - id: lighthouse
-    # - id: performance_testing
-    #   template: others
-    #   matchTags: [tools]
-
-    # - id: error_reporting
-    #   template: multiple
-    #   options:
-    #     - id: sentry
-    # - id: error_reporting
-    #   template: others
-    #   matchTags: [tools]
-
-    # - id: code_analysis
-    #   template: multiple
-    #   options:
-    #     - id: prettier
-    #     - id: eslint
-    #     - id: sonarqube
-    # - id: code_analysis
-    #   template: others
-    #   matchTags: [tools]
-
-    # - id: browsers
-    #   template: multiple
-    #   options:
-    #     - id: edge
-    #     - id: chrome
-    #     - id: safari
-    #     - id: firefox
-    #     - id: internet_explorer_11
-    #     - id: internet_explorer_8_9_10
-    #     - id: opera_mini
-    #     - id: safari_ios
-    #     - id: chrome_ios
-    #     - id: chrome_android
-    #     - id: firefox_android
-    #     - id: samsung_internet
-    #     - id: vivaldi
-    #     - id: brave
-    #     - id: ucbrowser
-    #     - id: opera
-    #     - id: polypane
-
-    # - id: form_factors
-    #   template: multiple
-    #   options:
-    #     - id: desktop
-    #     - id: smartphone
-    #     - id: feature_phone
-    #     - id: tablet
-    #     - id: smart_watch
-    #     - id: tv
-    #     - id: gaming_console
-    #     - id: screen_reader
-    #     - id: print
-    #     - id: keyboard_only
-    #     - id: testing_tools
-    #     - id: vision_simulator
-
-    # - id: backend_as_a_service
-    #   template: multiple
-    #   options:
-    #     - id: firebase
-    #     - id: aws_amplify
-    #     - id: supabase
-    #     - id: nhost
-    #     - id: realm
-    #     - id: parse
-    #     - id: back4app
-    # - id: backend_as_a_service
-    #   template: others
-    #   matchTags: [tools]
-
-
-    # - id: tool_evaluation
-    #   year: 2021
-    #   template: bracket
-    #   options:
-    #     - id: learning_curve_documentation # is a tool is easy to learn?
-    #     - id: momentum_popularity # does it have a lot of hype?
-    #     - id: user_base_size # is it a well-established option?
-    #     - id: developer_experience_tooling # does it provide a good developer experience?
-    #     - id: performance_user_experience # does it provide a good user experience?
-    #     - id: creator_team # is it backed by a well-known/well-funded team?
-    #     - id: accessibility_features # does it implement accessibility features well?
-    #     - id: community_inclusivity # does it have a good community?
+      description: "Other answers (freeform)"
+      matchTags: [platform_apis_other]
 
 ######################################################
-#########                USAGE               #########
+#########              ASPECTS               #########
 ######################################################
 
-- id: usage
-  slug: usage
+- id: react_native_app_aspects
+  template: multiple
+  slug: react_native_app_aspects
   questions:
+    - id: react_native_app_aspects_state_management
+      options:
+        - id: react_native_app_aspects_state_management_rn_build_in
+        - id: react_native_app_aspects_state_management_jotai
+        - id: react_native_app_aspects_state_management_zustand
+        - id: react_native_app_aspects_state_management_redux
+        - id: react_native_app_aspects_state_management_recoil
+        - id: react_native_app_aspects_state_management_apollo
+        - id: react_native_app_aspects_state_management_react_query
+    - id: react_native_app_aspects_state_management_other
+      template: others
+      matchTags: [react_native_app_aspects_state_management]
 
-    - id: js_ts_balance
-      year: 2022
+    - id: react_native_app_aspects_data_fetching
+      options:
+        - id: react_native_app_aspects_data_fetching_trpc
+        - id: react_native_app_aspects_data_fetching_fetch
+        - id: react_native_app_aspects_data_fetching_apollo
+        - id: react_native_app_aspects_data_fetching_axios
+        - id: react_native_app_aspects_data_fetching_tan_stack
+        - id: react_native_app_aspects_data_fetching_swr
+        - id: react_native_app_aspects_data_fetching_relay
+    - id: react_native_app_aspects_data_fetching_other
+      template: others
+      matchTags: [react_native_app_aspects_data_fetching]
+
+    - id: react_native_app_aspects_styling_techniques
+      options:
+        - id: react_native_app_aspects_styling_techniques_style_sheet
+        - id: react_native_app_aspects_styling_techniques_nativewind
+        - id: react_native_app_aspects_styling_techniques_tailwind_rn
+        - id: react_native_app_aspects_styling_techniques_styled_components
+        - id: react_native_app_aspects_styling_techniques_emotion
+        - id: react_native_app_aspects_styling_techniques_restyle
+        - id: react_native_app_aspects_component_libraries_tamagui
+        - id: react_native_app_aspects_styling_techniques_inline
+    - id: react_native_app_aspects_styling_techniques_other
+      template: others
+      matchTags: [react_native_app_aspects_styling_techniques]
+
+    - id: react_native_app_aspects_component_libraries
+      options:
+        - id: react_native_app_aspects_component_libraries_rn_paper
+        - id: react_native_app_aspects_component_libraries_ui_kitten
+        - id: react_native_app_aspects_component_libraries_rn_elements
+        - id: react_native_app_aspects_component_libraries_native_base
+        - id: react_native_app_aspects_component_libraries_rn_ui_lib
+    - id: react_native_app_aspects_component_libraries_other
+      template: others
+      matchTags: [react_native_app_aspects_component_libraries]
+
+    - id: react_native_app_aspects_navigation_solutions
+      options:
+        - id: react_native_app_aspects_navigation_solutions_r_navigation
+        - id: react_native_app_aspects_navigation_solutions_rn_navigation
+        - id: react_native_app_aspects_navigation_solutions_r_router
+        - id: react_native_app_aspects_navigation_solutions_e_router
+    - id: react_native_app_aspects_navigation_solutions_other
+      template: others
+      matchTags: [react_native_app_aspects_navigation_solutions]
+
+    - id: react_native_app_aspects_animations
+      options:
+        - id: react_native_app_aspects_animations_animated_api
+        - id: react_native_app_aspects_animations_react_native_reanimated
+        - id: react_native_app_aspects_animations_moti
+        - id: react_native_app_aspects_animations_skia
+        - id: react_native_app_aspects_animations_react_native_animatable
+        - id: react_native_app_aspects_animations_threejs
+        - id: react_native_app_aspects_animations_lottie
+        - id: react_native_app_aspects_animations_expo_gl
+    - id: react_native_app_aspects_animations_other
+      template: others
+      matchTags: [react_native_app_aspects_animations]
+
+    - id: react_native_app_aspects_gestures
+      options:
+        - id: react_native_app_aspects_gestures_panresponder_api
+        - id: react_native_app_aspects_gestures_react_native_gesture_handler
+    - id: react_native_app_aspects_gestures_other
+      template: others
+      matchTags: [react_native_app_aspects_gestures]
+
+    - id: react_native_app_aspects_internationalization
+      options:
+        - id: react_native_app_aspects_internationalization_react_native_localize
+        - id: react_native_app_aspects_internationalization_react_i18next
+    - id: react_native_app_aspects_internationalization_other
+      template: others
+      matchTags: [react_native_app_aspects_internationalization]
+
+    - id: react_native_app_aspects_analytics
+      options:
+        - id: react_native_app_aspects_analytics_firebase_analytics
+        - id: react_native_app_aspects_analytics_appcenter_analytics
+        - id: react_native_app_aspects_analytics_amplitude
+        - id: react_native_app_aspects_analytics_amplify_analytics
+        - id: react_native_app_aspects_analytics_mixpanel
+        - id: react_native_app_aspects_analytics_segment
+        - id: react_native_app_aspects_analytics_appsflyer
+        - id: react_native_app_aspects_analytics_flurry
+    - id: react_native_app_aspects_analytics_other
+      template: others
+      matchTags: [react_native_app_aspects_analytics]
+
+    - id: react_native_app_aspects_crash_reporting
+      options:
+        - id: react_native_app_aspects_crash_reporting_sentry
+        - id: react_native_app_aspects_crash_reporting_datadog
+        - id: react_native_app_aspects_crash_reporting_instabug
+        - id: react_native_app_aspects_crash_reporting_new_relic
+        - id: react_native_app_aspects_crash_reporting_appdynamics
+        - id: react_native_app_aspects_crash_reporting_amazon_cloudwatch
+        - id: react_native_app_aspects_crash_reporting_elastic_observability
+        - id: react_native_app_aspects_crash_reporting_bugsnag
+        - id: react_native_app_aspects_crash_reporting_firebase_crashlytics
+        - id: react_native_app_aspects_crash_reporting_appcenter_crashes
+    - id: react_native_app_aspects_crash_reporting_other
+      template: others
+      matchTags: [react_native_app_aspects_crash_reporting]
+
+    - id: react_native_app_aspects_testing
+      options:
+        - id: react_native_app_aspects_testing_jest
+        - id: react_native_app_aspects_testing_react_native_testing_library
+        - id: react_native_app_aspects_testing_detox
+        - id: react_native_app_aspects_testing_appium
+        # - id: react_native_app_aspects_testing_dont_test
+    - id: react_native_app_aspects_testing_other
+      template: others
+      matchTags: [react_native_app_aspects_testing]
+
+    - id: react_native_app_aspects_storage
+      options:
+        - id: react_native_app_aspects_storage_react_native_async_storage
+        - id: react_native_app_aspects_storage_realm
+        - id: react_native_app_aspects_storage_watermelondb
+        - id: react_native_app_aspects_storage_react_native_mmkv
+        - id: react_native_app_aspects_storage_react_native_mmkv_storage
+        - id: react_native_app_aspects_storage_react_native_sqlite_storage
+        - id: react_native_app_aspects_storage_expo_sqlite
+    - id: react_native_app_aspects_storage_other
+      template: others
+      matchTags: [react_native_app_aspects_storage]
+
+######################################################
+#########             FEATURES               #########
+######################################################
+
+- id: react_native_specific_features
+  template: single
+  slug: react_native_specific_features
+  questions:
+    - id: react_native_features_version
+      template: single
+      options:
+        - id: react_native_features_version_0_71
+        - id: react_native_features_version_0_70
+        - id: react_native_features_version_0_69
+        - id: react_native_features_version_0_68
+        - id: react_native_features_version_0_67
+        - id: react_native_features_version_0_66
+        - id: react_native_features_version_0_65
+        - id: react_native_features_version_0_64
+        - id: react_native_features_version_0_63_or_lower
+
+    - id: react_native_features_new_architecture
+      template: tool
+
+    - id: react_native_features_fabric
+      template: tool
+
+    - id: react_native_features_codegen
+      template: tool
+
+    - id: react_native_features_custom_native_modules
+      template: tool
+
+    - id: react_native_features_turbo_modules
+      template: tool
+
+    - id: react_native_features_expo_modules
+      template: tool
+
+    - id: react_native_features_custom_native_views
+      template: tool
+
+    - id: react_native_features_jsc_runtime
+      template: tool
+
+    - id: react_native_features_hermes_runtime
+      template: tool
+
+    - id: react_native_features_v8_runtime
+      template: tool
+
+    - id: react_native_features_jsi
+      template: tool
+
+    - id: react_native_features_debugging
+      template: multiple
+      options:
+        - id: react_native_features_debugging_react_native_debugger
+        - id: react_native_features_debugging_chrome_dev_tools
+        - id: react_native_features_debugging_react_dev_tools
+        - id: react_native_features_debugging_native_debugging
+        - id: react_native_features_debugging_reactotron
+        - id: react_native_features_debugging_flipper
+        - id: react_native_features_debugging_console_log
+    - id: react_native_features_debugging_other
+      template: others
+      matchTags: [react_native_features_debugging]
+
+    - id: react_native_features_performance_profile
+      template: multiple
+      options:
+        - id: react_native_features_performance_native
+        - id: react_native_features_performance_profile_react_native_performance
+        - id: react_native_features_performance_profile_react_native_performance_monitor
+        - id: react_native_features_performance_profile_flipper
+        - id: react_native_features_performance_profile_flipper_performance_plugin
+    - id: react_native_features_performance_profile_other
+      template: others
+      matchTags: [react_native_features_performance_profile]
+
+    - id: react_native_features_brownfield
+      template: single
+      options:
+        - id: react_native_features_brownfield_green
+        - id: react_native_features_brownfield_brown
+        - id: react_native_features_brownfield_both
+
+    - id: react_native_features_ota_updates
+      template: multiple
+      options:
+        - id: react_native_features_ota_updates_code_push
+        - id: react_native_features_ota_updates_eas_update
+        - id: react_native_features_ota_updates_expo_publish
+        - id: react_native_features_ota_updates_self_hosted
+    - id: react_native_features_ota_updates_other
+      template: others
+      matchTags: [react_native_features_ota_updates]
+
+######################################################
+#########               TOOLS                #########
+######################################################
+
+- id: tools
+  template: tool
+  slug: tools
+  questions:
+    - id: tools_js_ts
       template: slider
 
-    - id: usage_type
-      year: 2022
+    - id: tools_building
       template: single
-      allowother: true
       options:
-        - id: professionally
-        - id: student
-        - id: hobby
-    # - id: usage_type
-    #   matchTags: [usage_types]
-    #   template: others
-
-    - id: what_do_you_use_js_for
-      year: 2022
-      template: multiple
-      options:
-        - id: frontend_development
-        - id: backend_development
-        - id: data_analysis
-        - id: machine_learning
-        - id: desktop_apps
-        - id: mobile_apps
-        - id: embedded_apps
-        - id: game_development
-        - id: data_visualization
-        - id: graphics_animation
-    - id: what_do_you_use_js_for
-      matchTags: [js_uses]
+        - id: tools_building_manually
+        - id: tools_building_fastlane
+        - id: tools_building_expo_eas
+        # - id: tools_builgind_
+    - id: tools_building_other
       template: others
+      matchTags: [tools_building]
 
-    - id: industry_sector
-      intlId: usage.industry_sector_js
-      template: multiple
-      allowother: true
+    - id: tools_package_managers
+      template: single
       options:
-        - id: ecommerce
-        - id: news_media
-        - id: healthcare
-        - id: finance
-        - id: programming_tools
-        - id: socialmedia
-        - id: marketing_tools
-        - id: education
-        - id: real_estate
-        - id: government
-        - id: entertainment
-        - id: consulting
-        - id: travel
-        - id: insurance
-        - id: logistics
-        - id: energy
-        - id: telecommunications
-        - id: student
-        - id: hospitality
-        - id: cyber_security
-        - id: construction
-        - id: automotive
-        - id: agriculture
-        - id: transport
-        - id: manufacturing
-    - id: industry_sector
-      template: others
-      matchTags: [industry_sectors]
-      
-    - id: js_app_patterns
-      year: 2022
-      template: multiple
-      itemProperties:
-        cutoff: 0
-      options:
-        - id: single_page_app
-        - id: multiple_page_app
-        - id: static_site_generation
-        - id: server_side_rendering
-        - id: partial_hydration
-        - id: progressive_rehydration
-        - id: islands_architecture
-        - id: progressive_enhancement
-        - id: incremental_static_generation
-        - id: streaming_ssr
-        - id: resumability
-        - id: edge_rendering
-    - id: js_app_patterns
-      year: 2022
-      matchTags: [js_patterns]
-      template: others
+        - id: tools_package_managers_npm
+        - id: tools_package_managers_yarn
+        - id: tools_package_managers_yarn_berry
+        - id: tools_package_managers_pnpm
 
-######################################################
-#########              OPINIONS              #########
-######################################################
-
-- id: opinions
-  slug: opinions
-  questions:
-    # removed in 2021
-    # - id: js_over_used_online
-    #   template: opinion
-    # - id: enjoy_building_js_apps
-    #   template: opinion
-    # - id: would_like_js_to_be_main_lang
-    #   template: opinion
-
-    - id: js_moving_in_right_direction
-      template: opinion
-    - id: building_js_apps_overly_complex
-      template: opinion
-    - id: js_ecosystem_changing_to_fast
-      template: opinion
-
-    - id: top_js_pain_points
-      year: 2021
-      # template: bracket
-      template: top_n
-      options:
-        - id: state_management
-        - id: architecture
-        - id: finding_packages
-        - id: debugging
-        - id: managing_dependencies
-        - id: async_code
-        - id: writing_modules
-        - id: date_management
-
-    - id: top_js_pain_points
-      year: 2021
-      sectionSlug: opinions_others
-      template: others
-      matchTags: [js_pain_points]
-
-    - id: top_currently_missing_from_js
-      year: 2021
-      # template: bracket
-      template: top_n
-      options:
-        - id: static_typing
-        - id: standard_library
-        - id: pattern_matching
-        - id: pipe_operator
-        - id: decorators
-        - id: immutable_data_structures
-        - id: better_date_management
-        - id: observable
-
-    - id: top_currently_missing_from_js
-      sectionSlug: opinions_others
-      template: others
-      matchTags: [js_missing_features]
-
-    # - id: pick_of_the_year
-    #   year: 2022
-    #   sectionSlug: opinions_others
-    #   template: others
-    #   matchTags: [js_missing_features]
-
-    - id: state_of_the_web
-      template: happiness
-      sectionSlug: happiness
-    - id: state_of_js
-      template: happiness
-      sectionSlug: happiness
+    - id: tools_expo
+    - id: tools_swiftui
+    - id: tools_flutter
+    - id: tools_jetpack_compose
+    - id: tools_xamarin
+    - id: tools_cordova
+    - id: tools_ionic
+    - id: tools_native_script
+    # - id: other_tools_kotlin
 
 ######################################################
 #########             RESOURCES              #########
 ######################################################
 
 - id: resources
+  template: others
   slug: resources
   questions:
-    - id: first_steps
+    - id: resources_initially_learn_react_native
       template: multiple
       options:
-        - id: books
-        - id: videos
-        - id: courses_free
-        - id: courses_paid
-        - id: school
-        - id: podcasts
-        - id: bootcamp
-        - id: on_the_job
-        - id: mentoring
-        - id: self_directed
-    - id: first_steps
+        - id: resources_initially_learn_react_native_official_docs
+        - id: resources_initially_learn_react_native_books
+        - id: resources_initially_learn_react_native_videos
+        - id: resources_initially_learn_react_native_online_courses_free
+        - id: resources_initially_learn_react_native_online_courses_paid
+        - id: resources_initially_learn_react_native_school_higher_education
+        - id: resources_initially_learn_react_native_podcasts
+        - id: resources_initially_learn_react_native_coding_bootcamp
+        - id: resources_initially_learn_react_native_on_the_job_training
+        - id: resources_initially_learn_react_native_mentoring
+        - id: resources_initially_learn_react_native_self_directed_learning
+    - id: resources_initially_learn_react_native_other
       template: others
-      matchTags: [first_steps, courses, podcasts, people, youtube, sites, newsletters, socialmedia]
+      matchTags: [resources_initially_learn_react_native]
 
-    - id: blogs_news_magazines
+    - id: resources_read
+    - id: resources_course
+    - id: resources_podcast
+    - id: resources_video
+    - id: resources_people
+    - id: resources_communities
+
+    - id: resources_surveys
       template: multiple
       options:
-
-        #  removed in 2021 (personal blogs)
-        # - id: david_walsh
-        # - id: overreacted
-        # - id: kentcdodds
-
-        - id: medium
-        - id: devto
-        - id: bestofjs
-        - id: smashing_magazine
-        - id: js_weekly
-        - id: bytes
-        - id: node_weekly
-        - id: codrops
-        - id: sitepoint
-        - id: echo_js
-        - id: css_tricks
-        - id: front_end_front
-        - id: frontend_horse
-        - id: frontend_focus
-        - id: alligator
-        - id: daily_js # remove in 2023?
-        - id: a_list_apart # remove in 2023?
-
-    - id: blogs_news_magazines
+        - id: resources_surveys_state_of_js
+        - id: resources_surveys_state_of_css
+        - id: resources_surveys_state_of_graphql
+        - id: resources_surveys_jetbrains
+        - id: resources_surveys_stack_overflow
+        - id: resources_surveys_codingame
+        - id: resources_surveys_design_tools
+        - id: resources_surveys_postman
+        - id: resources_surveys_jamstack
+    - id: resources_surveys_other
       template: others
-      matchTags: [courses, people, youtube, sites, newsletters, socialmedia]
-
-    - id: sites_courses
-      template: multiple
-      options:
-        - id: stack_overflow
-        - id: udemy
-        - id: w3schools
-        - id: mdn
-        - id: freecodecamp
-        - id: codecademy
-        - id: web_dev
-        - id: javascript_info
-        - id: scrimba
-        - id: frontendmasters
-        - id: wes_bos
-        - id: platzi
-        - id: skillshare
-        - id: coursera
-        - id: egghead
-        - id: kent_c_dodds
-        - id: o_reilly
-        - id: pluralsight
-        - id: linkedin_learning
-        - id: designcode
-        - id: academind
-        - id: ui_dev
-        - id: vue_mastery
-        - id: newline
-        - id: epic_react
-        - id: miguel_angel_duran
-        - id: levelup
-        - id: doka
-    - id: sites_courses
-      template: others
-      matchTags: [courses, people, youtube, sites, newsletters, socialmedia]
-
-    - id: video_creators
-      template: multiple
-      options:
-        - id: fireship
-        - id: kevin_j_powell
-        - id: fun_fun_function
-        - id: theo_browne
-        - id: tina_huang
-        - id: jason_goodison # https://www.youtube.com/c/JasonGoodison/videos
-        - id: programming_with_mosh # mosh_hamedani https://codewithmosh.com/ https://www.youtube.com/c/programmingwithmosh
-        - id: kent_c_dodds
-        - id: brad_traversy
-        - id: clever_programmer # rafeh_qazi https://www.youtube.com/c/CleverProgrammer
-        - id: ben_awad # https://www.youtube.com/channel/UC-8QAzbLcRglXeN_MY9blyw
-        - id: web_dev_simplified # kyle cook https://www.youtube.com/c/WebDevSimplified/
-        - id: coding_train # Daniel Shiffman https://www.youtube.com/user/shiffman?app=desktop
-        - id: net_ninja # https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg?app=desktop
-        - id: the_primeagen # https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg?app=desktop
-        - id: jack_herrington # https://www.youtube.com/@jherr
-        - id: midudev
-        - id: mayuko
-        - id: coding_garden
-    - id: video_creators
-      template: others
-      matchTags: [video_creators, youtube, courses, people, sites, newsletters, socialmedia]
-
-    - id: podcasts
-      template: multiple
-      options:
-        - id: syntaxfm
-        - id: js_party
-        - id: changelog
-        - id: http_203
-        - id: shop_talk_show
-        - id: full_stack_radio
-        - id: javascript_jabber
-        - id: front_end_happy_hour
-        - id: react_podcast
-        - id: ladybug
-        - id: web_standards_ru
-        - id: software_engineering_daily
-        - id: big_web_show
-        - id: jamstack_radio
-        - id: web_platform_podcast
-        - id: modern_web
-        - id: codepen_radio
-        - id: web_rush
-        - id: frontend_weekend
-        - id: frontend_first
-        - id: a11y_rules
-        - id: tools_day
-        - id: the_bike_shed
-        - id: css_podcast
-        - id: undefined_podcast
-    - id: podcasts
-      template: others
-      matchTags: [podcasts, people, sites]
-
-    - id: people
-      year: 2021
-      template: others
-      matchTags: [people, youtube]
-
-    - id: other_surveys
-      template: multiple
-      allowother: true
-      options:
-        # - id: state_of_js_survey
-        - id: state_of_css_survey
-        - id: state_of_graphql_survey
-        - id: jetbrains_survey
-        - id: stack_overflow_survey
-        - id: codingame_survey
-        - id: uxtools_survey
-        - id: postman_survey
-        - id: jamstack_survey
-    - id: other_surveys
-      template: others
-      matchTags: [surveys]
+      matchTags: [resources_surveys]
 
 ######################################################
-#########            DEMOGRAPHICS            #########
+#########             OPINIONS               #########
 ######################################################
 
-- id: user_info
-  slug: user_info
+- id: opinions
+  template: opinion
+  slug: opinions
   questions:
-    - id: age
+    - id: opinions_right_direction
+    - id: opinions_complex
+    - id: opinions_changing_too_fast
+    - id: opinions_pain_points
+      template: others
+
+    - id: opinions_missing
+      template: others
+
+    - id: opinions_advantages
+      template: others
+
+    - id: opinions_happy
+      template: happiness
+
+######################################################
+#########        DEVELOPER BACKGROUND        #########
+######################################################
+
+- id: developer_background
+  template: feature
+  slug: developer_background
+  questions:
+    - id: developer_background_before
+      template: multiple
+      description: Check all that apply.
+      options:
+        - id: developer_background_before.answer.a
+        - id: developer_background_before.answer.b
+        - id: developer_background_before.answer.c
+        - id: developer_background_before.answer.d
+        - id: developer_background_before.answer.e
+        - id: developer_background_before.answer.f
+        - id: developer_background_before.answer.g
+        - id: developer_background_before.answer.h
+        - id: developer_background_before.answer.i
+        - id: developer_background_before.answer.j
+    - id: developer_background_before_other
+      sectionSlug: developer_background_before
+      template: others
+      matchTags: [developer_background_before]
+
+    - id: developer_background_primarily_system
       template: single
       options:
-        - id: range_less_than_10
-        - id: range_10_18
-        - id: range_18_24
-        - id: range_25_34
-        - id: range_35_44
-        - id: range_45_54
-        - id: range_55_64
-        - id: range_more_than_65
+        - id: developer_background_primarily_system.answer.a
+        - id: developer_background_primarily_system.answer.b
+        - id: developer_background_primarily_system.answer.c
 
-    - id: years_of_experience
+    - id: developer_background_users_count
       template: single
       options:
-        - id: range_less_than_1
-        - id: range_1_2
-        - id: range_2_5
-        - id: range_5_10
-        - id: range_10_20
-        - id: range_more_than_20
+        - id: developer_background_users_count.answer.a
+        - id: developer_background_users_count.answer.b
+        - id: developer_background_users_count.answer.c
+        - id: developer_background_users_count.answer.d
+        - id: developer_background_users_count.answer.e
+        - id: developer_background_users_count.answer.f
+        - id: developer_background_users_count.answer.g
 
-    - id: company_size
+    - id: developer_background_team_size
       template: single
       options:
-        - id: range_1
-        - id: range_1_5
-        - id: range_5_10
-        - id: range_10_20
-        - id: range_20_50
-        - id: range_50_100
-        - id: range_100_1000
-        - id: range_more_than_1000
+        - id: developer_background_team_size.answer.a
+        - id: developer_background_team_size.answer.b
+        - id: developer_background_team_size.answer.c
+        - id: developer_background_team_size.answer.d
+        - id: developer_background_team_size.answer.e
 
-    - id: yearly_salary
+    - id: developer_background_platforms
+      template: multiple
+      description: Check all that apply.
+      options:
+        - id: developer_background_platforms.answer.a
+        - id: developer_background_platforms.answer.b
+        - id: developer_background_platforms.answer.c
+        - id: developer_background_platforms.answer.d
+        - id: developer_background_platforms.answer.e
+        - id: developer_background_platforms.answer.f
+        - id: developer_background_platforms.answer.g
+    - id: developer_background_platforms_other
+      sectionSlug: developer_background_platforms
+      template: others
+      matchTags: [developer_background_platforms]
+
+    - id: developer_background_contribution_to_rn
+      template: yes_or_no
+      description: Has your PR ever been merged into the React Native upstream?
+
+    - id: developer_background_contribution_to_lib
+      template: yes_or_no
+      description: Has your PR ever been merged into any React Native community library?
+
+    - id: developer_background_releases_count
       template: single
       options:
-        - id: range_work_for_free
-        - id: range_0_10
-        - id: range_10_30
-        - id: range_30_50
-        - id: range_50_100
-        - id: range_100_200
-        - id: range_more_than_200
+        - id: developer_background_releases_count.answer.a
+        - id: developer_background_releases_count.answer.b
+        - id: developer_background_releases_count.answer.c
+        - id: developer_background_releases_count.answer.d
+        - id: developer_background_releases_count.answer.e
 
-    - id: higher_education_degree
+    - id: developer_background_os_target
       template: single
       options:
-        - id: no_degree
-        - id: yes_related
-        - id: yes_unrelated
+        - id: developer_background_os_target.answer.a
+        - id: developer_background_os_target.answer.b
+        - id: developer_background_os_target.answer.c
+        - id: developer_background_os_target.answer.d
 
-    - id: country
+    - id: developer_background_industry_sector
+      template: multiple
+      description: Which industry sector(s) are you using React Native in? Check all that apply.
+      options:
+        - id: developer_background_industry_sector.answer.a
+        - id: developer_background_industry_sector.answer.b
+        - id: developer_background_industry_sector.answer.c
+        - id: developer_background_industry_sector.answer.d
+        - id: developer_background_industry_sector.answer.e
+        - id: developer_background_industry_sector.answer.f
+        - id: developer_background_industry_sector.answer.g
+        - id: developer_background_industry_sector.answer.h
+        - id: developer_background_industry_sector.answer.i
+        - id: developer_background_industry_sector.answer.j
+        - id: developer_background_industry_sector.answer.k
+        - id: developer_background_industry_sector.answer.l
+        - id: developer_background_industry_sector.answer.n
+        - id: developer_background_industry_sector.answer.m
+        - id: developer_background_industry_sector.answer.o
+        - id: developer_background_industry_sector.answer.p
+        - id: developer_background_industry_sector.answer.r
+        - id: developer_background_industry_sector.answer.s
+        - id: developer_background_industry_sector.answer.t
+        - id: developer_background_industry_sector.answer.u
+        - id: developer_background_industry_sector.answer.v
+        - id: developer_background_industry_sector.answer.w
+        - id: developer_background_industry_sector.answer.x
+        - id: developer_background_industry_sector.answer.y
+        - id: developer_background_industry_sector.answer.z
+    - id: developer_background_industry_sector_other
+      sectionSlug: developer_background_industry_sector
+      template: others
+      matchTags: [developer_background_industry_sector]
+
+######################################################
+#########             ABOUT YOU              #########
+######################################################
+
+- id: about_you
+  template: single
+  slug: about_you
+  questions:
+    - id: about_you_country
       template: country
 
-    - id: gender
+    - id: about_you_age
       template: single
-      allowother: true
       options:
-        - id: female
-        - id: male
-        - id: non_binary
-        - id: not_listed
+        - id: about_you_age_18_or_youger
+        - id: about_you_age_19_24
+        - id: about_you_age_25_34
+        - id: about_you_age_35_44
+        - id: about_you_age_45_54
+        - id: about_you_age_55_64
+        - id: about_you_age_65_or_older
 
-    - id: race_ethnicity
-      template: multiple
-      allowother: true
+    - id: about_you_experience
+      template: single
       options:
-        - id: black_african
-        - id: east_asian
-        - id: hispanic_latin
-        - id: middle_eastern
-        - id: multiracial
-        - id: native_american_islander_australian
-        - id: south_asian
-        - id: south_east_asian
-        - id: white_european
-        - id: not_listed
+        - id: about_you_experience_1_year_or_less
+        - id: about_you_experience_2_to_3_years
+        - id: about_you_experience_4_to_5_years
+        - id: about_you_experience_6_to_10_years
+        - id: about_you_experience_11_years_or_more
 
-    - id: disability_status
-      year: 2021
-      template: multiple
-      allowother: true
+    - id: about_you_experience_in_rn
+      template: single
       options:
-        - id: visual_impairments
-        - id: hearing_impairments
-        - id: mobility_impairments
-        - id: cognitive_impairments
-        - id: not_listed
+        - id: about_you_experience_in_rn_1_year_or_less
+        - id: about_you_experience_in_rn_2_to_3_years
+        - id: about_you_experience_in_rn_4_to_5_years
+        - id: about_you_experience_in_rn_6_years_or_more
 
-    - id: disability_status
-      year: 2021
-      template: others
-      matchTags: [disabilities]
+    - id: about_you_company_size
+      template: single
+      options:
+        - id: about_you_company_size_1_employee
+        - id: about_you_company_size_2_to_4
+        - id: about_you_company_size_5_to_9
+        - id: about_you_company_size_10_to_19
+        - id: about_you_company_size_20_to_49
+        - id: about_you_company_size_50_to_99
+        - id: about_you_company_size_100_to_499
+        - id: about_you_company_size_500_to_999
+        - id: about_you_company_size_1000_or_more
 
-    - id: how_did_user_find_out_about_the_survey
+    - id: about_you_education_degree
+      template: single
+      options:
+        - id: about_you_education_degree_no
+        - id: about_you_education_degree_yes_related
+        - id: about_you_education_degree_yes_unrelated
+
+    - id: about_you_salary
+      template: single
+      options:
+        - id: about_you_salary_free
+        - id: about_you_salary_0_to_10k
+        - id: about_you_salary_10k_to_30k
+        - id: about_you_salary_30k_to_50k
+        - id: about_you_salary_50k_to_100k
+        - id: about_you_salary_100k_to_200k
+        - id: about_you_salary_200k_or_more
+
+    - id: about_you_gender
+      template: single
+      options:
+        - id: about_you_gender_female
+        - id: about_you_gender_male
+        - id: about_you_gender_non_binary
+        - id: about_you_gender_not_listed
+    # - id: about_you_race
+    # - id: about_you_disability
+    - id: about_you_how_you_know
       template: text
-
-    - id: how_can_we_improve
-      template: longtext
-
-    # these two fields go together
-    - id: receive_notifications
-      template: receive_notifications
-      hidden: true
-    - id: email_temporary
-      template: email2
+    - id: about_you_what_to_improve
+      template: text
