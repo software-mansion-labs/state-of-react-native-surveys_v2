@@ -123,6 +123,7 @@
     - id: styling_component_libraries_rn_elements
     - id: styling_component_libraries_native_base
     - id: styling_component_libraries_rn_ui_lib
+    - id: styling_component_libraries_dripsy
     - id: styling_component_libraries_other
       template: others
       description: "Other answers (freeform)"
@@ -166,6 +167,7 @@
     - id: animations_skia
     - id: animations_react_native_animatable
     - id: animations_threejs
+    - id: animations_react_three_fiber
     - id: animations_lottie
     - id: animations_expo_gl
     - id: animations_legend_motion
@@ -241,7 +243,7 @@
         - id: react_native_app_aspects_testing_react_native_testing_library
         - id: react_native_app_aspects_testing_detox
         - id: react_native_app_aspects_testing_appium
-        # - id: react_native_app_aspects_testing_dont_test
+        - id: react_native_app_aspects_testing_maestro
     - id: react_native_app_aspects_testing_other
       template: others
       description: "Other answers (freeform)"
@@ -367,6 +369,7 @@
   questions:
     - id: tools_js_ts
       template: slider
+      description: "How do you divide your time between writing JavaScript and TypeScript code?"
 
     - id: tools_package_managers
       template: single
@@ -397,6 +400,26 @@
     - id: tools_ionic
     - id: tools_native_script
     # - id: other_tools_kotlin
+
+######################################################
+#########           MONOREPO TOOLS           #########
+######################################################
+
+- id: monorepo_tools
+  template: tool
+  slug: monorepo_tools
+  questions:
+    - id: monorepo_tools_yarn_workspaces
+    - id: monorepo_tools_npm_workspaces
+    - id: monorepo_tools_turborepo
+    - id: monorepo_tools_lerna
+    - id: monorepo_tools_pnpm
+    - id: monorepo_tools_nx
+    - id: monorepo_tools_rush
+
+    - id: monorepo_tools_other
+      template: others
+      description: "Other answers (freeform)"
 
 ######################################################
 #########             RESOURCES              #########
