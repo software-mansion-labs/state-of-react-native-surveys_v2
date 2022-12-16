@@ -53,7 +53,6 @@
     - id: platform_apis_other
       template: others
       description: "Other answers (freeform)"
-      matchTags: [platform_apis_other]
 
 ######################################################
 #########          STATE MANAGEMENT          #########
@@ -73,7 +72,6 @@
     - id: state_management_other
       template: others
       description: "Other answers (freeform)"
-      matchTags: [state_management_other]
 
 ######################################################
 #########            DATA FETCHING           #########
@@ -92,7 +90,7 @@
     - id: data_fetching_relay
     - id: data_fetching_other
       template: others
-      matchTags: [data_fetching]
+      description: "Other answers (freeform)"
 
 ######################################################
 #########               STYLING              #########
@@ -111,7 +109,7 @@
     - id: styling_techniques_inline
     - id: styling_techniques_other
       template: others
-      matchTags: [styling_techniques_other]
+      description: "Other answers (freeform)"
 
     - id: styling_component_libraries_rn_paper
     - id: styling_component_libraries_ui_kitten
@@ -120,7 +118,7 @@
     - id: styling_component_libraries_rn_ui_lib
     - id: styling_component_libraries_other
       template: others
-      matchTags: [styling_component_libraries_other]
+      description: "Other answers (freeform)"
 
 ######################################################
 #########             NAVIGATION             #########
@@ -136,7 +134,7 @@
     - id: navigation_expo_router
     - id: navigation_other
       template: others
-      matchTags: [navigation_other]
+      description: "Other answers (freeform)"
 
 ######################################################
 #########             ANIMATIONS             #########
@@ -156,7 +154,7 @@
     - id: animations_expo_gl
     - id: animations_other
       template: others
-      matchTags: [animations_other]
+      description: "Other answers (freeform)"
 
 ######################################################
 #########              ASPECTS               #########
@@ -173,7 +171,7 @@
         - id: react_native_app_aspects_gestures_react_native_gesture_handler
     - id: react_native_app_aspects_gestures_other
       template: others
-      matchTags: [react_native_app_aspects_gestures]
+      description: "Other answers (freeform)"
 
     - id: react_native_app_aspects_internationalization
       description: Check all that apply.
@@ -182,7 +180,7 @@
         - id: react_native_app_aspects_internationalization_react_i18next
     - id: react_native_app_aspects_internationalization_other
       template: others
-      matchTags: [react_native_app_aspects_internationalization]
+      description: "Other answers (freeform)"
 
     - id: react_native_app_aspects_analytics
       description: Check all that apply.
@@ -197,7 +195,7 @@
         - id: react_native_app_aspects_analytics_flurry
     - id: react_native_app_aspects_analytics_other
       template: others
-      matchTags: [react_native_app_aspects_analytics]
+      description: "Other answers (freeform)"
 
     - id: react_native_app_aspects_crash_reporting
       description: Check all that apply.
@@ -214,7 +212,7 @@
         - id: react_native_app_aspects_crash_reporting_appcenter_crashes
     - id: react_native_app_aspects_crash_reporting_other
       template: others
-      matchTags: [react_native_app_aspects_crash_reporting]
+      description: "Other answers (freeform)"
 
     - id: react_native_app_aspects_testing
       description: Check all that apply.
@@ -226,7 +224,7 @@
         # - id: react_native_app_aspects_testing_dont_test
     - id: react_native_app_aspects_testing_other
       template: others
-      matchTags: [react_native_app_aspects_testing]
+      description: "Other answers (freeform)"
 
     - id: react_native_app_aspects_storage
       description: Check all that apply.
@@ -240,7 +238,7 @@
         - id: react_native_app_aspects_storage_expo_sqlite
     - id: react_native_app_aspects_storage_other
       template: others
-      matchTags: [react_native_app_aspects_storage]
+      description: "Other answers (freeform)"
 
 ######################################################
 #########             FEATURES               #########
@@ -288,7 +286,7 @@
         - id: react_native_features_debugging_console_log
     - id: react_native_features_debugging_other
       template: others
-      matchTags: [react_native_features_debugging]
+      description: "Other answers (freeform)"
 
     - id: react_native_features_performance_profile
       template: multiple
@@ -301,7 +299,7 @@
         - id: react_native_features_performance_profile_flipper_performance_plugin
     - id: react_native_features_performance_profile_other
       template: others
-      matchTags: [react_native_features_performance_profile]
+      description: "Other answers (freeform)"
 
     - id: react_native_features_brownfield
       template: single
@@ -320,7 +318,7 @@
         - id: react_native_features_ota_updates_self_hosted
     - id: react_native_features_ota_updates_other
       template: others
-      matchTags: [react_native_features_ota_updates]
+      description: "Other answers (freeform)"
 
 ######################################################
 #########               TOOLS                #########
@@ -339,10 +337,9 @@
         - id: tools_building_manually
         - id: tools_building_fastlane
         - id: tools_building_expo_eas
-        # - id: tools_builgind_
     - id: tools_building_other
       template: others
-      matchTags: [tools_building]
+      description: "Other answers (freeform)"
 
     - id: tools_package_managers
       template: single
@@ -351,6 +348,18 @@
         - id: tools_package_managers_yarn
         - id: tools_package_managers_yarn_berry
         - id: tools_package_managers_pnpm
+
+    - id: tools_starter_templates
+      template: multiple
+      options:
+        - id: tools_starter_templates_expo
+        - id: tools_starter_templates_react_native_cli
+        - id: tools_starter_templates_ignite_cli
+        - id: tools_starter_templates_solito
+        - id: tools_starter_templates_create_t3_turbo
+    - id: tools_starter_templates_other
+      template: others
+      description: "Other answers (freeform)"
 
     - id: tools_expo
     - id: tools_swiftui
@@ -387,7 +396,7 @@
         - id: resources_initially_learn_react_native_self_directed_learning
     - id: resources_initially_learn_react_native_other
       template: others
-      matchTags: [resources_initially_learn_react_native]
+      description: "Other answers (freeform)"
 
     - id: resources_read
     - id: resources_course
@@ -411,7 +420,7 @@
         - id: resources_surveys_jamstack
     - id: resources_surveys_other
       template: others
-      matchTags: [resources_surveys]
+      description: "Other answers (freeform)"
 
 ######################################################
 #########             OPINIONS               #########
@@ -461,7 +470,7 @@
     - id: developer_background_before_other
       sectionSlug: developer_background_before
       template: others
-      matchTags: [developer_background_before]
+      description: "Other answers (freeform)"
 
     - id: developer_background_usage_type
       template: single
@@ -511,7 +520,7 @@
     - id: developer_background_platforms_other
       sectionSlug: developer_background_platforms
       template: others
-      matchTags: [developer_background_platforms]
+      description: "Other answers (freeform)"
 
     - id: developer_background_contribution_to_rn
       template: yes_or_no
@@ -570,7 +579,7 @@
     - id: developer_background_industry_sector_other
       sectionSlug: developer_background_industry_sector
       template: others
-      matchTags: [developer_background_industry_sector]
+      description: "Other answers (freeform)"
 
 ######################################################
 #########             ABOUT YOU              #########
