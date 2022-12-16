@@ -10,7 +10,7 @@
 
     - id: platform_apis_questions
       template: multiple
-      description: Check all that apply.
+      description: Check all that apply
       options:
         # - id: platform_apis_offline_mode
         - id: platform_apis_sensors
@@ -73,6 +73,9 @@
     - id: state_management_other
       template: others
       description: "Other answers (freeform)"
+    - id: state_management_happiness
+      description: "How do you feel about the current overall state of state management options available for React Native?"
+      template: happiness
 
 ######################################################
 #########            DATA FETCHING           #########
@@ -92,6 +95,9 @@
     - id: data_fetching_other
       template: others
       description: "Other answers (freeform)"
+    - id: data_fetching_happiness
+      description: "How do you feel about the current overall state of data fetching options available for React Native?"
+      template: happiness
 
 ######################################################
 #########               STYLING              #########
@@ -122,6 +128,10 @@
       template: others
       description: "Other answers (freeform)"
 
+    - id: styling_happiness
+      description: "How do you feel about the current overall state of styling options available for React Native?"
+      template: happiness
+
 ######################################################
 #########             NAVIGATION             #########
 ######################################################
@@ -134,9 +144,14 @@
     - id: navigation_react_native_navigation
     - id: navigation_react_router
     - id: navigation_expo_router
+    - id: navigation_expo_router
+    - id: navigation_navigation
     - id: navigation_other
       template: others
       description: "Other answers (freeform)"
+    - id: navigation_happiness
+      description: "How do you feel about the current overall state of navigation options available for React Native?"
+      template: happiness
 
 ######################################################
 #########             ANIMATIONS             #########
@@ -158,6 +173,9 @@
     - id: animations_other
       template: others
       description: "Other answers (freeform)"
+    - id: animations_happiness
+      description: "How do you feel about the current overall state of graphics and animation options available for React Native?"
+      template: happiness
 
 ######################################################
 #########              ASPECTS               #########
@@ -168,7 +186,7 @@
   slug: react_native_app_aspects
   questions:
     - id: react_native_app_aspects_gestures
-      description: Check all that apply.
+      description: Check all that apply
       options:
         - id: react_native_app_aspects_gestures_panresponder_api
         - id: react_native_app_aspects_gestures_react_native_gesture_handler
@@ -177,7 +195,7 @@
       description: "Other answers (freeform)"
 
     - id: react_native_app_aspects_internationalization
-      description: Check all that apply.
+      description: Check all that apply
       options:
         - id: react_native_app_aspects_internationalization_react_native_localize
         - id: react_native_app_aspects_internationalization_react_i18next
@@ -186,7 +204,7 @@
       description: "Other answers (freeform)"
 
     - id: react_native_app_aspects_analytics
-      description: Check all that apply.
+      description: Check all that apply
       options:
         - id: react_native_app_aspects_analytics_firebase_analytics
         - id: react_native_app_aspects_analytics_appcenter_analytics
@@ -201,7 +219,7 @@
       description: "Other answers (freeform)"
 
     - id: react_native_app_aspects_crash_reporting
-      description: Check all that apply.
+      description: Check all that apply
       options:
         - id: react_native_app_aspects_crash_reporting_sentry
         - id: react_native_app_aspects_crash_reporting_datadog
@@ -218,7 +236,7 @@
       description: "Other answers (freeform)"
 
     - id: react_native_app_aspects_testing
-      description: Check all that apply.
+      description: Check all that apply
       options:
         - id: react_native_app_aspects_testing_jest
         - id: react_native_app_aspects_testing_react_native_testing_library
@@ -230,7 +248,7 @@
       description: "Other answers (freeform)"
 
     - id: react_native_app_aspects_storage
-      description: Check all that apply.
+      description: Check all that apply
       options:
         - id: react_native_app_aspects_storage_react_native_async_storage
         - id: react_native_app_aspects_storage_realm
@@ -278,7 +296,7 @@
 
     - id: react_native_features_debugging
       template: multiple
-      description: Check all that apply.
+      description: Check all that apply
       options:
         - id: react_native_features_debugging_react_native_debugger
         - id: react_native_features_debugging_chrome_dev_tools
@@ -293,7 +311,7 @@
 
     - id: react_native_features_performance_profile
       template: multiple
-      description: Check all that apply.
+      description: Check all that apply
       options:
         - id: react_native_features_performance_native
         - id: react_native_features_performance_profile_react_native_performance
@@ -313,7 +331,7 @@
 
     - id: react_native_features_ota_updates
       template: multiple
-      description: Check all that apply.
+      description: Check all that apply
       options:
         - id: react_native_features_ota_updates_code_push
         - id: react_native_features_ota_updates_eas_update
@@ -350,16 +368,6 @@
   questions:
     - id: tools_js_ts
       template: slider
-
-    - id: tools_building
-      template: single
-      options:
-        - id: tools_building_manually
-        - id: tools_building_fastlane
-        - id: tools_building_expo_eas
-    - id: tools_building_other
-      template: others
-      description: "Other answers (freeform)"
 
     - id: tools_package_managers
       template: single
@@ -401,7 +409,7 @@
   questions:
     - id: resources_initially_learn_react_native
       template: multiple
-      description: Check all that apply.
+      description: Check all that apply
       options:
         - id: resources_initially_learn_react_native_official_docs
         - id: resources_initially_learn_react_native_books
@@ -427,7 +435,7 @@
 
     - id: resources_surveys
       template: multiple
-      description: Check all that apply.
+      description: Check all that apply
       options:
         - id: resources_surveys_state_of_js
         - id: resources_surveys_state_of_css
@@ -475,7 +483,7 @@
   questions:
     - id: developer_background_before
       template: multiple
-      description: Check all that apply.
+      description: Check all that apply
       options:
         - id: developer_background_before.answer.a
         - id: developer_background_before.answer.b
@@ -528,7 +536,7 @@
 
     - id: developer_background_platforms
       template: multiple
-      description: Check all that apply.
+      description: Check all that apply
       options:
         - id: developer_background_platforms.answer.a
         - id: developer_background_platforms.answer.b
