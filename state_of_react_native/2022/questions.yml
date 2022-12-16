@@ -69,6 +69,7 @@
     - id: state_management_recoil
     - id: state_management_apollo
     - id: state_management_react_query
+    - id: state_management_legend_state
     - id: state_management_other
       template: others
       description: "Other answers (freeform)"
@@ -104,7 +105,7 @@
     - id: styling_techniques_nativewind
     - id: styling_techniques_tailwind_rn
     - id: styling_techniques_styled_components
-    - id: styling_techniques_emotion
+    - id: styling_techniques_tamagui
     - id: styling_techniques_restyle
     - id: styling_techniques_inline
     - id: styling_techniques_other
@@ -115,6 +116,7 @@
     - id: styling_component_libraries_ui_kitten
     - id: styling_component_libraries_rn_elements
     - id: styling_component_libraries_native_base
+    - id: styling_component_libraries_tamagui
     - id: styling_component_libraries_rn_ui_lib
     - id: styling_component_libraries_other
       template: others
@@ -152,6 +154,7 @@
     - id: animations_threejs
     - id: animations_lottie
     - id: animations_expo_gl
+    - id: animations_legend_motion
     - id: animations_other
       template: others
       description: "Other answers (freeform)"
@@ -317,6 +320,23 @@
         - id: react_native_features_ota_updates_expo_publish
         - id: react_native_features_ota_updates_self_hosted
     - id: react_native_features_ota_updates_other
+      template: others
+      description: "Other answers (freeform)"
+
+######################################################
+#########            DEPLOYMENT              #########
+######################################################
+
+- id: deployment
+  template: tool
+  slug: deployment
+  questions:
+    - id: deployment_manually_xcode
+    - id: deployment_manually_android_studio
+    - id: deployment_fastlane
+    - id: deployment_eas_build
+    - id: deployment_eas_submit
+    - id: deployment_other
       template: others
       description: "Other answers (freeform)"
 
