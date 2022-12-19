@@ -75,7 +75,7 @@
       template: others
       description: "Other answers (freeform)"
     - id: state_management_happiness
-      description: "How do you feel about the current overall state of state management options available for React Native?"
+      description: "How do you feel about the current overall state of state management solutions available for React Native?"
       template: happiness
 
 ######################################################
@@ -97,7 +97,28 @@
       template: others
       description: "Other answers (freeform)"
     - id: data_fetching_happiness
-      description: "How do you feel about the current overall state of data fetching options available for React Native?"
+      description: "How do you feel about the current overall state of data fetching solutions available for React Native?"
+      template: happiness
+
+######################################################
+#########             NAVIGATION             #########
+######################################################
+
+- id: navigation
+  template: tool
+  slug: navigation
+  questions:
+    - id: navigation_react_navigation
+    - id: navigation_react_native_navigation
+    - id: navigation_react_router
+    - id: navigation_expo_router
+    - id: navigation_expo_router
+    - id: navigation_navigation
+    - id: navigation_other
+      template: others
+      description: "Other answers (freeform)"
+    - id: navigation_happiness
+      description: "How do you feel about the current overall state of navigation solutions available for React Native?"
       template: happiness
 
 ######################################################
@@ -119,7 +140,7 @@
       template: others
       description: "Other answers (freeform)"
     - id: styling_techniques_happiness
-      description: "How do you feel about the current overall state of styling options available for React Native?"
+      description: "How do you feel about the current overall state of styling techniques available for React Native?"
       template: happiness
 
 ######################################################
@@ -141,28 +162,7 @@
       template: others
       description: "Other answers (freeform)"
     - id: component_libraries_happiness
-      description: "How do you feel about the current overall state of component libraries options available for React Native?"
-      template: happiness
-
-######################################################
-#########             NAVIGATION             #########
-######################################################
-
-- id: navigation
-  template: tool
-  slug: navigation
-  questions:
-    - id: navigation_react_navigation
-    - id: navigation_react_native_navigation
-    - id: navigation_react_router
-    - id: navigation_expo_router
-    - id: navigation_expo_router
-    - id: navigation_navigation
-    - id: navigation_other
-      template: others
-      description: "Other answers (freeform)"
-    - id: navigation_happiness
-      description: "How do you feel about the current overall state of navigation options available for React Native?"
+      description: "How do you feel about the current overall state of UI components libraries available for React Native?"
       template: happiness
 
 ######################################################
@@ -187,7 +187,7 @@
       template: others
       description: "Other answers (freeform)"
     - id: animations_happiness
-      description: "How do you feel about the current overall state of graphics and animations options available for React Native?"
+      description: "How do you feel about the current overall state of graphics and animations solutions available for React Native?"
       template: happiness
 
 ######################################################
@@ -297,6 +297,7 @@
   slug: react_native_specific_features
   questions:
     - id: react_native_features_version
+      description: Which version do you use mainly?
       template: single
       options:
         - id: react_native_features_version_0_71
@@ -338,7 +339,7 @@
 
     - id: react_native_features_performance_profile
       template: multiple
-      description: What tools do you use to profile profile React Native app performance? Check all that apply
+      description: What tools do you use to profile React Native app performance? Check all that apply
       options:
         - id: react_native_features_performance_native
         - id: react_native_features_performance_profile_react_native_performance
@@ -481,15 +482,15 @@
     - id: resources_podcast
       description: What programming-related podcasts do you listen to? Write all that apply (freeform)
     - id: resources_video
-      description: Video Creators you follow on video-centric platforms such as YouTube, Twitch, TikTok, etc. Write all that apply (freeform)
+      description: Video creators you follow on video-centric platforms such as YouTube, Twitch, TikTok, etc. Write all that apply (freeform)
     - id: resources_people
       description: People you read, follow, or just want to highlight for their work. Write all that apply (freeform)
     - id: resources_communities
-      description: Online Communities you actively participate in, such as Slack workspaces, Discord servers, Reddit topics, etc.. Write all that apply (freeform)
+      description: Online communities you actively participate in, such as Slack workspaces, Discord servers, Reddit topics, etc.. Write all that apply (freeform)
 
     - id: resources_surveys
       template: multiple
-      description: Which other developer surveys do you participate in? Check all that apply
+      description: What other developer surveys do you participate in? Check all that apply
       options:
         - id: resources_surveys_state_of_js
         - id: resources_surveys_state_of_css
@@ -517,7 +518,7 @@
     - id: opinions_changing_too_fast
     - id: opinions_pain_points
       template: others
-      description: What are the most annoying aspect of React Native, such as missing features, overly complex techniques, buggy APIs, etc.. Write anything that makes you annoyed every time (freeform)
+      description: Write anything that makes you feel annoyed while developing React Native apps (freeform)
 
     - id: opinions_missing
       template: others
@@ -700,7 +701,8 @@
         - id: about_you_experience_2_to_3_years
         - id: about_you_experience_4_to_5_years
         - id: about_you_experience_6_to_10_years
-        - id: about_you_experience_11_years_or_more
+        - id: about_you_experience_11_to_20_years
+        - id: about_you_experience_20_years_or_more
 
     - id: about_you_experience_in_rn
       description: How long have you been working in or studying React Native, in years?
