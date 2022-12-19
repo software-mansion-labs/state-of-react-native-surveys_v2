@@ -257,6 +257,8 @@
         - id: react_native_app_aspects_testing_detox
         - id: react_native_app_aspects_testing_appium
         - id: react_native_app_aspects_testing_maestro
+        - id: react_native_app_aspects_testing_xcuitest
+        - id: react_native_app_aspects_testing_espresso
     - id: react_native_app_aspects_testing_other
       template: others
       description: "Other answers (freeform)"
@@ -419,14 +421,6 @@
       description: "Other answers (freeform)"
 
     - id: tools_expo
-    - id: tools_swiftui
-    - id: tools_flutter
-    - id: tools_jetpack_compose
-    - id: tools_xamarin
-    - id: tools_cordova
-    - id: tools_ionic
-    - id: tools_native_script
-    # - id: other_tools_kotlin
 
 ######################################################
 #########           MONOREPO TOOLS           #########
@@ -447,6 +441,24 @@
     - id: monorepo_tools_other
       template: others
       description: "Other answers (freeform)"
+
+######################################################
+#########            ALTERNATIVES            #########
+######################################################
+
+- id: react_native_alternatives
+  template: tool
+  slug: react_native_alternatives
+  questions:
+    - id: react_native_alternatives_swiftui
+    - id: react_native_alternatives_flutter
+    - id: react_native_alternatives_jetpack_compose
+    - id: react_native_alternatives_xamarin
+    - id: react_native_alternatives_cordova
+    - id: react_native_alternatives_ionic
+    - id: react_native_alternatives_native_script
+    - id: react_native_alternatives_kotlin
+    - id: react_native_alternatives_felgo
 
 ######################################################
 #########             RESOURCES              #########
