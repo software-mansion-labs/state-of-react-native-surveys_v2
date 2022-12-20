@@ -1,4 +1,144 @@
 ######################################################
+#########        DEVELOPER BACKGROUND        #########
+######################################################
+
+- id: developer_background
+  template: feature
+  slug: developer_background
+  questions:
+    - id: developer_background_before
+      template: multiple
+      description: What was your background before you started using React Native? Check all that apply
+      options:
+        - id: developer_background_before.answer.a
+        - id: developer_background_before.answer.b
+        - id: developer_background_before.answer.c
+        - id: developer_background_before.answer.d
+        - id: developer_background_before.answer.e
+        - id: developer_background_before.answer.f
+        - id: developer_background_before.answer.g
+        - id: developer_background_before.answer.h
+        - id: developer_background_before.answer.i
+        - id: developer_background_before.answer.j
+    - id: developer_background_before_other
+      sectionSlug: developer_background_before
+      template: others
+      description: "Other answers (freeform)"
+
+    - id: developer_background_usage_type
+      template: single
+      options:
+        - id: developer_background_usage_type.answer.a
+        - id: developer_background_usage_type.answer.b
+        - id: developer_background_usage_type.answer.c
+
+    - id: developer_background_primarily_system
+      description: What desktop OS do you primarily use?
+      template: single
+      options:
+        - id: developer_background_primarily_system.answer.a
+        - id: developer_background_primarily_system.answer.b
+        - id: developer_background_primarily_system.answer.c
+
+    - id: developer_background_users_count
+      description: What is the user count of your top React Native app?
+      template: single
+      options:
+        - id: developer_background_users_count.answer.a
+        - id: developer_background_users_count.answer.b
+        - id: developer_background_users_count.answer.c
+        - id: developer_background_users_count.answer.d
+        - id: developer_background_users_count.answer.e
+        - id: developer_background_users_count.answer.f
+        - id: developer_background_users_count.answer.g
+
+    - id: developer_background_team_size
+      description: What is your mobile app team size?
+      template: single
+      options:
+        - id: developer_background_team_size.answer.a
+        - id: developer_background_team_size.answer.b
+        - id: developer_background_team_size.answer.c
+        - id: developer_background_team_size.answer.d
+        - id: developer_background_team_size.answer.e
+
+    - id: developer_background_platforms
+      description: What are the platforms that you use React Native for? Check all that apply
+      template: multiple
+      options:
+        - id: developer_background_platforms.answer.a
+        - id: developer_background_platforms.answer.b
+        - id: developer_background_platforms.answer.c
+        - id: developer_background_platforms.answer.d
+        - id: developer_background_platforms.answer.e
+        - id: developer_background_platforms.answer.f
+        - id: developer_background_platforms.answer.g
+    - id: developer_background_platforms_other
+      sectionSlug: developer_background_platforms
+      template: others
+      description: "Other answers (freeform)"
+
+    - id: developer_background_contribution_to_rn
+      template: yes_or_no
+      description: Have you contributed to React Native in 2022?
+
+    - id: developer_background_contribution_to_lib
+      template: yes_or_no
+      description: Have you contributed to any React Native community library in 2022?
+
+    - id: developer_background_releases_count
+      description: How many React Native apps have you released on Google Play or App Store?
+      template: single
+      options:
+        - id: developer_background_releases_count.answer.a
+        - id: developer_background_releases_count.answer.b
+        - id: developer_background_releases_count.answer.c
+        - id: developer_background_releases_count.answer.d
+        - id: developer_background_releases_count.answer.e
+
+    - id: developer_background_os_target
+      template: single
+      options:
+        - id: developer_background_os_target.answer.a
+        - id: developer_background_os_target.answer.b
+        - id: developer_background_os_target.answer.c
+        - id: developer_background_os_target.answer.d
+
+    - id: developer_background_industry_sector
+      template: multiple
+      description: Which industry sector(s) are you using React Native in? Check all that apply.
+      options:
+        - id: developer_background_industry_sector.answer.a
+        - id: developer_background_industry_sector.answer.b
+        - id: developer_background_industry_sector.answer.c
+        - id: developer_background_industry_sector.answer.d
+        - id: developer_background_industry_sector.answer.e
+        - id: developer_background_industry_sector.answer.f
+        - id: developer_background_industry_sector.answer.g
+        - id: developer_background_industry_sector.answer.h
+        - id: developer_background_industry_sector.answer.i
+        - id: developer_background_industry_sector.answer.j
+        - id: developer_background_industry_sector.answer.k
+        - id: developer_background_industry_sector.answer.l
+        - id: developer_background_industry_sector.answer.n
+        - id: developer_background_industry_sector.answer.m
+        - id: developer_background_industry_sector.answer.o
+        - id: developer_background_industry_sector.answer.p
+        - id: developer_background_industry_sector.answer.r
+        - id: developer_background_industry_sector.answer.s
+        - id: developer_background_industry_sector.answer.t
+        - id: developer_background_industry_sector.answer.u
+        - id: developer_background_industry_sector.answer.v
+        - id: developer_background_industry_sector.answer.w
+        - id: developer_background_industry_sector.answer.x
+        - id: developer_background_industry_sector.answer.y
+        - id: developer_background_industry_sector.answer.z
+    - id: developer_background_industry_sector_other
+      sectionSlug: developer_background_industry_sector
+      template: others
+      description: "Other answers (freeform)"
+
+######################################################
 #########           PLATFORM APIS            #########
 ######################################################
 
@@ -542,146 +682,6 @@
 
     - id: opinions_happy
       template: happiness
-
-######################################################
-#########        DEVELOPER BACKGROUND        #########
-######################################################
-
-- id: developer_background
-  template: feature
-  slug: developer_background
-  questions:
-    - id: developer_background_before
-      template: multiple
-      description: What was your background before you started using React Native? Check all that apply
-      options:
-        - id: developer_background_before.answer.a
-        - id: developer_background_before.answer.b
-        - id: developer_background_before.answer.c
-        - id: developer_background_before.answer.d
-        - id: developer_background_before.answer.e
-        - id: developer_background_before.answer.f
-        - id: developer_background_before.answer.g
-        - id: developer_background_before.answer.h
-        - id: developer_background_before.answer.i
-        - id: developer_background_before.answer.j
-    - id: developer_background_before_other
-      sectionSlug: developer_background_before
-      template: others
-      description: "Other answers (freeform)"
-
-    - id: developer_background_usage_type
-      template: single
-      options:
-        - id: developer_background_usage_type.answer.a
-        - id: developer_background_usage_type.answer.b
-        - id: developer_background_usage_type.answer.c
-
-    - id: developer_background_primarily_system
-      description: What desktop OS do you primarily use?
-      template: single
-      options:
-        - id: developer_background_primarily_system.answer.a
-        - id: developer_background_primarily_system.answer.b
-        - id: developer_background_primarily_system.answer.c
-
-    - id: developer_background_users_count
-      description: What is the user count of your top React Native app?
-      template: single
-      options:
-        - id: developer_background_users_count.answer.a
-        - id: developer_background_users_count.answer.b
-        - id: developer_background_users_count.answer.c
-        - id: developer_background_users_count.answer.d
-        - id: developer_background_users_count.answer.e
-        - id: developer_background_users_count.answer.f
-        - id: developer_background_users_count.answer.g
-
-    - id: developer_background_team_size
-      description: What is your mobile app team size?
-      template: single
-      options:
-        - id: developer_background_team_size.answer.a
-        - id: developer_background_team_size.answer.b
-        - id: developer_background_team_size.answer.c
-        - id: developer_background_team_size.answer.d
-        - id: developer_background_team_size.answer.e
-
-    - id: developer_background_platforms
-      description: What are the platforms that you use React Native for? Check all that apply
-      template: multiple
-      options:
-        - id: developer_background_platforms.answer.a
-        - id: developer_background_platforms.answer.b
-        - id: developer_background_platforms.answer.c
-        - id: developer_background_platforms.answer.d
-        - id: developer_background_platforms.answer.e
-        - id: developer_background_platforms.answer.f
-        - id: developer_background_platforms.answer.g
-    - id: developer_background_platforms_other
-      sectionSlug: developer_background_platforms
-      template: others
-      description: "Other answers (freeform)"
-
-    - id: developer_background_contribution_to_rn
-      template: yes_or_no
-      description: Have you contributed to React Native in 2022?
-
-    - id: developer_background_contribution_to_lib
-      template: yes_or_no
-      description: Have you contributed to any React Native community library in 2022?
-
-    - id: developer_background_releases_count
-      description: How many React Native apps have you released on Google Play or App Store?
-      template: single
-      options:
-        - id: developer_background_releases_count.answer.a
-        - id: developer_background_releases_count.answer.b
-        - id: developer_background_releases_count.answer.c
-        - id: developer_background_releases_count.answer.d
-        - id: developer_background_releases_count.answer.e
-
-    - id: developer_background_os_target
-      template: single
-      options:
-        - id: developer_background_os_target.answer.a
-        - id: developer_background_os_target.answer.b
-        - id: developer_background_os_target.answer.c
-        - id: developer_background_os_target.answer.d
-
-    - id: developer_background_industry_sector
-      template: multiple
-      description: Which industry sector(s) are you using React Native in? Check all that apply.
-      options:
-        - id: developer_background_industry_sector.answer.a
-        - id: developer_background_industry_sector.answer.b
-        - id: developer_background_industry_sector.answer.c
-        - id: developer_background_industry_sector.answer.d
-        - id: developer_background_industry_sector.answer.e
-        - id: developer_background_industry_sector.answer.f
-        - id: developer_background_industry_sector.answer.g
-        - id: developer_background_industry_sector.answer.h
-        - id: developer_background_industry_sector.answer.i
-        - id: developer_background_industry_sector.answer.j
-        - id: developer_background_industry_sector.answer.k
-        - id: developer_background_industry_sector.answer.l
-        - id: developer_background_industry_sector.answer.n
-        - id: developer_background_industry_sector.answer.m
-        - id: developer_background_industry_sector.answer.o
-        - id: developer_background_industry_sector.answer.p
-        - id: developer_background_industry_sector.answer.r
-        - id: developer_background_industry_sector.answer.s
-        - id: developer_background_industry_sector.answer.t
-        - id: developer_background_industry_sector.answer.u
-        - id: developer_background_industry_sector.answer.v
-        - id: developer_background_industry_sector.answer.w
-        - id: developer_background_industry_sector.answer.x
-        - id: developer_background_industry_sector.answer.y
-        - id: developer_background_industry_sector.answer.z
-    - id: developer_background_industry_sector_other
-      sectionSlug: developer_background_industry_sector
-      template: others
-      description: "Other answers (freeform)"
 
 ######################################################
 #########             ABOUT YOU              #########
