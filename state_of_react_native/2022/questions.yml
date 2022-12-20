@@ -20,6 +20,7 @@
         - id: developer_background_before.answer.h
         - id: developer_background_before.answer.i
         - id: developer_background_before.answer.j
+        - id: developer_background_before.answer.k
     - id: developer_background_before_other
       sectionSlug: developer_background_before
       template: others
@@ -202,7 +203,7 @@
   template: tool
   slug: state_management
   questions:
-    - id: state_management_rn_build_in
+    - id: state_management_rn_built_in
     - id: state_management_jotai
     - id: state_management_zustand
     - id: state_management_redux
@@ -226,10 +227,10 @@
   template: tool
   slug: data_fetching
   questions:
-    - id: data_fetching_trpc
     - id: data_fetching_fetch
-    - id: data_fetching_apollo
     - id: data_fetching_axios
+    - id: data_fetching_apollo
+    - id: data_fetching_trpc
     - id: data_fetching_tan_stack
     - id: data_fetching_swr
     - id: data_fetching_relay
@@ -294,6 +295,7 @@
     - id: component_libraries_rn_paper
     - id: component_libraries_ui_kitten
     - id: component_libraries_rn_elements
+    - id: component_libraries_react_native_material_ui
     - id: component_libraries_native_base
     - id: component_libraries_rn_ui_lib
     - id: component_libraries_dripsy
@@ -338,12 +340,40 @@
   template: multiple
   slug: react_native_app_aspects
   questions:
-    - id: react_native_app_aspects_gestures
+    - id: react_native_app_aspects_storage
       description: Check all that apply
       options:
-        - id: react_native_app_aspects_gestures_panresponder_api
-        - id: react_native_app_aspects_gestures_react_native_gesture_handler
-    - id: react_native_app_aspects_gestures_other
+        - id: react_native_app_aspects_storage_react_native_async_storage
+        - id: react_native_app_aspects_storage_realm
+        - id: react_native_app_aspects_storage_watermelondb
+        - id: react_native_app_aspects_storage_react_native_mmkv
+        - id: react_native_app_aspects_storage_react_native_mmkv_storage
+        - id: react_native_app_aspects_storage_react_native_sqlite_storage
+        - id: react_native_app_aspects_storage_expo_sqlite
+        - id: react_native_app_aspects_storage_rxdb
+    - id: react_native_app_aspects_storage_other
+      template: others
+      description: "Other answers (freeform)"
+
+    - id: react_native_app_aspects_data_visualisation
+      description: Check all that apply
+      options:
+        - id: react_native_app_aspects_data_visualisation_victory_native
+        - id: react_native_app_aspects_data_visualisation_react_native_svg
+        - id: react_native_app_aspects_data_visualisation_recharts
+        - id: react_native_app_aspects_data_visualisation_react_native_charts_kit
+        - id: react_native_app_aspects_data_visualisation_react_native_charts_wrapper
+    - id: react_native_app_aspects_data_visualisation_other
+      template: others
+      description: "Other answers (freeform)"
+
+    - id: react_native_app_aspects_interactions
+      description: Check all that apply
+      options:
+        - id: react_native_app_aspects_interactions_panresponder_api
+        - id: react_native_app_aspects_interactions_touchables
+        - id: react_native_app_aspects_interactions_react_native_gesture_handler
+    - id: react_native_app_aspects_interactions_other
       template: others
       description: "Other answers (freeform)"
 
@@ -400,33 +430,6 @@
         - id: react_native_app_aspects_testing_xcuitest
         - id: react_native_app_aspects_testing_espresso
     - id: react_native_app_aspects_testing_other
-      template: others
-      description: "Other answers (freeform)"
-
-    - id: react_native_app_aspects_storage
-      description: Check all that apply
-      options:
-        - id: react_native_app_aspects_storage_react_native_async_storage
-        - id: react_native_app_aspects_storage_realm
-        - id: react_native_app_aspects_storage_watermelondb
-        - id: react_native_app_aspects_storage_react_native_mmkv
-        - id: react_native_app_aspects_storage_react_native_mmkv_storage
-        - id: react_native_app_aspects_storage_react_native_sqlite_storage
-        - id: react_native_app_aspects_storage_expo_sqlite
-        - id: react_native_app_aspects_storage_rxdb
-    - id: react_native_app_aspects_storage_other
-      template: others
-      description: "Other answers (freeform)"
-
-    - id: react_native_app_aspects_data_visualisation
-      description: Check all that apply
-      options:
-        - id: react_native_app_aspects_data_visualisation_victory_native
-        - id: react_native_app_aspects_data_visualisation_react_native_svg
-        - id: react_native_app_aspects_data_visualisation_recharts
-        - id: react_native_app_aspects_data_visualisation_react_native_charts_kit
-        - id: react_native_app_aspects_data_visualisation_react_native_charts_wrapper
-    - id: react_native_app_aspects_data_visualisation_other
       template: others
       description: "Other answers (freeform)"
 
@@ -561,7 +564,11 @@
       description: "Other answers (freeform)"
 
     - id: tools_expo
+    - id: tools_rnx_kit
 
+    - id: tools_other_tools
+      template: others
+      description: "Other answers (freeform)"
 ######################################################
 #########           MONOREPO TOOLS           #########
 ######################################################
@@ -590,12 +597,12 @@
   template: tool
   slug: react_native_alternatives
   questions:
-    - id: react_native_alternatives_swiftui
     - id: react_native_alternatives_flutter
-    - id: react_native_alternatives_jetpack_compose
     - id: react_native_alternatives_xamarin
     - id: react_native_alternatives_cordova
     - id: react_native_alternatives_ionic
+    - id: react_native_alternatives_swiftui
+    - id: react_native_alternatives_jetpack_compose
     - id: react_native_alternatives_native_script
     - id: react_native_alternatives_kotlin
     - id: react_native_alternatives_felgo
@@ -613,6 +620,7 @@
       description: When first starting out, how did you initially learn React Native? Check all that apply
       options:
         - id: resources_initially_learn_react_native_official_docs
+        - id: resources_initially_learn_react_native_expo_docs
         - id: resources_initially_learn_react_native_books
         - id: resources_initially_learn_react_native_videos
         - id: resources_initially_learn_react_native_online_courses_free
