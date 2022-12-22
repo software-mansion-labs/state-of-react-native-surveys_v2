@@ -514,6 +514,19 @@
       template: others
       description: "Other answers (freeform)"
 
+    - id: react_native_features_mobile_web_code_sharing
+      description: What methods do you employ for sharing code between mobile and web platforms in your project, if any? Check all that apply
+      template: multiple
+      options:
+        - id: react_native_features_mobile_web_code_sharing_react_native_web
+        - id: react_native_features_mobile_web_code_sharing_solito
+        - id: react_native_features_mobile_web_code_sharing_webview
+        - id: react_native_features_mobile_web_code_sharing_common_logic_independent_ui
+        - id: react_native_features_mobile_web_code_sharing_independent_projects
+    - id: react_native_features_mobile_web_code_sharing_other
+      template: others
+      description: "Other answers (freeform)"
+
 ######################################################
 #########            DEPLOYMENT              #########
 ######################################################
@@ -527,6 +540,7 @@
     - id: deployment_fastlane
     - id: deployment_eas_build
     - id: deployment_eas_submit
+    - id: deployment_app_center
     - id: deployment_other
       template: others
       description: "Other answers (freeform)"
@@ -557,14 +571,17 @@
         - id: tools_starter_templates_expo
         - id: tools_starter_templates_react_native_cli
         - id: tools_starter_templates_ignite_cli
-        - id: tools_starter_templates_solito
         - id: tools_starter_templates_create_t3_turbo
     - id: tools_starter_templates_other
       template: others
       description: "Other answers (freeform)"
 
-    - id: tools_expo
     - id: tools_rnx_kit
+    - id: tools_expo_snack
+    - id: tools_expo_cli
+    - id: tools_eas_cli
+    - id: tools_react_native_cli
+    - id: tools_ignite_cli
 
     - id: tools_other_tools
       template: others
@@ -617,7 +634,7 @@
   questions:
     - id: resources_initially_learn_react_native
       template: multiple
-      description: When first starting out, how did you initially learn React Native? Check all that apply
+      description: What methods do you use to learn and improve your React Native skills? Check all that apply
       options:
         - id: resources_initially_learn_react_native_official_docs
         - id: resources_initially_learn_react_native_expo_docs
@@ -628,6 +645,7 @@
         - id: resources_initially_learn_react_native_school_higher_education
         - id: resources_initially_learn_react_native_podcasts
         - id: resources_initially_learn_react_native_coding_bootcamp
+        - id: resources_initially_learn_react_native_react_native_directory
         - id: resources_initially_learn_react_native_on_the_job_training
         - id: resources_initially_learn_react_native_mentoring
         - id: resources_initially_learn_react_native_self_directed_learning
