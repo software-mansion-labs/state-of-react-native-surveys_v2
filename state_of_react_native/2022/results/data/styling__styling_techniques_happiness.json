@@ -2,58 +2,60 @@
   "dataAPI": {
     "survey": {
       "styling_techniques_happiness": {
-        "id": "styling_techniques_happiness",
-        "entity": {},
-        "experience": {
-          "keys": [
-            0,
-            1,
-            2,
-            3,
-            4
-          ],
-          "all_years": [
+        "keys": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "year": {
+          "year": 2022,
+          "mean": 2.58,
+          "completion": {
+            "total": 1215,
+            "count": 702,
+            "percentage_survey": 57.8
+          },
+          "facets": [
             {
-              "year": 2022,
+              "id": "default",
+              "type": "default",
               "completion": {
                 "total": 1215,
                 "count": 702,
                 "percentage_survey": 57.8
               },
-              "facets": [
+              "buckets": [
                 {
-                  "buckets": [
-                    {
-                      "id": 0,
-                      "count": 21,
-                      "percentage_survey": 1.8,
-                      "percentage_question": 3
-                    },
-                    {
-                      "id": 1,
-                      "count": 64,
-                      "percentage_survey": 5.3,
-                      "percentage_question": 9.2
-                    },
-                    {
-                      "id": 2,
-                      "count": 201,
-                      "percentage_survey": 16.6,
-                      "percentage_question": 28.7
-                    },
-                    {
-                      "id": 3,
-                      "count": 319,
-                      "percentage_survey": 26.3,
-                      "percentage_question": 45.5
-                    },
-                    {
-                      "id": 4,
-                      "count": 97,
-                      "percentage_survey": 8,
-                      "percentage_question": 13.9
-                    }
-                  ]
+                  "id": 0,
+                  "count": 21,
+                  "percentage_survey": 1.8,
+                  "percentage_question": 3
+                },
+                {
+                  "id": 1,
+                  "count": 64,
+                  "percentage_survey": 5.3,
+                  "percentage_question": 9.2
+                },
+                {
+                  "id": 2,
+                  "count": 201,
+                  "percentage_survey": 16.6,
+                  "percentage_question": 28.7
+                },
+                {
+                  "id": 3,
+                  "count": 319,
+                  "percentage_survey": 26.3,
+                  "percentage_question": 45.5
+                },
+                {
+                  "id": 4,
+                  "count": 97,
+                  "percentage_survey": 8,
+                  "percentage_question": 13.9
                 }
               ]
             }
