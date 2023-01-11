@@ -1,0 +1,65 @@
+{
+  "dataAPI": {
+    "survey": {
+      "state_management_happiness": {
+        "id": "state_management_happiness",
+        "entity": {},
+        "experience": {
+          "keys": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 1215,
+                "count": 776,
+                "percentage_survey": 63.9
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": 0,
+                      "count": 22,
+                      "percentage_survey": 1.9,
+                      "percentage_question": 2.9
+                    },
+                    {
+                      "id": 1,
+                      "count": 32,
+                      "percentage_survey": 2.7,
+                      "percentage_question": 4.2
+                    },
+                    {
+                      "id": 2,
+                      "count": 158,
+                      "percentage_survey": 13.1,
+                      "percentage_question": 20.4
+                    },
+                    {
+                      "id": 3,
+                      "count": 431,
+                      "percentage_survey": 35.5,
+                      "percentage_question": 55.6
+                    },
+                    {
+                      "id": 4,
+                      "count": 133,
+                      "percentage_survey": 11,
+                      "percentage_question": 17.2
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}
