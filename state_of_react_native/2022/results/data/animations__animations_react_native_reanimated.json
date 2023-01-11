@@ -1,0 +1,65 @@
+{
+  "dataAPI": {
+    "survey": {
+      "animations_react_native_reanimated": {
+        "id": "animations_react_native_reanimated",
+        "entity": {},
+        "experience": {
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 1215,
+                "count": 676,
+                "percentage_survey": 55.7
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 558,
+                      "percentage_survey": 46,
+                      "percentage_question": 82.6
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 14,
+                      "percentage_survey": 1.2,
+                      "percentage_question": 2.1
+                    },
+                    {
+                      "id": "interested",
+                      "count": 86,
+                      "percentage_survey": 7.1,
+                      "percentage_question": 12.8
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 6,
+                      "percentage_survey": 0.5,
+                      "percentage_question": 0.9
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 12,
+                      "percentage_survey": 1,
+                      "percentage_question": 1.8
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

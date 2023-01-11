@@ -1,0 +1,65 @@
+{
+  "dataAPI": {
+    "survey": {
+      "monorepo_tools_pnpm": {
+        "id": "monorepo_tools_pnpm",
+        "entity": {},
+        "experience": {
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 1215,
+                "count": 605,
+                "percentage_survey": 49.8
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 63,
+                      "percentage_survey": 5.2,
+                      "percentage_question": 10.5
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 17,
+                      "percentage_survey": 1.4,
+                      "percentage_question": 2.9
+                    },
+                    {
+                      "id": "interested",
+                      "count": 216,
+                      "percentage_survey": 17.8,
+                      "percentage_question": 35.8
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 116,
+                      "percentage_survey": 9.6,
+                      "percentage_question": 19.2
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 193,
+                      "percentage_survey": 15.9,
+                      "percentage_question": 32
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

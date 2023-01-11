@@ -1,0 +1,65 @@
+{
+  "dataAPI": {
+    "survey": {
+      "deployment_fastlane": {
+        "id": "deployment_fastlane",
+        "entity": {},
+        "experience": {
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 1215,
+                "count": 624,
+                "percentage_survey": 51.4
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 272,
+                      "percentage_survey": 22.4,
+                      "percentage_question": 43.6
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 48,
+                      "percentage_survey": 4,
+                      "percentage_question": 7.7
+                    },
+                    {
+                      "id": "interested",
+                      "count": 150,
+                      "percentage_survey": 12.4,
+                      "percentage_question": 24.1
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 77,
+                      "percentage_survey": 6.4,
+                      "percentage_question": 12.4
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 77,
+                      "percentage_survey": 6.4,
+                      "percentage_question": 12.4
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

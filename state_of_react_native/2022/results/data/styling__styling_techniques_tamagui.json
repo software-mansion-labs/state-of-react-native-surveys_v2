@@ -1,0 +1,65 @@
+{
+  "dataAPI": {
+    "survey": {
+      "styling_techniques_tamagui": {
+        "id": "styling_techniques_tamagui",
+        "entity": {},
+        "experience": {
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 1215,
+                "count": 716,
+                "percentage_survey": 59
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 32,
+                      "percentage_survey": 2.7,
+                      "percentage_question": 4.5
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 10,
+                      "percentage_survey": 0.9,
+                      "percentage_question": 1.4
+                    },
+                    {
+                      "id": "interested",
+                      "count": 172,
+                      "percentage_survey": 14.2,
+                      "percentage_question": 24.1
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 100,
+                      "percentage_survey": 8.3,
+                      "percentage_question": 14
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 402,
+                      "percentage_survey": 33.1,
+                      "percentage_question": 56.2
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

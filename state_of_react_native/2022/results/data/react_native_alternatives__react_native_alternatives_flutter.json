@@ -1,0 +1,65 @@
+{
+  "dataAPI": {
+    "survey": {
+      "react_native_alternatives_flutter": {
+        "id": "react_native_alternatives_flutter",
+        "entity": {},
+        "experience": {
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 1215,
+                "count": 632,
+                "percentage_survey": 52.1
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 65,
+                      "percentage_survey": 5.4,
+                      "percentage_question": 10.3
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 80,
+                      "percentage_survey": 6.6,
+                      "percentage_question": 12.7
+                    },
+                    {
+                      "id": "interested",
+                      "count": 158,
+                      "percentage_survey": 13.1,
+                      "percentage_question": 25
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 326,
+                      "percentage_survey": 26.9,
+                      "percentage_question": 51.6
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 3,
+                      "percentage_survey": 0.3,
+                      "percentage_question": 0.5
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}
