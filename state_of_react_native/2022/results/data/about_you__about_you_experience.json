@@ -1,0 +1,75 @@
+{
+  "dataAPI": {
+    "survey": {
+      "about_you": {
+        "about_you_experience": {
+          "keys": [
+            "about_you_experience_1_year_or_less",
+            "about_you_experience_2_to_3_years",
+            "about_you_experience_4_to_5_years",
+            "about_you_experience_6_to_10_years",
+            "about_you_experience_11_to_20_years",
+            "about_you_experience_20_years_or_more"
+          ],
+          "year": {
+            "year": 2022,
+            "completion": {
+              "total": 1215,
+              "count": 616,
+              "percentage_survey": 50.7
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 1215,
+                  "count": 616,
+                  "percentage_survey": 50.7
+                },
+                "buckets": [
+                  {
+                    "id": "about_you_experience_1_year_or_less",
+                    "count": 13,
+                    "percentage_survey": 1.1,
+                    "percentage_question": 2.2
+                  },
+                  {
+                    "id": "about_you_experience_2_to_3_years",
+                    "count": 125,
+                    "percentage_survey": 10.3,
+                    "percentage_question": 20.3
+                  },
+                  {
+                    "id": "about_you_experience_4_to_5_years",
+                    "count": 137,
+                    "percentage_survey": 11.3,
+                    "percentage_question": 22.3
+                  },
+                  {
+                    "id": "about_you_experience_6_to_10_years",
+                    "count": 196,
+                    "percentage_survey": 16.2,
+                    "percentage_question": 31.9
+                  },
+                  {
+                    "id": "about_you_experience_11_to_20_years",
+                    "count": 121,
+                    "percentage_survey": 10,
+                    "percentage_question": 19.7
+                  },
+                  {
+                    "id": "about_you_experience_20_years_or_more",
+                    "count": 24,
+                    "percentage_survey": 2,
+                    "percentage_question": 3.9
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

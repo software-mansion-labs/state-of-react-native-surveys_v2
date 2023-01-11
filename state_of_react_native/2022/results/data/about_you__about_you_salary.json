@@ -1,0 +1,82 @@
+{
+  "dataAPI": {
+    "survey": {
+      "about_you": {
+        "about_you_salary": {
+          "keys": [
+            "about_you_salary_free",
+            "about_you_salary_0_to_10k",
+            "about_you_salary_10k_to_30k",
+            "about_you_salary_30k_to_50k",
+            "about_you_salary_50k_to_100k",
+            "about_you_salary_100k_to_200k",
+            "about_you_salary_200k_or_more"
+          ],
+          "year": {
+            "year": 2022,
+            "completion": {
+              "total": 1215,
+              "count": 594,
+              "percentage_survey": 48.9
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 1215,
+                  "count": 594,
+                  "percentage_survey": 48.9
+                },
+                "buckets": [
+                  {
+                    "id": "about_you_salary_free",
+                    "count": 23,
+                    "percentage_survey": 1.9,
+                    "percentage_question": 3.9
+                  },
+                  {
+                    "id": "about_you_salary_0_to_10k",
+                    "count": 54,
+                    "percentage_survey": 4.5,
+                    "percentage_question": 9.1
+                  },
+                  {
+                    "id": "about_you_salary_10k_to_30k",
+                    "count": 92,
+                    "percentage_survey": 7.6,
+                    "percentage_question": 15.5
+                  },
+                  {
+                    "id": "about_you_salary_30k_to_50k",
+                    "count": 94,
+                    "percentage_survey": 7.8,
+                    "percentage_question": 15.9
+                  },
+                  {
+                    "id": "about_you_salary_50k_to_100k",
+                    "count": 165,
+                    "percentage_survey": 13.6,
+                    "percentage_question": 27.8
+                  },
+                  {
+                    "id": "about_you_salary_100k_to_200k",
+                    "count": 132,
+                    "percentage_survey": 10.9,
+                    "percentage_question": 22.3
+                  },
+                  {
+                    "id": "about_you_salary_200k_or_more",
+                    "count": 34,
+                    "percentage_survey": 2.8,
+                    "percentage_question": 5.8
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

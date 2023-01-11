@@ -1,0 +1,96 @@
+{
+  "dataAPI": {
+    "survey": {
+      "about_you": {
+        "about_you_company_size": {
+          "keys": [
+            "about_you_company_size_1_employee",
+            "about_you_company_size_2_to_5",
+            "about_you_company_size_6_to_10",
+            "about_you_company_size_11_to_20",
+            "about_you_company_size_21_to_50",
+            "about_you_company_size_51_to_100",
+            "about_you_company_size_101_to_500",
+            "about_you_company_size_501_to_1000",
+            "about_you_company_size_1000_or_more"
+          ],
+          "year": {
+            "year": 2022,
+            "completion": {
+              "total": 1215,
+              "count": 612,
+              "percentage_survey": 50.4
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 1215,
+                  "count": 612,
+                  "percentage_survey": 50.4
+                },
+                "buckets": [
+                  {
+                    "id": "about_you_company_size_1_employee",
+                    "count": 53,
+                    "percentage_survey": 4.4,
+                    "percentage_question": 8.7
+                  },
+                  {
+                    "id": "about_you_company_size_2_to_5",
+                    "count": 71,
+                    "percentage_survey": 5.9,
+                    "percentage_question": 11.7
+                  },
+                  {
+                    "id": "about_you_company_size_6_to_10",
+                    "count": 55,
+                    "percentage_survey": 4.6,
+                    "percentage_question": 9
+                  },
+                  {
+                    "id": "about_you_company_size_11_to_20",
+                    "count": 73,
+                    "percentage_survey": 6.1,
+                    "percentage_question": 12
+                  },
+                  {
+                    "id": "about_you_company_size_21_to_50",
+                    "count": 96,
+                    "percentage_survey": 8,
+                    "percentage_question": 15.7
+                  },
+                  {
+                    "id": "about_you_company_size_51_to_100",
+                    "count": 60,
+                    "percentage_survey": 5,
+                    "percentage_question": 9.9
+                  },
+                  {
+                    "id": "about_you_company_size_101_to_500",
+                    "count": 111,
+                    "percentage_survey": 9.2,
+                    "percentage_question": 18.2
+                  },
+                  {
+                    "id": "about_you_company_size_501_to_1000",
+                    "count": 24,
+                    "percentage_survey": 2,
+                    "percentage_question": 4
+                  },
+                  {
+                    "id": "about_you_company_size_1000_or_more",
+                    "count": 69,
+                    "percentage_survey": 5.7,
+                    "percentage_question": 11.3
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "dataAPI": {
+    "survey": {
+      "about_you": {
+        "about_you_experience_in_rn": {
+          "keys": [
+            "about_you_experience_in_rn_1_year_or_less",
+            "about_you_experience_in_rn_2_to_3_years",
+            "about_you_experience_in_rn_4_to_5_years",
+            "about_you_experience_in_rn_6_years_or_more"
+          ],
+          "year": {
+            "year": 2022,
+            "completion": {
+              "total": 1215,
+              "count": 617,
+              "percentage_survey": 50.8
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 1215,
+                  "count": 617,
+                  "percentage_survey": 50.8
+                },
+                "buckets": [
+                  {
+                    "id": "about_you_experience_in_rn_1_year_or_less",
+                    "count": 89,
+                    "percentage_survey": 7.4,
+                    "percentage_question": 14.5
+                  },
+                  {
+                    "id": "about_you_experience_in_rn_2_to_3_years",
+                    "count": 259,
+                    "percentage_survey": 21.4,
+                    "percentage_question": 42
+                  },
+                  {
+                    "id": "about_you_experience_in_rn_4_to_5_years",
+                    "count": 200,
+                    "percentage_survey": 16.5,
+                    "percentage_question": 32.5
+                  },
+                  {
+                    "id": "about_you_experience_in_rn_6_years_or_more",
+                    "count": 69,
+                    "percentage_survey": 5.7,
+                    "percentage_question": 11.2
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

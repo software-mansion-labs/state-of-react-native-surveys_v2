@@ -1,0 +1,61 @@
+{
+  "dataAPI": {
+    "survey": {
+      "about_you": {
+        "about_you_gender": {
+          "keys": [
+            "about_you_gender_female",
+            "about_you_gender_male",
+            "about_you_gender_non_binary",
+            "about_you_gender_not_listed"
+          ],
+          "year": {
+            "year": 2022,
+            "completion": {
+              "total": 1215,
+              "count": 612,
+              "percentage_survey": 50.4
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 1215,
+                  "count": 612,
+                  "percentage_survey": 50.4
+                },
+                "buckets": [
+                  {
+                    "id": "about_you_gender_female",
+                    "count": 10,
+                    "percentage_survey": 0.9,
+                    "percentage_question": 1.7
+                  },
+                  {
+                    "id": "about_you_gender_male",
+                    "count": 593,
+                    "percentage_survey": 48.9,
+                    "percentage_question": 96.9
+                  },
+                  {
+                    "id": "about_you_gender_non_binary",
+                    "count": 4,
+                    "percentage_survey": 0.4,
+                    "percentage_question": 0.7
+                  },
+                  {
+                    "id": "about_you_gender_not_listed",
+                    "count": 5,
+                    "percentage_survey": 0.5,
+                    "percentage_question": 0.9
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
