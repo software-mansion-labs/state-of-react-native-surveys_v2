@@ -1,0 +1,74 @@
+{
+  "dataAPI": {
+    "survey": {
+      "tools": {
+        "tools_package_managers": {
+          "keys": [
+            "tools_package_managers_npm",
+            "tools_package_managers_yarn",
+            "tools_package_managers_yarn_berry",
+            "tools_package_managers_pnpm"
+          ],
+          "year": {
+            "year": 2022,
+            "completion": {
+              "total": 1215,
+              "count": 648,
+              "percentage_survey": 53.4
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 1215,
+                  "percentage_survey": 53.4,
+                  "percentage_question": 100,
+                  "count": 648
+                },
+                "buckets": [
+                  {
+                    "id": "tools_package_managers_npm",
+                    "count": 119,
+                    "percentage_question": 18.4,
+                    "percentage_survey": 9.8,
+                    "entity": {
+                      "name": "npm"
+                    }
+                  },
+                  {
+                    "id": "tools_package_managers_yarn",
+                    "count": 441,
+                    "percentage_question": 68.1,
+                    "percentage_survey": 36.3,
+                    "entity": {
+                      "name": "yarn"
+                    }
+                  },
+                  {
+                    "id": "tools_package_managers_yarn_berry",
+                    "count": 58,
+                    "percentage_question": 9,
+                    "percentage_survey": 4.8,
+                    "entity": {
+                      "name": "yarn berry (yarn v2+)"
+                    }
+                  },
+                  {
+                    "id": "tools_package_managers_pnpm",
+                    "count": 30,
+                    "percentage_question": 4.7,
+                    "percentage_survey": 2.5,
+                    "entity": {
+                      "name": "pnpm"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

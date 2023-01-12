@@ -22,33 +22,46 @@
                 "type": "default",
                 "completion": {
                   "total": 1215,
-                  "count": 612,
-                  "percentage_survey": 50.4
+                  "percentage_survey": 50.4,
+                  "percentage_question": 100,
+                  "count": 612
                 },
                 "buckets": [
                   {
                     "id": "about_you_gender_female",
                     "count": 10,
+                    "percentage_question": 1.7,
                     "percentage_survey": 0.9,
-                    "percentage_question": 1.7
+                    "entity": {
+                      "name": "Female"
+                    }
                   },
                   {
                     "id": "about_you_gender_male",
                     "count": 593,
+                    "percentage_question": 96.9,
                     "percentage_survey": 48.9,
-                    "percentage_question": 96.9
+                    "entity": {
+                      "name": "Male"
+                    }
                   },
                   {
                     "id": "about_you_gender_non_binary",
                     "count": 4,
+                    "percentage_question": 0.7,
                     "percentage_survey": 0.4,
-                    "percentage_question": 0.7
+                    "entity": {
+                      "name": "Non-Binary or Gender Non-Conforming"
+                    }
                   },
                   {
                     "id": "about_you_gender_not_listed",
                     "count": 5,
+                    "percentage_question": 0.9,
                     "percentage_survey": 0.5,
-                    "percentage_question": 0.9
+                    "entity": {
+                      "name": "Not listed"
+                    }
                   }
                 ]
               }

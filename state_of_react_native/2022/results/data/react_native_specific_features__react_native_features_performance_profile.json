@@ -1,0 +1,84 @@
+{
+  "dataAPI": {
+    "survey": {
+      "react_native_specific_features": {
+        "react_native_features_performance_profile": {
+          "keys": [
+            "react_native_features_performance_native",
+            "react_native_features_performance_profile_react_native_performance",
+            "react_native_features_performance_profile_react_native_performance_monitor",
+            "react_native_features_performance_profile_flipper",
+            "react_native_features_performance_profile_flipper_performance_plugin"
+          ],
+          "year": {
+            "year": 2022,
+            "completion": {
+              "total": 1215,
+              "count": 450,
+              "percentage_survey": 37.1
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 1215,
+                  "percentage_survey": 73.2,
+                  "percentage_question": 197.6,
+                  "count": 889
+                },
+                "buckets": [
+                  {
+                    "id": "react_native_features_performance_native",
+                    "count": 214,
+                    "percentage_question": 47.6,
+                    "percentage_survey": 17.7,
+                    "entity": {
+                      "name": "Native profiling (Xcode, Android Studio)"
+                    }
+                  },
+                  {
+                    "id": "react_native_features_performance_profile_react_native_performance",
+                    "count": 135,
+                    "percentage_question": 30,
+                    "percentage_survey": 11.2,
+                    "entity": {
+                      "name": "React Native Performance"
+                    }
+                  },
+                  {
+                    "id": "react_native_features_performance_profile_react_native_performance_monitor",
+                    "count": 113,
+                    "percentage_question": 25.2,
+                    "percentage_survey": 9.4,
+                    "entity": {
+                      "name": "React Native Performance Monitor"
+                    }
+                  },
+                  {
+                    "id": "react_native_features_performance_profile_flipper",
+                    "count": 317,
+                    "percentage_question": 70.5,
+                    "percentage_survey": 26.1,
+                    "entity": {
+                      "name": "Flipper"
+                    }
+                  },
+                  {
+                    "id": "react_native_features_performance_profile_flipper_performance_plugin",
+                    "count": 110,
+                    "percentage_question": 24.5,
+                    "percentage_survey": 9.1,
+                    "entity": {
+                      "name": "React Native Flipper Performance Plugin"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -22,33 +22,46 @@
                 "type": "default",
                 "completion": {
                   "total": 1215,
-                  "count": 617,
-                  "percentage_survey": 50.8
+                  "percentage_survey": 50.8,
+                  "percentage_question": 100,
+                  "count": 617
                 },
                 "buckets": [
                   {
                     "id": "about_you_experience_in_rn_1_year_or_less",
                     "count": 89,
+                    "percentage_question": 14.5,
                     "percentage_survey": 7.4,
-                    "percentage_question": 14.5
+                    "entity": {
+                      "name": "1 year or less"
+                    }
                   },
                   {
                     "id": "about_you_experience_in_rn_2_to_3_years",
                     "count": 259,
+                    "percentage_question": 42,
                     "percentage_survey": 21.4,
-                    "percentage_question": 42
+                    "entity": {
+                      "name": "2 to 3 years"
+                    }
                   },
                   {
                     "id": "about_you_experience_in_rn_4_to_5_years",
                     "count": 200,
+                    "percentage_question": 32.5,
                     "percentage_survey": 16.5,
-                    "percentage_question": 32.5
+                    "entity": {
+                      "name": "4 to 5 years"
+                    }
                   },
                   {
                     "id": "about_you_experience_in_rn_6_years_or_more",
                     "count": 69,
+                    "percentage_question": 11.2,
                     "percentage_survey": 5.7,
-                    "percentage_question": 11.2
+                    "entity": {
+                      "name": "6 years or more"
+                    }
                   }
                 ]
               }
