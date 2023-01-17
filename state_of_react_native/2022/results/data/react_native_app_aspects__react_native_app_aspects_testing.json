@@ -15,112 +15,114 @@
             "react_native_app_aspects_testing_xcuitest",
             "react_native_app_aspects_testing_espresso"
           ],
-          "year": {
-            "year": 2022,
-            "completion": {
-              "total": 1215,
-              "count": 539,
-              "percentage_survey": 44.4
-            },
-            "facets": [
-              {
-                "id": "default",
-                "type": "default",
-                "completion": {
-                  "total": 1215,
-                  "percentage_survey": 105.2,
-                  "percentage_question": 237,
-                  "count": 1277
-                },
-                "buckets": [
-                  {
-                    "id": "react_native_app_aspects_testing_jest",
-                    "count": 492,
-                    "percentage_question": 91.3,
-                    "percentage_survey": 40.5,
-                    "entity": {
-                      "name": "Jest",
-                      "homepage": {
-                        "url": "https://jestjs.io/"
-                      }
-                    }
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 1215,
+                "count": 539,
+                "percentage_survey": 44.4
+              },
+              "facets": [
+                {
+                  "id": "default",
+                  "type": "default",
+                  "completion": {
+                    "total": 1215,
+                    "percentage_survey": 105.2,
+                    "percentage_question": 237,
+                    "count": 1277
                   },
-                  {
-                    "id": "react_native_app_aspects_testing_react_native_testing_library",
-                    "count": 380,
-                    "percentage_question": 70.6,
-                    "percentage_survey": 31.3,
-                    "entity": {
-                      "name": "React Native Testing Library",
-                      "homepage": {
-                        "url": "https://callstack.github.io/react-native-testing-library/"
+                  "buckets": [
+                    {
+                      "id": "react_native_app_aspects_testing_jest",
+                      "count": 492,
+                      "percentage_question": 91.3,
+                      "percentage_survey": 40.5,
+                      "entity": {
+                        "name": "Jest",
+                        "homepage": {
+                          "url": "https://jestjs.io/"
+                        }
+                      }
+                    },
+                    {
+                      "id": "react_native_app_aspects_testing_react_native_testing_library",
+                      "count": 380,
+                      "percentage_question": 70.6,
+                      "percentage_survey": 31.3,
+                      "entity": {
+                        "name": "React Native Testing Library",
+                        "homepage": {
+                          "url": "https://callstack.github.io/react-native-testing-library/"
+                        }
+                      }
+                    },
+                    {
+                      "id": "react_native_app_aspects_testing_detox",
+                      "count": 253,
+                      "percentage_question": 47,
+                      "percentage_survey": 20.9,
+                      "entity": {
+                        "name": "Detox",
+                        "homepage": {
+                          "url": "https://wix.github.io/Detox/"
+                        }
+                      }
+                    },
+                    {
+                      "id": "react_native_app_aspects_testing_appium",
+                      "count": 79,
+                      "percentage_question": 14.7,
+                      "percentage_survey": 6.6,
+                      "entity": {
+                        "name": "Appium",
+                        "homepage": {
+                          "url": "https://appium.io/"
+                        }
+                      }
+                    },
+                    {
+                      "id": "react_native_app_aspects_testing_maestro",
+                      "count": 52,
+                      "percentage_question": 9.7,
+                      "percentage_survey": 4.3,
+                      "entity": {
+                        "name": "Maestro",
+                        "homepage": {
+                          "url": "https://maestro.mobile.dev/"
+                        }
+                      }
+                    },
+                    {
+                      "id": "react_native_app_aspects_testing_xcuitest",
+                      "count": 10,
+                      "percentage_question": 1.9,
+                      "percentage_survey": 0.9,
+                      "entity": {
+                        "name": "XCUITest",
+                        "homepage": {
+                          "url": "https://developer.apple.com/documentation/xctest"
+                        }
+                      }
+                    },
+                    {
+                      "id": "react_native_app_aspects_testing_espresso",
+                      "count": 11,
+                      "percentage_question": 2.1,
+                      "percentage_survey": 1,
+                      "entity": {
+                        "name": "Espresso",
+                        "homepage": {
+                          "url": "https://developer.android.com/training/testing/espresso"
+                        }
                       }
                     }
-                  },
-                  {
-                    "id": "react_native_app_aspects_testing_detox",
-                    "count": 253,
-                    "percentage_question": 47,
-                    "percentage_survey": 20.9,
-                    "entity": {
-                      "name": "Detox",
-                      "homepage": {
-                        "url": "https://wix.github.io/Detox/"
-                      }
-                    }
-                  },
-                  {
-                    "id": "react_native_app_aspects_testing_appium",
-                    "count": 79,
-                    "percentage_question": 14.7,
-                    "percentage_survey": 6.6,
-                    "entity": {
-                      "name": "Appium",
-                      "homepage": {
-                        "url": "https://appium.io/"
-                      }
-                    }
-                  },
-                  {
-                    "id": "react_native_app_aspects_testing_maestro",
-                    "count": 52,
-                    "percentage_question": 9.7,
-                    "percentage_survey": 4.3,
-                    "entity": {
-                      "name": "Maestro",
-                      "homepage": {
-                        "url": "https://maestro.mobile.dev/"
-                      }
-                    }
-                  },
-                  {
-                    "id": "react_native_app_aspects_testing_xcuitest",
-                    "count": 10,
-                    "percentage_question": 1.9,
-                    "percentage_survey": 0.9,
-                    "entity": {
-                      "name": "XCUITest",
-                      "homepage": {
-                        "url": "https://developer.apple.com/documentation/xctest"
-                      }
-                    }
-                  },
-                  {
-                    "id": "react_native_app_aspects_testing_espresso",
-                    "count": 11,
-                    "percentage_question": 2.1,
-                    "percentage_survey": 1,
-                    "entity": {
-                      "name": "Espresso",
-                      "homepage": {
-                        "url": "https://developer.android.com/training/testing/espresso"
-                      }
-                    }
-                  }
-                ]
-              }
-            ]
-          }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       }
     }

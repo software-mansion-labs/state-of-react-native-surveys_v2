@@ -11,64 +11,66 @@
             "react_native_app_aspects_interactions_touchables",
             "react_native_app_aspects_interactions_react_native_gesture_handler"
           ],
-          "year": {
-            "year": 2022,
-            "completion": {
-              "total": 1215,
-              "count": 620,
-              "percentage_survey": 51.1
-            },
-            "facets": [
-              {
-                "id": "default",
-                "type": "default",
-                "completion": {
-                  "total": 1215,
-                  "percentage_survey": 108.1,
-                  "percentage_question": 211.8,
-                  "count": 1313
-                },
-                "buckets": [
-                  {
-                    "id": "react_native_app_aspects_interactions_panresponder_api",
-                    "count": 254,
-                    "percentage_question": 41,
-                    "percentage_survey": 21,
-                    "entity": {
-                      "name": "PanResponder API",
-                      "homepage": {
-                        "url": "https://reactnative.dev/docs/panresponder"
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 1215,
+                "count": 620,
+                "percentage_survey": 51.1
+              },
+              "facets": [
+                {
+                  "id": "default",
+                  "type": "default",
+                  "completion": {
+                    "total": 1215,
+                    "percentage_survey": 108.1,
+                    "percentage_question": 211.8,
+                    "count": 1313
+                  },
+                  "buckets": [
+                    {
+                      "id": "react_native_app_aspects_interactions_panresponder_api",
+                      "count": 254,
+                      "percentage_question": 41,
+                      "percentage_survey": 21,
+                      "entity": {
+                        "name": "PanResponder API",
+                        "homepage": {
+                          "url": "https://reactnative.dev/docs/panresponder"
+                        }
+                      }
+                    },
+                    {
+                      "id": "react_native_app_aspects_interactions_touchables",
+                      "count": 500,
+                      "percentage_question": 80.7,
+                      "percentage_survey": 41.2,
+                      "entity": {
+                        "name": "Touchables/Pressables"
+                      }
+                    },
+                    {
+                      "id": "react_native_app_aspects_interactions_react_native_gesture_handler",
+                      "count": 559,
+                      "percentage_question": 90.2,
+                      "percentage_survey": 46.1,
+                      "entity": {
+                        "name": "React Native Gesture Handler",
+                        "homepage": {
+                          "url": "https://docs.swmansion.com/react-native-gesture-handler/"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/react-native-gesture-handler"
+                        }
                       }
                     }
-                  },
-                  {
-                    "id": "react_native_app_aspects_interactions_touchables",
-                    "count": 500,
-                    "percentage_question": 80.7,
-                    "percentage_survey": 41.2,
-                    "entity": {
-                      "name": "Touchables/Pressables"
-                    }
-                  },
-                  {
-                    "id": "react_native_app_aspects_interactions_react_native_gesture_handler",
-                    "count": 559,
-                    "percentage_question": 90.2,
-                    "percentage_survey": 46.1,
-                    "entity": {
-                      "name": "React Native Gesture Handler",
-                      "homepage": {
-                        "url": "https://docs.swmansion.com/react-native-gesture-handler/"
-                      },
-                      "npm": {
-                        "url": "https://www.npmjs.com/package/react-native-gesture-handler"
-                      }
-                    }
-                  }
-                ]
-              }
-            ]
-          }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       }
     }

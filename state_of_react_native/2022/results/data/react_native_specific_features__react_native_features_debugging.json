@@ -15,91 +15,93 @@
             "react_native_features_debugging_flipper",
             "react_native_features_debugging_console_log"
           ],
-          "year": {
-            "year": 2022,
-            "completion": {
-              "total": 1215,
-              "count": 641,
-              "percentage_survey": 52.8
-            },
-            "facets": [
-              {
-                "id": "default",
-                "type": "default",
-                "completion": {
-                  "total": 1215,
-                  "percentage_survey": 173.6,
-                  "percentage_question": 329.1,
-                  "count": 2109
-                },
-                "buckets": [
-                  {
-                    "id": "react_native_features_debugging_react_native_debugger",
-                    "count": 400,
-                    "percentage_question": 62.5,
-                    "percentage_survey": 33,
-                    "entity": {
-                      "name": "React Native Debugger"
-                    }
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 1215,
+                "count": 641,
+                "percentage_survey": 52.8
+              },
+              "facets": [
+                {
+                  "id": "default",
+                  "type": "default",
+                  "completion": {
+                    "total": 1215,
+                    "percentage_survey": 173.6,
+                    "percentage_question": 329.1,
+                    "count": 2109
                   },
-                  {
-                    "id": "react_native_features_debugging_chrome_dev_tools",
-                    "count": 314,
-                    "percentage_question": 49,
-                    "percentage_survey": 25.9,
-                    "entity": {
-                      "name": "Chrome DevTools"
+                  "buckets": [
+                    {
+                      "id": "react_native_features_debugging_react_native_debugger",
+                      "count": 400,
+                      "percentage_question": 62.5,
+                      "percentage_survey": 33,
+                      "entity": {
+                        "name": "React Native Debugger"
+                      }
+                    },
+                    {
+                      "id": "react_native_features_debugging_chrome_dev_tools",
+                      "count": 314,
+                      "percentage_question": 49,
+                      "percentage_survey": 25.9,
+                      "entity": {
+                        "name": "Chrome DevTools"
+                      }
+                    },
+                    {
+                      "id": "react_native_features_debugging_react_dev_tools",
+                      "count": 193,
+                      "percentage_question": 30.2,
+                      "percentage_survey": 15.9,
+                      "entity": {
+                        "name": "React Developer Tools"
+                      }
+                    },
+                    {
+                      "id": "react_native_features_debugging_native_debugging",
+                      "count": 252,
+                      "percentage_question": 39.4,
+                      "percentage_survey": 20.8,
+                      "entity": {
+                        "name": "Native debugging (Xcode, Android Studio)"
+                      }
+                    },
+                    {
+                      "id": "react_native_features_debugging_reactotron",
+                      "count": 114,
+                      "percentage_question": 17.8,
+                      "percentage_survey": 9.4,
+                      "entity": {
+                        "name": "Reactotron"
+                      }
+                    },
+                    {
+                      "id": "react_native_features_debugging_flipper",
+                      "count": 425,
+                      "percentage_question": 66.4,
+                      "percentage_survey": 35,
+                      "entity": {
+                        "name": "Flipper"
+                      }
+                    },
+                    {
+                      "id": "react_native_features_debugging_console_log",
+                      "count": 411,
+                      "percentage_question": 64.2,
+                      "percentage_survey": 33.9,
+                      "entity": {
+                        "name": "Console logs"
+                      }
                     }
-                  },
-                  {
-                    "id": "react_native_features_debugging_react_dev_tools",
-                    "count": 193,
-                    "percentage_question": 30.2,
-                    "percentage_survey": 15.9,
-                    "entity": {
-                      "name": "React Developer Tools"
-                    }
-                  },
-                  {
-                    "id": "react_native_features_debugging_native_debugging",
-                    "count": 252,
-                    "percentage_question": 39.4,
-                    "percentage_survey": 20.8,
-                    "entity": {
-                      "name": "Native debugging (Xcode, Android Studio)"
-                    }
-                  },
-                  {
-                    "id": "react_native_features_debugging_reactotron",
-                    "count": 114,
-                    "percentage_question": 17.8,
-                    "percentage_survey": 9.4,
-                    "entity": {
-                      "name": "Reactotron"
-                    }
-                  },
-                  {
-                    "id": "react_native_features_debugging_flipper",
-                    "count": 425,
-                    "percentage_question": 66.4,
-                    "percentage_survey": 35,
-                    "entity": {
-                      "name": "Flipper"
-                    }
-                  },
-                  {
-                    "id": "react_native_features_debugging_console_log",
-                    "count": 411,
-                    "percentage_question": 64.2,
-                    "percentage_survey": 33.9,
-                    "entity": {
-                      "name": "Console logs"
-                    }
-                  }
-                ]
-              }
-            ]
-          }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       }
     }

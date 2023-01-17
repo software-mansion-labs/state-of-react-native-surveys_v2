@@ -11,55 +11,57 @@
             "developer_background_usage_type.answer.b",
             "developer_background_usage_type.answer.c"
           ],
-          "year": {
-            "year": 2022,
-            "completion": {
-              "total": 1215,
-              "count": 910,
-              "percentage_survey": 74.9
-            },
-            "facets": [
-              {
-                "id": "default",
-                "type": "default",
-                "completion": {
-                  "total": 1215,
-                  "percentage_survey": 74.9,
-                  "percentage_question": 100,
-                  "count": 910
-                },
-                "buckets": [
-                  {
-                    "id": "developer_background_usage_type_answer_a",
-                    "count": 808,
-                    "percentage_question": 88.8,
-                    "percentage_survey": 66.6,
-                    "entity": {
-                      "name": "Professionally"
-                    }
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 1215,
+                "count": 910,
+                "percentage_survey": 74.9
+              },
+              "facets": [
+                {
+                  "id": "default",
+                  "type": "default",
+                  "completion": {
+                    "total": 1215,
+                    "percentage_survey": 74.9,
+                    "percentage_question": 100,
+                    "count": 910
                   },
-                  {
-                    "id": "developer_background_usage_type_answer_b",
-                    "count": 23,
-                    "percentage_question": 2.6,
-                    "percentage_survey": 1.9,
-                    "entity": {
-                      "name": "As a student"
+                  "buckets": [
+                    {
+                      "id": "developer_background_usage_type_answer_a",
+                      "count": 808,
+                      "percentage_question": 88.8,
+                      "percentage_survey": 66.6,
+                      "entity": {
+                        "name": "Professionally"
+                      }
+                    },
+                    {
+                      "id": "developer_background_usage_type_answer_b",
+                      "count": 23,
+                      "percentage_question": 2.6,
+                      "percentage_survey": 1.9,
+                      "entity": {
+                        "name": "As a student"
+                      }
+                    },
+                    {
+                      "id": "developer_background_usage_type_answer_c",
+                      "count": 79,
+                      "percentage_question": 8.7,
+                      "percentage_survey": 6.6,
+                      "entity": {
+                        "name": "As a hobby"
+                      }
                     }
-                  },
-                  {
-                    "id": "developer_background_usage_type_answer_c",
-                    "count": 79,
-                    "percentage_question": 8.7,
-                    "percentage_survey": 6.6,
-                    "entity": {
-                      "name": "As a hobby"
-                    }
-                  }
-                ]
-              }
-            ]
-          }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       }
     }

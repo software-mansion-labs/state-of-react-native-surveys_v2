@@ -13,73 +13,75 @@
             "developer_background_team_size.answer.d",
             "developer_background_team_size.answer.e"
           ],
-          "year": {
-            "year": 2022,
-            "completion": {
-              "total": 1215,
-              "count": 903,
-              "percentage_survey": 74.4
-            },
-            "facets": [
-              {
-                "id": "default",
-                "type": "default",
-                "completion": {
-                  "total": 1215,
-                  "percentage_survey": 74.4,
-                  "percentage_question": 100,
-                  "count": 903
-                },
-                "buckets": [
-                  {
-                    "id": "developer_background_team_size_answer_a",
-                    "count": 247,
-                    "percentage_question": 27.4,
-                    "percentage_survey": 20.4,
-                    "entity": {
-                      "name": "Solo developer"
-                    }
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 1215,
+                "count": 903,
+                "percentage_survey": 74.4
+              },
+              "facets": [
+                {
+                  "id": "default",
+                  "type": "default",
+                  "completion": {
+                    "total": 1215,
+                    "percentage_survey": 74.4,
+                    "percentage_question": 100,
+                    "count": 903
                   },
-                  {
-                    "id": "developer_background_team_size_answer_b",
-                    "count": 138,
-                    "percentage_question": 15.3,
-                    "percentage_survey": 11.4,
-                    "entity": {
-                      "name": "2"
+                  "buckets": [
+                    {
+                      "id": "developer_background_team_size_answer_a",
+                      "count": 247,
+                      "percentage_question": 27.4,
+                      "percentage_survey": 20.4,
+                      "entity": {
+                        "name": "Solo developer"
+                      }
+                    },
+                    {
+                      "id": "developer_background_team_size_answer_b",
+                      "count": 138,
+                      "percentage_question": 15.3,
+                      "percentage_survey": 11.4,
+                      "entity": {
+                        "name": "2"
+                      }
+                    },
+                    {
+                      "id": "developer_background_team_size_answer_c",
+                      "count": 289,
+                      "percentage_question": 32.1,
+                      "percentage_survey": 23.8,
+                      "entity": {
+                        "name": "3-5"
+                      }
+                    },
+                    {
+                      "id": "developer_background_team_size_answer_d",
+                      "count": 105,
+                      "percentage_question": 11.7,
+                      "percentage_survey": 8.7,
+                      "entity": {
+                        "name": "6-10"
+                      }
+                    },
+                    {
+                      "id": "developer_background_team_size_answer_e",
+                      "count": 124,
+                      "percentage_question": 13.8,
+                      "percentage_survey": 10.3,
+                      "entity": {
+                        "name": "more than 10"
+                      }
                     }
-                  },
-                  {
-                    "id": "developer_background_team_size_answer_c",
-                    "count": 289,
-                    "percentage_question": 32.1,
-                    "percentage_survey": 23.8,
-                    "entity": {
-                      "name": "3-5"
-                    }
-                  },
-                  {
-                    "id": "developer_background_team_size_answer_d",
-                    "count": 105,
-                    "percentage_question": 11.7,
-                    "percentage_survey": 8.7,
-                    "entity": {
-                      "name": "6-10"
-                    }
-                  },
-                  {
-                    "id": "developer_background_team_size_answer_e",
-                    "count": 124,
-                    "percentage_question": 13.8,
-                    "percentage_survey": 10.3,
-                    "entity": {
-                      "name": "more than 10"
-                    }
-                  }
-                ]
-              }
-            ]
-          }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       }
     }

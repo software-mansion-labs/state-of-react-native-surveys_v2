@@ -17,91 +17,93 @@
             7,
             8
           ],
-          "year": {
-            "year": 2022,
-            "completion": {
-              "total": 1215,
-              "count": 598,
-              "percentage_survey": 49.3
-            },
-            "facets": [
-              {
-                "id": "default",
-                "type": "default",
-                "completion": {
-                  "total": 1215,
-                  "percentage_survey": 49.3,
-                  "percentage_question": 100,
-                  "count": 598
-                },
-                "buckets": [
-                  {
-                    "id": "0",
-                    "count": 46,
-                    "percentage_question": 7.7,
-                    "percentage_survey": 3.8,
-                    "entity": {}
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 1215,
+                "count": 598,
+                "percentage_survey": 49.3
+              },
+              "facets": [
+                {
+                  "id": "default",
+                  "type": "default",
+                  "completion": {
+                    "total": 1215,
+                    "percentage_survey": 49.3,
+                    "percentage_question": 100,
+                    "count": 598
                   },
-                  {
-                    "id": 1,
-                    "count": 16,
-                    "percentage_question": 2.7,
-                    "percentage_survey": 1.4,
-                    "entity": {}
-                  },
-                  {
-                    "id": 2,
-                    "count": 14,
-                    "percentage_question": 2.4,
-                    "percentage_survey": 1.2,
-                    "entity": {}
-                  },
-                  {
-                    "id": 3,
-                    "count": 7,
-                    "percentage_question": 1.2,
-                    "percentage_survey": 0.6,
-                    "entity": {}
-                  },
-                  {
-                    "id": 4,
-                    "count": 30,
-                    "percentage_question": 5.1,
-                    "percentage_survey": 2.5,
-                    "entity": {}
-                  },
-                  {
-                    "id": 5,
-                    "count": 12,
-                    "percentage_question": 2.1,
-                    "percentage_survey": 1,
-                    "entity": {}
-                  },
-                  {
-                    "id": 6,
-                    "count": 41,
-                    "percentage_question": 6.9,
-                    "percentage_survey": 3.4,
-                    "entity": {}
-                  },
-                  {
-                    "id": 7,
-                    "count": 96,
-                    "percentage_question": 16.1,
-                    "percentage_survey": 8,
-                    "entity": {}
-                  },
-                  {
-                    "id": 8,
-                    "count": 336,
-                    "percentage_question": 56.2,
-                    "percentage_survey": 27.7,
-                    "entity": {}
-                  }
-                ]
-              }
-            ]
-          }
+                  "buckets": [
+                    {
+                      "id": "0",
+                      "count": 46,
+                      "percentage_question": 7.7,
+                      "percentage_survey": 3.8,
+                      "entity": {}
+                    },
+                    {
+                      "id": 1,
+                      "count": 16,
+                      "percentage_question": 2.7,
+                      "percentage_survey": 1.4,
+                      "entity": {}
+                    },
+                    {
+                      "id": 2,
+                      "count": 14,
+                      "percentage_question": 2.4,
+                      "percentage_survey": 1.2,
+                      "entity": {}
+                    },
+                    {
+                      "id": 3,
+                      "count": 7,
+                      "percentage_question": 1.2,
+                      "percentage_survey": 0.6,
+                      "entity": {}
+                    },
+                    {
+                      "id": 4,
+                      "count": 30,
+                      "percentage_question": 5.1,
+                      "percentage_survey": 2.5,
+                      "entity": {}
+                    },
+                    {
+                      "id": 5,
+                      "count": 12,
+                      "percentage_question": 2.1,
+                      "percentage_survey": 1,
+                      "entity": {}
+                    },
+                    {
+                      "id": 6,
+                      "count": 41,
+                      "percentage_question": 6.9,
+                      "percentage_survey": 3.4,
+                      "entity": {}
+                    },
+                    {
+                      "id": 7,
+                      "count": 96,
+                      "percentage_question": 16.1,
+                      "percentage_survey": 8,
+                      "entity": {}
+                    },
+                    {
+                      "id": 8,
+                      "count": 336,
+                      "percentage_question": 56.2,
+                      "percentage_survey": 27.7,
+                      "entity": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       }
     }

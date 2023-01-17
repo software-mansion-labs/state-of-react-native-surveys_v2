@@ -12,64 +12,66 @@
             "about_you_gender_non_binary",
             "about_you_gender_not_listed"
           ],
-          "year": {
-            "year": 2022,
-            "completion": {
-              "total": 1215,
-              "count": 612,
-              "percentage_survey": 50.4
-            },
-            "facets": [
-              {
-                "id": "default",
-                "type": "default",
-                "completion": {
-                  "total": 1215,
-                  "percentage_survey": 50.4,
-                  "percentage_question": 100,
-                  "count": 612
-                },
-                "buckets": [
-                  {
-                    "id": "about_you_gender_female",
-                    "count": 10,
-                    "percentage_question": 1.7,
-                    "percentage_survey": 0.9,
-                    "entity": {
-                      "name": "Female"
-                    }
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 1215,
+                "count": 612,
+                "percentage_survey": 50.4
+              },
+              "facets": [
+                {
+                  "id": "default",
+                  "type": "default",
+                  "completion": {
+                    "total": 1215,
+                    "percentage_survey": 50.4,
+                    "percentage_question": 100,
+                    "count": 612
                   },
-                  {
-                    "id": "about_you_gender_male",
-                    "count": 593,
-                    "percentage_question": 96.9,
-                    "percentage_survey": 48.9,
-                    "entity": {
-                      "name": "Male"
+                  "buckets": [
+                    {
+                      "id": "about_you_gender_female",
+                      "count": 10,
+                      "percentage_question": 1.7,
+                      "percentage_survey": 0.9,
+                      "entity": {
+                        "name": "Female"
+                      }
+                    },
+                    {
+                      "id": "about_you_gender_male",
+                      "count": 593,
+                      "percentage_question": 96.9,
+                      "percentage_survey": 48.9,
+                      "entity": {
+                        "name": "Male"
+                      }
+                    },
+                    {
+                      "id": "about_you_gender_non_binary",
+                      "count": 4,
+                      "percentage_question": 0.7,
+                      "percentage_survey": 0.4,
+                      "entity": {
+                        "name": "Non-Binary or Gender Non-Conforming"
+                      }
+                    },
+                    {
+                      "id": "about_you_gender_not_listed",
+                      "count": 5,
+                      "percentage_question": 0.9,
+                      "percentage_survey": 0.5,
+                      "entity": {
+                        "name": "Not listed"
+                      }
                     }
-                  },
-                  {
-                    "id": "about_you_gender_non_binary",
-                    "count": 4,
-                    "percentage_question": 0.7,
-                    "percentage_survey": 0.4,
-                    "entity": {
-                      "name": "Non-Binary or Gender Non-Conforming"
-                    }
-                  },
-                  {
-                    "id": "about_you_gender_not_listed",
-                    "count": 5,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.5,
-                    "entity": {
-                      "name": "Not listed"
-                    }
-                  }
-                ]
-              }
-            ]
-          }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       }
     }

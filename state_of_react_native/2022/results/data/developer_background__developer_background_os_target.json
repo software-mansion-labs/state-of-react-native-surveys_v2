@@ -12,64 +12,66 @@
             "developer_background_os_target.answer.c",
             "developer_background_os_target.answer.d"
           ],
-          "year": {
-            "year": 2022,
-            "completion": {
-              "total": 1215,
-              "count": 888,
-              "percentage_survey": 73.1
-            },
-            "facets": [
-              {
-                "id": "default",
-                "type": "default",
-                "completion": {
-                  "total": 1215,
-                  "percentage_survey": 73.1,
-                  "percentage_question": 100,
-                  "count": 888
-                },
-                "buckets": [
-                  {
-                    "id": "developer_background_os_target_answer_a",
-                    "count": 187,
-                    "percentage_question": 21.1,
-                    "percentage_survey": 15.4,
-                    "entity": {
-                      "name": "Most recent ones (iOS 16+, Android 13+)"
-                    }
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 1215,
+                "count": 888,
+                "percentage_survey": 73.1
+              },
+              "facets": [
+                {
+                  "id": "default",
+                  "type": "default",
+                  "completion": {
+                    "total": 1215,
+                    "percentage_survey": 73.1,
+                    "percentage_question": 100,
+                    "count": 888
                   },
-                  {
-                    "id": "developer_background_os_target_answer_b",
-                    "count": 600,
-                    "percentage_question": 67.6,
-                    "percentage_survey": 49.4,
-                    "entity": {
-                      "name": "Reasonably current (iOS 12+, Android 10+)"
+                  "buckets": [
+                    {
+                      "id": "developer_background_os_target_answer_a",
+                      "count": 187,
+                      "percentage_question": 21.1,
+                      "percentage_survey": 15.4,
+                      "entity": {
+                        "name": "Most recent ones (iOS 16+, Android 13+)"
+                      }
+                    },
+                    {
+                      "id": "developer_background_os_target_answer_b",
+                      "count": 600,
+                      "percentage_question": 67.6,
+                      "percentage_survey": 49.4,
+                      "entity": {
+                        "name": "Reasonably current (iOS 12+, Android 10+)"
+                      }
+                    },
+                    {
+                      "id": "developer_background_os_target_answer_c",
+                      "count": 68,
+                      "percentage_question": 7.7,
+                      "percentage_survey": 5.6,
+                      "entity": {
+                        "name": "Old (iOS 10+, Android 7+)"
+                      }
+                    },
+                    {
+                      "id": "developer_background_os_target_answer_d",
+                      "count": 33,
+                      "percentage_question": 3.8,
+                      "percentage_survey": 2.8,
+                      "entity": {
+                        "name": "As old as possible (iOS 8+, Android 5+)"
+                      }
                     }
-                  },
-                  {
-                    "id": "developer_background_os_target_answer_c",
-                    "count": 68,
-                    "percentage_question": 7.7,
-                    "percentage_survey": 5.6,
-                    "entity": {
-                      "name": "Old (iOS 10+, Android 7+)"
-                    }
-                  },
-                  {
-                    "id": "developer_background_os_target_answer_d",
-                    "count": 33,
-                    "percentage_question": 3.8,
-                    "percentage_survey": 2.8,
-                    "entity": {
-                      "name": "As old as possible (iOS 8+, Android 5+)"
-                    }
-                  }
-                ]
-              }
-            ]
-          }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       }
     }

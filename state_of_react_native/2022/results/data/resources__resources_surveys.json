@@ -18,109 +18,111 @@
             "resources_surveys_postman",
             "resources_surveys_jamstack"
           ],
-          "year": {
-            "year": 2022,
-            "completion": {
-              "total": 1215,
-              "count": 322,
-              "percentage_survey": 26.6
-            },
-            "facets": [
-              {
-                "id": "default",
-                "type": "default",
-                "completion": {
-                  "total": 1215,
-                  "percentage_survey": 46.9,
-                  "percentage_question": 176.8,
-                  "count": 569
-                },
-                "buckets": [
-                  {
-                    "id": "resources_surveys_state_of_js",
-                    "count": 289,
-                    "percentage_question": 89.8,
-                    "percentage_survey": 23.8,
-                    "entity": {
-                      "name": "State of JS"
-                    }
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 1215,
+                "count": 322,
+                "percentage_survey": 26.6
+              },
+              "facets": [
+                {
+                  "id": "default",
+                  "type": "default",
+                  "completion": {
+                    "total": 1215,
+                    "percentage_survey": 46.9,
+                    "percentage_question": 176.8,
+                    "count": 569
                   },
-                  {
-                    "id": "resources_surveys_state_of_css",
-                    "count": 79,
-                    "percentage_question": 24.6,
-                    "percentage_survey": 6.6,
-                    "entity": {
-                      "name": "State of CSS"
+                  "buckets": [
+                    {
+                      "id": "resources_surveys_state_of_js",
+                      "count": 289,
+                      "percentage_question": 89.8,
+                      "percentage_survey": 23.8,
+                      "entity": {
+                        "name": "State of JS"
+                      }
+                    },
+                    {
+                      "id": "resources_surveys_state_of_css",
+                      "count": 79,
+                      "percentage_question": 24.6,
+                      "percentage_survey": 6.6,
+                      "entity": {
+                        "name": "State of CSS"
+                      }
+                    },
+                    {
+                      "id": "resources_surveys_state_of_graphql",
+                      "count": 44,
+                      "percentage_question": 13.7,
+                      "percentage_survey": 3.7,
+                      "entity": {
+                        "name": "State of GraphQL"
+                      }
+                    },
+                    {
+                      "id": "resources_surveys_jetbrains",
+                      "count": 38,
+                      "percentage_question": 11.9,
+                      "percentage_survey": 3.2,
+                      "entity": {
+                        "name": "JetBrains State of Developer Ecosystem"
+                      }
+                    },
+                    {
+                      "id": "resources_surveys_stack_overflow",
+                      "count": 89,
+                      "percentage_question": 27.7,
+                      "percentage_survey": 7.4,
+                      "entity": {
+                        "name": "Stack Overflow Annual Developer Survey"
+                      }
+                    },
+                    {
+                      "id": "resources_surveys_codingame",
+                      "count": 3,
+                      "percentage_question": 1,
+                      "percentage_survey": 0.3,
+                      "entity": {
+                        "name": "CodinGame Developer Survey"
+                      }
+                    },
+                    {
+                      "id": "resources_surveys_design_tools",
+                      "count": 8,
+                      "percentage_question": 2.5,
+                      "percentage_survey": 0.7,
+                      "entity": {
+                        "name": "Design Tools Survey"
+                      }
+                    },
+                    {
+                      "id": "resources_surveys_postman",
+                      "count": 7,
+                      "percentage_question": 2.2,
+                      "percentage_survey": 0.6,
+                      "entity": {
+                        "name": "Postman State of the API Report"
+                      }
+                    },
+                    {
+                      "id": "resources_surveys_jamstack",
+                      "count": 12,
+                      "percentage_question": 3.8,
+                      "percentage_survey": 1,
+                      "entity": {
+                        "name": "Jamstack Community Survey"
+                      }
                     }
-                  },
-                  {
-                    "id": "resources_surveys_state_of_graphql",
-                    "count": 44,
-                    "percentage_question": 13.7,
-                    "percentage_survey": 3.7,
-                    "entity": {
-                      "name": "State of GraphQL"
-                    }
-                  },
-                  {
-                    "id": "resources_surveys_jetbrains",
-                    "count": 38,
-                    "percentage_question": 11.9,
-                    "percentage_survey": 3.2,
-                    "entity": {
-                      "name": "JetBrains State of Developer Ecosystem"
-                    }
-                  },
-                  {
-                    "id": "resources_surveys_stack_overflow",
-                    "count": 89,
-                    "percentage_question": 27.7,
-                    "percentage_survey": 7.4,
-                    "entity": {
-                      "name": "Stack Overflow Annual Developer Survey"
-                    }
-                  },
-                  {
-                    "id": "resources_surveys_codingame",
-                    "count": 3,
-                    "percentage_question": 1,
-                    "percentage_survey": 0.3,
-                    "entity": {
-                      "name": "CodinGame Developer Survey"
-                    }
-                  },
-                  {
-                    "id": "resources_surveys_design_tools",
-                    "count": 8,
-                    "percentage_question": 2.5,
-                    "percentage_survey": 0.7,
-                    "entity": {
-                      "name": "Design Tools Survey"
-                    }
-                  },
-                  {
-                    "id": "resources_surveys_postman",
-                    "count": 7,
-                    "percentage_question": 2.2,
-                    "percentage_survey": 0.6,
-                    "entity": {
-                      "name": "Postman State of the API Report"
-                    }
-                  },
-                  {
-                    "id": "resources_surveys_jamstack",
-                    "count": 12,
-                    "percentage_question": 3.8,
-                    "percentage_survey": 1,
-                    "entity": {
-                      "name": "Jamstack Community Survey"
-                    }
-                  }
-                ]
-              }
-            ]
-          }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       }
     }

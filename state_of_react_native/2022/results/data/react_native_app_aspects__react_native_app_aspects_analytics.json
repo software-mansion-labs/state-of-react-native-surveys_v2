@@ -16,124 +16,126 @@
             "react_native_app_aspects_analytics_appsflyer",
             "react_native_app_aspects_analytics_flurry"
           ],
-          "year": {
-            "year": 2022,
-            "completion": {
-              "total": 1215,
-              "count": 505,
-              "percentage_survey": 41.6
-            },
-            "facets": [
-              {
-                "id": "default",
-                "type": "default",
-                "completion": {
-                  "total": 1215,
-                  "percentage_survey": 71.8,
-                  "percentage_question": 172.7,
-                  "count": 872
-                },
-                "buckets": [
-                  {
-                    "id": "react_native_app_aspects_analytics_firebase_analytics",
-                    "count": 402,
-                    "percentage_question": 79.7,
-                    "percentage_survey": 33.1,
-                    "entity": {
-                      "name": "Firebase Analytics",
-                      "homepage": {
-                        "url": "https://firebase.google.com/docs/analytics"
-                      }
-                    }
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 1215,
+                "count": 505,
+                "percentage_survey": 41.6
+              },
+              "facets": [
+                {
+                  "id": "default",
+                  "type": "default",
+                  "completion": {
+                    "total": 1215,
+                    "percentage_survey": 71.8,
+                    "percentage_question": 172.7,
+                    "count": 872
                   },
-                  {
-                    "id": "react_native_app_aspects_analytics_appcenter_analytics",
-                    "count": 94,
-                    "percentage_question": 18.7,
-                    "percentage_survey": 7.8,
-                    "entity": {
-                      "name": "AppCenter Analytics",
-                      "homepage": {
-                        "url": "https://docs.microsoft.com/en-us/appcenter/analytics/"
+                  "buckets": [
+                    {
+                      "id": "react_native_app_aspects_analytics_firebase_analytics",
+                      "count": 402,
+                      "percentage_question": 79.7,
+                      "percentage_survey": 33.1,
+                      "entity": {
+                        "name": "Firebase Analytics",
+                        "homepage": {
+                          "url": "https://firebase.google.com/docs/analytics"
+                        }
+                      }
+                    },
+                    {
+                      "id": "react_native_app_aspects_analytics_appcenter_analytics",
+                      "count": 94,
+                      "percentage_question": 18.7,
+                      "percentage_survey": 7.8,
+                      "entity": {
+                        "name": "AppCenter Analytics",
+                        "homepage": {
+                          "url": "https://docs.microsoft.com/en-us/appcenter/analytics/"
+                        }
+                      }
+                    },
+                    {
+                      "id": "react_native_app_aspects_analytics_amplitude",
+                      "count": 91,
+                      "percentage_question": 18.1,
+                      "percentage_survey": 7.5,
+                      "entity": {
+                        "name": "Amplitude",
+                        "homepage": {
+                          "url": "https://amplitude.com/"
+                        }
+                      }
+                    },
+                    {
+                      "id": "react_native_app_aspects_analytics_amplify_analytics",
+                      "count": 27,
+                      "percentage_question": 5.4,
+                      "percentage_survey": 2.3,
+                      "entity": {
+                        "name": "Amplify Analytics",
+                        "homepage": {
+                          "url": "https://docs.amplify.aws/lib/analytics/getting-started/q/platform/js"
+                        }
+                      }
+                    },
+                    {
+                      "id": "react_native_app_aspects_analytics_mixpanel",
+                      "count": 90,
+                      "percentage_question": 17.9,
+                      "percentage_survey": 7.5,
+                      "entity": {
+                        "name": "Mixpanel",
+                        "homepage": {
+                          "url": "https://mixpanel.com/"
+                        }
+                      }
+                    },
+                    {
+                      "id": "react_native_app_aspects_analytics_segment",
+                      "count": 96,
+                      "percentage_question": 19.1,
+                      "percentage_survey": 8,
+                      "entity": {
+                        "name": "Segment",
+                        "homepage": {
+                          "url": "https://segment.com/"
+                        }
+                      }
+                    },
+                    {
+                      "id": "react_native_app_aspects_analytics_appsflyer",
+                      "count": 67,
+                      "percentage_question": 13.3,
+                      "percentage_survey": 5.6,
+                      "entity": {
+                        "name": "AppsFlyer",
+                        "homepage": {
+                          "url": "https://www.appsflyer.com/"
+                        }
+                      }
+                    },
+                    {
+                      "id": "react_native_app_aspects_analytics_flurry",
+                      "count": 5,
+                      "percentage_question": 1,
+                      "percentage_survey": 0.5,
+                      "entity": {
+                        "name": "Flurry",
+                        "homepage": {
+                          "url": "https://developer.yahoo.com/flurry/docs/"
+                        }
                       }
                     }
-                  },
-                  {
-                    "id": "react_native_app_aspects_analytics_amplitude",
-                    "count": 91,
-                    "percentage_question": 18.1,
-                    "percentage_survey": 7.5,
-                    "entity": {
-                      "name": "Amplitude",
-                      "homepage": {
-                        "url": "https://amplitude.com/"
-                      }
-                    }
-                  },
-                  {
-                    "id": "react_native_app_aspects_analytics_amplify_analytics",
-                    "count": 27,
-                    "percentage_question": 5.4,
-                    "percentage_survey": 2.3,
-                    "entity": {
-                      "name": "Amplify Analytics",
-                      "homepage": {
-                        "url": "https://docs.amplify.aws/lib/analytics/getting-started/q/platform/js"
-                      }
-                    }
-                  },
-                  {
-                    "id": "react_native_app_aspects_analytics_mixpanel",
-                    "count": 90,
-                    "percentage_question": 17.9,
-                    "percentage_survey": 7.5,
-                    "entity": {
-                      "name": "Mixpanel",
-                      "homepage": {
-                        "url": "https://mixpanel.com/"
-                      }
-                    }
-                  },
-                  {
-                    "id": "react_native_app_aspects_analytics_segment",
-                    "count": 96,
-                    "percentage_question": 19.1,
-                    "percentage_survey": 8,
-                    "entity": {
-                      "name": "Segment",
-                      "homepage": {
-                        "url": "https://segment.com/"
-                      }
-                    }
-                  },
-                  {
-                    "id": "react_native_app_aspects_analytics_appsflyer",
-                    "count": 67,
-                    "percentage_question": 13.3,
-                    "percentage_survey": 5.6,
-                    "entity": {
-                      "name": "AppsFlyer",
-                      "homepage": {
-                        "url": "https://www.appsflyer.com/"
-                      }
-                    }
-                  },
-                  {
-                    "id": "react_native_app_aspects_analytics_flurry",
-                    "count": 5,
-                    "percentage_question": 1,
-                    "percentage_survey": 0.5,
-                    "entity": {
-                      "name": "Flurry",
-                      "homepage": {
-                        "url": "https://developer.yahoo.com/flurry/docs/"
-                      }
-                    }
-                  }
-                ]
-              }
-            ]
-          }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       }
     }
