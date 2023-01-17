@@ -1,78 +1,76 @@
 {
   "dataAPI": {
     "survey": {
-      "tools": {
-        "tools_starter_templates": {
-          "entity": {
-            "name": "Starter templates"
-          },
-          "keys": [
-            "tools_starter_templates_expo",
-            "tools_starter_templates_react_native_cli",
-            "tools_starter_templates_ignite_cli",
-            "tools_starter_templates_create_t3_turbo"
-          ],
-          "all_years": [
-            {
-              "year": 2022,
-              "completion": {
-                "total": 1215,
-                "count": 576,
-                "percentage_survey": 47.5
-              },
-              "facets": [
-                {
-                  "id": "default",
-                  "type": "default",
-                  "completion": {
-                    "total": 1215,
-                    "percentage_survey": 60.8,
-                    "percentage_question": 128.2,
-                    "count": 738
-                  },
-                  "buckets": [
-                    {
-                      "id": "tools_starter_templates_expo",
-                      "count": 313,
-                      "percentage_question": 54.4,
-                      "percentage_survey": 25.8,
-                      "entity": {
-                        "name": "create-expo-app"
-                      }
-                    },
-                    {
-                      "id": "tools_starter_templates_react_native_cli",
-                      "count": 375,
-                      "percentage_question": 65.2,
-                      "percentage_survey": 30.9,
-                      "entity": {
-                        "name": "react-native init"
-                      }
-                    },
-                    {
-                      "id": "tools_starter_templates_ignite_cli",
-                      "count": 27,
-                      "percentage_question": 4.7,
-                      "percentage_survey": 2.3,
-                      "entity": {
-                        "name": "ignite-cli"
-                      }
-                    },
-                    {
-                      "id": "tools_starter_templates_create_t3_turbo",
-                      "count": 23,
-                      "percentage_question": 4,
-                      "percentage_survey": 1.9,
-                      "entity": {
-                        "name": "create-t3-turbo"
-                      }
+      "tools_starter_templates": {
+        "entity": {
+          "name": "Starter templates"
+        },
+        "keys": [
+          "tools_starter_templates_expo",
+          "tools_starter_templates_react_native_cli",
+          "tools_starter_templates_ignite_cli",
+          "tools_starter_templates_create_t3_turbo"
+        ],
+        "all_years": [
+          {
+            "year": 2022,
+            "completion": {
+              "total": 1215,
+              "count": 576,
+              "percentage_survey": 47.5
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 1215,
+                  "percentage_survey": 60.8,
+                  "percentage_question": 128.2,
+                  "count": 738
+                },
+                "buckets": [
+                  {
+                    "id": "tools_starter_templates_expo",
+                    "count": 313,
+                    "percentage_question": 54.4,
+                    "percentage_survey": 25.8,
+                    "entity": {
+                      "name": "create-expo-app"
                     }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
+                  },
+                  {
+                    "id": "tools_starter_templates_react_native_cli",
+                    "count": 375,
+                    "percentage_question": 65.2,
+                    "percentage_survey": 30.9,
+                    "entity": {
+                      "name": "react-native init"
+                    }
+                  },
+                  {
+                    "id": "tools_starter_templates_ignite_cli",
+                    "count": 27,
+                    "percentage_question": 4.7,
+                    "percentage_survey": 2.3,
+                    "entity": {
+                      "name": "ignite-cli"
+                    }
+                  },
+                  {
+                    "id": "tools_starter_templates_create_t3_turbo",
+                    "count": 23,
+                    "percentage_question": 4,
+                    "percentage_survey": 1.9,
+                    "entity": {
+                      "name": "create-t3-turbo"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     }
   }

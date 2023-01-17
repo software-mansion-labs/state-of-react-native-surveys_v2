@@ -1,128 +1,126 @@
 {
   "dataAPI": {
     "survey": {
-      "react_native_specific_features": {
-        "react_native_features_version": {
-          "entity": {
-            "name": "React Native version"
-          },
-          "keys": [
-            "react_native_features_version_0_71",
-            "react_native_features_version_0_70",
-            "react_native_features_version_0_69",
-            "react_native_features_version_0_68",
-            "react_native_features_version_0_67",
-            "react_native_features_version_0_66",
-            "react_native_features_version_0_65",
-            "react_native_features_version_0_64",
-            "react_native_features_version_0_63_or_lower"
-          ],
-          "all_years": [
-            {
-              "year": 2022,
-              "completion": {
-                "total": 1215,
-                "count": 651,
-                "percentage_survey": 53.6
-              },
-              "facets": [
-                {
-                  "id": "default",
-                  "type": "default",
-                  "completion": {
-                    "total": 1215,
-                    "percentage_survey": 53.6,
-                    "percentage_question": 100,
-                    "count": 651
-                  },
-                  "buckets": [
-                    {
-                      "id": "react_native_features_version_0_71",
-                      "count": 142,
-                      "percentage_question": 21.9,
-                      "percentage_survey": 11.7,
-                      "entity": {
-                        "name": "0.71"
-                      }
-                    },
-                    {
-                      "id": "react_native_features_version_0_70",
-                      "count": 224,
-                      "percentage_question": 34.5,
-                      "percentage_survey": 18.5,
-                      "entity": {
-                        "name": "0.70"
-                      }
-                    },
-                    {
-                      "id": "react_native_features_version_0_69",
-                      "count": 120,
-                      "percentage_question": 18.5,
-                      "percentage_survey": 9.9,
-                      "entity": {
-                        "name": "0.69"
-                      }
-                    },
-                    {
-                      "id": "react_native_features_version_0_68",
-                      "count": 72,
-                      "percentage_question": 11.1,
-                      "percentage_survey": 6,
-                      "entity": {
-                        "name": "0.68"
-                      }
-                    },
-                    {
-                      "id": "react_native_features_version_0_67",
-                      "count": 42,
-                      "percentage_question": 6.5,
-                      "percentage_survey": 3.5,
-                      "entity": {
-                        "name": "0.67"
-                      }
-                    },
-                    {
-                      "id": "react_native_features_version_0_66",
-                      "count": 22,
-                      "percentage_question": 3.4,
-                      "percentage_survey": 1.9,
-                      "entity": {
-                        "name": "0.66"
-                      }
-                    },
-                    {
-                      "id": "react_native_features_version_0_65",
-                      "count": 7,
-                      "percentage_question": 1.1,
-                      "percentage_survey": 0.6,
-                      "entity": {
-                        "name": "0.65"
-                      }
-                    },
-                    {
-                      "id": "react_native_features_version_0_64",
-                      "count": 10,
-                      "percentage_question": 1.6,
-                      "percentage_survey": 0.9,
-                      "entity": {
-                        "name": "0.64"
-                      }
-                    },
-                    {
-                      "id": "react_native_features_version_0_63_or_lower",
-                      "count": 12,
-                      "percentage_question": 1.9,
-                      "percentage_survey": 1,
-                      "entity": {
-                        "name": "0.63 or lower"
-                      }
+      "react_native_features_version": {
+        "entity": {
+          "name": "React Native version"
+        },
+        "keys": [
+          "react_native_features_version_0_71",
+          "react_native_features_version_0_70",
+          "react_native_features_version_0_69",
+          "react_native_features_version_0_68",
+          "react_native_features_version_0_67",
+          "react_native_features_version_0_66",
+          "react_native_features_version_0_65",
+          "react_native_features_version_0_64",
+          "react_native_features_version_0_63_or_lower"
+        ],
+        "all_years": [
+          {
+            "year": 2022,
+            "completion": {
+              "total": 1215,
+              "count": 651,
+              "percentage_survey": 53.6
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 1215,
+                  "percentage_survey": 53.6,
+                  "percentage_question": 100,
+                  "count": 651
+                },
+                "buckets": [
+                  {
+                    "id": "react_native_features_version_0_71",
+                    "count": 142,
+                    "percentage_question": 21.9,
+                    "percentage_survey": 11.7,
+                    "entity": {
+                      "name": "0.71"
                     }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
+                  },
+                  {
+                    "id": "react_native_features_version_0_70",
+                    "count": 224,
+                    "percentage_question": 34.5,
+                    "percentage_survey": 18.5,
+                    "entity": {
+                      "name": "0.70"
+                    }
+                  },
+                  {
+                    "id": "react_native_features_version_0_69",
+                    "count": 120,
+                    "percentage_question": 18.5,
+                    "percentage_survey": 9.9,
+                    "entity": {
+                      "name": "0.69"
+                    }
+                  },
+                  {
+                    "id": "react_native_features_version_0_68",
+                    "count": 72,
+                    "percentage_question": 11.1,
+                    "percentage_survey": 6,
+                    "entity": {
+                      "name": "0.68"
+                    }
+                  },
+                  {
+                    "id": "react_native_features_version_0_67",
+                    "count": 42,
+                    "percentage_question": 6.5,
+                    "percentage_survey": 3.5,
+                    "entity": {
+                      "name": "0.67"
+                    }
+                  },
+                  {
+                    "id": "react_native_features_version_0_66",
+                    "count": 22,
+                    "percentage_question": 3.4,
+                    "percentage_survey": 1.9,
+                    "entity": {
+                      "name": "0.66"
+                    }
+                  },
+                  {
+                    "id": "react_native_features_version_0_65",
+                    "count": 7,
+                    "percentage_question": 1.1,
+                    "percentage_survey": 0.6,
+                    "entity": {
+                      "name": "0.65"
+                    }
+                  },
+                  {
+                    "id": "react_native_features_version_0_64",
+                    "count": 10,
+                    "percentage_question": 1.6,
+                    "percentage_survey": 0.9,
+                    "entity": {
+                      "name": "0.64"
+                    }
+                  },
+                  {
+                    "id": "react_native_features_version_0_63_or_lower",
+                    "count": 12,
+                    "percentage_question": 1.9,
+                    "percentage_survey": 1,
+                    "entity": {
+                      "name": "0.63 or lower"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     }
   }

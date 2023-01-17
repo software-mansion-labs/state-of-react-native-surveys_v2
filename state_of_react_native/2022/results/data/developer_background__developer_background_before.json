@@ -1,148 +1,146 @@
 {
   "dataAPI": {
     "survey": {
-      "developer_background": {
-        "developer_background_before": {
-          "entity": {
-            "name": "Before React Native"
-          },
-          "keys": [
-            "developer_background_before.answer.a",
-            "developer_background_before.answer.b",
-            "developer_background_before.answer.c",
-            "developer_background_before.answer.d",
-            "developer_background_before.answer.e",
-            "developer_background_before.answer.f",
-            "developer_background_before.answer.g",
-            "developer_background_before.answer.h",
-            "developer_background_before.answer.i",
-            "developer_background_before.answer.j",
-            "developer_background_before.answer.k"
-          ],
-          "all_years": [
-            {
-              "year": 2022,
-              "completion": {
-                "total": 1215,
-                "count": 911,
-                "percentage_survey": 75
-              },
-              "facets": [
-                {
-                  "id": "default",
-                  "type": "default",
-                  "completion": {
-                    "total": 1215,
-                    "percentage_survey": 150.3,
-                    "percentage_question": 200.4,
-                    "count": 1825
-                  },
-                  "buckets": [
-                    {
-                      "id": "developer_background_before_answer_a",
-                      "count": 574,
-                      "percentage_question": 63.1,
-                      "percentage_survey": 47.3,
-                      "entity": {
-                        "name": "React developer"
-                      }
-                    },
-                    {
-                      "id": "developer_background_before_answer_b",
-                      "count": 113,
-                      "percentage_question": 12.5,
-                      "percentage_survey": 9.4,
-                      "entity": {
-                        "name": "iOS developer"
-                      }
-                    },
-                    {
-                      "id": "developer_background_before_answer_c",
-                      "count": 142,
-                      "percentage_question": 15.6,
-                      "percentage_survey": 11.7,
-                      "entity": {
-                        "name": "Android developer"
-                      }
-                    },
-                    {
-                      "id": "developer_background_before_answer_d",
-                      "count": 396,
-                      "percentage_question": 43.5,
-                      "percentage_survey": 32.6,
-                      "entity": {
-                        "name": "Frontend developer (other than React e.g. Vue, Angular, SolidJS, Svelte, etc.)"
-                      }
-                    },
-                    {
-                      "id": "developer_background_before_answer_e",
-                      "count": 354,
-                      "percentage_question": 38.9,
-                      "percentage_survey": 29.2,
-                      "entity": {
-                        "name": "Backend developer (PHP, Node.js, JVM, Python, etc.)"
-                      }
-                    },
-                    {
-                      "id": "developer_background_before_answer_f",
-                      "count": 51,
-                      "percentage_question": 5.6,
-                      "percentage_survey": 4.2,
-                      "entity": {
-                        "name": "Desktop developer (e.g. macOS, Windows, Linux)"
-                      }
-                    },
-                    {
-                      "id": "developer_background_before_answer_g",
-                      "count": 9,
-                      "percentage_question": 1,
-                      "percentage_survey": 0.8,
-                      "entity": {
-                        "name": "QA engineer"
-                      }
-                    },
-                    {
-                      "id": "developer_background_before_answer_h",
-                      "count": 33,
-                      "percentage_question": 3.7,
-                      "percentage_survey": 2.8,
-                      "entity": {
-                        "name": "DevOps"
-                      }
-                    },
-                    {
-                      "id": "developer_background_before_answer_i",
-                      "count": 13,
-                      "percentage_question": 1.5,
-                      "percentage_survey": 1.1,
-                      "entity": {
-                        "name": "Embedded developer"
-                      }
-                    },
-                    {
-                      "id": "developer_background_before_answer_j",
-                      "count": 13,
-                      "percentage_question": 1.5,
-                      "percentage_survey": 1.1,
-                      "entity": {
-                        "name": "Non-technical role"
-                      }
-                    },
-                    {
-                      "id": "developer_background_before_answer_k",
-                      "count": 127,
-                      "percentage_question": 14,
-                      "percentage_survey": 10.5,
-                      "entity": {
-                        "name": "Started with React Native"
-                      }
+      "developer_background_before": {
+        "entity": {
+          "name": "Before React Native"
+        },
+        "keys": [
+          "developer_background_before.answer.a",
+          "developer_background_before.answer.b",
+          "developer_background_before.answer.c",
+          "developer_background_before.answer.d",
+          "developer_background_before.answer.e",
+          "developer_background_before.answer.f",
+          "developer_background_before.answer.g",
+          "developer_background_before.answer.h",
+          "developer_background_before.answer.i",
+          "developer_background_before.answer.j",
+          "developer_background_before.answer.k"
+        ],
+        "all_years": [
+          {
+            "year": 2022,
+            "completion": {
+              "total": 1215,
+              "count": 911,
+              "percentage_survey": 75
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 1215,
+                  "percentage_survey": 150.3,
+                  "percentage_question": 200.4,
+                  "count": 1825
+                },
+                "buckets": [
+                  {
+                    "id": "developer_background_before_answer_a",
+                    "count": 574,
+                    "percentage_question": 63.1,
+                    "percentage_survey": 47.3,
+                    "entity": {
+                      "name": "React developer"
                     }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
+                  },
+                  {
+                    "id": "developer_background_before_answer_b",
+                    "count": 113,
+                    "percentage_question": 12.5,
+                    "percentage_survey": 9.4,
+                    "entity": {
+                      "name": "iOS developer"
+                    }
+                  },
+                  {
+                    "id": "developer_background_before_answer_c",
+                    "count": 142,
+                    "percentage_question": 15.6,
+                    "percentage_survey": 11.7,
+                    "entity": {
+                      "name": "Android developer"
+                    }
+                  },
+                  {
+                    "id": "developer_background_before_answer_d",
+                    "count": 396,
+                    "percentage_question": 43.5,
+                    "percentage_survey": 32.6,
+                    "entity": {
+                      "name": "Frontend developer (other than React e.g. Vue, Angular, SolidJS, Svelte, etc.)"
+                    }
+                  },
+                  {
+                    "id": "developer_background_before_answer_e",
+                    "count": 354,
+                    "percentage_question": 38.9,
+                    "percentage_survey": 29.2,
+                    "entity": {
+                      "name": "Backend developer (PHP, Node.js, JVM, Python, etc.)"
+                    }
+                  },
+                  {
+                    "id": "developer_background_before_answer_f",
+                    "count": 51,
+                    "percentage_question": 5.6,
+                    "percentage_survey": 4.2,
+                    "entity": {
+                      "name": "Desktop developer (e.g. macOS, Windows, Linux)"
+                    }
+                  },
+                  {
+                    "id": "developer_background_before_answer_g",
+                    "count": 9,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.8,
+                    "entity": {
+                      "name": "QA engineer"
+                    }
+                  },
+                  {
+                    "id": "developer_background_before_answer_h",
+                    "count": 33,
+                    "percentage_question": 3.7,
+                    "percentage_survey": 2.8,
+                    "entity": {
+                      "name": "DevOps"
+                    }
+                  },
+                  {
+                    "id": "developer_background_before_answer_i",
+                    "count": 13,
+                    "percentage_question": 1.5,
+                    "percentage_survey": 1.1,
+                    "entity": {
+                      "name": "Embedded developer"
+                    }
+                  },
+                  {
+                    "id": "developer_background_before_answer_j",
+                    "count": 13,
+                    "percentage_question": 1.5,
+                    "percentage_survey": 1.1,
+                    "entity": {
+                      "name": "Non-technical role"
+                    }
+                  },
+                  {
+                    "id": "developer_background_before_answer_k",
+                    "count": 127,
+                    "percentage_question": 14,
+                    "percentage_survey": 10.5,
+                    "entity": {
+                      "name": "Started with React Native"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     }
   }

@@ -1,378 +1,376 @@
 {
   "dataAPI": {
     "survey": {
-      "platform_apis": {
-        "platform_apis_questions": {
-          "entity": {
-            "name": "Platform APIs usage"
-          },
-          "keys": [
-            "platform_apis_sensors",
-            "platform_apis_camera",
-            "platform_apis_audio",
-            "platform_apis_appearance",
-            "platform_apis_accessibility",
-            "platform_apis_microphone",
-            "platform_apis_media_library",
-            "platform_apis_file_system",
-            "platform_apis_haptics",
-            "platform_apis_video_playback",
-            "platform_apis_clipboard",
-            "platform_apis_openGL",
-            "platform_apis_telephony",
-            "platform_apis_location",
-            "platform_apis_maps",
-            "platform_apis_screen_orientation",
-            "platform_apis_battery_level",
-            "platform_apis_bluetooth",
-            "platform_apis_nfc",
-            "platform_apis_rtl",
-            "platform_apis_biometric_authentication",
-            "platform_apis_cryptography",
-            "platform_apis_notifications",
-            "platform_apis_in_app_payments",
-            "platform_apis_in_app_reviews",
-            "platform_apis_webview",
-            "platform_apis_storage",
-            "platform_apis_deep_links",
-            "platform_apis_concurrency",
-            "platform_apis_printer",
-            "platform_apis_ocr",
-            "platform_apis_ar_av",
-            "platform_apis_ml",
-            "platform_apis_permissions"
-          ],
-          "all_years": [
-            {
-              "year": 2022,
-              "completion": {
-                "total": 1215,
-                "count": 777,
-                "percentage_survey": 64
-              },
-              "facets": [
-                {
-                  "id": "default",
-                  "type": "default",
-                  "completion": {
-                    "total": 1215,
-                    "percentage_survey": 719.3,
-                    "percentage_question": 1124.8,
-                    "count": 8739
-                  },
-                  "buckets": [
-                    {
-                      "id": "platform_apis_sensors",
-                      "count": 141,
-                      "percentage_question": 18.2,
-                      "percentage_survey": 11.7,
-                      "entity": {
-                        "name": "Sensors (gyroscope, accelerometer, etc.)"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_camera",
-                      "count": 576,
-                      "percentage_question": 74.2,
-                      "percentage_survey": 47.5,
-                      "entity": {
-                        "name": "Camera"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_audio",
-                      "count": 246,
-                      "percentage_question": 31.7,
-                      "percentage_survey": 20.3,
-                      "entity": {
-                        "name": "Audio playback"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_appearance",
-                      "count": 341,
-                      "percentage_question": 43.9,
-                      "percentage_survey": 28.1,
-                      "entity": {
-                        "name": "Appearance"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_accessibility",
-                      "count": 209,
-                      "percentage_question": 26.9,
-                      "percentage_survey": 17.3,
-                      "entity": {
-                        "name": "Accessibility"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_microphone",
-                      "count": 203,
-                      "percentage_question": 26.2,
-                      "percentage_survey": 16.8,
-                      "entity": {
-                        "name": "Microphone"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_media_library",
-                      "count": 454,
-                      "percentage_question": 58.5,
-                      "percentage_survey": 37.4,
-                      "entity": {
-                        "name": "Media library (gallery)"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_file_system",
-                      "count": 468,
-                      "percentage_question": 60.3,
-                      "percentage_survey": 38.6,
-                      "entity": {
-                        "name": "File System"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_haptics",
-                      "count": 282,
-                      "percentage_question": 36.3,
-                      "percentage_survey": 23.3,
-                      "entity": {
-                        "name": "Haptics"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_video_playback",
-                      "count": 259,
-                      "percentage_question": 33.4,
-                      "percentage_survey": 21.4,
-                      "entity": {
-                        "name": "Video playback"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_clipboard",
-                      "count": 343,
-                      "percentage_question": 44.2,
-                      "percentage_survey": 28.3,
-                      "entity": {
-                        "name": "Clipboard"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_openGL",
-                      "count": 40,
-                      "percentage_question": 5.2,
-                      "percentage_survey": 3.3,
-                      "entity": {
-                        "name": "OpenGL"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_telephony",
-                      "count": 165,
-                      "percentage_question": 21.3,
-                      "percentage_survey": 13.6,
-                      "entity": {
-                        "name": "Telephony (SMS, email, dialing, etc.)"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_location",
-                      "count": 442,
-                      "percentage_question": 56.9,
-                      "percentage_survey": 36.4,
-                      "entity": {
-                        "name": "Location"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_maps",
-                      "count": 383,
-                      "percentage_question": 49.3,
-                      "percentage_survey": 31.6,
-                      "entity": {
-                        "name": "Maps"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_screen_orientation",
-                      "count": 314,
-                      "percentage_question": 40.5,
-                      "percentage_survey": 25.9,
-                      "entity": {
-                        "name": "Screen orientation"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_battery_level",
-                      "count": 89,
-                      "percentage_question": 11.5,
-                      "percentage_survey": 7.4,
-                      "entity": {
-                        "name": "Battery"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_bluetooth",
-                      "count": 141,
-                      "percentage_question": 18.2,
-                      "percentage_survey": 11.7,
-                      "entity": {
-                        "name": "Bluetooth"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_nfc",
-                      "count": 62,
-                      "percentage_question": 8,
-                      "percentage_survey": 5.2,
-                      "entity": {
-                        "name": "NFC"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_rtl",
-                      "count": 61,
-                      "percentage_question": 7.9,
-                      "percentage_survey": 5.1,
-                      "entity": {
-                        "name": "RTL"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_biometric_authentication",
-                      "count": 218,
-                      "percentage_question": 28.1,
-                      "percentage_survey": 18,
-                      "entity": {
-                        "name": "Biometric authentication"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_cryptography",
-                      "count": 76,
-                      "percentage_question": 9.8,
-                      "percentage_survey": 6.3,
-                      "entity": {
-                        "name": "Cryptography (e.g. hardware encryption)"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_notifications",
-                      "count": 562,
-                      "percentage_question": 72.4,
-                      "percentage_survey": 46.3,
-                      "entity": {
-                        "name": "Notifications"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_in_app_payments",
-                      "count": 242,
-                      "percentage_question": 31.2,
-                      "percentage_survey": 20,
-                      "entity": {
-                        "name": "In-app payments"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_in_app_reviews",
-                      "count": 187,
-                      "percentage_question": 24.1,
-                      "percentage_survey": 15.4,
-                      "entity": {
-                        "name": "In-app reviews"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_webview",
-                      "count": 498,
-                      "percentage_question": 64.1,
-                      "percentage_survey": 41,
-                      "entity": {
-                        "name": "WebView"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_storage",
-                      "count": 373,
-                      "percentage_question": 48.1,
-                      "percentage_survey": 30.7,
-                      "entity": {
-                        "name": "Persistent storage (e.g. SQL database)"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_deep_links",
-                      "count": 527,
-                      "percentage_question": 67.9,
-                      "percentage_survey": 43.4,
-                      "entity": {
-                        "name": "Deep links"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_concurrency",
-                      "count": 173,
-                      "percentage_question": 22.3,
-                      "percentage_survey": 14.3,
-                      "entity": {
-                        "name": "Background processing"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_printer",
-                      "count": 35,
-                      "percentage_question": 4.6,
-                      "percentage_survey": 2.9,
-                      "entity": {
-                        "name": "Printer"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_ocr",
-                      "count": 52,
-                      "percentage_question": 6.7,
-                      "percentage_survey": 4.3,
-                      "entity": {
-                        "name": "OCR"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_ar_av",
-                      "count": 25,
-                      "percentage_question": 3.3,
-                      "percentage_survey": 2.1,
-                      "entity": {
-                        "name": "AR / VR"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_ml",
-                      "count": 34,
-                      "percentage_question": 4.4,
-                      "percentage_survey": 2.8,
-                      "entity": {
-                        "name": "ML / AI"
-                      }
-                    },
-                    {
-                      "id": "platform_apis_permissions",
-                      "count": 518,
-                      "percentage_question": 66.7,
-                      "percentage_survey": 42.7,
-                      "entity": {
-                        "name": "Permissions"
-                      }
+      "platform_apis_questions": {
+        "entity": {
+          "name": "Platform APIs usage"
+        },
+        "keys": [
+          "platform_apis_sensors",
+          "platform_apis_camera",
+          "platform_apis_audio",
+          "platform_apis_appearance",
+          "platform_apis_accessibility",
+          "platform_apis_microphone",
+          "platform_apis_media_library",
+          "platform_apis_file_system",
+          "platform_apis_haptics",
+          "platform_apis_video_playback",
+          "platform_apis_clipboard",
+          "platform_apis_openGL",
+          "platform_apis_telephony",
+          "platform_apis_location",
+          "platform_apis_maps",
+          "platform_apis_screen_orientation",
+          "platform_apis_battery_level",
+          "platform_apis_bluetooth",
+          "platform_apis_nfc",
+          "platform_apis_rtl",
+          "platform_apis_biometric_authentication",
+          "platform_apis_cryptography",
+          "platform_apis_notifications",
+          "platform_apis_in_app_payments",
+          "platform_apis_in_app_reviews",
+          "platform_apis_webview",
+          "platform_apis_storage",
+          "platform_apis_deep_links",
+          "platform_apis_concurrency",
+          "platform_apis_printer",
+          "platform_apis_ocr",
+          "platform_apis_ar_av",
+          "platform_apis_ml",
+          "platform_apis_permissions"
+        ],
+        "all_years": [
+          {
+            "year": 2022,
+            "completion": {
+              "total": 1215,
+              "count": 777,
+              "percentage_survey": 64
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 1215,
+                  "percentage_survey": 719.3,
+                  "percentage_question": 1124.8,
+                  "count": 8739
+                },
+                "buckets": [
+                  {
+                    "id": "platform_apis_sensors",
+                    "count": 141,
+                    "percentage_question": 18.2,
+                    "percentage_survey": 11.7,
+                    "entity": {
+                      "name": "Sensors (gyroscope, accelerometer, etc.)"
                     }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
+                  },
+                  {
+                    "id": "platform_apis_camera",
+                    "count": 576,
+                    "percentage_question": 74.2,
+                    "percentage_survey": 47.5,
+                    "entity": {
+                      "name": "Camera"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_audio",
+                    "count": 246,
+                    "percentage_question": 31.7,
+                    "percentage_survey": 20.3,
+                    "entity": {
+                      "name": "Audio playback"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_appearance",
+                    "count": 341,
+                    "percentage_question": 43.9,
+                    "percentage_survey": 28.1,
+                    "entity": {
+                      "name": "Appearance"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_accessibility",
+                    "count": 209,
+                    "percentage_question": 26.9,
+                    "percentage_survey": 17.3,
+                    "entity": {
+                      "name": "Accessibility"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_microphone",
+                    "count": 203,
+                    "percentage_question": 26.2,
+                    "percentage_survey": 16.8,
+                    "entity": {
+                      "name": "Microphone"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_media_library",
+                    "count": 454,
+                    "percentage_question": 58.5,
+                    "percentage_survey": 37.4,
+                    "entity": {
+                      "name": "Media library (gallery)"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_file_system",
+                    "count": 468,
+                    "percentage_question": 60.3,
+                    "percentage_survey": 38.6,
+                    "entity": {
+                      "name": "File System"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_haptics",
+                    "count": 282,
+                    "percentage_question": 36.3,
+                    "percentage_survey": 23.3,
+                    "entity": {
+                      "name": "Haptics"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_video_playback",
+                    "count": 259,
+                    "percentage_question": 33.4,
+                    "percentage_survey": 21.4,
+                    "entity": {
+                      "name": "Video playback"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_clipboard",
+                    "count": 343,
+                    "percentage_question": 44.2,
+                    "percentage_survey": 28.3,
+                    "entity": {
+                      "name": "Clipboard"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_openGL",
+                    "count": 40,
+                    "percentage_question": 5.2,
+                    "percentage_survey": 3.3,
+                    "entity": {
+                      "name": "OpenGL"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_telephony",
+                    "count": 165,
+                    "percentage_question": 21.3,
+                    "percentage_survey": 13.6,
+                    "entity": {
+                      "name": "Telephony (SMS, email, dialing, etc.)"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_location",
+                    "count": 442,
+                    "percentage_question": 56.9,
+                    "percentage_survey": 36.4,
+                    "entity": {
+                      "name": "Location"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_maps",
+                    "count": 383,
+                    "percentage_question": 49.3,
+                    "percentage_survey": 31.6,
+                    "entity": {
+                      "name": "Maps"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_screen_orientation",
+                    "count": 314,
+                    "percentage_question": 40.5,
+                    "percentage_survey": 25.9,
+                    "entity": {
+                      "name": "Screen orientation"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_battery_level",
+                    "count": 89,
+                    "percentage_question": 11.5,
+                    "percentage_survey": 7.4,
+                    "entity": {
+                      "name": "Battery"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_bluetooth",
+                    "count": 141,
+                    "percentage_question": 18.2,
+                    "percentage_survey": 11.7,
+                    "entity": {
+                      "name": "Bluetooth"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_nfc",
+                    "count": 62,
+                    "percentage_question": 8,
+                    "percentage_survey": 5.2,
+                    "entity": {
+                      "name": "NFC"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_rtl",
+                    "count": 61,
+                    "percentage_question": 7.9,
+                    "percentage_survey": 5.1,
+                    "entity": {
+                      "name": "RTL"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_biometric_authentication",
+                    "count": 218,
+                    "percentage_question": 28.1,
+                    "percentage_survey": 18,
+                    "entity": {
+                      "name": "Biometric authentication"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_cryptography",
+                    "count": 76,
+                    "percentage_question": 9.8,
+                    "percentage_survey": 6.3,
+                    "entity": {
+                      "name": "Cryptography (e.g. hardware encryption)"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_notifications",
+                    "count": 562,
+                    "percentage_question": 72.4,
+                    "percentage_survey": 46.3,
+                    "entity": {
+                      "name": "Notifications"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_in_app_payments",
+                    "count": 242,
+                    "percentage_question": 31.2,
+                    "percentage_survey": 20,
+                    "entity": {
+                      "name": "In-app payments"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_in_app_reviews",
+                    "count": 187,
+                    "percentage_question": 24.1,
+                    "percentage_survey": 15.4,
+                    "entity": {
+                      "name": "In-app reviews"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_webview",
+                    "count": 498,
+                    "percentage_question": 64.1,
+                    "percentage_survey": 41,
+                    "entity": {
+                      "name": "WebView"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_storage",
+                    "count": 373,
+                    "percentage_question": 48.1,
+                    "percentage_survey": 30.7,
+                    "entity": {
+                      "name": "Persistent storage (e.g. SQL database)"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_deep_links",
+                    "count": 527,
+                    "percentage_question": 67.9,
+                    "percentage_survey": 43.4,
+                    "entity": {
+                      "name": "Deep links"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_concurrency",
+                    "count": 173,
+                    "percentage_question": 22.3,
+                    "percentage_survey": 14.3,
+                    "entity": {
+                      "name": "Background processing"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_printer",
+                    "count": 35,
+                    "percentage_question": 4.6,
+                    "percentage_survey": 2.9,
+                    "entity": {
+                      "name": "Printer"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_ocr",
+                    "count": 52,
+                    "percentage_question": 6.7,
+                    "percentage_survey": 4.3,
+                    "entity": {
+                      "name": "OCR"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_ar_av",
+                    "count": 25,
+                    "percentage_question": 3.3,
+                    "percentage_survey": 2.1,
+                    "entity": {
+                      "name": "AR / VR"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_ml",
+                    "count": 34,
+                    "percentage_question": 4.4,
+                    "percentage_survey": 2.8,
+                    "entity": {
+                      "name": "ML / AI"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_permissions",
+                    "count": 518,
+                    "percentage_question": 66.7,
+                    "percentage_survey": 42.7,
+                    "entity": {
+                      "name": "Permissions"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     }
   }

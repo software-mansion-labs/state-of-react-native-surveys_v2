@@ -1,68 +1,66 @@
 {
   "dataAPI": {
     "survey": {
-      "developer_background": {
-        "developer_background_primarily_system": {
-          "entity": {
-            "name": "Desktop OS"
-          },
-          "keys": [
-            "developer_background_primarily_system.answer.a",
-            "developer_background_primarily_system.answer.b",
-            "developer_background_primarily_system.answer.c"
-          ],
-          "all_years": [
-            {
-              "year": 2022,
-              "completion": {
-                "total": 1215,
-                "count": 902,
-                "percentage_survey": 74.3
-              },
-              "facets": [
-                {
-                  "id": "default",
-                  "type": "default",
-                  "completion": {
-                    "total": 1215,
-                    "percentage_survey": 74.3,
-                    "percentage_question": 100,
-                    "count": 902
-                  },
-                  "buckets": [
-                    {
-                      "id": "developer_background_primarily_system_answer_a",
-                      "count": 768,
-                      "percentage_question": 85.2,
-                      "percentage_survey": 63.3,
-                      "entity": {
-                        "name": "macOS"
-                      }
-                    },
-                    {
-                      "id": "developer_background_primarily_system_answer_b",
-                      "count": 48,
-                      "percentage_question": 5.4,
-                      "percentage_survey": 4,
-                      "entity": {
-                        "name": "Linux"
-                      }
-                    },
-                    {
-                      "id": "developer_background_primarily_system_answer_c",
-                      "count": 86,
-                      "percentage_question": 9.6,
-                      "percentage_survey": 7.1,
-                      "entity": {
-                        "name": "Windows"
-                      }
+      "developer_background_primarily_system": {
+        "entity": {
+          "name": "Desktop OS"
+        },
+        "keys": [
+          "developer_background_primarily_system.answer.a",
+          "developer_background_primarily_system.answer.b",
+          "developer_background_primarily_system.answer.c"
+        ],
+        "all_years": [
+          {
+            "year": 2022,
+            "completion": {
+              "total": 1215,
+              "count": 902,
+              "percentage_survey": 74.3
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 1215,
+                  "percentage_survey": 74.3,
+                  "percentage_question": 100,
+                  "count": 902
+                },
+                "buckets": [
+                  {
+                    "id": "developer_background_primarily_system_answer_a",
+                    "count": 768,
+                    "percentage_question": 85.2,
+                    "percentage_survey": 63.3,
+                    "entity": {
+                      "name": "macOS"
                     }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
+                  },
+                  {
+                    "id": "developer_background_primarily_system_answer_b",
+                    "count": 48,
+                    "percentage_question": 5.4,
+                    "percentage_survey": 4,
+                    "entity": {
+                      "name": "Linux"
+                    }
+                  },
+                  {
+                    "id": "developer_background_primarily_system_answer_c",
+                    "count": 86,
+                    "percentage_question": 9.6,
+                    "percentage_survey": 7.1,
+                    "entity": {
+                      "name": "Windows"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     }
   }

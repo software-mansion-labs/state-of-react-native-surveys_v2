@@ -1,68 +1,66 @@
 {
   "dataAPI": {
     "survey": {
-      "react_native_specific_features": {
-        "react_native_features_brownfield": {
-          "entity": {
-            "name": "Do you integrate React Native with applications written using other technology?"
-          },
-          "keys": [
-            "react_native_features_brownfield_green",
-            "react_native_features_brownfield_brown",
-            "react_native_features_brownfield_both"
-          ],
-          "all_years": [
-            {
-              "year": 2022,
-              "completion": {
-                "total": 1215,
-                "count": 611,
-                "percentage_survey": 50.3
-              },
-              "facets": [
-                {
-                  "id": "default",
-                  "type": "default",
-                  "completion": {
-                    "total": 1215,
-                    "percentage_survey": 50.3,
-                    "percentage_question": 100,
-                    "count": 611
-                  },
-                  "buckets": [
-                    {
-                      "id": "react_native_features_brownfield_green",
-                      "count": 490,
-                      "percentage_question": 80.2,
-                      "percentage_survey": 40.4,
-                      "entity": {
-                        "name": "I mainly work on standalone React Native apps (greenfield)"
-                      }
-                    },
-                    {
-                      "id": "react_native_features_brownfield_brown",
-                      "count": 32,
-                      "percentage_question": 5.3,
-                      "percentage_survey": 2.7,
-                      "entity": {
-                        "name": "I mainly work on integrated React Native apps (brownfield)"
-                      }
-                    },
-                    {
-                      "id": "react_native_features_brownfield_both",
-                      "count": 89,
-                      "percentage_question": 14.6,
-                      "percentage_survey": 7.4,
-                      "entity": {
-                        "name": "I work on both standalone and brownfield apps"
-                      }
+      "react_native_features_brownfield": {
+        "entity": {
+          "name": "Do you integrate React Native with applications written using other technology?"
+        },
+        "keys": [
+          "react_native_features_brownfield_green",
+          "react_native_features_brownfield_brown",
+          "react_native_features_brownfield_both"
+        ],
+        "all_years": [
+          {
+            "year": 2022,
+            "completion": {
+              "total": 1215,
+              "count": 611,
+              "percentage_survey": 50.3
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 1215,
+                  "percentage_survey": 50.3,
+                  "percentage_question": 100,
+                  "count": 611
+                },
+                "buckets": [
+                  {
+                    "id": "react_native_features_brownfield_green",
+                    "count": 490,
+                    "percentage_question": 80.2,
+                    "percentage_survey": 40.4,
+                    "entity": {
+                      "name": "I mainly work on standalone React Native apps (greenfield)"
                     }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
+                  },
+                  {
+                    "id": "react_native_features_brownfield_brown",
+                    "count": 32,
+                    "percentage_question": 5.3,
+                    "percentage_survey": 2.7,
+                    "entity": {
+                      "name": "I mainly work on integrated React Native apps (brownfield)"
+                    }
+                  },
+                  {
+                    "id": "react_native_features_brownfield_both",
+                    "count": 89,
+                    "percentage_question": 14.6,
+                    "percentage_survey": 7.4,
+                    "entity": {
+                      "name": "I work on both standalone and brownfield apps"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     }
   }

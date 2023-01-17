@@ -1,108 +1,106 @@
 {
   "dataAPI": {
     "survey": {
-      "developer_background": {
-        "developer_background_platforms": {
-          "entity": {
-            "name": "Target platforms"
-          },
-          "keys": [
-            "developer_background_platforms.answer.a",
-            "developer_background_platforms.answer.b",
-            "developer_background_platforms.answer.c",
-            "developer_background_platforms.answer.d",
-            "developer_background_platforms.answer.e",
-            "developer_background_platforms.answer.f",
-            "developer_background_platforms.answer.g"
-          ],
-          "all_years": [
-            {
-              "year": 2022,
-              "completion": {
-                "total": 1215,
-                "count": 905,
-                "percentage_survey": 74.5
-              },
-              "facets": [
-                {
-                  "id": "default",
-                  "type": "default",
-                  "completion": {
-                    "total": 1215,
-                    "percentage_survey": 166.6,
-                    "percentage_question": 223.6,
-                    "count": 2023
-                  },
-                  "buckets": [
-                    {
-                      "id": "developer_background_platforms_answer_a",
-                      "count": 875,
-                      "percentage_question": 96.7,
-                      "percentage_survey": 72.1,
-                      "entity": {
-                        "name": "iOS"
-                      }
-                    },
-                    {
-                      "id": "developer_background_platforms_answer_b",
-                      "count": 879,
-                      "percentage_question": 97.2,
-                      "percentage_survey": 72.4,
-                      "entity": {
-                        "name": "Android"
-                      }
-                    },
-                    {
-                      "id": "developer_background_platforms_answer_c",
-                      "count": 199,
-                      "percentage_question": 22,
-                      "percentage_survey": 16.4,
-                      "entity": {
-                        "name": "Web"
-                      }
-                    },
-                    {
-                      "id": "developer_background_platforms_answer_d",
-                      "count": 27,
-                      "percentage_question": 3,
-                      "percentage_survey": 2.3,
-                      "entity": {
-                        "name": "macOS"
-                      }
-                    },
-                    {
-                      "id": "developer_background_platforms_answer_e",
-                      "count": 17,
-                      "percentage_question": 1.9,
-                      "percentage_survey": 1.4,
-                      "entity": {
-                        "name": "Windows"
-                      }
-                    },
-                    {
-                      "id": "developer_background_platforms_answer_f",
-                      "count": 15,
-                      "percentage_question": 1.7,
-                      "percentage_survey": 1.3,
-                      "entity": {
-                        "name": "Android TV"
-                      }
-                    },
-                    {
-                      "id": "developer_background_platforms_answer_g",
-                      "count": 11,
-                      "percentage_question": 1.3,
-                      "percentage_survey": 1,
-                      "entity": {
-                        "name": "tvOS"
-                      }
+      "developer_background_platforms": {
+        "entity": {
+          "name": "Target platforms"
+        },
+        "keys": [
+          "developer_background_platforms.answer.a",
+          "developer_background_platforms.answer.b",
+          "developer_background_platforms.answer.c",
+          "developer_background_platforms.answer.d",
+          "developer_background_platforms.answer.e",
+          "developer_background_platforms.answer.f",
+          "developer_background_platforms.answer.g"
+        ],
+        "all_years": [
+          {
+            "year": 2022,
+            "completion": {
+              "total": 1215,
+              "count": 905,
+              "percentage_survey": 74.5
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 1215,
+                  "percentage_survey": 166.6,
+                  "percentage_question": 223.6,
+                  "count": 2023
+                },
+                "buckets": [
+                  {
+                    "id": "developer_background_platforms_answer_a",
+                    "count": 875,
+                    "percentage_question": 96.7,
+                    "percentage_survey": 72.1,
+                    "entity": {
+                      "name": "iOS"
                     }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
+                  },
+                  {
+                    "id": "developer_background_platforms_answer_b",
+                    "count": 879,
+                    "percentage_question": 97.2,
+                    "percentage_survey": 72.4,
+                    "entity": {
+                      "name": "Android"
+                    }
+                  },
+                  {
+                    "id": "developer_background_platforms_answer_c",
+                    "count": 199,
+                    "percentage_question": 22,
+                    "percentage_survey": 16.4,
+                    "entity": {
+                      "name": "Web"
+                    }
+                  },
+                  {
+                    "id": "developer_background_platforms_answer_d",
+                    "count": 27,
+                    "percentage_question": 3,
+                    "percentage_survey": 2.3,
+                    "entity": {
+                      "name": "macOS"
+                    }
+                  },
+                  {
+                    "id": "developer_background_platforms_answer_e",
+                    "count": 17,
+                    "percentage_question": 1.9,
+                    "percentage_survey": 1.4,
+                    "entity": {
+                      "name": "Windows"
+                    }
+                  },
+                  {
+                    "id": "developer_background_platforms_answer_f",
+                    "count": 15,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 1.3,
+                    "entity": {
+                      "name": "Android TV"
+                    }
+                  },
+                  {
+                    "id": "developer_background_platforms_answer_g",
+                    "count": 11,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 1,
+                    "entity": {
+                      "name": "tvOS"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     }
   }

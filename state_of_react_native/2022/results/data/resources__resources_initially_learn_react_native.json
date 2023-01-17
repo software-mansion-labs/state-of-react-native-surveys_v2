@@ -1,168 +1,166 @@
 {
   "dataAPI": {
     "survey": {
-      "resources": {
-        "resources_initially_learn_react_native": {
-          "entity": {
-            "name": "Learning methods"
-          },
-          "keys": [
-            "resources_initially_learn_react_native_official_docs",
-            "resources_initially_learn_react_native_expo_docs",
-            "resources_initially_learn_react_native_books",
-            "resources_initially_learn_react_native_videos",
-            "resources_initially_learn_react_native_online_courses_free",
-            "resources_initially_learn_react_native_online_courses_paid",
-            "resources_initially_learn_react_native_school_higher_education",
-            "resources_initially_learn_react_native_podcasts",
-            "resources_initially_learn_react_native_coding_bootcamp",
-            "resources_initially_learn_react_native_react_native_directory",
-            "resources_initially_learn_react_native_on_the_job_training",
-            "resources_initially_learn_react_native_mentoring",
-            "resources_initially_learn_react_native_self_directed_learning"
-          ],
-          "all_years": [
-            {
-              "year": 2022,
-              "completion": {
-                "total": 1215,
-                "count": 618,
-                "percentage_survey": 50.9
-              },
-              "facets": [
-                {
-                  "id": "default",
-                  "type": "default",
-                  "completion": {
-                    "total": 1215,
-                    "percentage_survey": 246.7,
-                    "percentage_question": 485,
-                    "count": 2997
-                  },
-                  "buckets": [
-                    {
-                      "id": "resources_initially_learn_react_native_official_docs",
-                      "count": 592,
-                      "percentage_question": 95.8,
-                      "percentage_survey": 48.8,
-                      "entity": {
-                        "name": "Official React Native docs"
-                      }
-                    },
-                    {
-                      "id": "resources_initially_learn_react_native_expo_docs",
-                      "count": 438,
-                      "percentage_question": 70.9,
-                      "percentage_survey": 36.1,
-                      "entity": {
-                        "name": "Expo docs"
-                      }
-                    },
-                    {
-                      "id": "resources_initially_learn_react_native_books",
-                      "count": 91,
-                      "percentage_question": 14.8,
-                      "percentage_survey": 7.5,
-                      "entity": {
-                        "name": "Books"
-                      }
-                    },
-                    {
-                      "id": "resources_initially_learn_react_native_videos",
-                      "count": 423,
-                      "percentage_question": 68.5,
-                      "percentage_survey": 34.9,
-                      "entity": {
-                        "name": "Videos"
-                      }
-                    },
-                    {
-                      "id": "resources_initially_learn_react_native_online_courses_free",
-                      "count": 256,
-                      "percentage_question": 41.5,
-                      "percentage_survey": 21.1,
-                      "entity": {
-                        "name": "Online courses (free)"
-                      }
-                    },
-                    {
-                      "id": "resources_initially_learn_react_native_online_courses_paid",
-                      "count": 162,
-                      "percentage_question": 26.3,
-                      "percentage_survey": 13.4,
-                      "entity": {
-                        "name": "Online courses (paid)"
-                      }
-                    },
-                    {
-                      "id": "resources_initially_learn_react_native_school_higher_education",
-                      "count": 20,
-                      "percentage_question": 3.3,
-                      "percentage_survey": 1.7,
-                      "entity": {
-                        "name": "School / higher education"
-                      }
-                    },
-                    {
-                      "id": "resources_initially_learn_react_native_podcasts",
-                      "count": 142,
-                      "percentage_question": 23,
-                      "percentage_survey": 11.7,
-                      "entity": {
-                        "name": "Podcasts"
-                      }
-                    },
-                    {
-                      "id": "resources_initially_learn_react_native_coding_bootcamp",
-                      "count": 25,
-                      "percentage_question": 4.1,
-                      "percentage_survey": 2.1,
-                      "entity": {
-                        "name": "Coding bootcamp"
-                      }
-                    },
-                    {
-                      "id": "resources_initially_learn_react_native_react_native_directory",
-                      "count": 163,
-                      "percentage_question": 26.4,
-                      "percentage_survey": 13.5,
-                      "entity": {
-                        "name": "React Native Directory"
-                      }
-                    },
-                    {
-                      "id": "resources_initially_learn_react_native_on_the_job_training",
-                      "count": 181,
-                      "percentage_question": 29.3,
-                      "percentage_survey": 14.9,
-                      "entity": {
-                        "name": "On-the-job training"
-                      }
-                    },
-                    {
-                      "id": "resources_initially_learn_react_native_mentoring",
-                      "count": 110,
-                      "percentage_question": 17.8,
-                      "percentage_survey": 9.1,
-                      "entity": {
-                        "name": "Mentoring"
-                      }
-                    },
-                    {
-                      "id": "resources_initially_learn_react_native_self_directed_learning",
-                      "count": 394,
-                      "percentage_question": 63.8,
-                      "percentage_survey": 32.5,
-                      "entity": {
-                        "name": "Self-directed learning"
-                      }
+      "resources_initially_learn_react_native": {
+        "entity": {
+          "name": "Learning methods"
+        },
+        "keys": [
+          "resources_initially_learn_react_native_official_docs",
+          "resources_initially_learn_react_native_expo_docs",
+          "resources_initially_learn_react_native_books",
+          "resources_initially_learn_react_native_videos",
+          "resources_initially_learn_react_native_online_courses_free",
+          "resources_initially_learn_react_native_online_courses_paid",
+          "resources_initially_learn_react_native_school_higher_education",
+          "resources_initially_learn_react_native_podcasts",
+          "resources_initially_learn_react_native_coding_bootcamp",
+          "resources_initially_learn_react_native_react_native_directory",
+          "resources_initially_learn_react_native_on_the_job_training",
+          "resources_initially_learn_react_native_mentoring",
+          "resources_initially_learn_react_native_self_directed_learning"
+        ],
+        "all_years": [
+          {
+            "year": 2022,
+            "completion": {
+              "total": 1215,
+              "count": 618,
+              "percentage_survey": 50.9
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 1215,
+                  "percentage_survey": 246.7,
+                  "percentage_question": 485,
+                  "count": 2997
+                },
+                "buckets": [
+                  {
+                    "id": "resources_initially_learn_react_native_official_docs",
+                    "count": 592,
+                    "percentage_question": 95.8,
+                    "percentage_survey": 48.8,
+                    "entity": {
+                      "name": "Official React Native docs"
                     }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
+                  },
+                  {
+                    "id": "resources_initially_learn_react_native_expo_docs",
+                    "count": 438,
+                    "percentage_question": 70.9,
+                    "percentage_survey": 36.1,
+                    "entity": {
+                      "name": "Expo docs"
+                    }
+                  },
+                  {
+                    "id": "resources_initially_learn_react_native_books",
+                    "count": 91,
+                    "percentage_question": 14.8,
+                    "percentage_survey": 7.5,
+                    "entity": {
+                      "name": "Books"
+                    }
+                  },
+                  {
+                    "id": "resources_initially_learn_react_native_videos",
+                    "count": 423,
+                    "percentage_question": 68.5,
+                    "percentage_survey": 34.9,
+                    "entity": {
+                      "name": "Videos"
+                    }
+                  },
+                  {
+                    "id": "resources_initially_learn_react_native_online_courses_free",
+                    "count": 256,
+                    "percentage_question": 41.5,
+                    "percentage_survey": 21.1,
+                    "entity": {
+                      "name": "Online courses (free)"
+                    }
+                  },
+                  {
+                    "id": "resources_initially_learn_react_native_online_courses_paid",
+                    "count": 162,
+                    "percentage_question": 26.3,
+                    "percentage_survey": 13.4,
+                    "entity": {
+                      "name": "Online courses (paid)"
+                    }
+                  },
+                  {
+                    "id": "resources_initially_learn_react_native_school_higher_education",
+                    "count": 20,
+                    "percentage_question": 3.3,
+                    "percentage_survey": 1.7,
+                    "entity": {
+                      "name": "School / higher education"
+                    }
+                  },
+                  {
+                    "id": "resources_initially_learn_react_native_podcasts",
+                    "count": 142,
+                    "percentage_question": 23,
+                    "percentage_survey": 11.7,
+                    "entity": {
+                      "name": "Podcasts"
+                    }
+                  },
+                  {
+                    "id": "resources_initially_learn_react_native_coding_bootcamp",
+                    "count": 25,
+                    "percentage_question": 4.1,
+                    "percentage_survey": 2.1,
+                    "entity": {
+                      "name": "Coding bootcamp"
+                    }
+                  },
+                  {
+                    "id": "resources_initially_learn_react_native_react_native_directory",
+                    "count": 163,
+                    "percentage_question": 26.4,
+                    "percentage_survey": 13.5,
+                    "entity": {
+                      "name": "React Native Directory"
+                    }
+                  },
+                  {
+                    "id": "resources_initially_learn_react_native_on_the_job_training",
+                    "count": 181,
+                    "percentage_question": 29.3,
+                    "percentage_survey": 14.9,
+                    "entity": {
+                      "name": "On-the-job training"
+                    }
+                  },
+                  {
+                    "id": "resources_initially_learn_react_native_mentoring",
+                    "count": 110,
+                    "percentage_question": 17.8,
+                    "percentage_survey": 9.1,
+                    "entity": {
+                      "name": "Mentoring"
+                    }
+                  },
+                  {
+                    "id": "resources_initially_learn_react_native_self_directed_learning",
+                    "count": 394,
+                    "percentage_question": 63.8,
+                    "percentage_survey": 32.5,
+                    "entity": {
+                      "name": "Self-directed learning"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     }
   }

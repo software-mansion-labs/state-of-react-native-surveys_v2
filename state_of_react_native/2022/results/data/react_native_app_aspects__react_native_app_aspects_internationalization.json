@@ -1,77 +1,75 @@
 {
   "dataAPI": {
     "survey": {
-      "react_native_app_aspects": {
-        "react_native_app_aspects_internationalization": {
-          "entity": {
-            "name": "Internationalization"
-          },
-          "keys": [
-            "react_native_app_aspects_internationalization_react_native_localize",
-            "react_native_app_aspects_internationalization_react_i18next",
-            "react_native_app_aspects_internationalization_fbt"
-          ],
-          "all_years": [
-            {
-              "year": 2022,
-              "completion": {
-                "total": 1215,
-                "count": 413,
-                "percentage_survey": 34
-              },
-              "facets": [
-                {
-                  "id": "default",
-                  "type": "default",
-                  "completion": {
-                    "total": 1215,
-                    "percentage_survey": 41.9,
-                    "percentage_question": 123.3,
-                    "count": 509
-                  },
-                  "buckets": [
-                    {
-                      "id": "react_native_app_aspects_internationalization_react_native_localize",
-                      "count": 149,
-                      "percentage_question": 36.1,
-                      "percentage_survey": 12.3,
-                      "entity": {
-                        "name": "react-native-localize",
-                        "npm": {
-                          "url": "https://www.npmjs.com/package/react-native-localize"
-                        }
-                      }
-                    },
-                    {
-                      "id": "react_native_app_aspects_internationalization_react_i18next",
-                      "count": 356,
-                      "percentage_question": 86.2,
-                      "percentage_survey": 29.4,
-                      "entity": {
-                        "name": "react-i18next",
-                        "npm": {
-                          "url": "https://www.npmjs.com/package/react-i18next"
-                        }
-                      }
-                    },
-                    {
-                      "id": "react_native_app_aspects_internationalization_fbt",
-                      "count": 4,
-                      "percentage_question": 1,
-                      "percentage_survey": 0.4,
-                      "entity": {
-                        "name": "FBT",
-                        "npm": {
-                          "url": "https://www.npmjs.com/package/fbt"
-                        }
+      "react_native_app_aspects_internationalization": {
+        "entity": {
+          "name": "Internationalization"
+        },
+        "keys": [
+          "react_native_app_aspects_internationalization_react_native_localize",
+          "react_native_app_aspects_internationalization_react_i18next",
+          "react_native_app_aspects_internationalization_fbt"
+        ],
+        "all_years": [
+          {
+            "year": 2022,
+            "completion": {
+              "total": 1215,
+              "count": 413,
+              "percentage_survey": 34
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 1215,
+                  "percentage_survey": 41.9,
+                  "percentage_question": 123.3,
+                  "count": 509
+                },
+                "buckets": [
+                  {
+                    "id": "react_native_app_aspects_internationalization_react_native_localize",
+                    "count": 149,
+                    "percentage_question": 36.1,
+                    "percentage_survey": 12.3,
+                    "entity": {
+                      "name": "react-native-localize",
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/react-native-localize"
                       }
                     }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
+                  },
+                  {
+                    "id": "react_native_app_aspects_internationalization_react_i18next",
+                    "count": 356,
+                    "percentage_question": 86.2,
+                    "percentage_survey": 29.4,
+                    "entity": {
+                      "name": "react-i18next",
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/react-i18next"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_internationalization_fbt",
+                    "count": 4,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.4,
+                    "entity": {
+                      "name": "FBT",
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/fbt"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     }
   }
