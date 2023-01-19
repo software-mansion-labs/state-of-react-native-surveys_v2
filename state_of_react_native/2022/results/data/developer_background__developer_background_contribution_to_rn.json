@@ -2,43 +2,45 @@
   "dataAPI": {
     "survey": {
       "developer_background_contribution_to_rn": {
-        "keys": [
-          "yes",
-          "no"
-        ],
-        "year": {
-          "year": 2022,
-          "completion": {
-            "total": 1215,
-            "count": 896,
-            "percentage_survey": 73.8
-          },
-          "facets": [
-            {
-              "id": "default",
-              "type": "default",
-              "completion": {
-                "total": 1215,
-                "count": 896,
-                "percentage_survey": 73.8
-              },
-              "buckets": [
-                {
-                  "id": "yes",
-                  "count": 93,
-                  "percentage_survey": 7.7,
-                  "percentage_question": 10.4
+        "entity": {
+          "name": "Contribution to React Native"
+        },
+        "keys": ["yes", "no"],
+        "all_years": [
+          {
+            "year": 2022,
+            "completion": {
+              "total": 1215,
+              "count": 896,
+              "percentage_survey": 73.8
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 1215,
+                  "count": 896,
+                  "percentage_survey": 73.8
                 },
-                {
-                  "id": "no",
-                  "count": 803,
-                  "percentage_survey": 66.1,
-                  "percentage_question": 89.7
-                }
-              ]
-            }
-          ]
-        }
+                "buckets": [
+                  {
+                    "id": "yes",
+                    "count": 93,
+                    "percentage_survey": 7.7,
+                    "percentage_question": 10.4
+                  },
+                  {
+                    "id": "no",
+                    "count": 803,
+                    "percentage_survey": 66.1,
+                    "percentage_question": 89.7
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     }
   }

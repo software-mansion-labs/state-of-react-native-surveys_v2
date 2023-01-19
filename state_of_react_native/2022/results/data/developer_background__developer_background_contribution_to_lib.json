@@ -2,43 +2,45 @@
   "dataAPI": {
     "survey": {
       "developer_background_contribution_to_lib": {
-        "keys": [
-          "yes",
-          "no"
-        ],
-        "year": {
-          "year": 2022,
-          "completion": {
-            "total": 1215,
-            "count": 895,
-            "percentage_survey": 73.7
-          },
-          "facets": [
-            {
-              "id": "default",
-              "type": "default",
-              "completion": {
-                "total": 1215,
-                "count": 895,
-                "percentage_survey": 73.7
-              },
-              "buckets": [
-                {
-                  "id": "yes",
-                  "count": 373,
-                  "percentage_survey": 30.7,
-                  "percentage_question": 41.7
+        "entity": {
+          "name": "Contribution to library"
+        },
+        "keys": ["yes", "no"],
+        "all_years": [
+          {
+            "year": 2022,
+            "completion": {
+              "total": 1215,
+              "count": 895,
+              "percentage_survey": 73.7
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 1215,
+                  "count": 895,
+                  "percentage_survey": 73.7
                 },
-                {
-                  "id": "no",
-                  "count": 522,
-                  "percentage_survey": 43,
-                  "percentage_question": 58.4
-                }
-              ]
-            }
-          ]
-        }
+                "buckets": [
+                  {
+                    "id": "yes",
+                    "count": 373,
+                    "percentage_survey": 30.7,
+                    "percentage_question": 41.7
+                  },
+                  {
+                    "id": "no",
+                    "count": 522,
+                    "percentage_survey": 43,
+                    "percentage_question": 58.4
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     }
   }
