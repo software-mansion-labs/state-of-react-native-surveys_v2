@@ -23,7 +23,11 @@
             "Only begrudgingly, because every time I come back to React Native, the API changes for the better and it makes all my legacy code completely worthless, and the documentation often misses common configurations or cases I have to hack around until months later I discover there was a way to do that the whole time but it's only mentioned in a blog post.",
             "Still missing the render as you fetch pattern unfortunately ",
             "Not good as navigation react native. feels of mixing native and react. not feel a native exp. as a developer. api too complicated and forces to think one way and use it. bad on web and too buggy. not good at github issue handling. when I facing an error, first I will look solution like searching on github issues, googles and source codes etc. and when I can't find any related issue, I find myself to forces to find another hacky way instead of opening issues. one issue I opened a years ago and it turns out auto closed one. no one's answer my issue nor labelling it. sadly, I find react-navigation one-man's repo.",
-            "BEST!"
+            "BEST!",
+            "Lack of SET",
+            "\"Would use again\" but with a few caveats that declaring routes as JSX components is a massive overhead that provides almost no upside besides a familiar API.\nNested navigation is hard to set up and can be confusing in large scale apps.",
+            "I'd be nice to have native tabs support with react-native-screens though!",
+            "I don't like it at all, but it seems to be the best of a bad bunch"
           ],
           "keys": [
             "would_use",
@@ -36,42 +40,42 @@
             {
               "year": 2022,
               "completion": {
-                "total": 1215,
-                "count": 732,
-                "percentage_survey": 60.3
+                "total": 2489,
+                "count": 1504,
+                "percentage_survey": 60.5
               },
               "facets": [
                 {
                   "buckets": [
                     {
                       "id": "would_use",
-                      "count": 654,
-                      "percentage_survey": 53.9,
-                      "percentage_question": 89.4
+                      "count": 1318,
+                      "percentage_survey": 53,
+                      "percentage_question": 87.7
                     },
                     {
                       "id": "would_not_use",
-                      "count": 31,
-                      "percentage_survey": 2.6,
-                      "percentage_question": 4.3
+                      "count": 60,
+                      "percentage_survey": 2.5,
+                      "percentage_question": 4
                     },
                     {
                       "id": "interested",
-                      "count": 21,
-                      "percentage_survey": 1.8,
-                      "percentage_question": 2.9
+                      "count": 59,
+                      "percentage_survey": 2.4,
+                      "percentage_question": 4
                     },
                     {
                       "id": "not_interested",
-                      "count": 22,
-                      "percentage_survey": 1.9,
-                      "percentage_question": 3.1
+                      "count": 50,
+                      "percentage_survey": 2.1,
+                      "percentage_question": 3.4
                     },
                     {
                       "id": "never_heard",
-                      "count": 4,
-                      "percentage_survey": 0.4,
-                      "percentage_question": 0.6
+                      "count": 17,
+                      "percentage_survey": 0.7,
+                      "percentage_question": 1.2
                     }
                   ]
                 }

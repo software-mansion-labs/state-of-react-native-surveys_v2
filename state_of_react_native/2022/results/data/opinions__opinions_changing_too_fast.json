@@ -9,58 +9,60 @@
           3,
           4
         ],
-        "year": {
-          "year": 2022,
-          "mean": 1.78,
-          "completion": {
-            "total": 1215,
-            "count": 614,
-            "percentage_survey": 50.6
-          },
-          "facets": [
-            {
-              "id": "default",
-              "type": "default",
-              "completion": {
-                "total": 1215,
-                "count": 614,
-                "percentage_survey": 50.6
-              },
-              "buckets": [
-                {
-                  "id": 0,
-                  "count": 51,
-                  "percentage_survey": 4.2,
-                  "percentage_question": 8.4
+        "all_years": [
+          {
+            "year": 2022,
+            "mean": 1.82,
+            "completion": {
+              "total": 2489,
+              "count": 1235,
+              "percentage_survey": 49.7
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 2489,
+                  "count": 1235,
+                  "percentage_survey": 49.7
                 },
-                {
-                  "id": 1,
-                  "count": 205,
-                  "percentage_survey": 16.9,
-                  "percentage_question": 33.4
-                },
-                {
-                  "id": 2,
-                  "count": 220,
-                  "percentage_survey": 18.2,
-                  "percentage_question": 35.9
-                },
-                {
-                  "id": 3,
-                  "count": 104,
-                  "percentage_survey": 8.6,
-                  "percentage_question": 17
-                },
-                {
-                  "id": 4,
-                  "count": 34,
-                  "percentage_survey": 2.8,
-                  "percentage_question": 5.6
-                }
-              ]
-            }
-          ]
-        }
+                "buckets": [
+                  {
+                    "id": 0,
+                    "count": 96,
+                    "percentage_survey": 3.9,
+                    "percentage_question": 7.8
+                  },
+                  {
+                    "id": 1,
+                    "count": 400,
+                    "percentage_survey": 16.1,
+                    "percentage_question": 32.4
+                  },
+                  {
+                    "id": 2,
+                    "count": 435,
+                    "percentage_survey": 17.5,
+                    "percentage_question": 35.3
+                  },
+                  {
+                    "id": 3,
+                    "count": 235,
+                    "percentage_survey": 9.5,
+                    "percentage_question": 19.1
+                  },
+                  {
+                    "id": 4,
+                    "count": 69,
+                    "percentage_survey": 2.8,
+                    "percentage_question": 5.6
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     }
   }

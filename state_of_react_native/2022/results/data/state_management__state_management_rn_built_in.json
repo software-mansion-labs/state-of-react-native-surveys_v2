@@ -17,10 +17,19 @@
         },
         "experience": {
           "comments": [
+            "would use again in only some cases where the state is not shared cross multiple components/screens ",
             "useContext has a time and place, not a replacement for state management ",
             "Bit of odd grouping here. It's impossible to not use.",
             "wish useContext was more like use-context-selector",
-            "Zustand and react query all the way."
+            "Zustand and react query all the way.",
+            "useContext is \"dangerous\" in a mobile scenario, where screens are generally not unmounted",
+            "I specifically try to avoid useContext except in a few narrow situations. It's a pain.",
+            "Not the most efficient use for me, i mainly use useState",
+            "yes of course",
+            "I don't use useReducer.",
+            "However it depends on app complexity. For larger and scalable apps - better to use tools like Redux.",
+            "I use it and I would use it again.",
+            "Only use useState"
           ],
           "keys": [
             "would_use",
@@ -33,42 +42,42 @@
             {
               "year": 2022,
               "completion": {
-                "total": 1215,
-                "count": 784,
-                "percentage_survey": 64.6
+                "total": 2489,
+                "count": 1591,
+                "percentage_survey": 64
               },
               "facets": [
                 {
                   "buckets": [
                     {
                       "id": "would_use",
-                      "count": 731,
-                      "percentage_survey": 60.2,
-                      "percentage_question": 93.3
+                      "count": 1492,
+                      "percentage_survey": 60,
+                      "percentage_question": 93.8
                     },
                     {
                       "id": "would_not_use",
-                      "count": 27,
-                      "percentage_survey": 2.3,
-                      "percentage_question": 3.5
+                      "count": 45,
+                      "percentage_survey": 1.9,
+                      "percentage_question": 2.9
                     },
                     {
                       "id": "interested",
-                      "count": 14,
-                      "percentage_survey": 1.2,
-                      "percentage_question": 1.8
+                      "count": 34,
+                      "percentage_survey": 1.4,
+                      "percentage_question": 2.2
                     },
                     {
                       "id": "not_interested",
-                      "count": 12,
-                      "percentage_survey": 1,
-                      "percentage_question": 1.6
+                      "count": 19,
+                      "percentage_survey": 0.8,
+                      "percentage_question": 1.2
                     },
                     {
                       "id": "never_heard",
-                      "count": 0,
-                      "percentage_survey": 0,
-                      "percentage_question": 0
+                      "count": 1,
+                      "percentage_survey": 0.1,
+                      "percentage_question": 0.1
                     }
                   ]
                 }

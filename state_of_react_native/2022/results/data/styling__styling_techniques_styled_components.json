@@ -9,7 +9,11 @@
         "experience": {
           "comments": [
             "Not a fan, find it to be too rigid.",
-            "I dont like CSSinJS. I would like to use an approach as closest as possible to \"vanilla\" .css stylesheets"
+            "I dont like CSSinJS. I would like to use an approach as closest as possible to \"vanilla\" .css stylesheets",
+            "Don't like writing styles in a string. The idea of styled components is good though ",
+            "I'm using emotion instead because we've encountered performance issue with typescript in VSCode",
+            "It's a bit awkward for RN, being basically CSS, and doesn't have intellisense",
+            "it has poor performance "
           ],
           "keys": [
             "would_use",
@@ -22,42 +26,42 @@
             {
               "year": 2022,
               "completion": {
-                "total": 1215,
-                "count": 714,
-                "percentage_survey": 58.8
+                "total": 2489,
+                "count": 1450,
+                "percentage_survey": 58.3
               },
               "facets": [
                 {
                   "buckets": [
                     {
                       "id": "would_use",
-                      "count": 221,
-                      "percentage_survey": 18.2,
-                      "percentage_question": 31
+                      "count": 504,
+                      "percentage_survey": 20.3,
+                      "percentage_question": 34.8
                     },
                     {
                       "id": "would_not_use",
-                      "count": 200,
-                      "percentage_survey": 16.5,
-                      "percentage_question": 28.1
+                      "count": 362,
+                      "percentage_survey": 14.6,
+                      "percentage_question": 25
                     },
                     {
                       "id": "interested",
-                      "count": 89,
-                      "percentage_survey": 7.4,
-                      "percentage_question": 12.5
+                      "count": 208,
+                      "percentage_survey": 8.4,
+                      "percentage_question": 14.4
                     },
                     {
                       "id": "not_interested",
-                      "count": 172,
-                      "percentage_survey": 14.2,
-                      "percentage_question": 24.1
+                      "count": 303,
+                      "percentage_survey": 12.2,
+                      "percentage_question": 20.9
                     },
                     {
                       "id": "never_heard",
-                      "count": 32,
-                      "percentage_survey": 2.7,
-                      "percentage_question": 4.5
+                      "count": 73,
+                      "percentage_survey": 3,
+                      "percentage_question": 5.1
                     }
                   ]
                 }
