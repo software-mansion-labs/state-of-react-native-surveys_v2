@@ -1,0 +1,72 @@
+{
+  "dataAPI": {
+    "survey": {
+      "styling_techniques_tamagui": {
+        "id": "styling_techniques_tamagui",
+        "entity": {
+          "name": "Tamagui"
+        },
+        "experience": {
+          "comments": [
+            "Very interested in trying this one",
+            "The set up is complicated and I couldn’t figure it out",
+            "Next generation of styling & primitives for React Native!"
+          ],
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 2489,
+                "count": 1445,
+                "percentage_survey": 58.1
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 58,
+                      "percentage_survey": 2.4,
+                      "percentage_question": 4.1
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 21,
+                      "percentage_survey": 0.9,
+                      "percentage_question": 1.5
+                    },
+                    {
+                      "id": "interested",
+                      "count": 365,
+                      "percentage_survey": 14.7,
+                      "percentage_question": 25.3
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 162,
+                      "percentage_survey": 6.6,
+                      "percentage_question": 11.3
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 839,
+                      "percentage_survey": 33.8,
+                      "percentage_question": 58.1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "dataAPI": {
+    "survey": {
+      "opinions_complex": {
+        "keys": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "all_years": [
+          {
+            "year": 2022,
+            "mean": 1.89,
+            "completion": {
+              "total": 2489,
+              "count": 1241,
+              "percentage_survey": 49.9
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 2489,
+                  "count": 1241,
+                  "percentage_survey": 49.9
+                },
+                "buckets": [
+                  {
+                    "id": 0,
+                    "count": 72,
+                    "percentage_survey": 2.9,
+                    "percentage_question": 5.9
+                  },
+                  {
+                    "id": 1,
+                    "count": 425,
+                    "percentage_survey": 17.1,
+                    "percentage_question": 34.3
+                  },
+                  {
+                    "id": 2,
+                    "count": 380,
+                    "percentage_survey": 15.3,
+                    "percentage_question": 30.7
+                  },
+                  {
+                    "id": 3,
+                    "count": 298,
+                    "percentage_survey": 12,
+                    "percentage_question": 24.1
+                  },
+                  {
+                    "id": 4,
+                    "count": 66,
+                    "percentage_survey": 2.7,
+                    "percentage_question": 5.4
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

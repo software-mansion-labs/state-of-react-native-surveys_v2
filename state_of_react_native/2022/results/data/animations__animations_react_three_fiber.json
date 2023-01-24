@@ -1,0 +1,71 @@
+{
+  "dataAPI": {
+    "survey": {
+      "animations_react_three_fiber": {
+        "id": "animations_react_three_fiber",
+        "entity": {
+          "name": "React Three Fiber"
+        },
+        "experience": {
+          "comments": [
+            "not stable for react native very buggy and lacks some important features",
+            "Not in scope of RN"
+          ],
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 2489,
+                "count": 1355,
+                "percentage_survey": 54.5
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 90,
+                      "percentage_survey": 3.7,
+                      "percentage_question": 6.7
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 9,
+                      "percentage_survey": 0.4,
+                      "percentage_question": 0.7
+                    },
+                    {
+                      "id": "interested",
+                      "count": 525,
+                      "percentage_survey": 21.1,
+                      "percentage_question": 38.8
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 141,
+                      "percentage_survey": 5.7,
+                      "percentage_question": 10.5
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 590,
+                      "percentage_survey": 23.8,
+                      "percentage_question": 43.6
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

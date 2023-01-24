@@ -1,0 +1,156 @@
+{
+  "dataAPI": {
+    "survey": {
+      "react_native_app_aspects_storage": {
+        "entity": {
+          "name": "Storage"
+        },
+        "keys": [
+          "react_native_app_aspects_storage_react_native_async_storage",
+          "react_native_app_aspects_storage_realm",
+          "react_native_app_aspects_storage_watermelondb",
+          "react_native_app_aspects_storage_react_native_mmkv",
+          "react_native_app_aspects_storage_react_native_mmkv_storage",
+          "react_native_app_aspects_storage_react_native_sqlite_storage",
+          "react_native_app_aspects_storage_expo_sqlite",
+          "react_native_app_aspects_storage_rxdb"
+        ],
+        "all_years": [
+          {
+            "year": 2022,
+            "completion": {
+              "total": 2489,
+              "count": 1301,
+              "percentage_survey": 52.3
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 2489,
+                  "percentage_survey": 99.4,
+                  "percentage_question": 190.1,
+                  "count": 2473
+                },
+                "buckets": [
+                  {
+                    "id": "react_native_app_aspects_storage_react_native_async_storage",
+                    "count": 1197,
+                    "percentage_question": 92.1,
+                    "percentage_survey": 48.1,
+                    "entity": {
+                      "name": "React Native Async Storage",
+                      "homepage": {
+                        "url": "https://react-native-async-storage.github.io/async-storage/"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/@react-native-async-storage/async-storage"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_storage_realm",
+                    "count": 179,
+                    "percentage_question": 13.8,
+                    "percentage_survey": 7.2,
+                    "entity": {
+                      "name": "Realm",
+                      "homepage": {
+                        "url": "https://realm.io/"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/realm"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_storage_watermelondb",
+                    "count": 115,
+                    "percentage_question": 8.9,
+                    "percentage_survey": 4.7,
+                    "entity": {
+                      "name": "WatermelonDB",
+                      "homepage": {
+                        "url": "https://nozbe.github.io/WatermelonDB/"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/@nozbe/watermelondb"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_storage_react_native_mmkv",
+                    "count": 478,
+                    "percentage_question": 36.8,
+                    "percentage_survey": 19.3,
+                    "entity": {
+                      "name": "react-native-mmkv",
+                      "homepage": {
+                        "url": "https://github.com/mrousavy/react-native-mmkv#readme"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_storage_react_native_mmkv_storage",
+                    "count": 213,
+                    "percentage_question": 16.4,
+                    "percentage_survey": 8.6,
+                    "entity": {
+                      "name": "react-native-mmkv-storage",
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/@react-native-mmkv-storage/mmkv"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_storage_react_native_sqlite_storage",
+                    "count": 157,
+                    "percentage_question": 12.1,
+                    "percentage_survey": 6.4,
+                    "entity": {
+                      "name": "React Native SQLite Storage",
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/react-native-sqlite-storage"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_storage_expo_sqlite",
+                    "count": 117,
+                    "percentage_question": 9,
+                    "percentage_survey": 4.8,
+                    "entity": {
+                      "name": "Expo SQLite",
+                      "homepage": {
+                        "url": "https://docs.expo.io/versions/latest/sdk/sqlite/"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/expo-sqlite"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_storage_rxdb",
+                    "count": 17,
+                    "percentage_question": 1.4,
+                    "percentage_survey": 0.7,
+                    "entity": {
+                      "name": "RxDB",
+                      "homepage": {
+                        "url": "https://rxdb.info/"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/rxdb"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

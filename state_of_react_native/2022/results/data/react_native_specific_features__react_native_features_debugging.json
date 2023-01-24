@@ -1,0 +1,107 @@
+{
+  "dataAPI": {
+    "survey": {
+      "react_native_features_debugging": {
+        "entity": {
+          "name": "Debugging tools"
+        },
+        "keys": [
+          "react_native_features_debugging_react_native_debugger",
+          "react_native_features_debugging_chrome_dev_tools",
+          "react_native_features_debugging_react_dev_tools",
+          "react_native_features_debugging_native_debugging",
+          "react_native_features_debugging_reactotron",
+          "react_native_features_debugging_flipper",
+          "react_native_features_debugging_console_log"
+        ],
+        "all_years": [
+          {
+            "year": 2022,
+            "completion": {
+              "total": 2489,
+              "count": 1291,
+              "percentage_survey": 51.9
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 2489,
+                  "percentage_survey": 169,
+                  "percentage_question": 325.8,
+                  "count": 4205
+                },
+                "buckets": [
+                  {
+                    "id": "react_native_features_debugging_react_native_debugger",
+                    "count": 827,
+                    "percentage_question": 64.1,
+                    "percentage_survey": 33.3,
+                    "entity": {
+                      "name": "React Native Debugger"
+                    }
+                  },
+                  {
+                    "id": "react_native_features_debugging_chrome_dev_tools",
+                    "count": 632,
+                    "percentage_question": 49,
+                    "percentage_survey": 25.4,
+                    "entity": {
+                      "name": "Chrome DevTools"
+                    }
+                  },
+                  {
+                    "id": "react_native_features_debugging_react_dev_tools",
+                    "count": 421,
+                    "percentage_question": 32.7,
+                    "percentage_survey": 17,
+                    "entity": {
+                      "name": "React Developer Tools"
+                    }
+                  },
+                  {
+                    "id": "react_native_features_debugging_native_debugging",
+                    "count": 475,
+                    "percentage_question": 36.8,
+                    "percentage_survey": 19.1,
+                    "entity": {
+                      "name": "Native debugging (Xcode, Android Studio)"
+                    }
+                  },
+                  {
+                    "id": "react_native_features_debugging_reactotron",
+                    "count": 222,
+                    "percentage_question": 17.2,
+                    "percentage_survey": 9,
+                    "entity": {
+                      "name": "Reactotron"
+                    }
+                  },
+                  {
+                    "id": "react_native_features_debugging_flipper",
+                    "count": 817,
+                    "percentage_question": 63.3,
+                    "percentage_survey": 32.9,
+                    "entity": {
+                      "name": "Flipper"
+                    }
+                  },
+                  {
+                    "id": "react_native_features_debugging_console_log",
+                    "count": 811,
+                    "percentage_question": 62.9,
+                    "percentage_survey": 32.6,
+                    "entity": {
+                      "name": "Console logs"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

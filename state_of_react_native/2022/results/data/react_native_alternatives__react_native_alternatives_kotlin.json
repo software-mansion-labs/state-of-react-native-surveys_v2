@@ -1,0 +1,74 @@
+{
+  "dataAPI": {
+    "survey": {
+      "react_native_alternatives_kotlin": {
+        "id": "react_native_alternatives_kotlin",
+        "entity": {
+          "name": "Kotlin Multiplatform Mobile",
+          "homepage": {
+            "url": "https://kotlinlang.org/lp/mobile/"
+          }
+        },
+        "experience": {
+          "comments": [
+            "Nice to separate Business logic and UI and make em reusable, but you are still making two apps. Not reeeally Multiplatform if you think about it (UI is still a huge part of any app)",
+            "Extremely interesting after what airbnb has been doing"
+          ],
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 2489,
+                "count": 1259,
+                "percentage_survey": 50.6
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 25,
+                      "percentage_survey": 1.1,
+                      "percentage_question": 2
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 23,
+                      "percentage_survey": 1,
+                      "percentage_question": 1.9
+                    },
+                    {
+                      "id": "interested",
+                      "count": 375,
+                      "percentage_survey": 15.1,
+                      "percentage_question": 29.8
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 480,
+                      "percentage_survey": 19.3,
+                      "percentage_question": 38.2
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 356,
+                      "percentage_survey": 14.4,
+                      "percentage_question": 28.3
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

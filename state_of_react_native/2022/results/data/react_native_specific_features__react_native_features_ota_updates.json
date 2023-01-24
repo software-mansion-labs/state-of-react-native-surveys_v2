@@ -1,0 +1,77 @@
+{
+  "dataAPI": {
+    "survey": {
+      "react_native_features_ota_updates": {
+        "entity": {
+          "name": "OTA updates solutions"
+        },
+        "keys": [
+          "react_native_features_ota_updates_code_push",
+          "react_native_features_ota_updates_eas_update",
+          "react_native_features_ota_updates_expo_publish",
+          "react_native_features_ota_updates_self_hosted"
+        ],
+        "all_years": [
+          {
+            "year": 2022,
+            "completion": {
+              "total": 2489,
+              "count": 905,
+              "percentage_survey": 36.4
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 2489,
+                  "percentage_survey": 47.1,
+                  "percentage_question": 129.3,
+                  "count": 1170
+                },
+                "buckets": [
+                  {
+                    "id": "react_native_features_ota_updates_code_push",
+                    "count": 508,
+                    "percentage_question": 56.2,
+                    "percentage_survey": 20.5,
+                    "entity": {
+                      "name": "CodePush"
+                    }
+                  },
+                  {
+                    "id": "react_native_features_ota_updates_eas_update",
+                    "count": 393,
+                    "percentage_question": 43.5,
+                    "percentage_survey": 15.8,
+                    "entity": {
+                      "name": "EAS Update"
+                    }
+                  },
+                  {
+                    "id": "react_native_features_ota_updates_expo_publish",
+                    "count": 162,
+                    "percentage_question": 18,
+                    "percentage_survey": 6.6,
+                    "entity": {
+                      "name": "Expo Classic Updates"
+                    }
+                  },
+                  {
+                    "id": "react_native_features_ota_updates_self_hosted",
+                    "count": 107,
+                    "percentage_question": 11.9,
+                    "percentage_survey": 4.3,
+                    "entity": {
+                      "name": "Self-hosted"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

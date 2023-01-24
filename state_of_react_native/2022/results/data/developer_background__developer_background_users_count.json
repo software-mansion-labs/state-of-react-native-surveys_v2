@@ -1,0 +1,107 @@
+{
+  "dataAPI": {
+    "survey": {
+      "developer_background_users_count": {
+        "entity": {
+          "name": "Top React Native app user count"
+        },
+        "keys": [
+          "developer_background_users_count.answer.a",
+          "developer_background_users_count.answer.b",
+          "developer_background_users_count.answer.c",
+          "developer_background_users_count.answer.d",
+          "developer_background_users_count.answer.e",
+          "developer_background_users_count.answer.f",
+          "developer_background_users_count.answer.g"
+        ],
+        "all_years": [
+          {
+            "year": 2022,
+            "completion": {
+              "total": 2489,
+              "count": 1835,
+              "percentage_survey": 73.8
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 2489,
+                  "percentage_survey": 73.8,
+                  "percentage_question": 100,
+                  "count": 1835
+                },
+                "buckets": [
+                  {
+                    "id": "developer_background_users_count.answer.a",
+                    "count": 175,
+                    "percentage_question": 9.6,
+                    "percentage_survey": 7.1,
+                    "entity": {
+                      "name": "Only me"
+                    }
+                  },
+                  {
+                    "id": "developer_background_users_count.answer.b",
+                    "count": 255,
+                    "percentage_question": 13.9,
+                    "percentage_survey": 10.3,
+                    "entity": {
+                      "name": "2-100"
+                    }
+                  },
+                  {
+                    "id": "developer_background_users_count.answer.c",
+                    "count": 244,
+                    "percentage_question": 13.3,
+                    "percentage_survey": 9.9,
+                    "entity": {
+                      "name": "101-1k"
+                    }
+                  },
+                  {
+                    "id": "developer_background_users_count.answer.d",
+                    "count": 311,
+                    "percentage_question": 17,
+                    "percentage_survey": 12.5,
+                    "entity": {
+                      "name": "1k-10k"
+                    }
+                  },
+                  {
+                    "id": "developer_background_users_count.answer.e",
+                    "count": 383,
+                    "percentage_question": 20.9,
+                    "percentage_survey": 15.4,
+                    "entity": {
+                      "name": "10k-100k"
+                    }
+                  },
+                  {
+                    "id": "developer_background_users_count.answer.f",
+                    "count": 267,
+                    "percentage_question": 14.6,
+                    "percentage_survey": 10.8,
+                    "entity": {
+                      "name": "100k-1M"
+                    }
+                  },
+                  {
+                    "id": "developer_background_users_count.answer.g",
+                    "count": 200,
+                    "percentage_question": 10.9,
+                    "percentage_survey": 8.1,
+                    "entity": {
+                      "name": "1M and more"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

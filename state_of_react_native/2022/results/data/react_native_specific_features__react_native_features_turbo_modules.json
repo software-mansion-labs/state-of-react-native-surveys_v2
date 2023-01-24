@@ -1,0 +1,73 @@
+{
+  "dataAPI": {
+    "survey": {
+      "react_native_features_turbo_modules": {
+        "id": "react_native_features_turbo_modules",
+        "entity": {
+          "name": "Turbo Native Modules"
+        },
+        "experience": {
+          "comments": [
+            "using Swift has been a pain in the *** to use. ",
+            "not backward support old libraries, so will not apply it until it's able to support enough libraries",
+            "Would love more material about this!",
+            "Too experimental for production use "
+          ],
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 2489,
+                "count": 1304,
+                "percentage_survey": 52.4
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 164,
+                      "percentage_survey": 6.6,
+                      "percentage_question": 12.6
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 11,
+                      "percentage_survey": 0.5,
+                      "percentage_question": 0.9
+                    },
+                    {
+                      "id": "interested",
+                      "count": 818,
+                      "percentage_survey": 32.9,
+                      "percentage_question": 62.8
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 39,
+                      "percentage_survey": 1.6,
+                      "percentage_question": 3
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 272,
+                      "percentage_survey": 11,
+                      "percentage_question": 20.9
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

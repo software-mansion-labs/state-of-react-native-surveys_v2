@@ -1,0 +1,80 @@
+{
+  "dataAPI": {
+    "survey": {
+      "data_fetching_swr": {
+        "id": "data_fetching_swr",
+        "entity": {
+          "name": "SWR",
+          "homepage": {
+            "url": "https://swr.vercel.app/"
+          },
+          "github": {
+            "url": "https://github.com/vercel/swr"
+          },
+          "npm": {
+            "url": "https://www.npmjs.com/package/swr"
+          }
+        },
+        "experience": {
+          "comments": [
+            "TanStack Query > SWR",
+            "Hard to understand with Typescript."
+          ],
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 2489,
+                "count": 1527,
+                "percentage_survey": 61.4
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 226,
+                      "percentage_survey": 9.1,
+                      "percentage_question": 14.9
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 65,
+                      "percentage_survey": 2.7,
+                      "percentage_question": 4.3
+                    },
+                    {
+                      "id": "interested",
+                      "count": 423,
+                      "percentage_survey": 17,
+                      "percentage_question": 27.8
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 288,
+                      "percentage_survey": 11.6,
+                      "percentage_question": 18.9
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 525,
+                      "percentage_survey": 21.1,
+                      "percentage_question": 34.4
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

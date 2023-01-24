@@ -1,0 +1,82 @@
+{
+  "dataAPI": {
+    "survey": {
+      "state_management_jotai": {
+        "id": "state_management_jotai",
+        "entity": {
+          "name": "Jotai",
+          "homepage": {
+            "url": "https://jotai.org/"
+          },
+          "github": {
+            "url": "https://github.com/pmndrs/jotai"
+          },
+          "npm": {
+            "url": "https://www.npmjs.com/package/jotai"
+          }
+        },
+        "experience": {
+          "comments": [
+            "Using jotai currently, very nice!",
+            "I may use it, it sounds interesting",
+            "Jotai is the best state mangement tool I've used. highly recommend!",
+            "Prefer zustand, i feel like jotai is missing some pieces when it comes to supporting multiple contexts"
+          ],
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 2489,
+                "count": 1576,
+                "percentage_survey": 63.4
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 131,
+                      "percentage_survey": 5.3,
+                      "percentage_question": 8.4
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 16,
+                      "percentage_survey": 0.7,
+                      "percentage_question": 1.1
+                    },
+                    {
+                      "id": "interested",
+                      "count": 437,
+                      "percentage_survey": 17.6,
+                      "percentage_question": 27.8
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 325,
+                      "percentage_survey": 13.1,
+                      "percentage_question": 20.7
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 667,
+                      "percentage_survey": 26.8,
+                      "percentage_question": 42.4
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

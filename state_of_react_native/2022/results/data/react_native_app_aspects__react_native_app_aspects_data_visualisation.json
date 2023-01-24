@@ -1,0 +1,105 @@
+{
+  "dataAPI": {
+    "survey": {
+      "react_native_app_aspects_data_visualisation": {
+        "entity": {
+          "name": "Data visualisation"
+        },
+        "keys": [
+          "react_native_app_aspects_data_visualisation_victory_native",
+          "react_native_app_aspects_data_visualisation_react_native_svg",
+          "react_native_app_aspects_data_visualisation_recharts",
+          "react_native_app_aspects_data_visualisation_react_native_charts_kit",
+          "react_native_app_aspects_data_visualisation_react_native_charts_wrapper"
+        ],
+        "all_years": [
+          {
+            "year": 2022,
+            "completion": {
+              "total": 2489,
+              "count": 1011,
+              "percentage_survey": 40.7
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 2489,
+                  "percentage_survey": 58.3,
+                  "percentage_question": 143.6,
+                  "count": 1451
+                },
+                "buckets": [
+                  {
+                    "id": "react_native_app_aspects_data_visualisation_victory_native",
+                    "count": 246,
+                    "percentage_question": 24.4,
+                    "percentage_survey": 9.9,
+                    "entity": {
+                      "name": "Victory Native",
+                      "homepage": {
+                        "url": "https://formidable.com/open-source/victory/docs/native"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/victory-native"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_data_visualisation_react_native_svg",
+                    "count": 903,
+                    "percentage_question": 89.4,
+                    "percentage_survey": 36.3,
+                    "entity": {
+                      "name": "react-native-svg",
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/react-native-svg"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_data_visualisation_recharts",
+                    "count": 121,
+                    "percentage_question": 12,
+                    "percentage_survey": 4.9,
+                    "entity": {
+                      "name": "Recharts",
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/recharts"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_data_visualisation_react_native_charts_kit",
+                    "count": 139,
+                    "percentage_question": 13.8,
+                    "percentage_survey": 5.6,
+                    "entity": {
+                      "name": "React Native Charts Kit",
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/react-native-charts-kit"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_data_visualisation_react_native_charts_wrapper",
+                    "count": 42,
+                    "percentage_question": 4.2,
+                    "percentage_survey": 1.7,
+                    "entity": {
+                      "name": "React Native Charts Wrapper",
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/react-native-charts-wrapper"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
