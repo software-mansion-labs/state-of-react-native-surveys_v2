@@ -2,6 +2,9 @@
   "dataAPI": {
     "survey": {
       "resources_podcast": {
+        "entity": {
+          "name": "Podcasts"
+        },
         "keys": [
           "react_native_radio",
           "react_native_show",
@@ -214,7 +217,15 @@
                     "id": "react_native_newsletter",
                     "count": 1,
                     "percentage_question": 1.6,
-                    "percentage_survey": 0.1
+                    "percentage_survey": 0.1,
+                    "entity": {
+                      "id": "react_native_newsletter",
+                      "name": "React Native Newsletter",
+                      "category": "podcasts",
+                      "tags": [
+                        "podcasts"
+                      ]
+                    }
                   },
                   {
                     "id": "william_candillon",
