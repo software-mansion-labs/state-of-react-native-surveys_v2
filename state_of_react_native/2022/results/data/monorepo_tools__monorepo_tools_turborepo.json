@@ -4,7 +4,17 @@
       "monorepo_tools_turborepo": {
         "id": "monorepo_tools_turborepo",
         "entity": {
-          "name": "Turborepo"
+          "name": "Turborepo",
+          "homepage": {
+            "url": "https://turbo.build/"
+          },
+          "description": "Turbo is an incremental bundler and build system optimized for JavaScript and TypeScript, written in Rust.",
+          "github": {
+            "url": "https://github.com/vercel/turbo"
+          },
+          "npm": {
+            "url": "https://www.npmjs.com/package/turbo"
+          }
         },
         "experience": {
           "comments": [
@@ -21,9 +31,9 @@
             {
               "year": 2022,
               "completion": {
-                "total": 2489,
+                "total": 1886,
                 "count": 1213,
-                "percentage_survey": 48.8
+                "percentage_survey": 64.4
               },
               "facets": [
                 {
@@ -31,31 +41,31 @@
                     {
                       "id": "would_use",
                       "count": 148,
-                      "percentage_survey": 6,
+                      "percentage_survey": 7.9,
                       "percentage_question": 12.3
                     },
                     {
                       "id": "would_not_use",
                       "count": 14,
-                      "percentage_survey": 0.6,
+                      "percentage_survey": 0.8,
                       "percentage_question": 1.2
                     },
                     {
                       "id": "interested",
                       "count": 509,
-                      "percentage_survey": 20.5,
+                      "percentage_survey": 27,
                       "percentage_question": 42
                     },
                     {
                       "id": "not_interested",
                       "count": 101,
-                      "percentage_survey": 4.1,
+                      "percentage_survey": 5.4,
                       "percentage_question": 8.4
                     },
                     {
                       "id": "never_heard",
                       "count": 441,
-                      "percentage_survey": 17.8,
+                      "percentage_survey": 23.4,
                       "percentage_question": 36.4
                     }
                   ]
