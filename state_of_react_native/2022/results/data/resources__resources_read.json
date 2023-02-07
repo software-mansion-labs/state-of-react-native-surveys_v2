@@ -2,6 +2,9 @@
   "dataAPI": {
     "survey": {
       "resources_read": {
+        "entity": {
+          "name": "Blogs & magazines"
+        },
         "keys": [
           "medium",
           "this_week_in_react",
@@ -11,353 +14,233 @@
           "twitter",
           "expo_blog",
           "reactnative_dev",
-          "software_mansion",
+          "software_mansion_blog",
           "overreacted",
           "react_native_newsletter",
-          "callstack",
+          "callstack_blog",
           "shopify_engineering",
           "reddit",
           "notjustdev",
           "bam_tech",
-          "wix_engineering",
-          "tkdodo",
-          "udemy",
-          "react_hebdo",
-          "matt_pocock",
-          "thoughtbot",
-          "hackernoon",
-          "kodeco",
-          "react_native_weekly",
-          "bitrise",
-          "hashnode",
-          "onwebfocus",
-          "app_js_workshops",
-          "red_shift",
-          "chatgpt",
-          "hackernews",
-          "pragmatic_engineer",
-          "fireship",
-          "ignite_newsletter",
-          "react_native_news",
-          "react_weekly",
-          "siso_quester_studios",
-          "react_newsletter"
+          "wix_engineering"
         ],
         "all_years": [
           {
             "year": 2022,
             "completion": {
-              "total": 2489,
-              "count": 84,
-              "percentage_survey": 3.4
+              "total": 1886,
+              "count": 125,
+              "percentage_survey": 6.7
             },
             "facets": [
               {
                 "completion": {
-                  "total": 2489,
-                  "count": 84,
-                  "percentage_survey": 3.4
+                  "total": 1886,
+                  "count": 125,
+                  "percentage_survey": 6.7
                 },
                 "buckets": [
                   {
                     "id": "medium",
                     "count": 27,
-                    "percentage_question": 32.2,
-                    "percentage_survey": 1.1,
+                    "percentage_question": 21.6,
+                    "percentage_survey": 1.5,
                     "entity": {
-                      "id": "medium",
-                      "name": "Medium"
+                      "name": "Medium",
+                      "homepage": {
+                        "url": "https://medium.com/"
+                      }
                     }
                   },
                   {
                     "id": "this_week_in_react",
                     "count": 24,
-                    "percentage_question": 28.6,
-                    "percentage_survey": 1,
+                    "percentage_question": 19.2,
+                    "percentage_survey": 1.3,
                     "entity": {
-                      "id": "this_week_in_react",
-                      "name": "This Week In React"
+                      "name": "This Week In React",
+                      "homepage": {
+                        "url": "https://thisweekinreact.com/"
+                      }
                     }
                   },
                   {
                     "id": "dev_to",
                     "count": 11,
-                    "percentage_question": 13.1,
-                    "percentage_survey": 0.5,
-                    "entity": {}
+                    "percentage_question": 8.8,
+                    "percentage_survey": 0.6,
+                    "entity": {
+                      "name": "DEV Community",
+                      "homepage": {
+                        "url": "https://dev.to/"
+                      }
+                    }
                   },
                   {
                     "id": "logrocket",
                     "count": 7,
-                    "percentage_question": 8.4,
-                    "percentage_survey": 0.3,
+                    "percentage_question": 5.6,
+                    "percentage_survey": 0.4,
                     "entity": {
-                      "id": "logrocket",
-                      "name": "LogRocket"
+                      "name": "LogRocket",
+                      "homepage": {
+                        "url": "https://blog.logrocket.com/"
+                      }
                     }
                   },
                   {
                     "id": "kent_c_dodds",
                     "count": 7,
-                    "percentage_question": 8.4,
-                    "percentage_survey": 0.3,
+                    "percentage_question": 5.6,
+                    "percentage_survey": 0.4,
                     "entity": {
-                      "id": "kent_c_dodds",
-                      "name": "Kent C. Dodds"
+                      "name": "Kent C. Dodds",
+                      "homepage": {
+                        "url": "https://kentcdodds.com/blog/"
+                      },
+                      "twitter": "@kentcdodds"
                     }
                   },
                   {
                     "id": "twitter",
                     "count": 6,
-                    "percentage_question": 7.2,
-                    "percentage_survey": 0.3,
+                    "percentage_question": 4.8,
+                    "percentage_survey": 0.4,
                     "entity": {
-                      "id": "twitter",
                       "name": "Twitter"
                     }
                   },
                   {
                     "id": "expo_blog",
                     "count": 6,
-                    "percentage_question": 7.2,
-                    "percentage_survey": 0.3,
-                    "entity": {}
+                    "percentage_question": 4.8,
+                    "percentage_survey": 0.4,
+                    "entity": {
+                      "name": "Exposition",
+                      "homepage": {
+                        "url": "https://blog.expo.dev/"
+                      }
+                    }
                   },
                   {
                     "id": "reactnative_dev",
                     "count": 6,
-                    "percentage_question": 7.2,
-                    "percentage_survey": 0.3,
-                    "entity": {}
+                    "percentage_question": 4.8,
+                    "percentage_survey": 0.4,
+                    "entity": {
+                      "name": "React Native docs",
+                      "homepage": {
+                        "url": "https://reactnative.dev/"
+                      }
+                    }
                   },
                   {
-                    "id": "software_mansion",
+                    "id": "software_mansion_blog",
                     "count": 5,
-                    "percentage_question": 6,
+                    "percentage_question": 4,
                     "percentage_survey": 0.3,
-                    "entity": {}
+                    "entity": {
+                      "name": "Software Mansion",
+                      "homepage": {
+                        "url": "https://blog.swmansion.com/"
+                      }
+                    }
                   },
                   {
                     "id": "overreacted",
                     "count": 5,
-                    "percentage_question": 6,
+                    "percentage_question": 4,
                     "percentage_survey": 0.3,
-                    "entity": {}
+                    "entity": {
+                      "name": "Overreacted",
+                      "homepage": {
+                        "url": "https://overreacted.io/"
+                      }
+                    }
                   },
                   {
                     "id": "react_native_newsletter",
                     "count": 4,
-                    "percentage_question": 4.8,
-                    "percentage_survey": 0.2,
-                    "entity": {}
+                    "percentage_question": 3.2,
+                    "percentage_survey": 0.3,
+                    "entity": {
+                      "name": "The React Native Newsletter",
+                      "homepage": {
+                        "url": "https://reactnativenewsletter.com/"
+                      }
+                    }
                   },
                   {
-                    "id": "callstack",
+                    "id": "callstack_blog",
                     "count": 4,
-                    "percentage_question": 4.8,
-                    "percentage_survey": 0.2,
-                    "entity": {}
+                    "percentage_question": 3.2,
+                    "percentage_survey": 0.3,
+                    "entity": {
+                      "name": "Callstack",
+                      "homepage": {
+                        "url": "https://www.callstack.com/blog"
+                      }
+                    }
                   },
                   {
                     "id": "shopify_engineering",
                     "count": 3,
-                    "percentage_question": 3.6,
+                    "percentage_question": 2.4,
                     "percentage_survey": 0.2,
-                    "entity": {}
+                    "entity": {
+                      "name": "Shopify Engineering",
+                      "homepage": {
+                        "url": "https://shopify.engineering/"
+                      }
+                    }
                   },
                   {
                     "id": "reddit",
                     "count": 3,
-                    "percentage_question": 3.6,
+                    "percentage_question": 2.4,
                     "percentage_survey": 0.2,
                     "entity": {
-                      "id": "reddit",
-                      "name": "Reddit"
+                      "name": "Reddit",
+                      "homepage": {
+                        "url": "https://reddit.com"
+                      }
                     }
                   },
                   {
                     "id": "notjustdev",
                     "count": 3,
-                    "percentage_question": 3.6,
+                    "percentage_question": 2.4,
                     "percentage_survey": 0.2,
-                    "entity": {}
+                    "entity": {
+                      "name": "notJust.dev",
+                      "homepage": {
+                        "url": "https://www.notjust.dev/"
+                      }
+                    }
                   },
                   {
                     "id": "bam_tech",
                     "count": 2,
-                    "percentage_question": 2.4,
-                    "percentage_survey": 0.1,
-                    "entity": {}
+                    "percentage_question": 1.6,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "BAM",
+                      "homepage": {
+                        "url": "https://www.bam.tech/"
+                      }
+                    }
                   },
                   {
                     "id": "wix_engineering",
                     "count": 2,
-                    "percentage_question": 2.4,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "tkdodo",
-                    "count": 1,
-                    "percentage_question": 1.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "udemy",
-                    "count": 1,
-                    "percentage_question": 1.2,
-                    "percentage_survey": 0.1,
+                    "percentage_question": 1.6,
+                    "percentage_survey": 0.2,
                     "entity": {
-                      "id": "udemy",
-                      "name": "Udemy"
+                      "name": "Wix Engineering",
+                      "homepage": {
+                        "url": "https://www.wix.engineering/"
+                      }
                     }
-                  },
-                  {
-                    "id": "react_hebdo",
-                    "count": 1,
-                    "percentage_question": 1.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "matt_pocock",
-                    "count": 1,
-                    "percentage_question": 1.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "thoughtbot",
-                    "count": 1,
-                    "percentage_question": 1.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "hackernoon",
-                    "count": 1,
-                    "percentage_question": 1.2,
-                    "percentage_survey": 0.1,
-                    "entity": {
-                      "id": "hackernoon",
-                      "name": "Hackernoon"
-                    }
-                  },
-                  {
-                    "id": "kodeco",
-                    "count": 1,
-                    "percentage_question": 1.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "react_native_weekly",
-                    "count": 1,
-                    "percentage_question": 1.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "bitrise",
-                    "count": 1,
-                    "percentage_question": 1.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "hashnode",
-                    "count": 1,
-                    "percentage_question": 1.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "onwebfocus",
-                    "count": 1,
-                    "percentage_question": 1.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "app_js_workshops",
-                    "count": 1,
-                    "percentage_question": 1.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "red_shift",
-                    "count": 1,
-                    "percentage_question": 1.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "chatgpt",
-                    "count": 1,
-                    "percentage_question": 1.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "hackernews",
-                    "count": 1,
-                    "percentage_question": 1.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "pragmatic_engineer",
-                    "count": 1,
-                    "percentage_question": 1.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "fireship",
-                    "count": 1,
-                    "percentage_question": 1.2,
-                    "percentage_survey": 0.1,
-                    "entity": {
-                      "id": "fireship",
-                      "name": "Fireship"
-                    }
-                  },
-                  {
-                    "id": "ignite_newsletter",
-                    "count": 1,
-                    "percentage_question": 1.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "react_native_news",
-                    "count": 1,
-                    "percentage_question": 1.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "react_weekly",
-                    "count": 1,
-                    "percentage_question": 1.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "siso_quester_studios",
-                    "count": 1,
-                    "percentage_question": 1.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "react_newsletter",
-                    "count": 1,
-                    "percentage_question": 1.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
                   }
                 ]
               }
