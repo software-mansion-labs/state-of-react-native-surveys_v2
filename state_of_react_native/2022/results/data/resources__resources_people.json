@@ -2,6 +2,9 @@
   "dataAPI": {
     "survey": {
       "resources_people": {
+        "entity": {
+          "name": "People"
+        },
         "keys": [
           "evan_bacon",
           "william_candillon",
@@ -39,752 +42,445 @@
           "dominik_tkdodo",
           "devaslife",
           "jack_herrington",
-          "michal_pierzchala",
-          "michel_weststrate",
-          "eric_vicenti",
-          "mo_gorhom",
-          "eli_white",
-          "adam_miskiewicz",
-          "sonny_sanga",
-          "clever_programing",
-          "cortinico",
-          "jamonholmgren",
-          "kadikraman",
-          "p_syche",
-          "millicode_",
-          "imrestrepo",
-          "alexandre_moureaux",
-          "meta",
-          "grafikart",
-          "robin_heinze",
-          "mazen",
-          "hola_mundo",
-          "traversy_media",
-          "ricky",
-          "ryan_carniato",
-          "prawito",
-          "nativescript_team",
-          "yishan",
-          "jared_palmer",
-          "jacint_varga",
-          "rocketseat",
-          "david_khourshid",
-          "wesbos",
-          "margelo_team",
-          "poimandres",
-          "christian_falch",
-          "jonny_burger",
-          "stephen_grider",
-          "enzo_manuel",
-          "taylor_mcginnis",
-          "reactiive",
-          "vonovak",
-          "alpha100",
-          "akinn",
-          "khalil_stemmler",
-          "eveningkid",
-          "paul_henschel",
-          "andrei_calazans",
-          "samet_mutevelli",
-          "maximilian_schwarzmuller",
-          "rox_codes",
-          "dominik_dorfmeister",
-          "nate_wienert",
-          "tomasz_zawadzki"
+          "michal_pierzchala"
         ],
         "all_years": [
           {
             "year": 2022,
             "completion": {
-              "total": 2489,
-              "count": 130,
-              "percentage_survey": 5.3
+              "total": 1886,
+              "count": 322,
+              "percentage_survey": 17.1
             },
             "facets": [
               {
                 "completion": {
-                  "total": 2489,
-                  "count": 130,
-                  "percentage_survey": 5.3
+                  "total": 1886,
+                  "count": 322,
+                  "percentage_survey": 17.1
                 },
                 "buckets": [
                   {
                     "id": "evan_bacon",
                     "count": 43,
-                    "percentage_question": 33.1,
-                    "percentage_survey": 1.8,
-                    "entity": {}
+                    "percentage_question": 13.4,
+                    "percentage_survey": 2.3,
+                    "entity": {
+                      "name": "Evan Bacon",
+                      "homepage": {
+                        "url": "https://evanbacon.dev/"
+                      },
+                      "twitter": "@Baconbrix"
+                    }
                   },
                   {
                     "id": "william_candillon",
                     "count": 42,
-                    "percentage_question": 32.4,
-                    "percentage_survey": 1.7,
+                    "percentage_question": 13.1,
+                    "percentage_survey": 2.3,
                     "entity": {
-                      "id": "william_candillon",
-                      "name": "William Candillon"
+                      "name": "William Candillon",
+                      "twitter": "@wcandillon"
                     }
                   },
                   {
                     "id": "marc_rousavy",
                     "count": 21,
-                    "percentage_question": 16.2,
-                    "percentage_survey": 0.9,
-                    "entity": {}
+                    "percentage_question": 6.6,
+                    "percentage_survey": 1.2,
+                    "entity": {
+                      "name": "Marc Rousavy",
+                      "twitter": "@mrousavy"
+                    }
                   },
                   {
                     "id": "dan_abramov",
                     "count": 19,
-                    "percentage_question": 14.7,
-                    "percentage_survey": 0.8,
+                    "percentage_question": 6,
+                    "percentage_survey": 1.1,
                     "entity": {
-                      "id": "dan_abramov",
                       "name": "Dan Abramov",
-                      "twitterName": "overreacted",
-                      "homepage": "https://overreacted.io/"
+                      "homepage": {
+                        "url": "https://overreacted.io/"
+                      },
+                      "twitter": "@overreacted"
                     }
                   },
                   {
                     "id": "kent_c_dodds",
                     "count": 19,
-                    "percentage_question": 14.7,
-                    "percentage_survey": 0.8,
+                    "percentage_question": 6,
+                    "percentage_survey": 1.1,
                     "entity": {
-                      "id": "kent_c_dodds",
                       "name": "Kent C. Dodds",
-                      "twitterName": "kentcdodds",
-                      "homepage": "https://kentcdodds.com/blog/"
+                      "homepage": {
+                        "url": "https://kentcdodds.com/blog/"
+                      },
+                      "twitter": "@kentcdodds"
                     }
                   },
                   {
                     "id": "fernando_rojo",
                     "count": 17,
-                    "percentage_question": 13.1,
-                    "percentage_survey": 0.7,
-                    "entity": {}
+                    "percentage_question": 5.3,
+                    "percentage_survey": 1,
+                    "entity": {
+                      "homepage": {
+                        "url": "https://fernandorojo.co/"
+                      },
+                      "twitter": "@FernandoTheRojo"
+                    }
                   },
                   {
                     "id": "sebastien_lorber",
                     "count": 16,
-                    "percentage_question": 12.4,
-                    "percentage_survey": 0.7,
-                    "entity": {}
+                    "percentage_question": 5,
+                    "percentage_survey": 0.9,
+                    "entity": {
+                      "name": "Sébastien Lorber",
+                      "homepage": {
+                        "url": "https://thisweekinreact.com/"
+                      },
+                      "twitter": "@sebastienlorber"
+                    }
                   },
                   {
                     "id": "jamon_holmgren",
                     "count": 15,
-                    "percentage_question": 11.6,
-                    "percentage_survey": 0.7,
-                    "entity": {}
+                    "percentage_question": 4.7,
+                    "percentage_survey": 0.8,
+                    "entity": {
+                      "name": "Jamon Holmgren",
+                      "twitter": "@jamonholmgren"
+                    }
                   },
                   {
                     "id": "brent_vatne",
                     "count": 12,
-                    "percentage_question": 9.3,
-                    "percentage_survey": 0.5,
-                    "entity": {}
+                    "percentage_question": 3.8,
+                    "percentage_survey": 0.7,
+                    "entity": {
+                      "name": "Brent Vatne",
+                      "twitter": "@notbrent"
+                    }
                   },
                   {
                     "id": "theo_browne",
                     "count": 12,
-                    "percentage_question": 9.3,
-                    "percentage_survey": 0.5,
+                    "percentage_question": 3.8,
+                    "percentage_survey": 0.7,
                     "entity": {
-                      "id": "theo_browne",
-                      "name": "Theo - ping․gg",
-                      "homepage": "https://www.youtube.com/c/theobrowne1017"
+                      "twitter": "@t3dotgg"
                     }
                   },
                   {
                     "id": "tomasz_sapeta",
                     "count": 11,
-                    "percentage_question": 8.5,
-                    "percentage_survey": 0.5,
-                    "entity": {}
+                    "percentage_question": 3.5,
+                    "percentage_survey": 0.6,
+                    "entity": {
+                      "name": "Tomasz Sapeta",
+                      "twitter": "@tsapeta"
+                    }
                   },
                   {
                     "id": "catalin_miron",
                     "count": 10,
-                    "percentage_question": 7.7,
-                    "percentage_survey": 0.5,
-                    "entity": {}
+                    "percentage_question": 3.2,
+                    "percentage_survey": 0.6,
+                    "entity": {
+                      "name": "Catalin Miron",
+                      "homepage": {
+                        "url": "https://www.youtube.com/c/catalinmirondev"
+                      },
+                      "twitter": "@mironcatalin"
+                    }
                   },
                   {
                     "id": "software_mansion_team",
                     "count": 9,
-                    "percentage_question": 7,
-                    "percentage_survey": 0.4,
-                    "entity": {}
+                    "percentage_question": 2.8,
+                    "percentage_survey": 0.5,
+                    "entity": {
+                      "name": "Software Mansion",
+                      "homepage": {
+                        "url": "https://swmansion.com/"
+                      },
+                      "twitter": "@swmansion"
+                    }
                   },
                   {
                     "id": "krzysztof_magiera",
                     "count": 6,
-                    "percentage_question": 4.7,
-                    "percentage_survey": 0.3,
-                    "entity": {}
+                    "percentage_question": 1.9,
+                    "percentage_survey": 0.4,
+                    "entity": {
+                      "name": "Krzysztof Magiera",
+                      "twitter": "@kzzzf"
+                    }
                   },
                   {
                     "id": "satyajit_sahoo",
                     "count": 6,
-                    "percentage_question": 4.7,
-                    "percentage_survey": 0.3,
-                    "entity": {}
+                    "percentage_question": 1.9,
+                    "percentage_survey": 0.4,
+                    "entity": {
+                      "name": "Satyajit Sahoo",
+                      "twitter": "@satya164"
+                    }
                   },
                   {
                     "id": "lorenzo_sciandra",
                     "count": 6,
-                    "percentage_question": 4.7,
-                    "percentage_survey": 0.3,
-                    "entity": {}
+                    "percentage_question": 1.9,
+                    "percentage_survey": 0.4,
+                    "entity": {
+                      "name": "Lorenzo Sciandra",
+                      "twitter": "@Kelset"
+                    }
                   },
                   {
                     "id": "tanner_linsley",
                     "count": 5,
-                    "percentage_question": 3.9,
+                    "percentage_question": 1.6,
                     "percentage_survey": 0.3,
                     "entity": {
-                      "id": "tanner_linsley",
                       "name": "tanner_linsley",
-                      "twitterName": "tannerlinsley",
-                      "homepage": "https://tanstack.com/"
+                      "homepage": {
+                        "url": "https://tanstack.com/"
+                      },
+                      "twitter": "@tannerlinsley"
                     }
                   },
                   {
                     "id": "vadim_savin",
                     "count": 5,
-                    "percentage_question": 3.9,
+                    "percentage_question": 1.6,
                     "percentage_survey": 0.3,
-                    "entity": {}
+                    "entity": {
+                      "name": "Vadim Savin",
+                      "homepage": {
+                        "url": "https://www.youtube.com/c/notjustdev"
+                      },
+                      "twitter": "@VadimNotJustDev"
+                    }
                   },
                   {
                     "id": "kudo_chien",
                     "count": 4,
-                    "percentage_question": 3.1,
-                    "percentage_survey": 0.2,
-                    "entity": {}
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.3,
+                    "entity": {
+                      "name": "Kudo Chien",
+                      "twitter": "@kudochien"
+                    }
                   },
                   {
                     "id": "callstack_team",
                     "count": 4,
-                    "percentage_question": 3.1,
-                    "percentage_survey": 0.2,
-                    "entity": {}
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.3,
+                    "entity": {
+                      "name": "Callstack Engineers",
+                      "homepage": {
+                        "url": "https://www.callstack.com/"
+                      },
+                      "twitter": "@callstackio"
+                    }
                   },
                   {
                     "id": "oscar_franco",
                     "count": 3,
-                    "percentage_question": 2.4,
+                    "percentage_question": 1,
                     "percentage_survey": 0.2,
-                    "entity": {}
+                    "entity": {
+                      "name": "Oscar Franco",
+                      "homepage": {
+                        "url": "https://ospfranco.com/"
+                      },
+                      "twitter": "@ospfranco"
+                    }
                   },
                   {
                     "id": "matt_pocock",
                     "count": 3,
-                    "percentage_question": 2.4,
+                    "percentage_question": 1,
                     "percentage_survey": 0.2,
-                    "entity": {}
+                    "entity": {
+                      "name": "Matt Pocock",
+                      "twitter": "@mattpocockuk"
+                    }
                   },
                   {
                     "id": "cedric_van_putten",
                     "count": 3,
-                    "percentage_question": 2.4,
+                    "percentage_question": 1,
                     "percentage_survey": 0.2,
-                    "entity": {}
+                    "entity": {
+                      "name": "Cedric van Putten",
+                      "twitter": "@cedricvanputten"
+                    }
                   },
                   {
                     "id": "daishi_kato",
                     "count": 3,
-                    "percentage_question": 2.4,
+                    "percentage_question": 1,
                     "percentage_survey": 0.2,
-                    "entity": {}
+                    "entity": {
+                      "name": "Daishi Kato",
+                      "twitter": "@dai_shi"
+                    }
                   },
                   {
                     "id": "infinite_red_team",
                     "count": 3,
-                    "percentage_question": 2.4,
+                    "percentage_question": 1,
                     "percentage_survey": 0.2,
-                    "entity": {}
+                    "entity": {
+                      "name": "Infinite Red",
+                      "homepage": {
+                        "url": "https://infinite.red/"
+                      },
+                      "twitter": "@infinite_red"
+                    }
                   },
                   {
                     "id": "expo_team",
                     "count": 3,
-                    "percentage_question": 2.4,
+                    "percentage_question": 1,
                     "percentage_survey": 0.2,
-                    "entity": {}
+                    "entity": {
+                      "name": "Expo",
+                      "homepage": {
+                        "url": "https://expo.dev/"
+                      },
+                      "twitter": "@expo"
+                    }
                   },
                   {
                     "id": "mike_grabowski",
                     "count": 2,
-                    "percentage_question": 1.6,
-                    "percentage_survey": 0.1,
-                    "entity": {}
+                    "percentage_question": 0.7,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "Mike Grabowski",
+                      "twitter": "@grabbou"
+                    }
                   },
                   {
                     "id": "janic_duplessis",
                     "count": 2,
-                    "percentage_question": 1.6,
-                    "percentage_survey": 0.1,
-                    "entity": {}
+                    "percentage_question": 0.7,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "Janic Duplessis",
+                      "twitter": "@janicduplessis"
+                    }
                   },
                   {
                     "id": "james_ide",
                     "count": 2,
-                    "percentage_question": 1.6,
-                    "percentage_survey": 0.1,
-                    "entity": {}
+                    "percentage_question": 0.7,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "James Ide",
+                      "twitter": "@JI"
+                    }
                   },
                   {
                     "id": "ben_awad",
                     "count": 2,
-                    "percentage_question": 1.6,
-                    "percentage_survey": 0.1,
+                    "percentage_question": 0.7,
+                    "percentage_survey": 0.2,
                     "entity": {
-                      "id": "ben_awad",
                       "name": "Ben Awad",
-                      "twitterName": "benawad",
-                      "homepage": "https://voidpet.com/benawad"
+                      "homepage": {
+                        "url": "https://voidpet.com/benawad"
+                      },
+                      "twitter": "@benawad"
                     }
                   },
                   {
                     "id": "almouro",
                     "count": 2,
-                    "percentage_question": 1.6,
-                    "percentage_survey": 0.1,
-                    "entity": {}
+                    "percentage_question": 0.7,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "Alexandre Moureaux",
+                      "twitter": "@almouro"
+                    }
                   },
                   {
                     "id": "diego_fernandes",
                     "count": 2,
-                    "percentage_question": 1.6,
-                    "percentage_survey": 0.1,
-                    "entity": {}
+                    "percentage_question": 0.7,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "Diego Fernandes",
+                      "twitter": "@dieegosf"
+                    }
                   },
                   {
                     "id": "primeagen",
                     "count": 2,
-                    "percentage_question": 1.6,
-                    "percentage_survey": 0.1,
-                    "entity": {}
+                    "percentage_question": 0.7,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "ThePrimeagen",
+                      "homepage": {
+                        "url": "https://www.youtube.com/ThePrimeagen"
+                      },
+                      "twitter": "@ThePrimeagen"
+                    }
                   },
                   {
                     "id": "dominik_tkdodo",
                     "count": 2,
-                    "percentage_question": 1.6,
-                    "percentage_survey": 0.1,
-                    "entity": {}
+                    "percentage_question": 0.7,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "Dominik",
+                      "homepage": {
+                        "url": "https://tkdodo.eu/blog/"
+                      },
+                      "twitter": "@tkdodo"
+                    }
                   },
                   {
                     "id": "devaslife",
                     "count": 2,
-                    "percentage_question": 1.6,
-                    "percentage_survey": 0.1,
-                    "entity": {}
+                    "percentage_question": 0.7,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "Takuya Matsuyama",
+                      "homepage": {
+                        "url": "https://www.youtube.com/devaslife"
+                      },
+                      "twitter": "@inkdrop_app"
+                    }
                   },
                   {
                     "id": "jack_herrington",
                     "count": 2,
-                    "percentage_question": 1.6,
-                    "percentage_survey": 0.1,
+                    "percentage_question": 0.7,
+                    "percentage_survey": 0.2,
                     "entity": {
-                      "id": "jack_herrington",
                       "name": "Jack Herrington",
-                      "twitterName": "jherr",
-                      "homepage": "https://www.jackherrington.com/"
+                      "homepage": {
+                        "url": "https://www.jackherrington.com/"
+                      },
+                      "twitter": "@jherr"
                     }
                   },
                   {
                     "id": "michal_pierzchala",
                     "count": 2,
-                    "percentage_question": 1.6,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "michel_weststrate",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "eric_vicenti",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "mo_gorhom",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "eli_white",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "adam_miskiewicz",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "sonny_sanga",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "clever_programing",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "cortinico",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "jamonholmgren",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "kadikraman",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "p_syche",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "millicode_",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "imrestrepo",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "alexandre_moureaux",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "meta",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "grafikart",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
+                    "percentage_question": 0.7,
+                    "percentage_survey": 0.2,
                     "entity": {
-                      "id": "grafikart",
-                      "name": "Grafikart",
-                      "homepage": "https://grafikart.fr/"
+                      "name": "Michał Pierzchała",
+                      "twitter": "@thymikee"
                     }
-                  },
-                  {
-                    "id": "robin_heinze",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "mazen",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "hola_mundo",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "traversy_media",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {
-                      "id": "traversy_media",
-                      "name": "Traversy Media",
-                      "homepage": "https://www.traversymedia.com/"
-                    }
-                  },
-                  {
-                    "id": "ricky",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "ryan_carniato",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {
-                      "id": "ryan_carniato",
-                      "name": "Ryan Carniato",
-                      "twitterName": "ryancarniato",
-                      "homepage": "https://dev.to/ryansolid"
-                    }
-                  },
-                  {
-                    "id": "prawito",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "nativescript_team",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "yishan",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "jared_palmer",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "jacint_varga",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "rocketseat",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {
-                      "id": "rocketseat",
-                      "name": "Rocketseat"
-                    }
-                  },
-                  {
-                    "id": "david_khourshid",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {
-                      "id": "david_khourshid",
-                      "name": "David Khourshid",
-                      "twitterName": "DavidKPiano",
-                      "homepage": "https://davidk.dev/"
-                    }
-                  },
-                  {
-                    "id": "wesbos",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "margelo_team",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "poimandres",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "christian_falch",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "jonny_burger",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "stephen_grider",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "enzo_manuel",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "taylor_mcginnis",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "reactiive",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "vonovak",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "alpha100",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "akinn",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "khalil_stemmler",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "eveningkid",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "paul_henschel",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {
-                      "id": "paul_henschel",
-                      "name": "Paul Henschel",
-                      "twitterName": 51722
-                    }
-                  },
-                  {
-                    "id": "andrei_calazans",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "samet_mutevelli",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "maximilian_schwarzmuller",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {
-                      "id": "maximilian_schwarzmuller",
-                      "name": "Maximilian Schwarzmüller",
-                      "twitterName": "maxedapps",
-                      "homepage": "https://academind.com/courses"
-                    }
-                  },
-                  {
-                    "id": "rox_codes",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "dominik_dorfmeister",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "nate_wienert",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "tomasz_zawadzki",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
                   }
                 ]
               }

@@ -2,107 +2,52 @@
   "dataAPI": {
     "survey": {
       "react_native_features_performance_profile_other": {
+        "entity": {
+          "name": "Other performance profiling tools"
+        },
         "keys": [
           "android_performance_profiler",
-          "chrome_profiler",
-          "hermes_profiler",
-          "react_devtools_profiler",
-          "reassure",
-          "why_did_you_render",
-          "bamlab",
-          "intel_vtune",
-          "playstation_razor",
-          "cachegrind",
-          "react_developer_tools_profiler",
-          "firebase_stats"
+          "chrome_profiler"
         ],
         "all_years": [
           {
             "year": 2022,
             "completion": {
-              "total": 2489,
-              "count": 15,
-              "percentage_survey": 0.7
+              "total": 1886,
+              "count": 6,
+              "percentage_survey": 0.4
             },
             "facets": [
               {
                 "completion": {
-                  "total": 2489,
-                  "count": 15,
-                  "percentage_survey": 0.7
+                  "total": 1886,
+                  "count": 6,
+                  "percentage_survey": 0.4
                 },
                 "buckets": [
                   {
                     "id": "android_performance_profiler",
                     "count": 3,
-                    "percentage_question": 20,
-                    "percentage_survey": 0.2
+                    "percentage_question": 50,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "The Android Profiler",
+                      "homepage": {
+                        "url": "https://developer.android.com/studio/profile/android-profiler"
+                      }
+                    }
                   },
                   {
                     "id": "chrome_profiler",
                     "count": 3,
-                    "percentage_question": 20,
-                    "percentage_survey": 0.2
-                  },
-                  {
-                    "id": "hermes_profiler",
-                    "count": 1,
-                    "percentage_question": 6.7,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "react_devtools_profiler",
-                    "count": 1,
-                    "percentage_question": 6.7,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "reassure",
-                    "count": 1,
-                    "percentage_question": 6.7,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "why_did_you_render",
-                    "count": 1,
-                    "percentage_question": 6.7,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "bamlab",
-                    "count": 1,
-                    "percentage_question": 6.7,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "intel_vtune",
-                    "count": 1,
-                    "percentage_question": 6.7,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "playstation_razor",
-                    "count": 1,
-                    "percentage_question": 6.7,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "cachegrind",
-                    "count": 1,
-                    "percentage_question": 6.7,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "react_developer_tools_profiler",
-                    "count": 1,
-                    "percentage_question": 6.7,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "firebase_stats",
-                    "count": 1,
-                    "percentage_question": 6.7,
-                    "percentage_survey": 0.1
+                    "percentage_question": 50,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "Chrome DevTools Performance Profiler",
+                      "homepage": {
+                        "url": "https://developer.chrome.com/docs/devtools/performance/"
+                      }
+                    }
                   }
                 ]
               }
