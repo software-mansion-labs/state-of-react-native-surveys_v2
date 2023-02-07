@@ -2,98 +2,78 @@
   "dataAPI": {
     "survey": {
       "deployment_other": {
+        "entity": {
+          "name": "Other ways to build app and submit for the App Store or Google Play"
+        },
         "keys": [
           "bitrise",
           "github_actions",
           "xcode_cloud",
-          "custom",
-          "codemagic",
-          "expo",
-          "jenkins",
-          "runway",
-          "nutpipe"
+          "codemagic"
         ],
         "all_years": [
           {
             "year": 2022,
             "completion": {
-              "total": 2489,
-              "count": 32,
+              "total": 1886,
+              "count": 24,
               "percentage_survey": 1.3
             },
             "facets": [
               {
                 "completion": {
-                  "total": 2489,
-                  "count": 32,
+                  "total": 1886,
+                  "count": 24,
                   "percentage_survey": 1.3
                 },
                 "buckets": [
                   {
                     "id": "bitrise",
                     "count": 9,
-                    "percentage_question": 28.2,
-                    "percentage_survey": 0.4
+                    "percentage_question": 37.5,
+                    "percentage_survey": 0.5,
+                    "entity": {
+                      "name": "Bitrise",
+                      "homepage": {
+                        "url": "https://www.bitrise.io/"
+                      }
+                    }
                   },
                   {
                     "id": "github_actions",
                     "count": 8,
-                    "percentage_question": 25,
-                    "percentage_survey": 0.4
+                    "percentage_question": 33.4,
+                    "percentage_survey": 0.5,
+                    "entity": {
+                      "name": "GitHub Actions",
+                      "homepage": {
+                        "url": "https://github.com/features/actions"
+                      }
+                    }
                   },
                   {
                     "id": "xcode_cloud",
                     "count": 4,
-                    "percentage_question": 12.5,
-                    "percentage_survey": 0.2
-                  },
-                  {
-                    "id": "custom",
-                    "count": 4,
-                    "percentage_question": 12.5,
-                    "percentage_survey": 0.2
+                    "percentage_question": 16.7,
+                    "percentage_survey": 0.3,
+                    "entity": {
+                      "name": "Xcode Cloud",
+                      "homepage": {
+                        "url": "https://developer.apple.com/xcode-cloud/"
+                      }
+                    }
                   },
                   {
                     "id": "codemagic",
                     "count": 3,
-                    "percentage_question": 9.4,
-                    "percentage_survey": 0.2
-                  },
-                  {
-                    "id": "expo",
-                    "count": 1,
-                    "percentage_question": 3.2,
-                    "percentage_survey": 0.1,
+                    "percentage_question": 12.5,
+                    "percentage_survey": 0.2,
                     "entity": {
-                      "id": "expo",
-                      "name": "Expo",
-                      "npm": "expo",
-                      "github": "expo/expo",
-                      "description": "An open-source platform for making universal native apps with React. Expo runs on Android, iOS, and the web.",
-                      "homepage": "https://docs.expo.io",
-                      "category": "libraries",
-                      "tags": [
-                        "libraries"
-                      ]
+                      "name": "Codemagic",
+                      "homepage": {
+                        "url": "https://codemagic.io/"
+                      }
                     }
-                  },
-                  {
-                    "id": "jenkins",
-                    "count": 1,
-                    "percentage_question": 3.2,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "runway",
-                    "count": 1,
-                    "percentage_question": 3.2,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "nutpipe",
-                    "count": 1,
-                    "percentage_question": 3.2,
-                    "percentage_survey": 0.1
                   }
                 ]
               }

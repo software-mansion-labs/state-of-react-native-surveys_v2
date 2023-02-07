@@ -2,6 +2,9 @@
   "dataAPI": {
     "survey": {
       "opinions_advantages": {
+        "entity": {
+          "name": "React Native advantages"
+        },
         "keys": [
           "web_technologies",
           "crossplatform",
@@ -26,81 +29,96 @@
           {
             "year": 2022,
             "completion": {
-              "total": 2489,
+              "total": 1886,
               "count": 482,
-              "percentage_survey": 19.4
+              "percentage_survey": 25.6
             },
             "facets": [
               {
                 "completion": {
-                  "total": 2489,
+                  "total": 1886,
                   "count": 482,
-                  "percentage_survey": 19.4
+                  "percentage_survey": 25.6
                 },
                 "buckets": [
                   {
                     "id": "web_technologies",
                     "count": 80,
                     "percentage_question": 16.6,
-                    "percentage_survey": 3.3,
-                    "entity": {}
+                    "percentage_survey": 4.3,
+                    "entity": {
+                      "name": "Web technologies"
+                    }
                   },
                   {
                     "id": "crossplatform",
                     "count": 58,
                     "percentage_question": 12.1,
-                    "percentage_survey": 2.4,
-                    "entity": {}
+                    "percentage_survey": 3.1,
+                    "entity": {
+                      "name": "Cross-platform"
+                    }
                   },
                   {
                     "id": "developer_experience",
                     "count": 49,
                     "percentage_question": 10.2,
-                    "percentage_survey": 2,
-                    "entity": {}
+                    "percentage_survey": 2.6,
+                    "entity": {
+                      "name": "Developer experience"
+                    }
                   },
                   {
                     "id": "easy_to_learn",
                     "count": 48,
                     "percentage_question": 10,
-                    "percentage_survey": 2,
-                    "entity": {}
+                    "percentage_survey": 2.6,
+                    "entity": {
+                      "name": "Easy to learn"
+                    }
                   },
                   {
                     "id": "single_codebase",
                     "count": 37,
                     "percentage_question": 7.7,
-                    "percentage_survey": 1.5,
-                    "entity": {}
+                    "percentage_survey": 2,
+                    "entity": {
+                      "name": "Single codebase"
+                    }
                   },
                   {
                     "id": "ecosystem",
                     "count": 35,
                     "percentage_question": 7.3,
-                    "percentage_survey": 1.5,
-                    "entity": {}
+                    "percentage_survey": 1.9,
+                    "entity": {
+                      "name": "Ecosystem"
+                    }
                   },
                   {
                     "id": "community",
                     "count": 34,
                     "percentage_question": 7.1,
-                    "percentage_survey": 1.4,
-                    "entity": {}
+                    "percentage_survey": 1.9,
+                    "entity": {
+                      "name": "Community"
+                    }
                   },
                   {
                     "id": "native",
                     "count": 28,
                     "percentage_question": 5.9,
-                    "percentage_survey": 1.2,
-                    "entity": {}
+                    "percentage_survey": 1.5,
+                    "entity": {
+                      "name": "Native"
+                    }
                   },
                   {
                     "id": "performance",
                     "count": 24,
                     "percentage_question": 5,
-                    "percentage_survey": 1,
+                    "percentage_survey": 1.3,
                     "entity": {
-                      "id": "performance",
                       "name": "Performance"
                     }
                   },
@@ -108,64 +126,83 @@
                     "id": "code_sharing",
                     "count": 17,
                     "percentage_question": 3.6,
-                    "percentage_survey": 0.7,
-                    "entity": {}
+                    "percentage_survey": 1,
+                    "entity": {
+                      "name": "Code sharing"
+                    }
                   },
                   {
                     "id": "expo",
                     "count": 14,
                     "percentage_question": 3,
-                    "percentage_survey": 0.6,
+                    "percentage_survey": 0.8,
                     "entity": {
-                      "id": "expo",
                       "name": "Expo",
+                      "homepage": {
+                        "url": "https://docs.expo.io"
+                      },
                       "description": "An open-source platform for making universal native apps with React. Expo runs on Android, iOS, and the web.",
-                      "homepage": "https://docs.expo.io",
-                      "npm": "expo",
-                      "github": "expo/expo"
+                      "github": {
+                        "url": "expo/expo"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/expo"
+                      }
                     }
                   },
                   {
                     "id": "over-the-air_updates",
                     "count": 14,
                     "percentage_question": 3,
-                    "percentage_survey": 0.6,
-                    "entity": {}
+                    "percentage_survey": 0.8,
+                    "entity": {
+                      "name": "Over-the-air updates"
+                    }
                   },
                   {
                     "id": "fast_iterations",
                     "count": 11,
                     "percentage_question": 2.3,
-                    "percentage_survey": 0.5,
-                    "entity": {}
+                    "percentage_survey": 0.6,
+                    "entity": {
+                      "name": "Fast iterations"
+                    }
                   },
                   {
                     "id": "time_to_market",
                     "count": 10,
                     "percentage_question": 2.1,
-                    "percentage_survey": 0.5,
-                    "entity": {}
+                    "percentage_survey": 0.6,
+                    "entity": {
+                      "name": "Time to market"
+                    }
                   },
                   {
                     "id": "cost-effective",
                     "count": 9,
                     "percentage_question": 1.9,
-                    "percentage_survey": 0.4,
-                    "entity": {}
+                    "percentage_survey": 0.5,
+                    "entity": {
+                      "name": "Cost-effective"
+                    }
                   },
                   {
                     "id": "hot_reloading",
                     "count": 7,
                     "percentage_question": 1.5,
-                    "percentage_survey": 0.3,
-                    "entity": {}
+                    "percentage_survey": 0.4,
+                    "entity": {
+                      "name": "Hot reloading"
+                    }
                   },
                   {
                     "id": "stable",
                     "count": 4,
                     "percentage_question": 0.9,
-                    "percentage_survey": 0.2,
-                    "entity": {}
+                    "percentage_survey": 0.3,
+                    "entity": {
+                      "name": "Stable"
+                    }
                   },
                   {
                     "id": "documentation",
@@ -173,7 +210,6 @@
                     "percentage_question": 0.7,
                     "percentage_survey": 0.2,
                     "entity": {
-                      "id": "documentation",
                       "name": "Documentation"
                     }
                   }
