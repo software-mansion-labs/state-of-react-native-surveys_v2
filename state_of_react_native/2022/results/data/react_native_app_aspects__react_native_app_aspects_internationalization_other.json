@@ -2,144 +2,134 @@
   "dataAPI": {
     "survey": {
       "react_native_app_aspects_internationalization_other": {
+        "entity": {
+          "name": "Other internationalization solutions"
+        },
         "keys": [
-          "custom",
+          "i18n_js",
           "lingui",
           "react_intl",
           "expo_localization",
-          "i18n_js",
-          "shopify",
-          "polyglot",
-          "typesafe_i18n",
-          "quilt",
-          "i18n",
-          "react_i18n",
-          "formatjs",
-          "intl_js",
-          "react_native_i18n",
-          "fluentjs",
-          "react_ridge_translations"
+          "@shopify/react-i18n",
+          "polyglot"
         ],
         "all_years": [
           {
             "year": 2022,
             "completion": {
-              "total": 2489,
-              "count": 36,
+              "total": 1886,
+              "count": 28,
               "percentage_survey": 1.5
             },
             "facets": [
               {
                 "completion": {
-                  "total": 2489,
-                  "count": 36,
+                  "total": 1886,
+                  "count": 28,
                   "percentage_survey": 1.5
                 },
                 "buckets": [
                   {
-                    "id": "custom",
+                    "id": "i18n_js",
                     "count": 8,
-                    "percentage_question": 22.3,
-                    "percentage_survey": 0.4
+                    "percentage_question": 28.6,
+                    "percentage_survey": 0.5,
+                    "entity": {
+                      "name": "i18n-js",
+                      "homepage": {
+                        "url": "https://fnando.github.io/i18n/"
+                      },
+                      "description": "A small library to provide the I18n translations on the JavaScript.",
+                      "github": {
+                        "url": "https://github.com/fnando/i18n"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/i18n-js"
+                      }
+                    }
                   },
                   {
                     "id": "lingui",
                     "count": 7,
-                    "percentage_question": 19.5,
-                    "percentage_survey": 0.3
+                    "percentage_question": 25,
+                    "percentage_survey": 0.4,
+                    "entity": {
+                      "name": "Lingui",
+                      "homepage": {
+                        "url": "https://lingui.dev/"
+                      },
+                      "description": "🌍📖 A readable, automated, and optimized (5 kb) internationalization for JavaScript",
+                      "github": {
+                        "url": "https://github.com/lingui/js-lingui"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/@lingui/react"
+                      }
+                    }
                   },
                   {
                     "id": "react_intl",
                     "count": 4,
-                    "percentage_question": 11.2,
-                    "percentage_survey": 0.2
+                    "percentage_question": 14.3,
+                    "percentage_survey": 0.3,
+                    "entity": {
+                      "name": "React Intl",
+                      "homepage": {
+                        "url": "https://formatjs.io/docs/react-intl/"
+                      },
+                      "github": {
+                        "url": "https://github.com/formatjs/formatjs"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/react-intl"
+                      }
+                    }
                   },
                   {
                     "id": "expo_localization",
                     "count": 4,
-                    "percentage_question": 11.2,
-                    "percentage_survey": 0.2
+                    "percentage_question": 14.3,
+                    "percentage_survey": 0.3,
+                    "entity": {
+                      "name": "Expo Localization",
+                      "homepage": {
+                        "url": "https://docs.expo.dev/versions/latest/sdk/localization/"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/expo-localization"
+                      }
+                    }
                   },
                   {
-                    "id": "i18n_js",
+                    "id": "@shopify/react-i18n",
                     "count": 3,
-                    "percentage_question": 8.4,
-                    "percentage_survey": 0.2
-                  },
-                  {
-                    "id": "shopify",
-                    "count": 2,
-                    "percentage_question": 5.6,
-                    "percentage_survey": 0.1
+                    "percentage_question": 10.8,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "@shopify/react-i18n",
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/@shopify/react-i18n"
+                      }
+                    }
                   },
                   {
                     "id": "polyglot",
                     "count": 2,
-                    "percentage_question": 5.6,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "typesafe_i18n",
-                    "count": 2,
-                    "percentage_question": 5.6,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "quilt",
-                    "count": 1,
-                    "percentage_question": 2.8,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "i18n",
-                    "count": 1,
-                    "percentage_question": 2.8,
-                    "percentage_survey": 0.1,
+                    "percentage_question": 7.2,
+                    "percentage_survey": 0.2,
                     "entity": {
-                      "id": "i18n",
-                      "name": "i18n",
-                      "mdn": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl",
-                      "category": "features",
-                      "tags": [
-                        "features"
-                      ]
+                      "name": "Polyglot.js",
+                      "homepage": {
+                        "url": "https://airbnb.io/polyglot.js/"
+                      },
+                      "description": "Give your JavaScript the ability to speak many languages.",
+                      "github": {
+                        "url": "https://github.com/airbnb/polyglot.js"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/node-polyglot"
+                      }
                     }
-                  },
-                  {
-                    "id": "react_i18n",
-                    "count": 1,
-                    "percentage_question": 2.8,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "formatjs",
-                    "count": 1,
-                    "percentage_question": 2.8,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "intl_js",
-                    "count": 1,
-                    "percentage_question": 2.8,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "react_native_i18n",
-                    "count": 1,
-                    "percentage_question": 2.8,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "fluentjs",
-                    "count": 1,
-                    "percentage_question": 2.8,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "react_ridge_translations",
-                    "count": 1,
-                    "percentage_question": 2.8,
-                    "percentage_survey": 0.1
                   }
                 ]
               }
