@@ -2,300 +2,143 @@
   "dataAPI": {
     "survey": {
       "react_native_app_aspects_analytics_other": {
+        "entity": {
+          "name": "Other analytics solutions"
+        },
         "keys": [
           "posthog",
           "adobe",
           "new_relic",
           "countly",
-          "custom",
           "adjust",
           "datadog",
           "rudderstack",
           "heap",
-          "custom",
-          "matomo",
-          "karte",
-          "uxcam",
-          "plausible",
-          "intercom",
-          "emarsys",
-          "tealium",
-          "firebase",
-          "freshpaint",
-          "statsig",
-          "fanthom",
-          "github",
-          "donni",
-          "splitbee",
-          "axiom",
-          "moengage",
-          "branch_io",
-          "searchnode",
-          "braze",
-          "gainsight",
-          "mixpanel",
-          "yandex_mertika",
-          "branch",
-          "airship",
-          "google_analytics",
-          "contentsquare",
-          "piano_analytics"
+          "matomo"
         ],
         "all_years": [
           {
             "year": 2022,
             "completion": {
-              "total": 2489,
-              "count": 42,
-              "percentage_survey": 1.7
+              "total": 1886,
+              "count": 20,
+              "percentage_survey": 1.1
             },
             "facets": [
               {
                 "completion": {
-                  "total": 2489,
-                  "count": 42,
-                  "percentage_survey": 1.7
+                  "total": 1886,
+                  "count": 20,
+                  "percentage_survey": 1.1
                 },
                 "buckets": [
                   {
                     "id": "posthog",
                     "count": 3,
-                    "percentage_question": 7.2,
-                    "percentage_survey": 0.2
+                    "percentage_question": 15,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "PostHog",
+                      "homepage": {
+                        "url": "https://posthog.com/"
+                      }
+                    }
                   },
                   {
                     "id": "adobe",
                     "count": 3,
-                    "percentage_question": 7.2,
-                    "percentage_survey": 0.2
+                    "percentage_question": 15,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "Adobe Analytics",
+                      "homepage": {
+                        "url": "https://business.adobe.com/products/analytics/adobe-analytics.html"
+                      }
+                    }
                   },
                   {
                     "id": "new_relic",
                     "count": 2,
-                    "percentage_question": 4.8,
-                    "percentage_survey": 0.1
+                    "percentage_question": 10,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "New Relic",
+                      "homepage": {
+                        "url": "https://newrelic.com/"
+                      }
+                    }
                   },
                   {
                     "id": "countly",
                     "count": 2,
-                    "percentage_question": 4.8,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "custom",
-                    "count": 2,
-                    "percentage_question": 4.8,
-                    "percentage_survey": 0.1
+                    "percentage_question": 10,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "Countly",
+                      "homepage": {
+                        "url": "https://countly.com/"
+                      }
+                    }
                   },
                   {
                     "id": "adjust",
                     "count": 2,
-                    "percentage_question": 4.8,
-                    "percentage_survey": 0.1
+                    "percentage_question": 10,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "Adjust",
+                      "homepage": {
+                        "url": "https://www.adjust.com"
+                      }
+                    }
                   },
                   {
                     "id": "datadog",
                     "count": 2,
-                    "percentage_question": 4.8,
-                    "percentage_survey": 0.1
+                    "percentage_question": 10,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "DataDog",
+                      "homepage": {
+                        "url": "https://www.datadoghq.com/product/log-management/"
+                      }
+                    }
                   },
                   {
                     "id": "rudderstack",
                     "count": 2,
-                    "percentage_question": 4.8,
-                    "percentage_survey": 0.1
+                    "percentage_question": 10,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "RudderStack",
+                      "homepage": {
+                        "url": "https://rudderstack.com/"
+                      }
+                    }
                   },
                   {
                     "id": "heap",
                     "count": 2,
-                    "percentage_question": 4.8,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "custom",
-                    "count": 2,
-                    "percentage_question": 4.8,
-                    "percentage_survey": 0.1
+                    "percentage_question": 10,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "Heap",
+                      "homepage": {
+                        "url": "https://www.heap.io/"
+                      }
+                    }
                   },
                   {
                     "id": "matomo",
                     "count": 2,
-                    "percentage_question": 4.8,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "karte",
-                    "count": 1,
-                    "percentage_question": 2.4,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "uxcam",
-                    "count": 1,
-                    "percentage_question": 2.4,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "plausible",
-                    "count": 1,
-                    "percentage_question": 2.4,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "intercom",
-                    "count": 1,
-                    "percentage_question": 2.4,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "emarsys",
-                    "count": 1,
-                    "percentage_question": 2.4,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "tealium",
-                    "count": 1,
-                    "percentage_question": 2.4,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "firebase",
-                    "count": 1,
-                    "percentage_question": 2.4,
-                    "percentage_survey": 0.1,
+                    "percentage_question": 10,
+                    "percentage_survey": 0.2,
                     "entity": {
-                      "id": "firebase",
-                      "name": "Firebase",
-                      "homepage": "https://firebase.google.com/",
-                      "category": "databases",
-                      "tags": [
-                        "databases"
-                      ]
+                      "name": "Matomo",
+                      "homepage": {
+                        "url": "https://matomo.org/"
+                      }
                     }
-                  },
-                  {
-                    "id": "freshpaint",
-                    "count": 1,
-                    "percentage_question": 2.4,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "statsig",
-                    "count": 1,
-                    "percentage_question": 2.4,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "fanthom",
-                    "count": 1,
-                    "percentage_question": 2.4,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "github",
-                    "count": 1,
-                    "percentage_question": 2.4,
-                    "percentage_survey": 0.1,
-                    "entity": {
-                      "id": "github",
-                      "name": "GitHub",
-                      "homepage": "https://github.com",
-                      "category": "sites",
-                      "tags": [
-                        "sites"
-                      ]
-                    }
-                  },
-                  {
-                    "id": "donni",
-                    "count": 1,
-                    "percentage_question": 2.4,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "splitbee",
-                    "count": 1,
-                    "percentage_question": 2.4,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "axiom",
-                    "count": 1,
-                    "percentage_question": 2.4,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "moengage",
-                    "count": 1,
-                    "percentage_question": 2.4,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "branch_io",
-                    "count": 1,
-                    "percentage_question": 2.4,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "searchnode",
-                    "count": 1,
-                    "percentage_question": 2.4,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "braze",
-                    "count": 1,
-                    "percentage_question": 2.4,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "gainsight",
-                    "count": 1,
-                    "percentage_question": 2.4,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "mixpanel",
-                    "count": 1,
-                    "percentage_question": 2.4,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "yandex_mertika",
-                    "count": 1,
-                    "percentage_question": 2.4,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "branch",
-                    "count": 1,
-                    "percentage_question": 2.4,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "airship",
-                    "count": 1,
-                    "percentage_question": 2.4,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "google_analytics",
-                    "count": 1,
-                    "percentage_question": 2.4,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "contentsquare",
-                    "count": 1,
-                    "percentage_question": 2.4,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "piano_analytics",
-                    "count": 1,
-                    "percentage_question": 2.4,
-                    "percentage_survey": 0.1
                   }
                 ]
               }
