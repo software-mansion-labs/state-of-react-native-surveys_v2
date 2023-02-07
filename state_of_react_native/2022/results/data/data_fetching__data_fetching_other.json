@@ -2,174 +2,135 @@
   "dataAPI": {
     "survey": {
       "data_fetching_other": {
+        "entity": {
+          "name": "Other data fetching"
+        },
         "keys": [
           "rtkquery",
           "urql",
           "firebase",
           "ky",
           "apisauce",
-          "wretch",
-          "jquery",
-          "grpc",
-          "hasura",
-          "realm",
-          "ws",
-          "orval",
-          "react_native_network_client"
+          "wretch"
         ],
         "all_years": [
           {
             "year": 2022,
             "completion": {
-              "total": 2489,
-              "count": 36,
-              "percentage_survey": 1.5
+              "total": 1886,
+              "count": 30,
+              "percentage_survey": 1.6
             },
             "facets": [
               {
                 "completion": {
-                  "total": 2489,
-                  "count": 36,
-                  "percentage_survey": 1.5
+                  "total": 1886,
+                  "count": 30,
+                  "percentage_survey": 1.6
                 },
                 "buckets": [
                   {
                     "id": "rtkquery",
                     "count": 14,
-                    "percentage_question": 38.9,
-                    "percentage_survey": 0.6
+                    "percentage_question": 46.7,
+                    "percentage_survey": 0.8,
+                    "entity": {
+                      "name": "RTK Query",
+                      "homepage": {
+                        "url": "https://redux-toolkit.js.org/rtk-query/overview"
+                      },
+                      "github": {
+                        "url": "https://github.com/reduxjs/redux-toolkit"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/@reduxjs/toolkit"
+                      }
+                    }
                   },
                   {
                     "id": "urql",
                     "count": 4,
-                    "percentage_question": 11.2,
-                    "percentage_survey": 0.2,
+                    "percentage_question": 13.4,
+                    "percentage_survey": 0.3,
                     "entity": {
-                      "id": "urql",
                       "name": "URQL",
-                      "homepage": "https://formidable.com/open-source/urql/",
-                      "category": "graphql",
-                      "tags": [
-                        "graphql"
-                      ]
+                      "homepage": {
+                        "url": "https://formidable.com/open-source/urql/"
+                      },
+                      "description": "The highly customizable and versatile GraphQL client with which you add on features like normalized caching as you grow.",
+                      "github": {
+                        "url": "https://github.com/urql-graphql/urql"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/urql"
+                      }
                     }
                   },
                   {
                     "id": "firebase",
                     "count": 4,
-                    "percentage_question": 11.2,
-                    "percentage_survey": 0.2,
+                    "percentage_question": 13.4,
+                    "percentage_survey": 0.3,
                     "entity": {
-                      "id": "firebase",
                       "name": "Firebase",
-                      "homepage": "https://firebase.google.com/",
-                      "category": "databases",
-                      "tags": [
-                        "databases"
-                      ]
+                      "homepage": {
+                        "url": "https://firebase.google.com/"
+                      }
                     }
                   },
                   {
                     "id": "ky",
                     "count": 3,
-                    "percentage_question": 8.4,
+                    "percentage_question": 10,
                     "percentage_survey": 0.2,
                     "entity": {
-                      "id": "ky",
                       "name": "Ky",
-                      "npm": "ky",
-                      "github": "sindresorhus/ky",
+                      "homepage": {
+                        "url": "https://github.com/sindresorhus/ky"
+                      },
                       "description": "Tiny & elegant HTTP client based on window.fetch",
-                      "homepage": "https://github.com/sindresorhus/ky",
-                      "category": "libraries",
-                      "tags": [
-                        "libraries"
-                      ]
+                      "github": {
+                        "url": "sindresorhus/ky"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/ky"
+                      }
                     }
                   },
                   {
                     "id": "apisauce",
                     "count": 3,
-                    "percentage_question": 8.4,
-                    "percentage_survey": 0.2
+                    "percentage_question": 10,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "Apisauce",
+                      "description": "Axios + standardized errors + request/response transforms.",
+                      "github": {
+                        "url": "https://github.com/infinitered/apisauce"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/apisauce"
+                      }
+                    }
                   },
                   {
                     "id": "wretch",
                     "count": 2,
-                    "percentage_question": 5.6,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "jquery",
-                    "count": 1,
-                    "percentage_question": 2.8,
-                    "percentage_survey": 0.1,
+                    "percentage_question": 6.7,
+                    "percentage_survey": 0.2,
                     "entity": {
-                      "id": "jquery",
-                      "name": "jQuery",
-                      "npm": "jquery",
-                      "github": "jquery/jquery",
-                      "description": "jQuery JavaScript Library",
-                      "homepage": "https://jquery.com/",
-                      "category": "libraries",
-                      "tags": [
-                        "libraries"
-                      ]
+                      "name": "Wretch",
+                      "homepage": {
+                        "url": "https://elbywan.github.io/wretch/"
+                      },
+                      "description": "A tiny wrapper built around fetch with an intuitive syntax. 🍬",
+                      "github": {
+                        "url": "https://github.com/elbywan/wretch"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/wretch"
+                      }
                     }
-                  },
-                  {
-                    "id": "grpc",
-                    "count": 1,
-                    "percentage_question": 2.8,
-                    "percentage_survey": 0.1,
-                    "entity": {
-                      "id": "grpc",
-                      "name": "gRPC",
-                      "homepage": "https://grpc.io/",
-                      "category": "graphql",
-                      "tags": [
-                        "graphql"
-                      ]
-                    }
-                  },
-                  {
-                    "id": "hasura",
-                    "count": 1,
-                    "percentage_question": 2.8,
-                    "percentage_survey": 0.1,
-                    "entity": {
-                      "id": "hasura",
-                      "name": "Hasura",
-                      "homepage": "https://hasura.io/",
-                      "category": "graphql",
-                      "tags": [
-                        "graphql"
-                      ]
-                    }
-                  },
-                  {
-                    "id": "realm",
-                    "count": 1,
-                    "percentage_question": 2.8,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "ws",
-                    "count": 1,
-                    "percentage_question": 2.8,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "orval",
-                    "count": 1,
-                    "percentage_question": 2.8,
-                    "percentage_survey": 0.1
-                  },
-                  {
-                    "id": "react_native_network_client",
-                    "count": 1,
-                    "percentage_question": 2.8,
-                    "percentage_survey": 0.1
                   }
                 ]
               }
