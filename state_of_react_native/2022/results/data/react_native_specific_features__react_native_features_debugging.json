@@ -18,17 +18,17 @@
           {
             "year": 2022,
             "completion": {
-              "total": 2489,
+              "total": 1886,
               "count": 1291,
-              "percentage_survey": 51.9
+              "percentage_survey": 68.5
             },
             "facets": [
               {
                 "id": "default",
                 "type": "default",
                 "completion": {
-                  "total": 2489,
-                  "percentage_survey": 169,
+                  "total": 1886,
+                  "percentage_survey": 223,
                   "percentage_question": 325.8,
                   "count": 4205
                 },
@@ -37,34 +37,50 @@
                     "id": "react_native_features_debugging_react_native_debugger",
                     "count": 827,
                     "percentage_question": 64.1,
-                    "percentage_survey": 33.3,
+                    "percentage_survey": 43.9,
                     "entity": {
-                      "name": "React Native Debugger"
+                      "name": "React Native Debugger",
+                      "description": "The standalone app based on official debugger of React Native, and includes React Inspector / Redux DevTools",
+                      "github": {
+                        "url": "https://github.com/jhen0409/react-native-debugger"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/react-native-debugger"
+                      }
                     }
                   },
                   {
                     "id": "react_native_features_debugging_chrome_dev_tools",
                     "count": 632,
                     "percentage_question": 49,
-                    "percentage_survey": 25.4,
+                    "percentage_survey": 33.6,
                     "entity": {
-                      "name": "Chrome DevTools"
+                      "name": "Chrome DevTools",
+                      "homepage": {
+                        "url": "https://reactnative.dev/docs/debugging#chrome-developer-tools"
+                      }
                     }
                   },
                   {
                     "id": "react_native_features_debugging_react_dev_tools",
                     "count": 421,
                     "percentage_question": 32.7,
-                    "percentage_survey": 17,
+                    "percentage_survey": 22.4,
                     "entity": {
-                      "name": "React Developer Tools"
+                      "name": "React Developer Tools",
+                      "homepage": {
+                        "url": "https://reactnative.dev/docs/debugging#react-developer-tools"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/react-devtools"
+                      }
                     }
                   },
                   {
                     "id": "react_native_features_debugging_native_debugging",
                     "count": 475,
                     "percentage_question": 36.8,
-                    "percentage_survey": 19.1,
+                    "percentage_survey": 25.2,
                     "entity": {
                       "name": "Native debugging (Xcode, Android Studio)"
                     }
@@ -73,25 +89,42 @@
                     "id": "react_native_features_debugging_reactotron",
                     "count": 222,
                     "percentage_question": 17.2,
-                    "percentage_survey": 9,
+                    "percentage_survey": 11.8,
                     "entity": {
-                      "name": "Reactotron"
+                      "name": "Reactotron",
+                      "description": "A desktop app for inspecting your React JS and React Native projects. macOS, Linux, and Windows.",
+                      "github": {
+                        "url": "https://github.com/infinitered/reactotron"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/reactotron-react-native"
+                      }
                     }
                   },
                   {
                     "id": "react_native_features_debugging_flipper",
                     "count": 817,
                     "percentage_question": 63.3,
-                    "percentage_survey": 32.9,
+                    "percentage_survey": 43.4,
                     "entity": {
-                      "name": "Flipper"
+                      "name": "Flipper",
+                      "homepage": {
+                        "url": "https://fbflipper.com/"
+                      },
+                      "description": "A desktop debugging platform for mobile developers.",
+                      "github": {
+                        "url": "https://github.com/facebook/flipper"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/react-native-flipper"
+                      }
                     }
                   },
                   {
                     "id": "react_native_features_debugging_console_log",
                     "count": 811,
                     "percentage_question": 62.9,
-                    "percentage_survey": 32.6,
+                    "percentage_survey": 43.1,
                     "entity": {
                       "name": "Console logs"
                     }

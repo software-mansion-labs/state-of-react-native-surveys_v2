@@ -16,17 +16,17 @@
           {
             "year": 2022,
             "completion": {
-              "total": 2489,
+              "total": 1886,
               "count": 890,
-              "percentage_survey": 35.8
+              "percentage_survey": 47.2
             },
             "facets": [
               {
                 "id": "default",
                 "type": "default",
                 "completion": {
-                  "total": 2489,
-                  "percentage_survey": 71.3,
+                  "total": 1886,
+                  "percentage_survey": 94.1,
                   "percentage_question": 199.3,
                   "count": 1773
                 },
@@ -35,7 +35,7 @@
                     "id": "react_native_features_performance_native",
                     "count": 415,
                     "percentage_question": 46.7,
-                    "percentage_survey": 16.7,
+                    "percentage_survey": 22.1,
                     "entity": {
                       "name": "Native profiling (Xcode, Android Studio)"
                     }
@@ -44,36 +44,73 @@
                     "id": "react_native_features_performance_profile_react_native_performance",
                     "count": 285,
                     "percentage_question": 32.1,
-                    "percentage_survey": 11.5,
+                    "percentage_survey": 15.2,
                     "entity": {
-                      "name": "React Native Performance"
+                      "name": "React Native Performance",
+                      "homepage": {
+                        "url": "https://shopify.github.io/react-native-performance/"
+                      },
+                      "description": "Performance monitoring for React Native apps",
+                      "github": {
+                        "url": "https://github.com/shopify/react-native-performance"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/@shopify/react-native-performance"
+                      }
                     }
                   },
                   {
                     "id": "react_native_features_performance_profile_react_native_performance_monitor",
                     "count": 227,
                     "percentage_question": 25.6,
-                    "percentage_survey": 9.2,
+                    "percentage_survey": 12.1,
                     "entity": {
-                      "name": "React Native Performance Monitor"
+                      "name": "React Native Performance Monitor",
+                      "homepage": {
+                        "url": "https://react-native-performance-monitor-orpin.vercel.app/"
+                      },
+                      "description": "React Native Performance Monitor - Realtime graphing of React Native render performance",
+                      "github": {
+                        "url": "https://github.com/Flagsmith/react-native-performance-monitor"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/react-native-performance-monitor"
+                      }
                     }
                   },
                   {
                     "id": "react_native_features_performance_profile_flipper",
                     "count": 624,
                     "percentage_question": 70.2,
-                    "percentage_survey": 25.1,
+                    "percentage_survey": 33.1,
                     "entity": {
-                      "name": "Flipper"
+                      "name": "Flipper",
+                      "homepage": {
+                        "url": "https://fbflipper.com/"
+                      },
+                      "description": "A desktop debugging platform for mobile developers.",
+                      "github": {
+                        "url": "https://github.com/facebook/flipper"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/react-native-flipper"
+                      }
                     }
                   },
                   {
                     "id": "react_native_features_performance_profile_flipper_performance_plugin",
                     "count": 222,
                     "percentage_question": 25,
-                    "percentage_survey": 9,
+                    "percentage_survey": 11.8,
                     "entity": {
-                      "name": "React Native Flipper Performance Plugin"
+                      "name": "React Native Flipper Performance Plugin",
+                      "description": "An attempt to have a lighthouse for React Native. Flipper plugin to show a graph of the React Native performance monitor",
+                      "github": {
+                        "url": "https://github.com/bamlab/react-native-flipper-performance-monitor"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/react-native-flipper-performance-plugin"
+                      }
                     }
                   }
                 ]
