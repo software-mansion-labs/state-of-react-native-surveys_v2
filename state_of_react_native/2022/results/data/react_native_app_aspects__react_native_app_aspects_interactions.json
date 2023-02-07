@@ -14,17 +14,17 @@
           {
             "year": 2022,
             "completion": {
-              "total": 2489,
+              "total": 1886,
               "count": 1239,
-              "percentage_survey": 49.8
+              "percentage_survey": 65.7
             },
             "facets": [
               {
                 "id": "default",
                 "type": "default",
                 "completion": {
-                  "total": 2489,
-                  "percentage_survey": 104.8,
+                  "total": 1886,
+                  "percentage_survey": 138.3,
                   "percentage_question": 210.5,
                   "count": 2608
                 },
@@ -33,7 +33,7 @@
                     "id": "react_native_app_aspects_interactions_panresponder_api",
                     "count": 511,
                     "percentage_question": 41.3,
-                    "percentage_survey": 20.6,
+                    "percentage_survey": 27.1,
                     "entity": {
                       "name": "PanResponder API",
                       "homepage": {
@@ -45,7 +45,7 @@
                     "id": "react_native_app_aspects_interactions_touchables",
                     "count": 1001,
                     "percentage_question": 80.8,
-                    "percentage_survey": 40.3,
+                    "percentage_survey": 53.1,
                     "entity": {
                       "name": "Touchables/Pressables"
                     }
@@ -54,11 +54,15 @@
                     "id": "react_native_app_aspects_interactions_react_native_gesture_handler",
                     "count": 1096,
                     "percentage_question": 88.5,
-                    "percentage_survey": 44.1,
+                    "percentage_survey": 58.2,
                     "entity": {
                       "name": "React Native Gesture Handler",
                       "homepage": {
                         "url": "https://docs.swmansion.com/react-native-gesture-handler/"
+                      },
+                      "description": "Declarative API exposing platform native touch and gesture system to React Native",
+                      "github": {
+                        "url": "https://github.com/software-mansion/react-native-gesture-handler/"
                       },
                       "npm": {
                         "url": "https://www.npmjs.com/package/react-native-gesture-handler"
