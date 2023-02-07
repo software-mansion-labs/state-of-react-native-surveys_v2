@@ -22,7 +22,10 @@
           {
             "id": "react_native_features_hermes_runtime",
             "entity": {
-              "name": "Hermes runtime"
+              "name": "Hermes runtime",
+              "homepage": {
+                "url": "https://hermesengine.dev/"
+              }
             },
             "usage": [
               {
@@ -34,7 +37,7 @@
             "awareness": [
               {
                 "year": 2022,
-                "percentage_question": 96.4,
+                "percentage_question": 95.2,
                 "rank": 1
               }
             ],
@@ -56,7 +59,10 @@
           {
             "id": "react_native_features_new_architecture",
             "entity": {
-              "name": "New Architecture"
+              "name": "New Architecture",
+              "homepage": {
+                "url": "https://reactnative.dev/docs/next/the-new-architecture/pillars"
+              }
             },
             "usage": [
               {
@@ -68,7 +74,7 @@
             "awareness": [
               {
                 "year": 2022,
-                "percentage_question": 95.8,
+                "percentage_question": 94.5,
                 "rank": 2
               }
             ],
@@ -90,7 +96,10 @@
           {
             "id": "react_native_features_custom_native_modules",
             "entity": {
-              "name": "Custom native modules"
+              "name": "Custom native modules",
+              "homepage": {
+                "url": "https://reactnative.dev/docs/native-modules-intro"
+              }
             },
             "usage": [
               {
@@ -102,7 +111,7 @@
             "awareness": [
               {
                 "year": 2022,
-                "percentage_question": 92.6,
+                "percentage_question": 90.2,
                 "rank": 5
               }
             ],
@@ -124,7 +133,10 @@
           {
             "id": "react_native_features_fabric",
             "entity": {
-              "name": "Fabric"
+              "name": "Fabric",
+              "homepage": {
+                "url": "https://reactnative.dev/architecture/fabric-renderer"
+              }
             },
             "usage": [
               {
@@ -136,7 +148,7 @@
             "awareness": [
               {
                 "year": 2022,
-                "percentage_question": 94.3,
+                "percentage_question": 92.5,
                 "rank": 3
               }
             ],
@@ -158,7 +170,13 @@
           {
             "id": "react_native_features_codegen",
             "entity": {
-              "name": "Codegen"
+              "name": "Codegen",
+              "homepage": {
+                "url": "https://reactnative.dev/docs/next/the-new-architecture/pillars-codegen"
+              },
+              "npm": {
+                "url": "https://www.npmjs.com/package/react-native-codegen"
+              }
             },
             "usage": [
               {
@@ -170,7 +188,7 @@
             "awareness": [
               {
                 "year": 2022,
-                "percentage_question": 86.3,
+                "percentage_question": 81.9,
                 "rank": 9
               }
             ],
@@ -192,7 +210,10 @@
           {
             "id": "react_native_features_turbo_modules",
             "entity": {
-              "name": "Turbo Native Modules"
+              "name": "Turbo Native Modules",
+              "homepage": {
+                "url": "https://reactnative.dev/docs/next/the-new-architecture/pillars-turbomodules"
+              }
             },
             "usage": [
               {
@@ -204,7 +225,7 @@
             "awareness": [
               {
                 "year": 2022,
-                "percentage_question": 89.1,
+                "percentage_question": 85.6,
                 "rank": 7
               }
             ],
@@ -226,7 +247,13 @@
           {
             "id": "react_native_features_expo_modules",
             "entity": {
-              "name": "Expo Modules"
+              "name": "Expo Modules",
+              "homepage": {
+                "url": "https://docs.expo.dev/modules/overview/"
+              },
+              "npm": {
+                "url": "https://www.npmjs.com/package/expo-modules-core"
+              }
             },
             "usage": [
               {
@@ -238,7 +265,7 @@
             "awareness": [
               {
                 "year": 2022,
-                "percentage_question": 93.5,
+                "percentage_question": 91.4,
                 "rank": 4
               }
             ],
@@ -260,7 +287,10 @@
           {
             "id": "react_native_features_custom_native_views",
             "entity": {
-              "name": "Custom native views"
+              "name": "Custom native views",
+              "homepage": {
+                "url": "https://reactnative.dev/docs/native-components-android"
+              }
             },
             "usage": [
               {
@@ -272,7 +302,7 @@
             "awareness": [
               {
                 "year": 2022,
-                "percentage_question": 81.6,
+                "percentage_question": 75.7,
                 "rank": 11
               }
             ],
@@ -294,7 +324,10 @@
           {
             "id": "react_native_features_jsi",
             "entity": {
-              "name": "JSI"
+              "name": "JSI",
+              "homepage": {
+                "url": "https://reactnative.dev/architecture/glossary#javascript-interfaces-jsi"
+              }
             },
             "usage": [
               {
@@ -306,7 +339,7 @@
             "awareness": [
               {
                 "year": 2022,
-                "percentage_question": 88,
+                "percentage_question": 84.2,
                 "rank": 8
               }
             ],
@@ -328,7 +361,13 @@
           {
             "id": "react_native_features_v8_runtime",
             "entity": {
-              "name": "V8 runtime"
+              "name": "V8 runtime",
+              "github": {
+                "url": "https://github.com/Kudo/react-native-v8"
+              },
+              "npm": {
+                "url": "https://www.npmjs.com/package/react-native-v8"
+              }
             },
             "usage": [
               {
@@ -340,7 +379,7 @@
             "awareness": [
               {
                 "year": 2022,
-                "percentage_question": 90.2,
+                "percentage_question": 87,
                 "rank": 6
               }
             ],
@@ -362,7 +401,10 @@
           {
             "id": "react_native_features_jsc_runtime",
             "entity": {
-              "name": "JSC runtime"
+              "name": "JSC runtime",
+              "homepage": {
+                "url": "https://developer.apple.com/documentation/javascriptcore"
+              }
             },
             "usage": [
               {
@@ -374,7 +416,7 @@
             "awareness": [
               {
                 "year": 2022,
-                "percentage_question": 85.7,
+                "percentage_question": 81.1,
                 "rank": 10
               }
             ],
