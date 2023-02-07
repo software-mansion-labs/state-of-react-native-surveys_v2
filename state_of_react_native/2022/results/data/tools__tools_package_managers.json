@@ -15,17 +15,17 @@
           {
             "year": 2022,
             "completion": {
-              "total": 2489,
+              "total": 1886,
               "count": 1304,
-              "percentage_survey": 52.4
+              "percentage_survey": 69.2
             },
             "facets": [
               {
                 "id": "default",
                 "type": "default",
                 "completion": {
-                  "total": 2489,
-                  "percentage_survey": 52.4,
+                  "total": 1886,
+                  "percentage_survey": 69.2,
                   "percentage_question": 100,
                   "count": 1304
                 },
@@ -34,36 +34,74 @@
                     "id": "tools_package_managers_npm",
                     "count": 258,
                     "percentage_question": 19.8,
-                    "percentage_survey": 10.4,
+                    "percentage_survey": 13.7,
                     "entity": {
-                      "name": "npm"
+                      "name": "npm",
+                      "homepage": {
+                        "url": "https://docs.npmjs.com/cli"
+                      },
+                      "description": "the package manager for JavaScript",
+                      "github": {
+                        "url": "https://github.com/npm/cli"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/npm"
+                      }
                     }
                   },
                   {
                     "id": "tools_package_managers_yarn",
                     "count": 891,
                     "percentage_question": 68.4,
-                    "percentage_survey": 35.8,
+                    "percentage_survey": 47.3,
                     "entity": {
-                      "name": "yarn"
+                      "name": "yarn",
+                      "homepage": {
+                        "url": "https://classic.yarnpkg.com/"
+                      },
+                      "github": {
+                        "url": "https://github.com/yarnpkg/yarn"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/yarn"
+                      }
                     }
                   },
                   {
                     "id": "tools_package_managers_yarn_berry",
                     "count": 106,
                     "percentage_question": 8.2,
-                    "percentage_survey": 4.3,
+                    "percentage_survey": 5.7,
                     "entity": {
-                      "name": "yarn berry (yarn v2+)"
+                      "name": "yarn berry (yarn v2+)",
+                      "homepage": {
+                        "url": "https://yarnpkg.com/"
+                      },
+                      "github": {
+                        "url": "https://github.com/yarnpkg/berry"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/yarn"
+                      }
                     }
                   },
                   {
                     "id": "tools_package_managers_pnpm",
                     "count": 49,
                     "percentage_question": 3.8,
-                    "percentage_survey": 2,
+                    "percentage_survey": 2.6,
                     "entity": {
-                      "name": "pnpm"
+                      "name": "pnpm",
+                      "homepage": {
+                        "url": "https://pnpm.io/"
+                      },
+                      "description": "Fast, disk space efficient package manager",
+                      "github": {
+                        "url": "https://github.com/pnpm/pnpm"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/pnpm"
+                      }
                     }
                   }
                 ]
