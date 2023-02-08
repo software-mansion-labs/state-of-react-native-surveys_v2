@@ -2,26 +2,28 @@
   "dataAPI": {
     "survey": {
       "resources_video": {
+        "entity": {
+          "name": "Video creators"
+        },
         "keys": [
           "william_candillon",
           "catalin_miron",
           "theo_browne",
-          "reactiive",
-          "software_mansion",
-          "vadim_savin",
           "evening_kid",
+          "reactiive",
+          "software_mansion_video",
+          "vadim_savin",
           "fireship",
           "ben_awad",
           "rocketseat",
-          "eveningkid",
-          "callstack",
+          "callstack_video",
           "devaslife",
-          "the_net_ninja",
+          "net_ninja",
           "matt_pocock",
           "oscar_franco",
           "jamon_holmgren",
           "brad_traversy",
-          "infinite_red",
+          "infinite_red_video",
           "jimmy_cook",
           "sonny_sangha",
           "dan_abramov",
@@ -32,587 +34,381 @@
           "freecodecamp",
           "appjs",
           "theprimeagen",
-          "academind",
-          "cory_house",
-          "sebastien_lorber",
-          "codewith_harry",
-          "smart_programmer",
-          "jonny_burger",
-          "korben",
-          "hola_mundo",
-          "developedbyed",
-          "pusher",
-          "learn_with_jason",
-          "jsconf",
-          "real_world_react",
-          "unsureprogrammer",
-          "clever_programmer",
-          "rocket_seat",
-          "kenny_gunderman",
-          "codeaesthetic",
-          "marc_rousavy",
-          "misscoding",
-          "matt_pocok",
-          "firebase",
-          "byprogrammers",
-          "craftzdog",
-          "jason",
-          "expo",
-          "max_cadillon",
-          "buildwithangga",
-          "prawito",
-          "blaiti",
-          "midudev",
-          "holamundo",
-          "goncy",
-          "colt_steele",
-          "rn_eu_conf",
-          "daniel_friyia",
-          "pradip_debnath"
+          "academind"
         ],
         "all_years": [
           {
             "year": 2022,
             "completion": {
-              "total": 2489,
-              "count": 121,
-              "percentage_survey": 4.9
+              "total": 1886,
+              "count": 222,
+              "percentage_survey": 11.8
             },
             "facets": [
               {
                 "completion": {
-                  "total": 2489,
-                  "count": 121,
-                  "percentage_survey": 4.9
+                  "total": 1886,
+                  "count": 222,
+                  "percentage_survey": 11.8
                 },
                 "buckets": [
                   {
                     "id": "william_candillon",
                     "count": 73,
-                    "percentage_question": 60.4,
-                    "percentage_survey": 3,
+                    "percentage_question": 32.9,
+                    "percentage_survey": 3.9,
                     "entity": {
-                      "id": "william_candillon",
-                      "name": "William Candillon"
+                      "name": "William Candillon",
+                      "homepage": {
+                        "url": "https://www.youtube.com/wcandillon"
+                      },
+                      "twitter": "@wcandillon"
                     }
                   },
                   {
                     "id": "catalin_miron",
                     "count": 24,
-                    "percentage_question": 19.9,
-                    "percentage_survey": 1,
-                    "entity": {}
+                    "percentage_question": 10.9,
+                    "percentage_survey": 1.3,
+                    "entity": {
+                      "name": "Catalin Miron",
+                      "homepage": {
+                        "url": "https://www.youtube.com/c/catalinmirondev"
+                      },
+                      "twitter": "@mironcatalin"
+                    }
                   },
                   {
                     "id": "theo_browne",
                     "count": 18,
-                    "percentage_question": 14.9,
-                    "percentage_survey": 0.8,
+                    "percentage_question": 8.2,
+                    "percentage_survey": 1,
                     "entity": {
-                      "id": "theo_browne",
-                      "name": "Theo - ping․gg",
-                      "homepage": "https://www.youtube.com/c/theobrowne1017"
+                      "homepage": {
+                        "url": "https://www.youtube.com/c/theobrowne1017"
+                      },
+                      "twitter": "@t3dotgg"
+                    }
+                  },
+                  {
+                    "id": "evening_kid",
+                    "count": 13,
+                    "percentage_question": 5.9,
+                    "percentage_survey": 0.7,
+                    "entity": {
+                      "name": "Evening Kid",
+                      "homepage": {
+                        "url": "https://www.youtube.com/@eveningkid"
+                      }
                     }
                   },
                   {
                     "id": "reactiive",
                     "count": 11,
-                    "percentage_question": 9.1,
-                    "percentage_survey": 0.5,
-                    "entity": {}
+                    "percentage_question": 5,
+                    "percentage_survey": 0.6,
+                    "entity": {
+                      "name": "Reactiive",
+                      "homepage": {
+                        "url": "https://www.youtube.com/c/Reactiive"
+                      }
+                    }
                   },
                   {
-                    "id": "software_mansion",
+                    "id": "software_mansion_video",
                     "count": 10,
-                    "percentage_question": 8.3,
-                    "percentage_survey": 0.5,
-                    "entity": {}
+                    "percentage_question": 4.6,
+                    "percentage_survey": 0.6,
+                    "entity": {
+                      "name": "Software Mansion",
+                      "homepage": {
+                        "url": "https://www.youtube.com/@SoftwareMansion"
+                      }
+                    }
                   },
                   {
                     "id": "vadim_savin",
                     "count": 9,
-                    "percentage_question": 7.5,
-                    "percentage_survey": 0.4,
-                    "entity": {}
-                  },
-                  {
-                    "id": "evening_kid",
-                    "count": 8,
-                    "percentage_question": 6.7,
-                    "percentage_survey": 0.4,
-                    "entity": {}
+                    "percentage_question": 4.1,
+                    "percentage_survey": 0.5,
+                    "entity": {
+                      "name": "Vadim Savin",
+                      "homepage": {
+                        "url": "https://www.youtube.com/c/notjustdev"
+                      },
+                      "twitter": "@VadimNotJustDev"
+                    }
                   },
                   {
                     "id": "fireship",
                     "count": 8,
-                    "percentage_question": 6.7,
-                    "percentage_survey": 0.4,
+                    "percentage_question": 3.7,
+                    "percentage_survey": 0.5,
                     "entity": {
-                      "id": "fireship",
                       "name": "Fireship",
-                      "homepage": "https://fireship.io/"
+                      "homepage": {
+                        "url": "https://fireship.io/"
+                      }
                     }
                   },
                   {
                     "id": "ben_awad",
                     "count": 6,
-                    "percentage_question": 5,
-                    "percentage_survey": 0.3,
+                    "percentage_question": 2.8,
+                    "percentage_survey": 0.4,
                     "entity": {
-                      "id": "ben_awad",
                       "name": "Ben Awad",
-                      "twitterName": "benawad",
-                      "homepage": "https://voidpet.com/benawad"
+                      "homepage": {
+                        "url": "https://voidpet.com/benawad"
+                      },
+                      "twitter": "@benawad"
                     }
                   },
                   {
                     "id": "rocketseat",
                     "count": 5,
-                    "percentage_question": 4.2,
+                    "percentage_question": 2.3,
                     "percentage_survey": 0.3,
                     "entity": {
-                      "id": "rocketseat",
-                      "name": "Rocketseat"
+                      "name": "Rocketseat",
+                      "homepage": {
+                        "url": "https://www.youtube.com/@rocketseat"
+                      }
                     }
                   },
                   {
-                    "id": "eveningkid",
-                    "count": 5,
-                    "percentage_question": 4.2,
-                    "percentage_survey": 0.3,
-                    "entity": {}
-                  },
-                  {
-                    "id": "callstack",
+                    "id": "callstack_video",
                     "count": 4,
-                    "percentage_question": 3.4,
-                    "percentage_survey": 0.2,
-                    "entity": {}
+                    "percentage_question": 1.9,
+                    "percentage_survey": 0.3,
+                    "entity": {
+                      "name": "Callstack Engineers",
+                      "homepage": {
+                        "url": "https://www.youtube.com/@CallstackEngineers"
+                      }
+                    }
                   },
                   {
                     "id": "devaslife",
                     "count": 3,
-                    "percentage_question": 2.5,
+                    "percentage_question": 1.4,
                     "percentage_survey": 0.2,
-                    "entity": {}
+                    "entity": {
+                      "name": "Takuya Matsuyama",
+                      "homepage": {
+                        "url": "https://www.youtube.com/devaslife"
+                      },
+                      "twitter": "@inkdrop_app"
+                    }
                   },
                   {
-                    "id": "the_net_ninja",
+                    "id": "net_ninja",
                     "count": 3,
-                    "percentage_question": 2.5,
+                    "percentage_question": 1.4,
                     "percentage_survey": 0.2,
-                    "entity": {}
+                    "entity": {
+                      "name": "Net Ninja",
+                      "homepage": {
+                        "url": "https://netninja.dev/"
+                      }
+                    }
                   },
                   {
                     "id": "matt_pocock",
                     "count": 3,
-                    "percentage_question": 2.5,
+                    "percentage_question": 1.4,
                     "percentage_survey": 0.2,
-                    "entity": {}
+                    "entity": {
+                      "name": "Matt Pocock",
+                      "homepage": {
+                        "url": "https://www.youtube.com/@mattpocockuk"
+                      },
+                      "twitter": "@mattpocockuk"
+                    }
                   },
                   {
                     "id": "oscar_franco",
                     "count": 3,
-                    "percentage_question": 2.5,
+                    "percentage_question": 1.4,
                     "percentage_survey": 0.2,
-                    "entity": {}
+                    "entity": {
+                      "name": "Oscar Franco",
+                      "homepage": {
+                        "url": "https://www.youtube.com/@ospfranco"
+                      },
+                      "twitter": "@ospfranco"
+                    }
                   },
                   {
                     "id": "jamon_holmgren",
                     "count": 3,
-                    "percentage_question": 2.5,
+                    "percentage_question": 1.4,
                     "percentage_survey": 0.2,
-                    "entity": {}
+                    "entity": {
+                      "name": "Jamon Holmgren",
+                      "twitter": "@jamonholmgren"
+                    }
                   },
                   {
                     "id": "brad_traversy",
                     "count": 2,
-                    "percentage_question": 1.7,
-                    "percentage_survey": 0.1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.2,
                     "entity": {
-                      "id": "brad_traversy",
                       "name": "Brad Traversy",
-                      "twitterName": "traversymedia",
-                      "homepage": "https://www.traversymedia.com/"
+                      "homepage": {
+                        "url": "https://www.traversymedia.com/"
+                      },
+                      "twitter": "@traversymedia"
                     }
                   },
                   {
-                    "id": "infinite_red",
+                    "id": "infinite_red_video",
                     "count": 2,
-                    "percentage_question": 1.7,
-                    "percentage_survey": 0.1,
-                    "entity": {}
+                    "percentage_question": 1,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "Infinite Red",
+                      "homepage": {
+                        "url": "https://www.youtube.com/@InfiniteRed"
+                      }
+                    }
                   },
                   {
                     "id": "jimmy_cook",
                     "count": 2,
-                    "percentage_question": 1.7,
-                    "percentage_survey": 0.1,
-                    "entity": {}
+                    "percentage_question": 1,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "Jimmy Cook",
+                      "homepage": {
+                        "url": "https://www.youtube.com/jimck"
+                      },
+                      "twitter": "@wjimmycook"
+                    }
                   },
                   {
                     "id": "sonny_sangha",
                     "count": 2,
-                    "percentage_question": 1.7,
-                    "percentage_survey": 0.1,
-                    "entity": {}
+                    "percentage_question": 1,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "Sonny Sangha",
+                      "homepage": {
+                        "url": "https://www.youtube.com/@SonnySangha"
+                      }
+                    }
                   },
                   {
                     "id": "dan_abramov",
                     "count": 2,
-                    "percentage_question": 1.7,
-                    "percentage_survey": 0.1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.2,
                     "entity": {
-                      "id": "dan_abramov",
                       "name": "Dan Abramov",
-                      "twitterName": "overreacted",
-                      "homepage": "https://overreacted.io/"
+                      "homepage": {
+                        "url": "https://overreacted.io/"
+                      },
+                      "twitter": "@overreacted"
                     }
                   },
                   {
                     "id": "evan_bacon",
                     "count": 2,
-                    "percentage_question": 1.7,
-                    "percentage_survey": 0.1,
-                    "entity": {}
+                    "percentage_question": 1,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "Evan Bacon",
+                      "homepage": {
+                        "url": "https://evanbacon.dev/"
+                      },
+                      "twitter": "@Baconbrix"
+                    }
                   },
                   {
                     "id": "fun_fun_function",
                     "count": 2,
-                    "percentage_question": 1.7,
-                    "percentage_survey": 0.1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.2,
                     "entity": {
-                      "id": "fun_fun_function",
                       "name": "Fun Fun Function",
-                      "homepage": "https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q"
+                      "homepage": {
+                        "url": "https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q"
+                      }
                     }
                   },
                   {
                     "id": "dans_react_native_lab",
                     "count": 2,
-                    "percentage_question": 1.7,
-                    "percentage_survey": 0.1,
-                    "entity": {}
+                    "percentage_question": 1,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "Dan's React Native Lab",
+                      "homepage": {
+                        "url": "https://www.youtube.com/channel/UC4Lepw3SuzwYWcHQ6SDPlEQ"
+                      }
+                    }
                   },
                   {
                     "id": "jack_herrington",
                     "count": 2,
-                    "percentage_question": 1.7,
-                    "percentage_survey": 0.1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.2,
                     "entity": {
-                      "id": "jack_herrington",
                       "name": "Jack Herrington",
-                      "twitterName": "jherr",
-                      "homepage": "https://www.jackherrington.com/"
+                      "homepage": {
+                        "url": "https://www.jackherrington.com/"
+                      },
+                      "twitter": "@jherr"
                     }
                   },
                   {
                     "id": "freecodecamp",
                     "count": 2,
-                    "percentage_question": 1.7,
-                    "percentage_survey": 0.1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.2,
                     "entity": {
-                      "id": "freecodecamp",
-                      "name": "freeCodeCamp"
+                      "name": "freeCodeCamp",
+                      "homepage": {
+                        "url": "https://www.freecodecamp.org/"
+                      }
                     }
                   },
                   {
                     "id": "appjs",
                     "count": 2,
-                    "percentage_question": 1.7,
-                    "percentage_survey": 0.1,
-                    "entity": {}
+                    "percentage_question": 1,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "App.js Conf",
+                      "homepage": {
+                        "url": "https://appjs.co/"
+                      }
+                    }
                   },
                   {
                     "id": "theprimeagen",
                     "count": 2,
-                    "percentage_question": 1.7,
-                    "percentage_survey": 0.1,
-                    "entity": {}
+                    "percentage_question": 1,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "ThePrimeagen",
+                      "homepage": {
+                        "url": "https://www.youtube.com/@ThePrimeagen"
+                      }
+                    }
                   },
                   {
                     "id": "academind",
                     "count": 2,
-                    "percentage_question": 1.7,
-                    "percentage_survey": 0.1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.2,
                     "entity": {
-                      "id": "academind",
                       "name": "Academind",
-                      "homepage": "academind"
+                      "homepage": {
+                        "url": "https://academind.com/"
+                      }
                     }
-                  },
-                  {
-                    "id": "cory_house",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "sebastien_lorber",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "codewith_harry",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "smart_programmer",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "jonny_burger",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "korben",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "hola_mundo",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "developedbyed",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "pusher",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "learn_with_jason",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {
-                      "id": "learn_with_jason",
-                      "name": "Learn With Jason",
-                      "homepage": "https://www.learnwithjason.dev/"
-                    }
-                  },
-                  {
-                    "id": "jsconf",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "real_world_react",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "unsureprogrammer",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "clever_programmer",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {
-                      "id": "clever_programmer",
-                      "name": "Clever Programmer",
-                      "homepage": "https://www.youtube.com/c/CleverProgrammer"
-                    }
-                  },
-                  {
-                    "id": "rocket_seat",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "kenny_gunderman",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "codeaesthetic",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "marc_rousavy",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "misscoding",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "matt_pocok",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "firebase",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {
-                      "id": "firebase",
-                      "name": "Firebase",
-                      "homepage": "https://firebase.google.com/"
-                    }
-                  },
-                  {
-                    "id": "byprogrammers",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "craftzdog",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "jason",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "expo",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {
-                      "id": "expo",
-                      "name": "Expo",
-                      "description": "An open-source platform for making universal native apps with React. Expo runs on Android, iOS, and the web.",
-                      "homepage": "https://docs.expo.io"
-                    }
-                  },
-                  {
-                    "id": "max_cadillon",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "buildwithangga",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "prawito",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "blaiti",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "midudev",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {
-                      "id": "midudev",
-                      "name": "Midudev",
-                      "homepage": "https://www.youtube.com/c/midudev"
-                    }
-                  },
-                  {
-                    "id": "holamundo",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "goncy",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "colt_steele",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "rn_eu_conf",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "daniel_friyia",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "pradip_debnath",
-                    "count": 1,
-                    "percentage_question": 0.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
                   }
                 ]
               }
