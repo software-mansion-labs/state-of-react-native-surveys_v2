@@ -1,0 +1,795 @@
+######################################################
+#########        DEVELOPER BACKGROUND        #########
+######################################################
+
+- id: developer_background
+  template: feature
+  slug: developer_background
+  questions:
+    - id: developer_background_before
+      template: multiple
+      description: What was your background before you started using React Native? Check all that apply
+      options:
+        - id: developer_background_before.answer.a
+        - id: developer_background_before.answer.b
+        - id: developer_background_before.answer.c
+        - id: developer_background_before.answer.d
+        - id: developer_background_before.answer.e
+        - id: developer_background_before.answer.f
+        - id: developer_background_before.answer.g
+        - id: developer_background_before.answer.h
+        - id: developer_background_before.answer.i
+        - id: developer_background_before.answer.j
+        - id: developer_background_before.answer.k
+    - id: developer_background_before_other
+      sectionSlug: developer_background_before
+      template: others
+      description: "Other answers (freeform)"
+
+    - id: developer_background_usage_type
+      template: single
+      options:
+        - id: developer_background_usage_type.answer.a
+        - id: developer_background_usage_type.answer.b
+        - id: developer_background_usage_type.answer.c
+
+    - id: developer_background_primarily_system
+      description: What desktop OS do you primarily use?
+      template: single
+      options:
+        - id: developer_background_primarily_system.answer.a
+        - id: developer_background_primarily_system.answer.b
+        - id: developer_background_primarily_system.answer.c
+
+    - id: developer_background_users_count
+      description: What is the user count of your top React Native app?
+      template: single
+      options:
+        - id: developer_background_users_count.answer.a
+        - id: developer_background_users_count.answer.b
+        - id: developer_background_users_count.answer.c
+        - id: developer_background_users_count.answer.d
+        - id: developer_background_users_count.answer.e
+        - id: developer_background_users_count.answer.f
+        - id: developer_background_users_count.answer.g
+
+    - id: developer_background_team_size
+      description: What is your mobile app team size?
+      template: single
+      options:
+        - id: developer_background_team_size.answer.a
+        - id: developer_background_team_size.answer.b
+        - id: developer_background_team_size.answer.c
+        - id: developer_background_team_size.answer.d
+        - id: developer_background_team_size.answer.e
+
+    - id: developer_background_platforms
+      description: What are the platforms that you use React Native for? Check all that apply
+      template: multiple
+      options:
+        - id: developer_background_platforms.answer.a
+        - id: developer_background_platforms.answer.b
+        - id: developer_background_platforms.answer.c
+        - id: developer_background_platforms.answer.d
+        - id: developer_background_platforms.answer.e
+        - id: developer_background_platforms.answer.f
+        - id: developer_background_platforms.answer.g
+    - id: developer_background_platforms_other
+      sectionSlug: developer_background_platforms
+      template: others
+      description: "Other answers (freeform)"
+
+    - id: developer_background_contribution_to_rn
+      template: yes_or_no
+      description: Have you contributed to React Native in 2022?
+
+    - id: developer_background_contribution_to_lib
+      template: yes_or_no
+      description: Have you contributed to any React Native community library in 2022?
+
+    - id: developer_background_releases_count
+      description: How many React Native apps have you released on Google Play or App Store?
+      template: single
+      options:
+        - id: developer_background_releases_count.answer.a
+        - id: developer_background_releases_count.answer.b
+        - id: developer_background_releases_count.answer.c
+        - id: developer_background_releases_count.answer.d
+        - id: developer_background_releases_count.answer.e
+
+    - id: developer_background_os_target
+      template: single
+      options:
+        - id: developer_background_os_target.answer.a
+        - id: developer_background_os_target.answer.b
+        - id: developer_background_os_target.answer.c
+        - id: developer_background_os_target.answer.d
+
+    - id: developer_background_industry_sector
+      template: multiple
+      description: Which industry sector(s) are you using React Native in? Check all that apply.
+      options:
+        - id: developer_background_industry_sector.answer.a
+        - id: developer_background_industry_sector.answer.b
+        - id: developer_background_industry_sector.answer.c
+        - id: developer_background_industry_sector.answer.d
+        - id: developer_background_industry_sector.answer.e
+        - id: developer_background_industry_sector.answer.f
+        - id: developer_background_industry_sector.answer.g
+        - id: developer_background_industry_sector.answer.h
+        - id: developer_background_industry_sector.answer.i
+        - id: developer_background_industry_sector.answer.j
+        - id: developer_background_industry_sector.answer.k
+        - id: developer_background_industry_sector.answer.l
+        - id: developer_background_industry_sector.answer.n
+        - id: developer_background_industry_sector.answer.m
+        - id: developer_background_industry_sector.answer.o
+        - id: developer_background_industry_sector.answer.p
+        - id: developer_background_industry_sector.answer.r
+        - id: developer_background_industry_sector.answer.s
+        - id: developer_background_industry_sector.answer.t
+        - id: developer_background_industry_sector.answer.u
+        - id: developer_background_industry_sector.answer.v
+        - id: developer_background_industry_sector.answer.w
+        - id: developer_background_industry_sector.answer.x
+        - id: developer_background_industry_sector.answer.y
+        - id: developer_background_industry_sector.answer.z
+    - id: developer_background_industry_sector_other
+      sectionSlug: developer_background_industry_sector
+      template: others
+      description: "Other answers (freeform)"
+
+######################################################
+#########           PLATFORM APIS            #########
+######################################################
+
+- id: platform_apis
+  slug: platform_apis
+  questions:
+    # - id: platform_apis_intro
+    #   template: help
+
+    - id: platform_apis_questions
+      template: multiple
+      description: What Platform APIs have you used in 2022 in React Native? Check all that apply
+      options:
+        # - id: platform_apis_offline_mode
+        - id: platform_apis_sensors
+        - id: platform_apis_camera
+        - id: platform_apis_audio
+        # - id: platform_apis_security
+        # - id: platform_apis_encryption
+        - id: platform_apis_appearance
+        - id: platform_apis_accessibility
+        - id: platform_apis_microphone
+        - id: platform_apis_media_library
+        - id: platform_apis_file_system
+        - id: platform_apis_haptics
+        - id: platform_apis_video_playback
+        - id: platform_apis_clipboard
+        - id: platform_apis_openGL
+        - id: platform_apis_telephony
+        - id: platform_apis_location
+        - id: platform_apis_maps
+        - id: platform_apis_screen_orientation
+        - id: platform_apis_battery_level
+        - id: platform_apis_bluetooth
+        - id: platform_apis_nfc
+        - id: platform_apis_rtl
+        - id: platform_apis_biometric_authentication
+        - id: platform_apis_cryptography
+        - id: platform_apis_notifications
+        - id: platform_apis_in_app_payments
+        - id: platform_apis_in_app_reviews
+        # - id: platform_apis_ads
+        - id: platform_apis_webview
+        - id: platform_apis_storage
+        - id: platform_apis_deep_links
+        - id: platform_apis_concurrency
+        - id: platform_apis_printer
+        - id: platform_apis_ocr
+        - id: platform_apis_ar_av
+        - id: platform_apis_ml
+        - id: platform_apis_permissions
+    - id: platform_apis_other
+      template: others
+      description: "Other answers (freeform)"
+
+######################################################
+#########          STATE MANAGEMENT          #########
+######################################################
+
+- id: state_management
+  template: tool
+  slug: state_management
+  questions:
+    - id: state_management_rn_built_in
+    - id: state_management_jotai
+    - id: state_management_zustand
+    - id: state_management_redux
+    - id: state_management_recoil
+    - id: state_management_apollo
+    - id: state_management_react_query
+    - id: state_management_legend_state
+    - id: state_management_react_easy_state
+    - id: state_management_other
+      template: others
+      description: "Other answers (freeform)"
+    - id: state_management_happiness
+      description: "How do you feel about the current overall state of state management solutions available for React Native?"
+      template: happiness
+
+######################################################
+#########            DATA FETCHING           #########
+######################################################
+
+- id: data_fetching
+  template: tool
+  slug: data_fetching
+  questions:
+    - id: data_fetching_fetch
+    - id: data_fetching_axios
+    - id: data_fetching_apollo
+    - id: data_fetching_trpc
+    - id: data_fetching_tan_stack
+    - id: data_fetching_swr
+    - id: data_fetching_relay
+    - id: data_fetching_other
+      template: others
+      description: "Other answers (freeform)"
+    - id: data_fetching_happiness
+      description: "How do you feel about the current overall state of data fetching solutions available for React Native?"
+      template: happiness
+
+######################################################
+#########             NAVIGATION             #########
+######################################################
+
+- id: navigation
+  template: tool
+  slug: navigation
+  questions:
+    - id: navigation_react_navigation
+    - id: navigation_react_native_navigation
+    - id: navigation_react_router
+    - id: navigation_expo_router
+    - id: navigation_expo_router
+    - id: navigation_navigation
+    - id: navigation_other
+      template: others
+      description: "Other answers (freeform)"
+    - id: navigation_happiness
+      description: "How do you feel about the current overall state of navigation solutions available for React Native?"
+      template: happiness
+
+######################################################
+#########               STYLING              #########
+######################################################
+
+- id: styling
+  template: tool
+  slug: styling
+  questions:
+    - id: styling_techniques_style_sheet
+    - id: styling_techniques_nativewind
+    - id: styling_techniques_tailwind_rn
+    - id: styling_techniques_styled_components
+    - id: styling_techniques_tamagui
+    - id: styling_techniques_restyle
+    - id: styling_techniques_inline
+    - id: styling_techniques_other
+      template: others
+      description: "Other answers (freeform)"
+    - id: styling_techniques_happiness
+      description: "How do you feel about the current overall state of styling techniques available for React Native?"
+      template: happiness
+
+######################################################
+#########        COMPONENT LIBRARIES         #########
+######################################################
+
+- id: component_libraries
+  template: tool
+  slug: component_libraries
+  questions:
+    - id: component_libraries_rn_paper
+    - id: component_libraries_ui_kitten
+    - id: component_libraries_rn_elements
+    - id: component_libraries_react_native_material_ui
+    - id: component_libraries_native_base
+    - id: component_libraries_rn_ui_lib
+    - id: component_libraries_dripsy
+    - id: component_libraries_shoutem_ui
+    - id: component_libraries_other
+      template: others
+      description: "Other answers (freeform)"
+    - id: component_libraries_happiness
+      description: "How do you feel about the current overall state of UI components libraries available for React Native?"
+      template: happiness
+
+######################################################
+#########             ANIMATIONS             #########
+######################################################
+
+- id: animations
+  template: tool
+  slug: animations
+  questions:
+    - id: animations_animated_api
+    - id: animations_react_native_reanimated
+    - id: animations_moti
+    - id: animations_skia
+    - id: animations_react_native_animatable
+    - id: animations_threejs
+    - id: animations_react_three_fiber
+    - id: animations_lottie
+    - id: animations_expo_gl
+    - id: animations_legend_motion
+    - id: animations_other
+      template: others
+      description: "Other answers (freeform)"
+    - id: animations_happiness
+      description: "How do you feel about the current overall state of graphics and animations solutions available for React Native?"
+      template: happiness
+
+######################################################
+#########              ASPECTS               #########
+######################################################
+
+- id: react_native_app_aspects
+  template: multiple
+  slug: react_native_app_aspects
+  questions:
+    - id: react_native_app_aspects_storage
+      description: Check all that apply
+      options:
+        - id: react_native_app_aspects_storage_react_native_async_storage
+        - id: react_native_app_aspects_storage_realm
+        - id: react_native_app_aspects_storage_watermelondb
+        - id: react_native_app_aspects_storage_react_native_mmkv
+        - id: react_native_app_aspects_storage_react_native_mmkv_storage
+        - id: react_native_app_aspects_storage_react_native_sqlite_storage
+        - id: react_native_app_aspects_storage_expo_sqlite
+        - id: react_native_app_aspects_storage_rxdb
+    - id: react_native_app_aspects_storage_other
+      template: others
+      description: "Other answers (freeform)"
+
+    - id: react_native_app_aspects_data_visualisation
+      description: Check all that apply
+      options:
+        - id: react_native_app_aspects_data_visualisation_victory_native
+        - id: react_native_app_aspects_data_visualisation_react_native_svg
+        - id: react_native_app_aspects_data_visualisation_recharts
+        - id: react_native_app_aspects_data_visualisation_react_native_charts_kit
+        - id: react_native_app_aspects_data_visualisation_react_native_charts_wrapper
+    - id: react_native_app_aspects_data_visualisation_other
+      template: others
+      description: "Other answers (freeform)"
+
+    - id: react_native_app_aspects_interactions
+      description: Check all that apply
+      options:
+        - id: react_native_app_aspects_interactions_panresponder_api
+        - id: react_native_app_aspects_interactions_touchables
+        - id: react_native_app_aspects_interactions_react_native_gesture_handler
+    - id: react_native_app_aspects_interactions_other
+      template: others
+      description: "Other answers (freeform)"
+
+    - id: react_native_app_aspects_internationalization
+      description: Check all that apply
+      options:
+        - id: react_native_app_aspects_internationalization_react_native_localize
+        - id: react_native_app_aspects_internationalization_react_i18next
+        - id: react_native_app_aspects_internationalization_fbt
+    - id: react_native_app_aspects_internationalization_other
+      template: others
+      description: "Other answers (freeform)"
+
+    - id: react_native_app_aspects_analytics
+      description: Check all that apply
+      options:
+        - id: react_native_app_aspects_analytics_firebase_analytics
+        - id: react_native_app_aspects_analytics_appcenter_analytics
+        - id: react_native_app_aspects_analytics_amplitude
+        - id: react_native_app_aspects_analytics_amplify_analytics
+        - id: react_native_app_aspects_analytics_mixpanel
+        - id: react_native_app_aspects_analytics_segment
+        - id: react_native_app_aspects_analytics_appsflyer
+        - id: react_native_app_aspects_analytics_flurry
+    - id: react_native_app_aspects_analytics_other
+      template: others
+      description: "Other answers (freeform)"
+
+    - id: react_native_app_aspects_crash_reporting
+      description: Check all that apply
+      options:
+        - id: react_native_app_aspects_crash_reporting_sentry
+        - id: react_native_app_aspects_crash_reporting_datadog
+        - id: react_native_app_aspects_crash_reporting_instabug
+        - id: react_native_app_aspects_crash_reporting_new_relic
+        - id: react_native_app_aspects_crash_reporting_appdynamics
+        - id: react_native_app_aspects_crash_reporting_amazon_cloudwatch
+        - id: react_native_app_aspects_crash_reporting_elastic_observability
+        - id: react_native_app_aspects_crash_reporting_bugsnag
+        - id: react_native_app_aspects_crash_reporting_firebase_crashlytics
+        - id: react_native_app_aspects_crash_reporting_appcenter_crashes
+    - id: react_native_app_aspects_crash_reporting_other
+      template: others
+      description: "Other answers (freeform)"
+
+    - id: react_native_app_aspects_testing
+      description: Check all that apply
+      options:
+        - id: react_native_app_aspects_testing_jest
+        - id: react_native_app_aspects_testing_react_native_testing_library
+        - id: react_native_app_aspects_testing_detox
+        - id: react_native_app_aspects_testing_appium
+        - id: react_native_app_aspects_testing_maestro
+        - id: react_native_app_aspects_testing_xcuitest
+        - id: react_native_app_aspects_testing_espresso
+    - id: react_native_app_aspects_testing_other
+      template: others
+      description: "Other answers (freeform)"
+
+######################################################
+#########             FEATURES               #########
+######################################################
+
+- id: react_native_specific_features
+  template: tool
+  slug: react_native_specific_features
+  questions:
+    - id: react_native_features_version
+      description: Which version do you use mainly?
+      template: single
+      options:
+        - id: react_native_features_version_0_71
+        - id: react_native_features_version_0_70
+        - id: react_native_features_version_0_69
+        - id: react_native_features_version_0_68
+        - id: react_native_features_version_0_67
+        - id: react_native_features_version_0_66
+        - id: react_native_features_version_0_65
+        - id: react_native_features_version_0_64
+        - id: react_native_features_version_0_63_or_lower
+
+    - id: react_native_features_new_architecture
+    - id: react_native_features_fabric
+    - id: react_native_features_codegen
+    - id: react_native_features_custom_native_modules
+    - id: react_native_features_turbo_modules
+    - id: react_native_features_expo_modules
+    - id: react_native_features_custom_native_views
+    - id: react_native_features_jsc_runtime
+    - id: react_native_features_hermes_runtime
+    - id: react_native_features_v8_runtime
+    - id: react_native_features_jsi
+
+    - id: react_native_features_debugging
+      template: multiple
+      description: What tools do you use to debug your React Native apps? Check all that apply
+      options:
+        - id: react_native_features_debugging_react_native_debugger
+        - id: react_native_features_debugging_chrome_dev_tools
+        - id: react_native_features_debugging_react_dev_tools
+        - id: react_native_features_debugging_native_debugging
+        - id: react_native_features_debugging_reactotron
+        - id: react_native_features_debugging_flipper
+        - id: react_native_features_debugging_console_log
+    - id: react_native_features_debugging_other
+      template: others
+      description: "Other answers (freeform)"
+
+    - id: react_native_features_performance_profile
+      template: multiple
+      description: What tools do you use to profile React Native app performance? Check all that apply
+      options:
+        - id: react_native_features_performance_native
+        - id: react_native_features_performance_profile_react_native_performance
+        - id: react_native_features_performance_profile_react_native_performance_monitor
+        - id: react_native_features_performance_profile_flipper
+        - id: react_native_features_performance_profile_flipper_performance_plugin
+    - id: react_native_features_performance_profile_other
+      template: others
+      description: "Other answers (freeform)"
+
+    - id: react_native_features_brownfield
+      template: single
+      options:
+        - id: react_native_features_brownfield_green
+        - id: react_native_features_brownfield_brown
+        - id: react_native_features_brownfield_both
+
+    - id: react_native_features_ota_updates
+      template: multiple
+      description: What Over-The-Air updates solutions do you use? Check all that apply
+      options:
+        - id: react_native_features_ota_updates_code_push
+        - id: react_native_features_ota_updates_eas_update
+        - id: react_native_features_ota_updates_expo_publish
+        - id: react_native_features_ota_updates_self_hosted
+    - id: react_native_features_ota_updates_other
+      template: others
+      description: "Other answers (freeform)"
+
+    - id: react_native_features_mobile_web_code_sharing
+      description: What methods do you employ for sharing code between mobile and web platforms in your project, if any? Check all that apply
+      template: multiple
+      options:
+        - id: react_native_features_mobile_web_code_sharing_react_native_web
+        - id: react_native_features_mobile_web_code_sharing_solito
+        - id: react_native_features_mobile_web_code_sharing_webview
+        - id: react_native_features_mobile_web_code_sharing_common_logic_independent_ui
+        - id: react_native_features_mobile_web_code_sharing_independent_projects
+    - id: react_native_features_mobile_web_code_sharing_other
+      template: others
+      description: "Other answers (freeform)"
+
+######################################################
+#########            DEPLOYMENT              #########
+######################################################
+
+- id: deployment
+  template: tool
+  slug: deployment
+  questions:
+    - id: deployment_manually_xcode
+    - id: deployment_manually_android_studio
+    - id: deployment_fastlane
+    - id: deployment_eas_build
+    - id: deployment_eas_submit
+    - id: deployment_app_center
+    - id: deployment_other
+      template: others
+      description: "Other answers (freeform)"
+
+######################################################
+#########               TOOLS                #########
+######################################################
+
+- id: tools
+  template: tool
+  slug: tools
+  questions:
+    - id: tools_js_ts
+      template: slider
+      description: "How do you divide your time between writing JavaScript and TypeScript code?"
+
+    - id: tools_package_managers
+      template: single
+      options:
+        - id: tools_package_managers_npm
+        - id: tools_package_managers_yarn
+        - id: tools_package_managers_yarn_berry
+        - id: tools_package_managers_pnpm
+
+    - id: tools_starter_templates
+      template: multiple
+      options:
+        - id: tools_starter_templates_expo
+        - id: tools_starter_templates_react_native_cli
+        - id: tools_starter_templates_ignite_cli
+        - id: tools_starter_templates_create_t3_turbo
+    - id: tools_starter_templates_other
+      template: others
+      description: "Other answers (freeform)"
+
+    - id: tools_rnx_kit
+    - id: tools_expo_snack
+    - id: tools_expo_cli
+    - id: tools_eas_cli
+    - id: tools_react_native_cli
+    - id: tools_ignite_cli
+
+    - id: tools_other_tools
+      template: others
+      description: "Other answers (freeform)"
+######################################################
+#########           MONOREPO TOOLS           #########
+######################################################
+
+- id: monorepo_tools
+  template: tool
+  slug: monorepo_tools
+  questions:
+    - id: monorepo_tools_yarn_workspaces
+    - id: monorepo_tools_npm_workspaces
+    - id: monorepo_tools_turborepo
+    - id: monorepo_tools_lerna
+    - id: monorepo_tools_pnpm
+    - id: monorepo_tools_nx
+    - id: monorepo_tools_rush
+
+    - id: monorepo_tools_other
+      template: others
+      description: "Other answers (freeform)"
+
+######################################################
+#########            ALTERNATIVES            #########
+######################################################
+
+- id: react_native_alternatives
+  template: tool
+  slug: react_native_alternatives
+  questions:
+    - id: react_native_alternatives_flutter
+    - id: react_native_alternatives_xamarin
+    - id: react_native_alternatives_cordova
+    - id: react_native_alternatives_ionic
+    - id: react_native_alternatives_swiftui
+    - id: react_native_alternatives_jetpack_compose
+    - id: react_native_alternatives_native_script
+    - id: react_native_alternatives_kotlin
+    - id: react_native_alternatives_felgo
+
+######################################################
+#########             RESOURCES              #########
+######################################################
+
+- id: resources
+  template: others
+  slug: resources
+  questions:
+    - id: resources_initially_learn_react_native
+      template: multiple
+      description: What methods do you use to learn and improve your React Native skills? Check all that apply
+      options:
+        - id: resources_initially_learn_react_native_official_docs
+        - id: resources_initially_learn_react_native_expo_docs
+        - id: resources_initially_learn_react_native_books
+        - id: resources_initially_learn_react_native_videos
+        - id: resources_initially_learn_react_native_online_courses_free
+        - id: resources_initially_learn_react_native_online_courses_paid
+        - id: resources_initially_learn_react_native_school_higher_education
+        - id: resources_initially_learn_react_native_podcasts
+        - id: resources_initially_learn_react_native_coding_bootcamp
+        - id: resources_initially_learn_react_native_react_native_directory
+        - id: resources_initially_learn_react_native_on_the_job_training
+        - id: resources_initially_learn_react_native_mentoring
+        - id: resources_initially_learn_react_native_self_directed_learning
+    - id: resources_initially_learn_react_native_other
+      template: others
+      description: "Other answers (freeform)"
+
+    - id: resources_read
+      description: What blogs/magazines/etc. do you read? Write all that apply (freeform)
+    - id: resources_course
+      description: What sites/courses/etc. do you consult? Write all that apply (freeform)
+    - id: resources_podcast
+      description: What programming-related podcasts do you listen to? Write all that apply (freeform)
+    - id: resources_video
+      description: Video creators you follow on video-centric platforms such as YouTube, Twitch, TikTok, etc. Write all that apply (freeform)
+    - id: resources_people
+      description: People you read, follow, or just want to highlight for their work. Write all that apply (freeform)
+    - id: resources_communities
+      description: Online communities you actively participate in, such as Slack workspaces, Discord servers, Reddit topics, etc.. Write all that apply (freeform)
+
+    - id: resources_surveys
+      template: multiple
+      description: What other developer surveys do you participate in? Check all that apply
+      options:
+        - id: resources_surveys_state_of_js
+        - id: resources_surveys_state_of_css
+        - id: resources_surveys_state_of_graphql
+        - id: resources_surveys_jetbrains
+        - id: resources_surveys_stack_overflow
+        - id: resources_surveys_codingame
+        - id: resources_surveys_design_tools
+        - id: resources_surveys_postman
+        - id: resources_surveys_jamstack
+    - id: resources_surveys_other
+      template: others
+      description: "Other answers (freeform)"
+
+######################################################
+#########             OPINIONS               #########
+######################################################
+
+- id: opinions
+  template: opinion
+  slug: opinions
+  questions:
+    - id: opinions_right_direction
+    - id: opinions_complex
+    - id: opinions_changing_too_fast
+    - id: opinions_pain_points
+      template: others
+      description: Write anything that makes you feel annoyed while developing React Native apps (freeform)
+
+    - id: opinions_missing
+      template: others
+      description: What do you feel currently is missing from React Native? Write all that apply (freeform)
+
+    - id: opinions_advantages
+      template: others
+      description: What are advantages of React Native over other solutions? Write all that apply (freeform)
+
+    - id: opinions_happy
+      template: happiness
+
+######################################################
+#########             ABOUT YOU              #########
+######################################################
+
+- id: about_you
+  template: single
+  slug: about_you
+  questions:
+    - id: about_you_country
+      description: Where do you currently reside?
+      template: country
+
+    - id: about_you_age
+      description: How old are you, in years?
+      options:
+        - id: about_you_age_18_or_youger
+        - id: about_you_age_19_24
+        - id: about_you_age_25_34
+        - id: about_you_age_35_44
+        - id: about_you_age_45_54
+        - id: about_you_age_55_64
+        - id: about_you_age_65_or_older
+
+    - id: about_you_experience
+      description: How long have you been working as a programmer or studying programming?
+      options:
+        - id: about_you_experience_1_year_or_less
+        - id: about_you_experience_2_to_3_years
+        - id: about_you_experience_4_to_5_years
+        - id: about_you_experience_6_to_10_years
+        - id: about_you_experience_11_to_20_years
+        - id: about_you_experience_20_years_or_more
+
+    - id: about_you_experience_in_rn
+      description: How long have you been working with or studying React Native, in years?
+      options:
+        - id: about_you_experience_in_rn_1_year_or_less
+        - id: about_you_experience_in_rn_2_to_3_years
+        - id: about_you_experience_in_rn_4_to_5_years
+        - id: about_you_experience_in_rn_6_years_or_more
+
+    - id: about_you_company_size
+      description: How big is your company, in the number of employees?
+      options:
+        - id: about_you_company_size_1_employee
+        - id: about_you_company_size_2_to_5
+        - id: about_you_company_size_6_to_10
+        - id: about_you_company_size_11_to_20
+        - id: about_you_company_size_21_to_50
+        - id: about_you_company_size_51_to_100
+        - id: about_you_company_size_101_to_500
+        - id: about_you_company_size_501_to_1000
+        - id: about_you_company_size_1000_or_more
+
+    - id: about_you_education_degree
+      description: Do you have a higher education degree?
+      options:
+        - id: about_you_education_degree_no
+        - id: about_you_education_degree_yes_related
+        - id: about_you_education_degree_yes_unrelated
+
+    - id: about_you_salary
+      description: Your yearly salary in U.S. dollars.
+      options:
+        - id: about_you_salary_free
+        - id: about_you_salary_0_to_10k
+        - id: about_you_salary_10k_to_30k
+        - id: about_you_salary_30k_to_50k
+        - id: about_you_salary_50k_to_100k
+        - id: about_you_salary_100k_to_200k
+        - id: about_you_salary_200k_or_more
+
+    - id: about_you_gender
+      description: Which of the following options describes you, if any?
+      options:
+        - id: about_you_gender_female
+        - id: about_you_gender_male
+        - id: about_you_gender_non_binary
+        - id: about_you_gender_not_listed
+
+    - id: about_you_how_you_know
+      template: text
+    - id: about_you_what_to_improve
+      template: text
