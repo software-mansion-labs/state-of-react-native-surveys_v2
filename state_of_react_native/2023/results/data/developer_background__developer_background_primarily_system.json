@@ -1,0 +1,67 @@
+{
+  "dataAPI": {
+    "survey": {
+      "developer_background_primarily_system": {
+        "entity": {
+          "name": "Desktop OS"
+        },
+        "keys": [
+          "developer_background_primarily_system.answer.a",
+          "developer_background_primarily_system.answer.b",
+          "developer_background_primarily_system.answer.c"
+        ],
+        "all_years": [
+          {
+            "year": 2022,
+            "completion": {
+              "total": 1886,
+              "count": 1850,
+              "percentage_survey": 98.1
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 1886,
+                  "percentage_survey": 98.1,
+                  "percentage_question": 100,
+                  "count": 1850
+                },
+                "buckets": [
+                  {
+                    "id": "developer_background_primarily_system.answer.a",
+                    "count": 1562,
+                    "percentage_question": 84.5,
+                    "percentage_survey": 82.9,
+                    "entity": {
+                      "name": "macOS"
+                    }
+                  },
+                  {
+                    "id": "developer_background_primarily_system.answer.b",
+                    "count": 93,
+                    "percentage_question": 5.1,
+                    "percentage_survey": 5,
+                    "entity": {
+                      "name": "Linux"
+                    }
+                  },
+                  {
+                    "id": "developer_background_primarily_system.answer.c",
+                    "count": 195,
+                    "percentage_question": 10.6,
+                    "percentage_survey": 10.4,
+                    "entity": {
+                      "name": "Windows"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

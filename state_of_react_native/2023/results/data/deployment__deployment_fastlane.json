@@ -1,0 +1,74 @@
+{
+  "dataAPI": {
+    "survey": {
+      "deployment_fastlane": {
+        "id": "deployment_fastlane",
+        "entity": {
+          "name": "Fastlane",
+          "homepage": {
+            "url": "https://fastlane.tools/"
+          }
+        },
+        "experience": {
+          "comments": [
+            "Heard it is is a pain to setup",
+            "I have my gripes with Fastlane (it's hard to figure out what you actually want to use, it's slow), but it's still often the best tool for the job."
+          ],
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 1886,
+                "count": 1258,
+                "percentage_survey": 66.8
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 552,
+                      "percentage_survey": 29.3,
+                      "percentage_question": 43.9
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 80,
+                      "percentage_survey": 4.3,
+                      "percentage_question": 6.4
+                    },
+                    {
+                      "id": "interested",
+                      "count": 314,
+                      "percentage_survey": 16.7,
+                      "percentage_question": 25
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 123,
+                      "percentage_survey": 6.6,
+                      "percentage_question": 9.8
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 189,
+                      "percentage_survey": 10.1,
+                      "percentage_question": 15.1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

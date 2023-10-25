@@ -1,0 +1,83 @@
+{
+  "dataAPI": {
+    "survey": {
+      "data_fetching_apollo": {
+        "id": "data_fetching_apollo",
+        "entity": {
+          "name": "Apollo Client",
+          "homepage": {
+            "url": "https://www.apollographql.com/docs/react/"
+          },
+          "description": "🚀  A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server.",
+          "github": {
+            "url": "https://github.com/apollographql/apollo-client"
+          },
+          "npm": {
+            "url": "https://www.npmjs.com/package/@apollo/client"
+          }
+        },
+        "experience": {
+          "comments": [
+            "needs some improvement especially around their fetch-policy updating existing UI",
+            "Only when backend is GraphQL, which I think is not a good fit for most apps",
+            "Coupled with a nice type gen, super nice E2E type safe API",
+            "If the API is GraphQL it's the clear best choice"
+          ],
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 1886,
+                "count": 1538,
+                "percentage_survey": 81.6
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 548,
+                      "percentage_survey": 29.1,
+                      "percentage_question": 35.7
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 151,
+                      "percentage_survey": 8.1,
+                      "percentage_question": 9.9
+                    },
+                    {
+                      "id": "interested",
+                      "count": 380,
+                      "percentage_survey": 20.2,
+                      "percentage_question": 24.8
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 307,
+                      "percentage_survey": 16.3,
+                      "percentage_question": 20
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 152,
+                      "percentage_survey": 8.1,
+                      "percentage_question": 9.9
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

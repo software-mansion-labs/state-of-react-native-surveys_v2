@@ -1,0 +1,55 @@
+{
+  "dataAPI": {
+    "survey": {
+      "developer_background_contribution_to_lib": {
+        "entity": {
+          "id": "developer_background_contribution_to_lib",
+          "name": "Contribution to React Native libraries",
+          "category": "developer_background",
+          "tags": [
+            "developer_background"
+          ]
+        },
+        "keys": [
+          "yes",
+          "no"
+        ],
+        "all_years": [
+          {
+            "year": 2022,
+            "completion": {
+              "total": 1886,
+              "count": 1831,
+              "percentage_survey": 97.1
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 1886,
+                  "count": 1831,
+                  "percentage_survey": 97.1
+                },
+                "buckets": [
+                  {
+                    "id": "yes",
+                    "count": 670,
+                    "percentage_survey": 35.6,
+                    "percentage_question": 36.6
+                  },
+                  {
+                    "id": "no",
+                    "count": 1161,
+                    "percentage_survey": 61.6,
+                    "percentage_question": 63.5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

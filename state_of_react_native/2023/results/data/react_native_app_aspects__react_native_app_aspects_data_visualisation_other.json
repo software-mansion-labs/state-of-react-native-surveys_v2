@@ -1,0 +1,88 @@
+{
+  "dataAPI": {
+    "survey": {
+      "react_native_app_aspects_data_visualisation_other": {
+        "entity": {
+          "name": "Other data visualisation solutions"
+        },
+        "keys": [
+          "d3",
+          "react_native_skia",
+          "react_native_graph"
+        ],
+        "all_years": [
+          {
+            "year": 2022,
+            "completion": {
+              "total": 1886,
+              "count": 11,
+              "percentage_survey": 0.6
+            },
+            "facets": [
+              {
+                "completion": {
+                  "total": 1886,
+                  "count": 11,
+                  "percentage_survey": 0.6
+                },
+                "buckets": [
+                  {
+                    "id": "d3",
+                    "count": 4,
+                    "percentage_question": 36.4,
+                    "percentage_survey": 0.3,
+                    "entity": {
+                      "name": "D3",
+                      "homepage": {
+                        "url": "https://d3js.org"
+                      },
+                      "description": "Bring data to life with SVG, Canvas and HTML.",
+                      "github": {
+                        "url": "d3/d3"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/d3"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_skia",
+                    "count": 4,
+                    "percentage_question": 36.4,
+                    "percentage_survey": 0.3,
+                    "entity": {
+                      "name": "React Native Skia",
+                      "description": "High-performance React Native Graphics using Skia",
+                      "github": {
+                        "url": "https://github.com/Shopify/react-native-skia"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/@shopify/react-native-skia"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_graph",
+                    "count": 3,
+                    "percentage_question": 27.3,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "react-native-graph",
+                      "description": "📈 Beautiful, high-performance Graphs and Charts for React Native",
+                      "github": {
+                        "url": "https://github.com/margelo/react-native-graph"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/react-native-graph"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

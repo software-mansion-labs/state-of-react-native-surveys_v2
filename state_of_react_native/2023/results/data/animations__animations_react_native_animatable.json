@@ -1,0 +1,74 @@
+{
+  "dataAPI": {
+    "survey": {
+      "animations_react_native_animatable": {
+        "id": "animations_react_native_animatable",
+        "entity": {
+          "name": "React Native Animatable",
+          "description": "Standard set of easy to use animations and declarative transitions for React Native",
+          "github": {
+            "url": "https://github.com/oblador/react-native-animatable"
+          },
+          "npm": {
+            "url": "https://www.npmjs.com/package/react-native-animatable"
+          }
+        },
+        "experience": {
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 1886,
+                "count": 1350,
+                "percentage_survey": 71.6
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 125,
+                      "percentage_survey": 6.7,
+                      "percentage_question": 9.3
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 90,
+                      "percentage_survey": 4.8,
+                      "percentage_question": 6.7
+                    },
+                    {
+                      "id": "interested",
+                      "count": 176,
+                      "percentage_survey": 9.4,
+                      "percentage_question": 13.1
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 185,
+                      "percentage_survey": 9.9,
+                      "percentage_question": 13.8
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 774,
+                      "percentage_survey": 41.1,
+                      "percentage_question": 57.4
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

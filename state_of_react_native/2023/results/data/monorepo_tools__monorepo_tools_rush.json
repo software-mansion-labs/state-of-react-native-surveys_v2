@@ -1,0 +1,77 @@
+{
+  "dataAPI": {
+    "survey": {
+      "monorepo_tools_rush": {
+        "id": "monorepo_tools_rush",
+        "entity": {
+          "name": "Rush",
+          "homepage": {
+            "url": "https://rushjs.io/"
+          },
+          "description": "A scalable monorepo manager for the web",
+          "github": {
+            "url": "https://github.com/microsoft/rushstack"
+          },
+          "npm": {
+            "url": "https://www.npmjs.com/package/@microsoft/rush"
+          }
+        },
+        "experience": {
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 1886,
+                "count": 1200,
+                "percentage_survey": 63.7
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 5,
+                      "percentage_survey": 0.3,
+                      "percentage_question": 0.5
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 14,
+                      "percentage_survey": 0.8,
+                      "percentage_question": 1.2
+                    },
+                    {
+                      "id": "interested",
+                      "count": 64,
+                      "percentage_survey": 3.4,
+                      "percentage_question": 5.4
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 111,
+                      "percentage_survey": 5.9,
+                      "percentage_question": 9.3
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 1006,
+                      "percentage_survey": 53.4,
+                      "percentage_question": 83.9
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

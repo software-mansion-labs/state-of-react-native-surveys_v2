@@ -1,0 +1,74 @@
+{
+  "dataAPI": {
+    "survey": {
+      "navigation_other": {
+        "entity": {
+          "name": "Other navigation solutions"
+        },
+        "keys": [
+          "solito",
+          "react_native_url_router"
+        ],
+        "all_years": [
+          {
+            "year": 2022,
+            "completion": {
+              "total": 1886,
+              "count": 5,
+              "percentage_survey": 0.3
+            },
+            "facets": [
+              {
+                "completion": {
+                  "total": 1886,
+                  "count": 5,
+                  "percentage_survey": 0.3
+                },
+                "buckets": [
+                  {
+                    "id": "solito",
+                    "count": 3,
+                    "percentage_question": 60,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "Solito",
+                      "homepage": {
+                        "url": "https://solito.dev/"
+                      },
+                      "description": "🧍‍♂️ React Native + Next.js, unified.",
+                      "github": {
+                        "url": "https://github.com/nandorojo/solito"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/solito"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_url_router",
+                    "count": 2,
+                    "percentage_question": 40,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "React Native Url Router",
+                      "homepage": {
+                        "url": "https://software-mansion-labs.github.io/react-native-url-router/docs/overview"
+                      },
+                      "description": "A new way to create navigation in react-native",
+                      "github": {
+                        "url": "https://github.com/software-mansion-labs/react-native-url-router"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/react-native-url-router"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

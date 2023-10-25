@@ -1,0 +1,77 @@
+{
+  "dataAPI": {
+    "survey": {
+      "animations_legend_motion": {
+        "id": "animations_legend_motion",
+        "entity": {
+          "name": "Legend Motion",
+          "homepage": {
+            "url": "https://legendapp.com/open-source/motion/"
+          },
+          "description": "Legend Motion is a declarative animations library for React Native, to make it easy to transition between styles without needing to manage animations.",
+          "github": {
+            "url": "https://github.com/LegendApp/legend-motion"
+          },
+          "npm": {
+            "url": "https://www.npmjs.com/package/@legendapp/motion"
+          }
+        },
+        "experience": {
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 1886,
+                "count": 1351,
+                "percentage_survey": 71.7
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 15,
+                      "percentage_survey": 0.8,
+                      "percentage_question": 1.2
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 4,
+                      "percentage_survey": 0.3,
+                      "percentage_question": 0.3
+                    },
+                    {
+                      "id": "interested",
+                      "count": 107,
+                      "percentage_survey": 5.7,
+                      "percentage_question": 8
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 68,
+                      "percentage_survey": 3.7,
+                      "percentage_question": 5.1
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 1157,
+                      "percentage_survey": 61.4,
+                      "percentage_question": 85.7
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

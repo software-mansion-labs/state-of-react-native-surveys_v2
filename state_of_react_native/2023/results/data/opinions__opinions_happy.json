@@ -1,0 +1,72 @@
+{
+  "dataAPI": {
+    "survey": {
+      "opinions_happy": {
+        "entity": {
+          "name": "How happy are you with the general state of React Native?"
+        },
+        "keys": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "all_years": [
+          {
+            "year": 2022,
+            "mean": 2.92,
+            "completion": {
+              "total": 1886,
+              "count": 1225,
+              "percentage_survey": 65
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 1886,
+                  "count": 1225,
+                  "percentage_survey": 65
+                },
+                "buckets": [
+                  {
+                    "id": 0,
+                    "count": 14,
+                    "percentage_survey": 0.8,
+                    "percentage_question": 1.2
+                  },
+                  {
+                    "id": 1,
+                    "count": 46,
+                    "percentage_survey": 2.5,
+                    "percentage_question": 3.8
+                  },
+                  {
+                    "id": 2,
+                    "count": 189,
+                    "percentage_survey": 10.1,
+                    "percentage_question": 15.5
+                  },
+                  {
+                    "id": 3,
+                    "count": 754,
+                    "percentage_survey": 40,
+                    "percentage_question": 61.6
+                  },
+                  {
+                    "id": 4,
+                    "count": 222,
+                    "percentage_survey": 11.8,
+                    "percentage_question": 18.2
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "dataAPI": {
+    "survey": {
+      "monorepo_tools_lerna": {
+        "id": "monorepo_tools_lerna",
+        "entity": {
+          "name": "Lerna",
+          "homepage": {
+            "url": "https://lerna.js.org/"
+          },
+          "description": "A tool for managing JavaScript projects with multiple packages.",
+          "github": {
+            "url": "https://github.com/lerna/lerna"
+          },
+          "npm": {
+            "url": "https://www.npmjs.com/package/lerna"
+          }
+        },
+        "experience": {
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 1886,
+                "count": 1208,
+                "percentage_survey": 64.1
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 144,
+                      "percentage_survey": 7.7,
+                      "percentage_question": 12
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 168,
+                      "percentage_survey": 9,
+                      "percentage_question": 14
+                    },
+                    {
+                      "id": "interested",
+                      "count": 183,
+                      "percentage_survey": 9.8,
+                      "percentage_question": 15.2
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 264,
+                      "percentage_survey": 14,
+                      "percentage_question": 21.9
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 449,
+                      "percentage_survey": 23.9,
+                      "percentage_question": 37.2
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

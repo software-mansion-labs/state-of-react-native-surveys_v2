@@ -1,0 +1,135 @@
+{
+  "dataAPI": {
+    "survey": {
+      "react_native_app_aspects_storage_other": {
+        "entity": {
+          "name": "Other storage solutions"
+        },
+        "keys": [
+          "react_native_keychain",
+          "react_native_encrypted_storage",
+          "react_native_quick_sqlite",
+          "file_system",
+          "expo_secure_store",
+          "redux_persist"
+        ],
+        "all_years": [
+          {
+            "year": 2022,
+            "completion": {
+              "total": 1886,
+              "count": 15,
+              "percentage_survey": 0.8
+            },
+            "facets": [
+              {
+                "completion": {
+                  "total": 1886,
+                  "count": 15,
+                  "percentage_survey": 0.8
+                },
+                "buckets": [
+                  {
+                    "id": "react_native_keychain",
+                    "count": 3,
+                    "percentage_question": 20,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "react-native-keychain",
+                      "description": "🔑 Keychain Access for React Native",
+                      "github": {
+                        "url": "https://github.com/oblador/react-native-keychain"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/react-native-keychain"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_encrypted_storage",
+                    "count": 3,
+                    "percentage_question": 20,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "React Native Encrypted Storage",
+                      "description": "React Native wrapper around EncryptedSharedPreferences and Keychain to provide a secure alternative to Async Storage.",
+                      "github": {
+                        "url": "https://github.com/emeraldsanto/react-native-encrypted-storage"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/react-native-encrypted-storage"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_quick_sqlite",
+                    "count": 3,
+                    "percentage_question": 20,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "React Native Quick SQLite",
+                      "description": "Fast SQLite for react-native.",
+                      "github": {
+                        "url": "https://github.com/ospfranco/react-native-quick-sqlite"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/react-native-quick-sqlite"
+                      }
+                    }
+                  },
+                  {
+                    "id": "file_system",
+                    "count": 2,
+                    "percentage_question": 13.4,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "react-native-fs",
+                      "description": "Native filesystem access for react-native",
+                      "github": {
+                        "url": "https://github.com/itinance/react-native-fs"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/react-native-fs"
+                      }
+                    }
+                  },
+                  {
+                    "id": "expo_secure_store",
+                    "count": 2,
+                    "percentage_question": 13.4,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "expo-secure-store",
+                      "homepage": {
+                        "url": "https://docs.expo.dev/versions/latest/sdk/securestore/"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/expo-secure-store"
+                      }
+                    }
+                  },
+                  {
+                    "id": "redux_persist",
+                    "count": 2,
+                    "percentage_question": 13.4,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "Redux Persist",
+                      "description": "persist and rehydrate a redux store",
+                      "github": {
+                        "url": "https://github.com/rt2zz/redux-persist"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/redux-persist"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
