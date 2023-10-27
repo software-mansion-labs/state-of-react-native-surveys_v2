@@ -209,9 +209,9 @@ What are the platforms that you use React Native for? Check all that apply
 
 ```diff
 - ### Contribution to React Native libraries
-+ ### Open Source Contribution to React Native libraries                # question intention is more clear this way
++ ### Open Source Contribution to React Native libraries                               # question intention is more clear this way
 - Have you contributed to any React Native community library in 2022?
-+ Have you contributed to any Open Source React Native library in 2023 (commits/PRs)? # question intention is more clear this way
++ Have you contributed to any Open Source React Native library in 2023 (commits/PRs)?  # question intention is more clear this way
 ```
 **(*radio buttons*)**
 - Yes
@@ -230,15 +230,15 @@ How many React Native apps have you released on Google Play or App Store?
 **(*radio buttons*)**
 ```diff
 - Most recent ones (iOS 16+, Android 13+)
-+ Most recent ones (iOS 17+, Android 14+) # most recent versions available on the market
++ Most recent ones (iOS 17+, Android 14+)     # most recent versions available on the market
 ```
 ```diff
 - Reasonably current (iOS 12+, Android 10+)
-+ Reasonably current (iOS 15+, Android 12+) # versions 2/3 years old that are still supported
++ Reasonably current (iOS 15+, Android 12+)   # versions 2/3 years old that are still supported
 ```
 ```diff
 - Old (iOS 10+, Android 7+)
-+ Old (iOS 12+, Android 9+) # older versions that might not be supported, but are still part of the market
++ Old (iOS 12+, Android 9+)                   # older versions that might not be supported, but are still part of the market
 ```
 - As old as possible (iOS 8+, Android 5+) # versions that theoretically could be used with React Native (the very old version of React Native)
 
@@ -279,7 +279,7 @@ Which industry sector(s) are you using React Native in? Check all that apply.
 + Cyber Security
 + Ecommerce & Retail
 + Education
-+ Energy            # added in 2023
++ Energy                         # added in 2023
 + Entertainment
 + Finance
 + Government
@@ -362,7 +362,7 @@ What Platform APIs have you used in 2022 in React Native? Check all that apply
 + Cryptography (e.g. hardware encryption)
 + Deep links
 + File System
-+ Foldable                       # added in 2023
++ Foldable                             # added in 2023
 + Haptics
 + In-app payments
 + In-app reviews
@@ -460,7 +460,7 @@ What navigation solutions do you regularly use in your React Native apps?
 🤷 / ✅ / 🚫 / 👍 / 👎
 **(*radio buttons*)**
 ```diff
-- react-navigation (by Expo, Software Mansion and Callstack)
+- react-navigation
 + react-navigation (by Expo, Software Mansion and Callstack)
 ```
 ```diff
@@ -616,10 +616,8 @@ What graphics and animations solutions do you use in your React Native apps?
 - Lottie
 - Expo GL
 ```diff
-- Legend Motion # removed in 2023 (low usage)
-```
-```diff
-+ Rive # added in 2023
+- Legend Motion    # removed in 2023 (low usage)
++ Rive             # added in 2023
 ```
 - Other graphics and animations solutions
   > Other answers (freeform)
@@ -643,26 +641,18 @@ Check all that apply
 ```diff
 - Realm
 + Realm (by MongoDB)
-```
-```diff
 - WatermelonDB
 + WatermelonDB (by Nozbe)
-```
-```diff
 - react-native-mmkv
 + react-native-mmkv (by Marc Rousavy)
-```
-```diff
 - react-native-mmkv-storage
 + react-native-mmkv-storage (by Ammar Ahmed)
-```
-```diff
 - React Native SQLite Storage
 + React Native SQLite Storage (by Andrzej Porebski)
 ```
 - Expo SQLite
 ```diff
-- RxDB # removed in 2023 (low usage)
+- RxDB            # removed in 2023 (low usage)
 ```
 - Other storage solutions
   > Other answers (freeform)
@@ -673,22 +663,19 @@ Check all that apply
 ```diff
 - Victory Native
 + Victory Native (by Formidable)
-```
-```diff
 - react-native-svg
 + react-native-svg (by Software Mansion)
 ```
 - Recharts
 - React Native Charts Kit
 ```diff
-- React Native Charts Wrapper # removed in 2023 (low usage)
+- React Native Charts Wrapper      # removed in 2023 (low usage)
 ```
 - Other data visualisation solutions
   > Other answers (freeform)
 
 ```diff
-# removed in 2023 (too niche, combined into "Other popular libraries")
-- ### Interactions
+- ### Interactions              # removed in 2023 (too niche, combined into "Other popular libraries")
 - Check all that apply
 - **(*multiselect checkbox*)**
 - - PanResponder API
@@ -699,8 +686,7 @@ Check all that apply
 ```
 
 ```diff
-# removed in 2023 (too niche, combined into "Other popular libraries")
-- ### Internationalization
+- ### Internationalization      # removed in 2023 (too niche, combined into "Other popular libraries")
 - Check all that apply
 - **(*multiselect checkbox*)**
 - - react-native-localize
@@ -721,7 +707,7 @@ Check all that apply
 - Segment
 - AppsFlyer
 ```diff
-- Flurry # removed in 2023 (low usage)
+- Flurry                 # removed in 2023 (low usage)
 ```
 - Other analytics solutions
   > Other answers (freeform)
@@ -734,9 +720,9 @@ Check all that apply
 - Instabug
 - New Relic
 ```diff
-- AppDynamics # removed in 2023 (low usage)
-- Amazon CloudWatch # removed in 2023 (low usage)
-- Elastic Observability # removed in 2023 (low usage)
+- AppDynamics              # removed in 2023 (low usage)
+- Amazon CloudWatch        # removed in 2023 (low usage)
+- Elastic Observability    # removed in 2023 (low usage)
 ```
 - Bugsnag
 - Firebase Crashlytics
@@ -753,32 +739,34 @@ Check all that apply
 - Appium
 - Maestro
 ```diff
-- XCUITest # removed in 2023 (low usage)
-- Espresso # removed in 2023 (low usage)
-```
-```diff
-+ Storybook # added in 2023
+- XCUITest        # removed in 2023 (low usage)
+- Espresso        # removed in 2023 (low usage)
++ Storybook       # added in 2023
 ```
 - Other testing solutions
   > Other answers (freeform)
 
 
 ```diff
-+ ### Other popular libraries # added in 2023
++ ### Other popular libraries            # added in 2023
 + Check all that apply
 + **(*multiselect checkbox*)**
-+ - React Native Gesture Handler (by Software Mansion) # moved from Interactions section
-+ - react-native-localize (by Mathieu Acthernoene) # moved from Internationalization section
-+ - react-i18next # moved from Internationalization section
-+ - react-native-camera
-+ - react-native-vision-camera (by Marc Rousavy)
-+ - @shopify/flash-list
-+ - @gorhom/bottom-sheet (by Mo Gorhom)
-
-# - TODO: add more golden standard libraries
-
-+ - Other popular libraries not listed covered previously
-+   > Other answers (freeform)
++ React Native Gesture Handler (by Software Mansion)     # moved from Interactions section
++ react-native-localize (by Mathieu Acthernoene)         # moved from Internationalization section
++ react-i18next                                          # moved from Internationalization section
++ react-native-camera
++ react-native-vision-camera (by Marc Rousavy)
++ @shopify/flash-list
++ @gorhom/bottom-sheet (by Mo Gorhom)
++ expo-image
++ react-native-fast-image
++ @expo/vector-icons
++ react-native-webview
++ react-native-safe-area-context
++ react-native-maps
++ 
++ Other popular libraries not listed covered previously
++ > Other answers (freeform)
 ```
 
 ---
@@ -791,10 +779,10 @@ What is your knowledge of the features specific to React Native development?
 Which version do you use mainly?
 **(*radio buttons*)**
 ```diff
-+ nightly # added in 2023
-+ next    # added in 2023
-+ 0.73    # added in 2023
-+ 0.72    # added in 2023
++ nightly       # added in 2023
++ next          # added in 2023
++ 0.73          # added in 2023
++ 0.72          # added in 2023
 ```
 - 0.71
 - 0.70
@@ -820,8 +808,7 @@ Which version do you use mainly?
 - V8 runtime
 - JSI
 ```diff
-Moved from Learning methods
-+ React Native Directory
++ React Native Directory     # moved here from Learning methods
 ```
 
 ### Debugging tools
@@ -938,7 +925,8 @@ How do you divide your time between writing JavaScript and TypeScript code?
 - EAS CLI
 - Ignite CLI
 ```diff
-+ Upgrade Helper
++ Upgrade Helper     # added in 2023
++ Config Plugins     # added in 2023
 ```
 - Other development tools
   > Other answers (freeform)
@@ -948,8 +936,7 @@ How do you divide your time between writing JavaScript and TypeScript code?
 
 
 ```diff
-# first candidate to be discarded from the survey
-- ## [Monorepo tools](https://survey.stateofreactnative.com/en/survey/state-of-react-native/2022/read-only/13)
+- ## [Monorepo tools](https://survey.stateofreactnative.com/en/survey/state-of-react-native/2022/read-only/13)    # candidate to be removed in 2023 (unrelated, covered by State of JS)
 - What monorepo tools have you used?
 
 - 🤷 / ✅ / 🚫 / 👍 / 👎
@@ -985,10 +972,8 @@ What other cross-platform app development solutions are you familiar with?
 - NativeScript
 - Kotlin Multiplatform Mobile
 ```diff
-- Felgo # removed 2023 (low usage)
-```
-```diff
-+ Other React Native alternatives
+- Felgo                            # removed 2023 (low usage)
++ Other React Native alternatives  # added in 2023
 + > Other answers (freeform)
 ```
 
@@ -1035,17 +1020,18 @@ What methods do you use to learn and improve your React Native skills? Check all
 ### Blogs & magizines
 ```diff
 - What blogs/magazines/etc. do you read? Write all that apply (freeform)
-+ What blogs, magazines or newsletters do you consult to keep up with React Native news? Check all that apply   # added in 2023
++ What blogs, magazines or newsletters do you consult to keep up with React Native news? Check all that apply     # added in 2023
 + **(*multiselect checkbox*)**
-+ Medium                   # https://medium.com/tag/react-native
-+ Dev.to                   # https://dev.to/t/reactnative
-+ Kent C. Dodds            # https://kentcdodds.com/blog
-+ LogRocket                # https://blog.logrocket.com/
-+ r/reactnative            # https://www.reddit.com/r/reactnative/
-+ React Native blog        # https://reactnative.dev/blog
-+ Expo blog (Exposition)   # https://blog.expo.dev/
-+ Software Mansion blog    # https://blog.swmansion.com/
-+ Callstack blog           # https://www.callstack.com/blog
++ Medium                      # https://medium.com/tag/react-native
++ Dev.to                      # https://dev.to/t/reactnative
++ Kent C. Dodds               # https://kentcdodds.com/blog
++ LogRocket                   # https://blog.logrocket.com/
++ r/reactnative               # https://www.reddit.com/r/reactnative/
++ React Native blog           # https://reactnative.dev/blog
++ Expo blog (Exposition)      # https://blog.expo.dev/
++ Software Mansion blog       # https://blog.swmansion.com/
++ Callstack blog              # https://www.callstack.com/blog
++ Microsoft React Native Blog # https://devblogs.microsoft.com/react-native/
 + This Week In React (by Sébastien Lorber)  # https://thisweekinreact.com/
 + React Native Newsletter (by Infinite Red) # https://reactnativenewsletter.com/
 + Other blogs, magazines or newsletters
@@ -1055,7 +1041,7 @@ What methods do you use to learn and improve your React Native skills? Check all
 ### Sites & courses
 ```diff
 - What sites/courses/etc. do you consult? Write all that apply (freeform)
-+ What sites or courses do you consult to learn React Native? Check all that apply    # added in 2023
++ What sites or courses do you consult to learn React Native? Check all that apply      # added in 2023
 + **(*multiselect checkbox*)**
 + Stack Overflow
 + Udemy
@@ -1072,6 +1058,7 @@ What methods do you use to learn and improve your React Native skills? Check all
 + Start React Native (by William Candillon)  # https://start-react-native.dev/
 + Developer Training (by Callstack)          # https://www.callstack.com/products/developer-training
 + Epic React (by Kent C. Dodds)              # https://epicreact.dev/
++ Animate React Native (by Catalin Miron)    # https://www.animatereactnative.com/
 + Other sites or courses
 + > Other answers (freeform)
 ```
@@ -1079,7 +1066,7 @@ What methods do you use to learn and improve your React Native skills? Check all
 ### Podcasts
 ```diff
 - What programming-related podcasts do you listen to? Write all that apply (freeform)
-+ What React Native or general programming-related podcasts do you listen to? Check all that apply  # added in 2023
++ What React Native or general programming-related podcasts do you listen to? Check all that apply    # added in 2023
 + React Native Show Podcast (by Callstack)  # https://www.callstack.com/podcast
 + React Native Radio (by Infinite Red)      # https://reactnativeradio.com/
 + Syntax.fm                                 # https://syntax.fm/
@@ -1092,18 +1079,17 @@ What methods do you use to learn and improve your React Native skills? Check all
 ### Video creators
 Video creators you follow on video-centric platforms such as YouTube, Twitch, TikTok, etc. Write all that apply (freeform)
 ```diff
-# we decided that this section should not serve the predefined answers
+# we decided that there should not be a list with the predefined answers
 ```
 
 ### People
 People you read, follow, or just want to highlight for their work. Write all that apply (freeform)
 ```diff
-# we decided that this section should not serve the predefined answers
+# we decided that there should not be a list with the predefined answers
 ```
 
 ```diff
-# removed in 2023 (too niche)
-- ### Online communities
+- ### Online communities       # removed in 2023 (too niche)
 - Online communities you actively participate in, such as Slack workspaces, Discord servers, Reddit topics, etc.. Write all that apply (freeform)
 ```
 
@@ -1144,7 +1130,7 @@ How do you feel about the state of React Native?
 ### React Native pain points
 ```diff
 - Write anything that makes you feel annoyed while developing React Native apps (freeform)
-+ What are the things that makes you feel annoyed while developing React Native apps? Check all that apply
++ What are the things that makes you feel annoyed while developing React Native apps? Check all that apply     # added in 2023
 + App Deployment
 + App Building
 + Dealing with native code
@@ -1170,7 +1156,7 @@ How do you feel about the state of React Native?
 ### Missing features
 ```diff
 - What do you feel currently is missing from React Native? Write all that apply (freeform)
-+ What do you feel currently is missing from React Native? Check all that apply
++ What do you feel currently is missing from React Native? Check all that apply               # added in 2023
 + Android shadows
 + Better animations/gestures
 + Better debugging
@@ -1192,7 +1178,7 @@ How do you feel about the state of React Native?
 ### React Native advantages
 ```diff
 - What are advantages of React Native over other solutions? Write all that apply (freeform)
-+ What are advantages of React Native over other solutions? Check all that apply     # added in 2023
++ What are advantages of React Native over other solutions? Check all that apply            # added in 2023
 + Code sharing
 + Community
 + Cost-effective
