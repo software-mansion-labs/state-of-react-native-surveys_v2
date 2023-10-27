@@ -224,7 +224,10 @@ How many React Native apps have you released on Google Play or App Store?
 
 ### What mobile OS versions do you target?
 **(*radio buttons*)**
+```diff
 - Most recent ones (iOS 16+, Android 13+)
++ Most recent ones (iOS 17+, Android 14+)
+```
 - Reasonably current (iOS 12+, Android 10+)
 - Old (iOS 10+, Android 7+)
 - As old as possible (iOS 8+, Android 5+)
@@ -304,6 +307,14 @@ What Platform APIs have you used in 2022 in React Native? Check all that apply
 - AR / VR
 - ML / AI
 - Permissions
+```diff
++ new APIs that were introduced throughout the last year or gained some more momentum on mobiles
+# https://developer.apple.com/documentation/ios-ipados-release-notes
+# https://developer.android.com/about/versions/13/summary
+# https://developer.android.com/about/versions/13/features
+# https://developer.android.com/about/versions/14/summary
+# https://developer.android.com/about/versions/14/features
+```
 - Other platform APIs usage
   > Other answers (freeform)
 
@@ -323,10 +334,14 @@ What state management solutions do you regularly use in your React Native apps?
 - Recoil
 - Apollo Client
 - TanStack QUery (React Query)
+```diff
 - Legend State
 - React Easy State
+```
 ```diff
-+ - MobX
++ MobX
++ XState
++ Redux Toolkit
 ```
 - Other state management
   > Other answers (freeform)
@@ -352,6 +367,9 @@ What data fetching solutions do you regularly use in your React Native apps?
 - TanStack QUery (React Query)
 - SWR
 - Relay
+```diff
++ RTK QUery
+```
 - Other data fetching
   > Other answers (freeform)
 
@@ -400,16 +418,16 @@ What styling techniques do you regularly use in your React Native apps?
 - Inline styling
 ```diff
 # moved from UI Components libraries
-+ - Dripsy
++ Dripsy
 ```
 ```diff
 # taken from https://github.com/efstathiosntonas/react-native-style-libraries-benchmark
-+ - react-native-unistyles (https://github.com/jpudysz/react-native-unistyles)
-+ - @emotion/native (https://emotion.sh/docs/@emotion/native)
-+ - react-native-zephyr (https://github.com/FormidableLabs/react-native-zephyr)
-+ - @gluestack-style/react (https://github.com/gluestack/gluestack-style)
-+ - @fast-styles/react (https://github.com/fedemartinm/fast-styles)
-+ - twrnc (https://github.com/jaredh159/tailwind-react-native-classnames)
++ react-native-unistyles (https://github.com/jpudysz/react-native-unistyles)
++ @emotion/native (https://emotion.sh/docs/@emotion/native)
++ react-native-zephyr (https://github.com/FormidableLabs/react-native-zephyr)
++ @gluestack-style/react (https://github.com/gluestack/gluestack-style)
++ @fast-styles/react (https://github.com/fedemartinm/fast-styles)
++ twrnc (https://github.com/jaredh159/tailwind-react-native-classnames)
 ```
 - other styling techniques
   > Other answers (freeform)
@@ -436,11 +454,12 @@ What UI components libraries do you regularly use in your React Native apps?
 - react-native-ui-lib
 ```diff
 # moved to Styling
-- - Dripsy
+- Dripsy
 ```
 - Shoutem UI
 ```diff
-+ - @gluestack-ui/themed (https://github.com/gluestack/gluestack-ui)
++ @gluestack-ui/themed (https://github.com/gluestack/gluestack-ui)
++ Tamagui
 ```
 - Other UI components libraries
   > Other answers (freeform)
@@ -469,6 +488,9 @@ What graphics and animations solutions do you use in your React Native apps?
 - Lottie
 - Expo GL
 - Legend Motion
+```diff
++ Rive
+```
 - Other graphics and animations solutions
   > Other answers (freeform)
 
@@ -567,6 +589,9 @@ Check all that apply
 - Maestro
 - XCUITest
 - Espresso
+```diff
++ Storybook
+```
 - Other testing solutions
   > Other answers (freeform)
 
@@ -580,6 +605,9 @@ What is your knowledge of the features specific to React Native development?
 ### React Native version
 Which version do you use mainly?
 **(*radio buttons*)**
+```diff
++ 0.72
+```
 - 0.71
 - 0.70
 - 0.69
@@ -605,7 +633,7 @@ Which version do you use mainly?
 - JSI
 ```diff
 Moved from Learning methods
-+ - React Native Directory
++ React Native Directory
 ```
 
 ### Debugging tools
@@ -703,7 +731,7 @@ How do you divide your time between writing JavaScript and TypeScript code?
 - ignite-cli
 - create-t3-turbo
 ```diff
-+ - create-react-native-app
++ create-react-native-app
 ```
 - Other starter templates
   > Other answers (freeform)
@@ -734,7 +762,9 @@ What monorepo tools have you used?
 - Lerna
 - pnpm
 - Nx
+```diff
 - Rush
+```
 - Other monorepo tools
   > Other answers (freeform)
 
@@ -755,10 +785,12 @@ What other cross-platform app development solutions are you familiar with?
 - Jetpack Compose
 - NativeScript
 - Kotlin Multiplatform Mobile
-- Felgo
 ```diff
-+ - Other React Native alternatives
-+   > Other answers (freeform)
+- Felgo
+```
+```diff
++ Other React Native alternatives
++ > Other answers (freeform)
 ```
 
 
@@ -782,7 +814,7 @@ What methods do you use to learn and improve your React Native skills? Check all
 - Coding bootcamp
 ```diff
 moved to React Native Features
-- - React Native Directory
+- React Native Directory
 ```
 - On-the-job training
 - Mentoring
@@ -844,12 +876,74 @@ How do you feel about the state of React Native?
 
 ### React Native pain points
 Write anything that makes you feel annoyed while developing React Native apps (freeform)
+```diff
++ upgrades
++ debugging
++ performance
++ unmaintained packages
++ reliance of 3rd party modules
++ new architecture
++ building
++ documentation
++ native modules
++ styling
++ platform inconsistencies
++ navigation solutions
++ errors
++ keyboard
++ setup
++ stability
++ graphics and animations
++ deployment
+```
 
 ### Missing features
 What do you feel currently is missing from React Native? Write all that apply (freeform)
+```diff
++ CSS features
++ better debugging/better profiling
++ first-party libraries
++ better integration (compatibility?)
++ better performance
++ multithreading
++ better animations/gestures
++ out-of-the-box storage
++ better documentation
++ out-of-the-box audio/video
++ better testing
++ better FlatList
++ Android shadows
++ better keyboard handling
++ out-of-the-box filesystem
++ out-of-the-box SVG
++ SwiftUI/Jetpack Compose integration
+```
+```diff
++ out-of-the-box Camera
+```
 
 ### React Native advantages
 What are advantages of React Native over other solutions? Write all that apply (freeform)
+```diff
++ Web technologies
++ Cross-platform
++ Developer experience
++ Easy to learn
++ Single codebase
++ Ecosystem
++ Community
++ Native ?
++ Performance
++ Code sharing
++ Over-the-air updates
++ Expo
++ Fast iterations
++ Time to market
++ Cost-effective
++ Hot reloading
++ Stable
++ Documentation
+```
 
 ### How happy are you with the general state of React Native?
 **(*radio buttons*)**
