@@ -646,45 +646,74 @@ What solutions to other well-defined problems do you regularly use in your React
 Check all that apply
 **(*multiselect checkbox*)**
 - React Native Async Storage
+```diff
 - Realm
++ Realm (by MongoDB)
+```
+```diff
 - WatermelonDB
++ WatermelonDB (by Nozbe)
+```
+```diff
 - react-native-mmkv
++ react-native-mmkv (by Marc Rousavy)
+```
+```diff
 - react-native-mmkv-storage
++ react-native-mmkv-storage (by Ammar Ahmed)
+```
+```diff
 - React Native SQLite Storage
++ React Native SQLite Storage (by Andrzej Porebski)
+```
 - Expo SQLite
-- RxDB
+```diff
+- RxDB # removed in 2023 (low usage)
+```
 - Other storage solutions
   > Other answers (freeform)
 
 ### Data visualisation
 Check all that apply
 **(*multiselect checkbox*)**
+```diff
 - Victory Native
++ Victory Native (by Formidable)
+```
+```diff
 - react-native-svg
++ react-native-svg (by Software Mansion)
+```
 - Recharts
 - React Native Charts Kit
-- React Native Charts Wrapper
+```diff
+- React Native Charts Wrapper # removed in 2023 (low usage)
+```
 - Other data visualisation solutions
   > Other answers (freeform)
 
-### Interactions
-Check all that apply
-**(*multiselect checkbox*)**
-- PanResponder API
-- Touchables/Pressables
-- React Native Gesture Handler
-- Other interactions solutions
-  > Other answers (freeform)
+```diff
+# removed in 2023 (too niche, combined into "Other popular libraries")
+- ### Interactions
+- Check all that apply
+- **(*multiselect checkbox*)**
+- - PanResponder API
+- - Touchables/Pressables
+- - React Native Gesture Handler
+- - Other interactions solutions
+-   > Other answers (freeform)
+```
 
 ```diff
+# removed in 2023 (too niche, combined into "Other popular libraries")
 - ### Internationalization
 - Check all that apply
 - **(*multiselect checkbox*)**
-- react-native-localize
-- react-i18next
-- FBT
-- other internationalization solutions
--  > Other answers (freeform)
+- - react-native-localize
+- - react-i18next
+- - FBT
+- - other internationalization solutions
+-   > Other answers (freeform)
 ```
 
 ### Analytics
@@ -697,7 +726,9 @@ Check all that apply
 - Mixpanel
 - Segment
 - AppsFlyer
-- Flurry
+```diff
+- Flurry # removed in 2023 (low usage)
+```
 - Other analytics solutions
   > Other answers (freeform)
 
@@ -708,9 +739,11 @@ Check all that apply
 - Datadog
 - Instabug
 - New Relic
-- AppDynamics
-- Amazon CloudWatch
-- Elastic Observability
+```diff
+- AppDynamics # removed in 2023 (low usage)
+- Amazon CloudWatch # removed in 2023 (low usage)
+- Elastic Observability # removed in 2023 (low usage)
+```
 - Bugsnag
 - Firebase Crashlytics
 - AppCenter Crashes
@@ -726,15 +759,33 @@ Check all that apply
 - Appium
 - Maestro
 ```diff
-- XCUITest
-- Espresso
+- XCUITest # removed in 2023 (low usage)
+- Espresso # removed in 2023 (low usage)
 ```
 ```diff
-+ Storybook
++ Storybook # added in 2023
 ```
 - Other testing solutions
   > Other answers (freeform)
 
+
+```diff
++ ### Other popular libraries # added in 2023
++ Check all that apply
++ **(*multiselect checkbox*)**
++ - React Native Gesture Handler (by Software Mansion) # moved from Interactions section
++ - react-native-localize (by Mathieu Acthernoene) # moved from Internationalization section
++ - react-i18next # moved from Internationalization section
++ - react-native-camera
++ - react-native-vision-camera (by Marc Rousavy)
++ - @shopify/flash-list
++ - @gorhom/bottom-sheet (by Mo Gorhom)
+
+# - TODO: add more golden standard libraries
+
++ - Other popular libraries not listed covered previously
++   > Other answers (freeform)
+```
 
 ---
 
@@ -746,7 +797,10 @@ What is your knowledge of the features specific to React Native development?
 Which version do you use mainly?
 **(*radio buttons*)**
 ```diff
-+ 0.72
++ nightly # added in 2023
++ next    # added in 2023
++ 0.73    # added in 2023
++ 0.72    # added in 2023
 ```
 - 0.71
 - 0.70
@@ -937,7 +991,7 @@ What other cross-platform app development solutions are you familiar with?
 - NativeScript
 - Kotlin Multiplatform Mobile
 ```diff
-- Felgo
+- Felgo # removed 2023 (low usage)
 ```
 ```diff
 + Other React Native alternatives
@@ -954,6 +1008,7 @@ What React Native resources do you consult?
 ### Learning methods
 What methods do you use to learn and improve your React Native skills? Check all that apply
 **(*multiselect checkbox*)**
+```diff
 - Official React Native docs
 - Expo docs
 - Books
@@ -963,33 +1018,100 @@ What methods do you use to learn and improve your React Native skills? Check all
 - School / higher education
 - Podcasts
 - Coding bootcamp
-```diff
-moved to React Native Features
-- React Native Directory
-```
+- React Native Directory # moved to React Native Features
 - On-the-job training
 - Mentoring
 - Self-directed learning
++ Books
++ Coding bootcamp
++ Expo docs
++ Mentoring
++ Official React Native docs
++ On-the-job training
++ Online courses (free)
++ Online courses (paid)
++ Podcasts
++ School / higher education
++ Self-directed learning
++ Videos
+```
 - Other learning methods
   > Other answers (freeform)
 
 ### Blogs & magizines
-What blogs/magazines/etc. do you read? Write all that apply (freeform)
+```diff
+- What blogs/magazines/etc. do you read? Write all that apply (freeform)
++ What blogs, magazines or newsletters do you consult to keep up with React Native news? Check all that apply   # added in 2023
++ **(*multiselect checkbox*)**
++ Medium                   # https://medium.com/tag/react-native
++ Dev.to                   # https://dev.to/t/reactnative
++ Kent C. Dodds            # https://kentcdodds.com/blog
++ LogRocket                # https://blog.logrocket.com/
++ r/reactnative            # https://www.reddit.com/r/reactnative/
++ React Native blog        # https://reactnative.dev/blog
++ Expo blog (Exposition)   # https://blog.expo.dev/
++ Software Mansion blog    # https://blog.swmansion.com/
++ Callstack blog           # https://www.callstack.com/blog
++ This Week In React (by Sébastien Lorber)  # https://thisweekinreact.com/
++ React Native Newsletter (by Infinite Red) # https://reactnativenewsletter.com/
++ Other blogs, magazines or newsletters
++ > Other answers (freeform)
+```
 
 ### Sites & courses
-What sites/courses/etc. do you consult? Write all that apply (freeform)
+```diff
+- What sites/courses/etc. do you consult? Write all that apply (freeform)
++ What sites or courses do you consult to learn React Native? Check all that apply    # added in 2023
++ **(*multiselect checkbox*)**
++ Stack Overflow
++ Udemy
++ Medium
++ X (Twitter)
++ Reddit
++ YouTube
++ React Native docs   # https://reactnative.dev/
++ Expo docs           # https://docs.expo.dev/
++ React docs          # https://react.dev/
++ Codecademy          # https://www.codecademy.com/
++ Egghead.io          # https://egghead.io/
++ Frontend Masters    # https://frontendmasters.com/
++ Start React Native (by William Candillon)  # https://start-react-native.dev/
++ Developer Training (by Callstack)          # https://www.callstack.com/products/developer-training
++ Epic React (by Kent C. Dodds)              # https://epicreact.dev/
++ Other sites or courses
++ > Other answers (freeform)
+```
 
 ### Podcasts
-What programming-related podcasts do you listen to? Write all that apply (freeform)
+```diff
+- What programming-related podcasts do you listen to? Write all that apply (freeform)
++ What React Native or general programming-related podcasts do you listen to? Check all that apply  # added in 2023
++ React Native Show Podcast (by Callstack)  # https://www.callstack.com/podcast
++ React Native Radio (by Infinite Red)      # https://reactnativeradio.com/
++ Syntax.fm                                 # https://syntax.fm/
++ The Changelog                             # https://changelog.com/
++ PodRocker (by LogRocket)                  # https://podrocket.logrocket.com/
++ Other podcasts
++ > Other answers (freeform)
+```
 
 ### Video creators
 Video creators you follow on video-centric platforms such as YouTube, Twitch, TikTok, etc. Write all that apply (freeform)
+```diff
+# we decided that this section should not serve the predefined answers
+```
 
 ### People
 People you read, follow, or just want to highlight for their work. Write all that apply (freeform)
+```diff
+# we decided that this section should not serve the predefined answers
+```
 
-### Online communities
-Online communities you actively participate in, such as Slack workspaces, Discord servers, Reddit topics, etc.. Write all that apply (freeform)
+```diff
+# removed in 2023 (too niche)
+- ### Online communities
+- Online communities you actively participate in, such as Slack workspaces, Discord servers, Reddit topics, etc.. Write all that apply (freeform)
+```
 
 ### Other surveys
 What other developer surveys do you participate in? Check all that apply
@@ -1026,74 +1148,77 @@ How do you feel about the state of React Native?
 - Disagree strongly / Disagree / Neutral / Agree / Agree strongly
 
 ### React Native pain points
-Write anything that makes you feel annoyed while developing React Native apps (freeform)
 ```diff
-+ upgrades
-+ debugging
-+ performance
-+ unmaintained packages
-+ reliance of 3rd party modules
-+ new architecture
-+ building
-+ documentation
-+ native modules
-+ styling
-+ platform inconsistencies
-+ navigation solutions
-+ errors
-+ keyboard
-+ setup
-+ stability
-+ graphics and animations
-+ deployment
+- Write anything that makes you feel annoyed while developing React Native apps (freeform)
++ What are the things that makes you feel annoyed while developing React Native apps? Check all that apply
++ App Deployment
++ App Building
++ Dealing with native code
++ Debugging
++ Documentation
++ Unusable error messages
++ Graphics and animations
++ Keyboard handling
++ Navigation solutions
++ New architecture
++ Performance
++ Platforms inconsistencies
++ Project setup
++ Reliance of 3rd party modules
++ Stability
++ Styling limitations
++ Unmaintained packages
++ Upgrades
++ Other pain points
++ > Other answers (freeform)
 ```
 
 ### Missing features
-What do you feel currently is missing from React Native? Write all that apply (freeform)
 ```diff
-+ CSS features
-+ better debugging/better profiling
-+ first-party libraries
-+ better integration (compatibility?)
-+ better performance
-+ multithreading
-+ better animations/gestures
-+ out-of-the-box storage
-+ better documentation
-+ out-of-the-box audio/video
-+ better testing
-+ better FlatList
+- What do you feel currently is missing from React Native? Write all that apply (freeform)
++ What do you feel currently is missing from React Native? Check all that apply
 + Android shadows
-+ better keyboard handling
-+ out-of-the-box filesystem
-+ out-of-the-box SVG
++ Better animations/gestures
++ Better debugging
++ Better profiling
++ Better documentation
++ Better FlatList
++ Better keyboard handling
++ Better performance
++ Better testing
++ Better Web compatibility
++ CSS features
++ First-party libraries
++ Multithreading
 + SwiftUI/Jetpack Compose integration
-```
-```diff
-+ out-of-the-box Camera
++ Other missing features
++ > Other answers (freeform)
 ```
 
 ### React Native advantages
-What are advantages of React Native over other solutions? Write all that apply (freeform)
 ```diff
-+ Web technologies
+- What are advantages of React Native over other solutions? Write all that apply (freeform)
++ What are advantages of React Native over other solutions? Check all that apply     # added in 2023
++ Code sharing
++ Community
++ Cost-effective
 + Cross-platform
 + Developer experience
++ Documentation
 + Easy to learn
-+ Single codebase
 + Ecosystem
-+ Community
-+ Native ?
-+ Performance
-+ Code sharing
-+ Over-the-air updates
 + Expo
 + Fast iterations
-+ Time to market
-+ Cost-effective
 + Hot reloading
++ Native feel of the app
++ Over-the-air updates
++ Performance
++ Single codebase
 + Stable
-+ Documentation
++ Time to market
++ Web technologies
++ Other advantages
++ > Other answers (freeform)
 ```
 
 ### How happy are you with the general state of React Native?
