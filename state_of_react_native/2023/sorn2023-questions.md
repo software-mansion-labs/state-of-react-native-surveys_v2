@@ -198,17 +198,27 @@ What are the platforms that you use React Native for? Check all that apply
 - Windows
 - Android TV
 - tvOS
+```diff
++ React Native Skia (Linux & macOS)   # added in 2023 (https://reactnative.dev/docs/out-of-tree-platforms)
+```
 - Other target platforms
   > Other answers (freeform)
 
 ### Contribution to React Native
-Have you contributed to React Native in 2022?
+```diff
+- Have you contributed to React Native in 2022?
++ Have you contributed to React Native upstream in 2023 (commits/PRs)? # question intention is more clear this way
+```
 **(*radio buttons*)**
 - Yes
 - No
 
-### Contribution to React Native libraries
-Have you contributed to any React Native community library in 2022?
+```diff
+- ### Contribution to React Native libraries
++ ### Open Source Contribution to React Native libraries                # question intention is more clear this way
+- Have you contributed to any React Native community library in 2022?
++ Have you contributed to any Open Source React Native library in 2023 (commits/PRs)? # question intention is more clear this way
+```
 **(*radio buttons*)**
 - Yes
 - No
@@ -226,15 +236,22 @@ How many React Native apps have you released on Google Play or App Store?
 **(*radio buttons*)**
 ```diff
 - Most recent ones (iOS 16+, Android 13+)
-+ Most recent ones (iOS 17+, Android 14+)
++ Most recent ones (iOS 17+, Android 14+) # most recent versions available on the market
 ```
+```diff
 - Reasonably current (iOS 12+, Android 10+)
++ Reasonably current (iOS 15+, Android 12+) # versions 2/3 years old that are still supported
+```
+```diff
 - Old (iOS 10+, Android 7+)
-- As old as possible (iOS 8+, Android 5+)
++ Old (iOS 12+, Android 9+) # older versions that might not be supported, but are still part of the market
+```
+- As old as possible (iOS 8+, Android 5+) # versions that theoretically could be used with React Native (the very old version of React Native)
 
 ### Industry sector
 Which industry sector(s) are you using React Native in? Check all that apply.
 **(*multiselect checkbox*)**
+```diff
 - Ecommerce & Retail
 - News, Media, & Blogging
 - Healthcare
@@ -260,6 +277,33 @@ Which industry sector(s) are you using React Native in? Check all that apply.
 - Agriculture
 - Transport
 - Manufacturing
++ Agriculture
++ Automotive
++ Construction
++ Consulting & Services
++ Crypto & Web3
++ Cyber Security
++ Ecommerce & Retail
++ Education
++ Energy            # added in 2023
++ Entertainment
++ Finance
++ Government
++ Healthcare
++ Hospitality
++ Insurance
++ Logistics
++ Manufacturing
++ Marketing/Sales/Analytics Tools
++ News, Media, & Blogging
++ Programming & Technical Tools
++ Real Estate
++ Social Media
++ Student
++ Telecommunications
++ Transport
++ Travel
+```
 - Other industry sectors
   > Other answers (freeform)
 
@@ -273,6 +317,7 @@ The features provided by the operation system.
 ### Platform APIs usage
 What Platform APIs have you used in 2022 in React Native? Check all that apply
 **(*multiselect checkbox*)**
+```diff
 - Sensors (gyroscope, accelerometer, etc.)
 - Camera
 - Audio playback
@@ -307,13 +352,45 @@ What Platform APIs have you used in 2022 in React Native? Check all that apply
 - AR / VR
 - ML / AI
 - Permissions
-```diff
-+ new APIs that were introduced throughout the last year or gained some more momentum on mobiles
-# https://developer.apple.com/documentation/ios-ipados-release-notes
-# https://developer.android.com/about/versions/13/summary
-# https://developer.android.com/about/versions/13/features
-# https://developer.android.com/about/versions/14/summary
-# https://developer.android.com/about/versions/14/features
+# check new APIs in following sources:
+# - https://developer.apple.com/documentation/ios-ipados-release-notes
+# - https://developer.android.com/about/versions
++ Accessibility
++ Appearance
++ AR / VR
++ Audio playback
++ Background processing
++ Battery
++ Biometric authentication
++ Bluetooth
++ Camera
++ Clipboard
++ Cryptography (e.g. hardware encryption)
++ Deep links
++ File System
++ Foldable                       # added in 2023
++ Haptics
++ In-app payments
++ In-app reviews
++ Live Activity (Dynamic Island) # added in 2023
++ Location
++ Maps
++ Media library (gallery)
++ Microphone
++ ML / AI
++ NFC
++ Notifications
++ OCR
++ OpenGL
++ Permissions
++ Persistent storage (e.g. SQL database)
++ Printer
++ RTL
++ Screen orientation
++ Sensors (gyroscope, accelerometer, etc.)
++ Telephony (SMS, email, dialing, etc.)
++ Video playback
++ WebView
 ```
 - Other platform APIs usage
   > Other answers (freeform)
@@ -335,13 +412,14 @@ What state management solutions do you regularly use in your React Native apps?
 - Apollo Client
 - TanStack QUery (React Query)
 ```diff
-- Legend State
-- React Easy State
+- Legend State     # removed in 2023 (low usage)
+- React Easy State # removed in 2023 (low usage)
 ```
 ```diff
-+ MobX
-+ XState
-+ Redux Toolkit
++ MobX             # added in 2023
++ MobX-State-Tree  # added in 2023
++ XState           # added in 2023
++ Redux Toolkit    # added in 2023
 ```
 - Other state management
   > Other answers (freeform)
@@ -368,7 +446,7 @@ What data fetching solutions do you regularly use in your React Native apps?
 - SWR
 - Relay
 ```diff
-+ RTK QUery
++ RTK Query    # added in 2023
 ```
 - Other data fetching
   > Other answers (freeform)
@@ -387,11 +465,23 @@ What navigation solutions do you regularly use in your React Native apps?
 
 🤷 / ✅ / 🚫 / 👍 / 👎
 **(*radio buttons*)**
-- react-navigation
+```diff
+- react-navigation (by Expo, Software Mansion and Callstack)
++ react-navigation (by Expo, Software Mansion and Callstack)
+```
+```diff
 - react-native-navigation
++ react-native-navigation (by Wix)
+```
+```diff
 - react-router
++ react-router (by Remix)
+```
 - expo-router
+```diff
 - navigation-react-native
++ navigation-react-native (by Graham Mendick)
+```
 - other navigation solutions
   > Other answers (freeform)
 
@@ -410,24 +500,36 @@ What styling techniques do you regularly use in your React Native apps?
 🤷 / ✅ / 🚫 / 👍 / 👎
 **(*radio buttons*)**
 - StyleSheet API
-- NativeWind
-- tailwind-rn
-- styled components
-- Tamagui
-- Restyle
 - Inline styling
 ```diff
+- NativeWind
++ NativeWind (by Mark Lawlor)
+```
+```diff
+- tailwind-rn
++ tailwind-rn (by Vadim Demedes)
+```
+- styled components
+```diff
+- Tamagui
++ Tamagui (by Nate Wienert)
+```
+```diff
+- Restyle
++ Restyle (by Shopify)
+```
+```diff
 # moved from UI Components libraries
-+ Dripsy
++ Dripsy (by Fernando Rojo)
 ```
 ```diff
 # taken from https://github.com/efstathiosntonas/react-native-style-libraries-benchmark
-+ react-native-unistyles (https://github.com/jpudysz/react-native-unistyles)
-+ @emotion/native (https://emotion.sh/docs/@emotion/native)
-+ react-native-zephyr (https://github.com/FormidableLabs/react-native-zephyr)
-+ @gluestack-style/react (https://github.com/gluestack/gluestack-style)
-+ @fast-styles/react (https://github.com/fedemartinm/fast-styles)
-+ twrnc (https://github.com/jaredh159/tailwind-react-native-classnames)
++ react-native-unistyles (by Jacek Pudysz) # added in 2023 (https://github.com/jpudysz/react-native-unistyles)
++ Emotion                                  # added in 2023 (https://emotion.sh/docs/@emotion/native)
++ React Native Zephyr (by Formidable)      # added in 2023 (https://github.com/FormidableLabs/react-native-zephyr)
++ gluestack-style                          # added in 2023 (https://github.com/gluestack/gluestack-style)
++ Fast Styles (by Fede Martín)             # added in 2023 (https://github.com/fedemartinm/fast-styles)
++ twrnc (by Jared Henderson)               # added in 2023 (https://github.com/jaredh159/tailwind-react-native-classnames)
 ```
 - other styling techniques
   > Other answers (freeform)
@@ -446,20 +548,37 @@ What UI components libraries do you regularly use in your React Native apps?
 
 🤷 / ✅ / 🚫 / 👍 / 👎
 **(*radio buttons*)**
+```diff
 - react-native-paper
++ react-native-paper (by Callstack)
+```
+```diff
 - ui-kitten
++ ui-kitten (by Akveo)
+```
 - React Native Elements
+```diff
 - react-native-material-ui
++ react-native-material-ui (by Jiří Otáhal)
+```
+```diff
 - NativeBase
++ NativeBase (by GeekyAnts)
+```
+```diff
 - react-native-ui-lib
++ react-native-ui-lib (by Wix)
+```
 ```diff
 # moved to Styling
 - Dripsy
 ```
 - Shoutem UI
 ```diff
-+ @gluestack-ui/themed (https://github.com/gluestack/gluestack-ui)
-+ Tamagui
++ gluestack-ui                                   # added in 2023 (https://github.com/gluestack/gluestack-ui)
++ Tamagui (by Nate Wienert)                      # added in 2023
++ react-native-material-kit (by Jeremy Hamilton) # added in 2023 (https://github.com/xinthink/react-native-material-kit)
+
 ```
 - Other UI components libraries
   > Other answers (freeform)
@@ -479,17 +598,34 @@ What graphics and animations solutions do you use in your React Native apps?
 🤷 / ✅ / 🚫 / 👍 / 👎
 **(*radio buttons*)**
 - Animated API
+```diff
 - React Native Reanimated
++ React Native Reanimated (by Software Mansion)
+```
+```diff
 - Moti
++ Moti (by Fernando Rojo)
+```
+```diff
 - React Native Skia
++ React Native Skia (by Shopify)
+```
+```diff
 - React Native Animatable
++ React Native Animatable (by Joel Arvidsson)
+```
+```diff
 - Three.js
++ three.js
+```
 - React Three Fiber
 - Lottie
 - Expo GL
-- Legend Motion
 ```diff
-+ Rive
+- Legend Motion # removed in 2023 (low usage)
+```
+```diff
++ Rive # added in 2023
 ```
 - Other graphics and animations solutions
   > Other answers (freeform)
@@ -540,14 +676,16 @@ Check all that apply
 - Other interactions solutions
   > Other answers (freeform)
 
-### Internationalization
-Check all that apply
-**(*multiselect checkbox*)**
+```diff
+- ### Internationalization
+- Check all that apply
+- **(*multiselect checkbox*)**
 - react-native-localize
 - react-i18next
 - FBT
 - other internationalization solutions
-  > Other answers (freeform)
+-  > Other answers (freeform)
+```
 
 ### Analytics
 Check all that apply
@@ -587,8 +725,10 @@ Check all that apply
 - Detox
 - Appium
 - Maestro
+```diff
 - XCUITest
 - Espresso
+```
 ```diff
 + Storybook
 ```
@@ -709,7 +849,10 @@ How do you build and submit your app for the App Store or Google Play?
 ---
 
 
-## [Tools](https://survey.stateofreactnative.com/en/survey/state-of-react-native/2022/read-only/12)
+```diff
+- ## [Tools](https://survey.stateofreactnative.com/en/survey/state-of-react-native/2022/read-only/12)
++ ## [React Native Tools](https://survey.stateofreactnative.com/en/survey/state-of-react-native/2022/read-only/12)
+```
 The tools you use to develop React Native apps.
 
 ### JavaScript/TypeScript Balance
@@ -718,7 +861,10 @@ How do you divide your time between writing JavaScript and TypeScript code?
 - 100% JavaScript / 50%-50% / 100% TypeScript
 
 ### Package Mangers
-**(*radio buttons*)**
+```diff
+- **(*radio buttons*)**
++ **(*multiselect checkbox*)**
+```
 - npm
 - yarn
 - yarn berry (yarn v2+)
@@ -742,8 +888,10 @@ How do you divide your time between writing JavaScript and TypeScript code?
 - Expo Snack
 - Expo CLI
 - EAS CLI
-- React Native CLI
 - Ignite CLI
+```diff
++ Upgrade Helper
+```
 - Other development tools
   > Other answers (freeform)
 
@@ -751,22 +899,25 @@ How do you divide your time between writing JavaScript and TypeScript code?
 ---
 
 
-## [Monorepo tools](https://survey.stateofreactnative.com/en/survey/state-of-react-native/2022/read-only/13)
-What monorepo tools have you used?
+```diff
+# first candidate to be discarded from the survey
+- ## [Monorepo tools](https://survey.stateofreactnative.com/en/survey/state-of-react-native/2022/read-only/13)
+- What monorepo tools have you used?
 
-🤷 / ✅ / 🚫 / 👍 / 👎
-**(*radio buttons*)**
+- 🤷 / ✅ / 🚫 / 👍 / 👎
+- **(*radio buttons*)**
 - yarn workspaces
 - npm workspaces
 - Turborepo
 - Lerna
 - pnpm
 - Nx
-```diff
+#```diff
 - Rush
+#```
+- - Other monorepo tools
+-  > Other answers (freeform)
 ```
-- Other monorepo tools
-  > Other answers (freeform)
 
 
 ---
