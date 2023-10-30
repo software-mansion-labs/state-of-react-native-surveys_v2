@@ -323,13 +323,23 @@
   slug: component_libraries
   questions:
     - id: component_libraries_rn_paper
+      description: "by Callstack"
     - id: component_libraries_ui_kitten
+      description: "by Akveo"
     - id: component_libraries_rn_elements
     - id: component_libraries_react_native_material_ui
+      description: "by Jiří Otáhal"
     - id: component_libraries_native_base
+      description: "by GeekyAnts"
     - id: component_libraries_rn_ui_lib
-    - id: component_libraries_dripsy
+      description: "by Wix"
     - id: component_libraries_shoutem_ui
+    - id: component_libraries_gluestack_ui
+      description: "by Gluestack"
+    - id: component_libraries_tamagui
+      description: "by Nate Wienert"
+    - id: component_libraries_react_native_material_kit
+      description: "by Jeremy Hamilton"
     - id: component_libraries_other
       template: others
       description: "Other answers (freeform)"
@@ -347,14 +357,19 @@
   questions:
     - id: animations_animated_api
     - id: animations_react_native_reanimated
+      description: "by Software Mansion"
     - id: animations_moti
+      description: "by Fernando Rojo"
     - id: animations_skia
+      description: "by Shopify"
     - id: animations_react_native_animatable
+      description: "by Joel Arvidsson"
     - id: animations_threejs
     - id: animations_react_three_fiber
     - id: animations_lottie
     - id: animations_expo_gl
-    - id: animations_legend_motion
+    - id: animations_rive
+    # - id: animations_legend_motion
     - id: animations_other
       template: others
       description: "Other answers (freeform)"
