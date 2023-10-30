@@ -390,12 +390,17 @@
       options:
         - id: react_native_app_aspects_storage_react_native_async_storage
         - id: react_native_app_aspects_storage_realm
+          description: "by MongoDB"
         - id: react_native_app_aspects_storage_watermelondb
+          description: "by Nozbe"
         - id: react_native_app_aspects_storage_react_native_mmkv
+          description: "by Tencent"
         - id: react_native_app_aspects_storage_react_native_mmkv_storage
+          description: "by Ammar Ahmed"
         - id: react_native_app_aspects_storage_react_native_sqlite_storage
+          description: "by Andrzej Porebski"
         - id: react_native_app_aspects_storage_expo_sqlite
-        - id: react_native_app_aspects_storage_rxdb
+        # - id: react_native_app_aspects_storage_rxdb
     - id: react_native_app_aspects_storage_other
       template: others
       description: "Other answers (freeform)"
@@ -407,30 +412,30 @@
         - id: react_native_app_aspects_data_visualisation_react_native_svg
         - id: react_native_app_aspects_data_visualisation_recharts
         - id: react_native_app_aspects_data_visualisation_react_native_charts_kit
-        - id: react_native_app_aspects_data_visualisation_react_native_charts_wrapper
+        # - id: react_native_app_aspects_data_visualisation_react_native_charts_wrapper
     - id: react_native_app_aspects_data_visualisation_other
       template: others
       description: "Other answers (freeform)"
 
-    - id: react_native_app_aspects_interactions
-      description: Check all that apply
-      options:
-        - id: react_native_app_aspects_interactions_panresponder_api
-        - id: react_native_app_aspects_interactions_touchables
-        - id: react_native_app_aspects_interactions_react_native_gesture_handler
-    - id: react_native_app_aspects_interactions_other
-      template: others
-      description: "Other answers (freeform)"
+    # - id: react_native_app_aspects_interactions
+    #   description: Check all that apply
+    #   options:
+    #     - id: react_native_app_aspects_interactions_panresponder_api
+    #     - id: react_native_app_aspects_interactions_touchables
+    #     - id: react_native_app_aspects_interactions_react_native_gesture_handler
+    # - id: react_native_app_aspects_interactions_other
+    #   template: others
+    #   description: "Other answers (freeform)"
 
-    - id: react_native_app_aspects_internationalization
-      description: Check all that apply
-      options:
-        - id: react_native_app_aspects_internationalization_react_native_localize
-        - id: react_native_app_aspects_internationalization_react_i18next
-        - id: react_native_app_aspects_internationalization_fbt
-    - id: react_native_app_aspects_internationalization_other
-      template: others
-      description: "Other answers (freeform)"
+    # - id: react_native_app_aspects_internationalization
+    #   description: Check all that apply
+    #   options:
+    #     - id: react_native_app_aspects_internationalization_react_native_localize
+    #     - id: react_native_app_aspects_internationalization_react_i18next
+    #     - id: react_native_app_aspects_internationalization_fbt
+    # - id: react_native_app_aspects_internationalization_other
+    #   template: others
+    #   description: "Other answers (freeform)"
 
     - id: react_native_app_aspects_analytics
       description: Check all that apply
@@ -442,7 +447,7 @@
         - id: react_native_app_aspects_analytics_mixpanel
         - id: react_native_app_aspects_analytics_segment
         - id: react_native_app_aspects_analytics_appsflyer
-        - id: react_native_app_aspects_analytics_flurry
+        # - id: react_native_app_aspects_analytics_flurry
     - id: react_native_app_aspects_analytics_other
       template: others
       description: "Other answers (freeform)"
@@ -454,9 +459,9 @@
         - id: react_native_app_aspects_crash_reporting_datadog
         - id: react_native_app_aspects_crash_reporting_instabug
         - id: react_native_app_aspects_crash_reporting_new_relic
-        - id: react_native_app_aspects_crash_reporting_appdynamics
-        - id: react_native_app_aspects_crash_reporting_amazon_cloudwatch
-        - id: react_native_app_aspects_crash_reporting_elastic_observability
+        # - id: react_native_app_aspects_crash_reporting_appdynamics
+        # - id: react_native_app_aspects_crash_reporting_amazon_cloudwatch
+        # - id: react_native_app_aspects_crash_reporting_elastic_observability
         - id: react_native_app_aspects_crash_reporting_bugsnag
         - id: react_native_app_aspects_crash_reporting_firebase_crashlytics
         - id: react_native_app_aspects_crash_reporting_appcenter_crashes
@@ -472,9 +477,30 @@
         - id: react_native_app_aspects_testing_detox
         - id: react_native_app_aspects_testing_appium
         - id: react_native_app_aspects_testing_maestro
-        - id: react_native_app_aspects_testing_xcuitest
-        - id: react_native_app_aspects_testing_espresso
+        # - id: react_native_app_aspects_testing_xcuitest
+        # - id: react_native_app_aspects_testing_espresso
+        - id: react_native_app_aspects_testing_storybook
     - id: react_native_app_aspects_testing_other
+      template: others
+      description: "Other answers (freeform)"
+    
+    - id: react_native_app_aspects_other_libraries
+      description: Check all that apply
+      options:
+        - id: react_native_app_aspects_other_libraries_react_native_gesture_handler
+        - id: react_native_app_aspects_other_libraries_react_native_localize
+        - id: react_native_app_aspects_other_libraries_react_native_i18next
+        - id: react_native_app_aspects_other_libraries_react_native_camera
+        - id: react_native_app_aspects_other_libraries_react_native_vision_camera
+        - id: react_native_app_aspects_other_libraries_shopify_flash_list
+        - id: react_native_app_aspects_other_libraries_gorhom_bottom_sheet
+        - id: react_native_app_aspects_other_libraries_expo_image
+        - id: react_native_app_aspects_other_libraries_react_native_fast_image
+        - id: react_native_app_aspects_other_libraries_expo_vector_icons
+        - id: react_native_app_aspects_other_libraries_react_native_webview
+        - id: react_native_app_aspects_other_libraries_react_native_safe_area_context
+        - id: react_native_app_aspects_other_libraries_react_native_maps
+    - id: react_native_app_aspects_other_libraries_other
       template: others
       description: "Other answers (freeform)"
 
