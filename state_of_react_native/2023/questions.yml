@@ -214,8 +214,12 @@
     - id: state_management_recoil
     - id: state_management_apollo
     - id: state_management_react_query
-    - id: state_management_legend_state
-    - id: state_management_react_easy_state
+    - id: state_management_mobx
+    - id: state_management_mobx_state_tree
+    - id: state_management_xstate
+    - id: state_management_redux_toolkit
+    # - id: state_management_legend_state
+    # - id: state_management_react_easy_state
     - id: state_management_other
       template: others
       description: "Other answers (freeform)"
@@ -238,6 +242,7 @@
     - id: data_fetching_tan_stack
     - id: data_fetching_swr
     - id: data_fetching_relay
+    - id: data_fetching_rtk_query
     - id: data_fetching_other
       template: others
       description: "Other answers (freeform)"
