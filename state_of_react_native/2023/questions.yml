@@ -634,7 +634,7 @@
       description: "How do you divide your time between writing JavaScript and TypeScript code?"
 
     - id: tools_package_managers
-      template: single
+      template: multiple
       options:
         - id: tools_package_managers_npm
         - id: tools_package_managers_yarn
@@ -648,6 +648,7 @@
         - id: tools_starter_templates_react_native_cli
         - id: tools_starter_templates_ignite_cli
         - id: tools_starter_templates_create_t3_turbo
+        - id: tools_starter_templates_create_react_native_app
     - id: tools_starter_templates_other
       template: others
       description: "Other answers (freeform)"
@@ -658,6 +659,8 @@
     - id: tools_eas_cli
     - id: tools_react_native_cli
     - id: tools_ignite_cli
+    - id: tools_upgrade_helper
+    - id: tools_config_plugins
 
     - id: tools_other_tools
       template: others
@@ -666,21 +669,21 @@
 #########           MONOREPO TOOLS           #########
 ######################################################
 
-- id: monorepo_tools
-  template: tool
-  slug: monorepo_tools
-  questions:
-    - id: monorepo_tools_yarn_workspaces
-    - id: monorepo_tools_npm_workspaces
-    - id: monorepo_tools_turborepo
-    - id: monorepo_tools_lerna
-    - id: monorepo_tools_pnpm
-    - id: monorepo_tools_nx
-    - id: monorepo_tools_rush
+# - id: monorepo_tools
+#   template: tool
+#   slug: monorepo_tools
+#   questions:
+#     - id: monorepo_tools_yarn_workspaces
+#     - id: monorepo_tools_npm_workspaces
+#     - id: monorepo_tools_turborepo
+#     - id: monorepo_tools_lerna
+#     - id: monorepo_tools_pnpm
+#     - id: monorepo_tools_nx
+#     - id: monorepo_tools_rush
 
-    - id: monorepo_tools_other
-      template: others
-      description: "Other answers (freeform)"
+#     - id: monorepo_tools_other
+#       template: others
+#       description: "Other answers (freeform)"
 
 ######################################################
 #########            ALTERNATIVES            #########
