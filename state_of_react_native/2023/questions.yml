@@ -72,9 +72,9 @@
         - id: developer_background_platforms.answer.c
         - id: developer_background_platforms.answer.d
         - id: developer_background_platforms.answer.e
+        - id: developer_background_platforms.answer.h
         - id: developer_background_platforms.answer.f
         - id: developer_background_platforms.answer.g
-        - id: developer_background_platforms.answer.h
     - id: developer_background_platforms_other
       sectionSlug: developer_background_platforms
       template: others
@@ -110,32 +110,33 @@
       template: multiple
       description: Which industry sector(s) are you using React Native in? Check all that apply.
       options:
-        - id: developer_background_industry_sector.answer.a
-        - id: developer_background_industry_sector.answer.b
-        - id: developer_background_industry_sector.answer.c
-        - id: developer_background_industry_sector.answer.d
-        - id: developer_background_industry_sector.answer.e
-        - id: developer_background_industry_sector.answer.f
-        - id: developer_background_industry_sector.answer.g
-        - id: developer_background_industry_sector.answer.h
-        - id: developer_background_industry_sector.answer.i
-        - id: developer_background_industry_sector.answer.j
-        - id: developer_background_industry_sector.answer.k
-        - id: developer_background_industry_sector.answer.l
+        - id: developer_background_industry_sector.answer.x
+        - id: developer_background_industry_sector.answer.w
+        - id: developer_background_industry_sector.answer.v
         - id: developer_background_industry_sector.answer.n
-        - id: developer_background_industry_sector.answer.m
+        - id: developer_background_industry_sector.answer.e
+        - id: developer_background_industry_sector.answer.u
+        - id: developer_background_industry_sector.answer.a
+        - id: developer_background_industry_sector.answer.i
+        - id: developer_background_industry_sector.answer.q
+        - id: developer_background_industry_sector.answer.l
+        - id: developer_background_industry_sector.answer.d
+        - id: developer_background_industry_sector.answer.k
+        - id: developer_background_industry_sector.answer.c
+        - id: developer_background_industry_sector.answer.t
         - id: developer_background_industry_sector.answer.o
         - id: developer_background_industry_sector.answer.p
-        - id: developer_background_industry_sector.answer.q
-        - id: developer_background_industry_sector.answer.r
-        - id: developer_background_industry_sector.answer.s
-        - id: developer_background_industry_sector.answer.t
-        - id: developer_background_industry_sector.answer.u
-        - id: developer_background_industry_sector.answer.v
-        - id: developer_background_industry_sector.answer.w
-        - id: developer_background_industry_sector.answer.x
-        - id: developer_background_industry_sector.answer.y
         - id: developer_background_industry_sector.answer.z
+        - id: developer_background_industry_sector.answer.h
+        - id: developer_background_industry_sector.answer.b
+        - id: developer_background_industry_sector.answer.f
+        - id: developer_background_industry_sector.answer.j
+        - id: developer_background_industry_sector.answer.g
+        - id: developer_background_industry_sector.answer.s
+        - id: developer_background_industry_sector.answer.r
+        - id: developer_background_industry_sector.answer.y
+        - id: developer_background_industry_sector.answer.m
+        - id: developer_background_industry_sector_other
     - id: developer_background_industry_sector_other
       sectionSlug: developer_background_industry_sector
       template: others
@@ -155,46 +156,46 @@
       template: multiple
       description: What Platform APIs have you used in 2022 in React Native? Check all that apply
       options:
-        # - id: platform_apis_offline_mode
-        - id: platform_apis_sensors
-        - id: platform_apis_camera
-        - id: platform_apis_audio
-        # - id: platform_apis_security
-        # - id: platform_apis_encryption
-        - id: platform_apis_appearance
-        - id: platform_apis_accessibility
-        - id: platform_apis_microphone
-        - id: platform_apis_media_library
-        - id: platform_apis_file_system
-        - id: platform_apis_foldable
-        - id: platform_apis_haptics
-        - id: platform_apis_video_playback
-        - id: platform_apis_clipboard
-        - id: platform_apis_openGL
-        - id: platform_apis_telephony
-        - id: platform_apis_location
-        - id: platform_apis_maps
-        - id: platform_apis_screen_orientation
-        - id: platform_apis_battery_level
-        - id: platform_apis_bluetooth
-        - id: platform_apis_nfc
-        - id: platform_apis_rtl
-        - id: platform_apis_biometric_authentication
-        - id: platform_apis_cryptography
-        - id: platform_apis_notifications
-        - id: platform_apis_in_app_payments
-        - id: platform_apis_in_app_reviews
-        - id: platfrom_apis_live_activity
-        # - id: platform_apis_ads
-        - id: platform_apis_webview
-        - id: platform_apis_storage
-        - id: platform_apis_deep_links
-        - id: platform_apis_concurrency
-        - id: platform_apis_printer
-        - id: platform_apis_ocr
-        - id: platform_apis_ar_av
-        - id: platform_apis_ml
-        - id: platform_apis_permissions
+         - id: platform_apis_accessibility
+          - id: platform_apis_appearance
+          - id: platform_apis_ar_av
+          - id: platform_apis_audio
+          - id: platform_apis_battery_level
+          - id: platform_apis_biometric_authentication
+          - id: platform_apis_bluetooth
+          - id: platform_apis_concurrency
+          - id: platform_apis_camera
+          - id: platform_apis_clipboard
+          - id: platform_apis_cryptography
+          - id: platform_apis_deep_links
+          - id: platform_apis_file_system
+          - id: platform_apis_foldable
+          - id: platform_apis_haptics
+          - id: platform_apis_in_app_payments
+          - id: platform_apis_in_app_reviews
+          - id: platfrom_apis_live_activity
+          - id: platform_apis_location
+          - id: platform_apis_maps
+          - id: platform_apis_media_library
+          - id: platform_apis_microphone
+          - id: platform_apis_ml
+          - id: platform_apis_nfc
+          - id: platform_apis_notifications
+          - id: platform_apis_ocr
+          - id: platform_apis_openGL
+          - id: platform_apis_permissions
+          - id: platform_apis_storage
+          - id: platform_apis_printer
+          - id: platform_apis_rtl
+          - id: platform_apis_screen_orientation
+          - id: platform_apis_sensors
+          - id: platform_apis_telephony
+          - id: platform_apis_video_playback
+          - id: platform_apis_webview
+          # - id: platform_apis_offline_mode
+          # - id: platform_apis_security
+          # - id: platform_apis_encryption
+          # - id: platform_apis_ads
     - id: platform_apis_other
       template: others
       description: "Other answers (freeform)"
