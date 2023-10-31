@@ -731,19 +731,64 @@
     - id: resources_initially_learn_react_native_other
       template: others
       description: "Other answers (freeform)"
-
+    - id: resources_read_multiple
+      template: multiple
+      description: "What blogs, magazines or newsletters do you consult to keep up with React Native news? Check all that apply"
+      options:
+        - id: resources_read_multiple_react_native_blog
+        - id: resources_read_multiple_medium
+        - id: resources_read_multiple_dev_to
+        - id: resources_read_multiple_kent_c_dodds
+        - id: resources_read_multiple_log_rocket
+        - id: resources_read_multiple_expo_blog
+        - id: resources_read_multiple_software_mansion_blog
+        - id: resources_read_multiple_callstack_blog
+        - id: resources_read_multiple_microsof_react_native_blog
+        - id: resources_read_multiple_this_week_in_react
+        - id: resources_read_multiple_react_native_newsletter
+        - id: resources_read_multiple_other_blog_magazines_newsletters
     - id: resources_read
-      description: What blogs/magazines/etc. do you read? Write all that apply (freeform)
+      description: What blogs/magazines/etc not mentioned above do you read? Write all that apply (freeform)
+    - id: resources_course_multiple
+      template: multiple
+      description: What sites/courses/etc. do you consult? Check all that apply (freeform)
+      options:
+        - id: resources_course_multiple_stack_overflow
+        - id: resources_course_multiple_udemy
+        - id: resources_course_multiple_medium
+        - id: resources_course_twitter
+        - id: resources_course_multiple_reddit
+        - id: resources_course_multiple_youtube
+        - id: resources_course_react_native_docs
+        - id: resources_course_expo_docs
+        - id: resources_course_multiple_codecademy
+        - id: resources_course_multiple_egghead
+        - id: resources_course_multiple_frontend_masters
+        - id: resources_course_multiple_start_react_native
+        - id: resources_course_multiple_developer_training
+        - id: resources_course_multiple_epic_react
+        - id: resources_course_multiple_animate_react_native
+        - id: resources_course_multiple_other_courses_sites
     - id: resources_course
       description: What sites/courses/etc. do you consult? Write all that apply (freeform)
+    - id: resources_podcast_multiple
+      template: multiple
+      description: What React Native or general programming-related podcasts do you listen to? Check all that apply
+      options:
+        - id: resources_podcast_multiple_react_native_show_callstack
+        - id: resources_podcast_multiple_react_native_radio
+        - id: resources_podcast_multiple_syntax_fm
+        - id: resources_podcast_multiple_the_changelog
+        - id: resources_podcast_multiple_podrocker
+        - id: resources_podcast_multiple_other_podcasts
     - id: resources_podcast
       description: What programming-related podcasts do you listen to? Write all that apply (freeform)
     - id: resources_video
       description: Video creators you follow on video-centric platforms such as YouTube, Twitch, TikTok, etc. Write all that apply (freeform)
     - id: resources_people
       description: People you read, follow, or just want to highlight for their work. Write all that apply (freeform)
-    - id: resources_communities
-      description: Online communities you actively participate in, such as Slack workspaces, Discord servers, Reddit topics, etc.. Write all that apply (freeform)
+    # - id: resources_communities
+    #   description: Online communities you actively participate in, such as Slack workspaces, Discord servers, Reddit topics, etc.. Write all that apply (freeform)
 
     - id: resources_surveys
       template: multiple
