@@ -483,7 +483,7 @@
     - id: react_native_app_aspects_testing_other
       template: others
       description: "Other answers (freeform)"
-    
+
     - id: react_native_app_aspects_other_libraries
       description: Check all that apply
       options:
@@ -818,14 +818,79 @@
     - id: opinions_right_direction
     - id: opinions_complex
     - id: opinions_changing_too_fast
+    - id: opinions_pain_points_multiple
+      template: multiple
+      description: What are the things that makes you feel annoyed while developing React Native apps? Check all that apply
+      options:
+        - id: opinions_pain_points_multiple_app_deployment
+        - id: opinions_pain_points_multiple_app_building
+        - id: opinions_pain_points_multiple_dealing_with_native_code
+        - id: opinions_pain_points_multiple_debugging
+        - id: opinions_pain_points_multiple_documentation
+        - id: opinions_pain_points_multiple_unusable_error_messages
+        - id: opinions_pain_points_multiple_graphics_and_animations
+        - id: opinions_pain_points_multiple_keyboard_handling
+        - id: opinions_pain_points_multiple_navigation_solutions
+        - id: opinions_pain_points_multiple_new_architecture
+        - id: opinions_pain_points_multiple_performance
+        - id: opinions_pain_points_multiple_platforms_inconsistencies
+        - id: opinions_pain_points_multiple_project_setup
+        - id: opinions_pain_points_multiple_reliance_on_third_party_modules
+        - id: opinions_pain_points_multiple_stability
+        - id: opinions_pain_points_multiple_styling_limitations
+        - id: opinions_pain_points_multiple_unmaintained_packages
+        - id: opinions_pain_points_multiple_upgrades
+        - id: opinions_pain_points_multiple_other_pain_points
     - id: opinions_pain_points
       template: others
       description: Write anything that makes you feel annoyed while developing React Native apps (freeform)
 
+    - id: opinions_missing_multiple
+      template: multiple
+      description: What do you feel currently is missing from React Native? Check all that apply
+      options:
+        - id: opinions_missing_multiple_android_shadows
+        - id: opinions_missing_multiple_better_animations_gestures
+        - id: opinions_missing_multiple_better_debugging
+        - id: opinions_missing_multiple_better_profiling
+        - id: opinions_missing_multiple_better_documentation
+        - id: opinions_missing_multiple_better_flatlist
+        - id: opinions_missing_multiple_better_keyboard_handling
+        - id: opinions_missing_multiple_better_performance
+        - id: opinions_missing_multiple_better_testing
+        - id: opinions_missing_multiple_better_web_compatibility
+        - id: opinions_missing_multiple_css_features
+        - id: opinions_missing_multiple_first_party_libraries
+        - id: opinions_missing_multiple_multithreading
+        - id: opinions_missing_multiple_swiftui_jetpack_compose_integration
+        - id: opinions_missing_multiple_other_missing_features
     - id: opinions_missing
       template: others
       description: What do you feel currently is missing from React Native? Write all that apply (freeform)
 
+    - id: opinions_advantages_multiple
+      template: multiple
+      description: What are advantages of React Native over other solutions? Check all that apply
+      options:
+        - id: opinions_advantages_multiple_code_sharing
+        - id: opinions_advantages_multiple_community
+        - id: opinions_advantages_multiple_cost_effective
+        - id: opinions_advantages_multiple_cross_platform
+        - id: opinions_advantages_multiple_developer_experience
+        - id: opinions_advantages_multiple_documentation
+        - id: opinions_advantages_multiple_easy_to_learn
+        - id: opinions_advantages_multiple_ecosystem
+        - id: opinions_advantages_multiple_expo
+        - id: opinions_advantages_multiple_fast_iteration
+        - id: opinions_advantages_multiple_hot_reloading
+        - id: opinions_advantages_multiple_native_feel_of_app
+        - id: opinions_advantages_multiple_over_the_air_updates
+        - id: opinions_advantages_multiple_performance
+        - id: opinions_advantages_multiple_single_codebase
+        - id: opinions_advantages_multiple_stable
+        - id: opinions_advantages_multiple_time_to_market
+        - id: opinions_advantages_multiple_web_technologies
+        - id: opinions_advantages_multiple_other_advantages
     - id: opinions_advantages
       template: others
       description: What are advantages of React Native over other solutions? Write all that apply (freeform)
