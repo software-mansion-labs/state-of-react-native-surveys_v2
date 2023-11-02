@@ -1,0 +1,82 @@
+{
+  "dataAPI": {
+    "survey": {
+      "animations_threejs": {
+        "id": "animations_threejs",
+        "entity": {
+          "name": "Three.js",
+          "homepage": {
+            "url": "https://threejs.org/"
+          },
+          "description": "JavaScript 3D Library.",
+          "github": {
+            "url": "https://github.com/mrdoob/three.js/"
+          },
+          "npm": {
+            "url": "https://www.npmjs.com/package/three"
+          }
+        },
+        "experience": {
+          "comments": [
+            "Feels hard to integrate in react native, tried some time ago and it needed specific versions and a expo-three afdon library that was not very up to date",
+            "Afaik Three.js is not directly supported by React-Native, and you have to use React-Three-Fiber 8 for RN support?",
+            "Not in scope of RN"
+          ],
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 1886,
+                "count": 1356,
+                "percentage_survey": 71.9
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 166,
+                      "percentage_survey": 8.9,
+                      "percentage_question": 12.3
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 20,
+                      "percentage_survey": 1.1,
+                      "percentage_question": 1.5
+                    },
+                    {
+                      "id": "interested",
+                      "count": 694,
+                      "percentage_survey": 36.8,
+                      "percentage_question": 51.2
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 196,
+                      "percentage_survey": 10.4,
+                      "percentage_question": 14.5
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 280,
+                      "percentage_survey": 14.9,
+                      "percentage_question": 20.7
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

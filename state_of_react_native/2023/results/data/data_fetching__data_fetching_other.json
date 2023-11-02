@@ -1,0 +1,143 @@
+{
+  "dataAPI": {
+    "survey": {
+      "data_fetching_other": {
+        "entity": {
+          "name": "Other data fetching"
+        },
+        "keys": [
+          "rtkquery",
+          "urql",
+          "firebase",
+          "ky",
+          "apisauce",
+          "wretch"
+        ],
+        "all_years": [
+          {
+            "year": 2022,
+            "completion": {
+              "total": 1886,
+              "count": 30,
+              "percentage_survey": 1.6
+            },
+            "facets": [
+              {
+                "completion": {
+                  "total": 1886,
+                  "count": 30,
+                  "percentage_survey": 1.6
+                },
+                "buckets": [
+                  {
+                    "id": "rtkquery",
+                    "count": 14,
+                    "percentage_question": 46.7,
+                    "percentage_survey": 0.8,
+                    "entity": {
+                      "name": "RTK Query",
+                      "homepage": {
+                        "url": "https://redux-toolkit.js.org/rtk-query/overview"
+                      },
+                      "github": {
+                        "url": "https://github.com/reduxjs/redux-toolkit"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/@reduxjs/toolkit"
+                      }
+                    }
+                  },
+                  {
+                    "id": "urql",
+                    "count": 4,
+                    "percentage_question": 13.4,
+                    "percentage_survey": 0.3,
+                    "entity": {
+                      "name": "URQL",
+                      "homepage": {
+                        "url": "https://formidable.com/open-source/urql/"
+                      },
+                      "description": "The highly customizable and versatile GraphQL client with which you add on features like normalized caching as you grow.",
+                      "github": {
+                        "url": "https://github.com/urql-graphql/urql"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/urql"
+                      }
+                    }
+                  },
+                  {
+                    "id": "firebase",
+                    "count": 4,
+                    "percentage_question": 13.4,
+                    "percentage_survey": 0.3,
+                    "entity": {
+                      "name": "Firebase",
+                      "homepage": {
+                        "url": "https://firebase.google.com/"
+                      }
+                    }
+                  },
+                  {
+                    "id": "ky",
+                    "count": 3,
+                    "percentage_question": 10,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "Ky",
+                      "homepage": {
+                        "url": "https://github.com/sindresorhus/ky"
+                      },
+                      "description": "Tiny & elegant HTTP client based on window.fetch",
+                      "github": {
+                        "url": "sindresorhus/ky"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/ky"
+                      }
+                    }
+                  },
+                  {
+                    "id": "apisauce",
+                    "count": 3,
+                    "percentage_question": 10,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "Apisauce",
+                      "description": "Axios + standardized errors + request/response transforms.",
+                      "github": {
+                        "url": "https://github.com/infinitered/apisauce"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/apisauce"
+                      }
+                    }
+                  },
+                  {
+                    "id": "wretch",
+                    "count": 2,
+                    "percentage_question": 6.7,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "Wretch",
+                      "homepage": {
+                        "url": "https://elbywan.github.io/wretch/"
+                      },
+                      "description": "A tiny wrapper built around fetch with an intuitive syntax. 🍬",
+                      "github": {
+                        "url": "https://github.com/elbywan/wretch"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/wretch"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

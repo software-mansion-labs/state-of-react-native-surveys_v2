@@ -1,0 +1,67 @@
+{
+  "dataAPI": {
+    "survey": {
+      "about_you_education_degree": {
+        "entity": {
+          "name": "Higher education degree"
+        },
+        "keys": [
+          "about_you_education_degree_no",
+          "about_you_education_degree_yes_related",
+          "about_you_education_degree_yes_unrelated"
+        ],
+        "all_years": [
+          {
+            "year": 2022,
+            "completion": {
+              "total": 1886,
+              "count": 1233,
+              "percentage_survey": 65.4
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 1886,
+                  "percentage_survey": 65.4,
+                  "percentage_question": 100,
+                  "count": 1233
+                },
+                "buckets": [
+                  {
+                    "id": "about_you_education_degree_no",
+                    "count": 200,
+                    "percentage_question": 16.3,
+                    "percentage_survey": 10.7,
+                    "entity": {
+                      "name": "No"
+                    }
+                  },
+                  {
+                    "id": "about_you_education_degree_yes_related",
+                    "count": 834,
+                    "percentage_question": 67.7,
+                    "percentage_survey": 44.3,
+                    "entity": {
+                      "name": "Yes, related to my profession"
+                    }
+                  },
+                  {
+                    "id": "about_you_education_degree_yes_unrelated",
+                    "count": 199,
+                    "percentage_question": 16.2,
+                    "percentage_survey": 10.6,
+                    "entity": {
+                      "name": "Yes, unrelated to my profession"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

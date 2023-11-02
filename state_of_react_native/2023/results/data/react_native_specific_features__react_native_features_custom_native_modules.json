@@ -1,0 +1,74 @@
+{
+  "dataAPI": {
+    "survey": {
+      "react_native_features_custom_native_modules": {
+        "id": "react_native_features_custom_native_modules",
+        "entity": {
+          "name": "Custom native modules",
+          "homepage": {
+            "url": "https://reactnative.dev/docs/native-modules-intro"
+          }
+        },
+        "experience": {
+          "comments": [
+            "Would like it to be easier tbh",
+            "Feels better if you have a native app background "
+          ],
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 1886,
+                "count": 1308,
+                "percentage_survey": 69.4
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 477,
+                      "percentage_survey": 25.3,
+                      "percentage_question": 36.5
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 20,
+                      "percentage_survey": 1.1,
+                      "percentage_question": 1.6
+                    },
+                    {
+                      "id": "interested",
+                      "count": 577,
+                      "percentage_survey": 30.6,
+                      "percentage_question": 44.2
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 48,
+                      "percentage_survey": 2.6,
+                      "percentage_question": 3.7
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 186,
+                      "percentage_survey": 9.9,
+                      "percentage_question": 14.3
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

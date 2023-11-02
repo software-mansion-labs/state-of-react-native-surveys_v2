@@ -1,0 +1,107 @@
+{
+  "dataAPI": {
+    "survey": {
+      "react_native_features_mobile_web_code_sharing": {
+        "entity": {
+          "name": "Code sharing"
+        },
+        "keys": [
+          "react_native_features_mobile_web_code_sharing_react_native_web",
+          "react_native_features_mobile_web_code_sharing_solito",
+          "react_native_features_mobile_web_code_sharing_webview",
+          "react_native_features_mobile_web_code_sharing_common_logic_independent_ui",
+          "react_native_features_mobile_web_code_sharing_independent_projects"
+        ],
+        "all_years": [
+          {
+            "year": 2022,
+            "completion": {
+              "total": 1886,
+              "count": 807,
+              "percentage_survey": 42.8
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 1886,
+                  "percentage_survey": 59.3,
+                  "percentage_question": 138.5,
+                  "count": 1117
+                },
+                "buckets": [
+                  {
+                    "id": "react_native_features_mobile_web_code_sharing_react_native_web",
+                    "count": 355,
+                    "percentage_question": 44,
+                    "percentage_survey": 18.9,
+                    "entity": {
+                      "name": "React Native Web",
+                      "homepage": {
+                        "url": "https://necolas.github.io/react-native-web/"
+                      },
+                      "description": "React Native for Web",
+                      "github": {
+                        "url": "https://github.com/necolas/react-native-web"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/react-native-web"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_features_mobile_web_code_sharing_solito",
+                    "count": 67,
+                    "percentage_question": 8.4,
+                    "percentage_survey": 3.6,
+                    "entity": {
+                      "name": "Solito",
+                      "homepage": {
+                        "url": "https://solito.dev/"
+                      },
+                      "description": "🧍‍♂️ React Native + Next.js, unified.",
+                      "github": {
+                        "url": "https://github.com/nandorojo/solito"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/solito"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_features_mobile_web_code_sharing_webview",
+                    "count": 159,
+                    "percentage_question": 19.8,
+                    "percentage_survey": 8.5,
+                    "entity": {
+                      "name": "React Native WebView running mobile version of a website"
+                    }
+                  },
+                  {
+                    "id": "react_native_features_mobile_web_code_sharing_common_logic_independent_ui",
+                    "count": 251,
+                    "percentage_question": 31.2,
+                    "percentage_survey": 13.4,
+                    "entity": {
+                      "name": "Common business logic, independent UI components"
+                    }
+                  },
+                  {
+                    "id": "react_native_features_mobile_web_code_sharing_independent_projects",
+                    "count": 285,
+                    "percentage_question": 35.4,
+                    "percentage_survey": 15.2,
+                    "entity": {
+                      "name": "Independent projects"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

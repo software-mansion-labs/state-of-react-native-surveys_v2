@@ -1,0 +1,77 @@
+{
+  "dataAPI": {
+    "survey": {
+      "about_you_gender": {
+        "entity": {
+          "name": "Your gender"
+        },
+        "keys": [
+          "about_you_gender_female",
+          "about_you_gender_male",
+          "about_you_gender_non_binary",
+          "about_you_gender_not_listed"
+        ],
+        "all_years": [
+          {
+            "year": 2022,
+            "completion": {
+              "total": 1886,
+              "count": 1229,
+              "percentage_survey": 65.2
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 1886,
+                  "percentage_survey": 65.2,
+                  "percentage_question": 100,
+                  "count": 1229
+                },
+                "buckets": [
+                  {
+                    "id": "about_you_gender_female",
+                    "count": 24,
+                    "percentage_question": 2,
+                    "percentage_survey": 1.3,
+                    "entity": {
+                      "name": "Female"
+                    }
+                  },
+                  {
+                    "id": "about_you_gender_male",
+                    "count": 1191,
+                    "percentage_question": 97,
+                    "percentage_survey": 63.2,
+                    "entity": {
+                      "name": "Male"
+                    }
+                  },
+                  {
+                    "id": "about_you_gender_non_binary",
+                    "count": 7,
+                    "percentage_question": 0.6,
+                    "percentage_survey": 0.4,
+                    "entity": {
+                      "name": "Non-Binary or Gender Non-Conforming"
+                    }
+                  },
+                  {
+                    "id": "about_you_gender_not_listed",
+                    "count": 7,
+                    "percentage_question": 0.6,
+                    "percentage_survey": 0.4,
+                    "entity": {
+                      "name": "Not listed"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

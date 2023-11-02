@@ -1,0 +1,79 @@
+{
+  "dataAPI": {
+    "survey": {
+      "deployment_manually_xcode": {
+        "id": "deployment_manually_xcode",
+        "entity": {
+          "name": "Manually with Xcode",
+          "homepage": {
+            "url": "https://developer.apple.com/xcode/"
+          }
+        },
+        "experience": {
+          "comments": [
+            "Works fine for building locally like any Native app but CI is king for deployments",
+            "More of default solution, until I learn a better way.",
+            "I will use it again but it's super ****.",
+            "On an early-stage project, sometimes this is the easiest",
+            "I just prefer automated deployment ",
+            "I would rather not, but I don't feel like I really have the choice",
+            "Only because I'm hamstrung to use it. I hate xcode with a passion"
+          ],
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 1886,
+                "count": 1258,
+                "percentage_survey": 66.8
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 547,
+                      "percentage_survey": 29.1,
+                      "percentage_question": 43.5
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 360,
+                      "percentage_survey": 19.1,
+                      "percentage_question": 28.7
+                    },
+                    {
+                      "id": "interested",
+                      "count": 89,
+                      "percentage_survey": 4.8,
+                      "percentage_question": 7.1
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 207,
+                      "percentage_survey": 11,
+                      "percentage_question": 16.5
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 55,
+                      "percentage_survey": 3,
+                      "percentage_question": 4.4
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

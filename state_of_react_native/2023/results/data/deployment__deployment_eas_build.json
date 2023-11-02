@@ -1,0 +1,73 @@
+{
+  "dataAPI": {
+    "survey": {
+      "deployment_eas_build": {
+        "id": "deployment_eas_build",
+        "entity": {
+          "name": "EAS Build",
+          "homepage": {
+            "url": "https://expo.dev/eas"
+          }
+        },
+        "experience": {
+          "comments": [
+            "EAS Build isn't specifically for submitting/deploying. Maybe this question could be rephrased to reiterate that it's for building and submission?"
+          ],
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 1886,
+                "count": 1257,
+                "percentage_survey": 66.7
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 482,
+                      "percentage_survey": 25.6,
+                      "percentage_question": 38.4
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 26,
+                      "percentage_survey": 1.4,
+                      "percentage_question": 2.1
+                    },
+                    {
+                      "id": "interested",
+                      "count": 338,
+                      "percentage_survey": 18,
+                      "percentage_question": 26.9
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 113,
+                      "percentage_survey": 6,
+                      "percentage_question": 9
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 298,
+                      "percentage_survey": 15.9,
+                      "percentage_question": 23.8
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "dataAPI": {
+    "survey": {
+      "tools_eas_cli": {
+        "id": "tools_eas_cli",
+        "entity": {
+          "name": "EAS CLI",
+          "homepage": {
+            "url": "https://docs.expo.dev/eas/"
+          },
+          "description": "Fastest way to build, submit, and update iOS and Android apps",
+          "github": {
+            "url": "https://github.com/expo/eas-cli"
+          },
+          "npm": {
+            "url": "https://www.npmjs.com/package/eas-cli"
+          }
+        },
+        "experience": {
+          "comments": [
+            "eas cli and expo cli has very confused",
+            "The differences between the EAS CLI and the Expo CLI and when to use each has been a source of confusion for a lot of people on my team"
+          ],
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 1886,
+                "count": 1255,
+                "percentage_survey": 66.6
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 530,
+                      "percentage_survey": 28.2,
+                      "percentage_question": 42.3
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 29,
+                      "percentage_survey": 1.6,
+                      "percentage_question": 2.4
+                    },
+                    {
+                      "id": "interested",
+                      "count": 237,
+                      "percentage_survey": 12.6,
+                      "percentage_question": 18.9
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 113,
+                      "percentage_survey": 6,
+                      "percentage_question": 9.1
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 346,
+                      "percentage_survey": 18.4,
+                      "percentage_question": 27.6
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

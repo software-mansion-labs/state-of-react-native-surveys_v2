@@ -1,0 +1,75 @@
+{
+  "dataAPI": {
+    "survey": {
+      "deployment_app_center": {
+        "id": "deployment_app_center",
+        "entity": {
+          "name": "App Center",
+          "homepage": {
+            "url": "https://appcenter.ms/"
+          }
+        },
+        "experience": {
+          "comments": [
+            "For Testing Apps",
+            "Only for storing staging releases, not for deploying",
+            "Not using it for deployments. Yes for crashes, CodePush and analytics. "
+          ],
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 1886,
+                "count": 1260,
+                "percentage_survey": 66.9
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 421,
+                      "percentage_survey": 22.4,
+                      "percentage_question": 33.5
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 115,
+                      "percentage_survey": 6.1,
+                      "percentage_question": 9.2
+                    },
+                    {
+                      "id": "interested",
+                      "count": 238,
+                      "percentage_survey": 12.7,
+                      "percentage_question": 18.9
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 203,
+                      "percentage_survey": 10.8,
+                      "percentage_question": 16.2
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 283,
+                      "percentage_survey": 15.1,
+                      "percentage_question": 22.5
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "dataAPI": {
+    "survey": {
+      "styling_techniques_other": {
+        "entity": {
+          "name": "Other styling techniques"
+        },
+        "keys": [
+          "emotion",
+          "nativebase",
+          "styled_components",
+          "rxn_grife",
+          "dripsy",
+          "tailwind_react_native_classnames"
+        ],
+        "all_years": [
+          {
+            "year": 2022,
+            "completion": {
+              "total": 1886,
+              "count": 25,
+              "percentage_survey": 1.4
+            },
+            "facets": [
+              {
+                "completion": {
+                  "total": 1886,
+                  "count": 25,
+                  "percentage_survey": 1.4
+                },
+                "buckets": [
+                  {
+                    "id": "emotion",
+                    "count": 8,
+                    "percentage_question": 32,
+                    "percentage_survey": 0.5,
+                    "entity": {
+                      "name": "Emotion",
+                      "homepage": {
+                        "url": "https://emotion.sh/"
+                      },
+                      "description": "CSS-in-JS library designed for high performance style composition",
+                      "github": {
+                        "url": "emotion-js/emotion"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/emotion"
+                      }
+                    }
+                  },
+                  {
+                    "id": "nativebase",
+                    "count": 6,
+                    "percentage_question": 24,
+                    "percentage_survey": 0.4,
+                    "entity": {
+                      "name": "NativeBase",
+                      "homepage": {
+                        "url": "https://nativebase.io/"
+                      },
+                      "description": "Mobile-first, accessible components for React Native & Web to build consistent UI across Android, iOS and Web.",
+                      "github": {
+                        "url": "https://github.com/GeekyAnts/nativebase"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/native-base"
+                      }
+                    }
+                  },
+                  {
+                    "id": "styled_components",
+                    "count": 3,
+                    "percentage_question": 12,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "Styled Components",
+                      "homepage": {
+                        "url": "https://styled-components.com"
+                      },
+                      "description": "Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress",
+                      "github": {
+                        "url": "styled-components/styled-components"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/styled-components"
+                      }
+                    }
+                  },
+                  {
+                    "id": "rxn_grife",
+                    "count": 3,
+                    "percentage_question": 12,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "rxn-grife",
+                      "github": {
+                        "url": "https://github.com/Luffos/rxn-grife"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/rxn-grife"
+                      }
+                    }
+                  },
+                  {
+                    "id": "dripsy",
+                    "count": 3,
+                    "percentage_question": 12,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "Dripsy",
+                      "homepage": {
+                        "url": "https://www.dripsy.xyz/"
+                      },
+                      "description": "🍷 Responsive, unstyled UI primitives for React Native + Web.",
+                      "github": {
+                        "url": "https://github.com/nandorojo/dripsy"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/dripsy"
+                      }
+                    }
+                  },
+                  {
+                    "id": "tailwind_react_native_classnames",
+                    "count": 2,
+                    "percentage_question": 8,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "react-native-tailwind-classnames"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
