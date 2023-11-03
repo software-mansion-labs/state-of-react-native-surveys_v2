@@ -82,7 +82,7 @@
 
     - id: developer_background_contribution_to_rn
       template: yes_or_no
-      description: Have you contributed to React Native in 2023 (commits/PRs)?
+      description: Have you contributed to React Native upstream in 2023 (commits/PRs)?
 
     - id: developer_background_contribution_to_lib
       template: yes_or_no
@@ -208,17 +208,21 @@
   template: tool
   slug: state_management
   questions:
-    - id: state_management_rn_built_in
-    - id: state_management_jotai
-    - id: state_management_zustand
-    - id: state_management_redux
-    - id: state_management_recoil
     - id: state_management_apollo
-    - id: state_management_react_query
+    - id: state_management_jotai
     - id: state_management_mobx
+      year: 2023
     - id: state_management_mobx_state_tree
-    - id: state_management_xstate
+      year: 2023
+    - id: state_management_rn_built_in
+    - id: state_management_recoil
+    - id: state_management_redux
     - id: state_management_redux_toolkit
+      year: 2023
+    - id: state_management_react_query
+    - id: state_management_xstate
+      year: 2023
+    - id: state_management_zustand
     # - id: state_management_legend_state
     # - id: state_management_react_easy_state
     - id: state_management_other
@@ -244,6 +248,7 @@
     - id: data_fetching_swr
     - id: data_fetching_relay
     - id: data_fetching_rtk_query
+      year: 2023
     - id: data_fetching_other
       template: others
       description: "Other answers (freeform)"
@@ -259,16 +264,12 @@
   template: tool
   slug: navigation
   questions:
-    - id: navigation_react_navigation
-      description: "By Expo, Software Mansion and Callstack"
-    - id: navigation_react_native_navigation
-      description: "by Wix"
-    - id: navigation_react_router
-      description: "by Remix"
     - id: navigation_expo_router
-      description: "by Expo"
     - id: navigation_navigation
-      description: "by Graham Mendick"
+    - id: navigation_react_native_navigation
+    - id: navigation_react_navigation
+    - id: navigation_react_router
+    - id: navigation_other
     - id: navigation_other
       template: others
       description: "Other answers (freeform)"
@@ -284,30 +285,27 @@
   template: tool
   slug: styling
   questions:
-    - id: styling_techniques_style_sheet
-    - id: styling_techniques_nativewind
-      description: "by Mark Lawlor"
-    - id: styling_techniques_tailwind_rn
-      description: "by Vadim Demedes"
-    - id: styling_techniques_styled_components
-    - id: styling_techniques_tamagui
-      description: "by Nate Wienert"
-    - id: styling_techniques_restyle
-      description: "by Shopify"
     - id: styling_techniques_dripsy
-      description: "by Fernando Rojo"
-    - id: styling_techniques_inline
-    - id: styling_techniques_react_native_unistyles
-      description: "by Jacek Pudysz"
+      year: 2023
     - id: styling_techniques_emotion
-    - id: styling_techniques_zephyr
-      description: "by Formidable"
-    - id: styling_techniques_gluestack_styles
-      description: "by Gluestack"
+      year: 2023
     - id: styling_techniques_fast_styles
-      description: "by Fede Martin"
+      year: 2023
+    - id: styling_techniques_gluestack_styles
+      year: 2023
+    - id: styling_techniques_inline
+    - id: styling_techniques_nativewind
+    - id: styling_techniques_react_native_unistyles
+      year: 2023
+    - id: styling_techniques_restyle
+    - id: styling_techniques_styled_components
+    - id: styling_techniques_style_sheet
+    - id: styling_techniques_tailwind_rn
     - id: styling_techniques_twrnc
-      description: "by Jared Henderson"
+      year: 2023
+    - id: styling_techniques_tamagui
+    - id: styling_techniques_zephyr
+      year: 2023
     - id: styling_techniques_other
       template: others
       description: "Other answers (freeform)"
@@ -323,24 +321,18 @@
   template: tool
   slug: component_libraries
   questions:
-    - id: component_libraries_rn_paper
-      description: "by Callstack"
-    - id: component_libraries_ui_kitten
-      description: "by Akveo"
-    - id: component_libraries_rn_elements
-    - id: component_libraries_react_native_material_ui
-      description: "by Jiří Otáhal"
-    - id: component_libraries_native_base
-      description: "by GeekyAnts"
-    - id: component_libraries_rn_ui_lib
-      description: "by Wix"
-    - id: component_libraries_shoutem_ui
     - id: component_libraries_gluestack_ui
-      description: "by Gluestack"
-    - id: component_libraries_tamagui
-      description: "by Nate Wienert"
+      year: 2023
+    - id: component_libraries_native_base
+    - id: component_libraries_rn_elements
     - id: component_libraries_react_native_material_kit
-      description: "by Jeremy Hamilton"
+    - id: component_libraries_react_native_material_ui
+    - id: component_libraries_rn_paper
+    - id: component_libraries_rn_ui_lib
+    - id: component_libraries_shoutem_ui
+    - id: component_libraries_ui_kitten
+    - id: component_libraries_tamagui
+      year: 2023
     - id: component_libraries_other
       template: others
       description: "Other answers (freeform)"
@@ -357,19 +349,16 @@
   slug: animations
   questions:
     - id: animations_animated_api
-    - id: animations_react_native_reanimated
-      description: "by Software Mansion"
-    - id: animations_moti
-      description: "by Fernando Rojo"
-    - id: animations_skia
-      description: "by Shopify"
-    - id: animations_react_native_animatable
-      description: "by Joel Arvidsson"
-    - id: animations_threejs
-    - id: animations_react_three_fiber
-    - id: animations_lottie
     - id: animations_expo_gl
+    - id: animations_lottie
+    - id: animations_moti
+    - id: animations_react_native_animatable
+    - id: animations_react_native_reanimated
+    - id: animations_skia
+    - id: animations_react_three_fiber
     - id: animations_rive
+      year: 2023
+    - id: animations_threejs
     # - id: animations_legend_motion
     - id: animations_other
       template: others
@@ -533,6 +522,7 @@
 
     - id: react_native_features_new_architecture
     - id: react_native_features_fabric
+    - id: react_native_bridgeless_mode
     - id: react_native_features_codegen
     - id: react_native_features_custom_native_modules
     - id: react_native_features_turbo_modules
@@ -797,6 +787,7 @@
       options:
         - id: resources_surveys_state_of_js
         - id: resources_surveys_state_of_css
+        - id: resources_surveys_state_of_react
         - id: resources_surveys_state_of_graphql
         - id: resources_surveys_jetbrains
         - id: resources_surveys_stack_overflow
