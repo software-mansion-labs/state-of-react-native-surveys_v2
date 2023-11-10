@@ -265,10 +265,12 @@
   slug: navigation
   questions:
     - id: navigation_expo_router
-    - id: navigation_navigation
     - id: navigation_react_native_navigation
     - id: navigation_react_navigation
     - id: navigation_react_router
+    - id: navigation_solito
+      year: 2023
+    - id: navigation_navigation
     - id: navigation_other
     - id: navigation_other
       template: others
@@ -446,9 +448,10 @@
       year: 2023
       description: Check all that apply
       options:
-        - id: react_native_app_aspects_other_libraries_gorhom_bottom_sheet
-        - id: react_native_app_aspects_other_libraries_expo_image
         - id: react_native_app_aspects_other_libraries_expo_vector_icons
+        - id: react_native_app_aspects_other_libraries_gorhom_bottom_sheet
+        - id: react_native_app_aspects_other_libraries_shopify_flash_list
+        - id: react_native_app_aspects_other_libraries_expo_image
         - id: react_native_app_aspects_other_libraries_react_native_i18next
         - id: react_native_app_aspects_other_libraries_react_native_camera
         - id: react_native_app_aspects_other_libraries_react_native_fast_image
@@ -457,11 +460,14 @@
         - id: react_native_app_aspects_other_libraries_react_native_maps
         - id: react_native_app_aspects_other_libraries_react_native_safe_area_context
         - id: react_native_app_aspects_other_libraries_react_native_webview
+        - id: react_native_app_aspects_other_libraries_react-native-vector-icons
         - id: react_native_app_aspects_other_libraries_react_native_vision_camera
-        - id: react_native_app_aspects_other_libraries_shopify_flash_list
     - id: react_native_app_aspects_other_libraries_other
       template: others
       description: "Other answers (freeform)"
+    - id: react_native_app_aspects_architecture_local_first
+      year: 2023
+      template: tool
 
 ######################################################
 #########             FEATURES               #########
@@ -500,10 +506,10 @@
     - id: react_native_features_jsi
     - id: react_native_features_hermes_runtime
     - id: react_native_features_react_native_directory
+      year: 2023
     - id: react_native_features_new_architecture
     - id: react_native_features_turbo_modules
     - id: react_native_features_v8_runtime
-      year: 2023
 
     - id: react_native_features_debugging
       template: multiple
@@ -574,6 +580,7 @@
   slug: deployment
   questions:
     - id: deployment_app_center
+    - id: deployment_bitrise
     - id: deployment_eas_build
     - id: deployment_eas_submit
     - id: deployment_fastlane
@@ -598,30 +605,40 @@
     - id: tools_package_managers
       template: multiple
       options:
+        - id: tools_package_managers_bun
+          year: 2023
         - id: tools_package_managers_npm
+        - id: tools_package_managers_pnpm
         - id: tools_package_managers_yarn
         - id: tools_package_managers_yarn_berry
-        - id: tools_package_managers_pnpm
 
     - id: tools_starter_templates
       template: multiple
       options:
         - id: tools_starter_templates_expo
         - id: tools_starter_templates_create_react_native_app
+        - id: tools_starter_templates_solito
         - id: tools_starter_templates_create_t3_turbo
         - id: tools_starter_templates_ignite_cli
         - id: tools_starter_templates_react_native_cli
+        - id: tools_starter_templates_react-native-template-obytes
+        - id: tools_starter_tamagui
     - id: tools_starter_templates_other
       template: others
       description: "Other answers (freeform)"
 
     - id: tools_config_plugins
       year: 2023
+    - id: tools_custom_development_client
+      year: 2023
     - id: tools_eas_cli
     - id: tools_expo_cli
+    - id: tools_expo_go
+      year: 2023
     - id: tools_expo_snack
     - id: tools_ignite_cli
     - id: tools_react_native_cli
+    - id: tools_react_native_test_app
     - id: tools_rnx_kit
     - id: tools_upgrade_helper
       year: 2023
@@ -717,7 +734,7 @@
       description: What other blogs, magazines or newsletters not listed above do you read? Write all that apply (freeform)
     - id: resources_course_multiple
       template: multiple
-      description: What sites or courses do you consult to learn React Native? Check all that apply
+      description: What sites, courses or books do you consult to learn React Native? Check all that apply
       options:
         - id: resources_course_multiple_animate_react_native
         - id: resources_course_multiple_codecademy
@@ -731,11 +748,13 @@
         - id: resources_course_multiple_reddit
         - id: resources_course_multiple_stack_overflow
         - id: resources_course_multiple_start_react_native
+        - id: resources_course_multiple_solito_docs
         - id: resources_course_multiple_udemy
+        - id: resources_course_multiple_book_react_native_optimization
         - id: resources_course_twitter
         - id: resources_course_multiple_youtube
     - id: resources_course
-      description: What other sites or courses not listed above do you consult to learn React Native? Write all that apply (freeform)
+      description: What other sites, courses or book not listed above do you consult to learn React Native? Write all that apply (freeform)
     - id: resources_podcast_multiple
       template: multiple
       description: What React Native or general programming-related podcasts do you listen to? Check all that apply
@@ -743,6 +762,7 @@
         - id: resources_podcast_multiple_podrocker
         - id: resources_podcast_multiple_react_native_radio
         - id: resources_podcast_multiple_react_native_show_callstack
+        - id: resources_podcast_multiple_rocket_ship
         - id: resources_podcast_multiple_syntax_fm
         - id: resources_podcast_multiple_the_changelog
     - id: resources_podcast
@@ -789,21 +809,29 @@
       options:
         - id: opinions_pain_points_multiple_app_deployment
         - id: opinions_pain_points_multiple_app_building
+        - id: opinions_pain_points_multiple_build_times
+        - id: opinions_pain_points_multiple_bundle_size
+        - id: opinions_pain_points_multiple_continuous_deployment
         - id: opinions_pain_points_multiple_dealing_with_native_code
         - id: opinions_pain_points_multiple_debugging
         - id: opinions_pain_points_multiple_documentation
-        - id: opinions_pain_points_multiple_unusable_error_messages
+        - id: opinions_pain_points_multiple_end_to_end_testing
         - id: opinions_pain_points_multiple_graphics_and_animations
         - id: opinions_pain_points_multiple_keyboard_handling
+        - id: opinions_pain_points_multiple_managing_secrets
+        - id: opinions_pain_points_multiple_pain_monorepos
         - id: opinions_pain_points_multiple_navigation_solutions
         - id: opinions_pain_points_multiple_new_architecture
         - id: opinions_pain_points_multiple_performance
         - id: opinions_pain_points_multiple_platforms_inconsistencies
         - id: opinions_pain_points_multiple_project_setup
         - id: opinions_pain_points_multiple_reliance_on_third_party_modules
+        - id: opinions_pain_points_multiple_setting_up_servers
+        - id: opinions_pain_points_multiple_code_sharing_with_web
         - id: opinions_pain_points_multiple_stability
         - id: opinions_pain_points_multiple_styling_limitations
         - id: opinions_pain_points_multiple_unmaintained_packages
+        - id: opinions_pain_points_multiple_unusable_error_messages
         - id: opinions_pain_points_multiple_upgrades
     - id: opinions_pain_points
       template: others
@@ -825,6 +853,7 @@
         - id: opinions_missing_multiple_better_web_compatibility
         - id: opinions_missing_multiple_css_features
         - id: opinions_missing_multiple_first_party_libraries
+        - id: opinions_missing_multiple_fetch_stream_support
         - id: opinions_missing_multiple_multithreading
         - id: opinions_missing_multiple_swiftui_jetpack_compose_integration
         - id: opinions_missing_multiple_other_missing_features
