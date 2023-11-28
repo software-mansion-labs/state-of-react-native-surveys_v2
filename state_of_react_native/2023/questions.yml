@@ -110,32 +110,52 @@
       template: multiple
       description: Which industry sector(s) are you using React Native in? Check all that apply.
       options:
+        - id: developer_background_industry_sector.answer.aa
         - id: developer_background_industry_sector.answer.x
         - id: developer_background_industry_sector.answer.w
+        - id: developer_background_industry_sector.answer.bb
+        - id: developer_background_industry_sector.answer.cc
         - id: developer_background_industry_sector.answer.v
+        - id: developer_background_industry_sector.answer.dd
         - id: developer_background_industry_sector.answer.n
         - id: developer_background_industry_sector.answer.e
         - id: developer_background_industry_sector.answer.u
-        - id: developer_background_industry_sector.answer.a
+        - id: developer_background_industry_sector.answer.ee
+        # - id: developer_background_industry_sector.answer.a
         - id: developer_background_industry_sector.answer.i
         - id: developer_background_industry_sector.answer.q
         - id: developer_background_industry_sector.answer.l
+        - id: developer_background_industry_sector.answer.ff
         - id: developer_background_industry_sector.answer.d
+        - id: developer_background_industry_sector.answer.gg
         - id: developer_background_industry_sector.answer.k
-        - id: developer_background_industry_sector.answer.c
-        - id: developer_background_industry_sector.answer.t
+        - id: developer_background_industry_sector.answer.hh
+        - id: developer_background_industry_sector.answer.ii
+        - id: developer_background_industry_sector.answer.jj
+        # - id: developer_background_industry_sector.answer.c
+        # - id: developer_background_industry_sector.answer.t
         - id: developer_background_industry_sector.answer.o
         - id: developer_background_industry_sector.answer.p
+        - id: developer_background_industry_sector.answer.kk
         - id: developer_background_industry_sector.answer.z
         - id: developer_background_industry_sector.answer.h
+        - id: developer_background_industry_sector.answer.ll
+        - id: developer_background_industry_sector.answer.mm
+        - id: developer_background_industry_sector.answer.nn
         - id: developer_background_industry_sector.answer.b
         - id: developer_background_industry_sector.answer.f
+        - id: developer_background_industry_sector.answer.oo
+        - id: developer_background_industry_sector.answer.pp
         - id: developer_background_industry_sector.answer.j
+        - id: developer_background_industry_sector.answer.qq
         - id: developer_background_industry_sector.answer.g
+        - id: developer_background_industry_sector.answer.rr
         - id: developer_background_industry_sector.answer.s
-        - id: developer_background_industry_sector.answer.r
+        # - id: developer_background_industry_sector.answer.r
         - id: developer_background_industry_sector.answer.y
         - id: developer_background_industry_sector.answer.m
+        - id: developer_background_industry_sector.answer.ss
+        - id: developer_background_industry_sector.answer.tt
         - id: developer_background_industry_sector_other
     - id: developer_background_industry_sector_other
       sectionSlug: developer_background_industry_sector
@@ -370,6 +390,108 @@
       template: happiness
 
 ######################################################
+#########             DEBUGGING              #########
+######################################################
+
+- id: debugging_and_profiling
+  template: tool
+  slug: debugging_and_profiling
+  questions:
+    - id: debugging_and_profiling_debugging_tools
+      template: multiple
+      description: What tools do you use to debug your React Native apps? Check all that apply
+      options:
+        - id: debugging_and_profiling_debugging_tools_chrome_dev_tools_in_browser
+        - id: debugging_and_profiling_debugging_tools_chrome_dev_expo_hermes
+        - id: debugging_and_profiling_debugging_tools_console_log
+        - id: debugging_and_profiling_debugging_tools_flipper
+        - id: debugging_and_profiling_debugging_tools_new_debugger
+        - id: debugging_and_profiling_debugging_tools_reactotron
+        - id: debugging_and_profiling_debugging_tools_react_dev_tools
+        - id: debugging_and_profiling_debugging_tools_react_native_debugger
+        - id: debugging_and_profiling_debugging_tools_native_debugging
+    - id: debugging_and_profiling_debugging_tools_other
+      template: others
+      description: "Other answers (freeform)"
+    # - id: debugging_and_profiling_primary_debugging_tool
+    #   template: single
+    #   description: "What is the debugging tool you use the most? Pick one"
+    #   options:
+    #     - id: debugging_and_profiling_primary_debugging_tool_chrome_devtools_in_browser
+    #     - id: debugging_and_profiling_primary_debugging_tool_chrome_devtools_expo_hermes
+    #     - id: debugging_and_profiling_primary_debugging_tool_console_log
+    #     - id: debugging_and_profiling_primary_debugging_tool_flipper
+    #     - id: debugging_and_profiling_primary_debugging_tool_new_debugger
+    #     - id: debugging_and_profiling_primary_debugging_tool_reactotron
+    #     - id: debugging_and_profiling_primary_debugging_tool_react_dev_tools
+    #     - id: debugging_and_profiling_primary_debugging_tool_react_native_debugger
+    #     - id: debugging_and_profiling_primary_debugging_tool_native_debugging_xcode_android_studio
+    - id: debugging_and_profiling_problems_debugging_tools
+      template: multiple
+      description: What problems have you run into? Check all that apply
+      year: 2023
+      options:
+        - id: debugging_and_profiling_problems_debugging_tools_connecting_fliper
+        - id: debugging_and_profiling_problems_debugging_tools_connecting_expo_hermes_debugger
+        - id: debugging_and_profiling_problems_debugging_tools_connecting_new_debugger
+        - id: debugging_and_profiling_problems_debugging_tools_connecting_react_devtools
+        - id: debugging_and_profiling_problems_debugging_tools_native_debugging
+        - id: debugging_and_profiling_problems_debugging_tools_picking_right_tool
+        - id: debugging_and_profiling_problems_debugging_tools_unclear_docs
+        - id: debugging_and_profiling_problems_debugging_tools_no_issue
+    - id: debugging_and_profiling_problems_debugging_tools_other
+      template: others
+      description: "Other answers (freeform)"
+    - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools
+      template: multiple
+      description: "Which Chrome DevTools features do you use (across current React Native debugging tools and/or for web development)? Check all that apply"
+      year: 2023
+      options:
+        - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_console_logs
+        - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_console_executing_statements
+        - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_sources_breakpoint
+        - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_sources_editing_files
+        - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_performance_panel
+        - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_memory_panel
+        - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_network_panel
+        - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_web_only_react_devtools
+        - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_web_only_dom
+        - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_web_only_styles
+        - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_web_only_network_panel
+        - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_web_only_lighthouse
+        - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_web_only_recorder
+        - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_web_only_third_party_plugins
+    - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_other
+      template: others
+      description: "Other answers (freeform)"
+    - id: debugging_and_profiling_problems_javascript
+      template: multiple
+      description: What problems have you run into? Check all that apply
+      year: 2023
+      options:
+        - id: debugging_and_profiling_problems_javascript_breakpoint_not_working
+        - id: debugging_and_profiling_problems_javascript_sources_maps_not_working
+        - id: debugging_and_profiling_problems_javascript_debugger_disconnecting
+        - id: debugging_and_profiling_problems_javascript_crashes_debugger
+        - id: debugging_and_profiling_problems_javascript_crashes_application
+        - id: debugging_and_profiling_problems_javascript_no_issues
+    - id: debugging_and_profiling_problems_javascript_other
+      template: others
+      description: "Other answers (freeform)"
+    - id: debugging_and_profiling_profiling_tools
+      template: multiple
+      description: What tools do you use to profile React Native app performance? Check all that apply
+      options:
+        - id: debugging_and_profiling_profiling_tools_flipper
+        - id: debugging_and_profiling_profiling_tools_flipper_performance_plugin
+        - id: debugging_and_profiling_profiling_tools_react_native_performance
+        - id: debugging_and_profiling_profiling_tools_react_native_performance_monitor
+        - id: debugging_and_profiling_profiling_tools_performance_native
+    - id: debugging_and_profiling_profiling_tools_other
+      template: others
+      description: "Other answers (freeform)"
+
+######################################################
 #########              ASPECTS               #########
 ######################################################
 
@@ -461,6 +583,7 @@
         - id: react_native_app_aspects_other_libraries_react_native_safe_area_context
         - id: react_native_app_aspects_other_libraries_react_native_webview
         - id: react_native_app_aspects_other_libraries_react-native-vector-icons
+        - id: react_native_app_aspects_other_libraries_react_native_video
         - id: react_native_app_aspects_other_libraries_react_native_vision_camera
     - id: react_native_app_aspects_other_libraries_other
       template: others
@@ -511,33 +634,33 @@
     - id: react_native_features_turbo_modules
     - id: react_native_features_v8_runtime
 
-    - id: react_native_features_debugging
-      template: multiple
-      description: What tools do you use to debug your React Native apps? Check all that apply
-      options:
-        - id: react_native_features_debugging_chrome_dev_tools
-        - id: react_native_features_debugging_console_log
-        - id: react_native_features_debugging_flipper
-        - id: react_native_features_debugging_reactotron
-        - id: react_native_features_debugging_react_dev_tools
-        - id: react_native_features_debugging_react_native_debugger
-        - id: react_native_features_debugging_native_debugging
-    - id: react_native_features_debugging_other
-      template: others
-      description: "Other answers (freeform)"
+    # - id: react_native_features_debugging
+    #   template: multiple
+    #   description: What tools do you use to debug your React Native apps? Check all that apply
+    #   options:
+    #     - id: react_native_features_debugging_chrome_dev_tools
+    #     - id: react_native_features_debugging_console_log
+    #     - id: react_native_features_debugging_flipper
+    #     - id: react_native_features_debugging_reactotron
+    #     - id: react_native_features_debugging_react_dev_tools
+    #     - id: react_native_features_debugging_react_native_debugger
+    #     - id: react_native_features_debugging_native_debugging
+    # - id: react_native_features_debugging_other
+    #   template: others
+    #   description: "Other answers (freeform)"
 
-    - id: react_native_features_performance_profile
-      template: multiple
-      description: What tools do you use to profile React Native app performance? Check all that apply
-      options:
-        - id: react_native_features_performance_profile_flipper
-        - id: react_native_features_performance_profile_flipper_performance_plugin
-        - id: react_native_features_performance_profile_react_native_performance
-        - id: react_native_features_performance_profile_react_native_performance_monitor
-        - id: react_native_features_performance_native
-    - id: react_native_features_performance_profile_other
-      template: others
-      description: "Other answers (freeform)"
+    # - id: react_native_features_performance_profile
+    #   template: multiple
+    #   description: What tools do you use to profile React Native app performance? Check all that apply
+    #   options:
+    #     - id: react_native_features_performance_profile_flipper
+    #     - id: react_native_features_performance_profile_flipper_performance_plugin
+    #     - id: react_native_features_performance_profile_react_native_performance
+    #     - id: react_native_features_performance_profile_react_native_performance_monitor
+    #     - id: react_native_features_performance_native
+    # - id: react_native_features_performance_profile_other
+    #   template: others
+    #   description: "Other answers (freeform)"
 
     - id: react_native_features_brownfield
       template: single
@@ -762,10 +885,10 @@
       options:
         - id: resources_podcast_multiple_podrocker
         - id: resources_podcast_multiple_react_native_radio
-        - id: resources_podcast_multiple_react_native_show_callstack
         - id: resources_podcast_multiple_rocket_ship
         - id: resources_podcast_multiple_syntax_fm
         - id: resources_podcast_multiple_the_changelog
+        - id: resources_podcast_multiple_react_native_show_callstack
     - id: resources_podcast
       description: What podcasts about React Native or programming in general do you listen to? Check all that apply
     - id: resources_video
