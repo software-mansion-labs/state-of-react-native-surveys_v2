@@ -402,10 +402,10 @@
       description: What tools do you use to debug your React Native apps? Check all that apply
       options:
         - id: debugging_and_profiling_debugging_tools_chrome_dev_tools_in_browser
-        - id: debugging_and_profiling_debugging_tools_chrome_dev_expo_hermes
+        - id: debugging_and_profiling_debugging_tools_chrome_dev_expo
+        - id: debugging_and_profiling_debugging_tools_chrome_dev_hermes
         - id: debugging_and_profiling_debugging_tools_console_log
         - id: debugging_and_profiling_debugging_tools_flipper
-        - id: debugging_and_profiling_debugging_tools_new_debugger
         - id: debugging_and_profiling_debugging_tools_reactotron
         - id: debugging_and_profiling_debugging_tools_react_dev_tools
         - id: debugging_and_profiling_debugging_tools_react_native_debugger
@@ -432,8 +432,9 @@
       year: 2023
       options:
         - id: debugging_and_profiling_problems_debugging_tools_connecting_fliper
-        - id: debugging_and_profiling_problems_debugging_tools_connecting_expo_hermes_debugger
-        - id: debugging_and_profiling_problems_debugging_tools_connecting_new_debugger
+        - id: debugging_and_profiling_problems_debugging_tools_connecting_expo_debugger
+        - id: debugging_and_profiling_problems_debugging_tools_connecting_hermes_debugger
+        # - id: debugging_and_profiling_problems_debugging_tools_connecting_new_debugger
         - id: debugging_and_profiling_problems_debugging_tools_connecting_react_devtools
         - id: debugging_and_profiling_problems_debugging_tools_native_debugging
         - id: debugging_and_profiling_problems_debugging_tools_picking_right_tool
@@ -482,6 +483,7 @@
       template: multiple
       description: What tools do you use to profile React Native app performance? Check all that apply
       options:
+        - id: debugging_and_profiling_profiling_tools_flashlight
         - id: debugging_and_profiling_profiling_tools_flipper
         - id: debugging_and_profiling_profiling_tools_flipper_performance_plugin
         - id: debugging_and_profiling_profiling_tools_react_native_performance
@@ -617,6 +619,18 @@
         - id: react_native_features_version_0_65
         - id: react_native_features_version_0_64
         - id: react_native_features_version_0_63_or_lower
+    - id: react_native_features_strategies
+      description: What is your main strategy for upgrading React Native to a new versions?
+      template: single
+      options:
+        - id: react_native_features_strategies_stay_latest
+        - id: react_native_features_strategies_upgrade_occasionally
+        - id: react_native_features_strategies_upgrade_for_new_features
+        - id: react_native_features_strategies_upgrade_parallel_with_expo
+        - id: react_native_features_strategies_upgrade_if_necessary
+    - id: react_native_features_strategies_other
+      template: others
+      description: "Other answers (freeform)"
 
     - id: react_native_bridgeless_mode
       year: 2023
@@ -740,6 +754,7 @@
       template: multiple
       options:
         - id: tools_starter_templates_expo
+        - id: tools_create_expo_stack
         - id: tools_starter_templates_create_react_native_app
         - id: tools_starter_templates_solito
         - id: tools_starter_templates_create_t3_turbo
