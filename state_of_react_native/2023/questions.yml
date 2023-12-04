@@ -871,6 +871,7 @@
         - id: resources_read_multiple_software_mansion_blog
         - id: resources_read_multiple_this_week_in_react
     - id: resources_read
+      template: others
       description: What other blogs, magazines or newsletters not listed above do you read? Write all that apply (freeform)
     - id: resources_course_multiple
       template: multiple
@@ -894,6 +895,7 @@
         - id: resources_course_twitter
         - id: resources_course_multiple_youtube
     - id: resources_course
+      template: others
       description: What other sites, courses or book not listed above do you consult to learn React Native? Write all that apply (freeform)
     - id: resources_podcast_multiple
       template: multiple
@@ -906,10 +908,13 @@
         - id: resources_podcast_multiple_the_changelog
         - id: resources_podcast_multiple_react_native_show_callstack
     - id: resources_podcast
+      template: others
       description: What podcasts about React Native or programming in general do you listen to? Check all that apply
     - id: resources_video
+      template: others
       description: Video creators you follow on video-centric platforms such as YouTube, Twitch, TikTok, etc. Write all that apply (freeform)
     - id: resources_people
+      template: others
       description: People you read, follow, or just want to highlight for their work. Write all that apply (freeform)
     # - id: resources_communities
     #   description: Online communities you actively participate in, such as Slack workspaces, Discord servers, Reddit topics, etc.. Write all that apply (freeform)
