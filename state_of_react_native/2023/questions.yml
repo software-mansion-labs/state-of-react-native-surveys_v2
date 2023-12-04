@@ -156,7 +156,7 @@
         - id: developer_background_industry_sector.answer.m
         - id: developer_background_industry_sector.answer.ss
         - id: developer_background_industry_sector.answer.tt
-        - id: developer_background_industry_sector_other
+        # - id: developer_background_industry_sector_other
     - id: developer_background_industry_sector_other
       sectionSlug: developer_background_industry_sector
       template: others
@@ -174,7 +174,7 @@
 
     - id: platform_apis_questions
       template: multiple
-      description: What Platform APIs have you used in 2022 in React Native? Check all that apply
+      description: What Platform APIs have you used in 2023 in React Native? Check all that apply
       options:
         - id: platform_apis_accessibility
         - id: platform_apis_appearance
@@ -821,9 +821,10 @@
     - id: react_native_alternatives_swiftui
     - id: react_native_alternatives_native_script
     - id: react_native_alternatives_xamarin
-    # - id: react_native_alternatives_other
-    #   template: others
-    #   description: "Other answers (freeform)"
+    - id: react_native_alternatives_other
+      year: 2023
+      template: others
+      description: "Other answers (freeform)"
 
 ######################################################
 #########             RESOURCES              #########
