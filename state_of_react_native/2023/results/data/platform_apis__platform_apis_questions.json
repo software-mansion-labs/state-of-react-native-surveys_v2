@@ -14,6 +14,7 @@
           "platform_apis_microphone",
           "platform_apis_media_library",
           "platform_apis_file_system",
+          "platform_apis_foldable",
           "platform_apis_haptics",
           "platform_apis_video_playback",
           "platform_apis_clipboard",
@@ -31,6 +32,7 @@
           "platform_apis_notifications",
           "platform_apis_in_app_payments",
           "platform_apis_in_app_reviews",
+          "platform_apis_live_activity",
           "platform_apis_webview",
           "platform_apis_storage",
           "platform_apis_deep_links",
@@ -43,9 +45,353 @@
         ],
         "all_years": [
           {
+            "year": 2023,
+            "completion": {
+              "total": 2391,
+              "count": 2000,
+              "percentage_survey": 83.7
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 2391,
+                  "percentage_survey": 868,
+                  "percentage_question": 1037.6,
+                  "count": 20752
+                },
+                "buckets": [
+                  {
+                    "id": "platform_apis_sensors",
+                    "count": 255,
+                    "percentage_question": 12.8,
+                    "percentage_survey": 10.7,
+                    "entity": {
+                      "name": "Sensors (gyroscope, accelerometer, etc.)"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_camera",
+                    "count": 1447,
+                    "percentage_question": 72.4,
+                    "percentage_survey": 60.6,
+                    "entity": {
+                      "name": "Camera"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_audio",
+                    "count": 463,
+                    "percentage_question": 23.2,
+                    "percentage_survey": 19.4,
+                    "entity": {
+                      "name": "Audio playback"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_appearance",
+                    "count": 715,
+                    "percentage_question": 35.8,
+                    "percentage_survey": 30,
+                    "entity": {
+                      "name": "Appearance"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_accessibility",
+                    "count": 593,
+                    "percentage_question": 29.7,
+                    "percentage_survey": 24.9,
+                    "entity": {
+                      "name": "Accessibility"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_microphone",
+                    "count": 407,
+                    "percentage_question": 20.4,
+                    "percentage_survey": 17.1,
+                    "entity": {
+                      "name": "Microphone"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_media_library",
+                    "count": 886,
+                    "percentage_question": 44.3,
+                    "percentage_survey": 37.1,
+                    "entity": {
+                      "name": "Media library (gallery)"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_file_system",
+                    "count": 1102,
+                    "percentage_question": 55.1,
+                    "percentage_survey": 46.1,
+                    "entity": {
+                      "name": "File System"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_foldable",
+                    "count": 24,
+                    "percentage_question": 1.2,
+                    "percentage_survey": 1.1,
+                    "entity": {
+                      "name": "Foldable"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_haptics",
+                    "count": 597,
+                    "percentage_question": 29.9,
+                    "percentage_survey": 25,
+                    "entity": {
+                      "name": "Haptics"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_video_playback",
+                    "count": 553,
+                    "percentage_question": 27.7,
+                    "percentage_survey": 23.2,
+                    "entity": {
+                      "name": "Video playback"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_clipboard",
+                    "count": 899,
+                    "percentage_question": 45,
+                    "percentage_survey": 37.6,
+                    "entity": {
+                      "name": "Clipboard"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_openGL",
+                    "count": 63,
+                    "percentage_question": 3.2,
+                    "percentage_survey": 2.7,
+                    "entity": {
+                      "name": "OpenGL"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_telephony",
+                    "count": 280,
+                    "percentage_question": 14,
+                    "percentage_survey": 11.8,
+                    "entity": {
+                      "name": "Telephony (SMS, email, dialing, etc.)"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_location",
+                    "count": 1070,
+                    "percentage_question": 53.5,
+                    "percentage_survey": 44.8,
+                    "entity": {
+                      "name": "Location"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_maps",
+                    "count": 896,
+                    "percentage_question": 44.8,
+                    "percentage_survey": 37.5,
+                    "entity": {
+                      "name": "Maps"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_screen_orientation",
+                    "count": 694,
+                    "percentage_question": 34.7,
+                    "percentage_survey": 29.1,
+                    "entity": {
+                      "name": "Screen orientation"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_battery_level",
+                    "count": 228,
+                    "percentage_question": 11.4,
+                    "percentage_survey": 9.6,
+                    "entity": {
+                      "name": "Battery"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_bluetooth",
+                    "count": 381,
+                    "percentage_question": 19.1,
+                    "percentage_survey": 16,
+                    "entity": {
+                      "name": "Bluetooth"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_nfc",
+                    "count": 102,
+                    "percentage_question": 5.1,
+                    "percentage_survey": 4.3,
+                    "entity": {
+                      "name": "NFC"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_rtl",
+                    "count": 164,
+                    "percentage_question": 8.2,
+                    "percentage_survey": 6.9,
+                    "entity": {
+                      "name": "RTL"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_biometric_authentication",
+                    "count": 573,
+                    "percentage_question": 28.7,
+                    "percentage_survey": 24,
+                    "entity": {
+                      "name": "Biometric authentication"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_cryptography",
+                    "count": 263,
+                    "percentage_question": 13.2,
+                    "percentage_survey": 11,
+                    "entity": {
+                      "name": "Cryptography (e.g. hardware encryption)"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_notifications",
+                    "count": 1336,
+                    "percentage_question": 66.8,
+                    "percentage_survey": 55.9,
+                    "entity": {
+                      "name": "Notifications"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_in_app_payments",
+                    "count": 574,
+                    "percentage_question": 28.7,
+                    "percentage_survey": 24.1,
+                    "entity": {
+                      "name": "In-app payments"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_in_app_reviews",
+                    "count": 431,
+                    "percentage_question": 21.6,
+                    "percentage_survey": 18.1,
+                    "entity": {
+                      "name": "In-app reviews"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_live_activity",
+                    "count": 0,
+                    "percentage_question": 0,
+                    "percentage_survey": 0,
+                    "entity": {}
+                  },
+                  {
+                    "id": "platform_apis_webview",
+                    "count": 1215,
+                    "percentage_question": 60.8,
+                    "percentage_survey": 50.9,
+                    "entity": {
+                      "name": "WebView"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_storage",
+                    "count": 945,
+                    "percentage_question": 47.3,
+                    "percentage_survey": 39.6,
+                    "entity": {
+                      "name": "Persistent storage (e.g. SQL database)"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_deep_links",
+                    "count": 1311,
+                    "percentage_question": 65.6,
+                    "percentage_survey": 54.9,
+                    "entity": {
+                      "name": "Deep links"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_concurrency",
+                    "count": 517,
+                    "percentage_question": 25.9,
+                    "percentage_survey": 21.7,
+                    "entity": {
+                      "name": "Background processing"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_printer",
+                    "count": 61,
+                    "percentage_question": 3.1,
+                    "percentage_survey": 2.6,
+                    "entity": {
+                      "name": "Printer"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_ocr",
+                    "count": 97,
+                    "percentage_question": 4.9,
+                    "percentage_survey": 4.1,
+                    "entity": {
+                      "name": "OCR"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_ar_av",
+                    "count": 67,
+                    "percentage_question": 3.4,
+                    "percentage_survey": 2.9,
+                    "entity": {
+                      "name": "AR / VR"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_ml",
+                    "count": 99,
+                    "percentage_question": 5,
+                    "percentage_survey": 4.2,
+                    "entity": {
+                      "name": "ML / AI"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_permissions",
+                    "count": 1444,
+                    "percentage_question": 72.2,
+                    "percentage_survey": 60.4,
+                    "entity": {
+                      "name": "Permissions"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "year": 2022,
             "completion": {
-              "total": 1886,
+              "total": 1888,
               "count": 1586,
               "percentage_survey": 84.1
             },
@@ -54,8 +400,8 @@
                 "id": "default",
                 "type": "default",
                 "completion": {
-                  "total": 1886,
-                  "percentage_survey": 920.4,
+                  "total": 1888,
+                  "percentage_survey": 919.4,
                   "percentage_question": 1094.5,
                   "count": 17358
                 },
@@ -73,7 +419,7 @@
                     "id": "platform_apis_camera",
                     "count": 1181,
                     "percentage_question": 74.5,
-                    "percentage_survey": 62.7,
+                    "percentage_survey": 62.6,
                     "entity": {
                       "name": "Camera"
                     }
@@ -91,7 +437,7 @@
                     "id": "platform_apis_appearance",
                     "count": 640,
                     "percentage_question": 40.4,
-                    "percentage_survey": 34,
+                    "percentage_survey": 33.9,
                     "entity": {
                       "name": "Appearance"
                     }
@@ -109,7 +455,7 @@
                     "id": "platform_apis_microphone",
                     "count": 404,
                     "percentage_question": 25.5,
-                    "percentage_survey": 21.5,
+                    "percentage_survey": 21.4,
                     "entity": {
                       "name": "Microphone"
                     }
@@ -118,7 +464,7 @@
                     "id": "platform_apis_media_library",
                     "count": 919,
                     "percentage_question": 58,
-                    "percentage_survey": 48.8,
+                    "percentage_survey": 48.7,
                     "entity": {
                       "name": "Media library (gallery)"
                     }
@@ -130,6 +476,15 @@
                     "percentage_survey": 50.2,
                     "entity": {
                       "name": "File System"
+                    }
+                  },
+                  {
+                    "id": "platform_apis_foldable",
+                    "count": 0,
+                    "percentage_question": 0,
+                    "percentage_survey": 0,
+                    "entity": {
+                      "name": "Foldable"
                     }
                   },
                   {
@@ -145,7 +500,7 @@
                     "id": "platform_apis_video_playback",
                     "count": 502,
                     "percentage_question": 31.7,
-                    "percentage_survey": 26.7,
+                    "percentage_survey": 26.6,
                     "entity": {
                       "name": "Video playback"
                     }
@@ -154,7 +509,7 @@
                     "id": "platform_apis_clipboard",
                     "count": 664,
                     "percentage_question": 41.9,
-                    "percentage_survey": 35.3,
+                    "percentage_survey": 35.2,
                     "entity": {
                       "name": "Clipboard"
                     }
@@ -181,7 +536,7 @@
                     "id": "platform_apis_location",
                     "count": 925,
                     "percentage_question": 58.4,
-                    "percentage_survey": 49.1,
+                    "percentage_survey": 49,
                     "entity": {
                       "name": "Location"
                     }
@@ -262,7 +617,7 @@
                     "id": "platform_apis_notifications",
                     "count": 1127,
                     "percentage_question": 71.1,
-                    "percentage_survey": 59.8,
+                    "percentage_survey": 59.7,
                     "entity": {
                       "name": "Notifications"
                     }
@@ -286,10 +641,17 @@
                     }
                   },
                   {
+                    "id": "platform_apis_live_activity",
+                    "count": 0,
+                    "percentage_question": 0,
+                    "percentage_survey": 0,
+                    "entity": {}
+                  },
+                  {
                     "id": "platform_apis_webview",
                     "count": 974,
                     "percentage_question": 61.5,
-                    "percentage_survey": 51.7,
+                    "percentage_survey": 51.6,
                     "entity": {
                       "name": "WebView"
                     }
@@ -307,7 +669,7 @@
                     "id": "platform_apis_deep_links",
                     "count": 1036,
                     "percentage_question": 65.4,
-                    "percentage_survey": 55,
+                    "percentage_survey": 54.9,
                     "entity": {
                       "name": "Deep links"
                     }
@@ -361,7 +723,7 @@
                     "id": "platform_apis_permissions",
                     "count": 1055,
                     "percentage_question": 66.6,
-                    "percentage_survey": 56,
+                    "percentage_survey": 55.9,
                     "entity": {
                       "name": "Permissions"
                     }

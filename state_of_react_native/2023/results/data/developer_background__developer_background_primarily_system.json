@@ -12,10 +12,59 @@
         ],
         "all_years": [
           {
+            "year": 2023,
+            "completion": {
+              "total": 2391,
+              "count": 2341,
+              "percentage_survey": 98
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 2391,
+                  "percentage_survey": 98,
+                  "percentage_question": 100,
+                  "count": 2341
+                },
+                "buckets": [
+                  {
+                    "id": "developer_background_primarily_system.answer.a",
+                    "count": 1899,
+                    "percentage_question": 81.2,
+                    "percentage_survey": 79.5,
+                    "entity": {
+                      "name": "macOS"
+                    }
+                  },
+                  {
+                    "id": "developer_background_primarily_system.answer.b",
+                    "count": 154,
+                    "percentage_question": 6.6,
+                    "percentage_survey": 6.5,
+                    "entity": {
+                      "name": "Linux"
+                    }
+                  },
+                  {
+                    "id": "developer_background_primarily_system.answer.c",
+                    "count": 288,
+                    "percentage_question": 12.4,
+                    "percentage_survey": 12.1,
+                    "entity": {
+                      "name": "Windows"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "year": 2022,
             "completion": {
-              "total": 1886,
-              "count": 1850,
+              "total": 1888,
+              "count": 1851,
               "percentage_survey": 98.1
             },
             "facets": [
@@ -23,17 +72,17 @@
                 "id": "default",
                 "type": "default",
                 "completion": {
-                  "total": 1886,
+                  "total": 1888,
                   "percentage_survey": 98.1,
                   "percentage_question": 100,
-                  "count": 1850
+                  "count": 1851
                 },
                 "buckets": [
                   {
                     "id": "developer_background_primarily_system.answer.a",
                     "count": 1562,
-                    "percentage_question": 84.5,
-                    "percentage_survey": 82.9,
+                    "percentage_question": 84.4,
+                    "percentage_survey": 82.8,
                     "entity": {
                       "name": "macOS"
                     }
@@ -49,7 +98,7 @@
                   },
                   {
                     "id": "developer_background_primarily_system.answer.c",
-                    "count": 195,
+                    "count": 196,
                     "percentage_question": 10.6,
                     "percentage_survey": 10.4,
                     "entity": {

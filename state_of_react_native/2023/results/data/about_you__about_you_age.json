@@ -16,19 +16,104 @@
         ],
         "all_years": [
           {
-            "year": 2022,
+            "year": 2023,
             "completion": {
-              "total": 1886,
-              "count": 1241,
-              "percentage_survey": 65.9
+              "total": 2391,
+              "count": 1558,
+              "percentage_survey": 65.2
             },
             "facets": [
               {
                 "id": "default",
                 "type": "default",
                 "completion": {
-                  "total": 1886,
-                  "percentage_survey": 65.9,
+                  "total": 2391,
+                  "percentage_survey": 65.2,
+                  "percentage_question": 100,
+                  "count": 1558
+                },
+                "buckets": [
+                  {
+                    "id": "about_you_age_18_or_youger",
+                    "count": 18,
+                    "percentage_question": 1.2,
+                    "percentage_survey": 0.8,
+                    "entity": {
+                      "name": "18 or younger"
+                    }
+                  },
+                  {
+                    "id": "about_you_age_19_24",
+                    "count": 292,
+                    "percentage_question": 18.8,
+                    "percentage_survey": 12.3,
+                    "entity": {
+                      "name": "19-24"
+                    }
+                  },
+                  {
+                    "id": "about_you_age_25_34",
+                    "count": 892,
+                    "percentage_question": 57.3,
+                    "percentage_survey": 37.4,
+                    "entity": {
+                      "name": "25-34"
+                    }
+                  },
+                  {
+                    "id": "about_you_age_35_44",
+                    "count": 297,
+                    "percentage_question": 19.1,
+                    "percentage_survey": 12.5,
+                    "entity": {
+                      "name": "35-44"
+                    }
+                  },
+                  {
+                    "id": "about_you_age_45_54",
+                    "count": 52,
+                    "percentage_question": 3.4,
+                    "percentage_survey": 2.2,
+                    "entity": {
+                      "name": "45-54"
+                    }
+                  },
+                  {
+                    "id": "about_you_age_55_64",
+                    "count": 6,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.3,
+                    "entity": {
+                      "name": "55-64"
+                    }
+                  },
+                  {
+                    "id": "about_you_age_65_or_older",
+                    "count": 1,
+                    "percentage_question": 0.1,
+                    "percentage_survey": 0.1,
+                    "entity": {
+                      "name": "65 or older"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "year": 2022,
+            "completion": {
+              "total": 1888,
+              "count": 1241,
+              "percentage_survey": 65.8
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 1888,
+                  "percentage_survey": 65.8,
                   "percentage_question": 100,
                   "count": 1241
                 },

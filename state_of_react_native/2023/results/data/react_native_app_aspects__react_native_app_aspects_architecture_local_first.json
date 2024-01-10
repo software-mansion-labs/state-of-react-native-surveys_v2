@@ -1,0 +1,74 @@
+{
+  "dataAPI": {
+    "survey": {
+      "react_native_app_aspects_architecture_local_first": {
+        "id": "react_native_app_aspects_architecture_local_first",
+        "entity": {
+          "name": "Local-first app architecture"
+        },
+        "experience": {
+          "comments": [
+            "N",
+            "I might have used this, but without an example, it's impossible for me to know for sure",
+            "not sure what that implies, but data caching/storage is crucial if that’s what your app requires",
+            "very interesting!",
+            "Very hard to get right. There isn’t a good, we’ll established solution, especially for BaaS providers. "
+          ],
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2023,
+              "completion": {
+                "total": 2391,
+                "count": 1567,
+                "percentage_survey": 65.6
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 355,
+                      "percentage_survey": 14.9,
+                      "percentage_question": 22.7
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 15,
+                      "percentage_survey": 0.7,
+                      "percentage_question": 1
+                    },
+                    {
+                      "id": "interested",
+                      "count": 484,
+                      "percentage_survey": 20.3,
+                      "percentage_question": 30.9
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 48,
+                      "percentage_survey": 2.1,
+                      "percentage_question": 3.1
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 665,
+                      "percentage_survey": 27.9,
+                      "percentage_question": 42.5
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

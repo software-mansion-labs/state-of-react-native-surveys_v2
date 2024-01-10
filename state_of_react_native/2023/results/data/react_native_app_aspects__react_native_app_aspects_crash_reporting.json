@@ -19,19 +19,161 @@
         ],
         "all_years": [
           {
-            "year": 2022,
+            "year": 2023,
             "completion": {
-              "total": 1886,
-              "count": 1142,
-              "percentage_survey": 60.6
+              "total": 2391,
+              "count": 1392,
+              "percentage_survey": 58.3
             },
             "facets": [
               {
                 "id": "default",
                 "type": "default",
                 "completion": {
-                  "total": 1886,
-                  "percentage_survey": 108.3,
+                  "total": 2391,
+                  "percentage_survey": 97,
+                  "percentage_question": 166.6,
+                  "count": 2319
+                },
+                "buckets": [
+                  {
+                    "id": "react_native_app_aspects_crash_reporting_sentry",
+                    "count": 948,
+                    "percentage_question": 68.2,
+                    "percentage_survey": 39.7,
+                    "entity": {
+                      "name": "Sentry",
+                      "homepage": {
+                        "url": "https://sentry.io/"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_crash_reporting_datadog",
+                    "count": 154,
+                    "percentage_question": 11.1,
+                    "percentage_survey": 6.5,
+                    "entity": {
+                      "name": "Datadog",
+                      "homepage": {
+                        "url": "https://www.datadoghq.com/"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_crash_reporting_instabug",
+                    "count": 45,
+                    "percentage_question": 3.3,
+                    "percentage_survey": 1.9,
+                    "entity": {
+                      "name": "Instabug",
+                      "homepage": {
+                        "url": "https://instabug.com/"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_crash_reporting_new_relic",
+                    "count": 77,
+                    "percentage_question": 5.6,
+                    "percentage_survey": 3.3,
+                    "entity": {
+                      "name": "New Relic",
+                      "homepage": {
+                        "url": "https://newrelic.com/"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_crash_reporting_appdynamics",
+                    "count": 0,
+                    "percentage_question": 0,
+                    "percentage_survey": 0,
+                    "entity": {
+                      "name": "AppDynamics",
+                      "homepage": {
+                        "url": "https://www.appdynamics.com/"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_crash_reporting_amazon_cloudwatch",
+                    "count": 0,
+                    "percentage_question": 0,
+                    "percentage_survey": 0,
+                    "entity": {
+                      "name": "Amazon CloudWatch",
+                      "homepage": {
+                        "url": "https://aws.amazon.com/cloudwatch/"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_crash_reporting_elastic_observability",
+                    "count": 0,
+                    "percentage_question": 0,
+                    "percentage_survey": 0,
+                    "entity": {
+                      "name": "Elastic Observability",
+                      "homepage": {
+                        "url": "https://www.elastic.co/observability"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_crash_reporting_bugsnag",
+                    "count": 176,
+                    "percentage_question": 12.7,
+                    "percentage_survey": 7.4,
+                    "entity": {
+                      "name": "Bugsnag",
+                      "homepage": {
+                        "url": "https://www.bugsnag.com/"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_crash_reporting_firebase_crashlytics",
+                    "count": 720,
+                    "percentage_question": 51.8,
+                    "percentage_survey": 30.2,
+                    "entity": {
+                      "name": "Firebase Crashlytics",
+                      "homepage": {
+                        "url": "https://firebase.google.com/docs/crashlytics"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_crash_reporting_appcenter_crashes",
+                    "count": 199,
+                    "percentage_question": 14.3,
+                    "percentage_survey": 8.4,
+                    "entity": {
+                      "name": "AppCenter Crashes",
+                      "homepage": {
+                        "url": "https://docs.microsoft.com/en-us/appcenter/sdk/crashes/react-native"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "year": 2022,
+            "completion": {
+              "total": 1888,
+              "count": 1142,
+              "percentage_survey": 60.5
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 1888,
+                  "percentage_survey": 108.2,
                   "percentage_question": 178.8,
                   "count": 2041
                 },
@@ -136,7 +278,7 @@
                     "id": "react_native_app_aspects_crash_reporting_firebase_crashlytics",
                     "count": 547,
                     "percentage_question": 47.9,
-                    "percentage_survey": 29.1,
+                    "percentage_survey": 29,
                     "entity": {
                       "name": "Firebase Crashlytics",
                       "homepage": {

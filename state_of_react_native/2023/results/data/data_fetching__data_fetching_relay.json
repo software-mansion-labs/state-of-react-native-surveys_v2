@@ -33,9 +33,9 @@
             {
               "year": 2022,
               "completion": {
-                "total": 1886,
+                "total": 1888,
                 "count": 1526,
-                "percentage_survey": 81
+                "percentage_survey": 80.9
               },
               "facets": [
                 {
@@ -61,14 +61,58 @@
                     {
                       "id": "not_interested",
                       "count": 487,
-                      "percentage_survey": 25.9,
+                      "percentage_survey": 25.8,
                       "percentage_question": 32
                     },
                     {
                       "id": "never_heard",
                       "count": 536,
-                      "percentage_survey": 28.5,
+                      "percentage_survey": 28.4,
                       "percentage_question": 35.2
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "year": 2023,
+              "completion": {
+                "total": 2391,
+                "count": 1908,
+                "percentage_survey": 79.8
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 57,
+                      "percentage_survey": 2.4,
+                      "percentage_question": 3
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 39,
+                      "percentage_survey": 1.7,
+                      "percentage_question": 2.1
+                    },
+                    {
+                      "id": "interested",
+                      "count": 438,
+                      "percentage_survey": 18.4,
+                      "percentage_question": 23
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 576,
+                      "percentage_survey": 24.1,
+                      "percentage_question": 30.2
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 798,
+                      "percentage_survey": 33.4,
+                      "percentage_question": 41.9
                     }
                   ]
                 }

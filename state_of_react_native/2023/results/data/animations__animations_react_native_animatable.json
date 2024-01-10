@@ -14,6 +14,10 @@
           }
         },
         "experience": {
+          "comments": [
+            "Looks like they are deprecated",
+            "Create a lot of type error in typescript and break things with update sometime.."
+          ],
           "keys": [
             "would_use",
             "would_not_use",
@@ -25,7 +29,7 @@
             {
               "year": 2022,
               "completion": {
-                "total": 1886,
+                "total": 1888,
                 "count": 1350,
                 "percentage_survey": 71.6
               },
@@ -53,14 +57,58 @@
                     {
                       "id": "not_interested",
                       "count": 185,
-                      "percentage_survey": 9.9,
+                      "percentage_survey": 9.8,
                       "percentage_question": 13.8
                     },
                     {
                       "id": "never_heard",
                       "count": 774,
-                      "percentage_survey": 41.1,
+                      "percentage_survey": 41,
                       "percentage_question": 57.4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "year": 2023,
+              "completion": {
+                "total": 2391,
+                "count": 1712,
+                "percentage_survey": 71.7
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 176,
+                      "percentage_survey": 7.4,
+                      "percentage_question": 10.3
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 108,
+                      "percentage_survey": 4.6,
+                      "percentage_question": 6.4
+                    },
+                    {
+                      "id": "interested",
+                      "count": 181,
+                      "percentage_survey": 7.6,
+                      "percentage_question": 10.6
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 222,
+                      "percentage_survey": 9.3,
+                      "percentage_question": 13
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 1025,
+                      "percentage_survey": 42.9,
+                      "percentage_question": 59.9
                     }
                   ]
                 }

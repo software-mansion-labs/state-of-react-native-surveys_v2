@@ -14,21 +14,73 @@
         ],
         "all_years": [
           {
-            "year": 2022,
-            "mean": 2.81,
+            "year": 2023,
+            "mean": 2.92,
             "completion": {
-              "total": 1886,
-              "count": 1574,
-              "percentage_survey": 83.5
+              "total": 2391,
+              "count": 2003,
+              "percentage_survey": 83.8
             },
             "facets": [
               {
                 "id": "default",
                 "type": "default",
                 "completion": {
-                  "total": 1886,
+                  "total": 2391,
+                  "count": 2003,
+                  "percentage_survey": 83.8
+                },
+                "buckets": [
+                  {
+                    "id": 0,
+                    "count": 67,
+                    "percentage_survey": 2.9,
+                    "percentage_question": 3.4
+                  },
+                  {
+                    "id": 1,
+                    "count": 61,
+                    "percentage_survey": 2.6,
+                    "percentage_question": 3.1
+                  },
+                  {
+                    "id": 2,
+                    "count": 337,
+                    "percentage_survey": 14.1,
+                    "percentage_question": 16.9
+                  },
+                  {
+                    "id": 3,
+                    "count": 1044,
+                    "percentage_survey": 43.7,
+                    "percentage_question": 52.2
+                  },
+                  {
+                    "id": 4,
+                    "count": 494,
+                    "percentage_survey": 20.7,
+                    "percentage_question": 24.7
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "year": 2022,
+            "mean": 2.81,
+            "completion": {
+              "total": 1888,
+              "count": 1574,
+              "percentage_survey": 83.4
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 1888,
                   "count": 1574,
-                  "percentage_survey": 83.5
+                  "percentage_survey": 83.4
                 },
                 "buckets": [
                   {

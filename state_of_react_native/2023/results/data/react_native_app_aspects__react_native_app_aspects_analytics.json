@@ -17,9 +17,127 @@
         ],
         "all_years": [
           {
+            "year": 2023,
+            "completion": {
+              "total": 2391,
+              "count": 1206,
+              "percentage_survey": 50.5
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 2391,
+                  "percentage_survey": 84.3,
+                  "percentage_question": 167,
+                  "count": 2014
+                },
+                "buckets": [
+                  {
+                    "id": "react_native_app_aspects_analytics_firebase_analytics",
+                    "count": 940,
+                    "percentage_question": 78,
+                    "percentage_survey": 39.4,
+                    "entity": {
+                      "name": "Firebase Analytics",
+                      "homepage": {
+                        "url": "https://firebase.google.com/docs/analytics"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_analytics_appcenter_analytics",
+                    "count": 216,
+                    "percentage_question": 18,
+                    "percentage_survey": 9.1,
+                    "entity": {
+                      "name": "AppCenter Analytics",
+                      "homepage": {
+                        "url": "https://docs.microsoft.com/en-us/appcenter/analytics/"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_analytics_amplitude",
+                    "count": 219,
+                    "percentage_question": 18.2,
+                    "percentage_survey": 9.2,
+                    "entity": {
+                      "name": "Amplitude",
+                      "homepage": {
+                        "url": "https://amplitude.com/"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_analytics_amplify_analytics",
+                    "count": 77,
+                    "percentage_question": 6.4,
+                    "percentage_survey": 3.3,
+                    "entity": {
+                      "name": "Amplify Analytics",
+                      "homepage": {
+                        "url": "https://docs.amplify.aws/lib/analytics/getting-started/q/platform/js"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_analytics_mixpanel",
+                    "count": 236,
+                    "percentage_question": 19.6,
+                    "percentage_survey": 9.9,
+                    "entity": {
+                      "name": "Mixpanel",
+                      "homepage": {
+                        "url": "https://mixpanel.com/"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_analytics_segment",
+                    "count": 191,
+                    "percentage_question": 15.9,
+                    "percentage_survey": 8,
+                    "entity": {
+                      "name": "Segment",
+                      "homepage": {
+                        "url": "https://segment.com/"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_analytics_appsflyer",
+                    "count": 135,
+                    "percentage_question": 11.2,
+                    "percentage_survey": 5.7,
+                    "entity": {
+                      "name": "AppsFlyer",
+                      "homepage": {
+                        "url": "https://www.appsflyer.com/"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_analytics_flurry",
+                    "count": 0,
+                    "percentage_question": 0,
+                    "percentage_survey": 0,
+                    "entity": {
+                      "name": "Flurry",
+                      "homepage": {
+                        "url": "https://developer.yahoo.com/flurry/docs/"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "year": 2022,
             "completion": {
-              "total": 1886,
+              "total": 1888,
               "count": 1003,
               "percentage_survey": 53.2
             },
@@ -28,8 +146,8 @@
                 "id": "default",
                 "type": "default",
                 "completion": {
-                  "total": 1886,
-                  "percentage_survey": 94.6,
+                  "total": 1888,
+                  "percentage_survey": 94.5,
                   "percentage_question": 177.8,
                   "count": 1783
                 },

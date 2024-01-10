@@ -1,0 +1,67 @@
+{
+  "dataAPI": {
+    "survey": {
+      "tools_custom_development_client": {
+        "id": "tools_custom_development_client",
+        "entity": {
+          "name": "Custom Development Client"
+        },
+        "experience": {
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2023,
+              "completion": {
+                "total": 2391,
+                "count": 1498,
+                "percentage_survey": 62.7
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 570,
+                      "percentage_survey": 23.9,
+                      "percentage_question": 38.1
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 17,
+                      "percentage_survey": 0.8,
+                      "percentage_question": 1.2
+                    },
+                    {
+                      "id": "interested",
+                      "count": 243,
+                      "percentage_survey": 10.2,
+                      "percentage_question": 16.3
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 50,
+                      "percentage_survey": 2.1,
+                      "percentage_question": 3.4
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 618,
+                      "percentage_survey": 25.9,
+                      "percentage_question": 41.3
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -19,9 +19,112 @@
         ],
         "all_years": [
           {
+            "year": 2023,
+            "completion": {
+              "total": 2391,
+              "count": 667,
+              "percentage_survey": 27.9
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 2391,
+                  "percentage_survey": 44.3,
+                  "percentage_question": 158.8,
+                  "count": 1059
+                },
+                "buckets": [
+                  {
+                    "id": "resources_surveys_state_of_js",
+                    "count": 476,
+                    "percentage_question": 71.4,
+                    "percentage_survey": 20,
+                    "entity": {
+                      "name": "State of JS"
+                    }
+                  },
+                  {
+                    "id": "resources_surveys_state_of_css",
+                    "count": 188,
+                    "percentage_question": 28.2,
+                    "percentage_survey": 7.9,
+                    "entity": {
+                      "name": "State of CSS"
+                    }
+                  },
+                  {
+                    "id": "resources_surveys_state_of_graphql",
+                    "count": 73,
+                    "percentage_question": 11,
+                    "percentage_survey": 3.1,
+                    "entity": {
+                      "name": "State of GraphQL"
+                    }
+                  },
+                  {
+                    "id": "resources_surveys_jetbrains",
+                    "count": 74,
+                    "percentage_question": 11.1,
+                    "percentage_survey": 3.1,
+                    "entity": {
+                      "name": "JetBrains State of Developer Ecosystem"
+                    }
+                  },
+                  {
+                    "id": "resources_surveys_stack_overflow",
+                    "count": 180,
+                    "percentage_question": 27,
+                    "percentage_survey": 7.6,
+                    "entity": {
+                      "name": "Stack Overflow Annual Developer Survey"
+                    }
+                  },
+                  {
+                    "id": "resources_surveys_codingame",
+                    "count": 7,
+                    "percentage_question": 1.1,
+                    "percentage_survey": 0.3,
+                    "entity": {
+                      "name": "CodinGame Developer Survey"
+                    }
+                  },
+                  {
+                    "id": "resources_surveys_design_tools",
+                    "count": 22,
+                    "percentage_question": 3.3,
+                    "percentage_survey": 1,
+                    "entity": {
+                      "name": "Design Tools Survey"
+                    }
+                  },
+                  {
+                    "id": "resources_surveys_postman",
+                    "count": 22,
+                    "percentage_question": 3.3,
+                    "percentage_survey": 1,
+                    "entity": {
+                      "name": "Postman State of the API Report"
+                    }
+                  },
+                  {
+                    "id": "resources_surveys_jamstack",
+                    "count": 17,
+                    "percentage_question": 2.6,
+                    "percentage_survey": 0.8,
+                    "entity": {
+                      "name": "Jamstack Community Survey"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "year": 2022,
             "completion": {
-              "total": 1886,
+              "total": 1888,
               "count": 635,
               "percentage_survey": 33.7
             },
@@ -30,7 +133,7 @@
                 "id": "default",
                 "type": "default",
                 "completion": {
-                  "total": 1886,
+                  "total": 1888,
                   "percentage_survey": 60.1,
                   "percentage_question": 178.5,
                   "count": 1133

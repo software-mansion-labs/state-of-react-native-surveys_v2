@@ -1,0 +1,81 @@
+{
+  "dataAPI": {
+    "survey": {
+      "state_management_redux_toolkit": {
+        "id": "state_management_redux_toolkit",
+        "entity": {
+          "name": "Redux Toolkit",
+          "homepage": {
+            "url": "https://redux-toolkit.js.org/"
+          },
+          "github": {
+            "url": "https://github.com/reduxjs/redux-toolkit"
+          },
+          "npm": {
+            "url": "https://www.npmjs.com/package/@reduxjs/toolkit"
+          }
+        },
+        "experience": {
+          "comments": [
+            "Might use again but prefer TanStack Query",
+            "Redux Toolkit made Redux a lot more convenient to use, but after adopting it on many projects I found that most reducers are very simple and unnecessary. Once you use a library for handling external requests (react-query, apollo), 90% of Redux use cases disappears. Then you're left with some small global stuff, which can be handled by libraries like Zustand/Jotai/whatever else",
+            "Used it for the last 2 years.\nZustand will be its replacement.\nIt was too much setup for my Junior colleagues, unfortunately"
+          ],
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2023,
+              "completion": {
+                "total": 2391,
+                "count": 2000,
+                "percentage_survey": 83.7
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 816,
+                      "percentage_survey": 34.2,
+                      "percentage_question": 40.8
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 427,
+                      "percentage_survey": 17.9,
+                      "percentage_question": 21.4
+                    },
+                    {
+                      "id": "interested",
+                      "count": 269,
+                      "percentage_survey": 11.3,
+                      "percentage_question": 13.5
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 378,
+                      "percentage_survey": 15.9,
+                      "percentage_question": 18.9
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 110,
+                      "percentage_survey": 4.7,
+                      "percentage_question": 5.5
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

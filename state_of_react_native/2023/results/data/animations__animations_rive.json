@@ -1,0 +1,79 @@
+{
+  "dataAPI": {
+    "survey": {
+      "animations_rive": {
+        "id": "animations_rive",
+        "entity": {
+          "name": "Rive",
+          "homepage": {
+            "url": "https://rive.app/"
+          },
+          "github": {
+            "url": "https://github.com/rive-app/rive-react-native"
+          },
+          "npm": {
+            "url": "https://www.npmjs.com/package/rive-react-native"
+          }
+        },
+        "experience": {
+          "comments": [
+            "Rive is missing some key features on react-native at the moment such as dynamic assets"
+          ],
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2023,
+              "completion": {
+                "total": 2391,
+                "count": 1703,
+                "percentage_survey": 71.3
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 91,
+                      "percentage_survey": 3.9,
+                      "percentage_question": 5.4
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 14,
+                      "percentage_survey": 0.6,
+                      "percentage_question": 0.9
+                    },
+                    {
+                      "id": "interested",
+                      "count": 444,
+                      "percentage_survey": 18.6,
+                      "percentage_question": 26.1
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 87,
+                      "percentage_survey": 3.7,
+                      "percentage_question": 5.2
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 1067,
+                      "percentage_survey": 44.7,
+                      "percentage_question": 62.7
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

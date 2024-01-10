@@ -13,19 +13,115 @@
         ],
         "all_years": [
           {
-            "year": 2022,
+            "year": 2023,
             "completion": {
-              "total": 1886,
-              "count": 1304,
-              "percentage_survey": 69.2
+              "total": 2391,
+              "count": 1602,
+              "percentage_survey": 67.1
             },
             "facets": [
               {
                 "id": "default",
                 "type": "default",
                 "completion": {
-                  "total": 1886,
-                  "percentage_survey": 69.2,
+                  "total": 2391,
+                  "percentage_survey": 105.1,
+                  "percentage_question": 156.9,
+                  "count": 2512
+                },
+                "buckets": [
+                  {
+                    "id": "tools_package_managers_npm",
+                    "count": 882,
+                    "percentage_question": 55.1,
+                    "percentage_survey": 36.9,
+                    "entity": {
+                      "name": "npm",
+                      "homepage": {
+                        "url": "https://docs.npmjs.com/cli"
+                      },
+                      "description": "the package manager for JavaScript",
+                      "github": {
+                        "url": "https://github.com/npm/cli"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/npm"
+                      }
+                    }
+                  },
+                  {
+                    "id": "tools_package_managers_yarn",
+                    "count": 1161,
+                    "percentage_question": 72.5,
+                    "percentage_survey": 48.6,
+                    "entity": {
+                      "name": "yarn",
+                      "homepage": {
+                        "url": "https://classic.yarnpkg.com/"
+                      },
+                      "github": {
+                        "url": "https://github.com/yarnpkg/yarn"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/yarn"
+                      }
+                    }
+                  },
+                  {
+                    "id": "tools_package_managers_yarn_berry",
+                    "count": 220,
+                    "percentage_question": 13.8,
+                    "percentage_survey": 9.3,
+                    "entity": {
+                      "name": "yarn berry (yarn v2+)",
+                      "homepage": {
+                        "url": "https://yarnpkg.com/"
+                      },
+                      "github": {
+                        "url": "https://github.com/yarnpkg/berry"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/yarn"
+                      }
+                    }
+                  },
+                  {
+                    "id": "tools_package_managers_pnpm",
+                    "count": 249,
+                    "percentage_question": 15.6,
+                    "percentage_survey": 10.5,
+                    "entity": {
+                      "name": "pnpm",
+                      "homepage": {
+                        "url": "https://pnpm.io/"
+                      },
+                      "description": "Fast, disk space efficient package manager",
+                      "github": {
+                        "url": "https://github.com/pnpm/pnpm"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/pnpm"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "year": 2022,
+            "completion": {
+              "total": 1888,
+              "count": 1304,
+              "percentage_survey": 69.1
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 1888,
+                  "percentage_survey": 69.1,
                   "percentage_question": 100,
                   "count": 1304
                 },
@@ -53,7 +149,7 @@
                     "id": "tools_package_managers_yarn",
                     "count": 891,
                     "percentage_question": 68.4,
-                    "percentage_survey": 47.3,
+                    "percentage_survey": 47.2,
                     "entity": {
                       "name": "yarn",
                       "homepage": {
