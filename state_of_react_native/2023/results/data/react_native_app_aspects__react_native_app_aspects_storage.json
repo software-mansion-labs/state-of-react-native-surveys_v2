@@ -12,23 +12,24 @@
           "react_native_app_aspects_storage_react_native_mmkv",
           "react_native_app_aspects_storage_react_native_mmkv_storage",
           "react_native_app_aspects_storage_react_native_sqlite_storage",
-          "react_native_app_aspects_storage_expo_sqlite"
+          "react_native_app_aspects_storage_expo_sqlite",
+          "react_native_app_aspects_storage_rxdb"
         ],
         "all_years": [
           {
             "year": 2023,
             "completion": {
-              "total": 2391,
+              "total": 3024,
               "count": 1521,
-              "percentage_survey": 63.7
+              "percentage_survey": 50.3
             },
             "facets": [
               {
                 "id": "default",
                 "type": "default",
                 "completion": {
-                  "total": 2391,
-                  "percentage_survey": 115.3,
+                  "total": 3024,
+                  "percentage_survey": 91.2,
                   "percentage_question": 181.2,
                   "count": 2755
                 },
@@ -37,7 +38,7 @@
                     "id": "react_native_app_aspects_storage_react_native_async_storage",
                     "count": 1203,
                     "percentage_question": 79.1,
-                    "percentage_survey": 50.4,
+                    "percentage_survey": 39.8,
                     "entity": {
                       "name": "React Native Async Storage",
                       "homepage": {
@@ -56,7 +57,7 @@
                     "id": "react_native_app_aspects_storage_realm",
                     "count": 141,
                     "percentage_question": 9.3,
-                    "percentage_survey": 5.9,
+                    "percentage_survey": 4.7,
                     "entity": {
                       "name": "Realm",
                       "homepage": {
@@ -75,7 +76,7 @@
                     "id": "react_native_app_aspects_storage_watermelondb",
                     "count": 124,
                     "percentage_question": 8.2,
-                    "percentage_survey": 5.2,
+                    "percentage_survey": 4.2,
                     "entity": {
                       "name": "WatermelonDB",
                       "homepage": {
@@ -94,7 +95,7 @@
                     "id": "react_native_app_aspects_storage_react_native_mmkv",
                     "count": 695,
                     "percentage_question": 45.7,
-                    "percentage_survey": 29.1,
+                    "percentage_survey": 23,
                     "entity": {
                       "name": "react-native-mmkv",
                       "description": "⚡️ The fastest key/value storage for React Native. ~30x faster than AsyncStorage!",
@@ -110,7 +111,7 @@
                     "id": "react_native_app_aspects_storage_react_native_mmkv_storage",
                     "count": 265,
                     "percentage_question": 17.5,
-                    "percentage_survey": 11.1,
+                    "percentage_survey": 8.8,
                     "entity": {
                       "name": "react-native-mmkv-storage",
                       "homepage": {
@@ -129,7 +130,7 @@
                     "id": "react_native_app_aspects_storage_react_native_sqlite_storage",
                     "count": 113,
                     "percentage_question": 7.5,
-                    "percentage_survey": 4.8,
+                    "percentage_survey": 3.8,
                     "entity": {
                       "name": "React Native SQLite Storage",
                       "description": "Full featured SQLite3 Native Plugin for React Native (Android and iOS)",
@@ -145,7 +146,7 @@
                     "id": "react_native_app_aspects_storage_expo_sqlite",
                     "count": 214,
                     "percentage_question": 14.1,
-                    "percentage_survey": 9,
+                    "percentage_survey": 7.1,
                     "entity": {
                       "name": "Expo SQLite",
                       "homepage": {
@@ -153,6 +154,25 @@
                       },
                       "npm": {
                         "url": "https://www.npmjs.com/package/expo-sqlite"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_storage_rxdb",
+                    "count": 0,
+                    "percentage_question": 0,
+                    "percentage_survey": 0,
+                    "entity": {
+                      "name": "RxDB",
+                      "homepage": {
+                        "url": "https://rxdb.info/"
+                      },
+                      "description": "A fast, offline-first, reactive database for JavaScript Applications",
+                      "github": {
+                        "url": "https://github.com/pubkey/rxdb"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/rxdb"
                       }
                     }
                   }
@@ -163,26 +183,26 @@
           {
             "year": 2022,
             "completion": {
-              "total": 1888,
+              "total": 2490,
               "count": 1301,
-              "percentage_survey": 69
+              "percentage_survey": 52.3
             },
             "facets": [
               {
                 "id": "default",
                 "type": "default",
                 "completion": {
-                  "total": 1888,
-                  "percentage_survey": 130.1,
-                  "percentage_question": 188.8,
-                  "count": 2456
+                  "total": 2490,
+                  "percentage_survey": 99.4,
+                  "percentage_question": 190.1,
+                  "count": 2473
                 },
                 "buckets": [
                   {
                     "id": "react_native_app_aspects_storage_react_native_async_storage",
                     "count": 1197,
                     "percentage_question": 92.1,
-                    "percentage_survey": 63.5,
+                    "percentage_survey": 48.1,
                     "entity": {
                       "name": "React Native Async Storage",
                       "homepage": {
@@ -201,7 +221,7 @@
                     "id": "react_native_app_aspects_storage_realm",
                     "count": 179,
                     "percentage_question": 13.8,
-                    "percentage_survey": 9.5,
+                    "percentage_survey": 7.2,
                     "entity": {
                       "name": "Realm",
                       "homepage": {
@@ -220,7 +240,7 @@
                     "id": "react_native_app_aspects_storage_watermelondb",
                     "count": 115,
                     "percentage_question": 8.9,
-                    "percentage_survey": 6.1,
+                    "percentage_survey": 4.7,
                     "entity": {
                       "name": "WatermelonDB",
                       "homepage": {
@@ -239,7 +259,7 @@
                     "id": "react_native_app_aspects_storage_react_native_mmkv",
                     "count": 478,
                     "percentage_question": 36.8,
-                    "percentage_survey": 25.4,
+                    "percentage_survey": 19.2,
                     "entity": {
                       "name": "react-native-mmkv",
                       "description": "⚡️ The fastest key/value storage for React Native. ~30x faster than AsyncStorage!",
@@ -255,7 +275,7 @@
                     "id": "react_native_app_aspects_storage_react_native_mmkv_storage",
                     "count": 213,
                     "percentage_question": 16.4,
-                    "percentage_survey": 11.3,
+                    "percentage_survey": 8.6,
                     "entity": {
                       "name": "react-native-mmkv-storage",
                       "homepage": {
@@ -274,7 +294,7 @@
                     "id": "react_native_app_aspects_storage_react_native_sqlite_storage",
                     "count": 157,
                     "percentage_question": 12.1,
-                    "percentage_survey": 8.4,
+                    "percentage_survey": 6.4,
                     "entity": {
                       "name": "React Native SQLite Storage",
                       "description": "Full featured SQLite3 Native Plugin for React Native (Android and iOS)",
@@ -290,7 +310,7 @@
                     "id": "react_native_app_aspects_storage_expo_sqlite",
                     "count": 117,
                     "percentage_question": 9,
-                    "percentage_survey": 6.2,
+                    "percentage_survey": 4.7,
                     "entity": {
                       "name": "Expo SQLite",
                       "homepage": {
@@ -298,6 +318,25 @@
                       },
                       "npm": {
                         "url": "https://www.npmjs.com/package/expo-sqlite"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_storage_rxdb",
+                    "count": 17,
+                    "percentage_question": 1.4,
+                    "percentage_survey": 0.7,
+                    "entity": {
+                      "name": "RxDB",
+                      "homepage": {
+                        "url": "https://rxdb.info/"
+                      },
+                      "description": "A fast, offline-first, reactive database for JavaScript Applications",
+                      "github": {
+                        "url": "https://github.com/pubkey/rxdb"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/rxdb"
                       }
                     }
                   }

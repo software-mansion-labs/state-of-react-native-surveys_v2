@@ -6,52 +6,81 @@
           "name": "Other data fetching"
         },
         "keys": [
-          "rtkquery",
-          "urql",
+          "urql ",
+          "supabase",
+          "github",
+          "tsdk",
+          "use_http",
+          "react_server_components",
           "firebase",
+          "grpc",
+          "how_about_http",
+          "3_quic",
+          "graphql",
+          "fetch_yo_mama",
+          "electric_sql_heard_of_it_would_like_to_learn",
+          "tinybasejs_heard_of_it_would_like_to_learn",
+          "superagent",
+          "sometimes_getting_unknown_errors_especially_on_android_while_connection_is_good",
+          "firebase_functions",
+          "graphql_request",
+          "frisbee",
+          "ladjs",
+          "frisbee_used_it_would_use_again",
+          "effect_and_associated_libraries_offer_better_solutions",
+          "i_use_these_tools_with_orval_which_can_generate_api_methods_of_swagger_doc_using_custom_axios_instance",
+          "found_it_super_useful",
+          "realm_sync",
+          "snek_query",
+          "hoping_to_see_something_server_component_related_next_year",
+          "tsdk_monorepo",
+          "rest_hooks",
+          "redux_sagas",
+          "hono_rpc",
           "ky",
+          "grpc_web_with_react_native_transport",
+          "own_react_query_like_lib",
           "apisauce",
-          "wretch"
+          "would_like_more_of_a_result_type_instead_of_littering_code_with_try",
+          "catch",
+          "we_as_a_community_should_ve_found_a_way_to",
+          "with_typescript_or_flow",
+          "define_more_explicitly_what_types_of_errors_can_come_out_of_javascript_requests",
+          "i_wish_there_was_a_way_we_could_have_a_request_api",
+          "that_once_we_have_inputs_and_outputs_typed_we_would_not_get_thrown_errors",
+          "but_rather_result_objects",
+          "maybe_some_combination_with_api_contracts_we_could_zod_or_similar_type_expected_results_successresult",
+          "errorresult",
+          "malformedresponse",
+          "timeouts",
+          "servertermination",
+          "networkerrors",
+          "errors",
+          "i_might_ve_missed_something_here",
+          "but_this_should_be_solved_community_wide_in_a_standards_way",
+          "react_native_blob_utils"
         ],
         "all_years": [
           {
-            "year": 2022,
+            "year": 2023,
             "completion": {
-              "total": 1886,
-              "count": 30,
-              "percentage_survey": 1.6
+              "total": 5514,
+              "count": 60,
+              "percentage_survey": 1.1
             },
             "facets": [
               {
                 "completion": {
-                  "total": 1886,
-                  "count": 30,
-                  "percentage_survey": 1.6
+                  "total": 5514,
+                  "count": 60,
+                  "percentage_survey": 1.1
                 },
                 "buckets": [
                   {
-                    "id": "rtkquery",
-                    "count": 14,
-                    "percentage_question": 46.7,
-                    "percentage_survey": 0.8,
-                    "entity": {
-                      "name": "RTK Query",
-                      "homepage": {
-                        "url": "https://redux-toolkit.js.org/rtk-query/overview"
-                      },
-                      "github": {
-                        "url": "https://github.com/reduxjs/redux-toolkit"
-                      },
-                      "npm": {
-                        "url": "https://www.npmjs.com/package/@reduxjs/toolkit"
-                      }
-                    }
-                  },
-                  {
                     "id": "urql",
                     "count": 4,
-                    "percentage_question": 13.4,
-                    "percentage_survey": 0.3,
+                    "percentage_question": 6.7,
+                    "percentage_survey": 0.1,
                     "entity": {
                       "name": "URQL",
                       "homepage": {
@@ -67,10 +96,55 @@
                     }
                   },
                   {
+                    "id": "supabase",
+                    "count": 3,
+                    "percentage_question": 5,
+                    "percentage_survey": 0.1,
+                    "entity": {
+                      "name": "Supabase",
+                      "homepage": {
+                        "url": "https://supabase.com/"
+                      }
+                    }
+                  },
+                  {
+                    "id": "github",
+                    "count": 2,
+                    "percentage_question": 3.4,
+                    "percentage_survey": 0.1,
+                    "entity": {
+                      "name": "GitHub",
+                      "homepage": {
+                        "url": "https://github.com"
+                      }
+                    }
+                  },
+                  {
+                    "id": "tsdk",
+                    "count": 2,
+                    "percentage_question": 3.4,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "use_http",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "react_server_components",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
                     "id": "firebase",
-                    "count": 4,
-                    "percentage_question": 13.4,
-                    "percentage_survey": 0.3,
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
                     "entity": {
                       "name": "Firebase",
                       "homepage": {
@@ -79,10 +153,188 @@
                     }
                   },
                   {
+                    "id": "grpc",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {
+                      "name": "gRPC",
+                      "homepage": {
+                        "url": "https://grpc.io/"
+                      }
+                    }
+                  },
+                  {
+                    "id": "how_about_http",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "3_quic",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "graphql",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "fetch_yo_mama",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "electric_sql_heard_of_it_would_like_to_learn",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "tinybasejs_heard_of_it_would_like_to_learn",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "superagent",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "sometimes_getting_unknown_errors_especially_on_android_while_connection_is_good",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "firebase_functions",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "graphql_request",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {
+                      "name": "graphql-request",
+                      "homepage": {
+                        "url": "https://github.com/prisma-labs/graphql-request"
+                      }
+                    }
+                  },
+                  {
+                    "id": "frisbee",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "ladjs",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "frisbee_used_it_would_use_again",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "effect_and_associated_libraries_offer_better_solutions",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "i_use_these_tools_with_orval_which_can_generate_api_methods_of_swagger_doc_using_custom_axios_instance",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "found_it_super_useful",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "realm_sync",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "snek_query",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "hoping_to_see_something_server_component_related_next_year",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "tsdk_monorepo",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "rest_hooks",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "redux_sagas",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "hono_rpc",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
                     "id": "ky",
-                    "count": 3,
-                    "percentage_question": 10,
-                    "percentage_survey": 0.2,
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
                     "entity": {
                       "name": "Ky",
                       "homepage": {
@@ -98,10 +350,24 @@
                     }
                   },
                   {
+                    "id": "grpc_web_with_react_native_transport",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "own_react_query_like_lib",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
                     "id": "apisauce",
-                    "count": 3,
-                    "percentage_question": 10,
-                    "percentage_survey": 0.2,
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
                     "entity": {
                       "name": "Apisauce",
                       "description": "Axios + standardized errors + request/response transforms.",
@@ -114,23 +380,132 @@
                     }
                   },
                   {
-                    "id": "wretch",
-                    "count": 2,
-                    "percentage_question": 6.7,
-                    "percentage_survey": 0.2,
+                    "id": "would_like_more_of_a_result_type_instead_of_littering_code_with_try",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "catch",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "we_as_a_community_should_ve_found_a_way_to",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "with_typescript_or_flow",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "define_more_explicitly_what_types_of_errors_can_come_out_of_javascript_requests",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "i_wish_there_was_a_way_we_could_have_a_request_api",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "that_once_we_have_inputs_and_outputs_typed_we_would_not_get_thrown_errors",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "but_rather_result_objects",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "maybe_some_combination_with_api_contracts_we_could_zod_or_similar_type_expected_results_successresult",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "errorresult",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "malformedresponse",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "timeouts",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "servertermination",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "networkerrors",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "errors",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
                     "entity": {
-                      "name": "Wretch",
-                      "homepage": {
-                        "url": "https://elbywan.github.io/wretch/"
-                      },
-                      "description": "A tiny wrapper built around fetch with an intuitive syntax. 🍬",
-                      "github": {
-                        "url": "https://github.com/elbywan/wretch"
-                      },
-                      "npm": {
-                        "url": "https://www.npmjs.com/package/wretch"
-                      }
+                      "name": "Errors"
                     }
+                  },
+                  {
+                    "id": "i_might_ve_missed_something_here",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "but_this_should_be_solved_community_wide_in_a_standards_way",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "react_native_blob_utils",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {}
                   }
                 ]
               }

@@ -6,66 +6,108 @@
           "name": "Other storage solutions"
         },
         "keys": [
-          "react_native_keychain",
-          "react_native_encrypted_storage",
-          "react_native_quick_sqlite",
-          "file_system",
+          "redux_persist ",
           "expo_secure_store",
-          "redux_persist"
+          "expo_secure_storage",
+          "firebase",
+          "expo_secret_storage",
+          "react_native_quick_sqlite",
+          "www_npmjs",
+          "package",
+          "expo_sqlite_eloquent_orm",
+          "i_have_tried_realm_but_it_is_less_performant_than_mmkv",
+          "i_use_react_native_keychain_for_secure_storage",
+          "firestore",
+          "rxdb",
+          "react_native_keychain",
+          "react_native_sensitive_info",
+          "react_native_leveldb",
+          "react_native_encrypted_storage",
+          "custom_secure_storage_in_keychain",
+          "react_native_blob_utils",
+          "expo_file_system",
+          "",
+          "expo_securestore",
+          "native"
         ],
         "all_years": [
           {
-            "year": 2022,
+            "year": 2023,
             "completion": {
-              "total": 1886,
-              "count": 15,
-              "percentage_survey": 0.8
+              "total": 5514,
+              "count": 28,
+              "percentage_survey": 0.6
             },
             "facets": [
               {
                 "completion": {
-                  "total": 1886,
-                  "count": 15,
-                  "percentage_survey": 0.8
+                  "total": 5514,
+                  "count": 28,
+                  "percentage_survey": 0.6
                 },
                 "buckets": [
                   {
-                    "id": "react_native_keychain",
+                    "id": "redux_persist",
                     "count": 3,
-                    "percentage_question": 20,
-                    "percentage_survey": 0.2,
+                    "percentage_question": 10.8,
+                    "percentage_survey": 0.1,
                     "entity": {
-                      "name": "react-native-keychain",
-                      "description": "🔑 Keychain Access for React Native",
+                      "name": "Redux Persist",
+                      "description": "persist and rehydrate a redux store",
                       "github": {
-                        "url": "https://github.com/oblador/react-native-keychain"
+                        "url": "https://github.com/rt2zz/redux-persist"
                       },
                       "npm": {
-                        "url": "https://www.npmjs.com/package/react-native-keychain"
+                        "url": "https://www.npmjs.com/package/redux-persist"
                       }
                     }
                   },
                   {
-                    "id": "react_native_encrypted_storage",
+                    "id": "expo_secure_store",
                     "count": 3,
-                    "percentage_question": 20,
-                    "percentage_survey": 0.2,
+                    "percentage_question": 10.8,
+                    "percentage_survey": 0.1,
                     "entity": {
-                      "name": "React Native Encrypted Storage",
-                      "description": "React Native wrapper around EncryptedSharedPreferences and Keychain to provide a secure alternative to Async Storage.",
-                      "github": {
-                        "url": "https://github.com/emeraldsanto/react-native-encrypted-storage"
+                      "name": "expo-secure-store",
+                      "homepage": {
+                        "url": "https://docs.expo.dev/versions/latest/sdk/securestore/"
                       },
                       "npm": {
-                        "url": "https://www.npmjs.com/package/react-native-encrypted-storage"
+                        "url": "https://www.npmjs.com/package/expo-secure-store"
                       }
                     }
+                  },
+                  {
+                    "id": "expo_secure_storage",
+                    "count": 2,
+                    "percentage_question": 7.2,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "firebase",
+                    "count": 1,
+                    "percentage_question": 3.6,
+                    "percentage_survey": 0.1,
+                    "entity": {
+                      "name": "Firebase",
+                      "homepage": {
+                        "url": "https://firebase.google.com/"
+                      }
+                    }
+                  },
+                  {
+                    "id": "expo_secret_storage",
+                    "count": 1,
+                    "percentage_question": 3.6,
+                    "percentage_survey": 0.1,
+                    "entity": {}
                   },
                   {
                     "id": "react_native_quick_sqlite",
-                    "count": 3,
-                    "percentage_question": 20,
-                    "percentage_survey": 0.2,
+                    "count": 1,
+                    "percentage_question": 3.6,
+                    "percentage_survey": 0.1,
                     "entity": {
                       "name": "React Native Quick SQLite",
                       "description": "Fast SQLite for react-native.",
@@ -78,50 +120,147 @@
                     }
                   },
                   {
-                    "id": "file_system",
-                    "count": 2,
-                    "percentage_question": 13.4,
-                    "percentage_survey": 0.2,
-                    "entity": {
-                      "name": "react-native-fs",
-                      "description": "Native filesystem access for react-native",
-                      "github": {
-                        "url": "https://github.com/itinance/react-native-fs"
-                      },
-                      "npm": {
-                        "url": "https://www.npmjs.com/package/react-native-fs"
-                      }
-                    }
+                    "id": "www_npmjs",
+                    "count": 1,
+                    "percentage_question": 3.6,
+                    "percentage_survey": 0.1,
+                    "entity": {}
                   },
                   {
-                    "id": "expo_secure_store",
-                    "count": 2,
-                    "percentage_question": 13.4,
-                    "percentage_survey": 0.2,
+                    "id": "package",
+                    "count": 1,
+                    "percentage_question": 3.6,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "expo_sqlite_eloquent_orm",
+                    "count": 1,
+                    "percentage_question": 3.6,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "i_have_tried_realm_but_it_is_less_performant_than_mmkv",
+                    "count": 1,
+                    "percentage_question": 3.6,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "i_use_react_native_keychain_for_secure_storage",
+                    "count": 1,
+                    "percentage_question": 3.6,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "firestore",
+                    "count": 1,
+                    "percentage_question": 3.6,
+                    "percentage_survey": 0.1,
                     "entity": {
-                      "name": "expo-secure-store",
+                      "name": "Firestore",
                       "homepage": {
-                        "url": "https://docs.expo.dev/versions/latest/sdk/securestore/"
-                      },
-                      "npm": {
-                        "url": "https://www.npmjs.com/package/expo-secure-store"
+                        "url": "https://firebase.google.com/docs/firestore"
                       }
                     }
                   },
                   {
-                    "id": "redux_persist",
-                    "count": 2,
-                    "percentage_question": 13.4,
-                    "percentage_survey": 0.2,
+                    "id": "rxdb",
+                    "count": 1,
+                    "percentage_question": 3.6,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "react_native_keychain",
+                    "count": 1,
+                    "percentage_question": 3.6,
+                    "percentage_survey": 0.1,
                     "entity": {
-                      "name": "Redux Persist",
-                      "description": "persist and rehydrate a redux store",
+                      "name": "react-native-keychain",
+                      "description": "🔑 Keychain Access for React Native",
                       "github": {
-                        "url": "https://github.com/rt2zz/redux-persist"
+                        "url": "https://github.com/oblador/react-native-keychain"
                       },
                       "npm": {
-                        "url": "https://www.npmjs.com/package/redux-persist"
+                        "url": "https://www.npmjs.com/package/react-native-keychain"
                       }
+                    }
+                  },
+                  {
+                    "id": "react_native_sensitive_info",
+                    "count": 1,
+                    "percentage_question": 3.6,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "react_native_leveldb",
+                    "count": 1,
+                    "percentage_question": 3.6,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "react_native_encrypted_storage",
+                    "count": 1,
+                    "percentage_question": 3.6,
+                    "percentage_survey": 0.1,
+                    "entity": {
+                      "name": "React Native Encrypted Storage",
+                      "description": "React Native wrapper around EncryptedSharedPreferences and Keychain to provide a secure alternative to Async Storage.",
+                      "github": {
+                        "url": "https://github.com/emeraldsanto/react-native-encrypted-storage"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/react-native-encrypted-storage"
+                      }
+                    }
+                  },
+                  {
+                    "id": "custom_secure_storage_in_keychain",
+                    "count": 1,
+                    "percentage_question": 3.6,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "react_native_blob_utils",
+                    "count": 1,
+                    "percentage_question": 3.6,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "expo_file_system",
+                    "count": 1,
+                    "percentage_question": 3.6,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "",
+                    "count": 1,
+                    "percentage_question": 3.6,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "expo_securestore",
+                    "count": 1,
+                    "percentage_question": 3.6,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "native",
+                    "count": 1,
+                    "percentage_question": 3.6,
+                    "percentage_survey": 0.1,
+                    "entity": {
+                      "name": "Native"
                     }
                   }
                 ]
