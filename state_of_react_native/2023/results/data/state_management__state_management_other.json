@@ -6,78 +6,19 @@
           "name": "Other state management"
         },
         "keys": [
-          "legend_state ",
+          "legend_state",
           "valtio",
-          "state_decorator",
-          "github",
           "swr",
-          "legendstate",
-          "effector",
-          "use_one",
           "realm",
-          "globalsport",
           "tinybase",
-          "legend_state_and_syncstate",
-          "zedux",
           "rtk_query",
-          "i_d_like_to_see_react_team_officially_support_signal_and",
-          "or_provide_an_api_like_that",
-          "redux_toolkit_query",
-          "mobx_mobx_mobx",
-          "useswr",
           "preact_signals",
-          "effector_js",
-          "unhappy_because_every_developer_have_its_own_pattern_of_doing_things",
-          "saga_used_it_would_not_use_again",
-          "zustand",
-          "redux_saga",
-          "store_state_locally_using_json_file",
-          "legend_state_is_a_game_changer_for_better_performance",
+          "custom solution",
+          "local-storage",
           "relay",
-          "www_npmjs",
-          "package",
-          "overmindjs_is_best",
-          "mobx_keystone_heard_of_it_would_like_to_learn",
-          "legend_state_is_missing",
-          "i_use_valtio_for_my_projects",
-          "local_storage_and_async_storage_universal_wrapper_for_less_crucial_or_adhoc_things",
-          "valtio_used_it_would_not_use_again",
-          "async_nature_of_state_management_is_always_annoying",
-          "i_mean_sometimes_it_should_be_sync",
-          "but_is_async_while_it_is_not_supposed_to_be",
-          "i_still_didn_t_check",
-          "give_more_credit_to_mobx",
-          "best_tool_in_market",
-          "we_have_our_own_internal_solution_that_s_scoped_to_screen",
-          "multi_screen_and_app_states",
-          "yup",
-          "react_native_onyx",
-          "interested_in_legend_state",
-          "urql",
-          "redux_rematch",
+          "overmindjs",
           "onyx",
-          "valtio_heard_of_it_would_like_to_learn",
-          "preact",
-          "signals_react_heard_of_it_would_like_to_learn",
-          "pullstate",
-          "swr_used_it_would_use_again",
-          "using_it_as_main_state_management_for_my_apps",
-          "fracht",
-          "stocked",
-          "rest_hooks",
-          "interested_in_legend",
-          "legend",
-          "legend_state_used_it_and_would_use_again",
-          "rxjs_with_services_is_very_nice",
-          "suhaotian",
-          "jotai",
-          "easy_peasy",
-          "relay_don_t_dare_to_write_any_gql_solution_without_relay_relay_is_gql",
-          "a_literal_equivalence_check_relay_s_state_management_portions_in_docs",
-          "tinydb",
-          "custom_global_object_with_listeners",
-          "mrousavy",
-          "react_native_mmkv"
+          "tinydb"
         ],
         "all_years": [
           {
@@ -97,22 +38,34 @@
                 "buckets": [
                   {
                     "id": "legend_state",
-                    "count": 8,
-                    "percentage_question": 8.5,
-                    "percentage_survey": 0.2,
-                    "entity": {}
+                    "count": 17,
+                    "percentage_question": 18.4,
+                    "percentage_survey": 1.0,
+                    "entity": {
+                      "name": "Legend State",
+                      "description": "Legend-State is a super fast and powerful state library for modern JavaScript apps.",
+                      "homepage": {
+                        "url": "https://legendapp.com/open-source/state/intro/introduction/"
+                      },
+                      "github": {
+                        "url": ""
+                      },
+                      "npm": {
+                        "url": ""
+                      }
+                    }
                   },
                   {
                     "id": "valtio",
-                    "count": 6,
-                    "percentage_question": 6.4,
-                    "percentage_survey": 0.2,
+                    "count": 9,
+                    "percentage_question": 9.7,
+                    "percentage_survey": 0.5,
                     "entity": {
                       "name": "valtio",
                       "homepage": {
                         "url": "https://valtio.pmnd.rs/"
                       },
-                      "description": "💊 Valtio makes proxy-state simple for React and Vanilla",
+                      "description": "\ud83d\udc8a Valtio makes proxy-state simple for React and Vanilla",
                       "github": {
                         "url": "https://github.com/pmndrs/valtio"
                       },
@@ -122,38 +75,10 @@
                     }
                   },
                   {
-                    "id": "state_decorator",
-                    "count": 4,
-                    "percentage_question": 4.3,
-                    "percentage_survey": 0.1,
-                    "entity": {
-                      "name": "StateDecorator",
-                      "description": "React state management library",
-                      "github": {
-                        "url": "https://github.com/GlobalSport/state-decorator"
-                      },
-                      "npm": {
-                        "url": "https://www.npmjs.com/package/state-decorator"
-                      }
-                    }
-                  },
-                  {
-                    "id": "github",
-                    "count": 4,
-                    "percentage_question": 4.3,
-                    "percentage_survey": 0.1,
-                    "entity": {
-                      "name": "GitHub",
-                      "homepage": {
-                        "url": "https://github.com"
-                      }
-                    }
-                  },
-                  {
                     "id": "swr",
-                    "count": 3,
-                    "percentage_question": 3.2,
-                    "percentage_survey": 0.1,
+                    "count": 5,
+                    "percentage_question": 5.4,
+                    "percentage_survey": 0.3,
                     "entity": {
                       "name": "swr",
                       "homepage": {
@@ -169,179 +94,48 @@
                     }
                   },
                   {
-                    "id": "legendstate",
-                    "count": 2,
-                    "percentage_question": 2.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "effector",
-                    "count": 2,
-                    "percentage_question": 2.2,
-                    "percentage_survey": 0.1,
-                    "entity": {
-                      "name": "Effector",
-                      "homepage": {
-                        "url": "https://effector.dev"
-                      },
-                      "description": "Reactive state manager",
-                      "github": {
-                        "url": "effector/effector"
-                      },
-                      "npm": {
-                        "url": "https://www.npmjs.com/package/effector"
-                      }
-                    }
-                  },
-                  {
-                    "id": "use_one",
-                    "count": 2,
-                    "percentage_question": 2.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
                     "id": "realm",
                     "count": 1,
                     "percentage_question": 1.1,
                     "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "globalsport",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
+                    "entity": {
+                      "name": "realm.js",
+                      "description": "",
+                      "homepage": {
+                        "url": "https://realm.io/"
+                      },
+                      "github": {
+                        "url": "https://github.com/realm/realm-js"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/realm"
+                      }
+                    }
                   },
                   {
                     "id": "tinybase",
                     "count": 1,
                     "percentage_question": 1.1,
                     "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "legend_state_and_syncstate",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "zedux",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
+                    "entity": {
+                      "name": "tinybase",
+                      "description": "",
+                      "homepage": {
+                        "url": "https://tinybase.org/"
+                      },
+                      "github": {
+                        "url": ""
+                      },
+                      "npm": {
+                        "url": ""
+                      }
+                    }
                   },
                   {
                     "id": "rtk_query",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {
-                      "name": "RTK Query (Redux Toolkit)",
-                      "homepage": {
-                        "url": "https://redux-toolkit.js.org/rtk-query/overview"
-                      },
-                      "description": "The official, opinionated, batteries-included toolset for efficient Redux development",
-                      "github": {
-                        "url": "https://github.com/reduxjs/redux-toolkit"
-                      },
-                      "npm": {
-                        "url": "https://www.npmjs.com/package/@reduxjs/toolkit"
-                      }
-                    }
-                  },
-                  {
-                    "id": "i_d_like_to_see_react_team_officially_support_signal_and",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "or_provide_an_api_like_that",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "redux_toolkit_query",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "mobx_mobx_mobx",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "useswr",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "preact_signals",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "effector_js",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "unhappy_because_every_developer_have_its_own_pattern_of_doing_things",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "saga_used_it_would_not_use_again",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "zustand",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {
-                      "name": "Zustand",
-                      "homepage": {
-                        "url": "https://zustand.surge.sh"
-                      },
-                      "description": "Bear necessities for state management in React",
-                      "github": {
-                        "url": "pmndrs/zustand"
-                      },
-                      "npm": {
-                        "url": "https://www.npmjs.com/package/zustand"
-                      }
-                    }
-                  },
-                  {
-                    "id": "redux_saga",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
+                    "count": 4,
+                    "percentage_question": 4.4,
+                    "percentage_survey": 0.4,
                     "entity": {
                       "name": "Redux-Saga",
                       "homepage": {
@@ -357,221 +151,10 @@
                     }
                   },
                   {
-                    "id": "store_state_locally_using_json_file",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "legend_state_is_a_game_changer_for_better_performance",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "relay",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {
-                      "name": "Relay",
-                      "homepage": {
-                        "url": "https://relay.dev/"
-                      }
-                    }
-                  },
-                  {
-                    "id": "www_npmjs",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "package",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "overmindjs_is_best",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "mobx_keystone_heard_of_it_would_like_to_learn",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "legend_state_is_missing",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "i_use_valtio_for_my_projects",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "local_storage_and_async_storage_universal_wrapper_for_less_crucial_or_adhoc_things",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "valtio_used_it_would_not_use_again",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "async_nature_of_state_management_is_always_annoying",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "i_mean_sometimes_it_should_be_sync",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "but_is_async_while_it_is_not_supposed_to_be",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "i_still_didn_t_check",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "give_more_credit_to_mobx",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "best_tool_in_market",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "we_have_our_own_internal_solution_that_s_scoped_to_screen",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "multi_screen_and_app_states",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "yup",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {
-                      "name": "Yup",
-                      "homepage": {
-                        "url": "https://github.com/jquense/yup"
-                      },
-                      "description": "Dead simple Object schema validation",
-                      "github": {
-                        "url": "jquense/yup"
-                      },
-                      "npm": {
-                        "url": "https://www.npmjs.com/package/yup"
-                      }
-                    }
-                  },
-                  {
-                    "id": "react_native_onyx",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "interested_in_legend_state",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "urql",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {
-                      "name": "URQL",
-                      "homepage": {
-                        "url": "https://formidable.com/open-source/urql/"
-                      },
-                      "description": "The highly customizable and versatile GraphQL client with which you add on features like normalized caching as you grow.",
-                      "github": {
-                        "url": "https://github.com/urql-graphql/urql"
-                      },
-                      "npm": {
-                        "url": "https://www.npmjs.com/package/urql"
-                      }
-                    }
-                  },
-                  {
-                    "id": "redux_rematch",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "onyx",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "valtio_heard_of_it_would_like_to_learn",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "preact",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
+                    "id": "preact_signals",
+                    "count": 4,
+                    "percentage_question": 4.4,
+                    "percentage_survey": 0.4,
                     "entity": {
                       "name": "Preact",
                       "homepage": {
@@ -587,175 +170,99 @@
                     }
                   },
                   {
-                    "id": "signals_react_heard_of_it_would_like_to_learn",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "pullstate",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "swr_used_it_would_use_again",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "using_it_as_main_state_management_for_my_apps",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "fracht",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "stocked",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "rest_hooks",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "interested_in_legend",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "legend",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "legend_state_used_it_and_would_use_again",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "rxjs_with_services_is_very_nice",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "suhaotian",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "jotai",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
+                    "id": "custom solution",
+                    "count": 3,
+                    "percentage_question": 3.3,
+                    "percentage_survey": 0.3,
                     "entity": {
-                      "name": "Jotai",
+                      "name": "custom solution",
+                      "description": "",
                       "homepage": {
-                        "url": "https://jotai.surge.sh"
+                        "url": ""
                       },
-                      "description": "Primitive, flexible state management for React",
                       "github": {
-                        "url": "pmndrs/jotai"
+                        "url": ""
                       },
                       "npm": {
-                        "url": "https://www.npmjs.com/package/jotai"
+                        "url": ""
                       }
                     }
                   },
                   {
-                    "id": "easy_peasy",
+                    "id": "local-storage",
+                    "count": 5,
+                    "percentage_question": 5.5,
+                    "percentage_survey": 0.5,
+                    "entity": {
+                      "name": "local-storage"
+                    }
+                  },
+                  {
+                    "id": "relay",
                     "count": 1,
                     "percentage_question": 1.1,
                     "percentage_survey": 0.1,
                     "entity": {
-                      "name": "Easy Peasy",
+                      "name": "Relay",
                       "homepage": {
-                        "url": "https://easy-peasy.dev/"
-                      },
-                      "description": "Vegetarian friendly state for React",
-                      "github": {
-                        "url": "https://github.com/ctrlplusb/easy-peasy"
-                      },
-                      "npm": {
-                        "url": "https://www.npmjs.com/package/easy-peasy"
+                        "url": "https://relay.dev/"
                       }
                     }
                   },
                   {
-                    "id": "relay_don_t_dare_to_write_any_gql_solution_without_relay_relay_is_gql",
+                    "id": "overmindjs",
                     "count": 1,
                     "percentage_question": 1.1,
                     "percentage_survey": 0.1,
-                    "entity": {}
+                    "entity": {
+                      "name": "overmindjs",
+                      "description": "",
+                      "homepage": {
+                        "url": ""
+                      },
+                      "github": {
+                        "url": ""
+                      },
+                      "npm": {
+                        "url": ""
+                      }
+                    }
                   },
                   {
-                    "id": "a_literal_equivalence_check_relay_s_state_management_portions_in_docs",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
+                    "id": "onyx",
+                    "count": 2,
+                    "percentage_question": 2.2,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "react-native-onyx",
+                      "description": "",
+                      "homepage": {
+                        "url": "https://github.com/Expensify/react-native-onyx"
+                      },
+                      "github": {
+                        "url": ""
+                      },
+                      "npm": {
+                        "url": ""
+                      }
+                    }
                   },
                   {
                     "id": "tinydb",
                     "count": 1,
                     "percentage_question": 1.1,
                     "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "custom_global_object_with_listeners",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "mrousavy",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "react_native_mmkv",
-                    "count": 1,
-                    "percentage_question": 1.1,
-                    "percentage_survey": 0.1,
                     "entity": {
-                      "name": "react-native-mmkv",
-                      "description": "⚡️ The fastest key/value storage for React Native. ~30x faster than AsyncStorage!",
+                      "name": "tinydb",
+                      "description": "",
+                      "homepage": {
+                        "url": "https://tinydb.readthedocs.io/en/latest/"
+                      },
                       "github": {
-                        "url": "https://github.com/mrousavy/react-native-mmkv"
+                        "url": ""
                       },
                       "npm": {
-                        "url": "https://www.npmjs.com/package/react-native-mmkv"
+                        "url": ""
                       }
                     }
                   }

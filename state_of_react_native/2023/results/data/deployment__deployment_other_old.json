@@ -1,276 +1,248 @@
 {
   "dataAPI": {
     "survey": {
-      "developer_background_platforms_other": {
+      "deployment_other": {
         "entity": {
-          "name": "Other target platforms"
+          "name": "Other ways to build app and submit for the App Store or Google Play"
         },
         "keys": [
-          "huawei##TODO",
-          "fire_tv",
-          "chrome_browser_extension",
-          "not_yet",
-          "web_for_us_encompasses_website_pwa",
-          "firetv",
-          "tv_html",
-          "huawei_appgalery",
-          "looking_to_target_vr",
-          "ar_platforms_as_well",
-          "chrome_extension",
-          "macos_via_electron",
-          "watches",
-          "catalyst",
-          "server_rendering",
-          "xbox",
-          "amazon",
-          "rive",
-          "all_platforms",
-          "ar",
-          "vr",
-          "linux",
-          "we_use_electron_with_our_webapp_to_produce_a_macos_desktop_app",
-          "android_auto",
-          "android_watch_os",
-          "it_s_a_secret",
-          "lg_s_webos",
-          "samsung_s_tizen_tv",
-          "hisense_s_vidaa",
-          "android_huawei"
+          ["xcode_cloud"],
+          ["codemagic"],
+          ["we_use_a_custom_script_to_build_apps_and_then_manually_upload_them_to_each_store", "self_hosted_deployment_server_w", "aws_pulumi_is_a_concept_i_ve_been_recently_curious_of", "custom_ci", "cd_pipeline", "github_eas", "azure_pipelines"],
+          ["jenkins_pipeline_to_push_apps_directly_to_appstore_connect"],
+          ["google_play_console", "manually_through_gradlew_then_upload_in_play_console", "command_line_build_for_android"],
+          ["ionic_io"],
+          ["appflow"],
+          ["manually_with_visual_studio", "manually_via_terminal"],
+          ["github_actions_with_manual_workflow", "github_actions", "custom_github_or_gitlab_pipeline", "fastlane_but_specifically_with_github_actions"],
+          ["runway"]
         ],
         "all_years": [
           {
             "year": 2023,
             "completion": {
               "total": 5514,
-              "count": 32,
+              "count": 31,
               "percentage_survey": 0.6
             },
             "facets": [
               {
                 "completion": {
                   "total": 5514,
-                  "count": 32,
+                  "count": 31,
                   "percentage_survey": 0.6
                 },
                 "buckets": [
                   {
-                    "id": "huawei",
-                    "count": 2,
-                    "percentage_question": 6.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "fire_tv",
-                    "count": 2,
-                    "percentage_question": 6.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "chrome_browser_extension",
-                    "count": 1,
-                    "percentage_question": 3.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "not_yet",
-                    "count": 1,
-                    "percentage_question": 3.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "web_for_us_encompasses_website_pwa",
-                    "count": 1,
-                    "percentage_question": 3.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "firetv",
-                    "count": 1,
-                    "percentage_question": 3.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "tv_html",
-                    "count": 1,
-                    "percentage_question": 3.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "huawei_appgalery",
-                    "count": 1,
-                    "percentage_question": 3.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "looking_to_target_vr",
-                    "count": 1,
-                    "percentage_question": 3.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "ar_platforms_as_well",
-                    "count": 1,
-                    "percentage_question": 3.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "chrome_extension",
-                    "count": 1,
-                    "percentage_question": 3.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "macos_via_electron",
-                    "count": 1,
-                    "percentage_question": 3.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "watches",
-                    "count": 1,
-                    "percentage_question": 3.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "catalyst",
-                    "count": 1,
-                    "percentage_question": 3.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "server_rendering",
-                    "count": 1,
-                    "percentage_question": 3.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "xbox",
-                    "count": 1,
-                    "percentage_question": 3.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "amazon",
-                    "count": 1,
-                    "percentage_question": 3.2,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "rive",
-                    "count": 1,
-                    "percentage_question": 3.2,
+                    "id": "xcode_cloud",
+                    "count": 3,
+                    "percentage_question": 9.7,
                     "percentage_survey": 0.1,
                     "entity": {
-                      "name": "Rive",
+                      "name": "Xcode Cloud",
                       "homepage": {
-                        "url": "https://rive.app/"
-                      },
-                      "github": {
-                        "url": "https://github.com/rive-app/rive-react-native"
-                      },
-                      "npm": {
-                        "url": "https://www.npmjs.com/package/rive-react-native"
+                        "url": "https://developer.apple.com/xcode-cloud/"
                       }
                     }
                   },
                   {
-                    "id": "all_platforms",
+                    "id": "codemagic",
+                    "count": 2,
+                    "percentage_question": 6.5,
+                    "percentage_survey": 0.1,
+                    "entity": {
+                      "name": "Codemagic",
+                      "homepage": {
+                        "url": "https://codemagic.io/"
+                      }
+                    }
+                  },
+                  {
+                    "id": "we_use_a_custom_script_to_build_apps_and_then_manually_upload_them_to_each_store",
                     "count": 1,
-                    "percentage_question": 3.2,
+                    "percentage_question": 3.3,
                     "percentage_survey": 0.1,
                     "entity": {}
                   },
                   {
-                    "id": "ar",
+                    "id": "cli",
                     "count": 1,
-                    "percentage_question": 3.2,
+                    "percentage_question": 3.3,
+                    "percentage_survey": 0.1,
+                    "entity": {
+                      "name": "CLI"
+                    }
+                  },
+                  {
+                    "id": "eas_is_a_bit_expensive",
+                    "count": 1,
+                    "percentage_question": 3.3,
                     "percentage_survey": 0.1,
                     "entity": {}
                   },
                   {
-                    "id": "vr",
+                    "id": "jenkins_pipeline_to_push_apps_directly_to_appstore_connect",
                     "count": 1,
-                    "percentage_question": 3.2,
+                    "percentage_question": 3.3,
                     "percentage_survey": 0.1,
                     "entity": {}
                   },
                   {
-                    "id": "linux",
+                    "id": "google_play_console",
                     "count": 1,
-                    "percentage_question": 3.2,
+                    "percentage_question": 3.3,
                     "percentage_survey": 0.1,
                     "entity": {}
                   },
                   {
-                    "id": "we_use_electron_with_our_webapp_to_produce_a_macos_desktop_app",
+                    "id": "ionic_io",
                     "count": 1,
-                    "percentage_question": 3.2,
+                    "percentage_question": 3.3,
                     "percentage_survey": 0.1,
                     "entity": {}
                   },
                   {
-                    "id": "android_auto",
+                    "id": "appflow",
                     "count": 1,
-                    "percentage_question": 3.2,
+                    "percentage_question": 3.3,
                     "percentage_survey": 0.1,
                     "entity": {}
                   },
                   {
-                    "id": "android_watch_os",
+                    "id": "manually_through_gradlew_then_upload_in_play_console",
                     "count": 1,
-                    "percentage_question": 3.2,
+                    "percentage_question": 3.3,
                     "percentage_survey": 0.1,
                     "entity": {}
                   },
                   {
-                    "id": "it_s_a_secret",
+                    "id": "command_line_build_for_android",
                     "count": 1,
-                    "percentage_question": 3.2,
+                    "percentage_question": 3.3,
                     "percentage_survey": 0.1,
                     "entity": {}
                   },
                   {
-                    "id": "lg_s_webos",
+                    "id": "xcode_for_ios",
                     "count": 1,
-                    "percentage_question": 3.2,
+                    "percentage_question": 3.3,
                     "percentage_survey": 0.1,
                     "entity": {}
                   },
                   {
-                    "id": "samsung_s_tizen_tv",
+                    "id": "manually_with_visual_studio",
                     "count": 1,
-                    "percentage_question": 3.2,
+                    "percentage_question": 3.3,
                     "percentage_survey": 0.1,
                     "entity": {}
                   },
                   {
-                    "id": "hisense_s_vidaa",
+                    "id": "react_native_cli",
                     "count": 1,
-                    "percentage_question": 3.2,
+                    "percentage_question": 3.3,
                     "percentage_survey": 0.1,
                     "entity": {}
                   },
                   {
-                    "id": "android_huawei",
+                    "id": "github_actions_with_manual_workflow",
                     "count": 1,
-                    "percentage_question": 3.2,
+                    "percentage_question": 3.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "github_actions",
+                    "count": 1,
+                    "percentage_question": 3.3,
+                    "percentage_survey": 0.1,
+                    "entity": {
+                      "name": "GitHub Actions",
+                      "homepage": {
+                        "url": "https://github.com/features/actions"
+                      }
+                    }
+                  },
+                  {
+                    "id": "custom_github_or_gitlab_pipeline",
+                    "count": 1,
+                    "percentage_question": 3.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "runway",
+                    "count": 1,
+                    "percentage_question": 3.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "fastlane_but_specifically_with_github_actions",
+                    "count": 1,
+                    "percentage_question": 3.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "self_hosted_deployment_server_w",
+                    "count": 1,
+                    "percentage_question": 3.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "aws_pulumi_is_a_concept_i_ve_been_recently_curious_of",
+                    "count": 1,
+                    "percentage_question": 3.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "can_t_afford_a_mac_to_run_xcode",
+                    "count": 1,
+                    "percentage_question": 3.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "manually_via_terminal",
+                    "count": 1,
+                    "percentage_question": 3.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "custom_ci",
+                    "count": 1,
+                    "percentage_question": 3.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "cd_pipeline",
+                    "count": 1,
+                    "percentage_question": 3.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "github_eas",
+                    "count": 1,
+                    "percentage_question": 3.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "",
+                    "count": 1,
+                    "percentage_question": 3.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "azure_pipelines",
+                    "count": 1,
+                    "percentage_question": 3.3,
                     "percentage_survey": 0.1,
                     "entity": {}
                   }

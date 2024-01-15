@@ -6,34 +6,12 @@
           "name": "Other ways to build app and submit for the App Store or Google Play"
         },
         "keys": [
-          "xcode_cloud ",
+          "xcode_cloud",
           "codemagic",
           "we_use_a_custom_script_to_build_apps_and_then_manually_upload_them_to_each_store",
-          "cli",
-          "eas_is_a_bit_expensive",
-          "jenkins_pipeline_to_push_apps_directly_to_appstore_connect",
           "google_play_console",
           "ionic_io",
-          "appflow",
-          "manually_through_gradlew_then_upload_in_play_console",
-          "command_line_build_for_android",
-          "xcode_for_ios",
-          "manually_with_visual_studio",
-          "react_native_cli",
-          "github_actions_with_manual_workflow",
-          "github_actions",
-          "custom_github_or_gitlab_pipeline",
-          "runway",
-          "fastlane_but_specifically_with_github_actions",
-          "self_hosted_deployment_server_w",
-          "aws_pulumi_is_a_concept_i_ve_been_recently_curious_of",
-          "can_t_afford_a_mac_to_run_xcode",
-          "manually_via_terminal",
-          "custom_ci",
-          "cd_pipeline",
-          "github_eas",
-          "",
-          "azure_pipelines"
+          "runway"
         ],
         "all_years": [
           {
@@ -77,192 +55,57 @@
                   },
                   {
                     "id": "we_use_a_custom_script_to_build_apps_and_then_manually_upload_them_to_each_store",
-                    "count": 1,
-                    "percentage_question": 3.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "cli",
-                    "count": 1,
-                    "percentage_question": 3.3,
-                    "percentage_survey": 0.1,
+                    "count": 12,
+                    "percentage_question": 39.5,
+                    "percentage_survey": 1.2,
                     "entity": {
-                      "name": "CLI"
+                      "name": "custom solution"
                     }
                   },
                   {
-                    "id": "eas_is_a_bit_expensive",
-                    "count": 1,
-                    "percentage_question": 3.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "jenkins_pipeline_to_push_apps_directly_to_appstore_connect",
-                    "count": 1,
-                    "percentage_question": 3.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
                     "id": "google_play_console",
-                    "count": 1,
-                    "percentage_question": 3.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "ionic_io",
-                    "count": 1,
-                    "percentage_question": 3.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "appflow",
-                    "count": 1,
-                    "percentage_question": 3.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "manually_through_gradlew_then_upload_in_play_console",
-                    "count": 1,
-                    "percentage_question": 3.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "command_line_build_for_android",
-                    "count": 1,
-                    "percentage_question": 3.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "xcode_for_ios",
-                    "count": 1,
-                    "percentage_question": 3.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "manually_with_visual_studio",
-                    "count": 1,
-                    "percentage_question": 3.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "react_native_cli",
-                    "count": 1,
-                    "percentage_question": 3.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "github_actions_with_manual_workflow",
-                    "count": 1,
-                    "percentage_question": 3.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "github_actions",
-                    "count": 1,
-                    "percentage_question": 3.3,
-                    "percentage_survey": 0.1,
+                    "count": 5,
+                    "percentage_question": 16.5,
+                    "percentage_survey": 0.6,
                     "entity": {
-                      "name": "GitHub Actions",
+                      "name": "manually",
+                      "description": "",
                       "homepage": {
-                        "url": "https://github.com/features/actions"
+                        "url": ""
+                      },
+                      "github": {
+                        "url": ""
+                      },
+                      "npm": {
+                        "url": ""
                       }
                     }
                   },
                   {
-                    "id": "custom_github_or_gitlab_pipeline",
-                    "count": 1,
-                    "percentage_question": 3.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
+                    "id": "ionic_io",
+                    "count": 2,
+                    "percentage_question": 6.6,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "ionic.io - appflow",
+                      "description": "",
+                      "homepage": {
+                        "url": "https://ionic.io/"
+                      }
+                    }
                   },
                   {
                     "id": "runway",
                     "count": 1,
                     "percentage_question": 3.3,
                     "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "fastlane_but_specifically_with_github_actions",
-                    "count": 1,
-                    "percentage_question": 3.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "self_hosted_deployment_server_w",
-                    "count": 1,
-                    "percentage_question": 3.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "aws_pulumi_is_a_concept_i_ve_been_recently_curious_of",
-                    "count": 1,
-                    "percentage_question": 3.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "can_t_afford_a_mac_to_run_xcode",
-                    "count": 1,
-                    "percentage_question": 3.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "manually_via_terminal",
-                    "count": 1,
-                    "percentage_question": 3.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "custom_ci",
-                    "count": 1,
-                    "percentage_question": 3.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "cd_pipeline",
-                    "count": 1,
-                    "percentage_question": 3.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "github_eas",
-                    "count": 1,
-                    "percentage_question": 3.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "",
-                    "count": 1,
-                    "percentage_question": 3.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "azure_pipelines",
-                    "count": 1,
-                    "percentage_question": 3.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
+                    "entity": {
+                      "name": "runway",
+                      "description": "",
+                      "homepage": {
+                        "url": "https://www.runway.team/integrations/ci-cd"
+                      }
+                    }
                   }
                 ]
               }

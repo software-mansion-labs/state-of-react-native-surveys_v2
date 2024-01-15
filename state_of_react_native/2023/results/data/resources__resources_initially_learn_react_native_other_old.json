@@ -1,262 +1,454 @@
 {
   "dataAPI": {
     "survey": {
-      "react_native_app_aspects_analytics_other": {
+      "resources_initially_learn_react_native_other": {
         "entity": {
-          "name": "Other analytics solutions"
+          "name": "Other learning methods"
         },
         "keys": [
-          "adobe_analytics##TODO",
-          "posthog",
-          "expo_insights",
-          "rudderstack",
-          "adobe",
-          "sentry",
-          "datadog",
-          "webengage",
-          "google_analytics",
-          "dynatrace",
-          "logrocket",
-          "matomo",
-          "aptabase",
-          "adobe_aep",
-          "clevertap",
-          "custom_table_in_database",
-          "newrelic",
-          "karte",
-          "huawei",
-          "uxcam",
-          "tagcommander",
-          "",
-          "i_hate_analytics_tool",
-          "full_of_shit",
-          "mparticle",
-          "fullstory",
-          "pendo",
-          "tealium",
-          "airship",
-          "custom_solution",
-          "ms_application_insight",
-          "branch",
-          "yandex_appmetrica",
-          "adjust",
-          "n",
-          "a",
-          "vexo",
-          "adobe_experience_platform",
-          "heap",
-          "custom",
-          "open_signal",
-          "clarity",
-          "moengage",
-          "log_rocket_and_sentry",
-          "snowplow",
-          "appmetrica",
-          "adobe_analytics_sigh",
-          "countly",
-          "smartlook",
-          "batch",
-          "custom_in_house",
-          "none_of_above_analytics_services_worked_consistently_or_they_caused_problems_with_performance_or_builds",
-          "microsoft_clarity",
-          "braze",
-          "all_exorbitantly_expensive",
-          "posthog_is_really_great_i_used_their_posthog_js_library",
-          "plausible",
-          "matomo_and_posthog",
-          "expo",
-          "new_relic",
-          "piano_analytics",
-          "proprietary_in_house_solution"
+          ["chatgpt", "that_should_absolutely_be_an_option_above_lol_i_used_chatgpt_to_help_me_learn_react_native", "github_copilot"],
+          ["twitter", "x_contributions", "x", "twitter_network", "x_twitter"],
+          ["side_projects", "open_source_projects", "working_on_projects", "big_effort_from_my_side_with_own_projects_and_training"],
+          ["discord_communities", "reading_source_codes_and_helping_out_on_discord", "discord_servers", "discord"],
+          ["read_a_book"],
+          ["libraries_docs", "react_courses_librairies_documentations", "android_docs", "uikit_docs", "docs", "official_docs_and_react_native_newsletter", "examples_provided_on_github_with_in_docs_of_subject_of_interest"],
+          ["github_repos"],
+          ["coursera", "udemy_open_source", "linkedin", "udemy_courses"],
+          ["conferences_and_meetups", "conference_video"],
+          ["reading_source_code", "reading_rn_project_and_libraries_source_code", "downloading_github_repos"],
+          ["asking_contributors"],
+          ["knowledge_sharing_with_colleagues"],
+          ["stackoverflow"]
         ],
         "all_years": [
           {
             "year": 2023,
             "completion": {
               "total": 5514,
-              "count": 82,
+              "count": 78,
               "percentage_survey": 1.5
             },
             "facets": [
               {
                 "completion": {
                   "total": 5514,
-                  "count": 82,
+                  "count": 78,
                   "percentage_survey": 1.5
                 },
                 "buckets": [
                   {
-                    "id": "adobe_analytics",
+                    "id": "chatgpt",
+                    "count": 7,
+                    "percentage_question": 9,
+                    "percentage_survey": 0.2,
+                    "entity": {}
+                  },
+                  {
+                    "id": "twitter",
                     "count": 4,
-                    "percentage_question": 4.9,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "posthog",
-                    "count": 4,
-                    "percentage_question": 4.9,
+                    "percentage_question": 5.2,
                     "percentage_survey": 0.1,
                     "entity": {
-                      "name": "PostHog",
-                      "homepage": {
-                        "url": "https://posthog.com/"
-                      }
+                      "name": "Twitter"
                     }
                   },
                   {
-                    "id": "expo_insights",
+                    "id": "youtube",
                     "count": 3,
-                    "percentage_question": 3.7,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "rudderstack",
-                    "count": 3,
-                    "percentage_question": 3.7,
+                    "percentage_question": 3.9,
                     "percentage_survey": 0.1,
                     "entity": {
-                      "name": "RudderStack",
+                      "name": "YouTube",
                       "homepage": {
-                        "url": "https://rudderstack.com/"
+                        "url": "https://youtube.com"
                       }
                     }
                   },
                   {
-                    "id": "adobe",
-                    "count": 3,
-                    "percentage_question": 3.7,
+                    "id": "open_source_projects",
+                    "count": 2,
+                    "percentage_question": 2.6,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "newsletters",
+                    "count": 2,
+                    "percentage_question": 2.6,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "thisweekinreact",
+                    "count": 1,
+                    "percentage_question": 1.3,
                     "percentage_survey": 0.1,
                     "entity": {
-                      "name": "Adobe Analytics",
+                      "name": "This Week In React",
                       "homepage": {
-                        "url": "https://business.adobe.com/products/analytics/adobe-analytics.html"
+                        "url": "https://thisweekinreact.com/?utm_source=state_of_rn"
                       }
                     }
                   },
                   {
-                    "id": "sentry",
-                    "count": 2,
-                    "percentage_question": 2.5,
+                    "id": "galaxies_dev_website",
+                    "count": 1,
+                    "percentage_question": 1.3,
                     "percentage_survey": 0.1,
                     "entity": {}
                   },
                   {
-                    "id": "datadog",
-                    "count": 2,
-                    "percentage_question": 2.5,
+                    "id": "discord_communities",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "x_contributions",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "that_should_absolutely_be_an_option_above_lol_i_used_chatgpt_to_help_me_learn_react_native",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "i_never_took_a_course",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "read_a_book",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "or_even_watched_a_video",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "libraries_docs",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "github_repos",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "youtube_channels",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "blog_posts",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "reading_source_codes_and_helping_out_on_discord",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "working_on_projects",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "discord_servers",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "coursera",
+                    "count": 1,
+                    "percentage_question": 1.3,
                     "percentage_survey": 0.1,
                     "entity": {
-                      "name": "DataDog",
+                      "name": "Coursera",
                       "homepage": {
-                        "url": "https://www.datadoghq.com/product/log-management/"
+                        "url": "https://www.coursera.com/"
                       }
                     }
                   },
                   {
-                    "id": "webengage",
-                    "count": 2,
-                    "percentage_question": 2.5,
+                    "id": "udemy_open_source",
+                    "count": 1,
+                    "percentage_question": 1.3,
                     "percentage_survey": 0.1,
                     "entity": {}
                   },
                   {
-                    "id": "google_analytics",
-                    "count": 2,
-                    "percentage_question": 2.5,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "dynatrace",
-                    "count": 2,
-                    "percentage_question": 2.5,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "logrocket",
-                    "count": 2,
-                    "percentage_question": 2.5,
+                    "id": "linkedin",
+                    "count": 1,
+                    "percentage_question": 1.3,
                     "percentage_survey": 0.1,
                     "entity": {
-                      "name": "LogRocket",
+                      "name": "LinkedIn",
                       "homepage": {
-                        "url": "https://blog.logrocket.com/"
+                        "url": "https://linkedin.com/"
                       }
                     }
                   },
                   {
-                    "id": "matomo",
-                    "count": 2,
-                    "percentage_question": 2.5,
+                    "id": "conferences_and_meetups",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "side_projects",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "github_copilot",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "reading_rn_project_and_libraries_source_code",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "infinite_red_slack",
+                    "count": 1,
+                    "percentage_question": 1.3,
                     "percentage_survey": 0.1,
                     "entity": {
-                      "name": "Matomo",
+                      "name": "Infinite Red Community",
                       "homepage": {
-                        "url": "https://matomo.org/"
+                        "url": "https://infiniteredcommunity.slack.com/"
                       }
                     }
                   },
                   {
-                    "id": "aptabase",
-                    "count": 2,
-                    "percentage_question": 2.5,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "adobe_aep",
+                    "id": "rtfm",
                     "count": 1,
                     "percentage_question": 1.3,
                     "percentage_survey": 0.1,
                     "entity": {}
                   },
                   {
-                    "id": "clevertap",
+                    "id": "react_courses_librairies_documentations",
                     "count": 1,
                     "percentage_question": 1.3,
                     "percentage_survey": 0.1,
                     "entity": {}
                   },
                   {
-                    "id": "custom_table_in_database",
+                    "id": "x",
                     "count": 1,
                     "percentage_question": 1.3,
                     "percentage_survey": 0.1,
                     "entity": {}
                   },
                   {
-                    "id": "newrelic",
+                    "id": "templates",
                     "count": 1,
                     "percentage_question": 1.3,
                     "percentage_survey": 0.1,
                     "entity": {}
                   },
                   {
-                    "id": "karte",
+                    "id": "starters",
                     "count": 1,
                     "percentage_question": 1.3,
                     "percentage_survey": 0.1,
                     "entity": {}
                   },
                   {
-                    "id": "huawei",
+                    "id": "android_docs",
                     "count": 1,
                     "percentage_question": 1.3,
                     "percentage_survey": 0.1,
                     "entity": {}
                   },
                   {
-                    "id": "uxcam",
+                    "id": "uikit_docs",
                     "count": 1,
                     "percentage_question": 1.3,
                     "percentage_survey": 0.1,
                     "entity": {}
                   },
                   {
-                    "id": "tagcommander",
+                    "id": "googling",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "a_lot_of_youtube",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "reading_source_code",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "discord",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {
+                      "name": "Discord"
+                    }
+                  },
+                  {
+                    "id": "asking_contributors",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "mainly_youtube",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "udemy_courses",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "big_effort_from_my_side_with_own_projects_and_training",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "blog_posts_not_sure_how_you_missed_that_dummies",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "project_based_learning_on_youtube_javascript_mastery",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "notjust_dev",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "and_some_asiatic_creators",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "internal_formation",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "knowledge_sharing_with_colleagues",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "twitter_network",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "online_blogs",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "forums",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {
+                      "name": "Forums"
+                    }
+                  },
+                  {
+                    "id": "articles",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "blogs",
+                    "count": 1,
+                    "percentage_question": 1.3,
+                    "percentage_survey": 0.1,
+                    "entity": {
+                      "name": "Blogs"
+                    }
+                  },
+                  {
+                    "id": "b",
                     "count": 1,
                     "percentage_question": 1.3,
                     "percentage_survey": 0.1,
@@ -270,317 +462,68 @@
                     "entity": {}
                   },
                   {
-                    "id": "i_hate_analytics_tool",
+                    "id": "examples_provided_on_github_with_in_docs_of_subject_of_interest",
                     "count": 1,
                     "percentage_question": 1.3,
                     "percentage_survey": 0.1,
                     "entity": {}
                   },
                   {
-                    "id": "full_of_shit",
+                    "id": "docs",
                     "count": 1,
                     "percentage_question": 1.3,
                     "percentage_survey": 0.1,
                     "entity": {}
                   },
                   {
-                    "id": "mparticle",
+                    "id": "official_docs_and_react_native_newsletter",
                     "count": 1,
                     "percentage_question": 1.3,
                     "percentage_survey": 0.1,
                     "entity": {}
                   },
                   {
-                    "id": "fullstory",
+                    "id": "x_twitter",
                     "count": 1,
                     "percentage_question": 1.3,
                     "percentage_survey": 0.1,
                     "entity": {}
                   },
                   {
-                    "id": "pendo",
+                    "id": "react_native_slack_workspaces",
                     "count": 1,
                     "percentage_question": 1.3,
                     "percentage_survey": 0.1,
                     "entity": {}
                   },
                   {
-                    "id": "tealium",
+                    "id": "tech_blogs",
                     "count": 1,
                     "percentage_question": 1.3,
                     "percentage_survey": 0.1,
                     "entity": {}
                   },
                   {
-                    "id": "airship",
+                    "id": "conference_video",
                     "count": 1,
                     "percentage_question": 1.3,
                     "percentage_survey": 0.1,
                     "entity": {}
                   },
                   {
-                    "id": "custom_solution",
-                    "count": 1,
-                    "percentage_question": 1.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "ms_application_insight",
-                    "count": 1,
-                    "percentage_question": 1.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "branch",
-                    "count": 1,
-                    "percentage_question": 1.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "yandex_appmetrica",
-                    "count": 1,
-                    "percentage_question": 1.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "adjust",
+                    "id": "stackoverflow",
                     "count": 1,
                     "percentage_question": 1.3,
                     "percentage_survey": 0.1,
                     "entity": {
-                      "name": "Adjust",
+                      "name": "Stack Overflow",
                       "homepage": {
-                        "url": "https://www.adjust.com"
+                        "url": "https://stackoverflow.com/"
                       }
                     }
                   },
                   {
-                    "id": "n",
-                    "count": 1,
-                    "percentage_question": 1.3,
-                    "percentage_survey": 0.1,
-                    "entity": {
-                      "name": "N",
-                      "homepage": {
-                        "url": "https://github.com/tj/n"
-                      }
-                    }
-                  },
-                  {
-                    "id": "a",
-                    "count": 1,
-                    "percentage_question": 1.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "vexo",
-                    "count": 1,
-                    "percentage_question": 1.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "adobe_experience_platform",
-                    "count": 1,
-                    "percentage_question": 1.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "heap",
-                    "count": 1,
-                    "percentage_question": 1.3,
-                    "percentage_survey": 0.1,
-                    "entity": {
-                      "name": "Heap",
-                      "homepage": {
-                        "url": "https://www.heap.io/"
-                      }
-                    }
-                  },
-                  {
-                    "id": "custom",
-                    "count": 1,
-                    "percentage_question": 1.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "open_signal",
-                    "count": 1,
-                    "percentage_question": 1.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "clarity",
-                    "count": 1,
-                    "percentage_question": 1.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "moengage",
-                    "count": 1,
-                    "percentage_question": 1.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "log_rocket_and_sentry",
-                    "count": 1,
-                    "percentage_question": 1.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "snowplow",
-                    "count": 1,
-                    "percentage_question": 1.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "appmetrica",
-                    "count": 1,
-                    "percentage_question": 1.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "adobe_analytics_sigh",
-                    "count": 1,
-                    "percentage_question": 1.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "countly",
-                    "count": 1,
-                    "percentage_question": 1.3,
-                    "percentage_survey": 0.1,
-                    "entity": {
-                      "name": "Countly",
-                      "homepage": {
-                        "url": "https://countly.com/"
-                      }
-                    }
-                  },
-                  {
-                    "id": "smartlook",
-                    "count": 1,
-                    "percentage_question": 1.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "batch",
-                    "count": 1,
-                    "percentage_question": 1.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "custom_in_house",
-                    "count": 1,
-                    "percentage_question": 1.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "none_of_above_analytics_services_worked_consistently_or_they_caused_problems_with_performance_or_builds",
-                    "count": 1,
-                    "percentage_question": 1.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "microsoft_clarity",
-                    "count": 1,
-                    "percentage_question": 1.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "braze",
-                    "count": 1,
-                    "percentage_question": 1.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "all_exorbitantly_expensive",
-                    "count": 1,
-                    "percentage_question": 1.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "posthog_is_really_great_i_used_their_posthog_js_library",
-                    "count": 1,
-                    "percentage_question": 1.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "plausible",
-                    "count": 1,
-                    "percentage_question": 1.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "matomo_and_posthog",
-                    "count": 1,
-                    "percentage_question": 1.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "expo",
-                    "count": 1,
-                    "percentage_question": 1.3,
-                    "percentage_survey": 0.1,
-                    "entity": {
-                      "name": "Expo",
-                      "homepage": {
-                        "url": "https://docs.expo.io"
-                      },
-                      "description": "An open-source platform for making universal native apps with React. Expo runs on Android, iOS, and the web.",
-                      "github": {
-                        "url": "expo/expo"
-                      },
-                      "npm": {
-                        "url": "https://www.npmjs.com/package/expo"
-                      }
-                    }
-                  },
-                  {
-                    "id": "new_relic",
-                    "count": 1,
-                    "percentage_question": 1.3,
-                    "percentage_survey": 0.1,
-                    "entity": {
-                      "name": "New Relic",
-                      "homepage": {
-                        "url": "https://newrelic.com/"
-                      }
-                    }
-                  },
-                  {
-                    "id": "piano_analytics",
-                    "count": 1,
-                    "percentage_question": 1.3,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "proprietary_in_house_solution",
+                    "id": "downloading_github_repos",
                     "count": 1,
                     "percentage_question": 1.3,
                     "percentage_survey": 0.1,

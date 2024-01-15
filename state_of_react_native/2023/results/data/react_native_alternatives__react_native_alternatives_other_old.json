@@ -6,12 +6,13 @@
           "name": "Other React Native alternatives"
         },
         "keys": [
-          "capacitor",
-          "titanium",
-          "vue_native",
-          "tauri",
-          "maui",
-          "felgo_is_very_interesting_for_me"
+          ["capacitor", "capacitor_js", "capacitorjs"],
+          ["titanium"],
+          ["vue_native"],
+          ["tauri"],
+          ["maui"],
+          ["felgo_is_very_interesting_for_me"]
+          
         ],
         "all_years": [
           {
@@ -31,9 +32,9 @@
                 "buckets": [
                   {
                     "id": "capacitor",
-                    "count": 5,
-                    "percentage_question": 50,
-                    "percentage_survey": 0.3,
+                    "count": 3,
+                    "percentage_question": 30,
+                    "percentage_survey": 0.1,
                     "entity": {
                       "name": "Capacitor",
                       "homepage": {
@@ -42,23 +43,18 @@
                     }
                   },
                   {
+                    "id": "capacitor_js",
+                    "count": 1,
+                    "percentage_question": 10,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
                     "id": "titanium",
                     "count": 1,
                     "percentage_question": 10,
                     "percentage_survey": 0.1,
-                    "entity": {
-                      "name": "Titanium",
-                      "description": "",
-                      "homepage": {
-                        "url": "https://titaniumsdk.com/"
-                      },
-                      "github": {
-                        "url": ""
-                      },
-                      "npm": {
-                        "url": ""
-                      }
-                    }
+                    "entity": {}
                   },
                   {
                     "id": "vue_native",
@@ -100,38 +96,21 @@
                     "count": 1,
                     "percentage_question": 10,
                     "percentage_survey": 0.1,
-                    "entity": {
-                      "name": "Maui",
-                      "description": "",
-                      "homepage": {
-                        "url": ""
-                      },
-                      "github": {
-                        "url": ""
-                      },
-                      "npm": {
-                        "url": ""
-                      }
-                    }
+                    "entity": {}
                   },
                   {
                     "id": "felgo_is_very_interesting_for_me",
                     "count": 1,
                     "percentage_question": 10,
                     "percentage_survey": 0.1,
-                    "entity": {
-                      "name": "Felgo",
-                      "description": "",
-                      "homepage": {
-                        "url": ""
-                      },
-                      "github": {
-                        "url": ""
-                      },
-                      "npm": {
-                        "url": ""
-                      }
-                    }
+                    "entity": {}
+                  },
+                  {
+                    "id": "capacitorjs",
+                    "count": 1,
+                    "percentage_question": 10,
+                    "percentage_survey": 0.1,
+                    "entity": {}
                   }
                 ]
               }
