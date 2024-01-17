@@ -3,305 +3,880 @@
     "survey": {
       "opinions_missing": {
         "entity": {
-          "name": "Missing features"
+          "name": "Other missing features"
         },
         "keys": [
-          "css_features",
-          "better_debugging/profiling",
-          "first_party_libraries",
-          "out-of-the-box_navigation",
-          "better_web_integration",
-          "better_performance",
-          "better_animations/gestures",
-          "multithreading",
-          "better_documentation",
-          "out-of-the-box_storage",
-          "out-of-the-box_audio_and_video",
-          "better_keyboard_handling",
-          "android_shadows",
-          "better_flatlist",
-          "better_testing",
-          "out-of-the-box_camera",
-          "out-of-the-box_svg",
-          "swiftui/jetpack_compose_integration",
-          "out-of-the-box_filesystem",
+          "10",
+          "ios_local_up_to_date_text_to_speech",
+          "image_caching",
+          "feels_like_kotlin",
+          "swift_native_code_is_a_second_class_citizen",
+          "faster_flatlists_are_by_far_biggest_bottleneck_of_react_native_some_companies_have_particular_screens_implemented_in_native_languages_just_to_work_better_on_low_end_devices",
+          "more_convenient_brownfield_integration_would_be_nice",
+          "to_make_it_easier_to_i_e",
+          "build_90_of_your_app_in_react_native_and_then_only_major",
+          "most_important_lists_in_java",
+          "swift_to_avoid_bottlenecks_caused_by_flatlist",
+          "but_if_flatlist_was_quick_enough",
+          "we_probably_wouldn_t_need_this_at_all",
+          "seperate_scrollview_for_ios_flipping_view_with_animate_freezes_on_ios_when_scrollview_js_enabled",
+          "because_ios_system_overtakes_rules_of_app_with_their_own_scrolling_written_in_system",
+          "better_react_native_upgrader",
+          "ar_support_with_native_ar_reality_kit_and_ar_core",
+          "build_ios_app_on_local_from_windows_or_linux_like_for_android",
+          "no_builtin_way_to_make_context_menus",
+          "rscs",
+          "flatlist_could_be_much_better",
+          "easy_to_use_animation_library",
+          "native_routing",
+          "possibility_to_create_ios_widgets_in_rn_without_swift_ui",
+          "would_mention_better_flatlist_but_we_have_flashlist_should_be_part_of_rn_s_core_though",
+          "better_video_performance",
+          "audio",
+          "video_codecs",
+          "x265",
+          "hdr10",
+          "dolby_vision",
+          "hevc",
+          "av1",
+          "dolby_atmos",
+          "dolby_truehd",
+          "dts",
+          "native_svg_support",
+          "css_transitions",
+          "hot_reloading_most_of_time_it_doesn_t_work",
+          "and_when_it_does_you_reload_anyways_because_you_can_t_trust_it",
+          "svg_support",
+          "flutter_easy_widgets_animation",
+          "grid",
+          "better_web",
+          "better_monorepo_templates_with_multiple_methodologies_nx",
+          "turbopack",
+          "rn_cli",
+          "expo",
+          "web_nextjs",
+          "a_library_akin_to_web_audio_api_or_at_very_least",
+          "a_library_that_can_render_audio_from_a_buffer_like_audioworkletprocessor_from_web_audio_api",
+          "svg",
+          "tcp_socket_connection_built_in_expo_go",
+          "shadows_are_inconsistent_and_too_confusing",
+          "more_accessibility_control",
+          "better_memory_usage_debugging",
+          "no_proper_packages_for_geo_fencing",
+          "missing_first_class_desktop_support_react_native_macos",
+          "windows_doesn_t_isn_t_documented_that_well_and_not_supported_in_expo",
+          "linux_isn_t_available_at_all",
+          "building_react_native_modules_with_spm_packages",
+          "better_media_queries",
+          "keyboard_is_an_extreme_pain",
+          "we_should_be_able_to_run_expensive_things_like_creating_a_file_and_uploading_to_a_sever_in_a_separated_thread_and_not_blocking_ui",
+          "let_s_have_one_list_component_that_is_best_and_not_several",
+          "work_harder_in_native_navigation_react_native_screens",
+          "sheets_should_be_native",
+          "debugging_is_a_dream_for_me",
+          "i_use_realm_and_i_cannot_connect_to_debugger_or_anything",
+          "console_log_all_my_life",
+          "i_also_do_not_use_vscode_i_use_webstorm_and_it_feels_we_owe_something_to_vscode_or_similar",
+          "better_video_player_functionality",
+          "shared_element_transitions_with_video_instagram",
+          "twitter_for_example",
+          "",
+          "music_beats_frequency_library_beats_goes_up_and_down_with_music_frequency",
+          "react_native_screen_recording",
           "stability",
-          "out-of-the-box_payments",
-          "wearable_support",
-          "better_publishing",
-          "AR/VR",
-          "out-of-the-box_permissions",
-          "out-of-the-box_authentication",
-          "easier_upgrades",
-          "native_portals"
+          "preload_screens",
+          "components_to_reduce_wait_time",
+          "avoid_jumping",
+          "access_to_that_synchronous_rendering_to_avoid_jumping_that_early_new_architecture_talks_promised",
+          "keyboard_focus_api",
+          "separate_from_screenreader_focus",
+          "things_like_toast",
+          "modals",
+          "loading_screens",
+          "notifications_and_a_few_others_have_to_be_built_from_scratch_on_a_new_project",
+          "often_with_a_lot_of_boilerplate",
+          "i_feel_like_they_are_ao_basic_that_framework_should_provide_them",
+          "ready_to_use",
+          "by_default",
+          "multithreading_10",
+          "more_core_packages_and_libs_which_guarantee_stability",
+          "rust_integration_1st_party",
+          "richtext_or_wysiwyg_html_editor",
+          "better_inputs",
+          "it_s_not_possible_to_remove_flickering_because_first_character_appears_in_native_and_only_then_is_controlled_by_rn",
+          "ui_kit_that_reflect_native_elements_and_ui_of_ios_and_android",
+          "more_accurate_performance_debugger_for_cpu_and_memory_usage",
+          "being_able_to_pinpoint_it_more_to_a_specific_function_or_callstack",
+          "stable_e2e_platforms",
+          "better_textinput",
+          "better_video_and_audio_components"
         ],
         "all_years": [
           {
-            "year": 2022,
+            "year": 2023,
             "completion": {
-              "total": 1886,
-              "count": 266,
-              "percentage_survey": 14.2
+              "total": 5514,
+              "count": 104,
+              "percentage_survey": 1.9
             },
             "facets": [
               {
                 "completion": {
-                  "total": 1886,
-                  "count": 266,
-                  "percentage_survey": 14.2
+                  "total": 5514,
+                  "count": 104,
+                  "percentage_survey": 1.9
                 },
                 "buckets": [
                   {
-                    "id": "css_features",
-                    "count": 41,
-                    "percentage_question": 15.5,
-                    "percentage_survey": 2.2,
+                    "id": "10",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "ios_local_up_to_date_text_to_speech",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "image_caching",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "feels_like_kotlin",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "swift_native_code_is_a_second_class_citizen",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "faster_flatlists_are_by_far_biggest_bottleneck_of_react_native_some_companies_have_particular_screens_implemented_in_native_languages_just_to_work_better_on_low_end_devices",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "more_convenient_brownfield_integration_would_be_nice",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "to_make_it_easier_to_i_e",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "build_90_of_your_app_in_react_native_and_then_only_major",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "most_important_lists_in_java",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "swift_to_avoid_bottlenecks_caused_by_flatlist",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "but_if_flatlist_was_quick_enough",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "we_probably_wouldn_t_need_this_at_all",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "seperate_scrollview_for_ios_flipping_view_with_animate_freezes_on_ios_when_scrollview_js_enabled",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "because_ios_system_overtakes_rules_of_app_with_their_own_scrolling_written_in_system",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "better_react_native_upgrader",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "ar_support_with_native_ar_reality_kit_and_ar_core",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "build_ios_app_on_local_from_windows_or_linux_like_for_android",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "no_builtin_way_to_make_context_menus",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "rscs",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "flatlist_could_be_much_better",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "easy_to_use_animation_library",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "native_routing",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "possibility_to_create_ios_widgets_in_rn_without_swift_ui",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "would_mention_better_flatlist_but_we_have_flashlist_should_be_part_of_rn_s_core_though",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "better_video_performance",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "audio",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "video_codecs",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "x265",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "hdr10",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "dolby_vision",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "hevc",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "av1",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "dolby_atmos",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "dolby_truehd",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "dts",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "native_svg_support",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "css_transitions",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "hot_reloading_most_of_time_it_doesn_t_work",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "and_when_it_does_you_reload_anyways_because_you_can_t_trust_it",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "svg_support",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "flutter_easy_widgets_animation",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "grid",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
                     "entity": {
-                      "name": "CSS features"
+                      "name": "Grid"
                     }
                   },
                   {
-                    "id": "better_debugging/profiling",
-                    "count": 29,
-                    "percentage_question": 11,
-                    "percentage_survey": 1.6,
+                    "id": "better_web",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "better_monorepo_templates_with_multiple_methodologies_nx",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "turbopack",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
                     "entity": {
-                      "name": "Better debugging/profiling"
+                      "name": "Turbopack",
+                      "homepage": {
+                        "url": "https://turbo.build/pack"
+                      }
                     }
                   },
                   {
-                    "id": "first_party_libraries",
-                    "count": 22,
-                    "percentage_question": 8.3,
-                    "percentage_survey": 1.2,
+                    "id": "rn_cli",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "expo",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
                     "entity": {
-                      "name": "First-party libraries"
+                      "name": "Expo",
+                      "homepage": {
+                        "url": "https://docs.expo.io"
+                      },
+                      "description": "An open-source platform for making universal native apps with React. Expo runs on Android, iOS, and the web.",
+                      "github": {
+                        "url": "expo/expo"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/expo"
+                      }
                     }
                   },
                   {
-                    "id": "out-of-the-box_navigation",
-                    "count": 19,
-                    "percentage_question": 7.2,
-                    "percentage_survey": 1.1,
+                    "id": "web_nextjs",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "a_library_akin_to_web_audio_api_or_at_very_least",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "a_library_that_can_render_audio_from_a_buffer_like_audioworkletprocessor_from_web_audio_api",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "svg",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
                     "entity": {
-                      "name": "Out-of-the-box navigation"
+                      "name": "SVG"
                     }
                   },
                   {
-                    "id": "better_web_integration",
-                    "count": 16,
-                    "percentage_question": 6.1,
-                    "percentage_survey": 0.9,
-                    "entity": {
-                      "name": "Better web integration"
-                    }
+                    "id": "tcp_socket_connection_built_in_expo_go",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
                   },
                   {
-                    "id": "better_performance",
-                    "count": 14,
-                    "percentage_question": 5.3,
-                    "percentage_survey": 0.8,
-                    "entity": {
-                      "name": "Better performance"
-                    }
+                    "id": "shadows_are_inconsistent_and_too_confusing",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
                   },
                   {
-                    "id": "better_animations/gestures",
-                    "count": 12,
-                    "percentage_question": 4.6,
-                    "percentage_survey": 0.7,
-                    "entity": {
-                      "name": "Better animations/gestures"
-                    }
+                    "id": "more_accessibility_control",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
                   },
                   {
-                    "id": "multithreading",
-                    "count": 12,
-                    "percentage_question": 4.6,
-                    "percentage_survey": 0.7,
-                    "entity": {
-                      "name": "Multithreading"
-                    }
+                    "id": "better_memory_usage_debugging",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
                   },
                   {
-                    "id": "better_documentation",
-                    "count": 11,
-                    "percentage_question": 4.2,
-                    "percentage_survey": 0.6,
-                    "entity": {
-                      "name": "Better documentation"
-                    }
+                    "id": "no_proper_packages_for_geo_fencing",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
                   },
                   {
-                    "id": "out-of-the-box_storage",
-                    "count": 11,
-                    "percentage_question": 4.2,
-                    "percentage_survey": 0.6,
-                    "entity": {
-                      "name": "Out-of-the-box storage"
-                    }
+                    "id": "missing_first_class_desktop_support_react_native_macos",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
                   },
                   {
-                    "id": "out-of-the-box_audio_and_video",
-                    "count": 10,
-                    "percentage_question": 3.8,
-                    "percentage_survey": 0.6,
-                    "entity": {
-                      "name": "Out-of-the-box audio/video"
-                    }
+                    "id": "windows_doesn_t_isn_t_documented_that_well_and_not_supported_in_expo",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
                   },
                   {
-                    "id": "better_keyboard_handling",
-                    "count": 6,
-                    "percentage_question": 2.3,
-                    "percentage_survey": 0.4,
-                    "entity": {
-                      "name": "Better keyboard handling"
-                    }
+                    "id": "linux_isn_t_available_at_all",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
                   },
                   {
-                    "id": "android_shadows",
-                    "count": 6,
-                    "percentage_question": 2.3,
-                    "percentage_survey": 0.4,
-                    "entity": {
-                      "name": "Android shadows"
-                    }
+                    "id": "building_react_native_modules_with_spm_packages",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
                   },
                   {
-                    "id": "better_flatlist",
-                    "count": 6,
-                    "percentage_question": 2.3,
-                    "percentage_survey": 0.4,
-                    "entity": {
-                      "name": "Better FlatList"
-                    }
+                    "id": "better_media_queries",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
                   },
                   {
-                    "id": "better_testing",
-                    "count": 6,
-                    "percentage_question": 2.3,
-                    "percentage_survey": 0.4,
-                    "entity": {
-                      "name": "Better testing"
-                    }
+                    "id": "keyboard_is_an_extreme_pain",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
                   },
                   {
-                    "id": "out-of-the-box_camera",
-                    "count": 5,
-                    "percentage_question": 1.9,
-                    "percentage_survey": 0.3,
-                    "entity": {
-                      "name": "Out-of-the-box camera"
-                    }
+                    "id": "we_should_be_able_to_run_expensive_things_like_creating_a_file_and_uploading_to_a_sever_in_a_separated_thread_and_not_blocking_ui",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
                   },
                   {
-                    "id": "out-of-the-box_svg",
-                    "count": 5,
-                    "percentage_question": 1.9,
-                    "percentage_survey": 0.3,
-                    "entity": {
-                      "name": "Out-of-the-box SVG"
-                    }
+                    "id": "let_s_have_one_list_component_that_is_best_and_not_several",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
                   },
                   {
-                    "id": "swiftui/jetpack_compose_integration",
-                    "count": 5,
-                    "percentage_question": 1.9,
-                    "percentage_survey": 0.3,
-                    "entity": {
-                      "name": "SwiftUI/Jetpack Compose integration"
-                    }
+                    "id": "work_harder_in_native_navigation_react_native_screens",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
                   },
                   {
-                    "id": "out-of-the-box_filesystem",
-                    "count": 5,
-                    "percentage_question": 1.9,
-                    "percentage_survey": 0.3,
-                    "entity": {
-                      "name": "Out-of-the-box filesystem"
-                    }
+                    "id": "sheets_should_be_native",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "debugging_is_a_dream_for_me",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "i_use_realm_and_i_cannot_connect_to_debugger_or_anything",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "console_log_all_my_life",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "i_also_do_not_use_vscode_i_use_webstorm_and_it_feels_we_owe_something_to_vscode_or_similar",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "better_video_player_functionality",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "shared_element_transitions_with_video_instagram",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "twitter_for_example",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "music_beats_frequency_library_beats_goes_up_and_down_with_music_frequency",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "react_native_screen_recording",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
                   },
                   {
                     "id": "stability",
-                    "count": 4,
-                    "percentage_question": 1.6,
-                    "percentage_survey": 0.3,
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
                     "entity": {
                       "name": "Stability"
                     }
                   },
                   {
-                    "id": "out-of-the-box_payments",
-                    "count": 3,
-                    "percentage_question": 1.2,
-                    "percentage_survey": 0.2,
-                    "entity": {
-                      "name": "Out-of-the-box payments"
-                    }
+                    "id": "preload_screens",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
                   },
                   {
-                    "id": "wearable_support",
-                    "count": 3,
-                    "percentage_question": 1.2,
-                    "percentage_survey": 0.2,
-                    "entity": {
-                      "name": "Wearable support"
-                    }
+                    "id": "components_to_reduce_wait_time",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
                   },
                   {
-                    "id": "better_publishing",
-                    "count": 3,
-                    "percentage_question": 1.2,
-                    "percentage_survey": 0.2,
-                    "entity": {
-                      "name": "Better publishing"
-                    }
+                    "id": "avoid_jumping",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
                   },
                   {
-                    "id": "AR/VR",
-                    "count": 3,
-                    "percentage_question": 1.2,
-                    "percentage_survey": 0.2,
-                    "entity": {
-                      "name": "AR/VR"
-                    }
+                    "id": "access_to_that_synchronous_rendering_to_avoid_jumping_that_early_new_architecture_talks_promised",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
                   },
                   {
-                    "id": "out-of-the-box_permissions",
-                    "count": 3,
-                    "percentage_question": 1.2,
-                    "percentage_survey": 0.2,
-                    "entity": {
-                      "name": "Out-of-the-box permissions"
-                    }
+                    "id": "keyboard_focus_api",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
                   },
                   {
-                    "id": "out-of-the-box_authentication",
-                    "count": 2,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.2,
-                    "entity": {
-                      "name": "Out-of-the-box authentication"
-                    }
+                    "id": "separate_from_screenreader_focus",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
                   },
                   {
-                    "id": "easier_upgrades",
-                    "count": 2,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.2,
-                    "entity": {
-                      "name": "Easier upgrades"
-                    }
+                    "id": "things_like_toast",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
                   },
                   {
-                    "id": "native_portals",
-                    "count": 2,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.2,
-                    "entity": {
-                      "name": "Native portals"
-                    }
+                    "id": "modals",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "loading_screens",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "notifications_and_a_few_others_have_to_be_built_from_scratch_on_a_new_project",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "often_with_a_lot_of_boilerplate",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "i_feel_like_they_are_ao_basic_that_framework_should_provide_them",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "ready_to_use",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "by_default",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "multithreading_10",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "more_core_packages_and_libs_which_guarantee_stability",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "rust_integration_1st_party",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "richtext_or_wysiwyg_html_editor",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "better_inputs",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "it_s_not_possible_to_remove_flickering_because_first_character_appears_in_native_and_only_then_is_controlled_by_rn",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "ui_kit_that_reflect_native_elements_and_ui_of_ios_and_android",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "more_accurate_performance_debugger_for_cpu_and_memory_usage",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "being_able_to_pinpoint_it_more_to_a_specific_function_or_callstack",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "stable_e2e_platforms",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "better_textinput",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "better_video_and_audio_components",
+                    "count": 1,
+                    "percentage_question": 1,
+                    "percentage_survey": 0.1,
+                    "entity": {}
                   }
                 ]
               }

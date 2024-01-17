@@ -16,39 +16,6 @@
         ],
         "all_years": [
           {
-            "year": 2022,
-            "completion": {
-              "total": 1888,
-              "count": 1832,
-              "percentage_survey": 97.1
-            },
-            "facets": [
-              {
-                "id": "default",
-                "type": "default",
-                "completion": {
-                  "total": 1888,
-                  "count": 1832,
-                  "percentage_survey": 97.1
-                },
-                "buckets": [
-                  {
-                    "id": "yes",
-                    "count": 670,
-                    "percentage_survey": 35.5,
-                    "percentage_question": 36.6
-                  },
-                  {
-                    "id": "no",
-                    "count": 1162,
-                    "percentage_survey": 61.6,
-                    "percentage_question": 63.5
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "year": 2023,
             "completion": {
               "total": 2391,
@@ -76,6 +43,39 @@
                     "count": 1542,
                     "percentage_survey": 64.5,
                     "percentage_question": 66.7
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "year": 2022,
+            "completion": {
+              "total": 1888,
+              "count": 1832,
+              "percentage_survey": 97.1
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 1888,
+                  "count": 1832,
+                  "percentage_survey": 97.1
+                },
+                "buckets": [
+                  {
+                    "id": "yes",
+                    "count": 670,
+                    "percentage_survey": 35.5,
+                    "percentage_question": 36.6
+                  },
+                  {
+                    "id": "no",
+                    "count": 1162,
+                    "percentage_survey": 61.6,
+                    "percentage_question": 63.5
                   }
                 ]
               }

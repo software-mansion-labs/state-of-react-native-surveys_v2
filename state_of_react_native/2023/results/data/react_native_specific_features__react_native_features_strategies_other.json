@@ -1,0 +1,988 @@
+{
+  "dataAPI": {
+    "survey": {
+      "react_native_features_strategies_other": {
+        "entity": {
+          "name": "Other React Native version upgrading strategy"
+        },
+        "keys": [
+          "upgrading_is_limited_to_compatibility_with_libraries_needed_for_apps##TODO",
+          "6_months_upgrade",
+          "fork_react_native_and_add_features",
+          "try_to_find_replacement_to_all_damned_packages_and_then_downgrade_to_a_version_that_still_works_but_a_bit_more_modern",
+          "use_rn_diff_tool",
+          "i_also_tried_flame_cli_to_upgrade_files_automatically_but_it_gets_stuck_in_larger_files_since_it_uses_a_version_of_chat_gpt_api_that_constraint_amount_of_tokens_returned",
+          "staying_at_max_2_versions_after_latest_release",
+          "upgrading_to_next_minor_version_when",
+          "at_least_2_patch_versions_are_released_upgrade_to_0_71_2",
+          "0_72_2",
+          "dependencies_allow_i_e",
+          "reanimated",
+          "pray",
+          "fail",
+          "put_it_off_for_next_few_months",
+          "it_s_pretty_messy",
+          "i_basically_add_my_assets_etc_to_a_fresh_rn_project_when_updating",
+          "automated_solutions_don_t_work_for_me",
+          "compliance_with_google_sdk_mandates",
+          "upgrade_with_expo_sdk_as_well",
+          "using_renovate",
+          "we_try_to_upgrade_as_often_as_possible",
+          "but_amount_of_effort_to_do_so_is_so_huge",
+          "that_we_have_a_hard_time_doing_it_as_often_as_we_would_like_to",
+          "as_an_example",
+          "upgrade_from_0_68_to_0_69_took_3_weeks_of_a_fully_dedicated_developer_s_work",
+          "when_google_or_apple_require_latest_sdk_support",
+          "expo_prebuild",
+          "following_expo_sdk_releases",
+          "for_example_lets_suppose_at_react_native_0_72_4",
+          "i_will_not_upgrade_to_next_small_updates_if_i_dont_benefit",
+          "but_i_will_upgrade_when_next_major_is_released_like_0_73",
+          "we_upgrade_our_app_in_accordance_with_qa_team_quarterly_complete_testing_period",
+          "production_app_is_locked_to_0_63_due_to_hybrid_engine_using_rn",
+          "i_ve_personally_used_latest_rn_in_my_own_side_projects_and_have_been_enjoying_its_new_features",
+          "either_upgrade_occasionally_or_with_expo_sdk_releases_depending_on_if_project_uses_expo",
+          "just_when_i_have_time_to_do_it",
+          "i_stay_on_latest",
+          "but_always_wait_for_a_few_patches_before_upgrading",
+          "preference_is_to_wait_for_patch_releases_after_major_releases",
+          "for_example_waiting_for_0_73_1_or_2",
+          "upgrade_is_made_difficult_as_many_libraries_are_not_updated_to_support_new_rn_architecture",
+          "also_updates_tends_to_break_support_for_very_old_devices",
+          "stay_1_below_latest",
+          "only_upgrade_2_versions_from_latest_release_for_stability",
+          "mostly_upgrade_with_expo_sdk_releases",
+          "however_some_client_work_that_i_do_it_is_usually_stuck_on_older_versions",
+          "stay_on_second_to_last_version",
+          "expo_prebuild_with_config_plugins",
+          "stay_one_major_behind",
+          "usually_at_most_one_version_lag_between_expo_sdk_releases_and_project_version",
+          "exact_timing_is_based_on_schedule",
+          "i_haven_t_had_time_to_upgrade_for_a_ages",
+          "we_create_latest_version_project_then_we_past_our_src_folder_to_new_project_then_we_copy_all_deps_from_package_json_then_we_installed_it_in_new_project_using_yarn",
+          "i_would_love_to_stay_on_latest_version",
+          "but_it_is_absolutely_not_possible_due_to_poor_rn_ecosystem",
+          "meta_releases_3_4_stable_versions_per_year_which_is_already_crazy_to_me",
+          "but_what_is_key_here",
+          "core_libraries",
+          "that_are_widely_used_considering_github_stars_are_either_maintained_poorly_slow_updates",
+          "once_or_twice_a_year_or_are_not_maintained_at_all",
+          "we_are_talking_about_rn_maps_that_still_can_t_be_used_with_newer_rn_arch",
+          "rn_fast_image",
+          "10k_github_stars_library_that_is_abandoned_and_we_can_find_many_more",
+          "every_junior_that_will_look_for_start_with_images_in_rn_will_try_to_use_rn_fast_image_that_is_currently_not_even_working_without_workaround_on_ios17",
+          "that_would_scare_and_disgust_me_2_years_ago_when_i_started_as_programmer",
+          "problem_of_rn_is_that_it_s_core_is_developing_too_fast_and_that_lot_of_community_stuff_is_lacking_behind_terribly",
+          "not_software_mansion_products",
+          "but_many_more",
+          "i_am_scared_of_2024_honestly",
+          "rn_is_already_workaround_of_workaround_of_previous_workaround_in_some_cases",
+          "kudos_to_those",
+          "who_are_up_pace",
+          "there_should_be_some_funding_to_support_these_crucial_libraries_something_like_zoontek_is_trying_to_do_lately_i_guess_to_keep_these_vital_libraries_running",
+          "otherwise_it_won_t_end_well_and_it_will_not_be_because_rn_core_or_rn_navigation_or_so_will_be_bad",
+          "eventually_we_can_all_end_up_with_expo",
+          "but_i_am_not_sure_it_is_what_we_want_yet",
+          "historically_strategy_was_to_update_twice_per_year",
+          "but_68_69_has_proven_especially_challenging",
+          "latest_version_1",
+          "at_fresh_personal_projects_i_like_to_keep_as_up_to_date_as_possible",
+          "at_bigger_projects",
+          "i_ve_run_occasions_where_we_re_limited_by_some_libraries",
+          "dependencies",
+          "and_can_t_update_react_native_as_often_or_as_we_d_like_to",
+          "updating_1_behind_latest_expo_release_o_that_all_serious_bugs_are_worked_out_and_detox_has_caught_up",
+          "using_upgrade_helper_web_page_can_be_tricky_sometimes",
+          "upgrade_and_evaluate_performance",
+          "using_nx_and_react_native_makes_it_hard_to_upgrade_sometimes",
+          "we_upgrade_once_a_year",
+          "usually_during_summer",
+          "we_have_a_lot_of_native_dependency_that_requires_a_lot_of_work_to_integrate_and_manual_testing",
+          "we_try_to_keep_up_one_version_before_last_version",
+          "moving_existing_brownfield_project_to_expo_and_hope_that_will_allow_rn_updates_to_become_easier",
+          "one_minor_version_behind",
+          "review_every_6_months",
+          "upgrading_when_i_will_notice_future_problems",
+          "annually",
+          "i_m_stuck_to_react_native_0_68",
+          "very_difficult_to_upgrade_to_last_one",
+          "try_not_to_fall_behind_in_day_job",
+          "side_projects_don_t_get_upgraded_often_and_only_when_necessary",
+          "stay_1_behind_latest",
+          "always_1_expo_version_behind",
+          "upgrade_to_expo_49_once_50_is_out",
+          "etc",
+          "when_managers_tell_us_to",
+          "due_to_potential_bug_reports",
+          "i_would_prefer_to_make_regular_updates_to_latest_version_at_all_times",
+          "but_developers_almost_never_make_that_call",
+          "i_m_currently_on_a_tv_project_so_i_have_to_rely_on_react_native_tvos_fork",
+          "i_had_trouble_upgrading_to_latest_version_because_of_changes_in_metro",
+          "it_would_have_been_great_to_have_more_in_depth_info_about_what_changed",
+          "stay_on_maybe_stable_recent_version_i_think_it_s_0_71_14",
+          "always_have_a_minor_version_delay_issues_may_have_been_fixed_or_explained",
+          "if_main_packages_fork_fine_in_new_version",
+          "upgrade_to_stable_1_release",
+          "when_business_says_it_s_ok_to_ask_clients_to_bump_their_mobile_firmware",
+          "trying_to_be_max_1_2_behind"
+        ],
+        "all_years": [
+          {
+            "year": 2023,
+            "completion": {
+              "total": 5514,
+              "count": 119,
+              "percentage_survey": 2.2
+            },
+            "facets": [
+              {
+                "completion": {
+                  "total": 5514,
+                  "count": 119,
+                  "percentage_survey": 2.2
+                },
+                "buckets": [
+                  {
+                    "id": "upgrading_is_limited_to_compatibility_with_libraries_needed_for_apps",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "6_months_upgrade",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "fork_react_native_and_add_features",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "try_to_find_replacement_to_all_damned_packages_and_then_downgrade_to_a_version_that_still_works_but_a_bit_more_modern",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "use_rn_diff_tool",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "i_also_tried_flame_cli_to_upgrade_files_automatically_but_it_gets_stuck_in_larger_files_since_it_uses_a_version_of_chat_gpt_api_that_constraint_amount_of_tokens_returned",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "staying_at_max_2_versions_after_latest_release",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "upgrading_to_next_minor_version_when",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "at_least_2_patch_versions_are_released_upgrade_to_0_71_2",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "0_72_2",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "dependencies_allow_i_e",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "reanimated",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "pray",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "fail",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "put_it_off_for_next_few_months",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "it_s_pretty_messy",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "i_basically_add_my_assets_etc_to_a_fresh_rn_project_when_updating",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "automated_solutions_don_t_work_for_me",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "compliance_with_google_sdk_mandates",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "upgrade_with_expo_sdk_as_well",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "using_renovate",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "we_try_to_upgrade_as_often_as_possible",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "but_amount_of_effort_to_do_so_is_so_huge",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "that_we_have_a_hard_time_doing_it_as_often_as_we_would_like_to",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "as_an_example",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "upgrade_from_0_68_to_0_69_took_3_weeks_of_a_fully_dedicated_developer_s_work",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "when_google_or_apple_require_latest_sdk_support",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "expo_prebuild",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "following_expo_sdk_releases",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "for_example_lets_suppose_at_react_native_0_72_4",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "i_will_not_upgrade_to_next_small_updates_if_i_dont_benefit",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "but_i_will_upgrade_when_next_major_is_released_like_0_73",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "we_upgrade_our_app_in_accordance_with_qa_team_quarterly_complete_testing_period",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "production_app_is_locked_to_0_63_due_to_hybrid_engine_using_rn",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "i_ve_personally_used_latest_rn_in_my_own_side_projects_and_have_been_enjoying_its_new_features",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "either_upgrade_occasionally_or_with_expo_sdk_releases_depending_on_if_project_uses_expo",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "just_when_i_have_time_to_do_it",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "i_stay_on_latest",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "but_always_wait_for_a_few_patches_before_upgrading",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "preference_is_to_wait_for_patch_releases_after_major_releases",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "for_example_waiting_for_0_73_1_or_2",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "upgrade_is_made_difficult_as_many_libraries_are_not_updated_to_support_new_rn_architecture",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "also_updates_tends_to_break_support_for_very_old_devices",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "stay_1_below_latest",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "only_upgrade_2_versions_from_latest_release_for_stability",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "mostly_upgrade_with_expo_sdk_releases",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "however_some_client_work_that_i_do_it_is_usually_stuck_on_older_versions",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "stay_on_second_to_last_version",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "expo_prebuild_with_config_plugins",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "stay_one_major_behind",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "usually_at_most_one_version_lag_between_expo_sdk_releases_and_project_version",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "exact_timing_is_based_on_schedule",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "i_haven_t_had_time_to_upgrade_for_a_ages",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "we_create_latest_version_project_then_we_past_our_src_folder_to_new_project_then_we_copy_all_deps_from_package_json_then_we_installed_it_in_new_project_using_yarn",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "i_would_love_to_stay_on_latest_version",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "but_it_is_absolutely_not_possible_due_to_poor_rn_ecosystem",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "meta_releases_3_4_stable_versions_per_year_which_is_already_crazy_to_me",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "but_what_is_key_here",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "core_libraries",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "that_are_widely_used_considering_github_stars_are_either_maintained_poorly_slow_updates",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "once_or_twice_a_year_or_are_not_maintained_at_all",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "we_are_talking_about_rn_maps_that_still_can_t_be_used_with_newer_rn_arch",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "rn_fast_image",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "10k_github_stars_library_that_is_abandoned_and_we_can_find_many_more",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "every_junior_that_will_look_for_start_with_images_in_rn_will_try_to_use_rn_fast_image_that_is_currently_not_even_working_without_workaround_on_ios17",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "that_would_scare_and_disgust_me_2_years_ago_when_i_started_as_programmer",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "problem_of_rn_is_that_it_s_core_is_developing_too_fast_and_that_lot_of_community_stuff_is_lacking_behind_terribly",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "not_software_mansion_products",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "but_many_more",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "i_am_scared_of_2024_honestly",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "rn_is_already_workaround_of_workaround_of_previous_workaround_in_some_cases",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "kudos_to_those",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "who_are_up_pace",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "there_should_be_some_funding_to_support_these_crucial_libraries_something_like_zoontek_is_trying_to_do_lately_i_guess_to_keep_these_vital_libraries_running",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "otherwise_it_won_t_end_well_and_it_will_not_be_because_rn_core_or_rn_navigation_or_so_will_be_bad",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "eventually_we_can_all_end_up_with_expo",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "but_i_am_not_sure_it_is_what_we_want_yet",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "historically_strategy_was_to_update_twice_per_year",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "but_68_69_has_proven_especially_challenging",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "latest_version_1",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "at_fresh_personal_projects_i_like_to_keep_as_up_to_date_as_possible",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "at_bigger_projects",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "i_ve_run_occasions_where_we_re_limited_by_some_libraries",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "dependencies",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {
+                      "name": "Dependencies"
+                    }
+                  },
+                  {
+                    "id": "and_can_t_update_react_native_as_often_or_as_we_d_like_to",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "updating_1_behind_latest_expo_release_o_that_all_serious_bugs_are_worked_out_and_detox_has_caught_up",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "using_upgrade_helper_web_page_can_be_tricky_sometimes",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "upgrade_and_evaluate_performance",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "using_nx_and_react_native_makes_it_hard_to_upgrade_sometimes",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "we_upgrade_once_a_year",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "usually_during_summer",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "we_have_a_lot_of_native_dependency_that_requires_a_lot_of_work_to_integrate_and_manual_testing",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "we_try_to_keep_up_one_version_before_last_version",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "moving_existing_brownfield_project_to_expo_and_hope_that_will_allow_rn_updates_to_become_easier",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "one_minor_version_behind",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "review_every_6_months",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "upgrading_when_i_will_notice_future_problems",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "annually",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "i_m_stuck_to_react_native_0_68",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "very_difficult_to_upgrade_to_last_one",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "try_not_to_fall_behind_in_day_job",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "side_projects_don_t_get_upgraded_often_and_only_when_necessary",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "stay_1_behind_latest",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "always_1_expo_version_behind",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "upgrade_to_expo_49_once_50_is_out",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "etc",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "when_managers_tell_us_to",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "due_to_potential_bug_reports",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "i_would_prefer_to_make_regular_updates_to_latest_version_at_all_times",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "but_developers_almost_never_make_that_call",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "i_m_currently_on_a_tv_project_so_i_have_to_rely_on_react_native_tvos_fork",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "i_had_trouble_upgrading_to_latest_version_because_of_changes_in_metro",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "it_would_have_been_great_to_have_more_in_depth_info_about_what_changed",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "stay_on_maybe_stable_recent_version_i_think_it_s_0_71_14",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "always_have_a_minor_version_delay_issues_may_have_been_fixed_or_explained",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "if_main_packages_fork_fine_in_new_version",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "upgrade_to_stable_1_release",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "when_business_says_it_s_ok_to_ask_clients_to_bump_their_mobile_firmware",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  },
+                  {
+                    "id": "trying_to_be_max_1_2_behind",
+                    "count": 1,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.1,
+                    "entity": {}
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

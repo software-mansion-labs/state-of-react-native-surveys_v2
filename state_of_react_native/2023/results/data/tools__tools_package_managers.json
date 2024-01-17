@@ -9,7 +9,8 @@
           "tools_package_managers_npm",
           "tools_package_managers_yarn",
           "tools_package_managers_yarn_berry",
-          "tools_package_managers_pnpm"
+          "tools_package_managers_pnpm",
+          "tools_package_managers_bun"
         ],
         "all_years": [
           {
@@ -25,9 +26,9 @@
                 "type": "default",
                 "completion": {
                   "total": 2391,
-                  "percentage_survey": 105.1,
-                  "percentage_question": 156.9,
-                  "count": 2512
+                  "percentage_survey": 115,
+                  "percentage_question": 171.6,
+                  "count": 2748
                 },
                 "buckets": [
                   {
@@ -101,6 +102,18 @@
                       },
                       "npm": {
                         "url": "https://www.npmjs.com/package/pnpm"
+                      }
+                    }
+                  },
+                  {
+                    "id": "tools_package_managers_bun",
+                    "count": 236,
+                    "percentage_question": 14.8,
+                    "percentage_survey": 9.9,
+                    "entity": {
+                      "name": "bun",
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/bun"
                       }
                     }
                   }
@@ -197,6 +210,18 @@
                       },
                       "npm": {
                         "url": "https://www.npmjs.com/package/pnpm"
+                      }
+                    }
+                  },
+                  {
+                    "id": "tools_package_managers_bun",
+                    "count": 0,
+                    "percentage_question": 0,
+                    "percentage_survey": 0,
+                    "entity": {
+                      "name": "bun",
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/bun"
                       }
                     }
                   }

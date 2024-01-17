@@ -6,52 +6,42 @@
           "name": "Other data fetching"
         },
         "keys": [
-          "rtkquery",
           "urql",
+          "supabase",
+          "use_http",
           "firebase",
+          "grpc",
+          "electric_sql_heard_of_it_would_like_to_learn",
+          "tinybasejs_heard_of_it_would_like_to_learn",
+          "superagent",
+          "frisbee",
+          "tsdk",
+          "redux_sagas",
           "ky",
-          "apisauce",
-          "wretch"
+          "own_react_query_like_lib",
+          "apisauce"
         ],
         "all_years": [
           {
-            "year": 2022,
+            "year": 2023,
             "completion": {
-              "total": 1886,
-              "count": 30,
-              "percentage_survey": 1.6
+              "total": 5514,
+              "count": 60,
+              "percentage_survey": 1.1
             },
             "facets": [
               {
                 "completion": {
-                  "total": 1886,
-                  "count": 30,
-                  "percentage_survey": 1.6
+                  "total": 5514,
+                  "count": 60,
+                  "percentage_survey": 1.1
                 },
                 "buckets": [
                   {
-                    "id": "rtkquery",
-                    "count": 14,
-                    "percentage_question": 46.7,
-                    "percentage_survey": 0.8,
-                    "entity": {
-                      "name": "RTK Query",
-                      "homepage": {
-                        "url": "https://redux-toolkit.js.org/rtk-query/overview"
-                      },
-                      "github": {
-                        "url": "https://github.com/reduxjs/redux-toolkit"
-                      },
-                      "npm": {
-                        "url": "https://www.npmjs.com/package/@reduxjs/toolkit"
-                      }
-                    }
-                  },
-                  {
                     "id": "urql",
                     "count": 4,
-                    "percentage_question": 13.4,
-                    "percentage_survey": 0.3,
+                    "percentage_question": 6.7,
+                    "percentage_survey": 0.1,
                     "entity": {
                       "name": "URQL",
                       "homepage": {
@@ -67,10 +57,34 @@
                     }
                   },
                   {
+                    "id": "supabase",
+                    "count": 3,
+                    "percentage_question": 5,
+                    "percentage_survey": 0.1,
+                    "entity": {
+                      "name": "Supabase",
+                      "homepage": {
+                        "url": "https://supabase.com/"
+                      }
+                    }
+                  },
+                  {
+                    "id": "use_http",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {
+                      "name": "useFetch",
+                      "homepage": {
+                        "url": "https://github.com/ava/use-http"
+                      }
+                    }
+                  },
+                  {
                     "id": "firebase",
-                    "count": 4,
-                    "percentage_question": 13.4,
-                    "percentage_survey": 0.3,
+                    "count": 2,
+                    "percentage_question": 3.4,
+                    "percentage_survey": 0.2,
                     "entity": {
                       "name": "Firebase",
                       "homepage": {
@@ -79,10 +93,129 @@
                     }
                   },
                   {
-                    "id": "ky",
-                    "count": 3,
-                    "percentage_question": 10,
+                    "id": "grpc",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {
+                      "name": "gRPC",
+                      "homepage": {
+                        "url": "https://grpc.io/"
+                      }
+                    }
+                  },
+                  {
+                    "id": "electric_sql_heard_of_it_would_like_to_learn",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {
+                      "name": "electricSql",
+                      "homepage": {
+                        "url": "https://electric-sql.com/"
+                      }
+                    }
+                  },
+                  {
+                    "id": "tinybasejs_heard_of_it_would_like_to_learn",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {
+                      "name": "tinybasejs_heard_of_it_would_like_to_learn",
+                      "description": "",
+                      "homepage": {
+                        "url": "https://tinybase.org/"
+                      },
+                      "github": {
+                        "url": "https://github.com/tinyplex/tinybase"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/tinybase/v/4.6.1"
+                      }
+                    }
+                  },
+                  {
+                    "id": "superagent",
+                    "count": 2,
+                    "percentage_question": 3.4,
                     "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "superagent",
+                      "description": "",
+                      "homepage": {
+                        "url": "https://github.com/ladjs/superagent"
+                      },
+                      "github": {
+                        "url": "https://github.com/ladjs/superagent"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/superagent"
+                      }
+                    }
+                  },
+                  {
+                    "id": "frisbee",
+                    "count": 2,
+                    "percentage_question": 3.4,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "frisbee",
+                      "description": "",
+                      "homepage": {
+                        "url": "https://github.com/ladjs/frisbee"
+                      },
+                      "github": {
+                        "url": "https://github.com/ladjs/frisbee"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/frisbee"
+                      }
+                    }
+                  },
+                  {
+                    "id": "tsdk",
+                    "count": 3,
+                    "percentage_question": 5.1,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "tsdk",
+                      "description": "",
+                      "homepage": {
+                        "url": ""
+                      },
+                      "github": {
+                        "url": ""
+                      },
+                      "npm": {
+                        "url": ""
+                      }
+                    }
+                  },
+                  {
+                    "id": "redux_sagas",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {
+                      "name": "redux_sagas",
+                      "description": "",
+                      "homepage": {
+                        "url": "https://redux-saga.js.org/"
+                      },
+                      "github": {
+                        "url": "https://github.com/redux-saga/redux-saga"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/redux-saga"
+                      }
+                    }
+                  },
+                  {
+                    "id": "ky",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
                     "entity": {
                       "name": "Ky",
                       "homepage": {
@@ -98,10 +231,29 @@
                     }
                   },
                   {
+                    "id": "own_react_query_like_lib",
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
+                    "entity": {
+                      "name": "custom solution",
+                      "description": "",
+                      "homepage": {
+                        "url": ""
+                      },
+                      "github": {
+                        "url": ""
+                      },
+                      "npm": {
+                        "url": ""
+                      }
+                    }
+                  },
+                  {
                     "id": "apisauce",
-                    "count": 3,
-                    "percentage_question": 10,
-                    "percentage_survey": 0.2,
+                    "count": 1,
+                    "percentage_question": 1.7,
+                    "percentage_survey": 0.1,
                     "entity": {
                       "name": "Apisauce",
                       "description": "Axios + standardized errors + request/response transforms.",
@@ -110,25 +262,6 @@
                       },
                       "npm": {
                         "url": "https://www.npmjs.com/package/apisauce"
-                      }
-                    }
-                  },
-                  {
-                    "id": "wretch",
-                    "count": 2,
-                    "percentage_question": 6.7,
-                    "percentage_survey": 0.2,
-                    "entity": {
-                      "name": "Wretch",
-                      "homepage": {
-                        "url": "https://elbywan.github.io/wretch/"
-                      },
-                      "description": "A tiny wrapper built around fetch with an intuitive syntax. 🍬",
-                      "github": {
-                        "url": "https://github.com/elbywan/wretch"
-                      },
-                      "npm": {
-                        "url": "https://www.npmjs.com/package/wretch"
                       }
                     }
                   }
