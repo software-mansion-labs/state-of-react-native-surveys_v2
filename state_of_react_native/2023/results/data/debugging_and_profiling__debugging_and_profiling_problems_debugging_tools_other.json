@@ -6,145 +6,21 @@
           "name": "Other problems - debugging tools"
         },
         "keys": [
-          "difficulty_figuring_out_how_to_inspect_network_tab ",
-          "xcode_keeps_getting_worse",
-          "recommended_debugging_tool_change_all_time",
-          "upgrading_debugger_always_results_in_a_broken_dx_for_hours_until_versioning_is_figured_out",
-          "flipper_adds_a_lot_of_bloat_and_complicates_builds_by_making_it_slower",
           "its_clunky_and_ux_needs_a_lot_of_improvement",
-          "react_native_debugger_has_had_a_blocking_issue_can_t_find_node_for_months_now_prompting_our_team_to_use_flipper",
-          "reading_network_request_with_debugger_from_expo_sdk_49",
-          "when_connected_to_a_debugger_and_i_force_a_reload_app_crashes",
-          "my_research_says_it_s_a_known_problem_in_reanimated",
-          "i_think_this_should_be_fixed",
-          "not_a_good_developer_experience",
-          "i_ve_had_issues_trying_to_connect_hermes_debugger_with_flipper_it_just_says_cannot_connect_to_metro_instance_and_i_haven_t_been_able_to_find_a_solution_online_and_trying_to_use_chrome_debuger_tools_is_not_allowed_by_reanimated_library_so_i_have_been_disapointed_with_debugging_tools_in_react_native",
+          "often_loses_connection",
           "it_s_just_hard",
           "flipper_instalation_in_ios",
-          "flipper_launch_an_update_per_day",
-          "and_i_don_t_know_if_we_need_to_upgrade_our_project_version_every_time",
-          "port_mapping_is_not_automatic_using_adb",
-          "uncomfortable_hermes_debug_with_chrome",
-          "debugging_is_just_bad",
-          "biggest_problem_with_reacts_native",
-          "i_think_we_all_just_want_to_hit_debug_and_see_breakpoints_working_on_vscode",
-          "without_crashing",
-          "just_never_seems_to_work_always_helping_engineers_get_their_debugging_working",
-          "flipper_didn_t_work_very_well_on_windows",
-          "it_had_problems_displaying_ui_icons_and_gave_error_messages",
-          "constant_updates_but_no_changes_to_flipper",
-          "rn_droppong_flipper",
-          "after_debugger_stopped_working",
-          "debugging_offline_app_behaviour",
-          "none_of_debugging_tools_work_effectively_or_correctly",
-          "flipper_breaks_builds_all_time_and_app_is_very_unstable",
           "debugging_hermes_almost_never_works_correctly",
-          "breakpoints_don_t_set_or_connection_breaks_on_reload_or_crashes_app",
-          "state_of_tooling_in_react_native_is_woeful",
-          "we_re_stuck_with_pretty_much_logging_only",
-          "many_tools_required_to_debug_app",
-          "it_s_very_difficult_to_connect_react_profiler_results_with_issues_that_may_be_occurring_in_business_logic_i_e",
-          "a_problematic_redux_reducer",
-          "it_s_painful_not_having_a_tool_to_debug_not_only_js_but_native_code_in_same_place",
-          "most_of_time_i_ended_up_using_cli_tools_with_a_bunch_of_logs",
-          "most_of_tools_perform_so_badly_they_crash_app_themselves",
-          "flipper_especially",
-          "flipper_should_be_so_much_better_than_it_is_but_it_runs_extremely_slow",
-          "is_unreliable_connecting_to_application_and_updating_it_is_very_annoying",
-          "why_do_i_have_to_download_a_new_dmg_from_website_and_replace_my_file_in",
-          "applications_for_every_new_version",
-          "debugging_memory",
-          "it_s_so_hard_man",
-          "see_what_happens_in_hermes_heap",
-          "what_does_hades",
-          "what_happens_in_java_heap",
-          "which_js_object_retain_how_much_native_memory_c_objects",
-          "etc",
-          "poor_support_for_tracing_network_calls",
-          "no_easy_way_to_see_css_styles_for_a_particular_component",
-          "poor_debugging_experience_of_source_code",
-          "and_constant_battles_trying_to_get_emulator_to_talk_to_debugger_consistently",
-          "in_general",
-          "there_just_needs_to_be_more_clarity_and_documentation_around_what_available_debugging_tools_are",
-          "and_when_to_use_each_one",
-          "right_now_it_s_hard_to_say_what_debugger_is_when_someone_asks",
-          "since_there_are_many",
-          "currently_react_native_debugger_is_best_option_we_have_because_it_is_fast",
-          "and_provides_a_similar_debugging_experience_with_web",
-          "however_it_does_not_yet_support_hermes_so_we_workaround_it_by_using_react_native_devsettings_and_once_hermes_is_supported_it_would_be_go_to_way_for_me",
-          "it_s_a_mess_right_now",
-          "i_m_going_to_release_a_youtube_video_that_clears_up_all_confusion",
-          "often_loses_connection",
-          "flipper_is_pretty_cool_with_layout_inspector_and_other_stuff",
-          "but_whole_compatibility_issue_with_use_frameworks_is_frustrating",
-          "chrome_debugging_used_to_be_really_slow_years_ago_and_incompatible_with_realm_at_time_so_i_ve_never_used_it",
-          "not_sure_how_good_is_it_now",
-          "it_s_never_clear_what_it_is_i_m_supposed_to_be_using_to_debug",
-          "compatibility_issues_plague_this_ecosystem_when_it_comes_to_debuggers",
-          "react_native_is_a_pain_in_ass_to_debug_with_anything_other_than_console_log_and_that_s_pretty_bare_bones",
-          "for_some_reason",
-          "maybe_our_use_of_certain_native_modules",
-          "my_company_isn_t_able_to_fully_use_any_of_provided_debugging_tools_which_is_very_frustrating",
-          "opening_external_dev_tools_in_expo_without_using_interactive_command_line_options_has_been_a_pain_still_can_t_get_it_to_work",
-          "since_we_re_using_a_monorepo",
-          "environment_variables_to_manage_all_those_settings_would_be_great",
-          "also_tried_setting_up_launch_json_in_vscode_but_haven_t_gotten_it_working_yet",
-          "vs_code_and_rn_devtools_rarely_work_for_me",
-          "flipper_is_very_consistent",
-          "but_ide_is_bare_bones",
-          "slow",
-          "slow_flipper",
-          "chrome_devtools_only_works_with_simple_apps",
-          "if_you_have_sqlite_it_wont_work_and_styling_is_messed_up_in_browser",
-          "from_my_experience_most_of_debugging_tools_doesnt_work_in_more_complicated_projects",
-          "only_console_logs_stay_cool_p",
-          "flipper_and_use_frameworks_support",
-          "web_view_debugging_is_very_difficult",
-          "new_architecture_stuff_not_very_debuggable_unless_using_hermes",
-          "and_hermes_is_hard_to_debug_unless_using_vscode",
           "breakpoints_not_working_correctly",
-          "i_just_want_to_see_network_requests_on_debugger_when_not_using_expo",
-          "having_way_too_many_logs_android_studio",
-          "debugging_is_worst_on_rn",
-          "it_is_biggest_issue_on_platform_as_far_as_i_can_tell",
-          "when_my_react_native_project_got_bigger",
-          "debugging_tools_stopped_working_and_app_was_crashing_while_launching_them",
+          "poor_support_for_tracing_network_calls",
+          "from_my_experience_most_of_debugging_tools_doesnt_work_in_more_complicated_projects",
+          "slow_flipper",
+          "flipper_and_use_frameworks_support",
+          "can_t_debug_native_widgets",
+          "recommended_debugging_tool_change_all_time",
           "i_could_not_use_redux_devtools_in_chrome_devtools",
-          "third_party_app_why_did_you_render_was_working_on_some_specific_rn_versions",
-          "i_also_could_not_use_react_native_performance_monitor_flipper_plugin_because_of_some_issues",
-          "biggest_one_for_me_on_my_main_machine_windows_wsl_is_getting_dev_tools_and_debugging_working_with_wsl",
-          "i_d_have_to_see_if_i_have_same_issue_when_developing_off_my_laptop",
-          "i_d_love_to_have_better_tooling_for_debugging_across_board_with_ease_of_setup_as_a_top_priority",
-          "nearly_impossible_to_set_breakpoints_in_code",
-          "when_it_is_possible_breakpoint_is_not_correctly_mapped",
-          "rn_firebase_dropping_flipper_support",
-          "flipper_updates_every_week",
-          "is_too_bad_to_update",
-          "i_am_leaving_from_it",
-          "expo_and_var_env_multi_flavor",
-          "it_can_just_be_greatly_improved",
-          "they_aren_t_easy_to_implement_with_redux",
-          "many_libs_cause_issues_and_make_it_impossible_to_debug_app",
-          "i_ve_had_issues_with_redux_and_reanimated_making_it_impossible_to_navigate_app_when_debug_is_enabled",
-          "jsi_does_not_work_with_remote_debugging_chrome",
-          "network_requests_not_showing",
-          "some_plugins_or_features_not_working_for_some_versions_without_workarounds",
-          "impossible_to_use_rn_debugger_with_mmkv_activated",
-          "exceptions_are_being_thrown_outside_of_my_understanding_and_not_stopping_at_breakpoints",
-          "no_solution_for_inspecting_api_calls_native_side_flipper_incompatible_with_use_framework_force_use_to_use_rn_debugger",
-          "that_use_chrome_client_to_send_requestes_instead_of_native",
-          "debugging_native_api_s_like_appattest",
-          "devicecheck",
-          "otp_pickup_from_sms",
-          "extracting_logs_from_a_production_build",
-          "would_like_to_have_a_good_apollo_plugin_to_devtools",
-          "not_sure_between_hermes_or_not",
-          "i_worked_only_a_month_on_rn_to_date",
-          "every_debugging_tool_works_terribly",
-          "debugging_is_really_broken_in_newer_versions_of_react_native",
-          "enough_so_i_m_starting_to_not_like_react_native_anymore_and_learning_native",
-          "this_needs_to_be_fixed_asap",
-          "can_t_debug_native_widgets"
+          "none_of_debugging_tools_work_effectively_or_correctly",
+          "environment_variables_to_manage_all_those_settings_would_be_great"
         ],
         "all_years": [
           {
@@ -163,979 +39,279 @@
                 },
                 "buckets": [
                   {
-                    "id": "difficulty_figuring_out_how_to_inspect_network_tab",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "xcode_keeps_getting_worse",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "recommended_debugging_tool_change_all_time",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "upgrading_debugger_always_results_in_a_broken_dx_for_hours_until_versioning_is_figured_out",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "flipper_adds_a_lot_of_bloat_and_complicates_builds_by_making_it_slower",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
                     "id": "its_clunky_and_ux_needs_a_lot_of_improvement",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "react_native_debugger_has_had_a_blocking_issue_can_t_find_node_for_months_now_prompting_our_team_to_use_flipper",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "reading_network_request_with_debugger_from_expo_sdk_49",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "when_connected_to_a_debugger_and_i_force_a_reload_app_crashes",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "my_research_says_it_s_a_known_problem_in_reanimated",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "i_think_this_should_be_fixed",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "not_a_good_developer_experience",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "i_ve_had_issues_trying_to_connect_hermes_debugger_with_flipper_it_just_says_cannot_connect_to_metro_instance_and_i_haven_t_been_able_to_find_a_solution_online_and_trying_to_use_chrome_debuger_tools_is_not_allowed_by_reanimated_library_so_i_have_been_disapointed_with_debugging_tools_in_react_native",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "it_s_just_hard",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "flipper_instalation_in_ios",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "flipper_launch_an_update_per_day",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "and_i_don_t_know_if_we_need_to_upgrade_our_project_version_every_time",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "port_mapping_is_not_automatic_using_adb",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "uncomfortable_hermes_debug_with_chrome",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "debugging_is_just_bad",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "biggest_problem_with_reacts_native",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "i_think_we_all_just_want_to_hit_debug_and_see_breakpoints_working_on_vscode",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "without_crashing",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "just_never_seems_to_work_always_helping_engineers_get_their_debugging_working",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "flipper_didn_t_work_very_well_on_windows",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "it_had_problems_displaying_ui_icons_and_gave_error_messages",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "constant_updates_but_no_changes_to_flipper",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "rn_droppong_flipper",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "after_debugger_stopped_working",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "debugging_offline_app_behaviour",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "none_of_debugging_tools_work_effectively_or_correctly",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "flipper_breaks_builds_all_time_and_app_is_very_unstable",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "debugging_hermes_almost_never_works_correctly",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "breakpoints_don_t_set_or_connection_breaks_on_reload_or_crashes_app",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "state_of_tooling_in_react_native_is_woeful",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "we_re_stuck_with_pretty_much_logging_only",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "many_tools_required_to_debug_app",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "it_s_very_difficult_to_connect_react_profiler_results_with_issues_that_may_be_occurring_in_business_logic_i_e",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "a_problematic_redux_reducer",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "it_s_painful_not_having_a_tool_to_debug_not_only_js_but_native_code_in_same_place",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "most_of_time_i_ended_up_using_cli_tools_with_a_bunch_of_logs",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "most_of_tools_perform_so_badly_they_crash_app_themselves",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "flipper_especially",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "flipper_should_be_so_much_better_than_it_is_but_it_runs_extremely_slow",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "is_unreliable_connecting_to_application_and_updating_it_is_very_annoying",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "why_do_i_have_to_download_a_new_dmg_from_website_and_replace_my_file_in",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "applications_for_every_new_version",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "debugging_memory",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "it_s_so_hard_man",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "see_what_happens_in_hermes_heap",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "what_does_hades",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "what_happens_in_java_heap",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "which_js_object_retain_how_much_native_memory_c_objects",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "etc",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "poor_support_for_tracing_network_calls",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "no_easy_way_to_see_css_styles_for_a_particular_component",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "poor_debugging_experience_of_source_code",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "and_constant_battles_trying_to_get_emulator_to_talk_to_debugger_consistently",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "in_general",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "there_just_needs_to_be_more_clarity_and_documentation_around_what_available_debugging_tools_are",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "and_when_to_use_each_one",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "right_now_it_s_hard_to_say_what_debugger_is_when_someone_asks",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "since_there_are_many",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "currently_react_native_debugger_is_best_option_we_have_because_it_is_fast",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "and_provides_a_similar_debugging_experience_with_web",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "however_it_does_not_yet_support_hermes_so_we_workaround_it_by_using_react_native_devsettings_and_once_hermes_is_supported_it_would_be_go_to_way_for_me",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "it_s_a_mess_right_now",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "i_m_going_to_release_a_youtube_video_that_clears_up_all_confusion",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
+                    "count": 3,
+                    "percentage_question": 2.4,
+                    "percentage_survey": 0.3,
+                    "entity": {
+                      "name": "Bad UX",
+                      "description": "",
+                      "homepage": {
+                        "url": ""
+                      },
+                      "github": {
+                        "url": ""
+                      },
+                      "npm": {
+                        "url": ""
+                      }
+                    }
                   },
                   {
                     "id": "often_loses_connection",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
+                    "count": 8,
+                    "percentage_question": 6.4,
+                    "percentage_survey": 0.8,
+                    "entity": {
+                      "name": "Connection and stability issues",
+                      "description": "",
+                      "homepage": {
+                        "url": ""
+                      },
+                      "github": {
+                        "url": ""
+                      },
+                      "npm": {
+                        "url": ""
+                      }
+                    }
                   },
                   {
-                    "id": "flipper_is_pretty_cool_with_layout_inspector_and_other_stuff",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
+                    "id": "it_s_just_hard",
+                    "count": 5,
+                    "percentage_question": 4.0,
+                    "percentage_survey": 0.5,
+                    "entity": {
+                      "name": "It's just hard",
+                      "description": "",
+                      "homepage": {
+                        "url": ""
+                      },
+                      "github": {
+                        "url": ""
+                      },
+                      "npm": {
+                        "url": ""
+                      }
+                    }
                   },
                   {
-                    "id": "but_whole_compatibility_issue_with_use_frameworks_is_frustrating",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
+                    "id": "flipper_instalation_in_ios",
+                    "count": 6,
+                    "percentage_question": 4.8,
+                    "percentage_survey": 0.6,
+                    "entity": {
+                      "name": "Flipper installation",
+                      "description": "",
+                      "homepage": {
+                        "url": ""
+                      },
+                      "github": {
+                        "url": ""
+                      },
+                      "npm": {
+                        "url": ""
+                      }
+                    }
                   },
                   {
-                    "id": "chrome_debugging_used_to_be_really_slow_years_ago_and_incompatible_with_realm_at_time_so_i_ve_never_used_it",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
+                    "id": "debugging_hermes_almost_never_works_correctly",
+                    "count": 6,
+                    "percentage_question": 4.8,
+                    "percentage_survey": 0.6,
+                    "entity": {
+                      "name": "Debugging Hermes",
+                      "description": "",
+                      "homepage": {
+                        "url": ""
+                      },
+                      "github": {
+                        "url": ""
+                      },
+                      "npm": {
+                        "url": ""
+                      }
+                    }
                   },
                   {
-                    "id": "not_sure_how_good_is_it_now",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
+                    "id": "breakpoints_not_working_correctly",
+                    "count": 6,
+                    "percentage_question": 4.8,
+                    "percentage_survey": 0.6,
+                    "entity": {
+                      "name": "Breakpoints not working correctly",
+                      "description": "",
+                      "homepage": {
+                        "url": ""
+                      },
+                      "github": {
+                        "url": ""
+                      },
+                      "npm": {
+                        "url": ""
+                      }
+                    }
                   },
                   {
-                    "id": "it_s_never_clear_what_it_is_i_m_supposed_to_be_using_to_debug",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
+                    "id": "poor_support_for_tracing_network_calls",
+                    "count": 5,
+                    "percentage_question": 4.0,
+                    "percentage_survey": 0.5,
+                    "entity": {
+                      "name": "Poor support for tracing network calls",
+                      "description": "",
+                      "homepage": {
+                        "url": ""
+                      },
+                      "github": {
+                        "url": ""
+                      },
+                      "npm": {
+                        "url": ""
+                      }
+                    }
                   },
                   {
-                    "id": "compatibility_issues_plague_this_ecosystem_when_it_comes_to_debuggers",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
+                    "id": "from_my_experience_most_of_debugging_tools_doesnt_work_in_more_complicated_projects",
+                    "count": 3,
+                    "percentage_question": 2.4,
+                    "percentage_survey": 0.3,
+                    "entity": {
+                      "name": "Not scalable with project complexity",
+                      "description": "",
+                      "homepage": {
+                        "url": ""
+                      },
+                      "github": {
+                        "url": ""
+                      },
+                      "npm": {
+                        "url": ""
+                      }
+                    }
                   },
                   {
-                    "id": "react_native_is_a_pain_in_ass_to_debug_with_anything_other_than_console_log_and_that_s_pretty_bare_bones",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "for_some_reason",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "maybe_our_use_of_certain_native_modules",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "my_company_isn_t_able_to_fully_use_any_of_provided_debugging_tools_which_is_very_frustrating",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "opening_external_dev_tools_in_expo_without_using_interactive_command_line_options_has_been_a_pain_still_can_t_get_it_to_work",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "since_we_re_using_a_monorepo",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "environment_variables_to_manage_all_those_settings_would_be_great",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "also_tried_setting_up_launch_json_in_vscode_but_haven_t_gotten_it_working_yet",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "vs_code_and_rn_devtools_rarely_work_for_me",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "flipper_is_very_consistent",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "but_ide_is_bare_bones",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "slow",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
+                    "id": "slow_flipper",
+                    "count": 4,
+                    "percentage_question": 3.2,
+                    "percentage_survey": 0.4,
                     "entity": {
                       "name": "Slowness"
                     }
                   },
                   {
-                    "id": "slow_flipper",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "chrome_devtools_only_works_with_simple_apps",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "if_you_have_sqlite_it_wont_work_and_styling_is_messed_up_in_browser",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "from_my_experience_most_of_debugging_tools_doesnt_work_in_more_complicated_projects",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "only_console_logs_stay_cool_p",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
                     "id": "flipper_and_use_frameworks_support",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "web_view_debugging_is_very_difficult",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "new_architecture_stuff_not_very_debuggable_unless_using_hermes",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "and_hermes_is_hard_to_debug_unless_using_vscode",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "breakpoints_not_working_correctly",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "i_just_want_to_see_network_requests_on_debugger_when_not_using_expo",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "having_way_too_many_logs_android_studio",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "debugging_is_worst_on_rn",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "it_is_biggest_issue_on_platform_as_far_as_i_can_tell",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "when_my_react_native_project_got_bigger",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "debugging_tools_stopped_working_and_app_was_crashing_while_launching_them",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "i_could_not_use_redux_devtools_in_chrome_devtools",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "third_party_app_why_did_you_render_was_working_on_some_specific_rn_versions",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "i_also_could_not_use_react_native_performance_monitor_flipper_plugin_because_of_some_issues",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "biggest_one_for_me_on_my_main_machine_windows_wsl_is_getting_dev_tools_and_debugging_working_with_wsl",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "i_d_have_to_see_if_i_have_same_issue_when_developing_off_my_laptop",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "i_d_love_to_have_better_tooling_for_debugging_across_board_with_ease_of_setup_as_a_top_priority",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "nearly_impossible_to_set_breakpoints_in_code",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "when_it_is_possible_breakpoint_is_not_correctly_mapped",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "rn_firebase_dropping_flipper_support",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "flipper_updates_every_week",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "is_too_bad_to_update",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "i_am_leaving_from_it",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "expo_and_var_env_multi_flavor",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "it_can_just_be_greatly_improved",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "they_aren_t_easy_to_implement_with_redux",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "many_libs_cause_issues_and_make_it_impossible_to_debug_app",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "i_ve_had_issues_with_redux_and_reanimated_making_it_impossible_to_navigate_app_when_debug_is_enabled",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "jsi_does_not_work_with_remote_debugging_chrome",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "network_requests_not_showing",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "some_plugins_or_features_not_working_for_some_versions_without_workarounds",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "impossible_to_use_rn_debugger_with_mmkv_activated",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "exceptions_are_being_thrown_outside_of_my_understanding_and_not_stopping_at_breakpoints",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "no_solution_for_inspecting_api_calls_native_side_flipper_incompatible_with_use_framework_force_use_to_use_rn_debugger",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "that_use_chrome_client_to_send_requestes_instead_of_native",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "debugging_native_api_s_like_appattest",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "devicecheck",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "otp_pickup_from_sms",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "extracting_logs_from_a_production_build",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "would_like_to_have_a_good_apollo_plugin_to_devtools",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "not_sure_between_hermes_or_not",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "i_worked_only_a_month_on_rn_to_date",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "every_debugging_tool_works_terribly",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "debugging_is_really_broken_in_newer_versions_of_react_native",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "enough_so_i_m_starting_to_not_like_react_native_anymore_and_learning_native",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
-                  },
-                  {
-                    "id": "this_needs_to_be_fixed_asap",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
+                    "count": 9,
+                    "percentage_question": 7.2,
+                    "percentage_survey": 0.9,
+                    "entity": {
+                      "name": "Flipper support and compatiblity",
+                      "description": "",
+                      "homepage": {
+                        "url": ""
+                      },
+                      "github": {
+                        "url": ""
+                      },
+                      "npm": {
+                        "url": ""
+                      }
+                    }
                   },
                   {
                     "id": "can_t_debug_native_widgets",
-                    "count": 1,
-                    "percentage_question": 0.8,
-                    "percentage_survey": 0.1,
-                    "entity": {}
+                    "count": 5,
+                    "percentage_question": 4.0,
+                    "percentage_survey": 0.5,
+                    "entity": {
+                      "name": "Can't debug native modules/code",
+                      "description": "",
+                      "homepage": {
+                        "url": ""
+                      },
+                      "github": {
+                        "url": ""
+                      },
+                      "npm": {
+                        "url": ""
+                      }
+                    }
+                  },
+                  {
+                    "id": "recommended_debugging_tool_change_all_time",
+                    "count": 5,
+                    "percentage_question": 4.0,
+                    "percentage_survey": 0.5,
+                    "entity": {
+                      "name": "No single recommended toolset",
+                      "description": "",
+                      "homepage": {
+                        "url": ""
+                      },
+                      "github": {
+                        "url": ""
+                      },
+                      "npm": {
+                        "url": ""
+                      }
+                    }
+                  },
+                  {
+                    "id": "i_could_not_use_redux_devtools_in_chrome_devtools",
+                    "count": 3,
+                    "percentage_question": 2.4,
+                    "percentage_survey": 0.3,
+                    "entity": {
+                      "name": "Issues with Redux",
+                      "description": "",
+                      "homepage": {
+                        "url": ""
+                      },
+                      "github": {
+                        "url": ""
+                      },
+                      "npm": {
+                        "url": ""
+                      }
+                    }
+                  },
+                  {
+                    "id": "none_of_debugging_tools_work_effectively_or_correctly",
+                    "count": 5,
+                    "percentage_question": 4.0,
+                    "percentage_survey": 0.5,
+                    "entity": {
+                      "name": "No single tool is sufficient",
+                      "description": "",
+                      "homepage": {
+                        "url": ""
+                      },
+                      "github": {
+                        "url": ""
+                      },
+                      "npm": {
+                        "url": ""
+                      }
+                    }
+                  },
+                  {
+                    "id": "environment_variables_to_manage_all_those_settings_would_be_great",
+                    "count": 2,
+                    "percentage_question": 1.6,
+                    "percentage_survey": 0.2,
+                    "entity": {
+                      "name": "Lack of reusable config",
+                      "description": "",
+                      "homepage": {
+                        "url": ""
+                      },
+                      "github": {
+                        "url": ""
+                      },
+                      "npm": {
+                        "url": ""
+                      }
+                    }
                   }
                 ]
               }
