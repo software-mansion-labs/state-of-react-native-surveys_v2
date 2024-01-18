@@ -8,6 +8,7 @@ def open_json_file(file_path):
 def merge_objects(obj1, obj2):
   merged_data = {}
   merged_data["id"] = obj1["id"]
+  print(f'Objs: {obj1} {obj2}')
   merged_data["count"] = round(obj1["count"] + obj2["count"], 2)
   merged_data["percentage_question"] = round(obj1["percentage_question"] + obj2["percentage_question"], 2)
   merged_data["percentage_survey"] = round(obj1["percentage_survey"] + obj2["percentage_survey"], 2)
@@ -21,22 +22,25 @@ def find_object_by_id(objects, id):
       return obj
   return None
 
-file_path = 'debugging_and_profiling__debugging_and_profiling_problems_debugging_tools_other.json' # to trzeba zmienić
-question_key = 'debugging_and_profiling_problems_debugging_tools_other' # i tu te to trzeba zmienić
+file_path = 'debugging_and_profiling__debugging_and_profiling_profiling_tools_other.json' # to trzeba zmienic
+question_key = 'debugging_and_profiling_profiling_tools_other' # i tu te to trzeba zmienic
 
 json_data = open_json_file(file_path)
 new_data = []
 new_keys = []
 current_data = json_data['dataAPI']['survey'][question_key]['all_years'][0]['facets'][0]['buckets']
 keys = json_data['dataAPI']['survey'][question_key]['keys']
+
 for group in keys:
   if type(group) == list:
+    print(f'Group0 {group[0]}')
     new_keys.append(group[0])
     merged_data = find_object_by_id(current_data, group[0])
     if merged_data == None:
       print(f'Could not find object with id {group[0]}')
       continue
     for i in range(1, len(group)):
+      print(f'Group {group[i]}')
       merged_data = merge_objects(merged_data, find_object_by_id(current_data, group[i]))
     if 'name' not in merged_data["entity"]:
       merged_data["entity"]["name"] = group[0]
