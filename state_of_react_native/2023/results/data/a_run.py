@@ -22,8 +22,8 @@ def find_object_by_id(objects, id):
       return obj
   return None
 
-file_path = 'debugging_and_profiling__debugging_and_profiling_profiling_tools_other.json' # to trzeba zmienic
-question_key = 'debugging_and_profiling_profiling_tools_other' # i tu te to trzeba zmienic
+file_path = 'resources__resources_video.json' # to trzeba zmienic
+question_key = 'resources_video' # i tu te to trzeba zmienic
 
 json_data = open_json_file(file_path)
 new_data = []
@@ -33,14 +33,12 @@ keys = json_data['dataAPI']['survey'][question_key]['keys']
 
 for group in keys:
   if type(group) == list:
-    print(f'Group0 {group[0]}')
     new_keys.append(group[0])
     merged_data = find_object_by_id(current_data, group[0])
     if merged_data == None:
       print(f'Could not find object with id {group[0]}')
       continue
     for i in range(1, len(group)):
-      print(f'Group {group[i]}')
       merged_data = merge_objects(merged_data, find_object_by_id(current_data, group[i]))
     if 'name' not in merged_data["entity"]:
       merged_data["entity"]["name"] = group[0]
