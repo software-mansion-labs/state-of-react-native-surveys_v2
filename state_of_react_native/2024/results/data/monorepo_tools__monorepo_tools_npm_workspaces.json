@@ -1,0 +1,73 @@
+{
+  "dataAPI": {
+    "survey": {
+      "monorepo_tools_npm_workspaces": {
+        "id": "monorepo_tools_npm_workspaces",
+        "entity": {
+          "name": "npm workspaces",
+          "homepage": {
+            "url": "https://docs.npmjs.com/cli/v7/using-npm/workspaces"
+          },
+          "npm": {
+            "url": "https://www.npmjs.com/package/npm"
+          }
+        },
+        "experience": {
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 2490,
+                "count": 1218,
+                "percentage_survey": 49
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 139,
+                      "percentage_survey": 5.6,
+                      "percentage_question": 11.5
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 83,
+                      "percentage_survey": 3.4,
+                      "percentage_question": 6.9
+                    },
+                    {
+                      "id": "interested",
+                      "count": 327,
+                      "percentage_survey": 13.2,
+                      "percentage_question": 26.9
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 325,
+                      "percentage_survey": 13.1,
+                      "percentage_question": 26.7
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 344,
+                      "percentage_survey": 13.9,
+                      "percentage_question": 28.3
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

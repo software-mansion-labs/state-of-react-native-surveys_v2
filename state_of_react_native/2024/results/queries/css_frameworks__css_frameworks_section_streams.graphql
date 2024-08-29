@@ -1,0 +1,37 @@
+query {
+    survey(survey: state_of_react_native) {
+        css_frameworks_streams: tools(ids: []) {
+            id
+            entity {
+                name
+                nameClean
+                nameHtml
+                homepage {
+                    url
+                }
+                github {
+                    url
+                }
+            }
+            experience {
+                keys
+                all_years {
+                    year
+                    completion {
+                        total
+                        count
+                        percentage_survey
+                    }
+                    facets {
+                        buckets {
+                            id
+                            count
+                            percentage_question
+                            percentage_survey
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

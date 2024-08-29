@@ -1,0 +1,116 @@
+{
+  "dataAPI": {
+    "survey": {
+      "developer_background_usage_type": {
+        "entity": {
+          "name": "How do you use React Native?"
+        },
+        "keys": [
+          "developer_background_usage_type.answer.a",
+          "developer_background_usage_type.answer.b",
+          "developer_background_usage_type.answer.c"
+        ],
+        "all_years": [
+          {
+            "year": 2023,
+            "completion": {
+              "total": 2391,
+              "count": 2347,
+              "percentage_survey": 98.2
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 2391,
+                  "percentage_survey": 98.2,
+                  "percentage_question": 100,
+                  "count": 2347
+                },
+                "buckets": [
+                  {
+                    "id": "developer_background_usage_type.answer.a",
+                    "count": 2084,
+                    "percentage_question": 88.8,
+                    "percentage_survey": 87.2,
+                    "entity": {
+                      "name": "Professionally"
+                    }
+                  },
+                  {
+                    "id": "developer_background_usage_type.answer.b",
+                    "count": 70,
+                    "percentage_question": 3,
+                    "percentage_survey": 3,
+                    "entity": {
+                      "name": "As a student"
+                    }
+                  },
+                  {
+                    "id": "developer_background_usage_type.answer.c",
+                    "count": 193,
+                    "percentage_question": 8.3,
+                    "percentage_survey": 8.1,
+                    "entity": {
+                      "name": "As a hobby"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "year": 2022,
+            "completion": {
+              "total": 1888,
+              "count": 1858,
+              "percentage_survey": 98.5
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 1888,
+                  "percentage_survey": 98.5,
+                  "percentage_question": 100,
+                  "count": 1858
+                },
+                "buckets": [
+                  {
+                    "id": "developer_background_usage_type.answer.a",
+                    "count": 1653,
+                    "percentage_question": 89,
+                    "percentage_survey": 87.6,
+                    "entity": {
+                      "name": "Professionally"
+                    }
+                  },
+                  {
+                    "id": "developer_background_usage_type.answer.b",
+                    "count": 51,
+                    "percentage_question": 2.8,
+                    "percentage_survey": 2.8,
+                    "entity": {
+                      "name": "As a student"
+                    }
+                  },
+                  {
+                    "id": "developer_background_usage_type.answer.c",
+                    "count": 154,
+                    "percentage_question": 8.3,
+                    "percentage_survey": 8.2,
+                    "entity": {
+                      "name": "As a hobby"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

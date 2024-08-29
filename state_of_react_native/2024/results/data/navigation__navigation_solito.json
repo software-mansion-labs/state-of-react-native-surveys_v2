@@ -1,0 +1,81 @@
+{
+  "dataAPI": {
+    "survey": {
+      "navigation_solito": {
+        "id": "navigation_solito",
+        "entity": {
+          "name": "Solito",
+          "homepage": {
+            "url": "https://solito.dev/"
+          },
+          "npm": {
+            "url": "https://www.npmjs.com/package/solito"
+          }
+        },
+        "experience": {
+          "comments": [
+            "Perfect choice for a cross-platform next and react native app. Works nicely for shared routing on both apps.",
+            "Not sure how different Solito would be to Expo if it's already using Next underneath. Gotta do some research",
+            "For now anyway, just dont need it",
+            "The integration with expo-router is very poor. I was forced to write almost every universal function by myself. I used only image from solito. It is good",
+            "if expo-router does not pan out for web, we will be exporting a next.js app with solito while remaining on expo-router on native",
+            "Seems like the learning curve might be too steep"
+          ],
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2023,
+              "completion": {
+                "total": 3024,
+                "count": 1895,
+                "percentage_survey": 62.7
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 115,
+                      "percentage_survey": 3.9,
+                      "percentage_question": 6.1
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 31,
+                      "percentage_survey": 1.1,
+                      "percentage_question": 1.7
+                    },
+                    {
+                      "id": "interested",
+                      "count": 426,
+                      "percentage_survey": 14.1,
+                      "percentage_question": 22.5
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 313,
+                      "percentage_survey": 10.4,
+                      "percentage_question": 16.6
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 1010,
+                      "percentage_survey": 33.4,
+                      "percentage_question": 53.3
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}
