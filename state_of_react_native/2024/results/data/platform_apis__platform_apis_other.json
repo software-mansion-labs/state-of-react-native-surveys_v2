@@ -1,0 +1,99 @@
+{
+  "dataAPI": {
+    "survey": {
+      "platform_apis_other": {
+        "entity": {
+          "name": "Other platform APIs usage"
+        },
+        "keys": [
+          "authentication",
+          "ads",
+          "apple_wallet_and_google_pay",
+          "webrtc",
+          "places",
+          "healthkit",
+          "share_to_app",
+          "internalization"
+        ],
+        "all_years": [
+          {
+            "year": 2023,
+            "completion": {
+              "total": 2391,
+              "count": 24,
+              "percentage_survey": 1.0
+            },
+            "facets": [
+              {
+                "completion": {
+                  "total": 5514,
+                  "count": 24,
+                  "percentage_survey": 0.5
+                },
+                "buckets": [
+                  {
+                    "id": "authentication",
+                    "count": 2,
+                    "percentage_question": 8.4,
+                    "percentage_survey": 0.08,
+                    "entity": {
+                      "name": "Authentication",
+                      "description": "",
+                      "homepage": {
+                        "url": ""
+                      },
+                      "github": {
+                        "url": ""
+                      },
+                      "npm": {
+                        "url": ""
+                      }
+                    }
+                  },
+                  {
+                    "id": "healthkit",
+                    "count": 2,
+                    "percentage_question": 8.4,
+                    "percentage_survey": 0.08,
+                    "entity": {
+                      "name": "HealthKit",
+                      "description": "",
+                      "homepage": {
+                        "url": ""
+                      },
+                      "github": {
+                        "url": ""
+                      },
+                      "npm": {
+                        "url": ""
+                      }
+                    }
+                  },
+                  {
+                    "id": "share_to_app",
+                    "count": 3,
+                    "percentage_question": 12.6,
+                    "percentage_survey": 0.13,
+                    "entity": {
+                      "name": "Share To App",
+                      "description": "",
+                      "homepage": {
+                        "url": ""
+                      },
+                      "github": {
+                        "url": ""
+                      },
+                      "npm": {
+                        "url": ""
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
