@@ -1,0 +1,94 @@
+{
+  "dataAPI": {
+    "survey": {
+      "react_native_app_aspects_internationalization": {
+        "entity": {
+          "name": "Internationalization"
+        },
+        "keys": [
+          "react_native_app_aspects_internationalization_react_native_localize",
+          "react_native_app_aspects_internationalization_react_i18next",
+          "react_native_app_aspects_internationalization_fbt"
+        ],
+        "all_years": [
+          {
+            "year": 2022,
+            "completion": {
+              "total": 2490,
+              "count": 853,
+              "percentage_survey": 34.3
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 2490,
+                  "percentage_survey": 41.9,
+                  "percentage_question": 122.2,
+                  "count": 1042
+                },
+                "buckets": [
+                  {
+                    "id": "react_native_app_aspects_internationalization_react_native_localize",
+                    "count": 293,
+                    "percentage_question": 34.4,
+                    "percentage_survey": 11.8,
+                    "entity": {
+                      "name": "react-native-localize",
+                      "description": "🌍 A toolbox for your React Native app localization",
+                      "github": {
+                        "url": "https://github.com/zoontek/react-native-localize"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/react-native-localize"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_internationalization_react_i18next",
+                    "count": 742,
+                    "percentage_question": 87,
+                    "percentage_survey": 29.8,
+                    "entity": {
+                      "name": "react-i18next",
+                      "homepage": {
+                        "url": "https://react.i18next.com/"
+                      },
+                      "description": "Internationalization for react done right. Using the i18next i18n ecosystem.",
+                      "github": {
+                        "url": "https://github.com/i18next/react-i18next"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/react-i18next"
+                      }
+                    }
+                  },
+                  {
+                    "id": "react_native_app_aspects_internationalization_fbt",
+                    "count": 7,
+                    "percentage_question": 0.9,
+                    "percentage_survey": 0.3,
+                    "entity": {
+                      "name": "FBT",
+                      "homepage": {
+                        "url": "https://facebook.github.io/fbt/"
+                      },
+                      "description": "A JavaScript Internationalization Framework",
+                      "github": {
+                        "url": "https://github.com/facebook/fbt"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/fbt"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
