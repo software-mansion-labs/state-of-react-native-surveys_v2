@@ -1,173 +1,181 @@
+- id: test
+  template: featurev3
+  slug: features
+  questions:
+    - id: platform_apis
+
+
 ######################################################
 #########        DEVELOPER BACKGROUND        #########
 ######################################################
 
-- id: developer_background
-  template: feature
-  slug: developer_background
-  questions:
-    - id: developer_background_before
-      template: multiple
-      description: What was your background before you started using React Native? Check all that apply
-      options:
-        - id: developer_background_before.answer.a
-        - id: developer_background_before.answer.b
-        - id: developer_background_before.answer.c
-        - id: developer_background_before.answer.d
-        - id: developer_background_before.answer.e
-        - id: developer_background_before.answer.f
-        - id: developer_background_before.answer.g
-        - id: developer_background_before.answer.h
-        - id: developer_background_before.answer.i
-        - id: developer_background_before.answer.j
-        - id: developer_background_before.answer.k
-    - id: developer_background_before_other
-      sectionSlug: developer_background_before
-      template: others
-      description: "Other answers (freeform)"
-
-    - id: developer_background_usage_type
-      template: single
-      options:
-        - id: developer_background_usage_type.answer.a
-        - id: developer_background_usage_type.answer.b
-        - id: developer_background_usage_type.answer.c
-
-    - id: developer_background_primarily_system
-      description: What desktop OS do you primarily use?
-      template: single
-      options:
-        - id: developer_background_primarily_system.answer.a
-        - id: developer_background_primarily_system.answer.b
-        - id: developer_background_primarily_system.answer.c
-
-    - id: developer_background_users_count
-      description: What is the user count of your top React Native app?
-      template: single
-      options:
-        - id: developer_background_users_count.answer.a
-        - id: developer_background_users_count.answer.b
-        - id: developer_background_users_count.answer.c
-        - id: developer_background_users_count.answer.d
-        - id: developer_background_users_count.answer.e
-        - id: developer_background_users_count.answer.f
-        - id: developer_background_users_count.answer.g
-
-    - id: developer_background_team_size
-      description: What is your mobile app team size?
-      template: single
-      options:
-        - id: developer_background_team_size.answer.a
-        - id: developer_background_team_size.answer.b
-        - id: developer_background_team_size.answer.c
-        - id: developer_background_team_size.answer.d
-        - id: developer_background_team_size.answer.e
-
-    - id: developer_background_platforms
-      description: What are the platforms that you use React Native for? Check all that apply
-      template: multiple
-      options:
-        - id: developer_background_platforms.answer.a
-        - id: developer_background_platforms.answer.b
-        - id: developer_background_platforms.answer.c
-        - id: developer_background_platforms.answer.d
-        - id: developer_background_platforms.answer.e
-        - id: developer_background_platforms.answer.h
-        - id: developer_background_platforms.answer.f
-        - id: developer_background_platforms.answer.g
-    - id: developer_background_platforms_other
-      sectionSlug: developer_background_platforms
-      template: others
-      description: "Other answers (freeform)"
-
-    - id: developer_background_contribution_to_rn
-      template: yes_or_no
-      description: Have you contributed to React Native upstream in 2023 (commits/PRs)?
-
-    - id: developer_background_contribution_to_lib
-      template: yes_or_no
-      description: Have you contributed to any React Native community library in 2023 (commits/PRs)?
-
-    - id: developer_background_releases_count
-      description: How many React Native apps have you released on Google Play or App Store?
-      template: single
-      options:
-        - id: developer_background_releases_count.answer.a
-        - id: developer_background_releases_count.answer.b
-        - id: developer_background_releases_count.answer.c
-        - id: developer_background_releases_count.answer.d
-        - id: developer_background_releases_count.answer.e
-
-    - id: developer_background_os_target
-      template: single
-      options:
-        - id: developer_background_os_target.answer.a
-        - id: developer_background_os_target.answer.b
-        - id: developer_background_os_target.answer.c
-        - id: developer_background_os_target.answer.d
-
-    - id: developer_background_industry_sector
-      template: multiple
-      description: Which industry sector(s) are you using React Native in? Check all that apply.
-      options:
-        - id: developer_background_industry_sector.answer.aa
-        - id: developer_background_industry_sector.answer.x
-        - id: developer_background_industry_sector.answer.w
-        - id: developer_background_industry_sector.answer.bb
-        - id: developer_background_industry_sector.answer.cc
-        - id: developer_background_industry_sector.answer.v
-        - id: developer_background_industry_sector.answer.dd
-        - id: developer_background_industry_sector.answer.n
-        - id: developer_background_industry_sector.answer.e
-        - id: developer_background_industry_sector.answer.u
-        - id: developer_background_industry_sector.answer.ee
-        # - id: developer_background_industry_sector.answer.a
-        - id: developer_background_industry_sector.answer.i
-        - id: developer_background_industry_sector.answer.q
-        - id: developer_background_industry_sector.answer.l
-        - id: developer_background_industry_sector.answer.ff
-        - id: developer_background_industry_sector.answer.d
-        - id: developer_background_industry_sector.answer.gg
-        - id: developer_background_industry_sector.answer.k
-        - id: developer_background_industry_sector.answer.hh
-        - id: developer_background_industry_sector.answer.ii
-        - id: developer_background_industry_sector.answer.jj
-        # - id: developer_background_industry_sector.answer.c
-        # - id: developer_background_industry_sector.answer.t
-        - id: developer_background_industry_sector.answer.o
-        - id: developer_background_industry_sector.answer.p
-        - id: developer_background_industry_sector.answer.kk
-        - id: developer_background_industry_sector.answer.z
-        - id: developer_background_industry_sector.answer.h
-        - id: developer_background_industry_sector.answer.ll
-        - id: developer_background_industry_sector.answer.mm
-        - id: developer_background_industry_sector.answer.nn
-        - id: developer_background_industry_sector.answer.b
-        - id: developer_background_industry_sector.answer.f
-        - id: developer_background_industry_sector.answer.oo
-        - id: developer_background_industry_sector.answer.pp
-        - id: developer_background_industry_sector.answer.j
-        - id: developer_background_industry_sector.answer.qq
-        - id: developer_background_industry_sector.answer.g
-        - id: developer_background_industry_sector.answer.rr
-        - id: developer_background_industry_sector.answer.s
-        # - id: developer_background_industry_sector.answer.r
-        - id: developer_background_industry_sector.answer.y
-        - id: developer_background_industry_sector.answer.m
-        - id: developer_background_industry_sector.answer.ss
-        - id: developer_background_industry_sector.answer.tt
-        # - id: developer_background_industry_sector_other
-    - id: developer_background_industry_sector_other
-      sectionSlug: developer_background_industry_sector
-      template: others
-      description: "Other answers (freeform)"
+#- id: developer_background
+#  template: feature
+#  slug: developer_background
+#  questions:
+#    - id: developer_background_before
+#      template: multiple
+#      description: What was your background before you started using React Native? Check all that apply
+#      options:
+#        - id: developer_background_before.answer.a
+#        - id: developer_background_before.answer.b
+#        - id: developer_background_before.answer.c
+#        - id: developer_background_before.answer.d
+#        - id: developer_background_before.answer.e
+#        - id: developer_background_before.answer.f
+#        - id: developer_background_before.answer.g
+#        - id: developer_background_before.answer.h
+#        - id: developer_background_before.answer.i
+#        - id: developer_background_before.answer.j
+#        - id: developer_background_before.answer.k
+#    - id: developer_background_before_other
+#      sectionSlug: developer_background_before
+#      template: others
+#      description: "Other answers (freeform)"
+#
+#    - id: developer_background_usage_type
+#      template: single
+#      options:
+#        - id: developer_background_usage_type.answer.a
+#        - id: developer_background_usage_type.answer.b
+#        - id: developer_background_usage_type.answer.c
+#
+#    - id: developer_background_primarily_system
+#      description: What desktop OS do you primarily use?
+#      template: single
+#      options:
+#        - id: developer_background_primarily_system.answer.a
+#        - id: developer_background_primarily_system.answer.b
+#        - id: developer_background_primarily_system.answer.c
+#
+#    - id: developer_background_users_count
+#      description: What is the user count of your top React Native app?
+#      template: single
+#      options:
+#        - id: developer_background_users_count.answer.a
+#        - id: developer_background_users_count.answer.b
+#        - id: developer_background_users_count.answer.c
+#        - id: developer_background_users_count.answer.d
+#        - id: developer_background_users_count.answer.e
+#        - id: developer_background_users_count.answer.f
+#        - id: developer_background_users_count.answer.g
+#
+#    - id: developer_background_team_size
+#      description: What is your mobile app team size?
+#      template: single
+#      options:
+#        - id: developer_background_team_size.answer.a
+#        - id: developer_background_team_size.answer.b
+#        - id: developer_background_team_size.answer.c
+#        - id: developer_background_team_size.answer.d
+#        - id: developer_background_team_size.answer.e
+#
+#    - id: developer_background_platforms
+#      description: What are the platforms that you use React Native for? Check all that apply
+#      template: multiple
+#      options:
+#        - id: developer_background_platforms.answer.a
+#        - id: developer_background_platforms.answer.b
+#        - id: developer_background_platforms.answer.c
+#        - id: developer_background_platforms.answer.d
+#        - id: developer_background_platforms.answer.e
+#        - id: developer_background_platforms.answer.h
+#        - id: developer_background_platforms.answer.f
+#        - id: developer_background_platforms.answer.g
+#    - id: developer_background_platforms_other
+#      sectionSlug: developer_background_platforms
+#      template: others
+#      description: "Other answers (freeform)"
+#
+##    - id: developer_background_contribution_to_rn
+##      template: yes_or_no
+##      description: Have you contributed to React Native upstream in 2023 (commits/PRs)?
+#
+##    - id: developer_background_contribution_to_lib
+##      template: yes_or_no
+##      description: Have you contributed to any React Native community library in 2023 (commits/PRs)?
+#
+#    - id: developer_background_releases_count
+#      description: How many React Native apps have you released on Google Play or App Store?
+#      template: single
+#      options:
+#        - id: developer_background_releases_count.answer.a
+#        - id: developer_background_releases_count.answer.b
+#        - id: developer_background_releases_count.answer.c
+#        - id: developer_background_releases_count.answer.d
+#        - id: developer_background_releases_count.answer.e
+#
+#    - id: developer_background_os_target
+#      template: single
+#      options:
+#        - id: developer_background_os_target.answer.a
+#        - id: developer_background_os_target.answer.b
+#        - id: developer_background_os_target.answer.c
+#        - id: developer_background_os_target.answer.d
+#
+#    - id: developer_background_industry_sector
+#      template: multiple
+#      description: Which industry sector(s) are you using React Native in? Check all that apply.
+#      options:
+#        - id: developer_background_industry_sector.answer.aa
+#        - id: developer_background_industry_sector.answer.x
+#        - id: developer_background_industry_sector.answer.w
+#        - id: developer_background_industry_sector.answer.bb
+#        - id: developer_background_industry_sector.answer.cc
+#        - id: developer_background_industry_sector.answer.v
+#        - id: developer_background_industry_sector.answer.dd
+#        - id: developer_background_industry_sector.answer.n
+#        - id: developer_background_industry_sector.answer.e
+#        - id: developer_background_industry_sector.answer.u
+#        - id: developer_background_industry_sector.answer.ee
+#        # - id: developer_background_industry_sector.answer.a
+#        - id: developer_background_industry_sector.answer.i
+#        - id: developer_background_industry_sector.answer.q
+#        - id: developer_background_industry_sector.answer.l
+#        - id: developer_background_industry_sector.answer.ff
+#        - id: developer_background_industry_sector.answer.d
+#        - id: developer_background_industry_sector.answer.gg
+#        - id: developer_background_industry_sector.answer.k
+#        - id: developer_background_industry_sector.answer.hh
+#        - id: developer_background_industry_sector.answer.ii
+#        - id: developer_background_industry_sector.answer.jj
+#        # - id: developer_background_industry_sector.answer.c
+#        # - id: developer_background_industry_sector.answer.t
+#        - id: developer_background_industry_sector.answer.o
+#        - id: developer_background_industry_sector.answer.p
+#        - id: developer_background_industry_sector.answer.kk
+#        - id: developer_background_industry_sector.answer.z
+#        - id: developer_background_industry_sector.answer.h
+#        - id: developer_background_industry_sector.answer.ll
+#        - id: developer_background_industry_sector.answer.mm
+#        - id: developer_background_industry_sector.answer.nn
+#        - id: developer_background_industry_sector.answer.b
+#        - id: developer_background_industry_sector.answer.f
+#        - id: developer_background_industry_sector.answer.oo
+#        - id: developer_background_industry_sector.answer.pp
+#        - id: developer_background_industry_sector.answer.j
+#        - id: developer_background_industry_sector.answer.qq
+#        - id: developer_background_industry_sector.answer.g
+#        - id: developer_background_industry_sector.answer.rr
+#        - id: developer_background_industry_sector.answer.s
+#        # - id: developer_background_industry_sector.answer.r
+#        - id: developer_background_industry_sector.answer.y
+#        - id: developer_background_industry_sector.answer.m
+#        - id: developer_background_industry_sector.answer.ss
+#        - id: developer_background_industry_sector.answer.tt
+#        # - id: developer_background_industry_sector_other
+#    - id: developer_background_industry_sector_other
+#      sectionSlug: developer_background_industry_sector
+#      template: others
+#      description: "Other answers (freeform)"
 
 ######################################################
 #########           PLATFORM APIS            #########
 ######################################################
 
 - id: platform_apis
-  slug: platform_apis
+  template: featurev3
+  slug: feature
   questions:
     # - id: platform_apis_intro
     #   template: help
@@ -291,7 +299,6 @@
     - id: navigation_solito
       year: 2023
     - id: navigation_navigation
-    - id: navigation_other
     - id: navigation_other
       template: others
       description: "Other answers (freeform)"
@@ -568,31 +575,31 @@
       template: others
       description: "Other answers (freeform)"
 
-    - id: react_native_app_aspects_other_libraries
-      year: 2023
-      description: Check all that apply
-      options:
-        - id: react_native_app_aspects_other_libraries_expo_vector_icons
-        - id: react_native_app_aspects_other_libraries_gorhom_bottom_sheet
-        - id: react_native_app_aspects_other_libraries_shopify_flash_list
-        - id: react_native_app_aspects_other_libraries_expo_image
-        - id: react_native_app_aspects_other_libraries_react_native_i18next
-        - id: react_native_app_aspects_other_libraries_react_native_camera
-        - id: react_native_app_aspects_other_libraries_react_native_fast_image
-        - id: react_native_app_aspects_other_libraries_react_native_gesture_handler
-        - id: react_native_app_aspects_other_libraries_react_native_localize
-        - id: react_native_app_aspects_other_libraries_react_native_maps
-        - id: react_native_app_aspects_other_libraries_react_native_safe_area_context
-        - id: react_native_app_aspects_other_libraries_react_native_webview
-        - id: react_native_app_aspects_other_libraries_react-native-vector-icons
-        - id: react_native_app_aspects_other_libraries_react_native_video
-        - id: react_native_app_aspects_other_libraries_react_native_vision_camera
-    - id: react_native_app_aspects_other_libraries_other
-      template: others
-      description: "Other answers (freeform)"
-    - id: react_native_app_aspects_architecture_local_first
-      year: 2023
-      template: tool
+#    - id: react_native_app_aspects_other_libraries
+#      year: 2023
+#      description: Check all that apply
+#      options:
+#        - id: react_native_app_aspects_other_libraries_expo_vector_icons
+#        - id: react_native_app_aspects_other_libraries_gorhom_bottom_sheet
+#        - id: react_native_app_aspects_other_libraries_shopify_flash_list
+#        - id: react_native_app_aspects_other_libraries_expo_image
+#        - id: react_native_app_aspects_other_libraries_react_native_i18next
+#        - id: react_native_app_aspects_other_libraries_react_native_camera
+#        - id: react_native_app_aspects_other_libraries_react_native_fast_image
+#        - id: react_native_app_aspects_other_libraries_react_native_gesture_handler
+#        - id: react_native_app_aspects_other_libraries_react_native_localize
+#        - id: react_native_app_aspects_other_libraries_react_native_maps
+#        - id: react_native_app_aspects_other_libraries_react_native_safe_area_context
+#        - id: react_native_app_aspects_other_libraries_react_native_webview
+#        - id: react_native_app_aspects_other_libraries_react-native-vector-icons
+#        - id: react_native_app_aspects_other_libraries_react_native_video
+#        - id: react_native_app_aspects_other_libraries_react_native_vision_camera
+#    - id: react_native_app_aspects_other_libraries_other
+#      template: others
+#      description: "Other answers (freeform)"
+#    - id: react_native_app_aspects_architecture_local_first
+#      year: 2023
+#      template: tool
 
 ######################################################
 #########             FEATURES               #########
@@ -759,8 +766,8 @@
         - id: tools_starter_templates_solito
         - id: tools_starter_templates_create_t3_turbo
         - id: tools_starter_templates_ignite_cli
-        - id: tools_starter_templates_react_native_cli
-        - id: tools_starter_templates_react-native-template-obytes
+#        - id: tools_starter_templates_react_native_cli
+#        - id: tools_starter_templates_react-native-template-obytes
         - id: tools_starter_tamagui
     - id: tools_starter_templates_other
       template: others
