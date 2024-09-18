@@ -1,0 +1,82 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_html": {
+        "html2023": {
+          "interactivity": {
+            "dom_attribute_features": {
+              "responses": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 15576,
+                    "percentageSurvey": 74.51,
+                    "total": 20904
+                  },
+                  "buckets": [
+                    {
+                      "count": 13597,
+                      "id": "element_classlist",
+                      "percentageQuestion": 87.29,
+                      "percentageSurvey": 65.04,
+                      "entity": {
+                        "name": "`element.classList`",
+                        "nameHtml": "<code>element.classList</code>",
+                        "nameClean": "element.classList",
+                        "id": "element_classlist",
+                        "entityType": "feature"
+                      }
+                    },
+                    {
+                      "count": 8026,
+                      "id": "element_toggle_attribute",
+                      "percentageQuestion": 51.53,
+                      "percentageSurvey": 38.39,
+                      "entity": {
+                        "name": "`element.toggleAttribute(name, force)`",
+                        "nameHtml": "<code>element.toggleAttribute(name, force)</code>",
+                        "nameClean": "element.toggleAttribute(name, force)",
+                        "id": "element_toggle_attribute",
+                        "entityType": "feature"
+                      }
+                    },
+                    {
+                      "count": 8006,
+                      "id": "element_getattributenames",
+                      "percentageQuestion": 51.4,
+                      "percentageSurvey": 38.3,
+                      "entity": {
+                        "name": "`element.getAttributeNames()`",
+                        "nameHtml": "<code>element.getAttributeNames()</code>",
+                        "nameClean": "element.getAttributeNames()",
+                        "id": "element_getattributenames",
+                        "entityType": "feature"
+                      }
+                    },
+                    {
+                      "count": 1203,
+                      "id": "na",
+                      "percentageQuestion": 7.72,
+                      "percentageSurvey": 5.75,
+                      "entity": {
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 5298,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 25.34,
+                      "entity": {
+                        "entityType": "default"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

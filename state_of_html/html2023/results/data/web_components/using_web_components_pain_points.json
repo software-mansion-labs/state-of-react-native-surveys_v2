@@ -1,0 +1,234 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_html": {
+        "html2023": {
+          "web_components": {
+            "using_web_components_pain_points": {
+              "freeform": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 1324,
+                    "percentageSurvey": 6.33,
+                    "total": 20904
+                  },
+                  "buckets": [
+                    {
+                      "count": 170,
+                      "id": "styling_customization",
+                      "percentageQuestion": 12.84,
+                      "percentageSurvey": 0.81,
+                      "entity": {
+                        "name": "Styling & customization",
+                        "nameHtml": "Styling &amp; customization",
+                        "nameClean": "Styling  customization",
+                        "description": "CSS styling and customization issues.",
+                        "descriptionClean": "CSS styling and customization issues.",
+                        "id": "styling_customization",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 143,
+                      "id": "framework_compatibility",
+                      "percentageQuestion": 10.8,
+                      "percentageSurvey": 0.69,
+                      "entity": {
+                        "name": "Framework compatibility",
+                        "nameClean": "Framework compatibility",
+                        "description": "Lack of compatibility with JS frameworks",
+                        "descriptionClean": "Lack of compatibility with JS frameworks",
+                        "id": "framework_compatibility",
+                        "entityType": "default"
+                      },
+                      "groupedBuckets": [
+                        {
+                          "count": 77,
+                          "id": "react_compatibility",
+                          "percentageQuestion": 5.82,
+                          "percentageSurvey": 0.37,
+                          "entity": {
+                            "name": "React compatibility",
+                            "nameClean": "React compatibility",
+                            "description": "Lack of compatibility with React",
+                            "descriptionClean": "Lack of compatibility with React",
+                            "id": "react_compatibility",
+                            "entityType": "default"
+                          }
+                        },
+                        {
+                          "count": 66,
+                          "id": "catchall_framework_compatibility",
+                          "percentageQuestion": 4.98,
+                          "percentageSurvey": 0.32,
+                          "entity": {
+                            "name": "Framework compatibility",
+                            "nameClean": "Framework compatibility",
+                            "description": "Lack of compatibility with JS frameworks",
+                            "descriptionClean": "Lack of compatibility with JS frameworks",
+                            "id": "framework_compatibility",
+                            "entityType": "default"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "count": 116,
+                      "id": "browser_support",
+                      "percentageQuestion": 8.76,
+                      "percentageSurvey": 0.55,
+                      "entity": {
+                        "name": "Browser support",
+                        "nameClean": "Browser support",
+                        "description": "Browser support, compatibility, and consistency issues",
+                        "descriptionClean": "Browser support, compatibility, and consistency issues",
+                        "id": "browser_support",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 105,
+                      "id": "ssr",
+                      "percentageQuestion": 7.93,
+                      "percentageSurvey": 0.5,
+                      "entity": {
+                        "name": "SSR",
+                        "nameClean": "SSR",
+                        "description": "Server-side rendering issues",
+                        "descriptionClean": "Server-side rendering issues",
+                        "id": "ssr",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 104,
+                      "id": "shadow_dom",
+                      "percentageQuestion": 7.85,
+                      "percentageSurvey": 0.5,
+                      "entity": {
+                        "name": "Shadow DOM",
+                        "nameClean": "Shadow DOM",
+                        "description": "Encapsulate elements not visible from the outside, and style them with CSS not affecting the rest of the page.",
+                        "descriptionClean": "Encapsulate elements not visible from the outside, and style them with CSS not affecting the rest of the page.",
+                        "id": "shadow_dom",
+                        "entityType": "feature",
+                        "example": {
+                          "language": "js",
+                          "code": "this.shadowRoot = this.attachShadow({mode: \"open\"});",
+                          "codeHighlighted": "<span class=\"hljs-variable language_\">this</span>.<span class=\"hljs-property\">shadowRoot</span> = <span class=\"hljs-variable language_\">this</span>.<span class=\"hljs-title function_\">attachShadow</span>({<span class=\"hljs-attr\">mode</span>: <span class=\"hljs-string\">&quot;open&quot;</span>});"
+                        },
+                        "mdn": {
+                          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM"
+                        }
+                      }
+                    },
+                    {
+                      "count": 73,
+                      "id": "reliance_on_javascript",
+                      "percentageQuestion": 5.51,
+                      "percentageSurvey": 0.35,
+                      "entity": {
+                        "name": "Reliance on JavaScript",
+                        "nameClean": "Reliance on JavaScript",
+                        "description": "Excessive reliance on JavaScript",
+                        "descriptionClean": "Excessive reliance on JavaScript",
+                        "id": "reliance_on_javascript",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 54,
+                      "id": "excessive_complexity",
+                      "percentageQuestion": 4.08,
+                      "percentageSurvey": 0.26,
+                      "entity": {
+                        "name": "Excessive complexity",
+                        "nameClean": "Excessive complexity",
+                        "description": "Too much complexity",
+                        "descriptionClean": "Too much complexity",
+                        "id": "excessive_complexity",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 48,
+                      "id": "accessibility",
+                      "percentageQuestion": 3.63,
+                      "percentageSurvey": 0.23,
+                      "entity": {
+                        "name": "Accessibility",
+                        "nameClean": "Accessibility",
+                        "description": "Accessibility improvements",
+                        "descriptionClean": "Accessibility improvements",
+                        "id": "accessibility",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 39,
+                      "id": "lack_of_documentation",
+                      "percentageQuestion": 2.95,
+                      "percentageSurvey": 0.19,
+                      "entity": {
+                        "name": "Lack of documentation",
+                        "nameClean": "Lack of documentation",
+                        "description": "Lack of documentation or code examples",
+                        "descriptionClean": "Lack of documentation or code examples",
+                        "id": "lack_of_documentation",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 36,
+                      "id": "lack_of_knowledge",
+                      "percentageQuestion": 2.72,
+                      "percentageSurvey": 0.17,
+                      "entity": {
+                        "name": "Lack of knowledge",
+                        "nameClean": "Lack of knowledge",
+                        "id": "lack_of_knowledge",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 19569,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 93.61
+                    },
+                    {
+                      "count": 1111,
+                      "id": "other_answers",
+                      "percentageQuestion": 84.07,
+                      "percentageSurvey": 5.07,
+                      "groupedBuckets": [
+                        {
+                          "count": 321,
+                          "id": "overlimit_answers",
+                          "percentageQuestion": 24.27,
+                          "percentageSurvey": 1.53
+                        },
+                        {
+                          "count": 364,
+                          "id": "cutoff_answers",
+                          "percentageQuestion": 27.62,
+                          "percentageSurvey": 1.5
+                        },
+                        {
+                          "count": 426,
+                          "id": "no_match",
+                          "percentageQuestion": 32.18,
+                          "percentageSurvey": 2.04
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

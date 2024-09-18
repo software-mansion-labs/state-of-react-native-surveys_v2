@@ -1,0 +1,35 @@
+query css2022sitesCoursesQuery {
+    
+    surveys {
+      state_of_css {
+        css2022 {
+          resources {
+            sites_courses {
+          
+          
+              responses {
+                currentEdition {
+              
+                  completion {
+                    count
+                    percentageSurvey
+                    total
+                  }
+                  buckets {
+                    count
+                    id
+                    percentageQuestion
+                    percentageSurvey
+                
+                
+                
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+}

@@ -1,0 +1,107 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_css": {
+        "css2023": {
+          "typography": {
+            "font_palette": {
+              "entity": {
+                "name": "`font-palette`",
+                "nameHtml": "<code>font-palette</code>",
+                "nameClean": "font-palette",
+                "id": "font_palette",
+                "example": {
+                  "language": "css",
+                  "code": "@font-palette-values --PinkAndGray {\n  font-family: bungee;\n  override-colors:\n    0 #c1cbed,\n    1 #ff3a92;\n}\n.grays {\n  font-family: bungee;\n  font-palette: --PinkAndGray;\n}\n",
+                  "codeHighlighted": "<span class=\"hljs-keyword\">@font-palette-values</span> --PinkAndGray {\n  <span class=\"hljs-attribute\">font-family</span>: bungee;\n  override-colors:\n    <span class=\"hljs-number\">0</span> <span class=\"hljs-number\">#c1cbed</span>,\n    <span class=\"hljs-number\">1</span> <span class=\"hljs-number\">#ff3a92</span>;\n}\n<span class=\"hljs-selector-class\">.grays</span> {\n  <span class=\"hljs-attribute\">font-family</span>: bungee;\n  <span class=\"hljs-attribute\">font</span>-palette: --PinkAndGray;\n}"
+                },
+                "caniuse": {
+                  "url": "https://caniuse.com/css-font-palette"
+                }
+              },
+              "comments": {
+                "currentEdition": {
+                  "count": 3
+                }
+              },
+              "responses": {
+                "allEditions": [
+                  {
+                    "editionId": "css2022",
+                    "year": 2022,
+                    "completion": {
+                      "count": 11151,
+                      "percentageSurvey": 78,
+                      "total": 14309
+                    },
+                    "buckets": [
+                      {
+                        "count": 10178,
+                        "id": "never_heard",
+                        "percentageQuestion": 91.3,
+                        "percentageSurvey": 71.2
+                      },
+                      {
+                        "count": 843,
+                        "id": "heard",
+                        "percentageQuestion": 7.6,
+                        "percentageSurvey": 5.9
+                      },
+                      {
+                        "count": 130,
+                        "id": "used",
+                        "percentageQuestion": 1.2,
+                        "percentageSurvey": 1
+                      },
+                      {
+                        "count": 3158,
+                        "id": "no_answer",
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 22.1
+                      }
+                    ]
+                  },
+                  {
+                    "editionId": "css2023",
+                    "year": 2023,
+                    "completion": {
+                      "count": 6992,
+                      "percentageSurvey": 76.1,
+                      "total": 9190
+                    },
+                    "buckets": [
+                      {
+                        "count": 6280,
+                        "id": "never_heard",
+                        "percentageQuestion": 89.9,
+                        "percentageSurvey": 68.4
+                      },
+                      {
+                        "count": 609,
+                        "id": "heard",
+                        "percentageQuestion": 8.8,
+                        "percentageSurvey": 6.7
+                      },
+                      {
+                        "count": 103,
+                        "id": "used",
+                        "percentageQuestion": 1.5,
+                        "percentageSurvey": 1.2
+                      },
+                      {
+                        "count": 2198,
+                        "id": "no_answer",
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 24
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

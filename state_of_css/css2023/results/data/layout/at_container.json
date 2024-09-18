@@ -1,0 +1,142 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_css": {
+        "css2023": {
+          "layout": {
+            "at_container": {
+              "entity": {
+                "id": "at_container",
+                "example": {
+                  "language": "css",
+                  "code": "@container (min-width: 700px) {\n  .card {\n    display: grid;\n    grid-template-columns: 2fr 1fr;\n  }\n}\n",
+                  "codeHighlighted": "<span class=\"hljs-keyword\">@container</span> (<span class=\"hljs-attribute\">min-width</span>: <span class=\"hljs-number\">700px</span>) {\n  <span class=\"hljs-selector-class\">.card</span> {\n    <span class=\"hljs-attribute\">display</span>: grid;\n    <span class=\"hljs-attribute\">grid-template-columns</span>: <span class=\"hljs-number\">2</span>fr <span class=\"hljs-number\">1</span>fr;\n  }\n}"
+                },
+                "mdn": {
+                  "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_container_queries"
+                },
+                "caniuse": {
+                  "url": "https://caniuse.com/css-container-queries"
+                }
+              },
+              "comments": {
+                "currentEdition": {
+                  "count": 78
+                }
+              },
+              "responses": {
+                "allEditions": [
+                  {
+                    "editionId": "css2021",
+                    "year": 2021,
+                    "completion": {
+                      "count": 8096,
+                      "percentageSurvey": 93,
+                      "total": 8710
+                    },
+                    "buckets": [
+                      {
+                        "count": 3275,
+                        "id": "never_heard",
+                        "percentageQuestion": 40.5,
+                        "percentageSurvey": 37.7
+                      },
+                      {
+                        "count": 4386,
+                        "id": "heard",
+                        "percentageQuestion": 54.2,
+                        "percentageSurvey": 50.4
+                      },
+                      {
+                        "count": 435,
+                        "id": "used",
+                        "percentageQuestion": 5.4,
+                        "percentageSurvey": 5
+                      },
+                      {
+                        "count": 614,
+                        "id": "no_answer",
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 7.1
+                      }
+                    ]
+                  },
+                  {
+                    "editionId": "css2022",
+                    "year": 2022,
+                    "completion": {
+                      "count": 13938,
+                      "percentageSurvey": 97.5,
+                      "total": 14309
+                    },
+                    "buckets": [
+                      {
+                        "count": 4087,
+                        "id": "never_heard",
+                        "percentageQuestion": 29.4,
+                        "percentageSurvey": 28.6
+                      },
+                      {
+                        "count": 8099,
+                        "id": "heard",
+                        "percentageQuestion": 58.2,
+                        "percentageSurvey": 56.7
+                      },
+                      {
+                        "count": 1752,
+                        "id": "used",
+                        "percentageQuestion": 12.6,
+                        "percentageSurvey": 12.3
+                      },
+                      {
+                        "count": 371,
+                        "id": "no_answer",
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 2.6
+                      }
+                    ]
+                  },
+                  {
+                    "editionId": "css2023",
+                    "year": 2023,
+                    "completion": {
+                      "count": 8819,
+                      "percentageSurvey": 96,
+                      "total": 9190
+                    },
+                    "buckets": [
+                      {
+                        "count": 1297,
+                        "id": "never_heard",
+                        "percentageQuestion": 14.8,
+                        "percentageSurvey": 14.2
+                      },
+                      {
+                        "count": 5176,
+                        "id": "heard",
+                        "percentageQuestion": 58.7,
+                        "percentageSurvey": 56.4
+                      },
+                      {
+                        "count": 2346,
+                        "id": "used",
+                        "percentageQuestion": 26.7,
+                        "percentageSurvey": 25.6
+                      },
+                      {
+                        "count": 371,
+                        "id": "no_answer",
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 4.1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -4,6 +4,27 @@
   questions:
     - id: platform_apis
 
+- id: state_management
+  template: toolv3
+  slug: tools
+  questions:
+    - id: jotai
+    - id: mobx
+    - id: recoil
+    - id: redux
+    - id: redux_toolkit
+    - id: usestate
+    - id: xstate
+    - id: zustand
+
+    - id: state_management_others
+      template: projects
+
+    - id: state_management_pain_points
+      matchTags: [common_pain_points, react_features]
+      disallowedTokenIds: [state_management]
+      template: textList
+
 
 ######################################################
 #########        DEVELOPER BACKGROUND        #########
@@ -174,7 +195,7 @@
 ######################################################
 
 - id: platform_apis
-  template: featurev3
+  template: feature
   slug: feature
   questions:
     # - id: platform_apis_intro
@@ -232,33 +253,33 @@
 #########          STATE MANAGEMENT          #########
 ######################################################
 
-- id: state_management
-  template: tool
-  slug: state_management
-  questions:
-    - id: state_management_apollo
-    - id: state_management_jotai
-    - id: state_management_mobx
-      year: 2023
-    - id: state_management_mobx_state_tree
-      year: 2023
-    - id: state_management_rn_built_in
-    - id: state_management_recoil
-    - id: state_management_redux
-    - id: state_management_redux_toolkit
-      year: 2023
-    - id: state_management_react_query
-    - id: state_management_xstate
-      year: 2023
-    - id: state_management_zustand
-    # - id: state_management_legend_state
-    # - id: state_management_react_easy_state
-    - id: state_management_other
-      template: others
-      description: "Other answers (freeform)"
-    - id: state_management_happiness
-      description: "How do you feel about the current overall state of state management solutions available for React Native?"
-      template: happiness
+# - id: state_management
+#   template: tool
+#   slug: state_management
+#   questions:
+#     - id: state_management_apollo
+#     - id: state_management_jotai
+#     - id: state_management_mobx
+#       year: 2023
+#     - id: state_management_mobx_state_tree
+#       year: 2023
+#     - id: state_management_rn_built_in
+#     - id: state_management_recoil
+#     - id: state_management_redux
+#     - id: state_management_redux_toolkit
+#       year: 2023
+#     - id: state_management_react_query
+#     - id: state_management_xstate
+#       year: 2023
+#     - id: state_management_zustand
+#     # - id: state_management_legend_state
+#     # - id: state_management_react_easy_state
+#     - id: state_management_other
+#       template: others
+#       description: "Other answers (freeform)"
+#     - id: state_management_happiness
+#       description: "How do you feel about the current overall state of state management solutions available for React Native?"
+#       template: happiness
 
 ######################################################
 #########            DATA FETCHING           #########

@@ -1,0 +1,303 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_js": {
+        "js2022": {
+          "opinions": {
+            "top_js_pain_points_others": {
+              "freeform": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 665,
+                    "percentageSurvey": 1.7,
+                    "total": 39469
+                  },
+                  "buckets": [
+                    {
+                      "count": 95,
+                      "id": "build_tools",
+                      "percentageQuestion": 14.3,
+                      "percentageSurvey": 0.3,
+                      "entity": {
+                        "id": "build_tools"
+                      }
+                    },
+                    {
+                      "count": 87,
+                      "id": "typing",
+                      "percentageQuestion": 13.1,
+                      "percentageSurvey": 0.3
+                    },
+                    {
+                      "count": 69,
+                      "id": "typescript",
+                      "percentageQuestion": 10.4,
+                      "percentageSurvey": 0.2,
+                      "entity": {
+                        "name": "TypeScript",
+                        "nameClean": "TypeScript",
+                        "id": "typescript",
+                        "homepage": {
+                          "url": "typescriptlang.org/"
+                        }
+                      }
+                    },
+                    {
+                      "count": 65,
+                      "id": "esm_cjs",
+                      "percentageQuestion": 9.8,
+                      "percentageSurvey": 0.2,
+                      "entity": {
+                        "name": "ESM & CJS",
+                        "nameHtml": "ESM &amp; CJS",
+                        "nameClean": "ESM  CJS",
+                        "id": "esm_cjs"
+                      }
+                    },
+                    {
+                      "count": 60,
+                      "id": "testing",
+                      "percentageQuestion": 9.1,
+                      "percentageSurvey": 0.2,
+                      "entity": {
+                        "id": "testing"
+                      }
+                    },
+                    {
+                      "count": 50,
+                      "id": "performance",
+                      "percentageQuestion": 7.6,
+                      "percentageSurvey": 0.2,
+                      "entity": {
+                        "id": "performance"
+                      }
+                    },
+                    {
+                      "count": 48,
+                      "id": "too_many_choices",
+                      "percentageQuestion": 7.3,
+                      "percentageSurvey": 0.2,
+                      "entity": {
+                        "id": "too_many_choices"
+                      }
+                    },
+                    {
+                      "count": 47,
+                      "id": "react",
+                      "percentageQuestion": 7.1,
+                      "percentageSurvey": 0.2,
+                      "entity": {
+                        "id": "react"
+                      }
+                    },
+                    {
+                      "count": 45,
+                      "id": "bundlers",
+                      "percentageQuestion": 6.8,
+                      "percentageSurvey": 0.2,
+                      "entity": {
+                        "name": "Bundlers",
+                        "nameClean": "Bundlers",
+                        "id": "bundlers"
+                      }
+                    },
+                    {
+                      "count": 31,
+                      "id": "complexity",
+                      "percentageQuestion": 4.7,
+                      "percentageSurvey": 0.1,
+                      "entity": {
+                        "id": "complexity"
+                      }
+                    },
+                    {
+                      "count": 29,
+                      "id": "standard_library",
+                      "percentageQuestion": 4.4,
+                      "percentageSurvey": 0.1,
+                      "entity": {
+                        "name": "Standard Library",
+                        "nameClean": "Standard Library",
+                        "id": "standard_library"
+                      }
+                    },
+                    {
+                      "count": 29,
+                      "id": "tooling",
+                      "percentageQuestion": 4.4,
+                      "percentageSurvey": 0.1,
+                      "entity": {
+                        "name": "Tooling",
+                        "nameClean": "Tooling",
+                        "id": "tooling"
+                      }
+                    },
+                    {
+                      "count": 28,
+                      "id": "dependencies",
+                      "percentageQuestion": 4.3,
+                      "percentageSurvey": 0.1,
+                      "entity": {
+                        "name": "Dependencies",
+                        "nameClean": "Dependencies",
+                        "id": "dependencies"
+                      }
+                    },
+                    {
+                      "count": 20,
+                      "id": "security",
+                      "percentageQuestion": 3.1,
+                      "percentageSurvey": 0.1,
+                      "entity": {
+                        "id": "security"
+                      }
+                    },
+                    {
+                      "count": 20,
+                      "id": "slow",
+                      "percentageQuestion": 3.1,
+                      "percentageSurvey": 0.1
+                    },
+                    {
+                      "count": 18,
+                      "id": "monorepos",
+                      "percentageQuestion": 2.8,
+                      "percentageSurvey": 0.1,
+                      "entity": {
+                        "name": "Monorepos",
+                        "nameClean": "Monorepos",
+                        "id": "monorepos"
+                      }
+                    },
+                    {
+                      "count": 17,
+                      "id": "debugging",
+                      "percentageQuestion": 2.6,
+                      "percentageSurvey": 0.1,
+                      "entity": {
+                        "name": "Debugging",
+                        "nameClean": "Debugging",
+                        "id": "debugging"
+                      }
+                    },
+                    {
+                      "count": 16,
+                      "id": "npm",
+                      "percentageQuestion": 2.5,
+                      "percentageSurvey": 0.1,
+                      "entity": {
+                        "name": "npm",
+                        "nameClean": "npm",
+                        "id": "npm"
+                      }
+                    },
+                    {
+                      "count": 14,
+                      "id": "legacy_support",
+                      "percentageQuestion": 2.2,
+                      "percentageSurvey": 0.1,
+                      "entity": {
+                        "name": "Legacy Code & Support",
+                        "nameHtml": "Legacy Code &amp; Support",
+                        "nameClean": "Legacy Code  Support",
+                        "id": "legacy_support"
+                      }
+                    },
+                    {
+                      "count": 14,
+                      "id": "multithreading",
+                      "percentageQuestion": 2.2,
+                      "percentageSurvey": 0.1,
+                      "entity": {
+                        "name": "Multithreading",
+                        "nameClean": "Multithreading",
+                        "id": "multi_threading"
+                      }
+                    },
+                    {
+                      "count": 14,
+                      "id": "type_safety",
+                      "percentageQuestion": 2.2,
+                      "percentageSurvey": 0.1
+                    },
+                    {
+                      "count": 11,
+                      "id": "immutability",
+                      "percentageQuestion": 1.7,
+                      "percentageSurvey": 0.1,
+                      "entity": {
+                        "name": "Immutability",
+                        "nameClean": "Immutability",
+                        "id": "immutability"
+                      }
+                    },
+                    {
+                      "count": 9,
+                      "id": "cross_browser",
+                      "percentageQuestion": 1.4,
+                      "percentageSurvey": 0.1
+                    },
+                    {
+                      "count": 8,
+                      "id": "data_fetching",
+                      "percentageQuestion": 1.3,
+                      "percentageSurvey": 0.1,
+                      "entity": {
+                        "name": "Data Fetching",
+                        "nameClean": "Data Fetching",
+                        "id": "data_fetching"
+                      }
+                    },
+                    {
+                      "count": 6,
+                      "id": "browser_compatibility",
+                      "percentageQuestion": 1,
+                      "percentageSurvey": 0.1
+                    },
+                    {
+                      "count": 6,
+                      "id": "caching",
+                      "percentageQuestion": 1,
+                      "percentageSurvey": 0.1,
+                      "entity": {
+                        "name": "Caching",
+                        "nameClean": "Caching",
+                        "id": "caching"
+                      }
+                    },
+                    {
+                      "count": 6,
+                      "id": "node_modules",
+                      "percentageQuestion": 1,
+                      "percentageSurvey": 0.1,
+                      "entity": {
+                        "name": "node_modules Directory",
+                        "nameClean": "node_modules Directory",
+                        "id": "node_modules"
+                      }
+                    },
+                    {
+                      "count": 5,
+                      "id": "ssr",
+                      "percentageQuestion": 0.8,
+                      "percentageSurvey": 0.1,
+                      "entity": {
+                        "id": "ssr"
+                      }
+                    },
+                    {
+                      "count": 5,
+                      "id": "other_answers",
+                      "percentageQuestion": 0.8,
+                      "percentageSurvey": 0.1
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

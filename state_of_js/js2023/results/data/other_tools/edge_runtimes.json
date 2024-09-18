@@ -1,0 +1,269 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_js": {
+        "js2023": {
+          "other_tools": {
+            "edge_runtimes": {
+              "combined": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 15604,
+                    "percentageSurvey": 66.29,
+                    "total": 23540
+                  },
+                  "buckets": [
+                    {
+                      "count": 5200,
+                      "id": "aws_lambda",
+                      "percentageQuestion": 33.32,
+                      "percentageSurvey": 22.09,
+                      "entity": {
+                        "name": "AWS Lambda",
+                        "nameClean": "AWS Lambda",
+                        "id": "aws_lambda",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://aws.amazon.com/lambda/"
+                        }
+                      }
+                    },
+                    {
+                      "count": 3793,
+                      "id": "nextjs_edge_runtime",
+                      "percentageQuestion": 24.31,
+                      "percentageSurvey": 16.11,
+                      "entity": {
+                        "name": "Vercel Edge Runtime",
+                        "nameClean": "Vercel Edge Runtime",
+                        "id": "nextjs_edge_runtime",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://nextjs.org/docs/api-reference/edge-runtime"
+                        }
+                      }
+                    },
+                    {
+                      "count": 2421,
+                      "id": "cloudflare_workers",
+                      "percentageQuestion": 15.52,
+                      "percentageSurvey": 10.28,
+                      "entity": {
+                        "name": "Cloudflare Workers",
+                        "nameClean": "Cloudflare Workers",
+                        "id": "cloudflare_workers",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://workers.cloudflare.com/"
+                        }
+                      }
+                    },
+                    {
+                      "count": 2295,
+                      "id": "google_cloud_functions",
+                      "percentageQuestion": 14.71,
+                      "percentageSurvey": 9.75,
+                      "entity": {
+                        "name": "Google Cloud Functions",
+                        "nameClean": "Google Cloud Functions",
+                        "id": "google_cloud_functions",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://cloud.google.com/functions"
+                        }
+                      }
+                    },
+                    {
+                      "count": 1735,
+                      "id": "netlify_edge_functions",
+                      "percentageQuestion": 11.12,
+                      "percentageSurvey": 7.37,
+                      "entity": {
+                        "name": "Netlify Edge Functions",
+                        "nameClean": "Netlify Edge Functions",
+                        "id": "netlify_edge_functions",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://docs.netlify.com/edge-functions/overview/"
+                        }
+                      }
+                    },
+                    {
+                      "count": 1426,
+                      "id": "azure_functions",
+                      "percentageQuestion": 9.14,
+                      "percentageSurvey": 6.06,
+                      "entity": {
+                        "name": "Azure Functions",
+                        "nameClean": "Azure Functions",
+                        "id": "azure_functions",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview"
+                        }
+                      }
+                    },
+                    {
+                      "count": 986,
+                      "id": "fly_io",
+                      "percentageQuestion": 6.32,
+                      "percentageSurvey": 4.19,
+                      "entity": {
+                        "name": "Fly.io",
+                        "nameClean": "Fly.io",
+                        "id": "fly_io",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://fly.io/"
+                        }
+                      }
+                    },
+                    {
+                      "count": 555,
+                      "id": "digital_ocean_functions",
+                      "percentageQuestion": 3.56,
+                      "percentageSurvey": 2.36,
+                      "entity": {
+                        "name": "Digital Ocean Functions",
+                        "nameClean": "Digital Ocean Functions",
+                        "id": "digital_ocean_functions",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://www.digitalocean.com/products/functions"
+                        }
+                      }
+                    },
+                    {
+                      "count": 86,
+                      "id": "deno",
+                      "percentageQuestion": 0.55,
+                      "percentageSurvey": 0.37,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "Deno",
+                        "nameClean": "Deno",
+                        "description": "A secure JavaScript and TypeScript runtime",
+                        "descriptionClean": "A secure JavaScript and TypeScript runtime",
+                        "id": "deno",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://deno.land"
+                        }
+                      }
+                    },
+                    {
+                      "count": 42,
+                      "id": "supabase_functions",
+                      "percentageQuestion": 0.27,
+                      "percentageSurvey": 0.18,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "Supabase Edge Functions",
+                        "nameClean": "Supabase Edge Functions",
+                        "id": "supabase_functions",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://supabase.com/docs/guides/functions"
+                        }
+                      }
+                    },
+                    {
+                      "count": 18,
+                      "id": "firebase_functions",
+                      "percentageQuestion": 0.12,
+                      "percentageSurvey": 0.08,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "Cloud Functions for Firebase",
+                        "nameClean": "Cloud Functions for Firebase",
+                        "id": "firebase_functions",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://firebase.google.com/docs/functions"
+                        }
+                      }
+                    },
+                    {
+                      "count": 11,
+                      "id": "render",
+                      "percentageQuestion": 0.07,
+                      "percentageSurvey": 0.05,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "Render",
+                        "nameClean": "Render",
+                        "id": "render",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://render.com/"
+                        }
+                      }
+                    },
+                    {
+                      "count": 10,
+                      "id": "google_cloud_run",
+                      "percentageQuestion": 0.06,
+                      "percentageSurvey": 0.04,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "Google Cloud Run",
+                        "nameClean": "Google Cloud Run",
+                        "id": "google_cloud_run",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://cloud.google.com/run"
+                        }
+                      }
+                    },
+                    {
+                      "count": 5745,
+                      "id": "na",
+                      "percentageQuestion": 36.82,
+                      "percentageSurvey": 24.41,
+                      "entity": {
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 7752,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 32.93,
+                      "entity": {
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 130,
+                      "id": "other_answers",
+                      "percentageQuestion": 0.84,
+                      "percentageSurvey": 0.55,
+                      "groupedBuckets": [
+                        {
+                          "count": 19,
+                          "id": "cutoff_answers",
+                          "percentageQuestion": 0.13,
+                          "percentageSurvey": 0.08
+                        },
+                        {
+                          "count": 111,
+                          "id": "no_match",
+                          "percentageQuestion": 0.71,
+                          "percentageSurvey": 0.47,
+                          "isFreeformData": true,
+                          "entity": {
+                            "entityType": "default"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

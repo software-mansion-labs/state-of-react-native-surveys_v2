@@ -1,0 +1,107 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_css": {
+        "css2023": {
+          "other_features": {
+            "shadow_dom_css": {
+              "entity": {
+                "id": "shadow_dom_css",
+                "example": {
+                  "language": "css",
+                  "code": "custom-element::part(foo) {\n  /* Styles to apply to the `foo` part */\n}\n\n:host(.special-custom-element) {\n  font-weight: bold;\n}\n\n::slotted(*) {\n  font-weight: bold;\n}\n",
+                  "codeHighlighted": "custom-element<span class=\"hljs-selector-pseudo\">::part</span>(foo) {\n  <span class=\"hljs-comment\">/* Styles to apply to the `foo` part */</span>\n}\n\n<span class=\"hljs-selector-pseudo\">:host</span>(<span class=\"hljs-selector-class\">.special-custom-element</span>) {\n  <span class=\"hljs-attribute\">font-weight</span>: bold;\n}\n\n<span class=\"hljs-selector-pseudo\">::slotted</span>(*) {\n  <span class=\"hljs-attribute\">font-weight</span>: bold;\n}"
+                },
+                "mdn": {
+                  "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/::part"
+                },
+                "caniuse": {
+                  "url": "https://caniuse.com/mdn-api_element_part"
+                }
+              },
+              "comments": {
+                "currentEdition": {
+                  "count": 8
+                }
+              },
+              "responses": {
+                "allEditions": [
+                  {
+                    "editionId": "css2022",
+                    "year": 2022,
+                    "completion": {
+                      "count": 10130,
+                      "percentageSurvey": 70.8,
+                      "total": 14309
+                    },
+                    "buckets": [
+                      {
+                        "count": 7685,
+                        "id": "never_heard",
+                        "percentageQuestion": 75.9,
+                        "percentageSurvey": 53.8
+                      },
+                      {
+                        "count": 1647,
+                        "id": "heard",
+                        "percentageQuestion": 16.3,
+                        "percentageSurvey": 11.6
+                      },
+                      {
+                        "count": 798,
+                        "id": "used",
+                        "percentageQuestion": 7.9,
+                        "percentageSurvey": 5.6
+                      },
+                      {
+                        "count": 4179,
+                        "id": "no_answer",
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 29.3
+                      }
+                    ]
+                  },
+                  {
+                    "editionId": "css2023",
+                    "year": 2023,
+                    "completion": {
+                      "count": 6785,
+                      "percentageSurvey": 73.9,
+                      "total": 9190
+                    },
+                    "buckets": [
+                      {
+                        "count": 4699,
+                        "id": "never_heard",
+                        "percentageQuestion": 69.3,
+                        "percentageSurvey": 51.2
+                      },
+                      {
+                        "count": 1235,
+                        "id": "heard",
+                        "percentageQuestion": 18.3,
+                        "percentageSurvey": 13.5
+                      },
+                      {
+                        "count": 851,
+                        "id": "used",
+                        "percentageQuestion": 12.6,
+                        "percentageSurvey": 9.3
+                      },
+                      {
+                        "count": 2405,
+                        "id": "no_answer",
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 26.2
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

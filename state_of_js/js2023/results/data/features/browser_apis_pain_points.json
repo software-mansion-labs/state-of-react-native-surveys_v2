@@ -1,0 +1,343 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_js": {
+        "js2023": {
+          "features": {
+            "browser_apis_pain_points": {
+              "freeform": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 3243,
+                    "percentageSurvey": 13.78,
+                    "total": 23540
+                  },
+                  "buckets": [
+                    {
+                      "count": 1023,
+                      "id": "browser_support",
+                      "percentageQuestion": 31.54,
+                      "percentageSurvey": 4.35,
+                      "entity": {
+                        "name": "Browser support",
+                        "nameClean": "Browser support",
+                        "description": "Browser support, compatibility, and consistency issues",
+                        "descriptionClean": "Browser support, compatibility, and consistency issues",
+                        "id": "browser_support",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 182,
+                      "id": "safari",
+                      "percentageQuestion": 5.61,
+                      "percentageSurvey": 0.77,
+                      "entity": {
+                        "name": "Safari",
+                        "nameClean": "Safari",
+                        "id": "safari",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://www.apple.com/safari/"
+                        }
+                      }
+                    },
+                    {
+                      "count": 164,
+                      "id": "lack_of_documentation",
+                      "percentageQuestion": 5.06,
+                      "percentageSurvey": 0.7,
+                      "entity": {
+                        "name": "Lack of documentation",
+                        "nameClean": "Lack of documentation",
+                        "description": "Lack of documentation or code examples",
+                        "descriptionClean": "Lack of documentation or code examples",
+                        "id": "lack_of_documentation",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 148,
+                      "id": "date",
+                      "percentageQuestion": 4.56,
+                      "percentageSurvey": 0.63,
+                      "entity": {
+                        "name": "Dates",
+                        "nameClean": "Dates",
+                        "description": "Handling dates and times",
+                        "descriptionClean": "Handling dates and times",
+                        "id": "date",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 107,
+                      "id": "performance",
+                      "percentageQuestion": 3.3,
+                      "percentageSurvey": 0.45,
+                      "entity": {
+                        "name": "Performance",
+                        "nameClean": "Performance",
+                        "description": "Performance issues",
+                        "descriptionClean": "Performance issues",
+                        "id": "performance",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 97,
+                      "id": "excessive_complexity",
+                      "percentageQuestion": 2.99,
+                      "percentageSurvey": 0.41,
+                      "entity": {
+                        "name": "Excessive complexity",
+                        "nameClean": "Excessive complexity",
+                        "description": "Too much complexity",
+                        "descriptionClean": "Too much complexity",
+                        "id": "excessive_complexity",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 69,
+                      "id": "dom_api",
+                      "percentageQuestion": 2.13,
+                      "percentageSurvey": 0.29,
+                      "entity": {
+                        "name": "DOM API",
+                        "nameClean": "DOM API",
+                        "id": "dom_api",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 57,
+                      "id": "chrome",
+                      "percentageQuestion": 1.76,
+                      "percentageSurvey": 0.24,
+                      "entity": {
+                        "name": "Chrome",
+                        "nameClean": "Chrome",
+                        "id": "chrome",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://www.google.com/chrome/"
+                        }
+                      }
+                    },
+                    {
+                      "count": 51,
+                      "id": "firefox_issues",
+                      "percentageQuestion": 1.57,
+                      "percentageSurvey": 0.22,
+                      "entity": {
+                        "name": "Firefox issues",
+                        "nameClean": "Firefox issues",
+                        "id": "firefox_issues",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 51,
+                      "id": "lack_of_adoption",
+                      "percentageQuestion": 1.57,
+                      "percentageSurvey": 0.22,
+                      "entity": {
+                        "name": "Lack of adoption",
+                        "nameClean": "Lack of adoption",
+                        "id": "lack_of_adoption",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 48,
+                      "id": "divergence_with_node_apis",
+                      "percentageQuestion": 1.48,
+                      "percentageSurvey": 0.2,
+                      "entity": {
+                        "name": "Divergence with Node APIs",
+                        "nameClean": "Divergence with Node APIs",
+                        "id": "divergence_with_node_apis",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 46,
+                      "id": "pwas",
+                      "percentageQuestion": 1.42,
+                      "percentageSurvey": 0.2,
+                      "entity": {
+                        "name": "Progressive Web Apps",
+                        "nameClean": "Progressive Web Apps",
+                        "id": "pwas",
+                        "entityType": "feature",
+                        "mdn": {
+                          "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps"
+                        }
+                      }
+                    },
+                    {
+                      "count": 45,
+                      "id": "async",
+                      "percentageQuestion": 1.39,
+                      "percentageSurvey": 0.19,
+                      "entity": {
+                        "name": "Async programming",
+                        "nameClean": "Async programming",
+                        "id": "async",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 45,
+                      "id": "standard_library",
+                      "percentageQuestion": 1.39,
+                      "percentageSurvey": 0.19,
+                      "entity": {
+                        "name": "Standard Library",
+                        "nameClean": "Standard Library",
+                        "id": "standard_library",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 40,
+                      "id": "fetch_api",
+                      "percentageQuestion": 1.23,
+                      "percentageSurvey": 0.17,
+                      "entity": {
+                        "name": "Fetch API",
+                        "nameClean": "Fetch API",
+                        "id": "fetch_api",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 40,
+                      "id": "lack_of_knowledge",
+                      "percentageQuestion": 1.23,
+                      "percentageSurvey": 0.17,
+                      "entity": {
+                        "name": "Lack of knowledge",
+                        "nameClean": "Lack of knowledge",
+                        "id": "lack_of_knowledge",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 38,
+                      "id": "static_typing",
+                      "percentageQuestion": 1.17,
+                      "percentageSurvey": 0.16,
+                      "entity": {
+                        "name": "Static typing",
+                        "nameClean": "Static typing",
+                        "description": "Lack of native typing",
+                        "descriptionClean": "Lack of native typing",
+                        "id": "static_typing",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 38,
+                      "id": "temporal",
+                      "percentageQuestion": 1.17,
+                      "percentageSurvey": 0.16,
+                      "entity": {
+                        "name": "Temporal",
+                        "nameClean": "Temporal",
+                        "id": "temporal",
+                        "entityType": "feature",
+                        "mdn": {
+                          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date"
+                        }
+                      }
+                    },
+                    {
+                      "count": 37,
+                      "id": "cors",
+                      "percentageQuestion": 1.14,
+                      "percentageSurvey": 0.16,
+                      "entity": {
+                        "name": "CORS",
+                        "nameClean": "CORS",
+                        "description": "Opt-in to allowing requests from different origins.",
+                        "descriptionClean": "Opt-in to allowing requests from different origins.",
+                        "id": "cors",
+                        "entityType": "feature",
+                        "example": {
+                          "language": "http",
+                          "code": "Access-Control-Allow-Origin: *\nAccess-Control-Allow-Methods: POST, GET, OPTIONS",
+                          "codeHighlighted": "<span class=\"hljs-attribute\">Access-Control-Allow-Origin</span><span class=\"hljs-punctuation\">: </span>*\n<span class=\"hljs-attribute\">Access-Control-Allow-Methods</span><span class=\"hljs-punctuation\">: </span>POST, GET, OPTIONS"
+                        },
+                        "mdn": {
+                          "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS"
+                        },
+                        "resources": [
+                          {
+                            "url": "https://fetch.spec.whatwg.org/#http-access-control-allow-origin",
+                            "title": "Fetch Standard"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "count": 37,
+                      "id": "testing",
+                      "percentageQuestion": 1.14,
+                      "percentageSurvey": 0.16,
+                      "entity": {
+                        "name": "Testing",
+                        "nameClean": "Testing",
+                        "id": "testing",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 20297,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 86.22,
+                      "entity": {
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 2471,
+                      "id": "other_answers",
+                      "percentageQuestion": 76.07,
+                      "percentageSurvey": 10.29,
+                      "groupedBuckets": [
+                        {
+                          "count": 1036,
+                          "id": "overlimit_answers",
+                          "percentageQuestion": 31.94,
+                          "percentageSurvey": 4.38
+                        },
+                        {
+                          "count": 458,
+                          "id": "cutoff_answers",
+                          "percentageQuestion": 14,
+                          "percentageSurvey": 1.76
+                        },
+                        {
+                          "count": 977,
+                          "id": "no_match",
+                          "percentageQuestion": 30.13,
+                          "percentageSurvey": 4.15,
+                          "entity": {
+                            "entityType": "default"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_css": {
+        "css2023": {
+          "other_features": {
+            "has_selector": {
+              "entity": {
+                "name": "`:has()`",
+                "nameHtml": "<code>:has()</code>",
+                "nameClean": ":has()",
+                "id": "has_selector",
+                "example": {
+                  "language": "css",
+                  "code": "a:has(> img) {\n  border: 2px solid grey;\n}\n",
+                  "codeHighlighted": "<span class=\"hljs-selector-tag\">a</span><span class=\"hljs-selector-pseudo\">:has</span>(&gt; <span class=\"hljs-selector-tag\">img</span>) {\n  <span class=\"hljs-attribute\">border</span>: <span class=\"hljs-number\">2px</span> solid grey;\n}"
+                },
+                "mdn": {
+                  "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:has"
+                },
+                "caniuse": {
+                  "url": "https://caniuse.com/css-has"
+                }
+              },
+              "comments": {
+                "currentEdition": {
+                  "count": 38
+                }
+              },
+              "responses": {
+                "allEditions": [
+                  {
+                    "editionId": "css2022",
+                    "year": 2022,
+                    "completion": {
+                      "count": 10924,
+                      "percentageSurvey": 76.4,
+                      "total": 14309
+                    },
+                    "buckets": [
+                      {
+                        "count": 1178,
+                        "id": "never_heard",
+                        "percentageQuestion": 10.8,
+                        "percentageSurvey": 8.3
+                      },
+                      {
+                        "count": 5952,
+                        "id": "heard",
+                        "percentageQuestion": 54.5,
+                        "percentageSurvey": 41.6
+                      },
+                      {
+                        "count": 3794,
+                        "id": "used",
+                        "percentageQuestion": 34.8,
+                        "percentageSurvey": 26.6
+                      },
+                      {
+                        "count": 3385,
+                        "id": "no_answer",
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 23.7
+                      }
+                    ]
+                  },
+                  {
+                    "editionId": "css2023",
+                    "year": 2023,
+                    "completion": {
+                      "count": 6797,
+                      "percentageSurvey": 74,
+                      "total": 9190
+                    },
+                    "buckets": [
+                      {
+                        "count": 595,
+                        "id": "never_heard",
+                        "percentageQuestion": 8.8,
+                        "percentageSurvey": 6.5
+                      },
+                      {
+                        "count": 2727,
+                        "id": "heard",
+                        "percentageQuestion": 40.2,
+                        "percentageSurvey": 29.7
+                      },
+                      {
+                        "count": 3475,
+                        "id": "used",
+                        "percentageQuestion": 51.2,
+                        "percentageSurvey": 37.9
+                      },
+                      {
+                        "count": 2393,
+                        "id": "no_answer",
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 26.1
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_html": {
+        "html2023": {
+          "interactivity": {
+            "interactivity_pain_points": {
+              "freeform": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 2402,
+                    "percentageSurvey": 11.49,
+                    "total": 20904
+                  },
+                  "buckets": [
+                    {
+                      "count": 356,
+                      "id": "browser_support",
+                      "percentageQuestion": 14.82,
+                      "percentageSurvey": 1.7,
+                      "entity": {
+                        "name": "Browser support",
+                        "nameClean": "Browser support",
+                        "description": "Browser support, compatibility, and consistency issues",
+                        "descriptionClean": "Browser support, compatibility, and consistency issues",
+                        "id": "browser_support",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 178,
+                      "id": "interacting_with_dom",
+                      "percentageQuestion": 7.41,
+                      "percentageSurvey": 0.84,
+                      "entity": {
+                        "name": "DOM interactions",
+                        "nameClean": "DOM interactions",
+                        "description": "Interacting with and manipulating the DOM",
+                        "descriptionClean": "Interacting with and manipulating the DOM",
+                        "id": "interacting_with_dom",
+                        "entityType": "default"
+                      },
+                      "groupedBuckets": [
+                        {
+                          "count": 164,
+                          "id": "dom_manipulation",
+                          "percentageQuestion": 6.83,
+                          "percentageSurvey": 0.78,
+                          "entity": {
+                            "name": "DOM manipulation",
+                            "nameClean": "DOM manipulation",
+                            "description": "Adding, modifying, and removing DOM elements",
+                            "descriptionClean": "Adding, modifying, and removing DOM elements",
+                            "id": "dom_manipulation",
+                            "entityType": "default"
+                          }
+                        },
+                        {
+                          "count": 7,
+                          "id": "dom_diffing",
+                          "percentageQuestion": 0.29,
+                          "percentageSurvey": 0.03,
+                          "entity": {
+                            "name": "DOM diffing",
+                            "nameClean": "DOM diffing",
+                            "description": "Lack of a native DOM diffing algorithm",
+                            "descriptionClean": "Lack of a native DOM diffing algorithm",
+                            "id": "dom_diffing",
+                            "entityType": "default"
+                          }
+                        },
+                        {
+                          "count": 7,
+                          "id": "element_selection",
+                          "percentageQuestion": 0.29,
+                          "percentageSurvey": 0.03,
+                          "entity": {
+                            "name": "Element selection",
+                            "nameClean": "Element selection",
+                            "description": "Selecting and targeting DOM elements",
+                            "descriptionClean": "Selecting and targeting DOM elements",
+                            "id": "element_selection",
+                            "entityType": "default"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "count": 153,
+                      "id": "reliance_on_javascript",
+                      "percentageQuestion": 6.37,
+                      "percentageSurvey": 0.73,
+                      "entity": {
+                        "name": "Reliance on JavaScript",
+                        "nameClean": "Reliance on JavaScript",
+                        "description": "Excessive reliance on JavaScript",
+                        "descriptionClean": "Excessive reliance on JavaScript",
+                        "id": "reliance_on_javascript",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 144,
+                      "id": "event_management",
+                      "percentageQuestion": 6,
+                      "percentageSurvey": 0.69,
+                      "entity": {
+                        "name": "Event management",
+                        "nameClean": "Event management",
+                        "description": "Handling user events",
+                        "descriptionClean": "Handling user events",
+                        "id": "event_management",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 138,
+                      "id": "web_components",
+                      "percentageQuestion": 5.75,
+                      "percentageSurvey": 0.66,
+                      "entity": {
+                        "name": "Web Components",
+                        "nameClean": "Web Components",
+                        "id": "web_components",
+                        "entityType": "feature",
+                        "mdn": {
+                          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_components"
+                        }
+                      }
+                    },
+                    {
+                      "count": 132,
+                      "id": "accessibility",
+                      "percentageQuestion": 5.5,
+                      "percentageSurvey": 0.63,
+                      "entity": {
+                        "name": "Accessibility",
+                        "nameClean": "Accessibility",
+                        "description": "Accessibility improvements",
+                        "descriptionClean": "Accessibility improvements",
+                        "id": "accessibility",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 125,
+                      "id": "state_management",
+                      "percentageQuestion": 5.2,
+                      "percentageSurvey": 0.6,
+                      "entity": {
+                        "name": "State management",
+                        "nameClean": "State management",
+                        "id": "state_management",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 107,
+                      "id": "lack_of_reactivity_support",
+                      "percentageQuestion": 4.45,
+                      "percentageSurvey": 0.51,
+                      "entity": {
+                        "name": "Reactivity",
+                        "nameClean": "Reactivity",
+                        "description": "Lack of support for reactivity",
+                        "descriptionClean": "Lack of support for reactivity",
+                        "id": "lack_of_reactivity_support",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 96,
+                      "id": "excessive_complexity",
+                      "percentageQuestion": 4,
+                      "percentageSurvey": 0.46,
+                      "entity": {
+                        "name": "Excessive complexity",
+                        "nameClean": "Excessive complexity",
+                        "description": "Too much complexity",
+                        "descriptionClean": "Too much complexity",
+                        "id": "excessive_complexity",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 92,
+                      "id": "performance",
+                      "percentageQuestion": 3.83,
+                      "percentageSurvey": 0.44,
+                      "entity": {
+                        "name": "Performance",
+                        "nameClean": "Performance",
+                        "description": "Performance issues",
+                        "descriptionClean": "Performance issues",
+                        "id": "performance",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 18492,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 88.46,
+                      "entity": {
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 2522,
+                      "id": "other_answers",
+                      "percentageQuestion": 104.84,
+                      "percentageSurvey": 11.83,
+                      "groupedBuckets": [
+                        {
+                          "count": 1518,
+                          "id": "overlimit_answers",
+                          "percentageQuestion": 63.22,
+                          "percentageSurvey": 7.3
+                        },
+                        {
+                          "count": 362,
+                          "id": "cutoff_answers",
+                          "percentageQuestion": 14.89,
+                          "percentageSurvey": 1.46
+                        },
+                        {
+                          "count": 642,
+                          "id": "no_match",
+                          "percentageQuestion": 26.73,
+                          "percentageSurvey": 3.07,
+                          "entity": {
+                            "entityType": "default"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_js": {
+        "js2023": {
+          "user_info": {
+            "higher_education_degree": {
+              "responses": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 18045,
+                    "percentageSurvey": 76.66,
+                    "total": 23540
+                  },
+                  "buckets": [
+                    {
+                      "count": 4638,
+                      "id": "no_degree",
+                      "percentageQuestion": 25.7,
+                      "percentageSurvey": 19.7,
+                      "entity": {
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 9906,
+                      "id": "yes_related",
+                      "percentageQuestion": 54.9,
+                      "percentageSurvey": 42.08,
+                      "entity": {
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 3501,
+                      "id": "yes_unrelated",
+                      "percentageQuestion": 19.4,
+                      "percentageSurvey": 14.87,
+                      "entity": {
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 5495,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 23.34,
+                      "entity": {
+                        "entityType": "default"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

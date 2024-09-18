@@ -1,0 +1,111 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_js": {
+        "js2023": {
+          "features": {
+            "string_features": {
+              "responses": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 22044,
+                    "percentageSurvey": 93.64,
+                    "total": 23540
+                  },
+                  "buckets": [
+                    {
+                      "count": 16157,
+                      "id": "string_replace_all",
+                      "percentageQuestion": 73.29,
+                      "percentageSurvey": 68.64,
+                      "entity": {
+                        "name": "`string.replaceAll()`",
+                        "nameHtml": "<code>string.replaceAll()</code>",
+                        "nameClean": "string.replaceAll()",
+                        "id": "string_replace_all",
+                        "entityType": "feature",
+                        "example": {
+                          "language": "js",
+                          "code": "const s1 = \"foo_bar_baz\";\nconst s2 = s1.replaceAll('_', '-');\n",
+                          "codeHighlighted": "<span class=\"hljs-keyword\">const</span> s1 = <span class=\"hljs-string\">&quot;foo_bar_baz&quot;</span>;\n<span class=\"hljs-keyword\">const</span> s2 = s1.<span class=\"hljs-title function_\">replaceAll</span>(<span class=\"hljs-string\">&#x27;_&#x27;</span>, <span class=\"hljs-string\">&#x27;-&#x27;</span>);"
+                        },
+                        "mdn": {
+                          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll"
+                        },
+                        "caniuse": {
+                          "url": "https://caniuse.com/mdn-javascript_builtins_string_replaceall"
+                        }
+                      }
+                    },
+                    {
+                      "count": 9741,
+                      "id": "string_match_all",
+                      "percentageQuestion": 44.19,
+                      "percentageSurvey": 41.38,
+                      "entity": {
+                        "name": "`string.matchAll()`",
+                        "nameHtml": "<code>string.matchAll()</code>",
+                        "nameClean": "string.matchAll()",
+                        "id": "string_match_all",
+                        "entityType": "feature",
+                        "example": {
+                          "language": "js",
+                          "code": "const regexp = /t(e)(st(\\d?))/g;\nconst str = 'test1test2';\nconst array = [...str.matchAll(regexp)];\n",
+                          "codeHighlighted": "<span class=\"hljs-keyword\">const</span> regexp = <span class=\"hljs-regexp\">/t(e)(st(\\d?))/g</span>;\n<span class=\"hljs-keyword\">const</span> str = <span class=\"hljs-string\">&#x27;test1test2&#x27;</span>;\n<span class=\"hljs-keyword\">const</span> array = [...str.<span class=\"hljs-title function_\">matchAll</span>(regexp)];"
+                        },
+                        "mdn": {
+                          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/matchAll"
+                        },
+                        "caniuse": {
+                          "url": "https://caniuse.com/mdn-javascript_builtins_string_matchall"
+                        }
+                      }
+                    },
+                    {
+                      "count": 5385,
+                      "id": "regexp_match_indices",
+                      "percentageQuestion": 24.43,
+                      "percentageSurvey": 22.88,
+                      "entity": {
+                        "name": "Regexp Match Indices",
+                        "nameClean": "Regexp Match Indices",
+                        "id": "regexp_match_indices",
+                        "entityType": "feature",
+                        "example": {
+                          "language": "js",
+                          "code": "const str1 = \"foo bar foo\";\nconst regex1 = /foo/dg;\nconsole.log(regex1.exec(str1).indices[0]); // Output: Array [0, 2]\n",
+                          "codeHighlighted": "<span class=\"hljs-keyword\">const</span> str1 = <span class=\"hljs-string\">&quot;foo bar foo&quot;</span>;\n<span class=\"hljs-keyword\">const</span> regex1 = <span class=\"hljs-regexp\">/foo/</span>dg;\n<span class=\"hljs-variable language_\">console</span>.<span class=\"hljs-title function_\">log</span>(regex1.<span class=\"hljs-title function_\">exec</span>(str1).<span class=\"hljs-property\">indices</span>[<span class=\"hljs-number\">0</span>]); <span class=\"hljs-comment\">// Output: Array [0, 2]</span>"
+                        },
+                        "mdn": {
+                          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/hasIndices"
+                        }
+                      }
+                    },
+                    {
+                      "count": 4318,
+                      "id": "na",
+                      "percentageQuestion": 19.59,
+                      "percentageSurvey": 18.34,
+                      "entity": {
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 1408,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 5.98,
+                      "entity": {
+                        "entityType": "default"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

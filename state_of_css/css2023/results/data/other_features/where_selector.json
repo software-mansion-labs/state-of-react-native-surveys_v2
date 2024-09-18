@@ -1,0 +1,110 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_css": {
+        "css2023": {
+          "other_features": {
+            "where_selector": {
+              "entity": {
+                "name": "`:where()`",
+                "nameHtml": "<code>:where()</code>",
+                "nameClean": ":where()",
+                "id": "where_selector",
+                "example": {
+                  "language": "css",
+                  "code": ":where(header, main, footer) p:hover {\n  color: red;\n  cursor: pointer;\n}\n",
+                  "codeHighlighted": "<span class=\"hljs-selector-pseudo\">:where</span>(<span class=\"hljs-selector-tag\">header</span>, <span class=\"hljs-selector-tag\">main</span>, <span class=\"hljs-selector-tag\">footer</span>) <span class=\"hljs-selector-tag\">p</span><span class=\"hljs-selector-pseudo\">:hover</span> {\n  <span class=\"hljs-attribute\">color</span>: red;\n  <span class=\"hljs-attribute\">cursor</span>: pointer;\n}"
+                },
+                "mdn": {
+                  "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:where"
+                },
+                "caniuse": {
+                  "url": "https://caniuse.com/css-where"
+                }
+              },
+              "comments": {
+                "currentEdition": {
+                  "count": 8
+                }
+              },
+              "responses": {
+                "allEditions": [
+                  {
+                    "editionId": "css2022",
+                    "year": 2022,
+                    "completion": {
+                      "count": 10916,
+                      "percentageSurvey": 76.3,
+                      "total": 14309
+                    },
+                    "buckets": [
+                      {
+                        "count": 4291,
+                        "id": "never_heard",
+                        "percentageQuestion": 39.4,
+                        "percentageSurvey": 30
+                      },
+                      {
+                        "count": 4673,
+                        "id": "heard",
+                        "percentageQuestion": 42.9,
+                        "percentageSurvey": 32.7
+                      },
+                      {
+                        "count": 1952,
+                        "id": "used",
+                        "percentageQuestion": 17.9,
+                        "percentageSurvey": 13.7
+                      },
+                      {
+                        "count": 3393,
+                        "id": "no_answer",
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 23.8
+                      }
+                    ]
+                  },
+                  {
+                    "editionId": "css2023",
+                    "year": 2023,
+                    "completion": {
+                      "count": 6801,
+                      "percentageSurvey": 74.1,
+                      "total": 9190
+                    },
+                    "buckets": [
+                      {
+                        "count": 2111,
+                        "id": "never_heard",
+                        "percentageQuestion": 31.1,
+                        "percentageSurvey": 23
+                      },
+                      {
+                        "count": 2747,
+                        "id": "heard",
+                        "percentageQuestion": 40.4,
+                        "percentageSurvey": 29.9
+                      },
+                      {
+                        "count": 1943,
+                        "id": "used",
+                        "percentageQuestion": 28.6,
+                        "percentageSurvey": 21.2
+                      },
+                      {
+                        "count": 2389,
+                        "id": "no_answer",
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 26
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

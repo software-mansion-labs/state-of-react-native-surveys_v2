@@ -1,0 +1,110 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_css": {
+        "css2023": {
+          "colors": {
+            "gradient_color_spaces": {
+              "entity": {
+                "id": "gradient_color_spaces",
+                "example": {
+                  "language": "css",
+                  "code": ".gradient {\n  background: linear-gradient(in oklab, hsl(80 90% 50%), red);\n}\n",
+                  "codeHighlighted": "<span class=\"hljs-selector-class\">.gradient</span> {\n  <span class=\"hljs-attribute\">background</span>: <span class=\"hljs-built_in\">linear-gradient</span>(in oklab, <span class=\"hljs-built_in\">hsl</span>(<span class=\"hljs-number\">80</span> <span class=\"hljs-number\">90%</span> <span class=\"hljs-number\">50%</span>), red);\n}"
+                },
+                "caniuse": {
+                  "url": "https://caniuse.com/mdn-css_types_image_gradient_conic-gradient_interpolation_color_space"
+                },
+                "resources": [
+                  {
+                    "url": "https://css-tricks.com/color-spaces-for-more-interesting-css-gradients/",
+                    "title": "Using Different Color Spaces for Non-Boring Gradients"
+                  }
+                ]
+              },
+              "comments": {
+                "currentEdition": {
+                  "count": 6
+                }
+              },
+              "responses": {
+                "allEditions": [
+                  {
+                    "editionId": "css2022",
+                    "year": 2022,
+                    "completion": {
+                      "count": 11904,
+                      "percentageSurvey": 83.2,
+                      "total": 14309
+                    },
+                    "buckets": [
+                      {
+                        "count": 7260,
+                        "id": "never_heard",
+                        "percentageQuestion": 61,
+                        "percentageSurvey": 50.8
+                      },
+                      {
+                        "count": 2400,
+                        "id": "heard",
+                        "percentageQuestion": 20.2,
+                        "percentageSurvey": 16.8
+                      },
+                      {
+                        "count": 2244,
+                        "id": "used",
+                        "percentageQuestion": 18.9,
+                        "percentageSurvey": 15.7
+                      },
+                      {
+                        "count": 2405,
+                        "id": "no_answer",
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 16.9
+                      }
+                    ]
+                  },
+                  {
+                    "editionId": "css2023",
+                    "year": 2023,
+                    "completion": {
+                      "count": 7401,
+                      "percentageSurvey": 80.6,
+                      "total": 9190
+                    },
+                    "buckets": [
+                      {
+                        "count": 4916,
+                        "id": "never_heard",
+                        "percentageQuestion": 66.5,
+                        "percentageSurvey": 53.5
+                      },
+                      {
+                        "count": 1902,
+                        "id": "heard",
+                        "percentageQuestion": 25.7,
+                        "percentageSurvey": 20.7
+                      },
+                      {
+                        "count": 583,
+                        "id": "used",
+                        "percentageQuestion": 7.9,
+                        "percentageSurvey": 6.4
+                      },
+                      {
+                        "count": 1789,
+                        "id": "no_answer",
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 19.5
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

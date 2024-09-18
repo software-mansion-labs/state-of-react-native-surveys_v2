@@ -1,0 +1,104 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_js": {
+        "js2022": {
+          "language": {
+            "numeric_separators": {
+              "entity": {
+                "name": "Numeric Separators",
+                "nameClean": "Numeric Separators",
+                "id": "numeric_separators",
+                "mdn": {
+                  "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar"
+                },
+                "caniuse": {
+                  "url": "https://caniuse.com/mdn-javascript_grammar_numeric_separators"
+                }
+              },
+              "comments": {
+                "currentEdition": {
+                  "count": 46
+                }
+              },
+              "responses": {
+                "allEditions": [
+                  {
+                    "editionId": "js2021",
+                    "year": 2021,
+                    "completion": {
+                      "count": 14529,
+                      "percentageSurvey": 90.4,
+                      "total": 16086
+                    },
+                    "buckets": [
+                      {
+                        "count": 7820,
+                        "id": "never_heard",
+                        "percentageQuestion": 53.9,
+                        "percentageSurvey": 48.7
+                      },
+                      {
+                        "count": 4359,
+                        "id": "heard",
+                        "percentageQuestion": 30.1,
+                        "percentageSurvey": 27.1
+                      },
+                      {
+                        "count": 2350,
+                        "id": "used",
+                        "percentageQuestion": 16.2,
+                        "percentageSurvey": 14.7
+                      },
+                      {
+                        "count": 1557,
+                        "id": "no_answer",
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 9.7
+                      }
+                    ]
+                  },
+                  {
+                    "editionId": "js2022",
+                    "year": 2022,
+                    "completion": {
+                      "count": 38200,
+                      "percentageSurvey": 96.8,
+                      "total": 39469
+                    },
+                    "buckets": [
+                      {
+                        "count": 18964,
+                        "id": "never_heard",
+                        "percentageQuestion": 49.7,
+                        "percentageSurvey": 48.1
+                      },
+                      {
+                        "count": 10134,
+                        "id": "heard",
+                        "percentageQuestion": 26.6,
+                        "percentageSurvey": 25.7
+                      },
+                      {
+                        "count": 9102,
+                        "id": "used",
+                        "percentageQuestion": 23.9,
+                        "percentageSurvey": 23.1
+                      },
+                      {
+                        "count": 1269,
+                        "id": "no_answer",
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 3.3
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

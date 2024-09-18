@@ -1,0 +1,131 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_html": {
+        "html2023": {
+          "content": {
+            "machine_readable_features": {
+              "responses": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 13203,
+                    "percentageSurvey": 63.16,
+                    "total": 20904
+                  },
+                  "buckets": [
+                    {
+                      "count": 4683,
+                      "id": "time_element",
+                      "percentageQuestion": 35.47,
+                      "percentageSurvey": 22.4,
+                      "entity": {
+                        "name": "`<time>`\n",
+                        "nameHtml": "<code>&lt;time&gt;</code>\n",
+                        "nameClean": "time",
+                        "id": "time_element",
+                        "entityType": "feature"
+                      }
+                    },
+                    {
+                      "count": 3443,
+                      "id": "json_ld",
+                      "percentageQuestion": 26.08,
+                      "percentageSurvey": 16.47,
+                      "entity": {
+                        "name": "JSON-LD\n",
+                        "nameClean": "JSON-LD\n",
+                        "id": "json_ld",
+                        "entityType": "feature",
+                        "example": {
+                          "language": "html",
+                          "code": "`<script type=\"application/ld+json\">`\n",
+                          "codeHighlighted": "`<span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">script</span> <span class=\"hljs-attr\">type</span>=<span class=\"hljs-string\">&quot;application/ld+json&quot;</span>&gt;</span>`"
+                        }
+                      }
+                    },
+                    {
+                      "count": 3010,
+                      "id": "microdata",
+                      "percentageQuestion": 22.8,
+                      "percentageSurvey": 14.4,
+                      "entity": {
+                        "name": "Microdata\n",
+                        "nameClean": "Microdata\n",
+                        "description": "`itemprop`, `itemscope`, etc.\n",
+                        "descriptionHtml": "<code>itemprop</code>, <code>itemscope</code>, etc.\n",
+                        "descriptionClean": "itemprop, itemscope, etc.",
+                        "id": "microdata",
+                        "entityType": "feature"
+                      }
+                    },
+                    {
+                      "count": 2652,
+                      "id": "data_element",
+                      "percentageQuestion": 20.09,
+                      "percentageSurvey": 12.69,
+                      "entity": {
+                        "name": "`<data>`\n",
+                        "nameHtml": "<code>&lt;data&gt;</code>\n",
+                        "nameClean": "data",
+                        "id": "data_element",
+                        "entityType": "feature"
+                      }
+                    },
+                    {
+                      "count": 2555,
+                      "id": "microformats",
+                      "percentageQuestion": 19.35,
+                      "percentageSurvey": 12.22,
+                      "entity": {
+                        "name": "Microformats",
+                        "nameClean": "Microformats",
+                        "description": "`class=\"h-card\"`, `class=\"h-event\"`, etc.\n",
+                        "descriptionHtml": "<code>class=\"h-card\"</code>, <code>class=\"h-event\"</code>, etc.\n",
+                        "descriptionClean": "class=\"h-card\", class=\"h-event\", etc.",
+                        "id": "microformats",
+                        "entityType": "feature"
+                      }
+                    },
+                    {
+                      "count": 1161,
+                      "id": "rdfa",
+                      "percentageQuestion": 8.79,
+                      "percentageSurvey": 5.55,
+                      "entity": {
+                        "name": "RDFa\n",
+                        "nameClean": "RDFa\n",
+                        "description": "`property`, `typeof`, etc.\n",
+                        "descriptionHtml": "<code>property</code>, <code>typeof</code>, etc.\n",
+                        "descriptionClean": "property, typeof, etc.",
+                        "id": "rdfa",
+                        "entityType": "feature"
+                      }
+                    },
+                    {
+                      "count": 5428,
+                      "id": "na",
+                      "percentageQuestion": 41.11,
+                      "percentageSurvey": 25.97,
+                      "entity": {
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 7630,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 36.5,
+                      "entity": {
+                        "entityType": "default"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

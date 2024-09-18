@@ -1,0 +1,110 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_css": {
+        "css2023": {
+          "colors": {
+            "currentcolor": {
+              "entity": {
+                "name": "`currentColor`",
+                "nameHtml": "<code>currentColor</code>",
+                "nameClean": "currentColor",
+                "id": "currentcolor",
+                "example": {
+                  "language": "css",
+                  "code": ".blue-text {\n  color: blue;\n}\n.blue-text .blue-background {\n  background: currentColor;\n}\n",
+                  "codeHighlighted": "<span class=\"hljs-selector-class\">.blue-text</span> {\n  <span class=\"hljs-attribute\">color</span>: blue;\n}\n<span class=\"hljs-selector-class\">.blue-text</span> <span class=\"hljs-selector-class\">.blue-background</span> {\n  <span class=\"hljs-attribute\">background</span>: currentColor;\n}"
+                },
+                "mdn": {
+                  "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/color_value"
+                },
+                "caniuse": {
+                  "url": "https://caniuse.com/currentcolor"
+                }
+              },
+              "comments": {
+                "currentEdition": {
+                  "count": 17
+                }
+              },
+              "responses": {
+                "allEditions": [
+                  {
+                    "editionId": "css2022",
+                    "year": 2022,
+                    "completion": {
+                      "count": 11913,
+                      "percentageSurvey": 83.3,
+                      "total": 14309
+                    },
+                    "buckets": [
+                      {
+                        "count": 4286,
+                        "id": "never_heard",
+                        "percentageQuestion": 36,
+                        "percentageSurvey": 30
+                      },
+                      {
+                        "count": 1997,
+                        "id": "heard",
+                        "percentageQuestion": 16.8,
+                        "percentageSurvey": 14
+                      },
+                      {
+                        "count": 5630,
+                        "id": "used",
+                        "percentageQuestion": 47.3,
+                        "percentageSurvey": 39.4
+                      },
+                      {
+                        "count": 2396,
+                        "id": "no_answer",
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 16.8
+                      }
+                    ]
+                  },
+                  {
+                    "editionId": "css2023",
+                    "year": 2023,
+                    "completion": {
+                      "count": 7416,
+                      "percentageSurvey": 80.7,
+                      "total": 9190
+                    },
+                    "buckets": [
+                      {
+                        "count": 2163,
+                        "id": "never_heard",
+                        "percentageQuestion": 29.2,
+                        "percentageSurvey": 23.6
+                      },
+                      {
+                        "count": 1211,
+                        "id": "heard",
+                        "percentageQuestion": 16.4,
+                        "percentageSurvey": 13.2
+                      },
+                      {
+                        "count": 4042,
+                        "id": "used",
+                        "percentageQuestion": 54.6,
+                        "percentageSurvey": 44
+                      },
+                      {
+                        "count": 1774,
+                        "id": "no_answer",
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 19.4
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,440 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_js": {
+        "js2023": {
+          "other_tools": {
+            "libraries": {
+              "combined": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 17368,
+                    "percentageSurvey": 73.78,
+                    "total": 23540
+                  },
+                  "buckets": [
+                    {
+                      "count": 8633,
+                      "id": "lodash",
+                      "percentageQuestion": 49.71,
+                      "percentageSurvey": 36.67,
+                      "entity": {
+                        "name": "Lodash",
+                        "nameClean": "Lodash",
+                        "description": "A modern JavaScript utility library delivering modularity, performance, & extras.",
+                        "descriptionHtml": "A modern JavaScript utility library delivering modularity, performance, &amp; extras.",
+                        "descriptionClean": "A modern JavaScript utility library delivering modularity, performance,  extras.",
+                        "id": "lodash",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://lodash.com/"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/lodash"
+                        }
+                      }
+                    },
+                    {
+                      "count": 6281,
+                      "id": "date_fns",
+                      "percentageQuestion": 36.16,
+                      "percentageSurvey": 26.68,
+                      "entity": {
+                        "name": "date-fns",
+                        "nameClean": "date-fns",
+                        "description": "Modern JavaScript date utility library ️",
+                        "descriptionClean": "Modern JavaScript date utility library ️",
+                        "id": "date_fns",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://date-fns.org"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/date-fns"
+                        }
+                      }
+                    },
+                    {
+                      "count": 5809,
+                      "id": "zod",
+                      "percentageQuestion": 33.45,
+                      "percentageSurvey": 24.68,
+                      "entity": {
+                        "name": "Zod",
+                        "nameClean": "Zod",
+                        "id": "zod",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://github.com/colinhacks/zod"
+                        }
+                      }
+                    },
+                    {
+                      "count": 5680,
+                      "id": "moment",
+                      "percentageQuestion": 32.7,
+                      "percentageSurvey": 24.13,
+                      "entity": {
+                        "name": "Moment",
+                        "nameClean": "Moment",
+                        "description": "Parse, validate, manipulate, and display dates in javascript.",
+                        "descriptionClean": "Parse, validate, manipulate, and display dates in javascript.",
+                        "id": "moment",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://momentjs.com/"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/moment"
+                        }
+                      }
+                    },
+                    {
+                      "count": 4611,
+                      "id": "dayjs",
+                      "percentageQuestion": 26.55,
+                      "percentageSurvey": 19.59,
+                      "entity": {
+                        "name": "Day.js",
+                        "nameClean": "Day.js",
+                        "description": "Day.js 2KB immutable date-time library alternative to Moment.js with the same modern API",
+                        "descriptionClean": "Day.js 2KB immutable date-time library alternative to Moment.js with the same modern API",
+                        "id": "dayjs",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://day.js.org"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/dayjs"
+                        }
+                      }
+                    },
+                    {
+                      "count": 4125,
+                      "id": "rxjs",
+                      "percentageQuestion": 23.75,
+                      "percentageSurvey": 17.52,
+                      "entity": {
+                        "name": "RxJS",
+                        "nameClean": "RxJS",
+                        "description": "A reactive programming library for JavaScript",
+                        "descriptionClean": "A reactive programming library for JavaScript",
+                        "id": "rxjs",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://rxjs.dev"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/rx"
+                        }
+                      }
+                    },
+                    {
+                      "count": 3864,
+                      "id": "jquery",
+                      "percentageQuestion": 22.25,
+                      "percentageSurvey": 16.41,
+                      "entity": {
+                        "name": "jQuery",
+                        "nameClean": "jQuery",
+                        "description": "jQuery JavaScript Library",
+                        "descriptionClean": "jQuery JavaScript Library",
+                        "id": "jquery",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://jquery.com/"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/jquery"
+                        }
+                      }
+                    },
+                    {
+                      "count": 2836,
+                      "id": "yup",
+                      "percentageQuestion": 16.33,
+                      "percentageSurvey": 12.05,
+                      "entity": {
+                        "name": "Yup",
+                        "nameClean": "Yup",
+                        "description": "Dead simple Object schema validation",
+                        "descriptionClean": "Dead simple Object schema validation",
+                        "id": "yup",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://github.com/jquense/yup"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/yup"
+                        }
+                      }
+                    },
+                    {
+                      "count": 2474,
+                      "id": "core_js",
+                      "percentageQuestion": 14.24,
+                      "percentageSurvey": 10.51,
+                      "entity": {
+                        "name": "core-js",
+                        "nameClean": "core-js",
+                        "id": "core_js",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://github.com/zloirock/core-js"
+                        }
+                      }
+                    },
+                    {
+                      "count": 2156,
+                      "id": "immer",
+                      "percentageQuestion": 12.41,
+                      "percentageSurvey": 9.16,
+                      "entity": {
+                        "name": "Immer",
+                        "nameClean": "Immer",
+                        "description": "Create the next immutable state by mutating the current one",
+                        "descriptionClean": "Create the next immutable state by mutating the current one",
+                        "id": "immer",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://immerjs.github.io/immer/"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/immer"
+                        }
+                      }
+                    },
+                    {
+                      "count": 1913,
+                      "id": "luxon",
+                      "percentageQuestion": 11.01,
+                      "percentageSurvey": 8.13,
+                      "entity": {
+                        "name": "Luxon",
+                        "nameClean": "Luxon",
+                        "description": "⏱ A library for working with dates and times in JS",
+                        "descriptionClean": "⏱ A library for working with dates and times in JS",
+                        "id": "luxon",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://moment.github.io/luxon"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/luxon"
+                        }
+                      }
+                    },
+                    {
+                      "count": 1881,
+                      "id": "underscore",
+                      "percentageQuestion": 10.83,
+                      "percentageSurvey": 7.99,
+                      "entity": {
+                        "name": "Underscore.js",
+                        "nameClean": "Underscore.js",
+                        "description": "JavaScript's utility _ belt",
+                        "descriptionHtml": "JavaScript's utility _ belt",
+                        "descriptionClean": "JavaScript's utility _ belt",
+                        "id": "underscore",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://underscorejs.org"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/underscore"
+                        }
+                      }
+                    },
+                    {
+                      "count": 1051,
+                      "id": "ramda",
+                      "percentageQuestion": 6.05,
+                      "percentageSurvey": 4.46,
+                      "entity": {
+                        "name": "Ramda",
+                        "nameClean": "Ramda",
+                        "description": "Practical functional Javascript",
+                        "descriptionClean": "Practical functional Javascript",
+                        "id": "ramda",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://ramdajs.com"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/ramda"
+                        }
+                      }
+                    },
+                    {
+                      "count": 832,
+                      "id": "partytown",
+                      "percentageQuestion": 4.79,
+                      "percentageSurvey": 3.53,
+                      "entity": {
+                        "name": "Partytown",
+                        "nameClean": "Partytown",
+                        "id": "partytown",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://github.com/BuilderIO/partytown"
+                        }
+                      }
+                    },
+                    {
+                      "count": 415,
+                      "id": "stdlib",
+                      "percentageQuestion": 2.39,
+                      "percentageSurvey": 1.76,
+                      "entity": {
+                        "name": "stdlib",
+                        "nameClean": "stdlib",
+                        "description": "a standard library for javascript and node.js",
+                        "descriptionClean": "a standard library for javascript and node.js",
+                        "id": "stdlib",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://stdlib.io/"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/@stdlib/stdlib"
+                        }
+                      }
+                    },
+                    {
+                      "count": 105,
+                      "id": "mitosis",
+                      "percentageQuestion": 0.6,
+                      "percentageSurvey": 0.45,
+                      "entity": {
+                        "name": "Mitosis",
+                        "nameClean": "Mitosis",
+                        "id": "mitosis",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://github.com/BuilderIO/mitosis"
+                        }
+                      }
+                    },
+                    {
+                      "count": 80,
+                      "id": "axios",
+                      "percentageQuestion": 0.46,
+                      "percentageSurvey": 0.34,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "Axios",
+                        "nameClean": "Axios",
+                        "description": "Promise based HTTP client for the browser and node.js",
+                        "descriptionClean": "Promise based HTTP client for the browser and node.js",
+                        "id": "axios",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://axios-http.com/"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/axios"
+                        }
+                      }
+                    },
+                    {
+                      "count": 53,
+                      "id": "valibot",
+                      "percentageQuestion": 0.31,
+                      "percentageSurvey": 0.23,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "Valibot",
+                        "nameClean": "Valibot",
+                        "id": "valibot",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://valibot.dev/"
+                        }
+                      }
+                    },
+                    {
+                      "count": 37,
+                      "id": "react_query",
+                      "percentageQuestion": 0.21,
+                      "percentageSurvey": 0.16,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "React Query",
+                        "nameClean": "React Query",
+                        "id": "react_query",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://react-query.tanstack.com/"
+                        }
+                      }
+                    },
+                    {
+                      "count": 37,
+                      "id": "zustand",
+                      "percentageQuestion": 0.21,
+                      "percentageSurvey": 0.16,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "Zustand",
+                        "nameClean": "Zustand",
+                        "description": "Bear necessities for state management in React",
+                        "descriptionClean": "Bear necessities for state management in React",
+                        "id": "zustand",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://zustand.surge.sh"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/zustand"
+                        }
+                      }
+                    },
+                    {
+                      "count": 6063,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 25.76,
+                      "entity": {
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 3191,
+                      "id": "other_answers",
+                      "percentageQuestion": 18.51,
+                      "percentageSurvey": 13.41,
+                      "groupedBuckets": [
+                        {
+                          "count": 2258,
+                          "id": "overlimit_answers",
+                          "percentageQuestion": 13,
+                          "percentageSurvey": 9.59
+                        },
+                        {
+                          "count": 410,
+                          "id": "cutoff_answers",
+                          "percentageQuestion": 2.5,
+                          "percentageSurvey": 1.6
+                        },
+                        {
+                          "count": 523,
+                          "id": "no_match",
+                          "percentageQuestion": 3.01,
+                          "percentageSurvey": 2.22,
+                          "isFreeformData": true,
+                          "entity": {
+                            "entityType": "default"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

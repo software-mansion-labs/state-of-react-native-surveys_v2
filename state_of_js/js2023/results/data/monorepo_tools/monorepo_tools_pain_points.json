@@ -1,0 +1,291 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_js": {
+        "js2023": {
+          "monorepo_tools": {
+            "monorepo_tools_pain_points": {
+              "freeform": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 977,
+                    "percentageSurvey": 4.15,
+                    "total": 23540
+                  },
+                  "buckets": [
+                    {
+                      "count": 167,
+                      "id": "package_management",
+                      "percentageQuestion": 17.09,
+                      "percentageSurvey": 0.71,
+                      "entity": {
+                        "name": "Package management issues",
+                        "nameClean": "Package management issues",
+                        "id": "package_management",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 143,
+                      "id": "configuration",
+                      "percentageQuestion": 14.64,
+                      "percentageSurvey": 0.61,
+                      "entity": {
+                        "name": "Configuration",
+                        "nameClean": "Configuration",
+                        "description": "Difficulties with set-up and configuration",
+                        "descriptionClean": "Difficulties with set-up and configuration",
+                        "id": "configuration",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 105,
+                      "id": "excessive_complexity",
+                      "percentageQuestion": 10.75,
+                      "percentageSurvey": 0.45,
+                      "entity": {
+                        "name": "Excessive complexity",
+                        "nameClean": "Excessive complexity",
+                        "description": "Too much complexity",
+                        "descriptionClean": "Too much complexity",
+                        "id": "excessive_complexity",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 93,
+                      "id": "dependencies",
+                      "percentageQuestion": 9.52,
+                      "percentageSurvey": 0.4,
+                      "entity": {
+                        "name": "Dependencies",
+                        "nameClean": "Dependencies",
+                        "description": "Too many dependencies",
+                        "descriptionClean": "Too many dependencies",
+                        "id": "dependencies",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 54,
+                      "id": "version_updates",
+                      "percentageQuestion": 5.53,
+                      "percentageSurvey": 0.23,
+                      "entity": {
+                        "name": "Version changes",
+                        "nameClean": "Version changes",
+                        "description": "Breaking changes and other updating issues",
+                        "descriptionClean": "Breaking changes and other updating issues",
+                        "id": "version_updates",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 48,
+                      "id": "lack_of_documentation",
+                      "percentageQuestion": 4.91,
+                      "percentageSurvey": 0.2,
+                      "entity": {
+                        "name": "Lack of documentation",
+                        "nameClean": "Lack of documentation",
+                        "description": "Lack of documentation or code examples",
+                        "descriptionClean": "Lack of documentation or code examples",
+                        "id": "lack_of_documentation",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 40,
+                      "id": "performance",
+                      "percentageQuestion": 4.09,
+                      "percentageSurvey": 0.17,
+                      "entity": {
+                        "name": "Performance",
+                        "nameClean": "Performance",
+                        "description": "Performance issues",
+                        "descriptionClean": "Performance issues",
+                        "id": "performance",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 36,
+                      "id": "typescript_support",
+                      "percentageQuestion": 3.68,
+                      "percentageSurvey": 0.15,
+                      "entity": {
+                        "name": "TypeScript support",
+                        "nameClean": "TypeScript support",
+                        "id": "typescript_support",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 35,
+                      "id": "no_need_for_monorepos",
+                      "percentageQuestion": 3.58,
+                      "percentageSurvey": 0.15,
+                      "entity": {
+                        "name": "No need for monorepos",
+                        "nameClean": "No need for monorepos",
+                        "id": "no_need_for_monorepos",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 29,
+                      "id": "versioning",
+                      "percentageQuestion": 2.97,
+                      "percentageSurvey": 0.12,
+                      "entity": {
+                        "name": "Versioning",
+                        "nameClean": "Versioning",
+                        "id": "versioning",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 24,
+                      "id": "deployment",
+                      "percentageQuestion": 2.46,
+                      "percentageSurvey": 0.1,
+                      "entity": {
+                        "name": "Deployment",
+                        "nameClean": "Deployment",
+                        "id": "deployment",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 23,
+                      "id": "lack_of_tools",
+                      "percentageQuestion": 2.35,
+                      "percentageSurvey": 0.1,
+                      "entity": {
+                        "name": "Lack of tools",
+                        "nameClean": "Lack of tools",
+                        "id": "lack_of_tools",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 20,
+                      "id": "too_many_choices",
+                      "percentageQuestion": 2.05,
+                      "percentageSurvey": 0.08,
+                      "entity": {
+                        "name": "Choice overload",
+                        "nameClean": "Choice overload",
+                        "description": "Overwhelming amount of options and choices",
+                        "descriptionClean": "Overwhelming amount of options and choices",
+                        "id": "too_many_choices",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 18,
+                      "id": "caching",
+                      "percentageQuestion": 1.84,
+                      "percentageSurvey": 0.08,
+                      "entity": {
+                        "name": "Caching",
+                        "nameClean": "Caching",
+                        "id": "caching",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 16,
+                      "id": "browser_support",
+                      "percentageQuestion": 1.64,
+                      "percentageSurvey": 0.07,
+                      "entity": {
+                        "name": "Browser support",
+                        "nameClean": "Browser support",
+                        "description": "Browser support, compatibility, and consistency issues",
+                        "descriptionClean": "Browser support, compatibility, and consistency issues",
+                        "id": "browser_support",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 16,
+                      "id": "tough_learning_curve",
+                      "percentageQuestion": 1.64,
+                      "percentageSurvey": 0.07,
+                      "entity": {
+                        "name": "Tough learning curve",
+                        "nameClean": "Tough learning curve",
+                        "id": "tough_learning_curve",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 12,
+                      "id": "build_tools",
+                      "percentageQuestion": 1.23,
+                      "percentageSurvey": 0.05,
+                      "entity": {
+                        "name": "Build tools",
+                        "nameClean": "Build tools",
+                        "description": "Build tools issues",
+                        "descriptionClean": "Build tools issues",
+                        "id": "build_tools",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 10,
+                      "id": "error_handling",
+                      "percentageQuestion": 1.02,
+                      "percentageSurvey": 0.04,
+                      "entity": {
+                        "name": "Error handling",
+                        "nameClean": "Error handling",
+                        "id": "error_handling",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 22563,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 95.85,
+                      "entity": {
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 599,
+                      "id": "other_answers",
+                      "percentageQuestion": 61.29,
+                      "percentageSurvey": 2.51,
+                      "groupedBuckets": [
+                        {
+                          "count": 129,
+                          "id": "cutoff_answers",
+                          "percentageQuestion": 13.18,
+                          "percentageSurvey": 0.51
+                        },
+                        {
+                          "count": 470,
+                          "id": "no_match",
+                          "percentageQuestion": 48.11,
+                          "percentageSurvey": 2,
+                          "entity": {
+                            "entityType": "default"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

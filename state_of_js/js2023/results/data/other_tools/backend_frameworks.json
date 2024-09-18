@@ -1,0 +1,412 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_js": {
+        "js2023": {
+          "other_tools": {
+            "backend_frameworks": {
+              "combined": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 16531,
+                    "percentageSurvey": 70.23,
+                    "total": 23540
+                  },
+                  "buckets": [
+                    {
+                      "count": 12099,
+                      "id": "express",
+                      "percentageQuestion": 73.19,
+                      "percentageSurvey": 51.4,
+                      "entity": {
+                        "name": "Express",
+                        "nameClean": "Express",
+                        "description": "Fast, unopinionated, minimalist web framework for node.",
+                        "descriptionClean": "Fast, unopinionated, minimalist web framework for node.",
+                        "id": "express",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://expressjs.com"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/express"
+                        }
+                      }
+                    },
+                    {
+                      "count": 4869,
+                      "id": "nest",
+                      "percentageQuestion": 29.45,
+                      "percentageSurvey": 20.68,
+                      "entity": {
+                        "name": "Nest",
+                        "nameClean": "Nest",
+                        "id": "nest",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://docs.nestjs.com/graphql/quick-start"
+                        }
+                      }
+                    },
+                    {
+                      "count": 2783,
+                      "id": "fastify",
+                      "percentageQuestion": 16.84,
+                      "percentageSurvey": 11.82,
+                      "entity": {
+                        "name": "Fastify",
+                        "nameClean": "Fastify",
+                        "description": "Fast and low overhead web framework, for Node.js",
+                        "descriptionClean": "Fast and low overhead web framework, for Node.js",
+                        "id": "fastify",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://www.fastify.io"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/fastify"
+                        }
+                      }
+                    },
+                    {
+                      "count": 2272,
+                      "id": "strapi",
+                      "percentageQuestion": 13.74,
+                      "percentageSurvey": 9.65,
+                      "entity": {
+                        "name": "Strapi",
+                        "nameClean": "Strapi",
+                        "id": "strapi",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://docs.strapi.io/developer-docs/latest/plugins/graphql.html"
+                        }
+                      }
+                    },
+                    {
+                      "count": 1563,
+                      "id": "koa",
+                      "percentageQuestion": 9.45,
+                      "percentageSurvey": 6.64,
+                      "entity": {
+                        "name": "Koa",
+                        "nameClean": "Koa",
+                        "description": "Expressive middleware for node.js using ES2017 async functions",
+                        "descriptionClean": "Expressive middleware for node.js using ES2017 async functions",
+                        "id": "koa",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://koajs.com"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/koa"
+                        }
+                      }
+                    },
+                    {
+                      "count": 743,
+                      "id": "hapi",
+                      "percentageQuestion": 4.49,
+                      "percentageSurvey": 3.16,
+                      "entity": {
+                        "name": "Hapi",
+                        "nameClean": "Hapi",
+                        "description": "The Simple, Secure Framework Developers Trust",
+                        "descriptionClean": "The Simple, Secure Framework Developers Trust",
+                        "id": "hapi",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://hapi.dev"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/@hapi/hapi"
+                        }
+                      }
+                    },
+                    {
+                      "count": 657,
+                      "id": "meteor",
+                      "percentageQuestion": 3.97,
+                      "percentageSurvey": 2.79,
+                      "entity": {
+                        "name": "Meteor",
+                        "nameClean": "Meteor",
+                        "description": "Meteor, the JavaScript App Platform",
+                        "descriptionClean": "Meteor, the JavaScript App Platform",
+                        "id": "meteor",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://www.meteor.com"
+                        }
+                      }
+                    },
+                    {
+                      "count": 549,
+                      "id": "adonis",
+                      "percentageQuestion": 3.32,
+                      "percentageSurvey": 2.33,
+                      "entity": {
+                        "name": "Adonis",
+                        "nameClean": "Adonis",
+                        "description": "The Node.js Framework highly focused on developer ergonomics, stability and confidence",
+                        "descriptionClean": "The Node.js Framework highly focused on developer ergonomics, stability and confidence",
+                        "id": "adonis",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://preview.adonisjs.com"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/adonis-framework"
+                        }
+                      }
+                    },
+                    {
+                      "count": 505,
+                      "id": "directus",
+                      "percentageQuestion": 3.05,
+                      "percentageSurvey": 2.15,
+                      "entity": {
+                        "name": "Directus",
+                        "nameClean": "Directus",
+                        "id": "directus",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://directus.io/"
+                        }
+                      }
+                    },
+                    {
+                      "count": 361,
+                      "id": "sails",
+                      "percentageQuestion": 2.18,
+                      "percentageSurvey": 1.53,
+                      "entity": {
+                        "name": "Sails",
+                        "nameClean": "Sails",
+                        "description": "Realtime MVC Framework for Node.js",
+                        "descriptionClean": "Realtime MVC Framework for Node.js",
+                        "id": "sails",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://sailsjs.com"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/sails"
+                        }
+                      }
+                    },
+                    {
+                      "count": 262,
+                      "id": "redwood",
+                      "percentageQuestion": 1.58,
+                      "percentageSurvey": 1.11,
+                      "entity": {
+                        "name": "Redwood",
+                        "nameClean": "Redwood",
+                        "description": "Bringing full-stack to the Jamstack.",
+                        "descriptionClean": "Bringing full-stack to the Jamstack.",
+                        "id": "redwood",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://redwoodjs.com"
+                        }
+                      }
+                    },
+                    {
+                      "count": 244,
+                      "id": "hono",
+                      "percentageQuestion": 1.48,
+                      "percentageSurvey": 1.04,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "Hono",
+                        "nameClean": "Hono",
+                        "id": "hono",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://hono.dev/"
+                        }
+                      }
+                    },
+                    {
+                      "count": 217,
+                      "id": "blitz",
+                      "percentageQuestion": 1.31,
+                      "percentageSurvey": 0.92,
+                      "entity": {
+                        "name": "Blitz",
+                        "nameClean": "Blitz",
+                        "description": "️The Fullstack React Framework — built on Next.js",
+                        "descriptionClean": "️The Fullstack React Framework — built on Next.js",
+                        "id": "blitz",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://Blitzjs.com"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/blitz"
+                        }
+                      }
+                    },
+                    {
+                      "count": 209,
+                      "id": "keystone",
+                      "percentageQuestion": 1.26,
+                      "percentageSurvey": 0.89,
+                      "entity": {
+                        "name": "Keystone",
+                        "nameClean": "Keystone",
+                        "id": "keystone",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://keystonejs.com/"
+                        }
+                      }
+                    },
+                    {
+                      "count": 108,
+                      "id": "elysia",
+                      "percentageQuestion": 0.65,
+                      "percentageSurvey": 0.46,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "ElysiaJS",
+                        "nameClean": "ElysiaJS",
+                        "id": "elysia",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://elysiajs.com/"
+                        }
+                      }
+                    },
+                    {
+                      "count": 79,
+                      "id": "nitro",
+                      "percentageQuestion": 0.48,
+                      "percentageSurvey": 0.34,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "Nitro",
+                        "nameClean": "Nitro",
+                        "id": "nitro",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://nitro.unjs.io/"
+                        }
+                      }
+                    },
+                    {
+                      "count": 52,
+                      "id": "amplication",
+                      "percentageQuestion": 0.31,
+                      "percentageSurvey": 0.22,
+                      "entity": {
+                        "name": "Amplication",
+                        "nameClean": "Amplication",
+                        "id": "amplication",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://amplication.com/"
+                        }
+                      }
+                    },
+                    {
+                      "count": 37,
+                      "id": "h3",
+                      "percentageQuestion": 0.22,
+                      "percentageSurvey": 0.16,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "h3",
+                        "nameClean": "h3",
+                        "id": "h3",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://github.com/unjs/h3"
+                        }
+                      }
+                    },
+                    {
+                      "count": 29,
+                      "id": "trpc",
+                      "percentageQuestion": 0.18,
+                      "percentageSurvey": 0.12,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "tRPC",
+                        "nameClean": "tRPC",
+                        "id": "trpc",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://trpc.io/"
+                        }
+                      }
+                    },
+                    {
+                      "count": 25,
+                      "id": "nextjs",
+                      "percentageQuestion": 0.15,
+                      "percentageSurvey": 0.11,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "Next.js",
+                        "nameClean": "Next.js",
+                        "id": "nextjs",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://nextjs.org"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/next"
+                        }
+                      }
+                    },
+                    {
+                      "count": 6923,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 29.41,
+                      "entity": {
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 3297,
+                      "id": "other_answers",
+                      "percentageQuestion": 19.97,
+                      "percentageSurvey": 13.98,
+                      "groupedBuckets": [
+                        {
+                          "count": 2947,
+                          "id": "overlimit_answers",
+                          "percentageQuestion": 17.83,
+                          "percentageSurvey": 12.51
+                        },
+                        {
+                          "count": 170,
+                          "id": "cutoff_answers",
+                          "percentageQuestion": 1.05,
+                          "percentageSurvey": 0.71
+                        },
+                        {
+                          "count": 180,
+                          "id": "no_match",
+                          "percentageQuestion": 1.09,
+                          "percentageSurvey": 0.76,
+                          "isFreeformData": true,
+                          "entity": {
+                            "entityType": "default"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

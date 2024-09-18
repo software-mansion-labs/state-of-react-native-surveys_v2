@@ -1,0 +1,142 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_js": {
+        "js2022": {
+          "language": {
+            "promise_all_settled": {
+              "entity": {
+                "name": "`Promise.allSettled()`",
+                "nameHtml": "<code>Promise.allSettled()</code>",
+                "nameClean": "Promise.allSettled()",
+                "id": "promise_all_settled",
+                "example": {
+                  "language": "js",
+                  "code": "const promises = [promise1, promise2];\n\nPromise.allSettled(promises).then((results) =>\n  results.forEach((result) => console.log(result.status)),\n);\n",
+                  "codeHighlighted": "<span class=\"hljs-keyword\">const</span> promises = [promise1, promise2];\n\n<span class=\"hljs-title class_\">Promise</span>.<span class=\"hljs-title function_\">allSettled</span>(promises).<span class=\"hljs-title function_\">then</span>(<span class=\"hljs-function\">(<span class=\"hljs-params\">results</span>) =&gt;</span>\n  results.<span class=\"hljs-title function_\">forEach</span>(<span class=\"hljs-function\">(<span class=\"hljs-params\">result</span>) =&gt;</span> <span class=\"hljs-variable language_\">console</span>.<span class=\"hljs-title function_\">log</span>(result.<span class=\"hljs-property\">status</span>)),\n);"
+                },
+                "mdn": {
+                  "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled"
+                }
+              },
+              "comments": {
+                "currentEdition": {
+                  "count": 29
+                }
+              },
+              "responses": {
+                "allEditions": [
+                  {
+                    "editionId": "js2020",
+                    "year": 2020,
+                    "completion": {
+                      "count": 22399,
+                      "percentageSurvey": 94.3,
+                      "total": 23765
+                    },
+                    "buckets": [
+                      {
+                        "count": 9630,
+                        "id": "never_heard",
+                        "percentageQuestion": 43,
+                        "percentageSurvey": 40.6
+                      },
+                      {
+                        "count": 9471,
+                        "id": "heard",
+                        "percentageQuestion": 42.3,
+                        "percentageSurvey": 39.9
+                      },
+                      {
+                        "count": 3298,
+                        "id": "used",
+                        "percentageQuestion": 14.8,
+                        "percentageSurvey": 13.9
+                      },
+                      {
+                        "count": 1366,
+                        "id": "no_answer",
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 5.8
+                      }
+                    ]
+                  },
+                  {
+                    "editionId": "js2021",
+                    "year": 2021,
+                    "completion": {
+                      "count": 14593,
+                      "percentageSurvey": 90.8,
+                      "total": 16086
+                    },
+                    "buckets": [
+                      {
+                        "count": 5067,
+                        "id": "never_heard",
+                        "percentageQuestion": 34.8,
+                        "percentageSurvey": 31.5
+                      },
+                      {
+                        "count": 6763,
+                        "id": "heard",
+                        "percentageQuestion": 46.4,
+                        "percentageSurvey": 42.1
+                      },
+                      {
+                        "count": 2763,
+                        "id": "used",
+                        "percentageQuestion": 19,
+                        "percentageSurvey": 17.2
+                      },
+                      {
+                        "count": 1493,
+                        "id": "no_answer",
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 9.3
+                      }
+                    ]
+                  },
+                  {
+                    "editionId": "js2022",
+                    "year": 2022,
+                    "completion": {
+                      "count": 38849,
+                      "percentageSurvey": 98.5,
+                      "total": 39469
+                    },
+                    "buckets": [
+                      {
+                        "count": 14642,
+                        "id": "never_heard",
+                        "percentageQuestion": 37.7,
+                        "percentageSurvey": 37.1
+                      },
+                      {
+                        "count": 15550,
+                        "id": "heard",
+                        "percentageQuestion": 40.1,
+                        "percentageSurvey": 39.4
+                      },
+                      {
+                        "count": 8657,
+                        "id": "used",
+                        "percentageQuestion": 22.3,
+                        "percentageSurvey": 22
+                      },
+                      {
+                        "count": 620,
+                        "id": "no_answer",
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 1.6
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

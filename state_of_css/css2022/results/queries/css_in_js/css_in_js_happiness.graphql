@@ -1,0 +1,35 @@
+query css2022cssInJsHappinessQuery {
+    
+    surveys {
+      state_of_css {
+        css2022 {
+          css_in_js {
+            css_in_js_happiness {
+          
+          
+              responses {
+                currentEdition {
+              
+                  completion {
+                    count
+                    percentageSurvey
+                    total
+                  }
+                  buckets {
+                    count
+                    id
+                    percentageQuestion
+                    percentageSurvey
+                
+                
+                
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+}

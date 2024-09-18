@@ -1,0 +1,122 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_css": {
+        "css2024": {
+          "usage": {
+            "form_factors": {
+              "combined": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 760,
+                    "percentageSurvey": 72.31,
+                    "total": 1051
+                  },
+                  "buckets": [
+                    {
+                      "count": 756,
+                      "id": "desktop",
+                      "percentageQuestion": 99.47,
+                      "percentageSurvey": 71.93,
+                      "entity": {
+                        "name": "Desktop applications",
+                        "nameClean": "Desktop applications",
+                        "id": "desktop",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 564,
+                      "id": "smartphone",
+                      "percentageQuestion": 74.21,
+                      "percentageSurvey": 53.66
+                    },
+                    {
+                      "count": 359,
+                      "id": "tablet",
+                      "percentageQuestion": 47.24,
+                      "percentageSurvey": 34.16
+                    },
+                    {
+                      "count": 305,
+                      "id": "keyboard_only",
+                      "percentageQuestion": 40.13,
+                      "percentageSurvey": 29.02
+                    },
+                    {
+                      "count": 256,
+                      "id": "testing_tools",
+                      "percentageQuestion": 33.68,
+                      "percentageSurvey": 24.36
+                    },
+                    {
+                      "count": 198,
+                      "id": "screen_reader",
+                      "percentageQuestion": 26.05,
+                      "percentageSurvey": 18.84
+                    },
+                    {
+                      "count": 195,
+                      "id": "feature_phone",
+                      "percentageQuestion": 25.66,
+                      "percentageSurvey": 18.55
+                    },
+                    {
+                      "count": 84,
+                      "id": "print",
+                      "percentageQuestion": 11.05,
+                      "percentageSurvey": 7.99,
+                      "entity": {
+                        "id": "print",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 67,
+                      "id": "vision_simulator",
+                      "percentageQuestion": 8.82,
+                      "percentageSurvey": 6.37
+                    },
+                    {
+                      "count": 13,
+                      "id": "tv",
+                      "percentageQuestion": 1.71,
+                      "percentageSurvey": 1.24
+                    },
+                    {
+                      "count": 288,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 27.4
+                    },
+                    {
+                      "count": 14,
+                      "id": "other_answers",
+                      "percentageQuestion": 1.84,
+                      "percentageSurvey": 1.35,
+                      "groupedBuckets": [
+                        {
+                          "count": 9,
+                          "id": "cutoff_answers",
+                          "percentageQuestion": 1.18,
+                          "percentageSurvey": 0.87
+                        },
+                        {
+                          "count": 5,
+                          "id": "no_match",
+                          "percentageQuestion": 0.66,
+                          "percentageSurvey": 0.48,
+                          "isFreeformData": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

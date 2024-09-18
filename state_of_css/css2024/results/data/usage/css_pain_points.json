@@ -1,0 +1,65 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_css": {
+        "css2024": {
+          "usage": {
+            "css_pain_points": {
+              "freeform": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 116,
+                    "percentageSurvey": 11.04,
+                    "total": 1051
+                  },
+                  "buckets": [
+                    {
+                      "count": 13,
+                      "id": "browser_support",
+                      "percentageQuestion": 11.21,
+                      "percentageSurvey": 1.24,
+                      "entity": {
+                        "name": "Browser support",
+                        "nameClean": "Browser support",
+                        "description": "Browser support, compatibility, and consistency issues",
+                        "descriptionClean": "Browser support, compatibility, and consistency issues",
+                        "id": "browser_support",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 935,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 88.96
+                    },
+                    {
+                      "count": 160,
+                      "id": "other_answers",
+                      "percentageQuestion": 137.85,
+                      "percentageSurvey": 15.4,
+                      "groupedBuckets": [
+                        {
+                          "count": 78,
+                          "id": "cutoff_answers",
+                          "percentageQuestion": 67.16,
+                          "percentageSurvey": 7.6
+                        },
+                        {
+                          "count": 82,
+                          "id": "no_match",
+                          "percentageQuestion": 70.69,
+                          "percentageSurvey": 7.8
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

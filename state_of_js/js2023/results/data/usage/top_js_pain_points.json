@@ -1,0 +1,235 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_js": {
+        "js2023": {
+          "usage": {
+            "top_js_pain_points": {
+              "combined": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 17186,
+                    "percentageSurvey": 73.01,
+                    "total": 23540
+                  },
+                  "buckets": [
+                    {
+                      "count": 6396,
+                      "id": "architecture",
+                      "percentageQuestion": 37.22,
+                      "percentageSurvey": 27.17,
+                      "entity": {
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 5499,
+                      "id": "state_management",
+                      "percentageQuestion": 32,
+                      "percentageSurvey": 23.36,
+                      "entity": {
+                        "name": "State management",
+                        "nameClean": "State management",
+                        "id": "state_management",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 4885,
+                      "id": "build_tools",
+                      "percentageQuestion": 28.42,
+                      "percentageSurvey": 20.75,
+                      "entity": {
+                        "name": "Build tools",
+                        "nameClean": "Build tools",
+                        "description": "Build tools issues",
+                        "descriptionClean": "Build tools issues",
+                        "id": "build_tools",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 4834,
+                      "id": "managing_dependencies",
+                      "percentageQuestion": 28.13,
+                      "percentageSurvey": 20.54,
+                      "entity": {
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 4334,
+                      "id": "performance",
+                      "percentageQuestion": 25.22,
+                      "percentageSurvey": 18.41,
+                      "entity": {
+                        "name": "Performance",
+                        "nameClean": "Performance",
+                        "description": "Performance issues",
+                        "descriptionClean": "Performance issues",
+                        "id": "performance",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 3984,
+                      "id": "debugging",
+                      "percentageQuestion": 23.18,
+                      "percentageSurvey": 16.92,
+                      "entity": {
+                        "name": "Debugging",
+                        "nameClean": "Debugging",
+                        "description": "Debugging issues",
+                        "descriptionClean": "Debugging issues",
+                        "id": "debugging",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 3868,
+                      "id": "typing",
+                      "percentageQuestion": 22.51,
+                      "percentageSurvey": 16.43,
+                      "entity": {
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 3426,
+                      "id": "date_management",
+                      "percentageQuestion": 19.93,
+                      "percentageSurvey": 14.55,
+                      "entity": {
+                        "name": "Date management",
+                        "nameClean": "Date management",
+                        "description": "Managing dates and times",
+                        "descriptionClean": "Managing dates and times",
+                        "id": "date_management",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 1986,
+                      "id": "async_code",
+                      "percentageQuestion": 11.56,
+                      "percentageSurvey": 8.44,
+                      "entity": {
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 1922,
+                      "id": "finding_packages",
+                      "percentageQuestion": 11.18,
+                      "percentageSurvey": 8.16,
+                      "entity": {
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 1776,
+                      "id": "writing_modules",
+                      "percentageQuestion": 10.33,
+                      "percentageSurvey": 7.54,
+                      "entity": {
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 76,
+                      "id": "testing",
+                      "percentageQuestion": 0.44,
+                      "percentageSurvey": 0.32,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "Testing",
+                        "nameClean": "Testing",
+                        "id": "testing",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 21,
+                      "id": "esm_cjs",
+                      "percentageQuestion": 0.12,
+                      "percentageSurvey": 0.09,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "ESM & CJS",
+                        "nameHtml": "ESM &amp; CJS",
+                        "nameClean": "ESM  CJS",
+                        "id": "esm_cjs",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 15,
+                      "id": "error_handling",
+                      "percentageQuestion": 0.09,
+                      "percentageSurvey": 0.06,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "Error handling",
+                        "nameClean": "Error handling",
+                        "id": "error_handling",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 11,
+                      "id": "browser_support",
+                      "percentageQuestion": 0.06,
+                      "percentageSurvey": 0.05,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "Browser support",
+                        "nameClean": "Browser support",
+                        "description": "Browser support, compatibility, and consistency issues",
+                        "descriptionClean": "Browser support, compatibility, and consistency issues",
+                        "id": "browser_support",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 6184,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 26.27,
+                      "entity": {
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 289,
+                      "id": "other_answers",
+                      "percentageQuestion": 1.79,
+                      "percentageSurvey": 1.11,
+                      "groupedBuckets": [
+                        {
+                          "count": 185,
+                          "id": "cutoff_answers",
+                          "percentageQuestion": 1.18,
+                          "percentageSurvey": 0.67
+                        },
+                        {
+                          "count": 104,
+                          "id": "no_match",
+                          "percentageQuestion": 0.61,
+                          "percentageSurvey": 0.44,
+                          "isFreeformData": true,
+                          "entity": {
+                            "entityType": "default"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

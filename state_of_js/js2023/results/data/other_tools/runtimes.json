@@ -1,0 +1,189 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_js": {
+        "js2023": {
+          "other_tools": {
+            "runtimes": {
+              "combined": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 18560,
+                    "percentageSurvey": 78.84,
+                    "total": 23540
+                  },
+                  "buckets": [
+                    {
+                      "count": 17475,
+                      "id": "node",
+                      "percentageQuestion": 94.15,
+                      "percentageSurvey": 74.24,
+                      "entity": {
+                        "name": "Node.js",
+                        "nameClean": "Node.js",
+                        "id": "node",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://nodejs.org/en/"
+                        }
+                      }
+                    },
+                    {
+                      "count": 15354,
+                      "id": "browser_environment",
+                      "percentageQuestion": 82.73,
+                      "percentageSurvey": 65.23,
+                      "entity": {
+                        "name": "Browser",
+                        "nameClean": "Browser",
+                        "id": "browser_environment",
+                        "entityType": "library"
+                      }
+                    },
+                    {
+                      "count": 4141,
+                      "id": "bun",
+                      "percentageQuestion": 22.31,
+                      "percentageSurvey": 17.59,
+                      "entity": {
+                        "name": "Bun",
+                        "nameClean": "Bun",
+                        "id": "bun",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://bun.sh/"
+                        }
+                      }
+                    },
+                    {
+                      "count": 3629,
+                      "id": "service_workers",
+                      "percentageQuestion": 19.55,
+                      "percentageSurvey": 15.42,
+                      "entity": {
+                        "name": "Service Workers\n",
+                        "nameClean": "Service Workers\n",
+                        "description": "`navigator.serviceWorker.register(\"/sw.js\")`\n",
+                        "descriptionHtml": "<code>navigator.serviceWorker.register(\"/sw.js\")</code>\n",
+                        "descriptionClean": "navigator.serviceWorker.register(\"/sw.js\")",
+                        "id": "service_workers",
+                        "entityType": "feature"
+                      }
+                    },
+                    {
+                      "count": 2845,
+                      "id": "deno",
+                      "percentageQuestion": 15.33,
+                      "percentageSurvey": 12.09,
+                      "entity": {
+                        "name": "Deno",
+                        "nameClean": "Deno",
+                        "description": "A secure JavaScript and TypeScript runtime",
+                        "descriptionClean": "A secure JavaScript and TypeScript runtime",
+                        "id": "deno",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://deno.land"
+                        }
+                      }
+                    },
+                    {
+                      "count": 788,
+                      "id": "hermes",
+                      "percentageQuestion": 4.25,
+                      "percentageSurvey": 3.35,
+                      "entity": {
+                        "name": "Hermes",
+                        "nameClean": "Hermes",
+                        "description": " A small and lightweight JavaScript engine optimized for running React Native on Android",
+                        "descriptionClean": " A small and lightweight JavaScript engine optimized for running React Native on Android",
+                        "id": "hermes",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://hermesengine.dev"
+                        }
+                      }
+                    },
+                    {
+                      "count": 101,
+                      "id": "chakracore",
+                      "percentageQuestion": 0.54,
+                      "percentageSurvey": 0.43,
+                      "entity": {
+                        "name": "ChakraCore",
+                        "nameClean": "ChakraCore",
+                        "id": "chakracore",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://github.com/microsoft/ChakraCore"
+                        }
+                      }
+                    },
+                    {
+                      "count": 48,
+                      "id": "cloudflare_workers",
+                      "percentageQuestion": 0.26,
+                      "percentageSurvey": 0.2,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "Cloudflare Workers",
+                        "nameClean": "Cloudflare Workers",
+                        "id": "cloudflare_workers",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://workers.cloudflare.com/"
+                        }
+                      }
+                    },
+                    {
+                      "count": 128,
+                      "id": "na",
+                      "percentageQuestion": 0.69,
+                      "percentageSurvey": 0.54,
+                      "entity": {
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 4964,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 21.09,
+                      "entity": {
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 102,
+                      "id": "other_answers",
+                      "percentageQuestion": 0.6,
+                      "percentageSurvey": 0.41,
+                      "groupedBuckets": [
+                        {
+                          "count": 49,
+                          "id": "cutoff_answers",
+                          "percentageQuestion": 0.31,
+                          "percentageSurvey": 0.18
+                        },
+                        {
+                          "count": 53,
+                          "id": "no_match",
+                          "percentageQuestion": 0.29,
+                          "percentageSurvey": 0.23,
+                          "isFreeformData": true,
+                          "entity": {
+                            "entityType": "default"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

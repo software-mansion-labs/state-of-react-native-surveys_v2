@@ -1,0 +1,35 @@
+query css2022utilitiesQuery {
+    
+    surveys {
+      state_of_css {
+        css2022 {
+          other_tools {
+            utilities {
+          
+          
+              responses {
+                currentEdition {
+              
+                  completion {
+                    count
+                    percentageSurvey
+                    total
+                  }
+                  buckets {
+                    count
+                    id
+                    percentageQuestion
+                    percentageSurvey
+                
+                
+                
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+}

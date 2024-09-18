@@ -1,0 +1,78 @@
+query js2022firstStepsOthersQuery {
+  surveys {
+    state_of_js {
+      js2022 {
+        resources {
+          first_steps_others {
+            freeform(parameters: { limit: 10 }) {
+              currentEdition {
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                buckets {
+                  count
+                  id
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                  entity {
+                    name
+                    nameHtml
+                    nameClean
+                    id
+                    example {
+                      label
+                      language
+                      code
+                      codeHighlighted
+                    }
+                    homepage {
+                      url
+                    }
+                    youtube {
+                      url
+                    }
+                    twitter {
+                      url
+                    }
+                    twitch {
+                      url
+                    }
+                    rss {
+                      url
+                    }
+                    blog {
+                      url
+                    }
+                    mastodon {
+                      url
+                    }
+                    github {
+                      url
+                    }
+                    npm {
+                      url
+                    }
+                    mdn {
+                      url
+                    }
+                    caniuse {
+                      url
+                    }
+                    resources {
+                      url
+                      title
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

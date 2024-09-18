@@ -1,0 +1,348 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_js": {
+        "js2023": {
+          "testing": {
+            "testing_pain_points": {
+              "freeform": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 2188,
+                    "percentageSurvey": 9.29,
+                    "total": 23540
+                  },
+                  "buckets": [
+                    {
+                      "count": 342,
+                      "id": "mocking",
+                      "percentageQuestion": 15.63,
+                      "percentageSurvey": 1.45,
+                      "entity": {
+                        "name": "Mocking",
+                        "nameClean": "Mocking",
+                        "id": "mocking",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 273,
+                      "id": "configuration",
+                      "percentageQuestion": 12.48,
+                      "percentageSurvey": 1.16,
+                      "entity": {
+                        "name": "Configuration",
+                        "nameClean": "Configuration",
+                        "description": "Difficulties with set-up and configuration",
+                        "descriptionClean": "Difficulties with set-up and configuration",
+                        "id": "configuration",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 251,
+                      "id": "performance",
+                      "percentageQuestion": 11.47,
+                      "percentageSurvey": 1.07,
+                      "entity": {
+                        "name": "Performance",
+                        "nameClean": "Performance",
+                        "description": "Performance issues",
+                        "descriptionClean": "Performance issues",
+                        "id": "performance",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 170,
+                      "id": "jest",
+                      "percentageQuestion": 7.77,
+                      "percentageSurvey": 0.72,
+                      "entity": {
+                        "name": "Jest",
+                        "nameClean": "Jest",
+                        "description": "Delightful JavaScript Testing.",
+                        "descriptionClean": "Delightful JavaScript Testing.",
+                        "id": "jest",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://jestjs.io"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/jest"
+                        }
+                      }
+                    },
+                    {
+                      "count": 139,
+                      "id": "esm_cjs",
+                      "percentageQuestion": 6.35,
+                      "percentageSurvey": 0.59,
+                      "entity": {
+                        "name": "ESM & CJS",
+                        "nameHtml": "ESM &amp; CJS",
+                        "nameClean": "ESM  CJS",
+                        "id": "esm_cjs",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 109,
+                      "id": "excessive_complexity",
+                      "percentageQuestion": 4.98,
+                      "percentageSurvey": 0.46,
+                      "entity": {
+                        "name": "Excessive complexity",
+                        "nameClean": "Excessive complexity",
+                        "description": "Too much complexity",
+                        "descriptionClean": "Too much complexity",
+                        "id": "excessive_complexity",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 104,
+                      "id": "e2e_testing",
+                      "percentageQuestion": 4.75,
+                      "percentageSurvey": 0.44,
+                      "entity": {
+                        "name": "E2E testing",
+                        "nameClean": "E2E testing",
+                        "id": "e2e_testing",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 97,
+                      "id": "flakiness",
+                      "percentageQuestion": 4.43,
+                      "percentageSurvey": 0.41,
+                      "entity": {
+                        "name": "Flakiness",
+                        "nameClean": "Flakiness",
+                        "id": "flakiness",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 87,
+                      "id": "typescript_support",
+                      "percentageQuestion": 3.98,
+                      "percentageSurvey": 0.37,
+                      "entity": {
+                        "name": "TypeScript support",
+                        "nameClean": "TypeScript support",
+                        "id": "typescript_support",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 79,
+                      "id": "cypress",
+                      "percentageQuestion": 3.61,
+                      "percentageSurvey": 0.34,
+                      "entity": {
+                        "name": "Cypress",
+                        "nameClean": "Cypress",
+                        "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+                        "descriptionClean": "Fast, easy and reliable testing for anything that runs in a browser.",
+                        "id": "cypress",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://www.cypress.io"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/cypress"
+                        }
+                      }
+                    },
+                    {
+                      "count": 74,
+                      "id": "unit_testing",
+                      "percentageQuestion": 3.38,
+                      "percentageSurvey": 0.31,
+                      "entity": {
+                        "name": "Unit testing",
+                        "nameClean": "Unit testing",
+                        "id": "unit_testing",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 65,
+                      "id": "lack_of_documentation",
+                      "percentageQuestion": 2.97,
+                      "percentageSurvey": 0.28,
+                      "entity": {
+                        "name": "Lack of documentation",
+                        "nameClean": "Lack of documentation",
+                        "description": "Lack of documentation or code examples",
+                        "descriptionClean": "Lack of documentation or code examples",
+                        "id": "lack_of_documentation",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 62,
+                      "id": "debugging",
+                      "percentageQuestion": 2.83,
+                      "percentageSurvey": 0.26,
+                      "entity": {
+                        "name": "Debugging",
+                        "nameClean": "Debugging",
+                        "description": "Debugging issues",
+                        "descriptionClean": "Debugging issues",
+                        "id": "debugging",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 61,
+                      "id": "integration_with_tools",
+                      "percentageQuestion": 2.79,
+                      "percentageSurvey": 0.26,
+                      "entity": {
+                        "name": "Integration with tools",
+                        "nameClean": "Integration with tools",
+                        "id": "integration_with_tools",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 57,
+                      "id": "browser_support",
+                      "percentageQuestion": 2.61,
+                      "percentageSurvey": 0.24,
+                      "entity": {
+                        "name": "Browser support",
+                        "nameClean": "Browser support",
+                        "description": "Browser support, compatibility, and consistency issues",
+                        "descriptionClean": "Browser support, compatibility, and consistency issues",
+                        "id": "browser_support",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 51,
+                      "id": "nodejs",
+                      "percentageQuestion": 2.33,
+                      "percentageSurvey": 0.22,
+                      "entity": {
+                        "name": "Node.js",
+                        "nameClean": "Node.js",
+                        "description": "Node.js JavaScript runtime",
+                        "descriptionClean": "Node.js JavaScript runtime",
+                        "id": "nodejs",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://nodejs.org/"
+                        }
+                      }
+                    },
+                    {
+                      "count": 48,
+                      "id": "front_end",
+                      "percentageQuestion": 2.19,
+                      "percentageSurvey": 0.2,
+                      "entity": {
+                        "name": "Frontend testing",
+                        "nameClean": "Frontend testing",
+                        "id": "front_end",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 48,
+                      "id": "vitest",
+                      "percentageQuestion": 2.19,
+                      "percentageSurvey": 0.2,
+                      "entity": {
+                        "name": "Vitest",
+                        "nameClean": "Vitest",
+                        "description": "A blazing fast unit-test framework powered by Vite",
+                        "descriptionClean": "A blazing fast unit-test framework powered by Vite",
+                        "id": "vitest",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://vitest.dev/"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/vitest"
+                        }
+                      }
+                    },
+                    {
+                      "count": 44,
+                      "id": "just_js",
+                      "percentageQuestion": 2.01,
+                      "percentageSurvey": 0.19,
+                      "entity": {
+                        "name": "Just",
+                        "nameClean": "Just",
+                        "id": "just_js",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://just.billywhizz.io/"
+                        }
+                      }
+                    },
+                    {
+                      "count": 39,
+                      "id": "error_handling",
+                      "percentageQuestion": 1.78,
+                      "percentageSurvey": 0.17,
+                      "entity": {
+                        "name": "Error handling",
+                        "nameClean": "Error handling",
+                        "id": "error_handling",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 21352,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 90.71,
+                      "entity": {
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 1645,
+                      "id": "other_answers",
+                      "percentageQuestion": 75.34,
+                      "percentageSurvey": 6.87,
+                      "groupedBuckets": [
+                        {
+                          "count": 545,
+                          "id": "overlimit_answers",
+                          "percentageQuestion": 24.92,
+                          "percentageSurvey": 2.33
+                        },
+                        {
+                          "count": 273,
+                          "id": "cutoff_answers",
+                          "percentageQuestion": 12.62,
+                          "percentageSurvey": 1.03
+                        },
+                        {
+                          "count": 827,
+                          "id": "no_match",
+                          "percentageQuestion": 37.8,
+                          "percentageSurvey": 3.51,
+                          "entity": {
+                            "entityType": "default"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

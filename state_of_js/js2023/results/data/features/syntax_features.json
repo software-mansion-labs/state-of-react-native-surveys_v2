@@ -1,0 +1,167 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_js": {
+        "js2023": {
+          "features": {
+            "syntax_features": {
+              "responses": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 22610,
+                    "percentageSurvey": 96.05,
+                    "total": 23540
+                  },
+                  "buckets": [
+                    {
+                      "count": 18155,
+                      "id": "nullish_coalescing",
+                      "percentageQuestion": 80.3,
+                      "percentageSurvey": 77.12,
+                      "entity": {
+                        "name": "Nullish Coalescing",
+                        "nameClean": "Nullish Coalescing",
+                        "id": "nullish_coalescing",
+                        "entityType": "feature",
+                        "example": {
+                          "language": "js",
+                          "code": "const foo = null ?? 'default string';\nconsole.log(foo);\n// expected output: \"default string\"\n\nconst baz = 0 ?? 42;\nconsole.log(baz);\n// expected output: 0\n",
+                          "codeHighlighted": "<span class=\"hljs-keyword\">const</span> foo = <span class=\"hljs-literal\">null</span> ?? <span class=\"hljs-string\">&#x27;default string&#x27;</span>;\n<span class=\"hljs-variable language_\">console</span>.<span class=\"hljs-title function_\">log</span>(foo);\n<span class=\"hljs-comment\">// expected output: &quot;default string&quot;</span>\n\n<span class=\"hljs-keyword\">const</span> baz = <span class=\"hljs-number\">0</span> ?? <span class=\"hljs-number\">42</span>;\n<span class=\"hljs-variable language_\">console</span>.<span class=\"hljs-title function_\">log</span>(baz);\n<span class=\"hljs-comment\">// expected output: 0</span>"
+                        },
+                        "mdn": {
+                          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing"
+                        }
+                      }
+                    },
+                    {
+                      "count": 13947,
+                      "id": "dynamic_import",
+                      "percentageQuestion": 61.69,
+                      "percentageSurvey": 59.25,
+                      "entity": {
+                        "name": "Dynamic Import",
+                        "nameClean": "Dynamic Import",
+                        "id": "dynamic_import",
+                        "entityType": "feature",
+                        "example": {
+                          "language": "js",
+                          "code": "await import('/modules/my-module.js')\n",
+                          "codeHighlighted": "<span class=\"hljs-keyword\">await</span> <span class=\"hljs-keyword\">import</span>(<span class=\"hljs-string\">&#x27;/modules/my-module.js&#x27;</span>)"
+                        },
+                        "mdn": {
+                          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import"
+                        }
+                      }
+                    },
+                    {
+                      "count": 7820,
+                      "id": "private_fields",
+                      "percentageQuestion": 34.59,
+                      "percentageSurvey": 33.22,
+                      "entity": {
+                        "name": "Private Fields",
+                        "nameClean": "Private Fields",
+                        "id": "private_fields",
+                        "entityType": "feature",
+                        "example": {
+                          "language": "js",
+                          "code": "class ClassWithPrivateField {\n  #privateField\n}\n",
+                          "codeHighlighted": "<span class=\"hljs-keyword\">class</span> <span class=\"hljs-title class_\">ClassWithPrivateField</span> {\n  #privateField\n}"
+                        },
+                        "mdn": {
+                          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_properties"
+                        }
+                      }
+                    },
+                    {
+                      "count": 7087,
+                      "id": "logical_assignment",
+                      "percentageQuestion": 31.34,
+                      "percentageSurvey": 30.11,
+                      "entity": {
+                        "name": "Logical Assignment",
+                        "nameClean": "Logical Assignment",
+                        "id": "logical_assignment",
+                        "entityType": "feature",
+                        "example": {
+                          "language": "js",
+                          "code": "const a = { duration: 50, title: '' };\n\na.duration ||= 10;\nconsole.log(a.duration);\n// expected output: 50\n\na.title ||= 'title is empty.';\nconsole.log(a.title);\n// expected output: \"title is empty\"\n",
+                          "codeHighlighted": "<span class=\"hljs-keyword\">const</span> a = { <span class=\"hljs-attr\">duration</span>: <span class=\"hljs-number\">50</span>, <span class=\"hljs-attr\">title</span>: <span class=\"hljs-string\">&#x27;&#x27;</span> };\n\na.<span class=\"hljs-property\">duration</span> ||= <span class=\"hljs-number\">10</span>;\n<span class=\"hljs-variable language_\">console</span>.<span class=\"hljs-title function_\">log</span>(a.<span class=\"hljs-property\">duration</span>);\n<span class=\"hljs-comment\">// expected output: 50</span>\n\na.<span class=\"hljs-property\">title</span> ||= <span class=\"hljs-string\">&#x27;title is empty.&#x27;</span>;\n<span class=\"hljs-variable language_\">console</span>.<span class=\"hljs-title function_\">log</span>(a.<span class=\"hljs-property\">title</span>);\n<span class=\"hljs-comment\">// expected output: &quot;title is empty&quot;</span>"
+                        },
+                        "mdn": {
+                          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND_assignment"
+                        },
+                        "caniuse": {
+                          "url": "https://caniuse.com/mdn-javascript_operators_logical_and_assignment"
+                        }
+                      }
+                    },
+                    {
+                      "count": 4882,
+                      "id": "hashbang_grammar",
+                      "percentageQuestion": 21.59,
+                      "percentageSurvey": 20.74,
+                      "entity": {
+                        "name": "Hashbang Grammar",
+                        "nameClean": "Hashbang Grammar",
+                        "id": "hashbang_grammar",
+                        "entityType": "feature",
+                        "example": {
+                          "language": "js",
+                          "code": "#!/usr/bin/env node\n\nconsole.log(\"Hello world\");\n",
+                          "codeHighlighted": "<span class=\"hljs-meta\">#!/usr/bin/env node</span>\n\n<span class=\"hljs-variable language_\">console</span>.<span class=\"hljs-title function_\">log</span>(<span class=\"hljs-string\">&quot;Hello world&quot;</span>);"
+                        },
+                        "mdn": {
+                          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar"
+                        }
+                      }
+                    },
+                    {
+                      "count": 3713,
+                      "id": "error_cause",
+                      "percentageQuestion": 16.42,
+                      "percentageSurvey": 15.77,
+                      "entity": {
+                        "name": "`error.cause`",
+                        "nameHtml": "<code>error.cause</code>",
+                        "nameClean": "error.cause",
+                        "id": "error_cause",
+                        "entityType": "feature",
+                        "example": {
+                          "language": "js",
+                          "code": "try {\n  connectToDatabase();\n} catch (err) {\n  throw new Error('Connecting to database failed.', { cause: err });\n}\n",
+                          "codeHighlighted": "<span class=\"hljs-keyword\">try</span> {\n  <span class=\"hljs-title function_\">connectToDatabase</span>();\n} <span class=\"hljs-keyword\">catch</span> (err) {\n  <span class=\"hljs-keyword\">throw</span> <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">Error</span>(<span class=\"hljs-string\">&#x27;Connecting to database failed.&#x27;</span>, { <span class=\"hljs-attr\">cause</span>: err });\n}"
+                        },
+                        "mdn": {
+                          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/cause"
+                        }
+                      }
+                    },
+                    {
+                      "count": 1948,
+                      "id": "na",
+                      "percentageQuestion": 8.62,
+                      "percentageSurvey": 8.28,
+                      "entity": {
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 703,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 2.99,
+                      "entity": {
+                        "entityType": "default"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_js": {
+        "js2022": {
+          "front_end_frameworks": {
+            "solid": {
+              "entity": {
+                "name": "Solid",
+                "nameClean": "Solid",
+                "id": "solid",
+                "npm": {
+                  "url": "https://www.npmjs.com/package/solid-js"
+                }
+              },
+              "comments": {
+                "currentEdition": {
+                  "count": 19
+                }
+              },
+              "responses": {
+                "allEditions": [
+                  {
+                    "editionId": "js2021",
+                    "year": 2021,
+                    "completion": {
+                      "count": 13680,
+                      "percentageSurvey": 85.1,
+                      "total": 16086
+                    },
+                    "buckets": [
+                      {
+                        "count": 340,
+                        "id": "would_use",
+                        "percentageQuestion": 2.5,
+                        "percentageSurvey": 2.2
+                      },
+                      {
+                        "count": 40,
+                        "id": "would_not_use",
+                        "percentageQuestion": 0.3,
+                        "percentageSurvey": 0.3
+                      },
+                      {
+                        "count": 2666,
+                        "id": "interested",
+                        "percentageQuestion": 19.5,
+                        "percentageSurvey": 16.6
+                      },
+                      {
+                        "count": 2144,
+                        "id": "not_interested",
+                        "percentageQuestion": 15.7,
+                        "percentageSurvey": 13.4
+                      },
+                      {
+                        "count": 8490,
+                        "id": "never_heard",
+                        "percentageQuestion": 62.1,
+                        "percentageSurvey": 52.8
+                      },
+                      {
+                        "count": 2406,
+                        "id": "no_answer",
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 15
+                      }
+                    ]
+                  },
+                  {
+                    "editionId": "js2022",
+                    "year": 2022,
+                    "completion": {
+                      "count": 33227,
+                      "percentageSurvey": 84.2,
+                      "total": 39469
+                    },
+                    "buckets": [
+                      {
+                        "count": 1883,
+                        "id": "would_use",
+                        "percentageQuestion": 5.7,
+                        "percentageSurvey": 4.8
+                      },
+                      {
+                        "count": 189,
+                        "id": "would_not_use",
+                        "percentageQuestion": 0.6,
+                        "percentageSurvey": 0.5
+                      },
+                      {
+                        "count": 12991,
+                        "id": "interested",
+                        "percentageQuestion": 39.1,
+                        "percentageSurvey": 33
+                      },
+                      {
+                        "count": 6811,
+                        "id": "not_interested",
+                        "percentageQuestion": 20.5,
+                        "percentageSurvey": 17.3
+                      },
+                      {
+                        "count": 11353,
+                        "id": "never_heard",
+                        "percentageQuestion": 34.2,
+                        "percentageSurvey": 28.8
+                      },
+                      {
+                        "count": 6242,
+                        "id": "no_answer",
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 15.9
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

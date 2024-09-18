@@ -1,0 +1,78 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_css": {
+        "css2023": {
+          "css_frameworks": {
+            "uno_css": {
+              "entity": {
+                "name": "UnoCSS",
+                "nameClean": "UnoCSS",
+                "id": "uno_css",
+                "homepage": {
+                  "url": "https://uno.antfu.me/"
+                }
+              },
+              "comments": {
+                "currentEdition": {
+                  "count": 3
+                }
+              },
+              "responses": {
+                "allEditions": [
+                  {
+                    "editionId": "css2023",
+                    "year": 2023,
+                    "completion": {
+                      "count": 6772,
+                      "percentageSurvey": 73.7,
+                      "total": 9190
+                    },
+                    "buckets": [
+                      {
+                        "count": 166,
+                        "id": "would_use",
+                        "percentageQuestion": 2.5,
+                        "percentageSurvey": 1.9
+                      },
+                      {
+                        "count": 36,
+                        "id": "would_not_use",
+                        "percentageQuestion": 0.6,
+                        "percentageSurvey": 0.4
+                      },
+                      {
+                        "count": 635,
+                        "id": "interested",
+                        "percentageQuestion": 9.4,
+                        "percentageSurvey": 7
+                      },
+                      {
+                        "count": 743,
+                        "id": "not_interested",
+                        "percentageQuestion": 11,
+                        "percentageSurvey": 8.1
+                      },
+                      {
+                        "count": 5192,
+                        "id": "never_heard",
+                        "percentageQuestion": 76.7,
+                        "percentageSurvey": 56.5
+                      },
+                      {
+                        "count": 2418,
+                        "id": "no_answer",
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 26.4
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

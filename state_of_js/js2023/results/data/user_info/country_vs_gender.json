@@ -1,0 +1,531 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_js": {
+        "js2023": {
+          "user_info": {
+            "country_vs_gender": {
+              "responses": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 17711,
+                    "percentageSurvey": 75.24,
+                    "total": 23540
+                  },
+                  "buckets": [
+                    {
+                      "count": 18006,
+                      "id": "overall",
+                      "percentageQuestion": 101.67,
+                      "percentageSurvey": 76.49,
+                      "facetBuckets": [
+                        {
+                          "id": "male",
+                          "count": 16876,
+                          "percentageBucket": 93.72
+                        },
+                        {
+                          "id": "female",
+                          "count": 805,
+                          "percentageBucket": 4.47
+                        },
+                        {
+                          "id": "non_binary",
+                          "count": 257,
+                          "percentageBucket": 1.43
+                        },
+                        {
+                          "id": "not_listed",
+                          "count": 68,
+                          "percentageBucket": 0.38
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 0,
+                          "percentageBucket": 0
+                        }
+                      ]
+                    },
+                    {
+                      "count": 2747,
+                      "id": "USA",
+                      "percentageQuestion": 15.51,
+                      "percentageSurvey": 11.67,
+                      "entity": {
+                        "entityType": "default"
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "male",
+                          "count": 2472,
+                          "percentageBucket": 89.99
+                        },
+                        {
+                          "id": "female",
+                          "count": 137,
+                          "percentageBucket": 4.99
+                        },
+                        {
+                          "id": "non_binary",
+                          "count": 72,
+                          "percentageBucket": 2.62
+                        },
+                        {
+                          "id": "not_listed",
+                          "count": 17,
+                          "percentageBucket": 0.62
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 49,
+                          "percentageBucket": 1.78
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 0,
+                          "percentageBucket": 0
+                        }
+                      ]
+                    },
+                    {
+                      "count": 1323,
+                      "id": "FRA",
+                      "percentageQuestion": 7.47,
+                      "percentageSurvey": 5.62,
+                      "entity": {
+                        "entityType": "default"
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "male",
+                          "count": 1245,
+                          "percentageBucket": 94.1
+                        },
+                        {
+                          "id": "female",
+                          "count": 53,
+                          "percentageBucket": 4.01
+                        },
+                        {
+                          "id": "non_binary",
+                          "count": 12,
+                          "percentageBucket": 0.91
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 13,
+                          "percentageBucket": 1
+                        }
+                      ]
+                    },
+                    {
+                      "count": 1308,
+                      "id": "DEU",
+                      "percentageQuestion": 7.39,
+                      "percentageSurvey": 5.56,
+                      "entity": {
+                        "entityType": "default"
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "male",
+                          "count": 1212,
+                          "percentageBucket": 92.66
+                        },
+                        {
+                          "id": "female",
+                          "count": 57,
+                          "percentageBucket": 4.36
+                        },
+                        {
+                          "id": "non_binary",
+                          "count": 20,
+                          "percentageBucket": 1.53
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 19,
+                          "percentageBucket": 1
+                        }
+                      ]
+                    },
+                    {
+                      "count": 844,
+                      "id": "GBR",
+                      "percentageQuestion": 4.77,
+                      "percentageSurvey": 3.59,
+                      "entity": {
+                        "entityType": "default"
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "male",
+                          "count": 757,
+                          "percentageBucket": 89.69
+                        },
+                        {
+                          "id": "female",
+                          "count": 53,
+                          "percentageBucket": 6.28
+                        },
+                        {
+                          "id": "non_binary",
+                          "count": 23,
+                          "percentageBucket": 2.73
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 11,
+                          "percentageBucket": 1
+                        }
+                      ]
+                    },
+                    {
+                      "count": 638,
+                      "id": "POL",
+                      "percentageQuestion": 3.6,
+                      "percentageSurvey": 2.71,
+                      "entity": {
+                        "entityType": "default"
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "male",
+                          "count": 608,
+                          "percentageBucket": 95.3
+                        },
+                        {
+                          "id": "female",
+                          "count": 24,
+                          "percentageBucket": 3.76
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 6,
+                          "percentageBucket": 1
+                        }
+                      ]
+                    },
+                    {
+                      "count": 597,
+                      "id": "RUS",
+                      "percentageQuestion": 3.37,
+                      "percentageSurvey": 2.54,
+                      "entity": {
+                        "entityType": "default"
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "male",
+                          "count": 553,
+                          "percentageBucket": 92.63
+                        },
+                        {
+                          "id": "female",
+                          "count": 37,
+                          "percentageBucket": 6.2
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 7,
+                          "percentageBucket": 1
+                        }
+                      ]
+                    },
+                    {
+                      "count": 566,
+                      "id": "CAN",
+                      "percentageQuestion": 3.2,
+                      "percentageSurvey": 2.4,
+                      "entity": {
+                        "entityType": "default"
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "male",
+                          "count": 511,
+                          "percentageBucket": 90.28
+                        },
+                        {
+                          "id": "female",
+                          "count": 29,
+                          "percentageBucket": 5.12
+                        },
+                        {
+                          "id": "non_binary",
+                          "count": 15,
+                          "percentageBucket": 2.65
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 11,
+                          "percentageBucket": 1.94
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 0,
+                          "percentageBucket": 0
+                        }
+                      ]
+                    },
+                    {
+                      "count": 548,
+                      "id": "ESP",
+                      "percentageQuestion": 3.09,
+                      "percentageSurvey": 2.33,
+                      "entity": {
+                        "entityType": "default"
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "male",
+                          "count": 511,
+                          "percentageBucket": 93.25
+                        },
+                        {
+                          "id": "female",
+                          "count": 32,
+                          "percentageBucket": 5.84
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 5,
+                          "percentageBucket": 1
+                        }
+                      ]
+                    },
+                    {
+                      "count": 538,
+                      "id": "IND",
+                      "percentageQuestion": 3.04,
+                      "percentageSurvey": 2.29,
+                      "entity": {
+                        "entityType": "default"
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "male",
+                          "count": 508,
+                          "percentageBucket": 94.42
+                        },
+                        {
+                          "id": "female",
+                          "count": 17,
+                          "percentageBucket": 3.16
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 10,
+                          "percentageBucket": 1.86
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 3,
+                          "percentageBucket": 1
+                        }
+                      ]
+                    },
+                    {
+                      "count": 457,
+                      "id": "NLD",
+                      "percentageQuestion": 2.58,
+                      "percentageSurvey": 1.94,
+                      "entity": {
+                        "entityType": "default"
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "male",
+                          "count": 420,
+                          "percentageBucket": 91.9
+                        },
+                        {
+                          "id": "female",
+                          "count": 25,
+                          "percentageBucket": 5.47
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 12,
+                          "percentageBucket": 3
+                        }
+                      ]
+                    },
+                    {
+                      "count": 393,
+                      "id": "BRA",
+                      "percentageQuestion": 2.22,
+                      "percentageSurvey": 1.67,
+                      "entity": {
+                        "entityType": "default"
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "male",
+                          "count": 371,
+                          "percentageBucket": 94.4
+                        },
+                        {
+                          "id": "female",
+                          "count": 11,
+                          "percentageBucket": 2.8
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 11,
+                          "percentageBucket": 3
+                        }
+                      ]
+                    },
+                    {
+                      "count": 387,
+                      "id": "SWE",
+                      "percentageQuestion": 2.19,
+                      "percentageSurvey": 1.64,
+                      "entity": {
+                        "entityType": "default"
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "male",
+                          "count": 362,
+                          "percentageBucket": 93.54
+                        },
+                        {
+                          "id": "female",
+                          "count": 15,
+                          "percentageBucket": 3.88
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 10,
+                          "percentageBucket": 3
+                        }
+                      ]
+                    },
+                    {
+                      "count": 351,
+                      "id": "ITA",
+                      "percentageQuestion": 1.98,
+                      "percentageSurvey": 1.49,
+                      "entity": {
+                        "entityType": "default"
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "male",
+                          "count": 341,
+                          "percentageBucket": 97.15
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 10,
+                          "percentageBucket": 3
+                        }
+                      ]
+                    },
+                    {
+                      "count": 340,
+                      "id": "AUS",
+                      "percentageQuestion": 1.92,
+                      "percentageSurvey": 1.44,
+                      "entity": {
+                        "entityType": "default"
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "male",
+                          "count": 317,
+                          "percentageBucket": 93.24
+                        },
+                        {
+                          "id": "female",
+                          "count": 11,
+                          "percentageBucket": 3.24
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 12,
+                          "percentageBucket": 4
+                        }
+                      ]
+                    },
+                    {
+                      "count": 5824,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 24.74,
+                      "entity": {
+                        "entityType": "default"
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "male",
+                          "count": 396,
+                          "percentageBucket": 6.8
+                        },
+                        {
+                          "id": "female",
+                          "count": 31,
+                          "percentageBucket": 0.53
+                        },
+                        {
+                          "id": "non_binary",
+                          "count": 11,
+                          "percentageBucket": 0.19
+                        },
+                        {
+                          "id": "not_listed",
+                          "count": 10,
+                          "percentageBucket": 0.17
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 5376,
+                          "percentageBucket": 92.31
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 0,
+                          "percentageBucket": 0
+                        }
+                      ]
+                    },
+                    {
+                      "count": 6417,
+                      "id": "overlimit_answers",
+                      "percentageQuestion": 36.24,
+                      "percentageSurvey": 27.23,
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "male",
+                          "count": 4814,
+                          "percentageBucket": 75.02
+                        },
+                        {
+                          "id": "female",
+                          "count": 47,
+                          "percentageBucket": 0.73
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
