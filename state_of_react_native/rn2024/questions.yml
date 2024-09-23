@@ -165,9 +165,14 @@
 ######################################################
 #########           PLATFORM APIS            #########
 ######################################################
+- id: test
+  template: featurev3
+  slug: features
+  questions:
+    - id: platform_apis
 
 - id: platform_apis
-  template: featurev3
+  template: featureV3
   slug: feature
   questions:
     # - id: platform_apis_intro
