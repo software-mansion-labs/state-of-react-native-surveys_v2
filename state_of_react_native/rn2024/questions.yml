@@ -1,31 +1,3 @@
-- id: test
-  template: featurev3
-  slug: features
-  questions:
-    - id: platform_apis
-
-- id: state_management
-  template: toolv3
-  slug: tools
-  questions:
-    - id: jotai
-    - id: mobx
-    - id: recoil
-    - id: redux
-    - id: redux_toolkit
-    - id: usestate
-    - id: xstate
-    - id: zustand
-
-    - id: state_management_others
-      template: projects
-
-    - id: state_management_pain_points
-      matchTags: [common_pain_points, react_features]
-      disallowedTokenIds: [state_management]
-      template: textList
-
-
 ######################################################
 #########        DEVELOPER BACKGROUND        #########
 ######################################################
@@ -195,7 +167,7 @@
 ######################################################
 
 - id: platform_apis
-  template: feature
+  template: featurev3
   slug: feature
   questions:
     # - id: platform_apis_intro
@@ -252,6 +224,28 @@
 ######################################################
 #########          STATE MANAGEMENT          #########
 ######################################################
+
+- id: state_management
+  template: toolv3
+  slug: tools
+  questions:
+    - id: jotai
+    - id: mobx
+    - id: recoil
+    - id: redux
+    - id: redux_toolkit
+    - id: usestate
+    - id: xstate
+    - id: zustand
+
+    - id: state_management_others
+      template: projects
+
+    - id: state_management_pain_points
+      matchTags: [common_pain_points, react_features]
+      disallowedTokenIds: [state_management]
+      template: textList
+
 
 # - id: state_management
 #   template: tool
