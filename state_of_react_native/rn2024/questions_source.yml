@@ -542,139 +542,139 @@
 #       year: 2023
 #       template: tool
 
-######################################################
-#########             FEATURES               #########
-######################################################
+# ######################################################
+# #########             FEATURES               #########
+# ######################################################
 
-- id: react_native_specific_features
-  template: tool
-  slug: react_native_specific_features
-  questions:
-    - id: react_native_features_version
-      description: Which version do you use mainly?
-      template: single
-      options:
-        - id: react_native_features_version_nightly
-        - id: react_native_features_version_next
-        - id: react_native_features_version_0_73
-        - id: react_native_features_version_0_72
-        - id: react_native_features_version_0_71
-        - id: react_native_features_version_0_70
-        - id: react_native_features_version_0_69
-        - id: react_native_features_version_0_68
-        - id: react_native_features_version_0_67
-        - id: react_native_features_version_0_66
-        - id: react_native_features_version_0_65
-        - id: react_native_features_version_0_64
-        - id: react_native_features_version_0_63_or_lower
-    - id: react_native_features_strategies
-      description: What is your main strategy for upgrading React Native to a new versions?
-      template: single
-      options:
-        - id: react_native_features_strategies_stay_latest
-        - id: react_native_features_strategies_upgrade_occasionally
-        - id: react_native_features_strategies_upgrade_for_new_features
-        - id: react_native_features_strategies_upgrade_parallel_with_expo
-        - id: react_native_features_strategies_upgrade_if_necessary
-    - id: react_native_features_strategies_other
-      template: others
-      description: "Other answers (freeform)"
+# - id: react_native_specific_features
+#   template: tool
+#   slug: react_native_specific_features
+#   questions:
+#     - id: react_native_features_version
+#       description: Which version do you use mainly?
+#       template: single
+#       options:
+#         - id: react_native_features_version_nightly
+#         - id: react_native_features_version_next
+#         - id: react_native_features_version_0_73
+#         - id: react_native_features_version_0_72
+#         - id: react_native_features_version_0_71
+#         - id: react_native_features_version_0_70
+#         - id: react_native_features_version_0_69
+#         - id: react_native_features_version_0_68
+#         - id: react_native_features_version_0_67
+#         - id: react_native_features_version_0_66
+#         - id: react_native_features_version_0_65
+#         - id: react_native_features_version_0_64
+#         - id: react_native_features_version_0_63_or_lower
+#     - id: react_native_features_strategies
+#       description: What is your main strategy for upgrading React Native to a new versions?
+#       template: single
+#       options:
+#         - id: react_native_features_strategies_stay_latest
+#         - id: react_native_features_strategies_upgrade_occasionally
+#         - id: react_native_features_strategies_upgrade_for_new_features
+#         - id: react_native_features_strategies_upgrade_parallel_with_expo
+#         - id: react_native_features_strategies_upgrade_if_necessary
+#     - id: react_native_features_strategies_other
+#       template: others
+#       description: "Other answers (freeform)"
 
-    - id: react_native_bridgeless_mode
-      year: 2023
-    - id: react_native_features_codegen
-    - id: react_native_features_custom_native_modules
-    - id: react_native_features_custom_native_views
-    - id: react_native_features_expo_modules
-    - id: react_native_features_fabric
-    - id: react_native_features_jsc_runtime
-    - id: react_native_features_jsi
-    - id: react_native_features_hermes_runtime
-    - id: react_native_features_react_native_directory
-      year: 2023
-    - id: react_native_features_new_architecture
-    - id: react_native_features_turbo_modules
-    - id: react_native_features_v8_runtime
+#     - id: react_native_bridgeless_mode
+#       year: 2023
+#     - id: react_native_features_codegen
+#     - id: react_native_features_custom_native_modules
+#     - id: react_native_features_custom_native_views
+#     - id: react_native_features_expo_modules
+#     - id: react_native_features_fabric
+#     - id: react_native_features_jsc_runtime
+#     - id: react_native_features_jsi
+#     - id: react_native_features_hermes_runtime
+#     - id: react_native_features_react_native_directory
+#       year: 2023
+#     - id: react_native_features_new_architecture
+#     - id: react_native_features_turbo_modules
+#     - id: react_native_features_v8_runtime
 
-    # - id: react_native_features_debugging
-    #   template: multiple
-    #   description: What tools do you use to debug your React Native apps? Check all that apply
-    #   options:
-    #     - id: react_native_features_debugging_chrome_dev_tools
-    #     - id: react_native_features_debugging_console_log
-    #     - id: react_native_features_debugging_flipper
-    #     - id: react_native_features_debugging_reactotron
-    #     - id: react_native_features_debugging_react_dev_tools
-    #     - id: react_native_features_debugging_react_native_debugger
-    #     - id: react_native_features_debugging_native_debugging
-    # - id: react_native_features_debugging_other
-    #   template: others
-    #   description: "Other answers (freeform)"
+#     # - id: react_native_features_debugging
+#     #   template: multiple
+#     #   description: What tools do you use to debug your React Native apps? Check all that apply
+#     #   options:
+#     #     - id: react_native_features_debugging_chrome_dev_tools
+#     #     - id: react_native_features_debugging_console_log
+#     #     - id: react_native_features_debugging_flipper
+#     #     - id: react_native_features_debugging_reactotron
+#     #     - id: react_native_features_debugging_react_dev_tools
+#     #     - id: react_native_features_debugging_react_native_debugger
+#     #     - id: react_native_features_debugging_native_debugging
+#     # - id: react_native_features_debugging_other
+#     #   template: others
+#     #   description: "Other answers (freeform)"
 
-    # - id: react_native_features_performance_profile
-    #   template: multiple
-    #   description: What tools do you use to profile React Native app performance? Check all that apply
-    #   options:
-    #     - id: react_native_features_performance_profile_flipper
-    #     - id: react_native_features_performance_profile_flipper_performance_plugin
-    #     - id: react_native_features_performance_profile_react_native_performance
-    #     - id: react_native_features_performance_profile_react_native_performance_monitor
-    #     - id: react_native_features_performance_native
-    # - id: react_native_features_performance_profile_other
-    #   template: others
-    #   description: "Other answers (freeform)"
+#     # - id: react_native_features_performance_profile
+#     #   template: multiple
+#     #   description: What tools do you use to profile React Native app performance? Check all that apply
+#     #   options:
+#     #     - id: react_native_features_performance_profile_flipper
+#     #     - id: react_native_features_performance_profile_flipper_performance_plugin
+#     #     - id: react_native_features_performance_profile_react_native_performance
+#     #     - id: react_native_features_performance_profile_react_native_performance_monitor
+#     #     - id: react_native_features_performance_native
+#     # - id: react_native_features_performance_profile_other
+#     #   template: others
+#     #   description: "Other answers (freeform)"
 
-    - id: react_native_features_brownfield
-      template: single
-      options:
-        - id: react_native_features_brownfield_green
-        - id: react_native_features_brownfield_brown
-        - id: react_native_features_brownfield_both
+#     - id: react_native_features_brownfield
+#       template: single
+#       options:
+#         - id: react_native_features_brownfield_green
+#         - id: react_native_features_brownfield_brown
+#         - id: react_native_features_brownfield_both
 
-    - id: react_native_features_ota_updates
-      template: multiple
-      description: What Over-The-Air updates solutions do you use? Check all that apply
-      options:
-        - id: react_native_features_ota_updates_code_push
-        - id: react_native_features_ota_updates_eas_update
-        - id: react_native_features_ota_updates_expo_publish
-        - id: react_native_features_ota_updates_self_hosted
-    - id: react_native_features_ota_updates_other
-      template: others
-      description: "Other answers (freeform)"
+#     - id: react_native_features_ota_updates
+#       template: multiple
+#       description: What Over-The-Air updates solutions do you use? Check all that apply
+#       options:
+#         - id: react_native_features_ota_updates_code_push
+#         - id: react_native_features_ota_updates_eas_update
+#         - id: react_native_features_ota_updates_expo_publish
+#         - id: react_native_features_ota_updates_self_hosted
+#     - id: react_native_features_ota_updates_other
+#       template: others
+#       description: "Other answers (freeform)"
 
-    - id: react_native_features_mobile_web_code_sharing
-      description: What methods do you employ for sharing code between mobile and web platforms in your project, if any? Check all that apply
-      template: multiple
-      options:
-        - id: react_native_features_mobile_web_code_sharing_react_native_web
-        - id: react_native_features_mobile_web_code_sharing_solito
-        - id: react_native_features_mobile_web_code_sharing_webview
-        - id: react_native_features_mobile_web_code_sharing_common_logic_independent_ui
-        - id: react_native_features_mobile_web_code_sharing_independent_projects
-    - id: react_native_features_mobile_web_code_sharing_other
-      template: others
-      description: "Other answers (freeform)"
+#     - id: react_native_features_mobile_web_code_sharing
+#       description: What methods do you employ for sharing code between mobile and web platforms in your project, if any? Check all that apply
+#       template: multiple
+#       options:
+#         - id: react_native_features_mobile_web_code_sharing_react_native_web
+#         - id: react_native_features_mobile_web_code_sharing_solito
+#         - id: react_native_features_mobile_web_code_sharing_webview
+#         - id: react_native_features_mobile_web_code_sharing_common_logic_independent_ui
+#         - id: react_native_features_mobile_web_code_sharing_independent_projects
+#     - id: react_native_features_mobile_web_code_sharing_other
+#       template: others
+#       description: "Other answers (freeform)"
 
 ######################################################
 #########            DEPLOYMENT              #########
 ######################################################
 
-- id: deployment
-  template: tool
-  slug: deployment
-  questions:
-    - id: deployment_app_center
-    - id: deployment_bitrise
-      year: 2023
-    - id: deployment_eas_build
-    - id: deployment_eas_submit
-    - id: deployment_fastlane
-    - id: deployment_manually_android_studio
-    - id: deployment_manually_xcode
-    - id: deployment_other
-      template: others
-      description: "Other answers (freeform)"
+# - id: deployment
+#   template: tool
+#   slug: deployment
+#   questions:
+#     - id: deployment_app_center
+#     - id: deployment_bitrise
+#       year: 2023
+#     - id: deployment_eas_build
+#     - id: deployment_eas_submit
+#     - id: deployment_fastlane
+#     - id: deployment_manually_android_studio
+#     - id: deployment_manually_xcode
+#     - id: deployment_other
+#       template: others
+#       description: "Other answers (freeform)"
 
 ######################################################
 #########               TOOLS                #########
@@ -757,22 +757,22 @@
 #########            ALTERNATIVES            #########
 ######################################################
 
-- id: react_native_alternatives
-  template: tool
-  slug: react_native_alternatives
-  questions:
-    - id: react_native_alternatives_cordova
-    - id: react_native_alternatives_flutter
-    - id: react_native_alternatives_ionic
-    - id: react_native_alternatives_jetpack_compose
-    - id: react_native_alternatives_kotlin
-    - id: react_native_alternatives_swiftui
-    - id: react_native_alternatives_native_script
-    - id: react_native_alternatives_xamarin
-    - id: react_native_alternatives_other
-      year: 2023
-      template: others
-      description: "Other answers (freeform)"
+# - id: react_native_alternatives
+#   template: tool
+#   slug: react_native_alternatives
+#   questions:
+#     - id: react_native_alternatives_cordova
+#     - id: react_native_alternatives_flutter
+#     - id: react_native_alternatives_ionic
+#     - id: react_native_alternatives_jetpack_compose
+#     - id: react_native_alternatives_kotlin
+#     - id: react_native_alternatives_swiftui
+#     - id: react_native_alternatives_native_script
+#     - id: react_native_alternatives_xamarin
+#     - id: react_native_alternatives_other
+#       year: 2023
+#       template: others
+#       description: "Other answers (freeform)"
 
 ######################################################
 #########             RESOURCES              #########
@@ -844,7 +844,7 @@
         - id: resources_course_multiple_youtube
     - id: resources_course
       template: others
-      description: What other sites, courses or book not listed above do you consult to learn React Native? Write all that apply (freeform)
+      description: What other sites, courses or book not listed above do you consult to learn React Native? Write all that apply
     - id: resources_podcast_multiple
       template: multiple
       description: What React Native or general programming-related podcasts do you listen to? Check all that apply
@@ -860,10 +860,10 @@
       description: What podcasts about React Native or programming in general do you listen to? Check all that apply
     - id: resources_video
       template: others
-      description: Video creators you follow on video-centric platforms such as YouTube, Twitch, TikTok, etc. Write all that apply (freeform)
+      description: Video creators you follow on video-centric platforms such as YouTube, Twitch, TikTok, etc. Write all that apply
     - id: resources_people
       template: others
-      description: People you read, follow, or just want to highlight for their work. Write all that apply (freeform)
+      description: People you read, follow, or just want to highlight for their work. Write all that apply 
     # - id: resources_communities
     #   description: Online communities you actively participate in, such as Slack workspaces, Discord servers, Reddit topics, etc.. Write all that apply (freeform)
 

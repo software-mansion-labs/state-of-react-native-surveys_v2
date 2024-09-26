@@ -166,6 +166,7 @@
 ######################################################
 #########        COMPONENT LIBRARIES         #########
 ######################################################
+
 - id: component_libraries
   template: toolv3
   slug: component_libraries
@@ -379,7 +380,7 @@
         - id: react_native_app_aspects_other_libraries_react_native_maps
         - id: react_native_app_aspects_other_libraries_react_native_safe_area_context
         - id: react_native_app_aspects_other_libraries_react_native_webview
-        # - id: react_native_app_aspects_other_libraries_react-native-vector-icons
+        - id: react_native_app_aspects_other_libraries_react_native_vector_icons
         - id: react_native_app_aspects_other_libraries_react_native_video
         - id: react_native_app_aspects_other_libraries_react_native_vision_camera
 
@@ -471,11 +472,279 @@
         - id: react_native_features_mobile_web_code_sharing_common_logic_independent_ui
         - id: react_native_features_mobile_web_code_sharing_independent_projects
 
-# - id: dupa
-#   template: featurev3
-#   slug: features
-#   questions:
-#     - id: createcontext
-#     # - id: knowledge_score
-#     #   template: knowledge_score
+######################################################
+#########            DEPLOYMENT              #########
+######################################################
+
+- id: deployment
+  template: toolv3
+  slug: deployment
+  questions:
+    - id: deployment_app_center
+    - id: deployment_bitrise
+    - id: deployment_eas_build
+    - id: deployment_eas_submit
+    - id: deployment_fastlane
+    - id: deployment_manually_android_studio
+    - id: deployment_manually_xcode
+    # TODO: Check how it is solve in sor
+    - id: deployment_other
+      template: others
+      description: "Other answers (freeform)"
+
+
+######################################################
+#########               TOOLS                #########
+######################################################
+
+- id: tools
+  template: toolv3
+  slug: tools
+  questions:
+    - id: tools_js_ts
+      template: slider
+      description: "How do you divide your time between writing JavaScript and TypeScript code?"
+
+    - id: tools_package_managers
+      template: multipleWithOtherSentiment
+      options:
+        - id: tools_package_managers_bun
+        - id: tools_package_managers_npm
+        - id: tools_package_managers_pnpm
+        - id: tools_package_managers_yarn
+        - id: tools_package_managers_yarn_berry
+
+    - id: tools_starter_templates
+      template: multipleWithOtherSentiment
+      options:
+        - id: tools_starter_templates_expo
+        - id: tools_create_expo_stack
+        - id: tools_starter_templates_create_react_native_app
+        - id: tools_starter_templates_solito
+        - id: tools_starter_templates_create_t3_turbo
+        - id: tools_starter_templates_ignite_cli
+        - id: tools_starter_templates_react_native_cli
+        - id: tools_starter_templates_react-native-template-obytes
+        - id: tools_starter_tamagui
+
+    - id: tools_config_plugins
+    - id: tools_custom_development_client
+    - id: tools_eas_cli
+    - id: tools_expo_cli
+    - id: tools_expo_go
+    - id: tools_expo_snack
+    - id: tools_ignite_cli
+    - id: tools_react_native_cli
+    - id: tools_react_native_test_app
+    - id: tools_rnx_kit
+    - id: tools_upgrade_helper
+
+    - id: tools_other_tools
+      template: others
+      description: "Other answers (freeform)"
+
+######################################################
+#########            ALTERNATIVES            #########
+######################################################
+
+- id: react_native_alternatives
+  template: toolv3
+  slug: react_native_alternatives
+  questions:
+    - id: react_native_alternatives_cordova
+    - id: react_native_alternatives_flutter
+    - id: react_native_alternatives_ionic
+    - id: react_native_alternatives_jetpack_compose
+    - id: react_native_alternatives_kotlin
+    - id: react_native_alternatives_swiftui
+    - id: react_native_alternatives_native_script
+    - id: react_native_alternatives_xamarin
+    - id: react_native_alternatives_other
+      template: others
+      description: "Other answers (freeform)"
+
+######################################################
+#########             RESOURCES              #########
+######################################################
+
+- id: resources
+  template: others
+  slug: resources
+  questions:
+    - id: resources_initially_learn_react_native
+      template: multipleWithOtherSentiment
+      description: What methods do you use to learn and improve your React Native skills? Check all that apply
+      options:
+        - id: resources_initially_learn_react_native_official_docs
+        - id: resources_initially_learn_react_native_expo_docs
+        - id: resources_initially_learn_react_native_books
+        - id: resources_initially_learn_react_native_videos
+        - id: resources_initially_learn_react_native_online_courses_free
+        - id: resources_initially_learn_react_native_online_courses_paid
+        - id: resources_initially_learn_react_native_school_higher_education
+        - id: resources_initially_learn_react_native_podcasts
+        - id: resources_initially_learn_react_native_coding_bootcamp
+        - id: resources_initially_learn_react_native_react_native_directory
+        - id: resources_initially_learn_react_native_on_the_job_training
+        - id: resources_initially_learn_react_native_mentoring
+        - id: resources_initially_learn_react_native_self_directed_learning
+
+    - id: resources_read_multiple
+      template: multipleWithOtherSentiment
+      description: What blogs, magazines or newsletters do you consult to keep up with React Native news? Check all that apply
+      options:
+        - id: resources_read_multiple_callstack_blog
+        - id: resources_read_multiple_dev_to
+        - id: resources_read_multiple_expo_blog
+        - id: resources_read_multiple_kent_c_dodds
+        - id: resources_read_multiple_log_rocket
+        - id: resources_read_multiple_medium
+        - id: resources_read_multiple_microsof_react_native_blog
+        - id: resources_read_react_native_reddit
+        - id: resources_read_multiple_react_native_blog
+        - id: resources_read_multiple_react_native_newsletter
+        - id: resources_read_multiple_software_mansion_blog
+        - id: resources_read_multiple_this_week_in_react
+    - id: resources_course_multiple
+      template: multipleWithOtherSentiment
+      description: What sites, courses or books do you consult to learn React Native? Check all that apply
+      options:
+        - id: resources_course_multiple_animate_react_native
+        - id: resources_course_multiple_codecademy
+        - id: resources_course_multiple_developer_training
+        - id: resources_course_multiple_egghead
+        - id: resources_course_multiple_epic_react
+        - id: resources_course_expo_docs
+        - id: resources_course_multiple_frontend_masters
+        - id: resources_course_multiple_medium
+        - id: resources_course_react_native_docs
+        - id: resources_course_multiple_reddit
+        - id: resources_course_multiple_stack_overflow
+        - id: resources_course_multiple_start_react_native
+        - id: resources_course_multiple_solito_docs
+        - id: resources_course_multiple_udemy
+        - id: resources_course_multiple_book_react_native_optimization
+        - id: resources_course_twitter
+        - id: resources_course_multiple_youtube
+    - id: resources_podcast_multiple
+      template: multipleWithOtherSentiment
+      description: What React Native or general programming-related podcasts do you listen to? Check all that apply
+      options:
+        - id: resources_podcast_multiple_podrocker
+        - id: resources_podcast_multiple_react_native_radio
+        - id: resources_podcast_multiple_rocket_ship
+        - id: resources_podcast_multiple_syntax_fm
+        - id: resources_podcast_multiple_the_changelog
+        - id: resources_podcast_multiple_react_native_show_callstack
+    - id: resources_video
+      template: others
+      description: Video creators you follow on video-centric platforms such as YouTube, Twitch, TikTok, etc. Write all that apply (freeform)
+    - id: resources_people
+      template: others
+      description: People you read, follow, or just want to highlight for their work. Write all that apply (freeform)
+    # - id: resources_communities
+    #   description: Online communities you actively participate in, such as Slack workspaces, Discord servers, Reddit topics, etc.. Write all that apply (freeform)
+
+    - id: resources_surveys
+      template: multipleWithOtherSentiment
+      description: What other developer surveys do you participate in? Check all that apply
+      options:
+        - id: resources_surveys_codingame
+        - id: resources_surveys_design_tools
+        - id: resources_surveys_jamstack
+        - id: resources_surveys_jetbrains
+        - id: resources_surveys_postman
+        - id: resources_surveys_stack_overflow
+        - id: resources_surveys_state_of_css
+        - id: resources_surveys_state_of_js
+        - id: resources_surveys_state_of_graphql
+        - id: resources_surveys_state_of_react
+
+######################################################
+#########             OPINIONS               #########
+######################################################
+
+- id: opinions
+  template: opinion
+  slug: opinions
+  questions:
+    - id: opinions_right_direction
+    - id: opinions_complex
+    - id: opinions_changing_too_fast
+    - id: opinions_pain_points_multiple
+      template: multipleWithOther
+      description: What are the things that makes you feel annoyed while developing React Native apps? Check all that apply
+      options:
+        - id: opinions_pain_points_multiple_app_deployment
+        - id: opinions_pain_points_multiple_app_building
+        - id: opinions_pain_points_multiple_build_times
+        - id: opinions_pain_points_multiple_bundle_size
+        - id: opinions_pain_points_multiple_continuous_deployment
+        - id: opinions_pain_points_multiple_dealing_with_native_code
+        - id: opinions_pain_points_multiple_debugging
+        - id: opinions_pain_points_multiple_documentation
+        - id: opinions_pain_points_multiple_end_to_end_testing
+        - id: opinions_pain_points_multiple_graphics_and_animations
+        - id: opinions_pain_points_multiple_keyboard_handling
+        - id: opinions_pain_points_multiple_managing_secrets
+        - id: opinions_pain_points_multiple_pain_monorepos
+        - id: opinions_pain_points_multiple_navigation_solutions
+        - id: opinions_pain_points_multiple_new_architecture
+        - id: opinions_pain_points_multiple_performance
+        - id: opinions_pain_points_multiple_platforms_inconsistencies
+        - id: opinions_pain_points_multiple_project_setup
+        - id: opinions_pain_points_multiple_reliance_on_third_party_modules
+        - id: opinions_pain_points_multiple_setting_up_servers
+        - id: opinions_pain_points_multiple_code_sharing_with_web
+        - id: opinions_pain_points_multiple_stability
+        - id: opinions_pain_points_multiple_styling_limitations
+        - id: opinions_pain_points_multiple_unmaintained_packages
+        - id: opinions_pain_points_multiple_unusable_error_messages
+        - id: opinions_pain_points_multiple_upgrades
+
+    - id: opinions_missing_multiple
+      template: multipleWithOther
+      description: What do you feel currently is missing from React Native? Check all that apply
+      options:
+        - id: opinions_missing_multiple_android_shadows
+        - id: opinions_missing_multiple_better_animations_gestures
+        - id: opinions_missing_multiple_better_debugging
+        - id: opinions_missing_multiple_better_profiling
+        - id: opinions_missing_multiple_better_documentation
+        - id: opinions_missing_multiple_better_flatlist
+        - id: opinions_missing_multiple_better_keyboard_handling
+        - id: opinions_missing_multiple_better_performance
+        - id: opinions_missing_multiple_better_testing
+        - id: opinions_missing_multiple_better_web_compatibility
+        - id: opinions_missing_multiple_css_features
+        - id: opinions_missing_multiple_first_party_libraries
+        - id: opinions_missing_multiple_fetch_stream_support
+        - id: opinions_missing_multiple_multithreading
+        - id: opinions_missing_multiple_swiftui_jetpack_compose_integration
+
+    - id: opinions_advantages_multiple
+      template: multipleWithOther
+      description: What are advantages of React Native over other solutions? Check all that apply
+      options:
+        - id: opinions_advantages_multiple_code_sharing
+        - id: opinions_advantages_multiple_community
+        - id: opinions_advantages_multiple_cost_effective
+        - id: opinions_advantages_multiple_cross_platform
+        - id: opinions_advantages_multiple_developer_experience
+        - id: opinions_advantages_multiple_documentation
+        - id: opinions_advantages_multiple_easy_to_learn
+        - id: opinions_advantages_multiple_ecosystem
+        - id: opinions_advantages_multiple_expo
+        - id: opinions_advantages_multiple_fast_iteration
+        - id: opinions_advantages_multiple_hot_reloading
+        - id: opinions_advantages_multiple_native_feel_of_app
+        - id: opinions_advantages_multiple_over_the_air_updates
+        - id: opinions_advantages_multiple_performance
+        - id: opinions_advantages_multiple_single_codebase
+        - id: opinions_advantages_multiple_stable
+        - id: opinions_advantages_multiple_time_to_market
+        - id: opinions_advantages_multiple_web_technologies
+        - id: opinions_advantages_multiple_other_advantages
+
+
 
