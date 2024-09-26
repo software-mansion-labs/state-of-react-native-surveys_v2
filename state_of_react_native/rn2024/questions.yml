@@ -73,14 +73,19 @@
         - id: developer_background_platforms_android_tv
         - id: developer_background_platforms_tvos
 
-    # - id: developer_background_contribution_to_rn
-    #   template: yes_or_no
-    #   description: Have you contributed to React Native upstream in 2023 (commits/PRs)?
+    - id: developer_background_contribution_to_rn
+      template: single
+      description: Have you contributed to React Native upstream in 2023 (commits/PRs)?
+      options:
+        - id: answer_yes
+        - id: answer_no
 
-    # - id: developer_background_contribution_to_lib
-    #   template: yes_or_no
+    - id: developer_background_contribution_to_lib
+      template: single
     #   description: Have you contributed to any React Native community library in 2023 (commits/PRs)?
-
+      options:
+        - id: answer_yes
+        - id: answer_no
     - id: developer_background_releases_count
       description: How many React Native apps have you released on Google Play or App Store?
       template: single
@@ -150,7 +155,6 @@
         - id: developer_background_industry_sector_weather
         - id: developer_background_industry_sector_video
         # - id: developer_background_industry_sector_other
-
 ######################################################
 #########           PLATFORM APIS            #########
 ######################################################
