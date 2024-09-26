@@ -1,3 +1,156 @@
+
+######################################################
+#########        DEVELOPER BACKGROUND        #########
+######################################################
+
+- id: developer_background
+  template: feature
+  slug: developer_background
+  questions:
+    - id: developer_background_before
+      template: multipleWithOther
+      description: What was your background before you started using React Native? Check all that apply
+      options:
+        - id: developer_background_before_react
+        - id: developer_background_before_ios
+        - id: developer_background_before_android
+        - id: developer_background_before_frontend
+        - id: developer_background_before_backend
+        - id: developer_background_before_desktop
+        - id: developer_background_before_qa
+        - id: developer_background_before_devops
+        - id: developer_background_before_embedded
+        - id: developer_background_before_non_technical
+        - id: developer_background_before_started_with_rn
+
+    - id: developer_background_usage_type
+      template: single
+      options:
+        - id: developer_background_usage_type_professional
+        - id: developer_background_usage_type_student
+        - id: developer_background_usage_type_hobby
+
+    - id: developer_background_primarily_system
+      description: What desktop OS do you primarily use?
+      template: single
+      options:
+        - id: developer_background_primarily_system_macos
+        - id: developer_background_primarily_system_linux
+        - id: developer_background_primarily_system_windows
+
+    - id: developer_background_users_count
+      description: What is the user count of your top React Native app?
+      template: single
+      options:
+        - id: developer_background_users_count_only_me
+        - id: developer_background_users_count_2_100
+        - id: developer_background_users_count_101_1k
+        - id: developer_background_users_count_1k_10k
+        - id: developer_background_users_count_10k_100k
+        - id: developer_background_users_count_100k_1m
+        - id: developer_background_users_count_1m_plus
+
+    - id: developer_background_team_size
+      description: What is your mobile app team size?
+      template: single
+      options:
+        - id: developer_background_team_size_solo
+        - id: developer_background_team_size_two
+        - id: developer_background_team_size_3_5
+        - id: developer_background_team_size_6_10
+        - id: developer_background_team_size_more_than_10
+
+    - id: developer_background_platforms
+      description: What are the platforms that you use React Native for? Check all that apply
+      template: multipleWithOther
+      options:
+        - id: developer_background_platforms_ios
+        - id: developer_background_platforms_android
+        - id: developer_background_platforms_web
+        - id: developer_background_platforms_macos
+        - id: developer_background_platforms_windows
+        - id: developer_background_platforms_skia
+        - id: developer_background_platforms_android_tv
+        - id: developer_background_platforms_tvos
+
+    # - id: developer_background_contribution_to_rn
+    #   template: yes_or_no
+    #   description: Have you contributed to React Native upstream in 2023 (commits/PRs)?
+
+    # - id: developer_background_contribution_to_lib
+    #   template: yes_or_no
+    #   description: Have you contributed to any React Native community library in 2023 (commits/PRs)?
+
+    - id: developer_background_releases_count
+      description: How many React Native apps have you released on Google Play or App Store?
+      template: single
+      options:
+        - id: developer_background_releases_count_none
+        - id: developer_background_releases_count_one
+        - id: developer_background_releases_count_2_5
+        - id: developer_background_releases_count_5_10
+        - id: developer_background_releases_count_more_than_10
+
+    - id: developer_background_os_target
+      template: single
+      options:
+        - id: developer_background_os_target_most_recent
+        - id: developer_background_os_target_reasonably_current
+        - id: developer_background_os_target_old
+        - id: developer_background_os_target_as_old_as_possible
+
+    - id: developer_background_industry_sector
+      template: multipleWithOther
+      description: Which industry sector(s) are you using React Native in? Check all that apply.
+      options:
+        - id: developer_background_industry_sector_art_design
+        - id: developer_background_industry_sector_agriculture
+        - id: developer_background_industry_sector_automotive
+        - id: developer_background_industry_sector_beauty
+        - id: developer_background_industry_sector_books_reference
+        - id: developer_background_industry_sector_construction
+        - id: developer_background_industry_sector_communication
+        - id: developer_background_industry_sector_consulting
+        - id: developer_background_industry_sector_crypto
+        - id: developer_background_industry_sector_cyber_security
+        - id: developer_background_industry_sector_dating
+        # - id: developer_background_industry_sector_ecommerce
+        - id: developer_background_industry_sector_education
+        - id: developer_background_industry_sector_energy
+        - id: developer_background_industry_sector_entertainment
+        - id: developer_background_industry_sector_events
+        - id: developer_background_industry_sector_finance
+        - id: developer_background_industry_sector_food_drink
+        - id: developer_background_industry_sector_government
+        - id: developer_background_industry_sector_games
+        - id: developer_background_industry_sector_health_fitness
+        - id: developer_background_industry_sector_house_home
+        # - id: developer_background_industry_sector_healthcare
+        # - id: developer_background_industry_sector_hospitality
+        - id: developer_background_industry_sector_insurance
+        - id: developer_background_industry_sector_logistics
+        - id: developer_background_industry_sector_lifestyle
+        - id: developer_background_industry_sector_manufacturing
+        - id: developer_background_industry_sector_marketing_tools
+        - id: developer_background_industry_sector_medical
+        - id: developer_background_industry_sector_music_audio
+        - id: developer_background_industry_sector_navigation
+        - id: developer_background_industry_sector_news_media
+        - id: developer_background_industry_sector_programming_tools
+        - id: developer_background_industry_sector_photo
+        - id: developer_background_industry_sector_productivity
+        - id: developer_background_industry_sector_real_estate
+        - id: developer_background_industry_sector_shopping
+        - id: developer_background_industry_sector_social_media
+        - id: developer_background_industry_sector_sports
+        - id: developer_background_industry_sector_student
+        # - id: developer_background_industry_sector_telecommunications
+        - id: developer_background_industry_sector_transport
+        - id: developer_background_industry_sector_travel
+        - id: developer_background_industry_sector_weather
+        - id: developer_background_industry_sector_video
+        # - id: developer_background_industry_sector_other
+
 ######################################################
 #########           PLATFORM APIS            #########
 ######################################################
