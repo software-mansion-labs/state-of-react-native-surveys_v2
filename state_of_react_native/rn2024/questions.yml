@@ -218,7 +218,7 @@
 
 - id: state_management
   template: toolv3
-  slug: tools
+  slug: state_management
   questions:
     - id: state_management_apollo
     - id: state_management_jotai
@@ -230,10 +230,12 @@
     - id: state_management_redux_toolkit
     - id: state_management_react_query
     - id: state_management_xstate
+      yearAdded: 2024
     - id: state_management_zustand
 
     - id: state_management_others
       template: projects
+      intlId: tools.other_tools
 
     - id: state_management_pain_points
       matchTags: [common_pain_points, react_features]
