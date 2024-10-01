@@ -910,84 +910,90 @@
 #########             ABOUT YOU              #########
 ######################################################
 
-- id: about_you
-  template: single
-  slug: about_you
+- id: user_info
   questions:
-    - id: about_you_country
-      description: Where do you currently reside?
+    - id: age
+      template: age_number
+
+    - id: years_of_experience
+      template: years_of_experience
+
+    - id: company_size
+      template: company_size
+
+    - id: yearly_salary
+      template: yearly_salary
+
+    - id: higher_education_degree
+      template: higher_education_degree
+
+    - id: country
       template: country
 
-    - id: about_you_age
-      description: How old are you, in years?
-      options:
-        - id: about_you_age_18_or_youger
-        - id: about_you_age_19_24
-        - id: about_you_age_25_34
-        - id: about_you_age_35_44
-        - id: about_you_age_45_54
-        - id: about_you_age_55_64
-        - id: about_you_age_65_or_older
+    - id: gender
+      template: gender
 
-    - id: about_you_experience
-      description: How long have you been working as a programmer or studying programming?
-      options:
-        - id: about_you_experience_1_year_or_less
-        - id: about_you_experience_2_to_3_years
-        - id: about_you_experience_4_to_5_years
-        - id: about_you_experience_6_to_10_years
-        - id: about_you_experience_11_to_20_years
-        - id: about_you_experience_20_years_or_more
+    - id: race_ethnicity
+      template: race_ethnicity
 
-    - id: about_you_experience_in_rn
-      description: How long have you been working with or studying React Native, in years?
-      options:
-        - id: about_you_experience_in_rn_1_year_or_less
-        - id: about_you_experience_in_rn_2_to_3_years
-        - id: about_you_experience_in_rn_4_to_5_years
-        - id: about_you_experience_in_rn_6_years_or_more
+    - id: disability_status
+      template: disability_status
 
-    - id: about_you_company_size
-      description: How big is your company, in the number of employees?
-      options:
-        - id: about_you_company_size_1_employee
-        - id: about_you_company_size_2_to_5
-        - id: about_you_company_size_6_to_10
-        - id: about_you_company_size_11_to_20
-        - id: about_you_company_size_21_to_50
-        - id: about_you_company_size_51_to_100
-        - id: about_you_company_size_101_to_500
-        - id: about_you_company_size_501_to_1000
-        - id: about_you_company_size_1000_or_more
-
-    - id: about_you_education_degree
-      description: Do you have a higher education degree?
-      options:
-        - id: about_you_education_degree_no
-        - id: about_you_education_degree_yes_related
-        - id: about_you_education_degree_yes_unrelated
-
-    - id: about_you_salary
-      description: Your yearly salary in U.S. dollars.
-      options:
-        - id: about_you_salary_free
-        - id: about_you_salary_0_to_10k
-        - id: about_you_salary_10k_to_30k
-        - id: about_you_salary_30k_to_50k
-        - id: about_you_salary_50k_to_100k
-        - id: about_you_salary_100k_to_200k
-        - id: about_you_salary_200k_or_more
-
-    - id: about_you_gender
-      description: Which of the following options describes you, if any?
-      options:
-        - id: about_you_gender_female
-        - id: about_you_gender_male
-        - id: about_you_gender_non_binary
-        - id: about_you_gender_not_listed
-
-    - id: about_you_how_you_know
+    - id: how_did_user_find_out_about_the_survey
       template: text
-    - id: about_you_what_to_improve
-      template: text
+      matchType: single
+      matchTags:
+        [
+          people,
+          sites,
+          newsletters,
+          video_creators,
+          podcasts,
+          surveys,
+          events,
+          sources_state_of_react,
+          socialmedia,
+          sources,
+        ]
 
+    - id: how_can_we_improve
+      template: longtext
+
+    - id: receive_notifications
+      template: receive_notifications
+
+    - id: referrer
+      matchType: single
+      matchTags:
+        [
+          people,
+          sites,
+          newsletters,
+          video_creators,
+          podcasts,
+          surveys,
+          events,
+          sources_state_of_react,
+          socialmedia,
+          sources,
+        ]
+      hidden: true
+      template: referrer
+
+    - id: sourcetag
+      matchType: single
+      matchTags:
+        [
+          people,
+          sites,
+          newsletters,
+          video_creators,
+          podcasts,
+          surveys,
+          events,
+          sources_state_of_react,
+          socialmedia,
+          sources,
+        ]
+      hidden: true
+      template: sourcetag
