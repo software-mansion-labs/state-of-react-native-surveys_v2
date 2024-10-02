@@ -10,3 +10,25 @@
   questions:
     - id: all_tools
       template: all_tools
+
+- id: user_info
+  questions:
+    - id: locale
+      template: locale
+      variables:
+        options: { cutoff: 20 }
+
+    - id: completion_stats
+      template: completion_stats
+
+    - id: device
+      template: device
+
+    - id: browser
+      template: browser
+
+    - id: version
+      template: version
+
+    - id: os
+      template: os

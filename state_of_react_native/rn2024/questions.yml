@@ -82,10 +82,10 @@
 
     - id: developer_background_contribution_to_lib
       template: single
-    #   description: Have you contributed to any React Native community library in 2023 (commits/PRs)?
       options:
         - id: answer_yes
         - id: answer_no
+
     - id: developer_background_releases_count
       description: How many React Native apps have you released on Google Play or App Store?
       template: single
@@ -210,6 +210,11 @@
           # - id: platform_apis_encryption
           # - id: platform_apis_ads
 
+    - id: platform_apis_pain_points
+      matchTags: [common_pain_points, react_features]
+      disallowedTokenIds: [state_management]
+      template: textList
+
 
 
 ######################################################
@@ -282,7 +287,8 @@
     - id: navigation_react_router
     - id: navigation_solito
     - id: navigation_navigation
-    - id: navigation_other
+
+    - id: navigation_others
       template: projects
       intlId: tools.other_tools
 
@@ -450,7 +456,6 @@
         - id: debugging_and_profiling_problems_javascript_no_issues
     - id: debugging_and_profiling_profiling_tools
       template: multipleWithOtherSentiment
-      description: What tools do you use to profile React Native app performance? Check all that apply
       options:
         - id: debugging_and_profiling_profiling_tools_flashlight
         - id: debugging_and_profiling_profiling_tools_flipper
@@ -732,7 +737,7 @@
   slug: resources
   questions:
     - id: resources_initially_learn_react_native
-      template: multipleWithOtherSentiment
+      template: multipleWithOther
       description: What methods do you use to learn and improve your React Native skills? Check all that apply
       options:
         - id: resources_initially_learn_react_native_official_docs
@@ -767,7 +772,6 @@
         - id: resources_read_multiple_this_week_in_react
     - id: resources_course_multiple
       template: multipleWithOtherSentiment
-      description: What sites, courses or books do you consult to learn React Native? Check all that apply
       options:
         - id: resources_course_multiple_animate_react_native
         - id: resources_course_multiple_codecademy
