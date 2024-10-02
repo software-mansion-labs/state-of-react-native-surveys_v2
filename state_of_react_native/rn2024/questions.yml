@@ -801,11 +801,15 @@
         - id: resources_podcast_multiple_the_changelog
         - id: resources_podcast_multiple_react_native_show_callstack
     - id: resources_video
-      template: others
-      description: Video creators you follow on video-centric platforms such as YouTube, Twitch, TikTok, etc. Write all that apply (freeform)
+      template: textList
+      intlId: resources.video_creators_rn
+      disallowedTokenIds: [twitter]
+      # description:  (freeform)
     - id: resources_people
-      template: others
-      description: People you read, follow, or just want to highlight for their work. Write all that apply (freeform)
+      template: textList
+      intlId: resources.people_rn
+      disallowedTokenIds: [twitter]
+      # description: People you read, follow, or just want to highlight for their work. Write all that apply (freeform)
     # - id: resources_communities
     #   description: Online communities you actively participate in, such as Slack workspaces, Discord servers, Reddit topics, etc.. Write all that apply (freeform)
 
