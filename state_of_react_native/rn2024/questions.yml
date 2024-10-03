@@ -347,6 +347,7 @@
     - id: component_libraries_shoutem_ui
     - id: component_libraries_ui_kitten
     - id: component_libraries_tamagui
+    - id: component_libraries_others
       template: projects
       intlId: tools.other_tools
 
@@ -814,7 +815,7 @@
     #   description: Online communities you actively participate in, such as Slack workspaces, Discord servers, Reddit topics, etc.. Write all that apply (freeform)
 
     - id: resources_surveys
-      template: multipleWithOtherSentiment
+      template: multipleWithOther
       description: What other developer surveys do you participate in? Check all that apply
       options:
         - id: resources_surveys_codingame
