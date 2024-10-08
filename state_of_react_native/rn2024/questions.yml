@@ -161,7 +161,7 @@
 
 - id: platform_apis
   template: featurev3
-  slug: features
+  slug: platform_apis
   questions:
     # - id: platform_apis_intro
     #   template: help
@@ -307,7 +307,6 @@
   questions:
     - id: styling_techniques_dripsy
     - id: styling_techniques_emotion
-    - id: styling_techniques_fast_styles
     - id: styling_techniques_gluestack_styles
     - id: styling_techniques_inline
     - id: styling_techniques_nativewind
@@ -318,7 +317,6 @@
     - id: styling_techniques_tailwind_rn
     - id: styling_techniques_twrnc
     - id: styling_techniques_tamagui
-    - id: styling_techniques_zephyr
     - id: styling_techniques_other
       template: projects
       intlId: tools.other_tools
@@ -391,80 +389,32 @@
   template: toolv3
   slug: debugging_and_profiling
   questions:
-    - id: debugging_and_profiling_debugging_tools
-      template: multipleWithOtherSentiment
-      options:
-        - id: debugging_and_profiling_debugging_tools_chrome_dev_tools_in_browser
-        - id: debugging_and_profiling_debugging_tools_chrome_dev_expo
-        - id: debugging_and_profiling_debugging_tools_chrome_dev_hermes
-        - id: debugging_and_profiling_debugging_tools_console_log
-        - id: debugging_and_profiling_debugging_tools_flipper
-        - id: debugging_and_profiling_debugging_tools_reactotron
-        - id: debugging_and_profiling_debugging_tools_react_dev_tools
-        - id: debugging_and_profiling_debugging_tools_react_native_debugger
-        - id: debugging_and_profiling_debugging_tools_native_debugging
+    - id: debugging_profiling_console
+    - id: debugging_profiling_remote_javascript_debugging
+    - id: debugging_profiling_hermes_debugger
+    - id: debugging_profiling_direct_jsc_debugging
+    - id: debugging_profiling_react_native_devtools
+    - id: debugging_profiling_experimental_new_debugger
+    - id: debugging_profiling_react_devtools
+    - id: debugging_profiling_element_inspector
+    - id: debugging_profiling_logbox
+    - id: debugging_profiling_performance_monitor
+    - id: debugging_profiling_flipper
+    - id: debugging_profiling_reactotron
+    - id: debugging_profiling_expo_dev_tools_plugins
+    - id: debugging_profiling_react_native_performance
+    - id: debugging_profiling_flashlight
+    - id: debugging_profiling_react_native_flipper_performance_monitor
+    - id: debugging_profiling_native_debugging
+    - id: debugging_profiling_native_profiling
 
-    # - id: debugging_and_profiling_primary_debugging_tool
-    #   template: single
-    #   description: "What is the debugging tool you use the most? Pick one"
-    #   options:
-    #     - id: debugging_and_profiling_primary_debugging_tool_chrome_devtools_in_browser
-    #     - id: debugging_and_profiling_primary_debugging_tool_chrome_devtools_expo_hermes
-    #     - id: debugging_and_profiling_primary_debugging_tool_console_log
-    #     - id: debugging_and_profiling_primary_debugging_tool_flipper
-    #     - id: debugging_and_profiling_primary_debugging_tool_new_debugger
-    #     - id: debugging_and_profiling_primary_debugging_tool_reactotron
-    #     - id: debugging_and_profiling_primary_debugging_tool_react_dev_tools
-    #     - id: debugging_and_profiling_primary_debugging_tool_react_native_debugger
-    #     - id: debugging_and_profiling_primary_debugging_tool_native_debugging_xcode_android_studio
-    - id: debugging_and_profiling_problems_debugging_tools
-      template: multipleWithOtherSentiment
-      options:
-        - id: debugging_and_profiling_problems_debugging_tools_connecting_fliper
-        - id: debugging_and_profiling_problems_debugging_tools_connecting_expo_debugger
-        - id: debugging_and_profiling_problems_debugging_tools_connecting_hermes_debugger
-        # - id: debugging_and_profiling_problems_debugging_tools_connecting_new_debugger
-        - id: debugging_and_profiling_problems_debugging_tools_connecting_react_devtools
-        - id: debugging_and_profiling_problems_debugging_tools_native_debugging
-        - id: debugging_and_profiling_problems_debugging_tools_picking_right_tool
-        - id: debugging_and_profiling_problems_debugging_tools_unclear_docs
-        - id: debugging_and_profiling_problems_debugging_tools_no_issue
-    - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools
-      template: multipleWithOtherSentiment
-      options:
-        - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_console_logs
-        - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_console_executing_statements
-        - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_sources_breakpoint
-        - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_sources_editing_files
-        - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_performance_panel
-        - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_memory_panel
-        - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_network_panel
-        - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_web_only_react_devtools
-        - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_web_only_dom
-        - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_web_only_styles
-        - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_web_only_network_panel
-        - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_web_only_lighthouse
-        - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_web_only_recorder
-        - id: debugging_and_profiling_problems_javascript_debugging_features_chrome_dev_tools_web_only_third_party_plugins
-    - id: debugging_and_profiling_problems_javascript
-      template: multipleWithOtherSentiment
-      options:
-        - id: debugging_and_profiling_problems_javascript_breakpoint_not_working
-        - id: debugging_and_profiling_problems_javascript_sources_maps_not_working
-        - id: debugging_and_profiling_problems_javascript_debugger_disconnecting
-        - id: debugging_and_profiling_problems_javascript_crashes_debugger
-        - id: debugging_and_profiling_problems_javascript_crashes_application
-        - id: debugging_and_profiling_problems_javascript_no_issues
-    - id: debugging_and_profiling_profiling_tools
-      template: multipleWithOtherSentiment
-      options:
-        - id: debugging_and_profiling_profiling_tools_flashlight
-        - id: debugging_and_profiling_profiling_tools_flipper
-        - id: debugging_and_profiling_profiling_tools_flipper_performance_plugin
-        - id: debugging_and_profiling_profiling_tools_react_native_performance
-        - id: debugging_and_profiling_profiling_tools_react_native_performance_monitor
-        - id: debugging_and_profiling_profiling_tools_performance_native
-
+    - id: debugging_profiling_others
+      template: projects
+      intlId: tools.other_tools
+  
+    - id: debugging_profiling_pain_points
+      matchTags: [common_pain_points, react_features]
+      template: textList
 
 ######################################################
 #########              ASPECTS               #########
@@ -486,6 +436,10 @@
         - id: react_native_app_aspects_analytics_mixpanel
         - id: react_native_app_aspects_analytics_segment
 
+    - id: react_native_app_aspects_analytics_pain_points
+      matchTags: [common_pain_points, react_features]
+      template: textList
+
     - id: react_native_app_aspects_crash_reporting
       template: multipleWithOtherSentiment
       description: Check all that apply
@@ -497,6 +451,10 @@
         - id: react_native_app_aspects_crash_reporting_instabug
         - id: react_native_app_aspects_crash_reporting_new_relic
         - id: react_native_app_aspects_crash_reporting_sentry
+    
+    - id: react_native_app_aspects_crash_reporting_pain_points
+      matchTags: [common_pain_points, react_features]
+      template: textList
 
     - id: react_native_app_aspects_data_visualisation
       template: multipleWithOtherSentiment
@@ -506,6 +464,10 @@
         - id: react_native_app_aspects_data_visualisation_react_native_svg
         - id: react_native_app_aspects_data_visualisation_recharts
         - id: react_native_app_aspects_data_visualisation_victory_native
+
+    - id: react_native_app_aspects_data_visualisation_pain_points
+      matchTags: [common_pain_points, react_features]
+      template: textList
 
     - id: react_native_app_aspects_storage
       template: multipleWithOtherSentiment
@@ -519,6 +481,10 @@
         - id: react_native_app_aspects_storage_realm
         - id: react_native_app_aspects_storage_watermelondb
 
+    - id: react_native_app_aspects_storage_pain_points
+      matchTags: [common_pain_points, react_features]
+      template: textList
+
     - id: react_native_app_aspects_testing
       template: multipleWithOtherSentiment
       description: Check all that apply
@@ -529,6 +495,10 @@
         - id: react_native_app_aspects_testing_maestro
         - id: react_native_app_aspects_testing_react_native_testing_library
         - id: react_native_app_aspects_testing_storybook
+
+    - id: react_native_app_aspects_testing_pain_points
+      matchTags: [common_pain_points, react_features]
+      template: textList
 
     - id: react_native_app_aspects_other_libraries
       template: multipleWithOtherSentiment
@@ -549,6 +519,10 @@
         - id: react_native_app_aspects_other_libraries_react_native_vector_icons
         - id: react_native_app_aspects_other_libraries_react_native_video
         - id: react_native_app_aspects_other_libraries_react_native_vision_camera
+
+    - id: react_native_app_aspects_other_libraries_pain_points
+      matchTags: [common_pain_points, react_features]
+      template: textList
 
     - id: react_native_app_aspects_architecture_local_first
       template: toolv3
@@ -657,6 +631,11 @@
     - id: deployment_other
       template: others
       description: "Other answers (freeform)"
+    
+    - id: deployment_pain_points
+      matchTags: [common_pain_points, react_features]
+      template: textList
+
 
 
 ######################################################
@@ -723,8 +702,8 @@
     - id: react_native_alternatives_jetpack_compose
     - id: react_native_alternatives_kotlin
     - id: react_native_alternatives_swiftui
-    - id: react_native_alternatives_native_script
     - id: react_native_alternatives_xamarin
+    - id: react_native_alternatives_native_script
     - id: react_native_alternatives_other
       template: others
       description: "Other answers (freeform)"
@@ -741,19 +720,20 @@
       template: multipleWithOther
       description: What methods do you use to learn and improve your React Native skills? Check all that apply
       options:
-        - id: resources_initially_learn_react_native_official_docs
-        - id: resources_initially_learn_react_native_expo_docs
         - id: resources_initially_learn_react_native_books
-        - id: resources_initially_learn_react_native_videos
+        - id: resources_initially_learn_react_native_coding_bootcamp
+        - id: resources_initially_learn_react_native_expo_docs
+        - id: resources_initially_learn_react_native_mentoring
+        - id: resources_initially_learn_react_native_official_docs
+        - id: resources_initially_learn_react_native_on_the_job_training
         - id: resources_initially_learn_react_native_online_courses_free
         - id: resources_initially_learn_react_native_online_courses_paid
-        - id: resources_initially_learn_react_native_school_higher_education
         - id: resources_initially_learn_react_native_podcasts
-        - id: resources_initially_learn_react_native_coding_bootcamp
         - id: resources_initially_learn_react_native_react_native_directory
-        - id: resources_initially_learn_react_native_on_the_job_training
-        - id: resources_initially_learn_react_native_mentoring
+        - id: resources_initially_learn_react_native_school_higher_education
         - id: resources_initially_learn_react_native_self_directed_learning
+        - id: resources_initially_learn_react_native_videos
+        - id: resources_initially_learn_react_native_x
 
     - id: resources_read_multiple
       template: multipleWithOtherSentiment
@@ -818,7 +798,6 @@
       template: multipleWithOther
       description: What other developer surveys do you participate in? Check all that apply
       options:
-        - id: resources_surveys_codingame
         - id: resources_surveys_design_tools
         - id: resources_surveys_jamstack
         - id: resources_surveys_jetbrains
@@ -828,6 +807,7 @@
         - id: resources_surveys_state_of_js
         - id: resources_surveys_state_of_graphql
         - id: resources_surveys_state_of_react
+        - id: resources_surveys_state_of_html
 
 ######################################################
 #########             OPINIONS               #########
