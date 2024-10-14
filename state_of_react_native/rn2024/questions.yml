@@ -909,7 +909,12 @@
       template: years_of_experience
 
     - id: years_of_experience_rn
-      template: years_of_experience
+      template: single
+      options:
+        - id: range_less_than_1
+        - id: range_1_2
+        - id: range_3_5
+        - id: range_more_than_5
 
     - id: company_size
       template: company_size
