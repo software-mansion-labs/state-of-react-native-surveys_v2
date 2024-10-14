@@ -902,29 +902,26 @@
     - id: age
       template: age_number
 
+    - id: country
+      template: country
+
     - id: years_of_experience
+      template: years_of_experience
+
+    - id: years_of_experience_rn
       template: years_of_experience
 
     - id: company_size
       template: company_size
 
-    - id: yearly_salary
-      template: yearly_salary
-
     - id: higher_education_degree
       template: higher_education_degree
 
-    - id: country
-      template: country
+    - id: yearly_salary
+      template: yearly_salary
 
     - id: gender
       template: gender
-
-    - id: race_ethnicity
-      template: race_ethnicity
-
-    - id: disability_status
-      template: disability_status
 
     - id: how_did_user_find_out_about_the_survey
       template: text
@@ -945,9 +942,6 @@
 
     - id: how_can_we_improve
       template: longtext
-
-    - id: receive_notifications
-      template: receive_notifications
 
     - id: referrer
       matchType: single
