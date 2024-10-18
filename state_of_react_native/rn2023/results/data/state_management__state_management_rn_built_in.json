@@ -1,0 +1,120 @@
+{
+  "dataAPI": {
+    "survey": {
+      "state_management_rn_built_in": {
+        "id": "state_management_rn_built_in",
+        "entity": {
+          "name": "React (hooks, this.state)",
+          "homepage": {
+            "url": "https://beta.reactjs.org/reference/react"
+          },
+          "github": {
+            "url": "https://github.com/facebook/react"
+          },
+          "npm": {
+            "url": "https://www.npmjs.com/package/react"
+          }
+        },
+        "experience": {
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 2490,
+                "count": 1591,
+                "percentage_survey": 63.9
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 1492,
+                      "percentage_survey": 60,
+                      "percentage_question": 93.8
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 45,
+                      "percentage_survey": 1.9,
+                      "percentage_question": 2.9
+                    },
+                    {
+                      "id": "interested",
+                      "count": 34,
+                      "percentage_survey": 1.4,
+                      "percentage_question": 2.2
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 19,
+                      "percentage_survey": 0.8,
+                      "percentage_question": 1.2
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 1,
+                      "percentage_survey": 0.1,
+                      "percentage_question": 0.1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "year": 2023,
+              "completion": {
+                "total": 3024,
+                "count": 2026,
+                "percentage_survey": 67
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 1908,
+                      "percentage_survey": 63.1,
+                      "percentage_question": 94.2
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 69,
+                      "percentage_survey": 2.3,
+                      "percentage_question": 3.5
+                    },
+                    {
+                      "id": "interested",
+                      "count": 18,
+                      "percentage_survey": 0.6,
+                      "percentage_question": 0.9
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 24,
+                      "percentage_survey": 0.8,
+                      "percentage_question": 1.2
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 7,
+                      "percentage_survey": 0.3,
+                      "percentage_question": 0.4
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

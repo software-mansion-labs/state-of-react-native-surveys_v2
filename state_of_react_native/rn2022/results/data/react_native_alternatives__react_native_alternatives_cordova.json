@@ -1,0 +1,120 @@
+{
+  "dataAPI": {
+    "survey": {
+      "react_native_alternatives_cordova": {
+        "id": "react_native_alternatives_cordova",
+        "entity": {
+          "name": "Cordova",
+          "homepage": {
+            "url": "https://cordova.apache.org/"
+          },
+          "github": {
+            "url": "https://github.com/apache/cordova"
+          },
+          "npm": {
+            "url": "https://www.npmjs.com/package/cordova"
+          }
+        },
+        "experience": {
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 2490,
+                "count": 1267,
+                "percentage_survey": 50.9
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 24,
+                      "percentage_survey": 1,
+                      "percentage_question": 1.9
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 357,
+                      "percentage_survey": 14.4,
+                      "percentage_question": 28.2
+                    },
+                    {
+                      "id": "interested",
+                      "count": 44,
+                      "percentage_survey": 1.8,
+                      "percentage_question": 3.5
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 748,
+                      "percentage_survey": 30.1,
+                      "percentage_question": 59.1
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 94,
+                      "percentage_survey": 3.8,
+                      "percentage_question": 7.5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "year": 2023,
+              "completion": {
+                "total": 3024,
+                "count": 1546,
+                "percentage_survey": 51.2
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 29,
+                      "percentage_survey": 1,
+                      "percentage_question": 1.9
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 421,
+                      "percentage_survey": 14,
+                      "percentage_question": 27.3
+                    },
+                    {
+                      "id": "interested",
+                      "count": 56,
+                      "percentage_survey": 1.9,
+                      "percentage_question": 3.7
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 869,
+                      "percentage_survey": 28.8,
+                      "percentage_question": 56.3
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 171,
+                      "percentage_survey": 5.7,
+                      "percentage_question": 11.1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

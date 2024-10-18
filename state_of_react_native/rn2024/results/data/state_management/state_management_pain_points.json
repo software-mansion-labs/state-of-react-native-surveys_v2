@@ -1,0 +1,57 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "state_management": {
+            "state_management_pain_points": {
+              "freeform": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 27,
+                    "percentageSurvey": 96.43,
+                    "total": 28
+                  },
+                  "buckets": [
+                    {
+                      "count": 15,
+                      "id": "redux_issues",
+                      "percentageQuestion": 55.56,
+                      "percentageSurvey": 53.57,
+                      "entity": {
+                        "name": "Redux issues",
+                        "nameClean": "Redux issues",
+                        "id": "redux_issues",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 1,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 3.57
+                    },
+                    {
+                      "count": 12,
+                      "id": "other_answers",
+                      "percentageQuestion": 44.44,
+                      "percentageSurvey": 42.86,
+                      "groupedBuckets": [
+                        {
+                          "count": 12,
+                          "id": "no_match",
+                          "percentageQuestion": 44.44,
+                          "percentageSurvey": 42.86
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

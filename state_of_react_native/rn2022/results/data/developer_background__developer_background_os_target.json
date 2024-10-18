@@ -1,0 +1,135 @@
+{
+  "dataAPI": {
+    "survey": {
+      "developer_background_os_target": {
+        "entity": {
+          "name": "What mobile OS versions do you target?"
+        },
+        "keys": [
+          "developer_background_os_target.answer.a",
+          "developer_background_os_target.answer.b",
+          "developer_background_os_target.answer.c",
+          "developer_background_os_target.answer.d"
+        ],
+        "all_years": [
+          {
+            "year": 2023,
+            "completion": {
+              "total": 2391,
+              "count": 2299,
+              "percentage_survey": 96.2
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 2391,
+                  "percentage_survey": 96.2,
+                  "percentage_question": 100,
+                  "count": 2299
+                },
+                "buckets": [
+                  {
+                    "id": "developer_background_os_target.answer.a",
+                    "count": 498,
+                    "percentage_question": 21.7,
+                    "percentage_survey": 20.9,
+                    "entity": {
+                      "name": "Most recent ones (iOS 17+, Android 14+)"
+                    }
+                  },
+                  {
+                    "id": "developer_background_os_target.answer.b",
+                    "count": 1315,
+                    "percentage_question": 57.2,
+                    "percentage_survey": 55,
+                    "entity": {
+                      "name": "Reasonably current (iOS 15+, Android 12+)"
+                    }
+                  },
+                  {
+                    "id": "developer_background_os_target.answer.c",
+                    "count": 377,
+                    "percentage_question": 16.4,
+                    "percentage_survey": 15.8,
+                    "entity": {
+                      "name": "Old (iOS 12+, Android 9+)"
+                    }
+                  },
+                  {
+                    "id": "developer_background_os_target.answer.d",
+                    "count": 109,
+                    "percentage_question": 4.8,
+                    "percentage_survey": 4.6,
+                    "entity": {
+                      "name": "As old as possible (iOS 8+, Android 5+)"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "year": 2022,
+            "completion": {
+              "total": 1888,
+              "count": 1818,
+              "percentage_survey": 96.3
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 1888,
+                  "percentage_survey": 96.3,
+                  "percentage_question": 100,
+                  "count": 1818
+                },
+                "buckets": [
+                  {
+                    "id": "developer_background_os_target.answer.a",
+                    "count": 432,
+                    "percentage_question": 23.8,
+                    "percentage_survey": 22.9,
+                    "entity": {
+                      "name": "Most recent ones (iOS 17+, Android 14+)"
+                    }
+                  },
+                  {
+                    "id": "developer_background_os_target.answer.b",
+                    "count": 1207,
+                    "percentage_question": 66.4,
+                    "percentage_survey": 64,
+                    "entity": {
+                      "name": "Reasonably current (iOS 15+, Android 12+)"
+                    }
+                  },
+                  {
+                    "id": "developer_background_os_target.answer.c",
+                    "count": 120,
+                    "percentage_question": 6.7,
+                    "percentage_survey": 6.4,
+                    "entity": {
+                      "name": "Old (iOS 12+, Android 9+)"
+                    }
+                  },
+                  {
+                    "id": "developer_background_os_target.answer.d",
+                    "count": 59,
+                    "percentage_question": 3.3,
+                    "percentage_survey": 3.2,
+                    "entity": {
+                      "name": "As old as possible (iOS 8+, Android 5+)"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

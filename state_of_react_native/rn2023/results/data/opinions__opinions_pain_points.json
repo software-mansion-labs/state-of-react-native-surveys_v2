@@ -1,0 +1,2155 @@
+{
+  "dataAPI": {
+    "survey": {
+      "opinions_pain_points": {
+        "entity": {
+          "name": "Other React Native pain points"
+        },
+        "keys": [
+          "metro",
+          "upgrades",
+          "primitive_state_of_tools",
+          "i_am_not_comparing_react_native_to_flutter_but_it_is_too_much_good_for_developer_if_react_have_it_s_own_theme_management",
+          "rich_prebuild_components",
+          "we_need_to_depend_on_all_library",
+          "we_can_easily_manage_theme_of_date_picker",
+          "time_picker_in_flutter_and_more_so_it_is_really_very_helpful_if_react_native_have_own_much_stronger_ui_libry",
+          "it_will_make_development_much_much_faster",
+          "3rd_party_libraries_are_usually_unusable_as_installing_them_breaks_build_process",
+          "state_management_can_be_so_complex",
+          "docs",
+          "docs_and_docs_writing_native_code_is_really_painful_without_knowing_much_about_internals",
+          "upgrade_could_be_also_slightly_better",
+          "telemetry",
+          "no_support_for_some_standards_like_open_telemetry",
+          "polyfills_for_crypto_projects",
+          "open_source_packages_often_unmaintained",
+          "buggy",
+          "incompatible_with_modern_sdk",
+          "inconsistent_across_platforms_but_might_be_only_solution_to_use_a_native_feature",
+          "how_to_create_native_comonent_which_will_work_in_paper_but_also_will_be_ready_for_new_architecture_hope_example_exists",
+          "running_automated_testing",
+          "android_emulator",
+          "upgrades_could_be_better",
+          "navigation",
+          "in_app_purchases",
+          "way_issues_are_handled_in_public_github_repos_is_very_bad_facebook",
+          "react_native",
+          "facebook",
+          "etc",
+          "most_of_issues_are_of_somebody_reporting_something",
+          "getting_no_interaction_from_official_maintainers",
+          "and_other_users_suggesting_workarounds",
+          "but_nobody_ever_understanding_why_errors_happen",
+          "just_getting_eventually_to_a_magic_workaround",
+          "reason_i_marked_cd_is_because_i_use_ota",
+          "frequent_native_updates_lead_to_complex_bookkeeping_of_what_you_can_ota_hotfix_to_which_native_version",
+          "frequent_native_updates_leads_to_users_having_old_app_versions",
+          "testing_is_worst_of_all",
+          "changing_panresponder_code_doesn_t_update_with_fast_refresh",
+          "inconsistencies_in_app_with_fast_refresh_and_full_refresh_in_general",
+          "to_get_expo_go_to_connect_to_my_laptop_i_have_to_reset_my_ip_every_single_time",
+          "fact_that_you_can_t_initiate_a_scroll_on_a_nested_scrollview_by_pressing_on_part_of_scrollview_that_is_overflowing_its_parent",
+          "i_find_that_react_native_animations",
+          "specifically_with_animated_api_are_very_buggy_when_also_changing_states",
+          "very_painful_to_get_states_or_animations_working_as_side_effects_so_they_don_t_interrupt_eachother",
+          "i_also_think_react_native_should_provide_more_components_from_getgo",
+          "it_shouldn_t_rely_on_community_so_much",
+          "flatlist_component_has_so_many_problems_that_are_too_many_to_mention",
+          "libs_that_have_gone_stale_and_are_not_maintained_and_dont_keep_up_with_rn_releases",
+          "lib_maintainers_that_dont_engage_in_discussions_when_i_offer_help_to_implement_feature_that_would_benefit_me_and_others",
+          "difficult_integration_with_native_code",
+          "main_pain_point_in_react_native_is_styling",
+          "core_team_should_focus_own_styling_like_other_frameworks_like_swift_and_flutter",
+          "and_also_some_of_packages_should_maintain_in_react_native",
+          "accessibility",
+          "initial_startup_environment_setup_for_react_native_cli",
+          "its_improved_quite_a_lot_but_still",
+          "bridging_native_code_can_be_really_cumbersome_and_managing_data_between_js_c_native_is_poorly_documented_and_requires_a_fair_amount_of_abstraction",
+          "writing",
+          "also_wish_that_compiling_source_code_of_react_native_was_documented",
+          "so_i_can_better_understand_source_and_perhaps_contribute_to_it",
+          "cocoapods",
+          "it_is_getting_deprecated_in_ios_world",
+          "it_would_be_great_to_offer_solution_to_migrate",
+          "responsiveness_handling",
+          "please_remove_android_from_universe",
+          "no_proper_packages_for_geo_fencing",
+          "people_trying_to_replace_native_with_less_performant_solutions_specially_android",
+          "if_it_is_done_in_native",
+          "let_s_use_it",
+          "performance_is_more_important_than_developer_experience_and_anything_else",
+          "a_lack_of_concern_for_developer_experience_on_part_of_everyone_from_react_native_and_expo_core",
+          "lack_of_meaningful_support_for_folks_making_significant_contributions_in_space",
+          "missing_native_ui_components_that_are_not_only_available_by_third_party_developers",
+          "date",
+          "time_pickers",
+          "mulitple_companies_participating_in_react_native_core_team",
+          "build_times_especially_having_recompile_dependencies_for_minor_changes",
+          "dealing_with_native_code_makes_ota_updates_sensitive",
+          "expo",
+          "fingerprint_could_help",
+          "new_architecture_migration",
+          "lack_of_standards",
+          "unmaintained_packages_create_issue_with_new_upgraded_react_native_versions",
+          "lengthy_proces_to_start_a_new_project",
+          "no_cli_for_a_ts_app_nativewind_eas_rn_navigation",
+          "it_will_be_good_if_we_have_react_server_components_rscs_to_eliminate_ota_updates",
+          "lack_of_stability_of_third_party_packages",
+          "but_it_definitely_has_improved_over_recent_years",
+          "differences_with_web",
+          "it_seems_to_me_that_on_rn",
+          "i_am_back_to_web_of_10_13_years_ago_with_a_variety_of_hacks_to_make_ie_work_etc",
+          "please",
+          "work_on_improving_styling_in_react_native",
+          "it_s_moving_way_too_slow_compared_to_css",
+          "fetch_api_is_not_fully_implemented",
+          "streams_are_missing",
+          "native_build_errors",
+          "flakiness",
+          "keyboard_handling_is_always_a_pain_point",
+          "react_native_package_covers_too_many_concerns_and_has_too_many_modules_and_view_apis",
+          "pita_to_setup_in_virtual_environment_to_overcome_fubar_ing_your_system",
+          "lots_of_beta_and_alpha_lib_dependencies",
+          "once_in_dependency_rabithole_hard_to_get_out",
+          "especially_when_you_are_new",
+          "no_warnings_when_fubaring_your_system_with_install_or_upgrading_libs",
+          "very_inmature_and_unstable_ecosystem_fully_focused_on_latest_and_greatest",
+          "frontend_development",
+          "nightmare_for_sysadmins",
+          "i_wait_to_see_test_upcoming_debugger_extension_for_visual_studio_code_editor",
+          "react_native_community_doesn_t_focus_enough_on_making_apps_feel_native_use_native_features_which_is_especially_apparent_with_dark_mode_handling_os_can_do_it_automatically",
+          "why_do_we_try_to_do_it_inside_js_when_we_ll_do_an_objectively_worse_job_than_native_layer_would_also_navigation_is_still_not_great_better",
+          "not_great_still",
+          "hermes_are_new_ie6",
+          "endless_pain_with_bugs",
+          "missing_features",
+          "poor_documentation",
+          "and_unwillingness_of_facebook_maintainers_to_work_with_community_to_solve_these_things",
+          "there_seems_to_be_a_major_case_of_not_invented_here_at_facebook",
+          "react_native_would_likely_be_much_better_off_contributing_to_an_established_engine_such_as_jsc_and_contributing_to_a_modern_bundler_such_as_bun",
+          "in_general_tooling_is_abysmal",
+          "none_of_debug_tools_work_correctly_or_consistently_in_a_moderately_complex_app",
+          "debug_mode_is_unstable_and_incredibly_slow_on_android",
+          "performance_on_android_in_general_is_a_big_pain",
+          "it_s_easily_2_4x_slower_than_ios_on_same_app",
+          "it_s_also_less_stable",
+          "adding_google_and_apple_oauth_has_been_a_pain",
+          "i_wish_there_could_be_an_expo_package_that_adds_such_functionality",
+          "unreadable_crash_report",
+          "bundling_is_overly_complex",
+          "prone_to_errors",
+          "please_do_something_about_flat_list_performance_specially_unstructured_ones",
+          "and_when_rerender_one_item_of_it",
+          "totally_disaster",
+          "i_d_like_rn_to_be_more_like_rails",
+          "a_single_way_it_s_supposed_to_work_and_you_can_break_out_of_it_easily",
+          "sane_defaults_over_configuration",
+          "mobile_app_pipelines_are_difficult_and_timely_to_setup",
+          "security_as_a_whole_has_no_attention_in_community",
+          "issues_being_closed_for_no_reason_just_because_a_workaround_exist_issue_still_happens",
+          "random_js_features_are_not_working_in_rn_btoa",
+          "buffer",
+          "multipart",
+          "form_data_fetch",
+          "intl_etc",
+          "expectations_from_non_developers_is_overwhelming",
+          "we_need_a_way_to_lower_their_standards_to_give_developers_some_breathing_room",
+          "not_having_access_to_native_features",
+          "and_having_to_rely_on_someone_s_3_year_old_unmaintained_implementation_from_github",
+          "upgrades_upgrades",
+          "hermes",
+          "state_management",
+          "we_have_poor_support_for_background_location",
+          "expo_isn_t_going_to_replace_react_native_cli_because_of_it_pitfalls",
+          "weak_style_libraries",
+          "we_need_better_debuggin",
+          "better_tools_for_performance_measure",
+          "different_navigation_solutions",
+          "and_native_code_using_kotlin_and_swift",
+          "anybody_uses_objective_c_anymore",
+          "native_modal_component_is_extremely_broken_on_ios_and_causes_frequent_issues_with_transparent_overlay_not_disappearing_when_it_should",
+          "some_race_condition_i_m_not_able_to_figure_out",
+          "generally",
+          "anything_requiring_overlapping_components_modals",
+          "dropdowns",
+          "etc_is_awful_to_build",
+          "zindex_is_terrible",
+          "when_something_is_wrong",
+          "lack_of_context_on_how_things_were_intended_to_work_means_they_re_hard_to_fix_e_g",
+          "when_accessibilityrole_doesn_t_match_role_values_and_nobody_understands_why",
+          "lack_of_pre_load_options_for_components",
+          "screens",
+          "hard_to_make_very_performant_feeling_apps",
+          "this_is_a_react_problem_things_that_require_refs_reusable_form_components",
+          "or_tasks_that_require_imperative_commands_on_refs",
+          "like_setaccessibilityfocus",
+          "would_love_a_system_that_lets_us_describe_refs_and_underlying_system_can_manage_whether_they_re_present_or_not",
+          "also_a_react_problem_making_reusable_form_components_is_terrible",
+          "because_of_how_many_refs_and_pieces_of_state_need_to_be_passed_around",
+          "it_really_feels_like_a_capability_is_missing_from_system",
+          "it_s_very_hard_to_contribute_to_rn",
+          "very_little_context_on_why_things_are_way_they_are",
+          "for_a_system_that_prides_itself_on_being_able_to_access_native_performance_through_native_modules",
+          "components",
+          "there_is_very_little_information_on_how_to_do_that_well_for_someone_who_wants_to_learn",
+          "maintainability",
+          "there_is_too_much_churn_and_ecosystem_is_changing_too_fast_to_keep_up",
+          "my_app_is_has_so_many_patches_to_keep_it_alive",
+          "each_time_i_npm_install_everything_breaks_and_i_spend_hours_getting_it_back_and_running",
+          "upgrading_is_too_challenging",
+          "requires_too_much_work",
+          "falling_behind_is_too_easy_to_do",
+          "expo_doesn_t_version_its_docs",
+          "seriously_what_fuck_i_ll_come_back_in_search_of_old_docs_and_they_ve_changed_with_no_way_of_seeing_previous_solution",
+          "have_to_use_waybackmachine_to_see_how_i_originally_set_something_up",
+          "ar",
+          "vr",
+          "android_performance",
+          "build",
+          "there_is_no_easy_solution_for_managing_keyboard",
+          "all_are_very_buggy",
+          "react_native_is_hell_slow_in_debug_mode",
+          "performance_difference_is_insane",
+          "i_have_to_buy_a_new_16gb_lap_or_a_good_android_phone_to_work_for_large_projects",
+          "learning_curve_kinda_steep",
+          "hard_to_onboard_new_devs",
+          "upgrading_version_is_a_real_pain",
+          "hermes_with_android_and_dates_using_momentjs",
+          "performance_is_terrible",
+          "memory_footprint",
+          "debugging_and_test_automation_on_real_devices_e_g",
+          "to_test_camera_heavy_apps",
+          "rn_sicks_since_2019",
+          "react_native_web_and_android_being_a_completely_different_app_with_same_stylesheet",
+          "looks_completely_another_way",
+          "everything_off",
+          "keyboardavoidingview",
+          "when_using_pnpm_workspaces_we_wase_to_adequate_node_linker_to_it",
+          "wich_may_cause_other_problems_with_monorepo",
+          "it_would_be_nice_if_expo_and_pnpm_workspaces_shared_same_conclusion",
+          "i_would_really_live_to_bild_native_components_with_react_native",
+          "but_there_are_not_enought_deep_rescoures_and_examples",
+          "once_i_trier_to_bild_admob_with_react_native",
+          "but_banner_was_freezed",
+          "navigation_deeplinks_documentation",
+          "setup_multiple_enviroment",
+          "current_textinput_is_too_simple_and_is_not_possible_to_create_a_text_editor_without_falling_back_to_webview",
+          "modals",
+          "built_in_text_component_extremely_unperformant_rcttext_is_much_better",
+          "wished_there_was_some_clear_documentation_about_it",
+          "handling_responsiveness_lack_of_responsive_navigation_solutions",
+          "localization",
+          "rtl_direction",
+          "no_great_camera_library",
+          "upgrading_to_newer_version_is_always_an_pain",
+          "stuff_that_comes_from_web",
+          "unmaintained_packages_and_struggle_with_taking_one_over_or_just_contributing_instead_of_forking_it_is_biggest_pain_point_with_open_source_projects_in_general",
+          "setting_up_development_environment",
+          "visual_regression_test",
+          "deployment",
+          "without_a_tool_like_fastlane",
+          "it_would_be_a_nightmare_to_deploy_a_complex_app",
+          "rn_should_provide_a_deployment_tool_for_ios_and_android",
+          "accessibility_on_mobile",
+          "web",
+          "lacks_web_apis",
+          "error_messages_and_crashes_that_are_very_vague_and_not_actionable",
+          "",
+          "build_times_x2_this_is_most_painful_point_all_other_platforms_are_using_low_level_compilers_ex_vite",
+          "turbo_pack",
+          "flutter_and_rn_right_now_feels_clumsy",
+          "keyboard_avoiding_views",
+          "too_confusing_between_expo_vs",
+          "react_native_for_a_new_developer",
+          "too_many_choices_up_front",
+          "moving_away_from_ood",
+          "oop_back_to_fp",
+          "spaghetti_code"
+        ],
+        "all_years": [
+          {
+            "year": 2023,
+            "completion": {
+              "total": 2391,
+              "count": 262,
+              "percentage_survey": 10.96
+            },
+            "facets": [
+              {
+                "completion": {
+                  "total": 5514,
+                  "count": 262,
+                  "percentage_survey": 4.8
+                },
+                "buckets": [
+                  {
+                    "id": "metro",
+                    "count": 2,
+                    "percentage_question": 0.8,
+                    "percentage_survey": 0.08,
+                    "entity": {}
+                  },
+                  {
+                    "id": "upgrades",
+                    "count": 2,
+                    "percentage_question": 0.8,
+                    "percentage_survey": 0.08,
+                    "entity": {
+                      "name": "Upgrades"
+                    }
+                  },
+                  {
+                    "id": "primitive_state_of_tools",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "i_am_not_comparing_react_native_to_flutter_but_it_is_too_much_good_for_developer_if_react_have_it_s_own_theme_management",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "rich_prebuild_components",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "we_need_to_depend_on_all_library",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "we_can_easily_manage_theme_of_date_picker",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "time_picker_in_flutter_and_more_so_it_is_really_very_helpful_if_react_native_have_own_much_stronger_ui_libry",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "it_will_make_development_much_much_faster",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "3rd_party_libraries_are_usually_unusable_as_installing_them_breaks_build_process",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "state_management_can_be_so_complex",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "docs",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "docs_and_docs_writing_native_code_is_really_painful_without_knowing_much_about_internals",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "upgrade_could_be_also_slightly_better",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "telemetry",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "no_support_for_some_standards_like_open_telemetry",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "polyfills_for_crypto_projects",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "open_source_packages_often_unmaintained",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "buggy",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "incompatible_with_modern_sdk",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "inconsistent_across_platforms_but_might_be_only_solution_to_use_a_native_feature",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "how_to_create_native_comonent_which_will_work_in_paper_but_also_will_be_ready_for_new_architecture_hope_example_exists",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "running_automated_testing",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "android_emulator",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "upgrades_could_be_better",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "navigation",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {
+                      "name": "Navigation solutions"
+                    }
+                  },
+                  {
+                    "id": "in_app_purchases",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "way_issues_are_handled_in_public_github_repos_is_very_bad_facebook",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "react_native",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {
+                      "name": "React Native",
+                      "homepage": {
+                        "url": "https://facebook.github.io/react-native/"
+                      }
+                    }
+                  },
+                  {
+                    "id": "facebook",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {
+                      "name": "Facebook",
+                      "homepage": {
+                        "url": "https://facebook.com"
+                      }
+                    }
+                  },
+                  {
+                    "id": "etc",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "most_of_issues_are_of_somebody_reporting_something",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "getting_no_interaction_from_official_maintainers",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "and_other_users_suggesting_workarounds",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "but_nobody_ever_understanding_why_errors_happen",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "just_getting_eventually_to_a_magic_workaround",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "reason_i_marked_cd_is_because_i_use_ota",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "frequent_native_updates_lead_to_complex_bookkeeping_of_what_you_can_ota_hotfix_to_which_native_version",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "frequent_native_updates_leads_to_users_having_old_app_versions",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "testing_is_worst_of_all",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "changing_panresponder_code_doesn_t_update_with_fast_refresh",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "inconsistencies_in_app_with_fast_refresh_and_full_refresh_in_general",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "to_get_expo_go_to_connect_to_my_laptop_i_have_to_reset_my_ip_every_single_time",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "fact_that_you_can_t_initiate_a_scroll_on_a_nested_scrollview_by_pressing_on_part_of_scrollview_that_is_overflowing_its_parent",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "i_find_that_react_native_animations",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "specifically_with_animated_api_are_very_buggy_when_also_changing_states",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "very_painful_to_get_states_or_animations_working_as_side_effects_so_they_don_t_interrupt_eachother",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "i_also_think_react_native_should_provide_more_components_from_getgo",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "it_shouldn_t_rely_on_community_so_much",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "flatlist_component_has_so_many_problems_that_are_too_many_to_mention",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "libs_that_have_gone_stale_and_are_not_maintained_and_dont_keep_up_with_rn_releases",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "lib_maintainers_that_dont_engage_in_discussions_when_i_offer_help_to_implement_feature_that_would_benefit_me_and_others",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "difficult_integration_with_native_code",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "main_pain_point_in_react_native_is_styling",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "core_team_should_focus_own_styling_like_other_frameworks_like_swift_and_flutter",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "and_also_some_of_packages_should_maintain_in_react_native",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "accessibility",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "initial_startup_environment_setup_for_react_native_cli",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "its_improved_quite_a_lot_but_still",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "bridging_native_code_can_be_really_cumbersome_and_managing_data_between_js_c_native_is_poorly_documented_and_requires_a_fair_amount_of_abstraction",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "writing",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "also_wish_that_compiling_source_code_of_react_native_was_documented",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "so_i_can_better_understand_source_and_perhaps_contribute_to_it",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "cocoapods",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "it_is_getting_deprecated_in_ios_world",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "it_would_be_great_to_offer_solution_to_migrate",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "responsiveness_handling",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "please_remove_android_from_universe",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "no_proper_packages_for_geo_fencing",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "people_trying_to_replace_native_with_less_performant_solutions_specially_android",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "if_it_is_done_in_native",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "let_s_use_it",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "performance_is_more_important_than_developer_experience_and_anything_else",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "a_lack_of_concern_for_developer_experience_on_part_of_everyone_from_react_native_and_expo_core",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "lack_of_meaningful_support_for_folks_making_significant_contributions_in_space",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "missing_native_ui_components_that_are_not_only_available_by_third_party_developers",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "date",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "time_pickers",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "mulitple_companies_participating_in_react_native_core_team",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "build_times_especially_having_recompile_dependencies_for_minor_changes",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "dealing_with_native_code_makes_ota_updates_sensitive",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "expo",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {
+                      "name": "Expo",
+                      "homepage": {
+                        "url": "https://docs.expo.io"
+                      },
+                      "description": "An open-source platform for making universal native apps with React. Expo runs on Android, iOS, and the web.",
+                      "github": {
+                        "url": "expo/expo"
+                      },
+                      "npm": {
+                        "url": "https://www.npmjs.com/package/expo"
+                      }
+                    }
+                  },
+                  {
+                    "id": "fingerprint_could_help",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "new_architecture_migration",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "lack_of_standards",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "unmaintained_packages_create_issue_with_new_upgraded_react_native_versions",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "lengthy_proces_to_start_a_new_project",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "no_cli_for_a_ts_app_nativewind_eas_rn_navigation",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "it_will_be_good_if_we_have_react_server_components_rscs_to_eliminate_ota_updates",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "lack_of_stability_of_third_party_packages",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "but_it_definitely_has_improved_over_recent_years",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "differences_with_web",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "it_seems_to_me_that_on_rn",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "i_am_back_to_web_of_10_13_years_ago_with_a_variety_of_hacks_to_make_ie_work_etc",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "please",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "work_on_improving_styling_in_react_native",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "it_s_moving_way_too_slow_compared_to_css",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "fetch_api_is_not_fully_implemented",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "streams_are_missing",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "native_build_errors",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "flakiness",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "keyboard_handling_is_always_a_pain_point",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "react_native_package_covers_too_many_concerns_and_has_too_many_modules_and_view_apis",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "pita_to_setup_in_virtual_environment_to_overcome_fubar_ing_your_system",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "lots_of_beta_and_alpha_lib_dependencies",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "once_in_dependency_rabithole_hard_to_get_out",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "especially_when_you_are_new",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "no_warnings_when_fubaring_your_system_with_install_or_upgrading_libs",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "very_inmature_and_unstable_ecosystem_fully_focused_on_latest_and_greatest",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "frontend_development",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "nightmare_for_sysadmins",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "i_wait_to_see_test_upcoming_debugger_extension_for_visual_studio_code_editor",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "react_native_community_doesn_t_focus_enough_on_making_apps_feel_native_use_native_features_which_is_especially_apparent_with_dark_mode_handling_os_can_do_it_automatically",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "why_do_we_try_to_do_it_inside_js_when_we_ll_do_an_objectively_worse_job_than_native_layer_would_also_navigation_is_still_not_great_better",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "not_great_still",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "hermes_are_new_ie6",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "endless_pain_with_bugs",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "missing_features",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "poor_documentation",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "and_unwillingness_of_facebook_maintainers_to_work_with_community_to_solve_these_things",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "there_seems_to_be_a_major_case_of_not_invented_here_at_facebook",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "react_native_would_likely_be_much_better_off_contributing_to_an_established_engine_such_as_jsc_and_contributing_to_a_modern_bundler_such_as_bun",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "in_general_tooling_is_abysmal",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "none_of_debug_tools_work_correctly_or_consistently_in_a_moderately_complex_app",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "debug_mode_is_unstable_and_incredibly_slow_on_android",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "performance_on_android_in_general_is_a_big_pain",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "it_s_easily_2_4x_slower_than_ios_on_same_app",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "it_s_also_less_stable",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "adding_google_and_apple_oauth_has_been_a_pain",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "i_wish_there_could_be_an_expo_package_that_adds_such_functionality",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "unreadable_crash_report",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "bundling_is_overly_complex",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "prone_to_errors",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "please_do_something_about_flat_list_performance_specially_unstructured_ones",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "and_when_rerender_one_item_of_it",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "totally_disaster",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "i_d_like_rn_to_be_more_like_rails",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "a_single_way_it_s_supposed_to_work_and_you_can_break_out_of_it_easily",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "sane_defaults_over_configuration",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "mobile_app_pipelines_are_difficult_and_timely_to_setup",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "security_as_a_whole_has_no_attention_in_community",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "issues_being_closed_for_no_reason_just_because_a_workaround_exist_issue_still_happens",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "random_js_features_are_not_working_in_rn_btoa",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "buffer",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "multipart",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "form_data_fetch",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "intl_etc",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "expectations_from_non_developers_is_overwhelming",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "we_need_a_way_to_lower_their_standards_to_give_developers_some_breathing_room",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "not_having_access_to_native_features",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "and_having_to_rely_on_someone_s_3_year_old_unmaintained_implementation_from_github",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "upgrades_upgrades",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "hermes",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {
+                      "name": "Hermes",
+                      "homepage": {
+                        "url": "https://hermesengine.dev"
+                      },
+                      "description": " A small and lightweight JavaScript engine optimized for running React Native on Android",
+                      "github": {
+                        "url": "facebook/hermes"
+                      }
+                    }
+                  },
+                  {
+                    "id": "state_management",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {
+                      "name": "State management"
+                    }
+                  },
+                  {
+                    "id": "we_have_poor_support_for_background_location",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "expo_isn_t_going_to_replace_react_native_cli_because_of_it_pitfalls",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "weak_style_libraries",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "we_need_better_debuggin",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "better_tools_for_performance_measure",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "different_navigation_solutions",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "and_native_code_using_kotlin_and_swift",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "anybody_uses_objective_c_anymore",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "native_modal_component_is_extremely_broken_on_ios_and_causes_frequent_issues_with_transparent_overlay_not_disappearing_when_it_should",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "some_race_condition_i_m_not_able_to_figure_out",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "generally",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "anything_requiring_overlapping_components_modals",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "dropdowns",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "etc_is_awful_to_build",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "zindex_is_terrible",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "when_something_is_wrong",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "lack_of_context_on_how_things_were_intended_to_work_means_they_re_hard_to_fix_e_g",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "when_accessibilityrole_doesn_t_match_role_values_and_nobody_understands_why",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "lack_of_pre_load_options_for_components",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "screens",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "hard_to_make_very_performant_feeling_apps",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "this_is_a_react_problem_things_that_require_refs_reusable_form_components",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "or_tasks_that_require_imperative_commands_on_refs",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "like_setaccessibilityfocus",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "would_love_a_system_that_lets_us_describe_refs_and_underlying_system_can_manage_whether_they_re_present_or_not",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "also_a_react_problem_making_reusable_form_components_is_terrible",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "because_of_how_many_refs_and_pieces_of_state_need_to_be_passed_around",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "it_really_feels_like_a_capability_is_missing_from_system",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "it_s_very_hard_to_contribute_to_rn",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "very_little_context_on_why_things_are_way_they_are",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "for_a_system_that_prides_itself_on_being_able_to_access_native_performance_through_native_modules",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "components",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "there_is_very_little_information_on_how_to_do_that_well_for_someone_who_wants_to_learn",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "maintainability",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "there_is_too_much_churn_and_ecosystem_is_changing_too_fast_to_keep_up",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "my_app_is_has_so_many_patches_to_keep_it_alive",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "each_time_i_npm_install_everything_breaks_and_i_spend_hours_getting_it_back_and_running",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "upgrading_is_too_challenging",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "requires_too_much_work",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "falling_behind_is_too_easy_to_do",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "expo_doesn_t_version_its_docs",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "seriously_what_fuck_i_ll_come_back_in_search_of_old_docs_and_they_ve_changed_with_no_way_of_seeing_previous_solution",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "have_to_use_waybackmachine_to_see_how_i_originally_set_something_up",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "ar",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "vr",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "android_performance",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "build",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "there_is_no_easy_solution_for_managing_keyboard",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "all_are_very_buggy",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "react_native_is_hell_slow_in_debug_mode",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "performance_difference_is_insane",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "i_have_to_buy_a_new_16gb_lap_or_a_good_android_phone_to_work_for_large_projects",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "learning_curve_kinda_steep",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "hard_to_onboard_new_devs",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "upgrading_version_is_a_real_pain",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "hermes_with_android_and_dates_using_momentjs",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "performance_is_terrible",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "memory_footprint",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "debugging_and_test_automation_on_real_devices_e_g",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "to_test_camera_heavy_apps",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "rn_sicks_since_2019",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "react_native_web_and_android_being_a_completely_different_app_with_same_stylesheet",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "looks_completely_another_way",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "everything_off",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "keyboardavoidingview",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "when_using_pnpm_workspaces_we_wase_to_adequate_node_linker_to_it",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "wich_may_cause_other_problems_with_monorepo",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "it_would_be_nice_if_expo_and_pnpm_workspaces_shared_same_conclusion",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "i_would_really_live_to_bild_native_components_with_react_native",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "but_there_are_not_enought_deep_rescoures_and_examples",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "once_i_trier_to_bild_admob_with_react_native",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "but_banner_was_freezed",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "navigation_deeplinks_documentation",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "setup_multiple_enviroment",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "current_textinput_is_too_simple_and_is_not_possible_to_create_a_text_editor_without_falling_back_to_webview",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "modals",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "built_in_text_component_extremely_unperformant_rcttext_is_much_better",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "wished_there_was_some_clear_documentation_about_it",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "handling_responsiveness_lack_of_responsive_navigation_solutions",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "localization",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "rtl_direction",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "no_great_camera_library",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "upgrading_to_newer_version_is_always_an_pain",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "stuff_that_comes_from_web",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "unmaintained_packages_and_struggle_with_taking_one_over_or_just_contributing_instead_of_forking_it_is_biggest_pain_point_with_open_source_projects_in_general",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "setting_up_development_environment",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "visual_regression_test",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "deployment",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {
+                      "name": "Deployment"
+                    }
+                  },
+                  {
+                    "id": "without_a_tool_like_fastlane",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "it_would_be_a_nightmare_to_deploy_a_complex_app",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "rn_should_provide_a_deployment_tool_for_ios_and_android",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "accessibility_on_mobile",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "web",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {
+                      "name": "Web"
+                    }
+                  },
+                  {
+                    "id": "lacks_web_apis",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "error_messages_and_crashes_that_are_very_vague_and_not_actionable",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "build_times_x2_this_is_most_painful_point_all_other_platforms_are_using_low_level_compilers_ex_vite",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "turbo_pack",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "flutter_and_rn_right_now_feels_clumsy",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "keyboard_avoiding_views",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "too_confusing_between_expo_vs",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "react_native_for_a_new_developer",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "too_many_choices_up_front",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "moving_away_from_ood",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "oop_back_to_fp",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  },
+                  {
+                    "id": "spaghetti_code",
+                    "count": 1,
+                    "percentage_question": 0.4,
+                    "percentage_survey": 0.04,
+                    "entity": {}
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "user_info": {
+            "country_vs_salary": {
+              "responses": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 27,
+                    "percentageSurvey": 96.43,
+                    "total": 28
+                  },
+                  "buckets": [
+                    {
+                      "count": 0,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 0,
+                      "hasInsufficientData": true,
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 1,
+                          "percentageBucket": 100
+                        }
+                      ]
+                    },
+                    {
+                      "count": 54,
+                      "id": "other_answers",
+                      "percentageQuestion": 200,
+                      "percentageSurvey": 192.86,
+                      "averageByFacet": 104074.07,
+                      "percentilesByFacet": {
+                        "p0": 76666.67,
+                        "p10": 76666.67,
+                        "p25": 76666.67,
+                        "p50": 76666.67,
+                        "p75": 138333.33,
+                        "p90": 138333.33,
+                        "p100": 138333.33
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "range_10_30",
+                          "count": 30,
+                          "percentageBucket": 55.56
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -372,7 +372,7 @@
 ######################################################
 
 - id: debugging_and_profiling
-  template: toolv3
+  template: featurev3
   slug: debugging_and_profiling
   questions:
     - id: debugging_profiling_console
@@ -522,7 +522,7 @@
       template: textList
 
     - id: react_native_app_aspects_architecture_local_first
-      template: toolv3
+      template: featurev3
 
 ######################################################
 #########             FEATURES               #########
@@ -616,7 +616,7 @@
 ######################################################
 
 - id: deployment
-  template: toolv3
+  template: featurev3
   slug: deployment
   questions:
     - id: deployment_app_center
@@ -641,7 +641,7 @@
 ######################################################
 
 - id: tools
-  template: toolv3
+  template: featurev3
   slug: tools
   questions:
     - id: tools_js_ts
@@ -691,7 +691,7 @@
 ######################################################
 
 - id: react_native_alternatives
-  template: toolv3
+  template: featurev3
   slug: react_native_alternatives
   questions:
     - id: react_native_alternatives_cordova

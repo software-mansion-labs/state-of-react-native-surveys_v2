@@ -1,0 +1,51 @@
+{
+  "dataAPI": {
+    "survey": {
+      "navigation_other": {
+        "entity": {
+          "name": "Other navigation solutions"
+        },
+        "keys": [
+          "tanstack_router"
+        ],
+        "all_years": [
+          {
+            "year": 2023,
+            "completion": {
+              "total": 2391,
+              "count": 18,
+              "percentage_survey": 0.75
+            },
+            "facets": [
+              {
+                "completion": {
+                  "total": 5514,
+                  "count": 18,
+                  "percentage_survey": 0.4
+                },
+                "buckets": [
+                  {
+                    "id": "tanstack_router",
+                    "count": 1,
+                    "percentage_question": 5.6,
+                    "percentage_survey": 0.04,
+                    "entity": {
+                      "name": "TanStack Router",
+                      "description": "",
+                      "homepage": {
+                        "url": "https://tanstack.com/router/v1"
+                      },
+                      "github": {
+                        "url": "https://github.com/tanstack/router"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

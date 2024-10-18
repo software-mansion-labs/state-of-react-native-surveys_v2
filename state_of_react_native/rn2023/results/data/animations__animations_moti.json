@@ -1,0 +1,118 @@
+{
+  "dataAPI": {
+    "survey": {
+      "animations_moti": {
+        "id": "animations_moti",
+        "entity": {
+          "name": "Moti",
+          "description": "🐼 The React Native (+ Web) animation library, powered by Reanimated 2.",
+          "github": {
+            "url": "https://github.com/nandorojo/moti"
+          },
+          "npm": {
+            "url": "https://www.npmjs.com/package/moti"
+          }
+        },
+        "experience": {
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 2490,
+                "count": 1360,
+                "percentage_survey": 54.7
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 264,
+                      "percentage_survey": 10.7,
+                      "percentage_question": 19.5
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 32,
+                      "percentage_survey": 1.3,
+                      "percentage_question": 2.4
+                    },
+                    {
+                      "id": "interested",
+                      "count": 367,
+                      "percentage_survey": 14.8,
+                      "percentage_question": 27
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 119,
+                      "percentage_survey": 4.8,
+                      "percentage_question": 8.8
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 578,
+                      "percentage_survey": 23.3,
+                      "percentage_question": 42.5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "year": 2023,
+              "completion": {
+                "total": 3024,
+                "count": 1713,
+                "percentage_survey": 56.7
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 335,
+                      "percentage_survey": 11.1,
+                      "percentage_question": 19.6
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 50,
+                      "percentage_survey": 1.7,
+                      "percentage_question": 3
+                    },
+                    {
+                      "id": "interested",
+                      "count": 456,
+                      "percentage_survey": 15.1,
+                      "percentage_question": 26.7
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 153,
+                      "percentage_survey": 5.1,
+                      "percentage_question": 9
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 719,
+                      "percentage_survey": 23.8,
+                      "percentage_question": 42
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

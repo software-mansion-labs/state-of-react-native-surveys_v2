@@ -1,0 +1,149 @@
+{
+  "dataAPI": {
+    "survey": {
+      "debugging_and_profiling_problems_javascript_other": {
+        "entity": {
+          "name": "Other problems - JavaScript debugging"
+        },
+        "keys": [
+          "slow",
+          "poor_network_debugging",
+          "app_crashes_regularly_when_debugger_enabled",
+          "could_not_connect_chrome_debugger_in_order_to_use_redux_devtools",
+          "difficult_to_navigate_through_source",
+          "not_sure_but_i_have_heard_it_crashes_because_of_reanimated_lib",
+          "not_being_able_to_repeat_issues_because_js_context_changes",
+          "connect_many_devices_but_it_s_nice_in_reactotron",
+          "compared_to_web_one",
+          "we_cannot_block_request_and_it_disconnect",
+          "poor_general_debugging"
+        ],
+        "all_years": [
+          {
+            "year": 2023,
+            "completion": {
+              "total": 2391,
+              "count": 33,
+              "percentage_survey": 1.38
+            },
+            "facets": [
+              {
+                "completion": {
+                  "total": 5514,
+                  "count": 33,
+                  "percentage_survey": 0.6
+                },
+                "buckets": [
+                  {
+                    "id": "slow",
+                    "count": 4,
+                    "percentage_question": 12.4,
+                    "percentage_survey": 0.17,
+                    "entity": {
+                      "name": "Poor performance"
+                    }
+                  },
+                  {
+                    "id": "app_crashes_regularly_when_debugger_enabled",
+                    "count": 6,
+                    "percentage_question": 18.6,
+                    "percentage_survey": 0.25,
+                    "entity": {
+                      "name": "Poor stability and reliability",
+                      "description": "",
+                      "homepage": {
+                        "url": ""
+                      },
+                      "github": {
+                        "url": ""
+                      },
+                      "npm": {
+                        "url": ""
+                      }
+                    }
+                  },
+                  {
+                    "id": "difficult_to_navigate_through_source",
+                    "count": 4,
+                    "percentage_question": 12.4,
+                    "percentage_survey": 0.17,
+                    "entity": {
+                      "name": "Difficult to use",
+                      "description": "",
+                      "homepage": {
+                        "url": ""
+                      },
+                      "github": {
+                        "url": ""
+                      },
+                      "npm": {
+                        "url": ""
+                      }
+                    }
+                  },
+                  {
+                    "id": "not_sure_but_i_have_heard_it_crashes_because_of_reanimated_lib",
+                    "count": 2,
+                    "percentage_question": 6.2,
+                    "percentage_survey": 0.08,
+                    "entity": {
+                      "name": "Incompatibility with Reanimated",
+                      "description": "",
+                      "homepage": {
+                        "url": ""
+                      },
+                      "github": {
+                        "url": ""
+                      },
+                      "npm": {
+                        "url": ""
+                      }
+                    }
+                  },
+                  {
+                    "id": "compared_to_web_one",
+                    "count": 2,
+                    "percentage_question": 6.2,
+                    "percentage_survey": 0.08,
+                    "entity": {
+                      "name": "Debugging ux worse than Web",
+                      "description": "",
+                      "homepage": {
+                        "url": ""
+                      },
+                      "github": {
+                        "url": ""
+                      },
+                      "npm": {
+                        "url": ""
+                      }
+                    }
+                  },
+                  {
+                    "id": "poor_general_debugging",
+                    "count": 2,
+                    "percentage_question": 6.2,
+                    "percentage_survey": 0.08,
+                    "entity": {
+                      "name": "Poor overall debugging experience",
+                      "description": "",
+                      "homepage": {
+                        "url": ""
+                      },
+                      "github": {
+                        "url": ""
+                      },
+                      "npm": {
+                        "url": ""
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

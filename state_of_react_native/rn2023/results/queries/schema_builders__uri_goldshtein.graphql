@@ -1,0 +1,18 @@
+query {
+  entity_uri_goldshtein: entity(id: "uri_goldshtein") {
+    id
+    homepage {
+      name
+      url
+    }
+    name
+    nameClean
+    twitterName
+    twitter {
+      userName
+      avatarUrl
+      id
+      description
+    }
+  }
+}

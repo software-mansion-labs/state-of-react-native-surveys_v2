@@ -1,0 +1,97 @@
+{
+  "dataAPI": {
+    "survey": {
+      "debugging_and_profiling_profiling_tools": {
+        "entity": {
+          "name": "Performance profiling"
+        },
+        "keys": [
+          "debugging_and_profiling_profiling_tools_flashlight",
+          "debugging_and_profiling_profiling_tools_flipper",
+          "debugging_and_profiling_profiling_tools_flipper_performance_plugin",
+          "debugging_and_profiling_profiling_tools_react_native_performance",
+          "debugging_and_profiling_profiling_tools_react_native_performance_monitor",
+          "debugging_and_profiling_profiling_tools_performance_native"
+        ],
+        "all_years": [
+          {
+            "year": 2023,
+            "completion": {
+              "total": 2391,
+              "count": 1006,
+              "percentage_survey": 42.1
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 2391,
+                  "percentage_survey": 78.7,
+                  "percentage_question": 187,
+                  "count": 1881
+                },
+                "buckets": [
+                  {
+                    "id": "debugging_and_profiling_profiling_tools_flashlight",
+                    "count": 256,
+                    "percentage_question": 25.5,
+                    "percentage_survey": 10.8,
+                    "entity": {
+                      "name": "Flashlight"
+                    }
+                  },
+                  {
+                    "id": "debugging_and_profiling_profiling_tools_flipper",
+                    "count": 541,
+                    "percentage_question": 53.8,
+                    "percentage_survey": 22.7,
+                    "entity": {
+                      "name": "Flipper"
+                    }
+                  },
+                  {
+                    "id": "debugging_and_profiling_profiling_tools_flipper_performance_plugin",
+                    "count": 217,
+                    "percentage_question": 21.6,
+                    "percentage_survey": 9.1,
+                    "entity": {
+                      "name": "React Native Flipper Performance Plugin"
+                    }
+                  },
+                  {
+                    "id": "debugging_and_profiling_profiling_tools_react_native_performance",
+                    "count": 239,
+                    "percentage_question": 23.8,
+                    "percentage_survey": 10,
+                    "entity": {
+                      "name": "React Native Performance"
+                    }
+                  },
+                  {
+                    "id": "debugging_and_profiling_profiling_tools_react_native_performance_monitor",
+                    "count": 217,
+                    "percentage_question": 21.6,
+                    "percentage_survey": 9.1,
+                    "entity": {
+                      "name": "React Native Performance Monitor"
+                    }
+                  },
+                  {
+                    "id": "debugging_and_profiling_profiling_tools_performance_native",
+                    "count": 411,
+                    "percentage_question": 40.9,
+                    "percentage_survey": 17.2,
+                    "entity": {
+                      "name": "Native profiling (Xcode, Android Studio)"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

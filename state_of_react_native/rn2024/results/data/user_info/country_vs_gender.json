@@ -1,0 +1,108 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "user_info": {
+            "country_vs_gender": {
+              "responses": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 27,
+                    "percentageSurvey": 96.43,
+                    "total": 28
+                  },
+                  "buckets": [
+                    {
+                      "count": 27,
+                      "id": "overall",
+                      "percentageQuestion": 100,
+                      "percentageSurvey": 96.43,
+                      "facetBuckets": [
+                        {
+                          "id": "female",
+                          "count": 15,
+                          "percentageBucket": 55.56
+                        },
+                        {
+                          "id": "non_binary",
+                          "count": 12,
+                          "percentageBucket": 44.44
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 0,
+                          "percentageBucket": 0
+                        }
+                      ]
+                    },
+                    {
+                      "count": 15,
+                      "id": "BGD",
+                      "percentageQuestion": 55.56,
+                      "percentageSurvey": 53.57,
+                      "facetBuckets": [
+                        {
+                          "id": "female",
+                          "count": 15,
+                          "percentageBucket": 100
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 0,
+                          "percentageBucket": 0
+                        }
+                      ]
+                    },
+                    {
+                      "count": 12,
+                      "id": "AIA",
+                      "percentageQuestion": 44.44,
+                      "percentageSurvey": 42.86,
+                      "facetBuckets": [
+                        {
+                          "id": "non_binary",
+                          "count": 12,
+                          "percentageBucket": 100
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 0,
+                          "percentageBucket": 0
+                        }
+                      ]
+                    },
+                    {
+                      "count": 0,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 0,
+                      "hasInsufficientData": true,
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 1,
+                          "percentageBucket": 100
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

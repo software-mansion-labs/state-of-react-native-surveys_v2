@@ -1,0 +1,129 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "user_info": {
+            "gender_vs_salary": {
+              "responses": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 27,
+                    "percentageSurvey": 96.43,
+                    "total": 28
+                  },
+                  "buckets": [
+                    {
+                      "count": 12,
+                      "id": "non_binary",
+                      "percentageQuestion": 44.44,
+                      "percentageSurvey": 42.86,
+                      "averageByFacet": 200000,
+                      "percentilesByFacet": {
+                        "p0": 200000,
+                        "p10": 200000,
+                        "p25": 200000,
+                        "p50": 200000,
+                        "p75": 200000,
+                        "p90": 200000,
+                        "p100": 200000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 12,
+                          "percentageBucket": 100
+                        }
+                      ]
+                    },
+                    {
+                      "count": 15,
+                      "id": "female",
+                      "percentageQuestion": 55.56,
+                      "percentageSurvey": 53.57,
+                      "entity": {
+                        "name": "Female",
+                        "nameClean": "Female",
+                        "id": "about_you_gender_female",
+                        "entityType": "feature"
+                      },
+                      "averageByFacet": 15000,
+                      "percentilesByFacet": {
+                        "p0": 15000,
+                        "p10": 15000,
+                        "p25": 15000,
+                        "p50": 15000,
+                        "p75": 15000,
+                        "p90": 15000,
+                        "p100": 15000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 15,
+                          "percentageBucket": 100
+                        }
+                      ]
+                    },
+                    {
+                      "count": 27,
+                      "id": "overall",
+                      "percentageQuestion": 100,
+                      "percentageSurvey": 96.43,
+                      "averageByFacet": 97222.2,
+                      "percentilesByFacet": {
+                        "p0": 15000,
+                        "p10": 15000,
+                        "p25": 15000,
+                        "p50": 15000,
+                        "p75": 200000,
+                        "p90": 200000,
+                        "p100": 200000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "range_10_30",
+                          "count": 15,
+                          "percentageBucket": 55.56
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 12,
+                          "percentageBucket": 44
+                        }
+                      ]
+                    },
+                    {
+                      "count": 0,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 0,
+                      "hasInsufficientData": true,
+                      "averageByFacet": 0,
+                      "percentilesByFacet": {
+                        "p0": 0,
+                        "p10": 0,
+                        "p25": 0,
+                        "p50": 0,
+                        "p75": 0,
+                        "p90": 0,
+                        "p100": 0
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 1,
+                          "percentageBucket": 100
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

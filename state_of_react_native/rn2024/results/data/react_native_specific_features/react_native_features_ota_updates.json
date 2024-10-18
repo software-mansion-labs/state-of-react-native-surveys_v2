@@ -1,0 +1,88 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "react_native_specific_features": {
+            "react_native_features_ota_updates": {
+              "responses": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 27,
+                    "percentageSurvey": 96.43,
+                    "total": 28
+                  },
+                  "buckets": [
+                    {
+                      "count": 27,
+                      "id": "react_native_features_ota_updates_code_push",
+                      "percentageQuestion": 100,
+                      "percentageSurvey": 96.43,
+                      "entity": {
+                        "name": "CodePush",
+                        "nameClean": "CodePush",
+                        "id": "react_native_features_ota_updates_code_push",
+                        "entityType": "feature",
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/react-native-code-push"
+                        }
+                      }
+                    },
+                    {
+                      "count": 27,
+                      "id": "react_native_features_ota_updates_eas_update",
+                      "percentageQuestion": 100,
+                      "percentageSurvey": 96.43,
+                      "entity": {
+                        "name": "EAS Update",
+                        "nameClean": "EAS Update",
+                        "description": "Fetches and manages remotely-hosted assets and updates to your app's JS bundle.",
+                        "descriptionHtml": "Fetches and manages remotely-hosted assets and updates to your app's JS bundle.",
+                        "descriptionClean": "Fetches and manages remotely-hosted assets and updates to your app's JS bundle.",
+                        "id": "react_native_features_ota_updates_eas_update",
+                        "entityType": "feature",
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/expo-updates"
+                        }
+                      }
+                    },
+                    {
+                      "count": 27,
+                      "id": "react_native_features_ota_updates_expo_publish",
+                      "percentageQuestion": 100,
+                      "percentageSurvey": 96.43,
+                      "entity": {
+                        "name": "Expo Classic Updates",
+                        "nameClean": "Expo Classic Updates",
+                        "id": "react_native_features_ota_updates_expo_publish",
+                        "entityType": "feature"
+                      }
+                    },
+                    {
+                      "count": 27,
+                      "id": "react_native_features_ota_updates_self_hosted",
+                      "percentageQuestion": 100,
+                      "percentageSurvey": 96.43,
+                      "entity": {
+                        "name": "Self-hosted",
+                        "nameClean": "Self-hosted",
+                        "id": "react_native_features_ota_updates_self_hosted",
+                        "entityType": "feature"
+                      }
+                    },
+                    {
+                      "count": 1,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 3.57
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

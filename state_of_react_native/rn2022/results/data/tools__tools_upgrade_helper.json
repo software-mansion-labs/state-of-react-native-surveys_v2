@@ -1,0 +1,77 @@
+{
+  "dataAPI": {
+    "survey": {
+      "tools_upgrade_helper": {
+        "id": "tools_upgrade_helper",
+        "entity": {
+          "name": "Upgrade Helper"
+        },
+        "experience": {
+          "comments": [
+            "unreliable, needs more information",
+            "I would use anything that might give me clues on how to upgrade react-native. However, this tool still didn't feel easy to use",
+            "It never worked\n",
+            "we need a cleaner way of upgrading some xcode files",
+            "Didn't really work the times I've tried using it.",
+            "Not necessary with expo managed workflow",
+            "Thanks for this.",
+            "Once you had to customize anything it just doesn't work. "
+          ],
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2023,
+              "completion": {
+                "total": 3024,
+                "count": 1488,
+                "percentage_survey": 49.3
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 750,
+                      "percentage_survey": 24.9,
+                      "percentage_question": 50.5
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 79,
+                      "percentage_survey": 2.7,
+                      "percentage_question": 5.4
+                    },
+                    {
+                      "id": "interested",
+                      "count": 137,
+                      "percentage_survey": 4.6,
+                      "percentage_question": 9.3
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 52,
+                      "percentage_survey": 1.8,
+                      "percentage_question": 3.5
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 470,
+                      "percentage_survey": 15.6,
+                      "percentage_question": 31.6
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

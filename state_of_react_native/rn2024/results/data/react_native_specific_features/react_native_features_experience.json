@@ -1,0 +1,819 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "react_native_specific_features": {
+            "react_native_features_experience": [
+              {
+                "id": "react_native_bridgeless_mode",
+                "entity": {
+                  "name": "Bridgeless Mode",
+                  "nameClean": "Bridgeless Mode",
+                  "entityType": "feature"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.55,
+                      "interest": 0,
+                      "usage": 0.55,
+                      "retention": 0,
+                      "positivity": 0.44
+                    },
+                    "buckets": [
+                      {
+                        "count": 12,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 12,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 44.44,
+                            "percentageSurvey": 42.86
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 44.44,
+                        "percentageSurvey": 42.86
+                      },
+                      {
+                        "count": 15,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 15,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 55.56,
+                            "percentageSurvey": 53.57
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 55.56,
+                        "percentageSurvey": 53.57
+                      }
+                    ],
+                    "completion": {
+                      "count": 27,
+                      "percentageSurvey": 96.43,
+                      "total": 28
+                    }
+                  }
+                }
+              },
+              {
+                "id": "react_native_features_codegen",
+                "entity": {
+                  "name": "Codegen",
+                  "nameClean": "Codegen",
+                  "entityType": "feature"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 0.44,
+                      "retention": 1,
+                      "positivity": 0.44
+                    },
+                    "buckets": [
+                      {
+                        "count": 15,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 15,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 55.56,
+                            "percentageSurvey": 53.57
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 55.56,
+                        "percentageSurvey": 53.57
+                      },
+                      {
+                        "count": 12,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 12,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 44.44,
+                            "percentageSurvey": 42.86
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 44.44,
+                        "percentageSurvey": 42.86
+                      }
+                    ],
+                    "completion": {
+                      "count": 27,
+                      "percentageSurvey": 96.43,
+                      "total": 28
+                    }
+                  }
+                }
+              },
+              {
+                "id": "react_native_features_custom_native_modules",
+                "entity": {
+                  "name": "Custom native modules",
+                  "nameClean": "Custom native modules",
+                  "entityType": "feature"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 1,
+                      "usage": 0.55,
+                      "retention": 0,
+                      "positivity": 0.44
+                    },
+                    "buckets": [
+                      {
+                        "count": 12,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 12,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 44.44,
+                            "percentageSurvey": 42.86
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 44.44,
+                        "percentageSurvey": 42.86
+                      },
+                      {
+                        "count": 15,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 15,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 55.56,
+                            "percentageSurvey": 53.57
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 55.56,
+                        "percentageSurvey": 53.57
+                      }
+                    ],
+                    "completion": {
+                      "count": 27,
+                      "percentageSurvey": 96.43,
+                      "total": 28
+                    }
+                  }
+                }
+              },
+              {
+                "id": "react_native_features_custom_native_views",
+                "entity": {
+                  "name": "Custom native views",
+                  "nameClean": "Custom native views",
+                  "entityType": "feature"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 27,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 27,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 96.43
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 96.43
+                      }
+                    ],
+                    "completion": {
+                      "count": 27,
+                      "percentageSurvey": 96.43,
+                      "total": 28
+                    }
+                  }
+                }
+              },
+              {
+                "id": "react_native_features_expo_modules",
+                "entity": {
+                  "name": "Expo Modules",
+                  "nameClean": "Expo Modules",
+                  "entityType": "feature"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 27,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 27,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 96.43
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 96.43
+                      }
+                    ],
+                    "completion": {
+                      "count": 27,
+                      "percentageSurvey": 96.43,
+                      "total": 28
+                    }
+                  }
+                }
+              },
+              {
+                "id": "react_native_features_fabric",
+                "entity": {
+                  "name": "Fabric",
+                  "nameClean": "Fabric",
+                  "entityType": "feature"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 0.44,
+                      "retention": 1,
+                      "positivity": 0.44
+                    },
+                    "buckets": [
+                      {
+                        "count": 15,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 15,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 55.56,
+                            "percentageSurvey": 53.57
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 55.56,
+                        "percentageSurvey": 53.57
+                      },
+                      {
+                        "count": 12,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 12,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 44.44,
+                            "percentageSurvey": 42.86
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 44.44,
+                        "percentageSurvey": 42.86
+                      }
+                    ],
+                    "completion": {
+                      "count": 27,
+                      "percentageSurvey": 96.43,
+                      "total": 28
+                    }
+                  }
+                }
+              },
+              {
+                "id": "react_native_features_hermes_runtime",
+                "entity": {
+                  "name": "Hermes runtime",
+                  "nameClean": "Hermes runtime",
+                  "entityType": "feature"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 1,
+                      "usage": 0.55,
+                      "retention": 0,
+                      "positivity": 0.44
+                    },
+                    "buckets": [
+                      {
+                        "count": 12,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 12,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 44.44,
+                            "percentageSurvey": 42.86
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 44.44,
+                        "percentageSurvey": 42.86
+                      },
+                      {
+                        "count": 15,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 15,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 55.56,
+                            "percentageSurvey": 53.57
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 55.56,
+                        "percentageSurvey": 53.57
+                      }
+                    ],
+                    "completion": {
+                      "count": 27,
+                      "percentageSurvey": 96.43,
+                      "total": 28
+                    }
+                  }
+                }
+              },
+              {
+                "id": "react_native_features_jsc_runtime",
+                "entity": {
+                  "name": "JSC runtime",
+                  "nameClean": "JSC runtime",
+                  "entityType": "feature"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.55,
+                      "interest": 0,
+                      "usage": 0.55,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 12,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 12,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 44.44,
+                            "percentageSurvey": 42.86
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 44.44,
+                        "percentageSurvey": 42.86
+                      },
+                      {
+                        "count": 15,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 15,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 55.56,
+                            "percentageSurvey": 53.57
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 55.56,
+                        "percentageSurvey": 53.57
+                      }
+                    ],
+                    "completion": {
+                      "count": 27,
+                      "percentageSurvey": 96.43,
+                      "total": 28
+                    }
+                  }
+                }
+              },
+              {
+                "id": "react_native_features_jsi",
+                "entity": {
+                  "name": "JSI",
+                  "nameClean": "JSI",
+                  "entityType": "feature"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 0.44,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 15,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 15,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 55.56,
+                            "percentageSurvey": 53.57
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 55.56,
+                        "percentageSurvey": 53.57
+                      },
+                      {
+                        "count": 12,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 12,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 44.44,
+                            "percentageSurvey": 42.86
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 44.44,
+                        "percentageSurvey": 42.86
+                      }
+                    ],
+                    "completion": {
+                      "count": 27,
+                      "percentageSurvey": 96.43,
+                      "total": 28
+                    }
+                  }
+                }
+              },
+              {
+                "id": "react_native_features_new_architecture",
+                "entity": {
+                  "name": "New Architecture",
+                  "nameClean": "New Architecture",
+                  "entityType": "feature"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.55,
+                      "interest": 0,
+                      "usage": 0.55,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 12,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 12,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 44.44,
+                            "percentageSurvey": 42.86
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 44.44,
+                        "percentageSurvey": 42.86
+                      },
+                      {
+                        "count": 15,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 15,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 55.56,
+                            "percentageSurvey": 53.57
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 55.56,
+                        "percentageSurvey": 53.57
+                      }
+                    ],
+                    "completion": {
+                      "count": 27,
+                      "percentageSurvey": 96.43,
+                      "total": 28
+                    }
+                  }
+                }
+              },
+              {
+                "id": "react_native_features_react_native_directory",
+                "entity": {
+                  "name": "React Native Directory",
+                  "nameClean": "React Native Directory",
+                  "entityType": "feature"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0.44,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 0.44
+                    },
+                    "buckets": [
+                      {
+                        "count": 27,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 15,
+                            "id": "negative",
+                            "percentageBucket": 55.56,
+                            "percentageQuestion": 55.56,
+                            "percentageSurvey": 53.57
+                          },
+                          {
+                            "count": 12,
+                            "id": "positive",
+                            "percentageBucket": 44.44,
+                            "percentageQuestion": 44.44,
+                            "percentageSurvey": 42.86
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 96.43
+                      }
+                    ],
+                    "completion": {
+                      "count": 27,
+                      "percentageSurvey": 96.43,
+                      "total": 28
+                    }
+                  }
+                }
+              },
+              {
+                "id": "react_native_features_turbo_modules",
+                "entity": {
+                  "name": "Turbo Native Modules",
+                  "nameClean": "Turbo Native Modules",
+                  "entityType": "feature"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.55,
+                      "interest": 0,
+                      "usage": 0.55,
+                      "retention": 0,
+                      "positivity": 0.44
+                    },
+                    "buckets": [
+                      {
+                        "count": 12,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 12,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 44.44,
+                            "percentageSurvey": 42.86
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 44.44,
+                        "percentageSurvey": 42.86
+                      },
+                      {
+                        "count": 15,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 15,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 55.56,
+                            "percentageSurvey": 53.57
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 55.56,
+                        "percentageSurvey": 53.57
+                      }
+                    ],
+                    "completion": {
+                      "count": 27,
+                      "percentageSurvey": 96.43,
+                      "total": 28
+                    }
+                  }
+                }
+              },
+              {
+                "id": "react_native_features_v8_runtime",
+                "entity": {
+                  "name": "V8 runtime",
+                  "nameClean": "V8 runtime",
+                  "entityType": "feature"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 0.55,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 12,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 12,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 44.44,
+                            "percentageSurvey": 42.86
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 44.44,
+                        "percentageSurvey": 42.86
+                      },
+                      {
+                        "count": 15,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 15,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 55.56,
+                            "percentageSurvey": 53.57
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 55.56,
+                        "percentageSurvey": 53.57
+                      }
+                    ],
+                    "completion": {
+                      "count": 27,
+                      "percentageSurvey": 96.43,
+                      "total": 28
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

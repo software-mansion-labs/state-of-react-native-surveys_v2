@@ -1,0 +1,86 @@
+{
+  "dataAPI": {
+    "survey": {
+      "react_native_app_aspects_analytics_other": {
+        "entity": {
+          "name": "Other analytics solutions"
+        },
+        "keys": [
+          "adobe_analytics",
+          "posthog",
+          "expo_insights",
+          "rudderstack"
+        ],
+        "all_years": [
+          {
+            "year": 2023,
+            "completion": {
+              "total": 2391,
+              "count": 82,
+              "percentage_survey": 3.43
+            },
+            "facets": [
+              {
+                "completion": {
+                  "total": 5514,
+                  "count": 82,
+                  "percentage_survey": 1.5
+                },
+                "buckets": [
+                  {
+                    "id": "adobe_analytics",
+                    "count": 7,
+                    "percentage_question": 8.6,
+                    "percentage_survey": 0.29,
+                    "entity": {
+                      "name": "Adobe Analytics",
+                      "homepage": {
+                        "url": "https://business.adobe.com/products/analytics/adobe-analytics.html"
+                      }
+                    }
+                  },
+                  {
+                    "id": "posthog",
+                    "count": 4,
+                    "percentage_question": 4.9,
+                    "percentage_survey": 0.17,
+                    "entity": {
+                      "name": "PostHog",
+                      "homepage": {
+                        "url": "https://posthog.com/"
+                      }
+                    }
+                  },
+                  {
+                    "id": "expo_insights",
+                    "count": 3,
+                    "percentage_question": 3.7,
+                    "percentage_survey": 0.13,
+                    "entity": {
+                      "name": "Expo Insights",
+                      "homepage": {
+                        "url": "https://docs.expo.dev/eas-insights/introduction/"
+                      }
+                    }
+                  },
+                  {
+                    "id": "rudderstack",
+                    "count": 3,
+                    "percentage_question": 3.7,
+                    "percentage_survey": 0.13,
+                    "entity": {
+                      "name": "RudderStack",
+                      "homepage": {
+                        "url": "https://rudderstack.com/"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

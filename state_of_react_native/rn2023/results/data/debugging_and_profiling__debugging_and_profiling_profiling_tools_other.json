@@ -1,0 +1,82 @@
+{
+  "dataAPI": {
+    "survey": {
+      "debugging_and_profiling_profiling_tools_other": {
+        "entity": {
+          "name": "Other performance profiling tools"
+        },
+        "keys": [
+          "it_would_be_great_to_see_what_function_calls_in_react_native_cause_performance_issues",
+          "i_can_t_stand_debugging",
+          "reassure",
+          "react_native_flipper_performance_plugin_difficult_to_implement_maybe_that_s_me",
+          "react_devtools_profiler",
+          "firebase_perf",
+          "sentry_performance_tracing",
+          "react_native_profile_hermes_to_pull_sampling_profiles_generated_on_device_by_hermes",
+          "javascript_profiler_within_chrome_devtools",
+          "flamegraph"
+        ],
+        "all_years": [
+          {
+            "year": 2023,
+            "completion": {
+              "total": 2391,
+              "count": 20,
+              "percentage_survey": 0.84
+            },
+            "facets": [
+              {
+                "completion": {
+                  "total": 5514,
+                  "count": 20,
+                  "percentage_survey": 0.4
+                },
+                "buckets": [
+                  {
+                    "id": "react_devtools_profiler",
+                    "count": 3,
+                    "percentage_question": 15,
+                    "percentage_survey": 0.13,
+                    "entity": {
+                      "name": "React devtools profiler",
+                      "description": "",
+                      "homepage": {
+                        "url": ""
+                      },
+                      "github": {
+                        "url": ""
+                      },
+                      "npm": {
+                        "url": ""
+                      }
+                    }
+                  },
+                  {
+                    "id": "firebase_perf",
+                    "count": 2,
+                    "percentage_question": 10,
+                    "percentage_survey": 0.08,
+                    "entity": {
+                      "name": "Firebase Performance tracing",
+                      "description": "",
+                      "homepage": {
+                        "url": ""
+                      },
+                      "github": {
+                        "url": ""
+                      },
+                      "npm": {
+                        "url": ""
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

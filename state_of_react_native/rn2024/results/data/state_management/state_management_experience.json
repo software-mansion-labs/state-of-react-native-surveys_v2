@@ -1,0 +1,698 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "state_management": {
+            "state_management_experience": [
+              {
+                "id": "state_management_apollo",
+                "entity": {
+                  "name": "Apollo Client",
+                  "nameClean": "Apollo Client",
+                  "entityType": "library",
+                  "description": "A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server",
+                  "descriptionClean": "A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server",
+                  "homepage": {
+                    "url": "https://www.apollographql.com/docs/react/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.55,
+                      "interest": 0,
+                      "usage": 0.55,
+                      "retention": 0,
+                      "positivity": 0.44
+                    },
+                    "buckets": [
+                      {
+                        "count": 12,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 12,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 44.44,
+                            "percentageSurvey": 42.86
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 44.44,
+                        "percentageSurvey": 42.86
+                      },
+                      {
+                        "count": 15,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 15,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 55.56,
+                            "percentageSurvey": 53.57
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 55.56,
+                        "percentageSurvey": 53.57
+                      }
+                    ],
+                    "completion": {
+                      "count": 27,
+                      "percentageSurvey": 96.43,
+                      "total": 28
+                    }
+                  }
+                }
+              },
+              {
+                "id": "state_management_jotai",
+                "entity": {
+                  "name": "Jotai",
+                  "nameClean": "Jotai",
+                  "entityType": "library",
+                  "description": "Primitive, flexible state management for React",
+                  "descriptionClean": "Primitive, flexible state management for React",
+                  "homepage": {
+                    "url": "https://jotai.org/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 0.55,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 12,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 12,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 44.44,
+                            "percentageSurvey": 42.86
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 44.44,
+                        "percentageSurvey": 42.86
+                      },
+                      {
+                        "count": 15,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 15,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 55.56,
+                            "percentageSurvey": 53.57
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 55.56,
+                        "percentageSurvey": 53.57
+                      }
+                    ],
+                    "completion": {
+                      "count": 27,
+                      "percentageSurvey": 96.43,
+                      "total": 28
+                    }
+                  }
+                }
+              },
+              {
+                "id": "state_management_mobx",
+                "entity": {
+                  "name": "MobX",
+                  "nameClean": "MobX",
+                  "entityType": "library",
+                  "description": "Simple, scalable state management.",
+                  "descriptionClean": "Simple, scalable state management.",
+                  "homepage": {
+                    "url": "https://mobx.js.org/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 0.44,
+                      "retention": 1,
+                      "positivity": 0.44
+                    },
+                    "buckets": [
+                      {
+                        "count": 15,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 15,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 55.56,
+                            "percentageSurvey": 53.57
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 55.56,
+                        "percentageSurvey": 53.57
+                      },
+                      {
+                        "count": 12,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 12,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 44.44,
+                            "percentageSurvey": 42.86
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 44.44,
+                        "percentageSurvey": 42.86
+                      }
+                    ],
+                    "completion": {
+                      "count": 27,
+                      "percentageSurvey": 96.43,
+                      "total": 28
+                    }
+                  }
+                }
+              },
+              {
+                "id": "state_management_mobx_state_tree",
+                "entity": {
+                  "name": "MobX State Tree",
+                  "nameClean": "MobX State Tree",
+                  "entityType": "library"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 1,
+                      "retention": 1,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 12,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 12,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 42.86
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 42.86
+                      }
+                    ],
+                    "completion": {
+                      "count": 12,
+                      "percentageSurvey": 42.86,
+                      "total": 28
+                    }
+                  }
+                }
+              },
+              {
+                "id": "state_management_rn_built_in",
+                "entity": {
+                  "name": "React built-ins (useState, useContext, etc.)",
+                  "nameClean": "React built-ins (useState, useContext, etc.)",
+                  "entityType": "library"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0.44,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 0.44
+                    },
+                    "buckets": [
+                      {
+                        "count": 27,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 12,
+                            "id": "positive",
+                            "percentageBucket": 44.44,
+                            "percentageQuestion": 44.44,
+                            "percentageSurvey": 42.86
+                          },
+                          {
+                            "count": 15,
+                            "id": "negative",
+                            "percentageBucket": 55.56,
+                            "percentageQuestion": 55.56,
+                            "percentageSurvey": 53.57
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 96.43
+                      }
+                    ],
+                    "completion": {
+                      "count": 27,
+                      "percentageSurvey": 96.43,
+                      "total": 28
+                    }
+                  }
+                }
+              },
+              {
+                "id": "state_management_recoil",
+                "entity": {
+                  "name": "Recoil",
+                  "nameClean": "Recoil",
+                  "entityType": "library",
+                  "description": "An experimental state management library for React apps",
+                  "descriptionClean": "An experimental state management library for React apps",
+                  "homepage": {
+                    "url": "https://recoiljs.org/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 27,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 27,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 96.43
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 96.43
+                      }
+                    ],
+                    "completion": {
+                      "count": 27,
+                      "percentageSurvey": 96.43,
+                      "total": 28
+                    }
+                  }
+                }
+              },
+              {
+                "id": "state_management_redux",
+                "entity": {
+                  "name": "Redux",
+                  "nameClean": "Redux",
+                  "entityType": "library",
+                  "description": "Predictable state container for JavaScript apps",
+                  "descriptionClean": "Predictable state container for JavaScript apps",
+                  "homepage": {
+                    "url": "https://redux.js.org"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 0.44
+                    },
+                    "buckets": [
+                      {
+                        "count": 27,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 12,
+                            "id": "positive",
+                            "percentageBucket": 44.44,
+                            "percentageQuestion": 44.44,
+                            "percentageSurvey": 42.86
+                          },
+                          {
+                            "count": 15,
+                            "id": "negative",
+                            "percentageBucket": 55.56,
+                            "percentageQuestion": 55.56,
+                            "percentageSurvey": 53.57
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 96.43
+                      }
+                    ],
+                    "completion": {
+                      "count": 27,
+                      "percentageSurvey": 96.43,
+                      "total": 28
+                    }
+                  }
+                }
+              },
+              {
+                "id": "state_management_redux_toolkit",
+                "entity": {
+                  "name": "Redux Toolkit",
+                  "nameClean": "Redux Toolkit",
+                  "entityType": "library",
+                  "description": "The official, opinionated, batteries-included toolset for efficient Redux development",
+                  "descriptionClean": "The official, opinionated, batteries-included toolset for efficient Redux development"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 0.44,
+                      "retention": 1,
+                      "positivity": 0.44
+                    },
+                    "buckets": [
+                      {
+                        "count": 15,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 15,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 55.56,
+                            "percentageSurvey": 53.57
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 55.56,
+                        "percentageSurvey": 53.57
+                      },
+                      {
+                        "count": 12,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 12,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 44.44,
+                            "percentageSurvey": 42.86
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 44.44,
+                        "percentageSurvey": 42.86
+                      }
+                    ],
+                    "completion": {
+                      "count": 27,
+                      "percentageSurvey": 96.43,
+                      "total": 28
+                    }
+                  }
+                }
+              },
+              {
+                "id": "state_management_react_query",
+                "entity": {
+                  "name": "TanStack Query (React Query)",
+                  "nameClean": "TanStack Query (React Query)",
+                  "entityType": "library"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.44,
+                      "interest": 1,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 0.44
+                    },
+                    "buckets": [
+                      {
+                        "count": 15,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 15,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 55.56,
+                            "percentageSurvey": 53.57
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 55.56,
+                        "percentageSurvey": 53.57
+                      },
+                      {
+                        "count": 12,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 12,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 44.44,
+                            "percentageSurvey": 42.86
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 44.44,
+                        "percentageSurvey": 42.86
+                      }
+                    ],
+                    "completion": {
+                      "count": 27,
+                      "percentageSurvey": 96.43,
+                      "total": 28
+                    }
+                  }
+                }
+              },
+              {
+                "id": "state_management_xstate",
+                "entity": {
+                  "name": "XState",
+                  "nameClean": "XState",
+                  "entityType": "library",
+                  "description": "State machines and statecharts for the modern web.",
+                  "descriptionClean": "State machines and statecharts for the modern web.",
+                  "homepage": {
+                    "url": "https://xstate.js.org/docs/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.55,
+                      "interest": 0,
+                      "usage": 0.55,
+                      "retention": 0,
+                      "positivity": 0.44
+                    },
+                    "buckets": [
+                      {
+                        "count": 12,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 12,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 44.44,
+                            "percentageSurvey": 42.86
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 44.44,
+                        "percentageSurvey": 42.86
+                      },
+                      {
+                        "count": 15,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 15,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 55.56,
+                            "percentageSurvey": 53.57
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 55.56,
+                        "percentageSurvey": 53.57
+                      }
+                    ],
+                    "completion": {
+                      "count": 27,
+                      "percentageSurvey": 96.43,
+                      "total": 28
+                    }
+                  }
+                }
+              },
+              {
+                "id": "state_management_zustand",
+                "entity": {
+                  "name": "Zustand",
+                  "nameClean": "Zustand",
+                  "entityType": "library",
+                  "description": "Bear necessities for state management in React",
+                  "descriptionClean": "Bear necessities for state management in React",
+                  "homepage": {
+                    "url": "https://zustand-demo.pmnd.rs/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 1,
+                      "retention": 0.44,
+                      "positivity": 0.44
+                    },
+                    "buckets": [
+                      {
+                        "count": 27,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 12,
+                            "id": "positive",
+                            "percentageBucket": 44.44,
+                            "percentageQuestion": 44.44,
+                            "percentageSurvey": 42.86
+                          },
+                          {
+                            "count": 15,
+                            "id": "negative",
+                            "percentageBucket": 55.56,
+                            "percentageQuestion": 55.56,
+                            "percentageSurvey": 53.57
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 96.43
+                      }
+                    ],
+                    "completion": {
+                      "count": 27,
+                      "percentageSurvey": 96.43,
+                      "total": 28
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
