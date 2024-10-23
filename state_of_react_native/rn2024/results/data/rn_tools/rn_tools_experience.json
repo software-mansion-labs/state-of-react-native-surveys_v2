@@ -3,18 +3,10 @@
     "surveys": {
       "state_of_react_native": {
         "rn2024": {
-          "deployment": {
-            "deployment_experience": [
+          "rn_tools": {
+            "rn_tools_experience": [
               {
-                "id": "deployment_app_center",
-                "entity": {
-                  "name": "App Center",
-                  "nameClean": "App Center",
-                  "entityType": "default",
-                  "homepage": {
-                    "url": "https://appcenter.ms/"
-                  }
-                },
+                "id": "tools_config_plugins",
                 "responses": {
                   "currentEdition": {
                     "ratios": {
@@ -26,19 +18,6 @@
                     },
                     "buckets": [
                       {
-                        "count": 0,
-                        "id": "heard",
-                        "facetBuckets": [
-                          {
-                            "count": 1,
-                            "id": "insufficient_data",
-                            "percentageBucket": 100
-                          }
-                        ],
-                        "percentageQuestion": 0,
-                        "percentageSurvey": 0
-                      },
-                      {
                         "count": 13,
                         "id": "used",
                         "facetBuckets": [
@@ -46,7 +25,7 @@
                             "count": 13,
                             "id": "neutral",
                             "percentageBucket": 100,
-                            "percentageQuestion": 92.86,
+                            "percentageQuestion": 100,
                             "percentageSurvey": 61.9
                           },
                           {
@@ -55,23 +34,164 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 92.86,
+                        "percentageQuestion": 100,
                         "percentageSurvey": 61.9
                       }
                     ],
                     "completion": {
-                      "count": 14,
-                      "percentageSurvey": 66.67,
+                      "count": 13,
+                      "percentageSurvey": 61.9,
                       "total": 21
                     }
                   }
                 }
               },
               {
-                "id": "deployment_bitrise",
+                "id": "tools_custom_development_client",
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "neutral",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 61.9
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 61.9
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 61.9,
+                      "total": 21
+                    }
+                  }
+                }
+              },
+              {
+                "id": "tools_eas_cli",
                 "entity": {
-                  "name": "Bitrise",
-                  "nameClean": "Bitrise",
+                  "name": "EAS CLI",
+                  "nameClean": "EAS CLI",
+                  "entityType": "default",
+                  "description": "Fastest way to build, submit, and update iOS and Android apps",
+                  "descriptionClean": "Fastest way to build, submit, and update iOS and Android apps",
+                  "homepage": {
+                    "url": "https://docs.expo.dev/eas/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "neutral",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 61.9
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 61.9
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 61.9,
+                      "total": 21
+                    }
+                  }
+                }
+              },
+              {
+                "id": "tools_expo_cli",
+                "entity": {
+                  "name": "Expo CLI",
+                  "nameClean": "Expo CLI",
+                  "entityType": "default",
+                  "homepage": {
+                    "url": "https://docs.expo.dev/workflow/expo-cli/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "neutral",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 61.9
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 61.9
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 61.9,
+                      "total": 21
+                    }
+                  }
+                }
+              },
+              {
+                "id": "tools_expo_go",
+                "entity": {
+                  "name": "Expo Go",
+                  "nameClean": "Expo Go",
                   "entityType": "default"
                 },
                 "responses": {
@@ -79,125 +199,14 @@
                     "ratios": {
                       "awareness": 1,
                       "interest": 0,
-                      "usage": 0,
+                      "usage": 1,
                       "retention": 0,
                       "positivity": 0
                     },
                     "buckets": [
                       {
                         "count": 13,
-                        "id": "heard",
-                        "facetBuckets": [
-                          {
-                            "count": 13,
-                            "id": "neutral",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 92.86,
-                            "percentageSurvey": 61.9
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 92.86,
-                        "percentageSurvey": 61.9
-                      },
-                      {
-                        "count": 0,
                         "id": "used",
-                        "facetBuckets": [
-                          {
-                            "count": 1,
-                            "id": "insufficient_data",
-                            "percentageBucket": 100
-                          }
-                        ],
-                        "percentageQuestion": 0,
-                        "percentageSurvey": 0
-                      }
-                    ],
-                    "completion": {
-                      "count": 14,
-                      "percentageSurvey": 66.67,
-                      "total": 21
-                    }
-                  }
-                }
-              },
-              {
-                "id": "deployment_eas_build",
-                "entity": {
-                  "name": "EAS Build",
-                  "nameClean": "EAS Build",
-                  "entityType": "default",
-                  "homepage": {
-                    "url": "https://expo.dev/eas"
-                  }
-                },
-                "responses": {
-                  "currentEdition": {
-                    "ratios": {
-                      "awareness": 0,
-                      "interest": 0,
-                      "usage": 0,
-                      "retention": 0,
-                      "positivity": 0
-                    },
-                    "buckets": [
-                      {
-                        "count": 14,
-                        "id": "never_heard",
-                        "facetBuckets": [
-                          {
-                            "count": 14,
-                            "id": "neutral",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 100,
-                            "percentageSurvey": 66.67
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 100,
-                        "percentageSurvey": 66.67
-                      }
-                    ],
-                    "completion": {
-                      "count": 14,
-                      "percentageSurvey": 66.67,
-                      "total": 21
-                    }
-                  }
-                }
-              },
-              {
-                "id": "deployment_eas_submit",
-                "entity": {
-                  "name": "EAS Submit",
-                  "nameClean": "EAS Submit",
-                  "entityType": "default",
-                  "homepage": {
-                    "url": "https://expo.dev/eas"
-                  }
-                },
-                "responses": {
-                  "currentEdition": {
-                    "ratios": {
-                      "awareness": 1,
-                      "interest": 0,
-                      "usage": 0,
-                      "retention": 0,
-                      "positivity": 0
-                    },
-                    "buckets": [
-                      {
-                        "count": 13,
-                        "id": "heard",
                         "facetBuckets": [
                           {
                             "count": 13,
@@ -225,19 +234,19 @@
                 }
               },
               {
-                "id": "deployment_fastlane",
+                "id": "tools_expo_snack",
                 "entity": {
-                  "name": "Fastlane",
-                  "nameClean": "Fastlane",
+                  "name": "Expo Snack",
+                  "nameClean": "Expo Snack",
                   "entityType": "default",
                   "homepage": {
-                    "url": "https://fastlane.tools/"
+                    "url": "https://snack.expo.dev/"
                   }
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 1,
+                      "awareness": 0,
                       "interest": 0,
                       "usage": 0,
                       "retention": 0,
@@ -246,7 +255,7 @@
                     "buckets": [
                       {
                         "count": 13,
-                        "id": "heard",
+                        "id": "never_heard",
                         "facetBuckets": [
                           {
                             "count": 13,
@@ -274,14 +283,14 @@
                 }
               },
               {
-                "id": "deployment_manually_android_studio",
+                "id": "tools_ignite_cli",
                 "entity": {
-                  "name": "Manually with Android Studio",
-                  "nameClean": "Manually with Android Studio",
+                  "name": "Ignite CLI",
+                  "nameClean": "Ignite CLI",
                   "entityType": "default",
-                  "homepage": {
-                    "url": "https://developer.android.com/studio"
-                  }
+                  "description": "Infinite Red's battle-tested React Native project boilerplate, along with a CLI, component/model generators, and more!",
+                  "descriptionClean": "Infinite Red's battle-tested React Native project boilerplate, along with a CLI, component/model generators, and more!",
+                  "descriptionHtml": "Infinite Red's battle-tested React Native project boilerplate, along with a CLI, component/model generators, and more!"
                 },
                 "responses": {
                   "currentEdition": {
@@ -301,7 +310,7 @@
                             "count": 13,
                             "id": "neutral",
                             "percentageBucket": 100,
-                            "percentageQuestion": 92.86,
+                            "percentageQuestion": 100,
                             "percentageSurvey": 61.9
                           },
                           {
@@ -310,39 +319,122 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 92.86,
+                        "percentageQuestion": 100,
                         "percentageSurvey": 61.9
-                      },
-                      {
-                        "count": 0,
-                        "id": "used",
-                        "facetBuckets": [
-                          {
-                            "count": 1,
-                            "id": "insufficient_data",
-                            "percentageBucket": 100
-                          }
-                        ],
-                        "percentageQuestion": 0,
-                        "percentageSurvey": 0
                       }
                     ],
                     "completion": {
-                      "count": 14,
-                      "percentageSurvey": 66.67,
+                      "count": 13,
+                      "percentageSurvey": 61.9,
                       "total": 21
                     }
                   }
                 }
               },
               {
-                "id": "deployment_manually_xcode",
+                "id": "tools_react_native_cli",
                 "entity": {
-                  "name": "Manually with Xcode",
-                  "nameClean": "Manually with Xcode",
+                  "name": "React Native Community CLI",
+                  "nameClean": "React Native Community CLI",
                   "entityType": "default",
+                  "description": "React Native command line tools",
+                  "descriptionClean": "React Native command line tools"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "neutral",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 61.9
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 61.9
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 61.9,
+                      "total": 21
+                    }
+                  }
+                }
+              },
+              {
+                "id": "tools_react_native_test_app",
+                "entity": {
+                  "name": "React Native Test App",
+                  "nameClean": "React Native Test App",
+                  "entityType": "default"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 1,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "neutral",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 61.9
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 61.9
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 61.9,
+                      "total": 21
+                    }
+                  }
+                }
+              },
+              {
+                "id": "tools_rnx_kit",
+                "entity": {
+                  "name": "rnx-kit",
+                  "nameClean": "rnx-kit",
+                  "entityType": "default",
+                  "description": "Modern, scalable tools. Exceptional developer experience.",
+                  "descriptionClean": "Modern, scalable tools. Exceptional developer experience.",
                   "homepage": {
-                    "url": "https://developer.apple.com/xcode/"
+                    "url": "https://microsoft.github.io/rnx-kit/"
                   }
                 },
                 "responses": {
@@ -356,19 +448,6 @@
                     },
                     "buckets": [
                       {
-                        "count": 0,
-                        "id": "never_heard",
-                        "facetBuckets": [
-                          {
-                            "count": 1,
-                            "id": "insufficient_data",
-                            "percentageBucket": 100
-                          }
-                        ],
-                        "percentageQuestion": 0,
-                        "percentageSurvey": 0
-                      },
-                      {
                         "count": 13,
                         "id": "used",
                         "facetBuckets": [
@@ -376,7 +455,7 @@
                             "count": 13,
                             "id": "neutral",
                             "percentageBucket": 100,
-                            "percentageQuestion": 92.86,
+                            "percentageQuestion": 100,
                             "percentageSurvey": 61.9
                           },
                           {
@@ -385,13 +464,54 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 92.86,
+                        "percentageQuestion": 100,
                         "percentageSurvey": 61.9
                       }
                     ],
                     "completion": {
-                      "count": 14,
-                      "percentageSurvey": 66.67,
+                      "count": 13,
+                      "percentageSurvey": 61.9,
+                      "total": 21
+                    }
+                  }
+                }
+              },
+              {
+                "id": "tools_upgrade_helper",
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 1,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "neutral",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 61.9
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 61.9
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 61.9,
                       "total": 21
                     }
                   }

@@ -10,28 +10,31 @@
                 "entity": {
                   "name": "Cordova",
                   "nameClean": "Cordova",
-                  "entityType": "default"
+                  "entityType": "default",
+                  "homepage": {
+                    "url": "https://cordova.apache.org/"
+                  }
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 1,
-                      "interest": 1,
-                      "usage": 0.55,
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
                       "retention": 0,
-                      "positivity": 0.44
+                      "positivity": 0
                     },
                     "buckets": [
                       {
-                        "count": 12,
-                        "id": "heard",
+                        "count": 13,
+                        "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 12,
-                            "id": "positive",
+                            "count": 13,
+                            "id": "neutral",
                             "percentageBucket": 100,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 61.9
                           },
                           {
                             "count": 0,
@@ -39,34 +42,14 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 44.44,
-                        "percentageSurvey": 42.86
-                      },
-                      {
-                        "count": 15,
-                        "id": "used",
-                        "facetBuckets": [
-                          {
-                            "count": 15,
-                            "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 55.56,
-                        "percentageSurvey": 53.57
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 61.9
                       }
                     ],
                     "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
+                      "count": 13,
+                      "percentageSurvey": 61.9,
+                      "total": 21
                     }
                   }
                 }
@@ -78,48 +61,31 @@
                   "nameClean": "Flutter",
                   "entityType": "default",
                   "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
-                  "descriptionClean": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond"
+                  "descriptionClean": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+                  "homepage": {
+                    "url": "https://flutter.dev/"
+                  }
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
                       "awareness": 1,
-                      "interest": 1,
-                      "usage": 0.55,
+                      "interest": 0,
+                      "usage": 1,
                       "retention": 0,
-                      "positivity": 0.44
+                      "positivity": 0
                     },
                     "buckets": [
                       {
-                        "count": 12,
-                        "id": "heard",
-                        "facetBuckets": [
-                          {
-                            "count": 12,
-                            "id": "positive",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 44.44,
-                        "percentageSurvey": 42.86
-                      },
-                      {
-                        "count": 15,
+                        "count": 13,
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 15,
-                            "id": "negative",
+                            "count": 13,
+                            "id": "neutral",
                             "percentageBucket": 100,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 61.9
                           },
                           {
                             "count": 0,
@@ -127,14 +93,14 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 55.56,
-                        "percentageSurvey": 53.57
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 61.9
                       }
                     ],
                     "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
+                      "count": 13,
+                      "percentageSurvey": 61.9,
+                      "total": 21
                     }
                   }
                 }
@@ -146,12 +112,15 @@
                   "nameClean": "Ionic",
                   "entityType": "default",
                   "description": "A powerful cross-platform UI toolkit for building native-quality iOS, Android, and Progressive Web Apps with HTML, CSS, and JavaScript.",
-                  "descriptionClean": "A powerful cross-platform UI toolkit for building native-quality iOS, Android, and Progressive Web Apps with HTML, CSS, and JavaScript."
+                  "descriptionClean": "A powerful cross-platform UI toolkit for building native-quality iOS, Android, and Progressive Web Apps with HTML, CSS, and JavaScript.",
+                  "homepage": {
+                    "url": "https://ionicframework.com/"
+                  }
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 0.55,
+                      "awareness": 0,
                       "interest": 0,
                       "usage": 0,
                       "retention": 0,
@@ -159,15 +128,15 @@
                     },
                     "buckets": [
                       {
-                        "count": 12,
+                        "count": 13,
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 12,
-                            "id": "negative",
+                            "count": 13,
+                            "id": "neutral",
                             "percentageBucket": 100,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 61.9
                           },
                           {
                             "count": 0,
@@ -175,34 +144,14 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 44.44,
-                        "percentageSurvey": 42.86
-                      },
-                      {
-                        "count": 15,
-                        "id": "heard",
-                        "facetBuckets": [
-                          {
-                            "count": 15,
-                            "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 55.56,
-                        "percentageSurvey": 53.57
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 61.9
                       }
                     ],
                     "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
+                      "count": 13,
+                      "percentageSurvey": 61.9,
+                      "total": 21
                     }
                   }
                 }
@@ -214,28 +163,31 @@
                   "nameClean": "Jetpack Compose",
                   "entityType": "default",
                   "description": "Build better apps faster with Jetpack Compose",
-                  "descriptionClean": "Build better apps faster with Jetpack Compose"
+                  "descriptionClean": "Build better apps faster with Jetpack Compose",
+                  "homepage": {
+                    "url": "https://developer.android.com/jetpack/compose"
+                  }
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 0.55,
+                      "awareness": 1,
                       "interest": 0,
-                      "usage": 0.55,
+                      "usage": 0,
                       "retention": 0,
-                      "positivity": 0.44
+                      "positivity": 0
                     },
                     "buckets": [
                       {
-                        "count": 12,
-                        "id": "never_heard",
+                        "count": 13,
+                        "id": "heard",
                         "facetBuckets": [
                           {
-                            "count": 12,
-                            "id": "positive",
+                            "count": 13,
+                            "id": "neutral",
                             "percentageBucket": 100,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 61.9
                           },
                           {
                             "count": 0,
@@ -243,34 +195,14 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 44.44,
-                        "percentageSurvey": 42.86
-                      },
-                      {
-                        "count": 15,
-                        "id": "used",
-                        "facetBuckets": [
-                          {
-                            "count": 15,
-                            "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 55.56,
-                        "percentageSurvey": 53.57
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 61.9
                       }
                     ],
                     "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
+                      "count": 13,
+                      "percentageSurvey": 61.9,
+                      "total": 21
                     }
                   }
                 }
@@ -282,35 +214,31 @@
                   "nameClean": "Kotlin Multiplatform Mobile",
                   "entityType": "default",
                   "description": "Share the logic of your iOS and Android apps while keeping the UX native",
-                  "descriptionClean": "Share the logic of your iOS and Android apps while keeping the UX native"
+                  "descriptionClean": "Share the logic of your iOS and Android apps while keeping the UX native",
+                  "homepage": {
+                    "url": "https://kotlinlang.org/lp/mobile/"
+                  }
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 1,
+                      "awareness": 0,
                       "interest": 0,
-                      "usage": 1,
-                      "retention": 0.44,
-                      "positivity": 0.44
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 0
                     },
                     "buckets": [
                       {
-                        "count": 27,
-                        "id": "used",
+                        "count": 13,
+                        "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 12,
-                            "id": "positive",
-                            "percentageBucket": 44.44,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
-                          },
-                          {
-                            "count": 15,
-                            "id": "negative",
-                            "percentageBucket": 55.56,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
+                            "count": 13,
+                            "id": "neutral",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 61.9
                           },
                           {
                             "count": 0,
@@ -319,13 +247,13 @@
                           }
                         ],
                         "percentageQuestion": 100,
-                        "percentageSurvey": 96.43
+                        "percentageSurvey": 61.9
                       }
                     ],
                     "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
+                      "count": 13,
+                      "percentageSurvey": 61.9,
+                      "total": 21
                     }
                   }
                 }
@@ -335,28 +263,31 @@
                 "entity": {
                   "name": "SwiftUI",
                   "nameClean": "SwiftUI",
-                  "entityType": "default"
+                  "entityType": "default",
+                  "homepage": {
+                    "url": "https://developer.apple.com/xcode/swiftui/"
+                  }
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 1,
+                      "awareness": 0,
                       "interest": 0,
-                      "usage": 1,
+                      "usage": 0,
                       "retention": 0,
                       "positivity": 0
                     },
                     "buckets": [
                       {
-                        "count": 27,
-                        "id": "used",
+                        "count": 13,
+                        "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 27,
-                            "id": "negative",
+                            "count": 13,
+                            "id": "neutral",
                             "percentageBucket": 100,
                             "percentageQuestion": 100,
-                            "percentageSurvey": 96.43
+                            "percentageSurvey": 61.9
                           },
                           {
                             "count": 0,
@@ -365,13 +296,13 @@
                           }
                         ],
                         "percentageQuestion": 100,
-                        "percentageSurvey": 96.43
+                        "percentageSurvey": 61.9
                       }
                     ],
                     "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
+                      "count": 13,
+                      "percentageSurvey": 61.9,
+                      "total": 21
                     }
                   }
                 }
@@ -383,62 +314,10 @@
                   "nameClean": "Xamarin",
                   "entityType": "default",
                   "description": "An app platform for building Android and iOS apps with .NET and C#.",
-                  "descriptionClean": "An app platform for building Android and iOS apps with .NET and C#."
-                },
-                "responses": {
-                  "currentEdition": {
-                    "ratios": {
-                      "awareness": 1,
-                      "interest": 0.44,
-                      "usage": 0,
-                      "retention": 0,
-                      "positivity": 0.44
-                    },
-                    "buckets": [
-                      {
-                        "count": 27,
-                        "id": "heard",
-                        "facetBuckets": [
-                          {
-                            "count": 15,
-                            "id": "negative",
-                            "percentageBucket": 55.56,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
-                          },
-                          {
-                            "count": 12,
-                            "id": "positive",
-                            "percentageBucket": 44.44,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 100,
-                        "percentageSurvey": 96.43
-                      }
-                    ],
-                    "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
-                    }
+                  "descriptionClean": "An app platform for building Android and iOS apps with .NET and C#.",
+                  "homepage": {
+                    "url": "https://dotnet.microsoft.com/apps/xamarin"
                   }
-                }
-              },
-              {
-                "id": "react_native_alternatives_native_script",
-                "entity": {
-                  "name": "NativeScript",
-                  "nameClean": "NativeScript",
-                  "entityType": "default",
-                  "description": "⚡ Empowering JavaScript with native platform APIs. ✨ Best of all worlds (TypeScript, Swift, Objective C, Kotlin, Java). Use what you love ❤️ Angular, Capacitor, Ionic, React, Svelte, Vue and you name it compatible.",
-                  "descriptionClean": "⚡ Empowering JavaScript with native platform APIs. ✨ Best of all worlds (TypeScript, Swift, Objective C, Kotlin, Java). Use what you love ❤️ Angular, Capacitor, Ionic, React, Svelte, Vue and you name it compatible."
                 },
                 "responses": {
                   "currentEdition": {
@@ -451,15 +330,15 @@
                     },
                     "buckets": [
                       {
-                        "count": 27,
+                        "count": 13,
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 27,
-                            "id": "negative",
+                            "count": 13,
+                            "id": "neutral",
                             "percentageBucket": 100,
                             "percentageQuestion": 100,
-                            "percentageSurvey": 96.43
+                            "percentageSurvey": 61.9
                           },
                           {
                             "count": 0,
@@ -468,13 +347,64 @@
                           }
                         ],
                         "percentageQuestion": 100,
-                        "percentageSurvey": 96.43
+                        "percentageSurvey": 61.9
                       }
                     ],
                     "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
+                      "count": 13,
+                      "percentageSurvey": 61.9,
+                      "total": 21
+                    }
+                  }
+                }
+              },
+              {
+                "id": "react_native_alternatives_native_script",
+                "entity": {
+                  "name": "NativeScript",
+                  "nameClean": "NativeScript",
+                  "entityType": "default",
+                  "description": "⚡ Empowering JavaScript with native platform APIs. ✨ Best of all worlds (TypeScript, Swift, Objective C, Kotlin, Java). Use what you love ❤️ Angular, Capacitor, Ionic, React, Svelte, Vue and you name it compatible.",
+                  "descriptionClean": "⚡ Empowering JavaScript with native platform APIs. ✨ Best of all worlds (TypeScript, Swift, Objective C, Kotlin, Java). Use what you love ❤️ Angular, Capacitor, Ionic, React, Svelte, Vue and you name it compatible.",
+                  "homepage": {
+                    "url": "https://nativescript.org/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "neutral",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 61.9
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 61.9
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 61.9,
+                      "total": 21
                     }
                   }
                 }

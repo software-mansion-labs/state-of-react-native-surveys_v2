@@ -3,8 +3,8 @@
     "surveys": {
       "state_of_react_native": {
         "rn2024": {
-          "resources": {
-            "resources_podcast_multiple": {
+          "rn_tools": {
+            "tools_package_managers": {
               "responses": {
                 "currentEdition": {
                   "completion": {
@@ -15,16 +15,21 @@
                   "buckets": [
                     {
                       "count": 13,
-                      "id": "resources_podcast_multiple_the_changelog",
+                      "id": "tools_package_managers_npm",
                       "percentageQuestion": 100,
                       "percentageSurvey": 61.9,
                       "entity": {
-                        "name": "The Changelog",
-                        "nameClean": "The Changelog",
-                        "id": "resources_podcast_multiple_the_changelog",
+                        "name": "npm",
+                        "nameClean": "npm",
+                        "description": "the package manager for JavaScript",
+                        "descriptionClean": "the package manager for JavaScript",
+                        "id": "tools_package_managers_npm",
                         "entityType": "default",
                         "homepage": {
-                          "url": "https://changelog.com/"
+                          "url": "https://docs.npmjs.com/cli"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/npm"
                         }
                       }
                     },

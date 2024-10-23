@@ -10,30 +10,33 @@
                 "entity": {
                   "name": "Dripsy",
                   "nameClean": "Dripsy",
-                  "entityType": "feature",
+                  "entityType": "library",
                   "description": "🍷 Responsive, unstyled UI primitives for React Native + Web.",
-                  "descriptionClean": "🍷 Responsive, unstyled UI primitives for React Native + Web."
+                  "descriptionClean": "🍷 Responsive, unstyled UI primitives for React Native + Web.",
+                  "homepage": {
+                    "url": "https://www.dripsy.xyz/"
+                  }
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 0.55,
+                      "awareness": 0,
                       "interest": 0,
-                      "usage": 0.55,
+                      "usage": 0,
                       "retention": 0,
-                      "positivity": 0.44
+                      "positivity": 0
                     },
                     "buckets": [
                       {
-                        "count": 12,
+                        "count": 15,
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 12,
-                            "id": "positive",
+                            "count": 15,
+                            "id": "neutral",
                             "percentageBucket": 100,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
+                            "percentageQuestion": 93.75,
+                            "percentageSurvey": 71.43
                           },
                           {
                             "count": 0,
@@ -41,34 +44,27 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 44.44,
-                        "percentageSurvey": 42.86
+                        "percentageQuestion": 93.75,
+                        "percentageSurvey": 71.43
                       },
                       {
-                        "count": 15,
-                        "id": "used",
+                        "count": 0,
+                        "id": "heard",
                         "facetBuckets": [
                           {
-                            "count": 15,
-                            "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
-                          },
-                          {
-                            "count": 0,
+                            "count": 1,
                             "id": "insufficient_data",
-                            "percentageBucket": 0
+                            "percentageBucket": 100
                           }
                         ],
-                        "percentageQuestion": 55.56,
-                        "percentageSurvey": 53.57
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
                       }
                     ],
                     "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
+                      "count": 16,
+                      "percentageSurvey": 76.19,
+                      "total": 21
                     }
                   }
                 }
@@ -78,35 +74,28 @@
                 "entity": {
                   "name": "Emotion",
                   "nameClean": "Emotion",
-                  "entityType": "feature"
+                  "entityType": "library"
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 1,
-                      "interest": 0.44,
+                      "awareness": 0,
+                      "interest": 0,
                       "usage": 0,
                       "retention": 0,
-                      "positivity": 0.44
+                      "positivity": 0
                     },
                     "buckets": [
                       {
-                        "count": 27,
-                        "id": "heard",
+                        "count": 15,
+                        "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 12,
-                            "id": "positive",
-                            "percentageBucket": 44.44,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
-                          },
-                          {
                             "count": 15,
-                            "id": "negative",
-                            "percentageBucket": 55.56,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
+                            "id": "neutral",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 93.75,
+                            "percentageSurvey": 71.43
                           },
                           {
                             "count": 0,
@@ -114,14 +103,27 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 100,
-                        "percentageSurvey": 96.43
+                        "percentageQuestion": 93.75,
+                        "percentageSurvey": 71.43
+                      },
+                      {
+                        "count": 0,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 1,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
                       }
                     ],
                     "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
+                      "count": 16,
+                      "percentageSurvey": 76.19,
+                      "total": 21
                     }
                   }
                 }
@@ -131,7 +133,7 @@
                 "entity": {
                   "name": "gluestack-style",
                   "nameClean": "gluestack-style",
-                  "entityType": "feature",
+                  "entityType": "library",
                   "description": "Universal and Performant Styling library for React Native, Next.js, Expo & React",
                   "descriptionClean": "Universal and Performant Styling library for React Native, Next.js, Expo  React",
                   "descriptionHtml": "Universal and Performant Styling library for React Native, Next.js, Expo &amp; React"
@@ -139,7 +141,7 @@
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 0.44,
+                      "awareness": 0,
                       "interest": 0,
                       "usage": 0,
                       "retention": 0,
@@ -147,15 +149,15 @@
                     },
                     "buckets": [
                       {
-                        "count": 15,
+                        "count": 14,
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 15,
-                            "id": "negative",
+                            "count": 14,
+                            "id": "neutral",
                             "percentageBucket": 100,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
+                            "percentageQuestion": 87.5,
+                            "percentageSurvey": 66.67
                           },
                           {
                             "count": 0,
@@ -163,34 +165,40 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 55.56,
-                        "percentageSurvey": 53.57
+                        "percentageQuestion": 87.5,
+                        "percentageSurvey": 66.67
                       },
                       {
-                        "count": 12,
-                        "id": "heard",
+                        "count": 0,
+                        "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 12,
-                            "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
-                          },
-                          {
-                            "count": 0,
+                            "count": 1,
                             "id": "insufficient_data",
-                            "percentageBucket": 0
+                            "percentageBucket": 100
                           }
                         ],
-                        "percentageQuestion": 44.44,
-                        "percentageSurvey": 42.86
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
+                      },
+                      {
+                        "count": 0,
+                        "id": "interested",
+                        "facetBuckets": [
+                          {
+                            "count": 1,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
                       }
                     ],
                     "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
+                      "count": 16,
+                      "percentageSurvey": 76.19,
+                      "total": 21
                     }
                   }
                 }
@@ -200,35 +208,28 @@
                 "entity": {
                   "name": "Inline styling",
                   "nameClean": "Inline styling",
-                  "entityType": "feature"
+                  "entityType": "library"
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 1,
+                      "awareness": 0,
                       "interest": 0,
-                      "usage": 1,
-                      "retention": 0.44,
-                      "positivity": 0.44
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 0
                     },
                     "buckets": [
                       {
-                        "count": 27,
-                        "id": "used",
+                        "count": 14,
+                        "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 12,
-                            "id": "positive",
-                            "percentageBucket": 44.44,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
-                          },
-                          {
-                            "count": 15,
-                            "id": "negative",
-                            "percentageBucket": 55.56,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
+                            "count": 14,
+                            "id": "neutral",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 87.5,
+                            "percentageSurvey": 66.67
                           },
                           {
                             "count": 0,
@@ -236,14 +237,40 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 100,
-                        "percentageSurvey": 96.43
+                        "percentageQuestion": 87.5,
+                        "percentageSurvey": 66.67
+                      },
+                      {
+                        "count": 0,
+                        "id": "would_not_use",
+                        "facetBuckets": [
+                          {
+                            "count": 1,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
+                      },
+                      {
+                        "count": 0,
+                        "id": "would_use",
+                        "facetBuckets": [
+                          {
+                            "count": 1,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
                       }
                     ],
                     "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
+                      "count": 16,
+                      "percentageSurvey": 76.19,
+                      "total": 21
                     }
                   }
                 }
@@ -253,14 +280,17 @@
                 "entity": {
                   "name": "NativeWind",
                   "nameClean": "NativeWind",
-                  "entityType": "feature",
+                  "entityType": "library",
                   "description": "React Native utility-first universal design system - powered by Tailwind CSS",
-                  "descriptionClean": "React Native utility-first universal design system - powered by Tailwind CSS"
+                  "descriptionClean": "React Native utility-first universal design system - powered by Tailwind CSS",
+                  "homepage": {
+                    "url": "https://www.nativewind.dev/"
+                  }
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 0.44,
+                      "awareness": 0,
                       "interest": 0,
                       "usage": 0,
                       "retention": 0,
@@ -268,35 +298,15 @@
                     },
                     "buckets": [
                       {
-                        "count": 15,
+                        "count": 14,
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 15,
-                            "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 55.56,
-                        "percentageSurvey": 53.57
-                      },
-                      {
-                        "count": 12,
-                        "id": "heard",
-                        "facetBuckets": [
-                          {
-                            "count": 12,
+                            "count": 14,
                             "id": "neutral",
                             "percentageBucket": 100,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
+                            "percentageQuestion": 87.5,
+                            "percentageSurvey": 66.67
                           },
                           {
                             "count": 0,
@@ -304,14 +314,27 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 44.44,
-                        "percentageSurvey": 42.86
+                        "percentageQuestion": 87.5,
+                        "percentageSurvey": 66.67
+                      },
+                      {
+                        "count": 0,
+                        "id": "interested",
+                        "facetBuckets": [
+                          {
+                            "count": 2,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
                       }
                     ],
                     "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
+                      "count": 16,
+                      "percentageSurvey": 76.19,
+                      "total": 21
                     }
                   }
                 }
@@ -321,14 +344,14 @@
                 "entity": {
                   "name": "react-native-unistyles",
                   "nameClean": "react-native-unistyles",
-                  "entityType": "feature",
+                  "entityType": "library",
                   "description": "Universal styling for React Native and React Native Web",
                   "descriptionClean": "Universal styling for React Native and React Native Web"
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 0.55,
+                      "awareness": 0,
                       "interest": 0,
                       "usage": 0,
                       "retention": 0,
@@ -336,15 +359,15 @@
                     },
                     "buckets": [
                       {
-                        "count": 12,
+                        "count": 15,
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 12,
-                            "id": "negative",
+                            "count": 15,
+                            "id": "neutral",
                             "percentageBucket": 100,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
+                            "percentageQuestion": 93.75,
+                            "percentageSurvey": 71.43
                           },
                           {
                             "count": 0,
@@ -352,34 +375,27 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 44.44,
-                        "percentageSurvey": 42.86
+                        "percentageQuestion": 93.75,
+                        "percentageSurvey": 71.43
                       },
                       {
-                        "count": 15,
+                        "count": 0,
                         "id": "heard",
                         "facetBuckets": [
                           {
-                            "count": 15,
-                            "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
-                          },
-                          {
-                            "count": 0,
+                            "count": 1,
                             "id": "insufficient_data",
-                            "percentageBucket": 0
+                            "percentageBucket": 100
                           }
                         ],
-                        "percentageQuestion": 55.56,
-                        "percentageSurvey": 53.57
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
                       }
                     ],
                     "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
+                      "count": 16,
+                      "percentageSurvey": 76.19,
+                      "total": 21
                     }
                   }
                 }
@@ -389,50 +405,33 @@
                 "entity": {
                   "name": "Restyle",
                   "nameClean": "Restyle",
-                  "entityType": "feature",
+                  "entityType": "library",
                   "description": "A type-enforced system for building UI components in React Native with TypeScript.",
-                  "descriptionClean": "A type-enforced system for building UI components in React Native with TypeScript."
+                  "descriptionClean": "A type-enforced system for building UI components in React Native with TypeScript.",
+                  "homepage": {
+                    "url": "https://shopify.github.io/restyle/"
+                  }
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 0.55,
+                      "awareness": 0,
                       "interest": 0,
-                      "usage": 0.55,
+                      "usage": 0,
                       "retention": 0,
                       "positivity": 0
                     },
                     "buckets": [
                       {
-                        "count": 12,
+                        "count": 15,
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 12,
-                            "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 44.44,
-                        "percentageSurvey": 42.86
-                      },
-                      {
-                        "count": 15,
-                        "id": "used",
-                        "facetBuckets": [
-                          {
                             "count": 15,
-                            "id": "negative",
+                            "id": "neutral",
                             "percentageBucket": 100,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 71.43
                           },
                           {
                             "count": 0,
@@ -440,14 +439,14 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 55.56,
-                        "percentageSurvey": 53.57
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 71.43
                       }
                     ],
                     "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
+                      "count": 15,
+                      "percentageSurvey": 71.43,
+                      "total": 21
                     }
                   }
                 }
@@ -457,35 +456,31 @@
                 "entity": {
                   "name": "StyleSheet API",
                   "nameClean": "StyleSheet API",
-                  "entityType": "feature"
+                  "entityType": "library",
+                  "homepage": {
+                    "url": "https://reactnative.dev/docs/stylesheet"
+                  }
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 1,
-                      "interest": 0.44,
+                      "awareness": 0,
+                      "interest": 0,
                       "usage": 0,
                       "retention": 0,
-                      "positivity": 0.44
+                      "positivity": 0
                     },
                     "buckets": [
                       {
-                        "count": 27,
-                        "id": "heard",
+                        "count": 13,
+                        "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 12,
-                            "id": "positive",
-                            "percentageBucket": 44.44,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
-                          },
-                          {
-                            "count": 15,
-                            "id": "negative",
-                            "percentageBucket": 55.56,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
+                            "count": 13,
+                            "id": "neutral",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 81.25,
+                            "percentageSurvey": 61.9
                           },
                           {
                             "count": 0,
@@ -493,14 +488,40 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 100,
-                        "percentageSurvey": 96.43
+                        "percentageQuestion": 81.25,
+                        "percentageSurvey": 61.9
+                      },
+                      {
+                        "count": 0,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 1,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
+                      },
+                      {
+                        "count": 0,
+                        "id": "would_use",
+                        "facetBuckets": [
+                          {
+                            "count": 2,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
                       }
                     ],
                     "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
+                      "count": 16,
+                      "percentageSurvey": 76.19,
+                      "total": 21
                     }
                   }
                 }
@@ -510,65 +531,64 @@
                 "entity": {
                   "name": "styled components",
                   "nameClean": "styled components",
-                  "entityType": "feature",
+                  "entityType": "library",
                   "description": "Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress 💅",
-                  "descriptionClean": "Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress 💅"
+                  "descriptionClean": "Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress 💅",
+                  "homepage": {
+                    "url": "https://styled-components.com/docs/basics#react-native"
+                  }
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 0.44,
                       "interest": 0,
-                      "usage": 0.44,
-                      "retention": 0,
-                      "positivity": 0
+                      "retention": 0
                     },
                     "buckets": [
                       {
-                        "count": 15,
-                        "id": "never_heard",
+                        "count": 0,
+                        "id": "heard",
                         "facetBuckets": [
                           {
-                            "count": 15,
-                            "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
-                          },
-                          {
-                            "count": 0,
+                            "count": 1,
                             "id": "insufficient_data",
-                            "percentageBucket": 0
+                            "percentageBucket": 100
                           }
                         ],
-                        "percentageQuestion": 55.56,
-                        "percentageSurvey": 53.57
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
                       },
                       {
-                        "count": 12,
-                        "id": "used",
+                        "count": 0,
+                        "id": "would_use",
                         "facetBuckets": [
                           {
-                            "count": 12,
-                            "id": "neutral",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
-                          },
-                          {
-                            "count": 0,
+                            "count": 1,
                             "id": "insufficient_data",
-                            "percentageBucket": 0
+                            "percentageBucket": 100
                           }
                         ],
-                        "percentageQuestion": 44.44,
-                        "percentageSurvey": 42.86
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
+                      },
+                      {
+                        "count": 0,
+                        "id": "would_not_use",
+                        "facetBuckets": [
+                          {
+                            "count": 1,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
                       }
                     ],
                     "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
+                      "count": 3,
+                      "percentageSurvey": 14.29,
+                      "total": 21
                     }
                   }
                 }
@@ -578,50 +598,30 @@
                 "entity": {
                   "name": "tailwind-rn",
                   "nameClean": "tailwind-rn",
-                  "entityType": "feature",
+                  "entityType": "library",
                   "description": "🦎 Use Tailwind CSS in React Native projects",
                   "descriptionClean": "🦎 Use Tailwind CSS in React Native projects"
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 1,
+                      "awareness": 0,
                       "interest": 0,
-                      "usage": 0.55,
+                      "usage": 0,
                       "retention": 0,
                       "positivity": 0
                     },
                     "buckets": [
                       {
-                        "count": 12,
-                        "id": "heard",
-                        "facetBuckets": [
-                          {
-                            "count": 12,
-                            "id": "neutral",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 44.44,
-                        "percentageSurvey": 42.86
-                      },
-                      {
                         "count": 15,
-                        "id": "used",
+                        "id": "never_heard",
                         "facetBuckets": [
                           {
                             "count": 15,
-                            "id": "negative",
+                            "id": "neutral",
                             "percentageBucket": 100,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
+                            "percentageQuestion": 93.75,
+                            "percentageSurvey": 71.43
                           },
                           {
                             "count": 0,
@@ -629,14 +629,27 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 55.56,
-                        "percentageSurvey": 53.57
+                        "percentageQuestion": 93.75,
+                        "percentageSurvey": 71.43
+                      },
+                      {
+                        "count": 0,
+                        "id": "interested",
+                        "facetBuckets": [
+                          {
+                            "count": 1,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
                       }
                     ],
                     "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
+                      "count": 16,
+                      "percentageSurvey": 76.19,
+                      "total": 21
                     }
                   }
                 }
@@ -646,55 +659,12 @@
                 "entity": {
                   "name": "Tamagui",
                   "nameClean": "Tamagui",
-                  "entityType": "feature",
+                  "entityType": "library",
                   "description": "Universal UI kit and style system for React Native + Web - with an optimizing compiler 🚄",
-                  "descriptionClean": "Universal UI kit and style system for React Native + Web - with an optimizing compiler 🚄"
-                },
-                "responses": {
-                  "currentEdition": {
-                    "ratios": {
-                      "awareness": 1,
-                      "interest": 0,
-                      "usage": 0,
-                      "retention": 0,
-                      "positivity": 0
-                    },
-                    "buckets": [
-                      {
-                        "count": 27,
-                        "id": "heard",
-                        "facetBuckets": [
-                          {
-                            "count": 27,
-                            "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 100,
-                            "percentageSurvey": 96.43
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 100,
-                        "percentageSurvey": 96.43
-                      }
-                    ],
-                    "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
-                    }
+                  "descriptionClean": "Universal UI kit and style system for React Native + Web - with an optimizing compiler 🚄",
+                  "homepage": {
+                    "url": "https://tamagui.dev/"
                   }
-                }
-              },
-              {
-                "id": "styling_techniques_twrnc",
-                "entity": {
-                  "name": "Tailwind React Native Classnames (twrnc)",
-                  "nameClean": "Tailwind React Native Classnames (twrnc)",
-                  "entityType": "feature"
                 },
                 "responses": {
                   "currentEdition": {
@@ -703,26 +673,19 @@
                       "interest": 0,
                       "usage": 0,
                       "retention": 0,
-                      "positivity": 0.44
+                      "positivity": 0
                     },
                     "buckets": [
                       {
-                        "count": 27,
+                        "count": 15,
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 12,
-                            "id": "positive",
-                            "percentageBucket": 44.44,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
-                          },
-                          {
                             "count": 15,
-                            "id": "negative",
-                            "percentageBucket": 55.56,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
+                            "id": "neutral",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 93.75,
+                            "percentageSurvey": 71.43
                           },
                           {
                             "count": 0,
@@ -730,14 +693,88 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 100,
-                        "percentageSurvey": 96.43
+                        "percentageQuestion": 93.75,
+                        "percentageSurvey": 71.43
+                      },
+                      {
+                        "count": 0,
+                        "id": "interested",
+                        "facetBuckets": [
+                          {
+                            "count": 1,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
                       }
                     ],
                     "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
+                      "count": 16,
+                      "percentageSurvey": 76.19,
+                      "total": 21
+                    }
+                  }
+                }
+              },
+              {
+                "id": "styling_techniques_twrnc",
+                "entity": {
+                  "name": "twrnc",
+                  "nameClean": "twrnc",
+                  "entityType": "library",
+                  "description": "Tailwind React Native Classnames",
+                  "descriptionClean": "Tailwind React Native Classnames"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 15,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 15,
+                            "id": "neutral",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 93.75,
+                            "percentageSurvey": 71.43
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 93.75,
+                        "percentageSurvey": 71.43
+                      },
+                      {
+                        "count": 0,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 1,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
+                      }
+                    ],
+                    "completion": {
+                      "count": 16,
+                      "percentageSurvey": 76.19,
+                      "total": 21
                     }
                   }
                 }

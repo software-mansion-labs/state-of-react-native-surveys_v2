@@ -11,68 +11,13 @@
                   "name": "console API",
                   "nameClean": "console API",
                   "entityType": "default",
+                  "homepage": {
+                    "url": "https://developer.mozilla.org/en-US/docs/Web/API/console"
+                  },
                   "example": {
                     "language": "jsx",
                     "code": "console.log(\"Hello React Native! 😊\")\n",
                     "codeHighlighted": "<span class=\"hljs-variable language_\">console</span>.<span class=\"hljs-title function_\">log</span>(<span class=\"hljs-string\">&quot;Hello React Native! 😊&quot;</span>)"
-                  }
-                },
-                "responses": {
-                  "currentEdition": {
-                    "ratios": {
-                      "awareness": 1,
-                      "interest": 1,
-                      "usage": 0.55,
-                      "retention": 0,
-                      "positivity": 0.44
-                    },
-                    "buckets": [
-                      {
-                        "count": 12,
-                        "id": "heard",
-                        "facetBuckets": [
-                          {
-                            "count": 12,
-                            "id": "positive",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 44.44,
-                        "percentageSurvey": 42.86
-                      },
-                      {
-                        "count": 15,
-                        "id": "used",
-                        "facetBuckets": [
-                          {
-                            "count": 15,
-                            "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 55.56,
-                        "percentageSurvey": 53.57
-                      }
-                    ],
-                    "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
-                    }
                   }
                 }
               },
@@ -83,44 +28,9 @@
                   "nameClean": "Remote JavaScript Debugging",
                   "entityType": "default",
                   "description": "Deprecated since React Native 0.73. Remote JavaScript Debugging connects an external web browser (Chrome) to your app and runs your JavaScript code inside a web page.",
-                  "descriptionClean": "Deprecated since React Native 0.73. Remote JavaScript Debugging connects an external web browser (Chrome) to your app and runs your JavaScript code inside a web page."
-                },
-                "responses": {
-                  "currentEdition": {
-                    "ratios": {
-                      "awareness": 1,
-                      "interest": 0,
-                      "usage": 0,
-                      "retention": 0,
-                      "positivity": 0
-                    },
-                    "buckets": [
-                      {
-                        "count": 27,
-                        "id": "heard",
-                        "facetBuckets": [
-                          {
-                            "count": 27,
-                            "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 100,
-                            "percentageSurvey": 96.43
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 100,
-                        "percentageSurvey": 96.43
-                      }
-                    ],
-                    "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
-                    }
+                  "descriptionClean": "Deprecated since React Native 0.73. Remote JavaScript Debugging connects an external web browser (Chrome) to your app and runs your JavaScript code inside a web page.",
+                  "homepage": {
+                    "url": "https://reactnative.dev/docs/other-debugging-methods#remote-javascript-debugging-deprecated"
                   }
                 }
               },
@@ -131,64 +41,9 @@
                   "nameClean": "Hermes Debugger",
                   "entityType": "default",
                   "description": "Available starting with React Native 0.73. Debug JavaScript code on the device via Hermes that supports Chrome DevTools Protocol.",
-                  "descriptionClean": "Available starting with React Native 0.73. Debug JavaScript code on the device via Hermes that supports Chrome DevTools Protocol."
-                },
-                "responses": {
-                  "currentEdition": {
-                    "ratios": {
-                      "awareness": 1,
-                      "interest": 1,
-                      "usage": 0.55,
-                      "retention": 0,
-                      "positivity": 0.44
-                    },
-                    "buckets": [
-                      {
-                        "count": 12,
-                        "id": "heard",
-                        "facetBuckets": [
-                          {
-                            "count": 12,
-                            "id": "positive",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 44.44,
-                        "percentageSurvey": 42.86
-                      },
-                      {
-                        "count": 15,
-                        "id": "used",
-                        "facetBuckets": [
-                          {
-                            "count": 15,
-                            "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 55.56,
-                        "percentageSurvey": 53.57
-                      }
-                    ],
-                    "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
-                    }
+                  "descriptionClean": "Available starting with React Native 0.73. Debug JavaScript code on the device via Hermes that supports Chrome DevTools Protocol.",
+                  "homepage": {
+                    "url": "https://reactnative.dev/docs/debugging?js-debugger=hermes#opening-the-debugger"
                   }
                 }
               },
@@ -200,64 +55,9 @@
                   "entityType": "default",
                   "description": "Use Safari to debug the iOS version of your app when using JavaScriptCore (JSC) as your app's runtime.",
                   "descriptionClean": "Use Safari to debug the iOS version of your app when using JavaScriptCore (JSC) as your app's runtime.",
-                  "descriptionHtml": "Use Safari to debug the iOS version of your app when using JavaScriptCore (JSC) as your app's runtime."
-                },
-                "responses": {
-                  "currentEdition": {
-                    "ratios": {
-                      "awareness": 0.44,
-                      "interest": 0,
-                      "usage": 0,
-                      "retention": 0,
-                      "positivity": 0
-                    },
-                    "buckets": [
-                      {
-                        "count": 15,
-                        "id": "never_heard",
-                        "facetBuckets": [
-                          {
-                            "count": 15,
-                            "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 55.56,
-                        "percentageSurvey": 53.57
-                      },
-                      {
-                        "count": 12,
-                        "id": "heard",
-                        "facetBuckets": [
-                          {
-                            "count": 12,
-                            "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 44.44,
-                        "percentageSurvey": 42.86
-                      }
-                    ],
-                    "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
-                    }
+                  "descriptionHtml": "Use Safari to debug the iOS version of your app when using JavaScriptCore (JSC) as your app's runtime.",
+                  "homepage": {
+                    "url": "https://reactnative.dev/docs/other-debugging-methods#safari-developer-tools-direct-jsc-debugging"
                   }
                 }
               },
@@ -268,64 +68,9 @@
                   "nameClean": "React Native DevTools",
                   "entityType": "default",
                   "description": "Starting with React Native 0.76. New default debugging experience for React Native apps based on Chrome DevTools Protocol with React DevTools included.",
-                  "descriptionClean": "Starting with React Native 0.76. New default debugging experience for React Native apps based on Chrome DevTools Protocol with React DevTools included."
-                },
-                "responses": {
-                  "currentEdition": {
-                    "ratios": {
-                      "awareness": 1,
-                      "interest": 0,
-                      "usage": 0.44,
-                      "retention": 1,
-                      "positivity": 0.44
-                    },
-                    "buckets": [
-                      {
-                        "count": 15,
-                        "id": "heard",
-                        "facetBuckets": [
-                          {
-                            "count": 15,
-                            "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 55.56,
-                        "percentageSurvey": 53.57
-                      },
-                      {
-                        "count": 12,
-                        "id": "used",
-                        "facetBuckets": [
-                          {
-                            "count": 12,
-                            "id": "positive",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 44.44,
-                        "percentageSurvey": 42.86
-                      }
-                    ],
-                    "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
-                    }
+                  "descriptionClean": "Starting with React Native 0.76. New default debugging experience for React Native apps based on Chrome DevTools Protocol with React DevTools included.",
+                  "homepage": {
+                    "url": "https://github.com/react-native-community/discussions-and-proposals/discussions/819"
                   }
                 }
               },
@@ -336,64 +81,9 @@
                   "nameClean": "Experimental New Debugger",
                   "entityType": "default",
                   "description": "Available in React Native 0.73 - 0.75. The preview of the experimental new debugger experience with a new debugger frontend.",
-                  "descriptionClean": "Available in React Native 0.73 - 0.75. The preview of the experimental new debugger experience with a new debugger frontend."
-                },
-                "responses": {
-                  "currentEdition": {
-                    "ratios": {
-                      "awareness": 1,
-                      "interest": 0,
-                      "usage": 0.55,
-                      "retention": 0,
-                      "positivity": 0
-                    },
-                    "buckets": [
-                      {
-                        "count": 12,
-                        "id": "heard",
-                        "facetBuckets": [
-                          {
-                            "count": 12,
-                            "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 44.44,
-                        "percentageSurvey": 42.86
-                      },
-                      {
-                        "count": 15,
-                        "id": "used",
-                        "facetBuckets": [
-                          {
-                            "count": 15,
-                            "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 55.56,
-                        "percentageSurvey": 53.57
-                      }
-                    ],
-                    "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
-                    }
+                  "descriptionClean": "Available in React Native 0.73 - 0.75. The preview of the experimental new debugger experience with a new debugger frontend.",
+                  "homepage": {
+                    "url": "https://github.com/react-native-community/discussions-and-proposals/discussions/733"
                   }
                 }
               },
@@ -405,51 +95,9 @@
                   "entityType": "default",
                   "description": "Components inspector and performance profiler that let's you debug the React component hierarchy within your app.",
                   "descriptionClean": "Components inspector and performance profiler that let's you debug the React component hierarchy within your app.",
-                  "descriptionHtml": "Components inspector and performance profiler that let's you debug the React component hierarchy within your app."
-                },
-                "responses": {
-                  "currentEdition": {
-                    "ratios": {
-                      "awareness": 1,
-                      "interest": 0.44,
-                      "usage": 0,
-                      "retention": 0,
-                      "positivity": 0.44
-                    },
-                    "buckets": [
-                      {
-                        "count": 27,
-                        "id": "heard",
-                        "facetBuckets": [
-                          {
-                            "count": 15,
-                            "id": "negative",
-                            "percentageBucket": 55.56,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
-                          },
-                          {
-                            "count": 12,
-                            "id": "positive",
-                            "percentageBucket": 44.44,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 100,
-                        "percentageSurvey": 96.43
-                      }
-                    ],
-                    "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
-                    }
+                  "descriptionHtml": "Components inspector and performance profiler that let's you debug the React component hierarchy within your app.",
+                  "homepage": {
+                    "url": "https://reactnative.dev/docs/react-devtools"
                   }
                 }
               },
@@ -460,64 +108,9 @@
                   "nameClean": "Element Inspector",
                   "entityType": "default",
                   "description": "The inspector lets you tap on any UI element in the app and see information about it.",
-                  "descriptionClean": "The inspector lets you tap on any UI element in the app and see information about it."
-                },
-                "responses": {
-                  "currentEdition": {
-                    "ratios": {
-                      "awareness": 0.44,
-                      "interest": 0,
-                      "usage": 0,
-                      "retention": 0,
-                      "positivity": 0
-                    },
-                    "buckets": [
-                      {
-                        "count": 15,
-                        "id": "never_heard",
-                        "facetBuckets": [
-                          {
-                            "count": 15,
-                            "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 55.56,
-                        "percentageSurvey": 53.57
-                      },
-                      {
-                        "count": 12,
-                        "id": "heard",
-                        "facetBuckets": [
-                          {
-                            "count": 12,
-                            "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 44.44,
-                        "percentageSurvey": 42.86
-                      }
-                    ],
-                    "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
-                    }
+                  "descriptionClean": "The inspector lets you tap on any UI element in the app and see information about it.",
+                  "homepage": {
+                    "url": "https://reactnative.dev/docs/react-devtools#integration-with-the-element-inspector"
                   }
                 }
               },
@@ -528,51 +121,9 @@
                   "nameClean": "LogBox",
                   "entityType": "default",
                   "description": "Displays console errors and console warnings as the overlay inside your app.",
-                  "descriptionClean": "Displays console errors and console warnings as the overlay inside your app."
-                },
-                "responses": {
-                  "currentEdition": {
-                    "ratios": {
-                      "awareness": 0,
-                      "interest": 0,
-                      "usage": 0,
-                      "retention": 0,
-                      "positivity": 0.44
-                    },
-                    "buckets": [
-                      {
-                        "count": 27,
-                        "id": "never_heard",
-                        "facetBuckets": [
-                          {
-                            "count": 12,
-                            "id": "positive",
-                            "percentageBucket": 44.44,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
-                          },
-                          {
-                            "count": 15,
-                            "id": "negative",
-                            "percentageBucket": 55.56,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 100,
-                        "percentageSurvey": 96.43
-                      }
-                    ],
-                    "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
-                    }
+                  "descriptionClean": "Displays console errors and console warnings as the overlay inside your app.",
+                  "homepage": {
+                    "url": "https://reactnative.dev/docs/debugging#logbox"
                   }
                 }
               },
@@ -583,64 +134,9 @@
                   "nameClean": "Performance Monitor",
                   "entityType": "default",
                   "description": "Displays performance overlay inside your app. Inspect RAM consumption, UI and JS threads FPS and number of views mounted.",
-                  "descriptionClean": "Displays performance overlay inside your app. Inspect RAM consumption, UI and JS threads FPS and number of views mounted."
-                },
-                "responses": {
-                  "currentEdition": {
-                    "ratios": {
-                      "awareness": 0.55,
-                      "interest": 0,
-                      "usage": 0,
-                      "retention": 0,
-                      "positivity": 0.44
-                    },
-                    "buckets": [
-                      {
-                        "count": 12,
-                        "id": "never_heard",
-                        "facetBuckets": [
-                          {
-                            "count": 12,
-                            "id": "positive",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 44.44,
-                        "percentageSurvey": 42.86
-                      },
-                      {
-                        "count": 15,
-                        "id": "heard",
-                        "facetBuckets": [
-                          {
-                            "count": 15,
-                            "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 55.56,
-                        "percentageSurvey": 53.57
-                      }
-                    ],
-                    "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
-                    }
+                  "descriptionClean": "Displays performance overlay inside your app. Inspect RAM consumption, UI and JS threads FPS and number of views mounted.",
+                  "homepage": {
+                    "url": "https://reactnative.dev/docs/performance"
                   }
                 }
               },
@@ -651,64 +147,9 @@
                   "nameClean": "Flipper",
                   "entityType": "default",
                   "description": "Cross-platform debugging tool for mobile apps. Visualize, inspect, and control your apps from a desktop interface, with extensibility via plugins.",
-                  "descriptionClean": "Cross-platform debugging tool for mobile apps. Visualize, inspect, and control your apps from a desktop interface, with extensibility via plugins."
-                },
-                "responses": {
-                  "currentEdition": {
-                    "ratios": {
-                      "awareness": 1,
-                      "interest": 1,
-                      "usage": 0.55,
-                      "retention": 0,
-                      "positivity": 0.44
-                    },
-                    "buckets": [
-                      {
-                        "count": 12,
-                        "id": "heard",
-                        "facetBuckets": [
-                          {
-                            "count": 12,
-                            "id": "positive",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 44.44,
-                        "percentageSurvey": 42.86
-                      },
-                      {
-                        "count": 15,
-                        "id": "used",
-                        "facetBuckets": [
-                          {
-                            "count": 15,
-                            "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 55.56,
-                        "percentageSurvey": 53.57
-                      }
-                    ],
-                    "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
-                    }
+                  "descriptionClean": "Cross-platform debugging tool for mobile apps. Visualize, inspect, and control your apps from a desktop interface, with extensibility via plugins.",
+                  "homepage": {
+                    "url": "https://fbflipper.com/"
                   }
                 }
               },
@@ -719,44 +160,9 @@
                   "nameClean": "Reactotron",
                   "entityType": "default",
                   "description": "A desktop app for inspecting your React JS and React Native projects. macOS, Linux, and Windows.",
-                  "descriptionClean": "A desktop app for inspecting your React JS and React Native projects. macOS, Linux, and Windows."
-                },
-                "responses": {
-                  "currentEdition": {
-                    "ratios": {
-                      "awareness": 1,
-                      "interest": 0,
-                      "usage": 0,
-                      "retention": 0,
-                      "positivity": 0
-                    },
-                    "buckets": [
-                      {
-                        "count": 27,
-                        "id": "heard",
-                        "facetBuckets": [
-                          {
-                            "count": 27,
-                            "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 100,
-                            "percentageSurvey": 96.43
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 100,
-                        "percentageSurvey": 96.43
-                      }
-                    ],
-                    "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
-                    }
+                  "descriptionClean": "A desktop app for inspecting your React JS and React Native projects. macOS, Linux, and Windows.",
+                  "homepage": {
+                    "url": "https://docs.infinite.red/reactotron/"
                   }
                 }
               },
@@ -767,64 +173,9 @@
                   "nameClean": "Expo Dev tools plugins",
                   "entityType": "default",
                   "description": "Available for Expo Development builds of your app. Add debugging features on top of installed libraries.",
-                  "descriptionClean": "Available for Expo Development builds of your app. Add debugging features on top of installed libraries."
-                },
-                "responses": {
-                  "currentEdition": {
-                    "ratios": {
-                      "awareness": 0.44,
-                      "interest": 1,
-                      "usage": 0,
-                      "retention": 0,
-                      "positivity": 0.44
-                    },
-                    "buckets": [
-                      {
-                        "count": 15,
-                        "id": "never_heard",
-                        "facetBuckets": [
-                          {
-                            "count": 15,
-                            "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 55.56,
-                        "percentageSurvey": 53.57
-                      },
-                      {
-                        "count": 12,
-                        "id": "heard",
-                        "facetBuckets": [
-                          {
-                            "count": 12,
-                            "id": "positive",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 44.44,
-                        "percentageSurvey": 42.86
-                      }
-                    ],
-                    "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
-                    }
+                  "descriptionClean": "Available for Expo Development builds of your app. Add debugging features on top of installed libraries.",
+                  "homepage": {
+                    "url": "https://docs.expo.dev/debugging/devtools-plugins"
                   }
                 }
               },
@@ -836,44 +187,6 @@
                   "entityType": "default",
                   "description": "Toolchain to measure and monitor the performance of your React Native app in development, pipeline and in production.",
                   "descriptionClean": "Toolchain to measure and monitor the performance of your React Native app in development, pipeline and in production."
-                },
-                "responses": {
-                  "currentEdition": {
-                    "ratios": {
-                      "awareness": 1,
-                      "interest": 0,
-                      "usage": 0,
-                      "retention": 0,
-                      "positivity": 0
-                    },
-                    "buckets": [
-                      {
-                        "count": 15,
-                        "id": "heard",
-                        "facetBuckets": [
-                          {
-                            "count": 15,
-                            "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 100,
-                            "percentageSurvey": 53.57
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 100,
-                        "percentageSurvey": 53.57
-                      }
-                    ],
-                    "completion": {
-                      "count": 15,
-                      "percentageSurvey": 53.57,
-                      "total": 28
-                    }
-                  }
                 }
               },
               {
@@ -883,64 +196,9 @@
                   "nameClean": "Flashlight",
                   "entityType": "default",
                   "description": "Lighthouse for Mobile - audits your app and gives a performance score to your Android apps.",
-                  "descriptionClean": "Lighthouse for Mobile - audits your app and gives a performance score to your Android apps."
-                },
-                "responses": {
-                  "currentEdition": {
-                    "ratios": {
-                      "awareness": 0.44,
-                      "interest": 0,
-                      "usage": 0.44,
-                      "retention": 1,
-                      "positivity": 0.44
-                    },
-                    "buckets": [
-                      {
-                        "count": 15,
-                        "id": "never_heard",
-                        "facetBuckets": [
-                          {
-                            "count": 15,
-                            "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 55.56,
-                        "percentageSurvey": 53.57
-                      },
-                      {
-                        "count": 12,
-                        "id": "used",
-                        "facetBuckets": [
-                          {
-                            "count": 12,
-                            "id": "positive",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 44.44,
-                        "percentageSurvey": 42.86
-                      }
-                    ],
-                    "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
-                    }
+                  "descriptionClean": "Lighthouse for Mobile - audits your app and gives a performance score to your Android apps.",
+                  "homepage": {
+                    "url": "https://flashlight.dev/"
                   }
                 }
               },
@@ -952,195 +210,31 @@
                   "entityType": "default",
                   "description": "An attempt to have a lighthouse for React Native. Flipper plugin to show a graph of the React Native performance monitor.",
                   "descriptionClean": "An attempt to have a lighthouse for React Native. Flipper plugin to show a graph of the React Native performance monitor."
-                },
-                "responses": {
-                  "currentEdition": {
-                    "ratios": {
-                      "awareness": 0.55,
-                      "interest": 0,
-                      "usage": 0,
-                      "retention": 0,
-                      "positivity": 0.44
-                    },
-                    "buckets": [
-                      {
-                        "count": 12,
-                        "id": "never_heard",
-                        "facetBuckets": [
-                          {
-                            "count": 12,
-                            "id": "positive",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 44.44,
-                        "percentageSurvey": 42.86
-                      },
-                      {
-                        "count": 15,
-                        "id": "heard",
-                        "facetBuckets": [
-                          {
-                            "count": 15,
-                            "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 55.56,
-                        "percentageSurvey": 53.57
-                      }
-                    ],
-                    "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
-                    }
-                  }
                 }
               },
               {
                 "id": "debugging_profiling_native_debugging",
                 "entity": {
-                  "name": "Native debugging (Xcode / Android Studio)",
-                  "nameClean": "Native debugging (Xcode / Android Studio)",
-                  "entityType": "default"
-                },
-                "responses": {
-                  "currentEdition": {
-                    "ratios": {
-                      "awareness": 0.55,
-                      "interest": 0,
-                      "usage": 0,
-                      "retention": 0,
-                      "positivity": 0
-                    },
-                    "buckets": [
-                      {
-                        "count": 12,
-                        "id": "never_heard",
-                        "facetBuckets": [
-                          {
-                            "count": 12,
-                            "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 44.44,
-                        "percentageSurvey": 42.86
-                      },
-                      {
-                        "count": 15,
-                        "id": "heard",
-                        "facetBuckets": [
-                          {
-                            "count": 15,
-                            "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 55.56,
-                        "percentageSurvey": 53.57
-                      }
-                    ],
-                    "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
-                    }
+                  "name": "Native debugging",
+                  "nameClean": "Native debugging",
+                  "entityType": "default",
+                  "description": "(Xcode / Android Studio)",
+                  "descriptionClean": "(Xcode / Android Studio)",
+                  "homepage": {
+                    "url": "https://developer.android.com/studio/debug"
                   }
                 }
               },
               {
                 "id": "debugging_profiling_native_profiling",
                 "entity": {
-                  "name": "Native profiling (Xcode, Android Studio)",
-                  "nameClean": "Native profiling (Xcode, Android Studio)",
-                  "entityType": "default"
-                },
-                "responses": {
-                  "currentEdition": {
-                    "ratios": {
-                      "awareness": 1,
-                      "interest": 0,
-                      "usage": 0.55,
-                      "retention": 0,
-                      "positivity": 0
-                    },
-                    "buckets": [
-                      {
-                        "count": 12,
-                        "id": "heard",
-                        "facetBuckets": [
-                          {
-                            "count": 12,
-                            "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 44.44,
-                            "percentageSurvey": 42.86
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 44.44,
-                        "percentageSurvey": 42.86
-                      },
-                      {
-                        "count": 15,
-                        "id": "used",
-                        "facetBuckets": [
-                          {
-                            "count": 15,
-                            "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 55.56,
-                            "percentageSurvey": 53.57
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 55.56,
-                        "percentageSurvey": 53.57
-                      }
-                    ],
-                    "completion": {
-                      "count": 27,
-                      "percentageSurvey": 96.43,
-                      "total": 28
-                    }
+                  "name": "Native profiling",
+                  "nameClean": "Native profiling",
+                  "entityType": "default",
+                  "description": "(Xcode, Android Studio)",
+                  "descriptionClean": "(Xcode, Android Studio)",
+                  "homepage": {
+                    "url": "https://developer.android.com/studio/profile"
                   }
                 }
               }

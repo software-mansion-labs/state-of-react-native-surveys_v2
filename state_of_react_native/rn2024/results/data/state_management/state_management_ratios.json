@@ -26,24 +26,24 @@
                         "awareness": 0.89,
                         "interest": 0.53,
                         "usage": 0.42,
-                        "retention": 0.76,
-                        "positivity": 0.57
+                        "retention": 0.74,
+                        "positivity": 0.56
                       },
                       "completion": {
-                        "count": 1576,
-                        "percentageSurvey": 83.47,
-                        "total": 1888
+                        "count": 1287,
+                        "percentageSurvey": 84.34,
+                        "total": 1526
                       }
                     },
                     {
                       "year": 2023,
                       "editionId": "rn2023",
                       "ratios": {
-                        "awareness": 0.85,
-                        "interest": 0.4,
-                        "usage": 0.39,
+                        "awareness": 0.83,
+                        "interest": 0.42,
+                        "usage": 0.38,
                         "retention": 0.69,
-                        "positivity": 0.46
+                        "positivity": 0.45
                       },
                       "completion": {
                         "count": 2003,
@@ -55,16 +55,16 @@
                       "year": 2024,
                       "editionId": "rn2024",
                       "ratios": {
-                        "awareness": 0.55,
+                        "awareness": 0,
                         "interest": 0,
-                        "usage": 0.55,
+                        "usage": 0,
                         "retention": 0,
-                        "positivity": 0.44
+                        "positivity": 0
                       },
                       "completion": {
-                        "count": 27,
-                        "percentageSurvey": 96.43,
-                        "total": 28
+                        "count": 17,
+                        "percentageSurvey": 80.95,
+                        "total": 21
                       }
                     }
                   ]
@@ -88,27 +88,27 @@
                       "year": 2022,
                       "editionId": "rn2022",
                       "ratios": {
-                        "awareness": 0.58,
-                        "interest": 0.56,
+                        "awareness": 0.59,
+                        "interest": 0.55,
                         "usage": 0.09,
-                        "retention": 0.9,
+                        "retention": 0.91,
                         "positivity": 0.36
                       },
                       "completion": {
-                        "count": 1576,
-                        "percentageSurvey": 83.47,
-                        "total": 1888
+                        "count": 1287,
+                        "percentageSurvey": 84.34,
+                        "total": 1526
                       }
                     },
                     {
                       "year": 2023,
                       "editionId": "rn2023",
                       "ratios": {
-                        "awareness": 0.65,
+                        "awareness": 0.64,
                         "interest": 0.57,
-                        "usage": 0.13,
-                        "retention": 0.85,
-                        "positivity": 0.41
+                        "usage": 0.14,
+                        "retention": 0.86,
+                        "positivity": 0.4
                       },
                       "completion": {
                         "count": 1983,
@@ -120,16 +120,16 @@
                       "year": 2024,
                       "editionId": "rn2024",
                       "ratios": {
-                        "awareness": 1,
+                        "awareness": 0,
                         "interest": 0,
-                        "usage": 0.55,
+                        "usage": 0,
                         "retention": 0,
                         "positivity": 0
                       },
                       "completion": {
-                        "count": 27,
-                        "percentageSurvey": 96.43,
-                        "total": 28
+                        "count": 17,
+                        "percentageSurvey": 80.95,
+                        "total": 21
                       }
                     }
                   ]
@@ -153,11 +153,11 @@
                       "year": 2023,
                       "editionId": "rn2023",
                       "ratios": {
-                        "awareness": 0.84,
-                        "interest": 0.37,
+                        "awareness": 0.83,
+                        "interest": 0.38,
                         "usage": 0.19,
-                        "retention": 0.58,
-                        "positivity": 0.35
+                        "retention": 0.59,
+                        "positivity": 0.36
                       },
                       "completion": {
                         "count": 1985,
@@ -171,14 +171,14 @@
                       "ratios": {
                         "awareness": 1,
                         "interest": 0,
-                        "usage": 0.44,
-                        "retention": 1,
-                        "positivity": 0.44
+                        "usage": 0,
+                        "retention": 0,
+                        "positivity": 0
                       },
                       "completion": {
-                        "count": 27,
-                        "percentageSurvey": 96.43,
-                        "total": 28
+                        "count": 17,
+                        "percentageSurvey": 80.95,
+                        "total": 21
                       }
                     }
                   ]
@@ -197,10 +197,10 @@
                       "year": 2023,
                       "editionId": "rn2023",
                       "ratios": {
-                        "awareness": 0.74,
-                        "interest": 0.39,
+                        "awareness": 0.73,
+                        "interest": 0.41,
                         "usage": 0.12,
-                        "retention": 0.58,
+                        "retention": 0.57,
                         "positivity": 0.32
                       },
                       "completion": {
@@ -215,14 +215,14 @@
                       "ratios": {
                         "awareness": 1,
                         "interest": 0,
-                        "usage": 1,
-                        "retention": 1,
-                        "positivity": 1
+                        "usage": 0,
+                        "retention": 0,
+                        "positivity": 0
                       },
                       "completion": {
-                        "count": 12,
-                        "percentageSurvey": 42.86,
-                        "total": 28
+                        "count": 17,
+                        "percentageSurvey": 80.95,
+                        "total": 21
                       }
                     }
                   ]
@@ -231,9 +231,11 @@
               {
                 "id": "state_management_rn_built_in",
                 "entity": {
-                  "name": "React built-ins (useState, useContext, etc.)",
-                  "nameClean": "React built-ins (useState, useContext, etc.)",
-                  "entityType": "library"
+                  "name": "React built-ins",
+                  "nameClean": "React built-ins",
+                  "entityType": "library",
+                  "description": "(useState, useContext, etc.)",
+                  "descriptionClean": "(useState, useContext, etc.)"
                 },
                 "responses": {
                   "allEditions": [
@@ -242,15 +244,15 @@
                       "editionId": "rn2022",
                       "ratios": {
                         "awareness": 1,
-                        "interest": 0.56,
-                        "usage": 0.97,
+                        "interest": 0.63,
+                        "usage": 0.96,
                         "retention": 0.97,
-                        "positivity": 0.96
+                        "positivity": 0.95
                       },
                       "completion": {
-                        "count": 1591,
-                        "percentageSurvey": 84.27,
-                        "total": 1888
+                        "count": 1298,
+                        "percentageSurvey": 85.06,
+                        "total": 1526
                       }
                     },
                     {
@@ -258,8 +260,8 @@
                       "editionId": "rn2023",
                       "ratios": {
                         "awareness": 1,
-                        "interest": 0.37,
-                        "usage": 0.98,
+                        "interest": 0.42,
+                        "usage": 0.97,
                         "retention": 0.96,
                         "positivity": 0.95
                       },
@@ -274,15 +276,15 @@
                       "editionId": "rn2024",
                       "ratios": {
                         "awareness": 1,
-                        "interest": 0.44,
-                        "usage": 0,
+                        "interest": 0,
+                        "usage": 1,
                         "retention": 0,
-                        "positivity": 0.44
+                        "positivity": 0
                       },
                       "completion": {
-                        "count": 27,
-                        "percentageSurvey": 96.43,
-                        "total": 28
+                        "count": 17,
+                        "percentageSurvey": 80.95,
+                        "total": 21
                       }
                     }
                   ]
@@ -306,24 +308,24 @@
                       "year": 2022,
                       "editionId": "rn2022",
                       "ratios": {
-                        "awareness": 0.75,
-                        "interest": 0.46,
+                        "awareness": 0.74,
+                        "interest": 0.48,
                         "usage": 0.1,
-                        "retention": 0.56,
+                        "retention": 0.54,
                         "positivity": 0.36
                       },
                       "completion": {
-                        "count": 1571,
-                        "percentageSurvey": 83.21,
-                        "total": 1888
+                        "count": 1281,
+                        "percentageSurvey": 83.94,
+                        "total": 1526
                       }
                     },
                     {
                       "year": 2023,
                       "editionId": "rn2023",
                       "ratios": {
-                        "awareness": 0.72,
-                        "interest": 0.44,
+                        "awareness": 0.7,
+                        "interest": 0.46,
                         "usage": 0.09,
                         "retention": 0.65,
                         "positivity": 0.34
@@ -338,16 +340,16 @@
                       "year": 2024,
                       "editionId": "rn2024",
                       "ratios": {
-                        "awareness": 0,
+                        "awareness": 1,
                         "interest": 0,
-                        "usage": 0,
+                        "usage": 1,
                         "retention": 0,
                         "positivity": 0
                       },
                       "completion": {
-                        "count": 27,
-                        "percentageSurvey": 96.43,
-                        "total": 28
+                        "count": 17,
+                        "percentageSurvey": 80.95,
+                        "total": 21
                       }
                     }
                   ]
@@ -372,26 +374,26 @@
                       "editionId": "rn2022",
                       "ratios": {
                         "awareness": 1,
-                        "interest": 0.27,
-                        "usage": 0.85,
-                        "retention": 0.54,
-                        "positivity": 0.5
+                        "interest": 0.29,
+                        "usage": 0.84,
+                        "retention": 0.55,
+                        "positivity": 0.51
                       },
                       "completion": {
-                        "count": 1584,
-                        "percentageSurvey": 83.9,
-                        "total": 1888
+                        "count": 1292,
+                        "percentageSurvey": 84.67,
+                        "total": 1526
                       }
                     },
                     {
                       "year": 2023,
                       "editionId": "rn2023",
                       "ratios": {
-                        "awareness": 1,
+                        "awareness": 0.99,
                         "interest": 0.29,
-                        "usage": 0.79,
-                        "retention": 0.43,
-                        "positivity": 0.4
+                        "usage": 0.78,
+                        "retention": 0.44,
+                        "positivity": 0.41
                       },
                       "completion": {
                         "count": 2015,
@@ -403,16 +405,16 @@
                       "year": 2024,
                       "editionId": "rn2024",
                       "ratios": {
-                        "awareness": 0,
+                        "awareness": 1,
                         "interest": 0,
                         "usage": 0,
                         "retention": 0,
-                        "positivity": 0.44
+                        "positivity": 0
                       },
                       "completion": {
-                        "count": 27,
-                        "percentageSurvey": 96.43,
-                        "total": 28
+                        "count": 17,
+                        "percentageSurvey": 80.95,
+                        "total": 21
                       }
                     }
                   ]
@@ -435,9 +437,9 @@
                       "ratios": {
                         "awareness": 0.94,
                         "interest": 0.41,
-                        "usage": 0.61,
-                        "retention": 0.64,
-                        "positivity": 0.53
+                        "usage": 0.62,
+                        "retention": 0.65,
+                        "positivity": 0.54
                       },
                       "completion": {
                         "count": 2001,
@@ -451,14 +453,14 @@
                       "ratios": {
                         "awareness": 1,
                         "interest": 0,
-                        "usage": 0.44,
-                        "retention": 1,
-                        "positivity": 0.44
+                        "usage": 1,
+                        "retention": 0,
+                        "positivity": 0
                       },
                       "completion": {
-                        "count": 27,
-                        "percentageSurvey": 96.43,
-                        "total": 28
+                        "count": 17,
+                        "percentageSurvey": 80.95,
+                        "total": 21
                       }
                     }
                   ]
@@ -467,9 +469,11 @@
               {
                 "id": "state_management_react_query",
                 "entity": {
-                  "name": "TanStack Query (React Query)",
-                  "nameClean": "TanStack Query (React Query)",
-                  "entityType": "library"
+                  "name": "TanStack Query",
+                  "nameClean": "TanStack Query",
+                  "entityType": "library",
+                  "description": "(React Query)",
+                  "descriptionClean": "(React Query)"
                 },
                 "responses": {
                   "allEditions": [
@@ -481,12 +485,12 @@
                         "interest": 0.75,
                         "usage": 0.45,
                         "retention": 0.96,
-                        "positivity": 0.72
+                        "positivity": 0.71
                       },
                       "completion": {
-                        "count": 1579,
-                        "percentageSurvey": 83.63,
-                        "total": 1888
+                        "count": 1289,
+                        "percentageSurvey": 84.47,
+                        "total": 1526
                       }
                     },
                     {
@@ -494,10 +498,10 @@
                       "editionId": "rn2023",
                       "ratios": {
                         "awareness": 0.84,
-                        "interest": 0.71,
+                        "interest": 0.72,
                         "usage": 0.54,
                         "retention": 0.96,
-                        "positivity": 0.74
+                        "positivity": 0.73
                       },
                       "completion": {
                         "count": 1998,
@@ -509,16 +513,16 @@
                       "year": 2024,
                       "editionId": "rn2024",
                       "ratios": {
-                        "awareness": 0.44,
-                        "interest": 1,
-                        "usage": 0,
+                        "awareness": 1,
+                        "interest": 0,
+                        "usage": 1,
                         "retention": 0,
-                        "positivity": 0.44
+                        "positivity": 0
                       },
                       "completion": {
-                        "count": 27,
-                        "percentageSurvey": 96.43,
-                        "total": 28
+                        "count": 17,
+                        "percentageSurvey": 80.95,
+                        "total": 21
                       }
                     }
                   ]
@@ -542,11 +546,11 @@
                       "year": 2023,
                       "editionId": "rn2023",
                       "ratios": {
-                        "awareness": 0.56,
+                        "awareness": 0.55,
                         "interest": 0.57,
                         "usage": 0.07,
-                        "retention": 0.77,
-                        "positivity": 0.34
+                        "retention": 0.75,
+                        "positivity": 0.33
                       },
                       "completion": {
                         "count": 1969,
@@ -558,16 +562,16 @@
                       "year": 2024,
                       "editionId": "rn2024",
                       "ratios": {
-                        "awareness": 0.55,
+                        "awareness": 1,
                         "interest": 0,
-                        "usage": 0.55,
+                        "usage": 0,
                         "retention": 0,
-                        "positivity": 0.44
+                        "positivity": 0
                       },
                       "completion": {
-                        "count": 27,
-                        "percentageSurvey": 96.43,
-                        "total": 28
+                        "count": 17,
+                        "percentageSurvey": 80.95,
+                        "total": 21
                       }
                     }
                   ]
@@ -592,26 +596,26 @@
                       "editionId": "rn2022",
                       "ratios": {
                         "awareness": 0.7,
-                        "interest": 0.66,
+                        "interest": 0.67,
                         "usage": 0.22,
                         "retention": 0.94,
                         "positivity": 0.53
                       },
                       "completion": {
-                        "count": 1577,
-                        "percentageSurvey": 83.53,
-                        "total": 1888
+                        "count": 1288,
+                        "percentageSurvey": 84.4,
+                        "total": 1526
                       }
                     },
                     {
                       "year": 2023,
                       "editionId": "rn2023",
                       "ratios": {
-                        "awareness": 0.83,
-                        "interest": 0.71,
+                        "awareness": 0.81,
+                        "interest": 0.72,
                         "usage": 0.36,
                         "retention": 0.93,
-                        "positivity": 0.67
+                        "positivity": 0.66
                       },
                       "completion": {
                         "count": 1996,
@@ -623,16 +627,16 @@
                       "year": 2024,
                       "editionId": "rn2024",
                       "ratios": {
-                        "awareness": 1,
+                        "awareness": 0,
                         "interest": 0,
-                        "usage": 1,
-                        "retention": 0.44,
-                        "positivity": 0.44
+                        "usage": 0,
+                        "retention": 0,
+                        "positivity": 0
                       },
                       "completion": {
-                        "count": 27,
-                        "percentageSurvey": 96.43,
-                        "total": 28
+                        "count": 17,
+                        "percentageSurvey": 80.95,
+                        "total": 21
                       }
                     }
                   ]
