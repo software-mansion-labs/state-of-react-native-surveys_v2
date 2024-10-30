@@ -1,0 +1,61 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "user_info": {
+            "gender": {
+              "responses": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 15,
+                    "percentageSurvey": 42.86,
+                    "total": 35
+                  },
+                  "buckets": [
+                    {
+                      "count": 1,
+                      "id": "male",
+                      "percentageQuestion": 6.67,
+                      "percentageSurvey": 2.86,
+                      "entity": {
+                        "name": "Male",
+                        "nameClean": "Male",
+                        "id": "about_you_gender_male",
+                        "entityType": "feature"
+                      }
+                    },
+                    {
+                      "count": 13,
+                      "id": "female",
+                      "percentageQuestion": 86.67,
+                      "percentageSurvey": 37.14,
+                      "entity": {
+                        "name": "Female",
+                        "nameClean": "Female",
+                        "id": "about_you_gender_female",
+                        "entityType": "feature"
+                      }
+                    },
+                    {
+                      "count": 1,
+                      "id": "non_binary",
+                      "percentageQuestion": 6.67,
+                      "percentageSurvey": 2.86
+                    },
+                    {
+                      "count": 20,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 57.14
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

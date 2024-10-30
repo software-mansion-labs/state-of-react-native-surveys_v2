@@ -1,0 +1,247 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "debugging_and_profiling": {
+            "debugging_and_profiling_experience": [
+              {
+                "id": "debugging_profiling_console",
+                "entity": {
+                  "name": "console API",
+                  "nameClean": "console API",
+                  "entityType": "default",
+                  "homepage": {
+                    "url": "https://developer.mozilla.org/en-US/docs/Web/API/console"
+                  },
+                  "example": {
+                    "language": "jsx",
+                    "code": "console.log(\"Hello React Native! 😊\")\n",
+                    "codeHighlighted": "<span class=\"hljs-variable language_\">console</span>.<span class=\"hljs-title function_\">log</span>(<span class=\"hljs-string\">&quot;Hello React Native! 😊&quot;</span>)"
+                  }
+                }
+              },
+              {
+                "id": "debugging_profiling_remote_javascript_debugging",
+                "entity": {
+                  "name": "Remote JavaScript Debugging",
+                  "nameClean": "Remote JavaScript Debugging",
+                  "entityType": "default",
+                  "description": "Deprecated since React Native 0.73. Remote JavaScript Debugging connects an external web browser (Chrome) to your app and runs your JavaScript code inside a web page.",
+                  "descriptionClean": "Deprecated since React Native 0.73. Remote JavaScript Debugging connects an external web browser (Chrome) to your app and runs your JavaScript code inside a web page.",
+                  "homepage": {
+                    "url": "https://reactnative.dev/docs/other-debugging-methods#remote-javascript-debugging-deprecated"
+                  }
+                }
+              },
+              {
+                "id": "debugging_profiling_hermes_debugger",
+                "entity": {
+                  "name": "Hermes Debugger",
+                  "nameClean": "Hermes Debugger",
+                  "entityType": "default",
+                  "description": "Available starting with React Native 0.73. Debug JavaScript code on the device via Hermes that supports Chrome DevTools Protocol.",
+                  "descriptionClean": "Available starting with React Native 0.73. Debug JavaScript code on the device via Hermes that supports Chrome DevTools Protocol.",
+                  "homepage": {
+                    "url": "https://reactnative.dev/docs/debugging?js-debugger=hermes#opening-the-debugger"
+                  }
+                }
+              },
+              {
+                "id": "debugging_profiling_direct_jsc_debugging",
+                "entity": {
+                  "name": "Direct JSC debugging",
+                  "nameClean": "Direct JSC debugging",
+                  "entityType": "default",
+                  "description": "Use Safari to debug the iOS version of your app when using JavaScriptCore (JSC) as your app's runtime.",
+                  "descriptionClean": "Use Safari to debug the iOS version of your app when using JavaScriptCore (JSC) as your app's runtime.",
+                  "descriptionHtml": "Use Safari to debug the iOS version of your app when using JavaScriptCore (JSC) as your app's runtime.",
+                  "homepage": {
+                    "url": "https://reactnative.dev/docs/other-debugging-methods#safari-developer-tools-direct-jsc-debugging"
+                  }
+                }
+              },
+              {
+                "id": "debugging_profiling_react_native_devtools",
+                "entity": {
+                  "name": "React Native DevTools",
+                  "nameClean": "React Native DevTools",
+                  "entityType": "default",
+                  "description": "Starting with React Native 0.76. New default debugging experience for React Native apps based on Chrome DevTools Protocol with React DevTools included.",
+                  "descriptionClean": "Starting with React Native 0.76. New default debugging experience for React Native apps based on Chrome DevTools Protocol with React DevTools included.",
+                  "homepage": {
+                    "url": "https://github.com/react-native-community/discussions-and-proposals/discussions/819"
+                  }
+                }
+              },
+              {
+                "id": "debugging_profiling_experimental_new_debugger",
+                "entity": {
+                  "name": "Experimental New Debugger",
+                  "nameClean": "Experimental New Debugger",
+                  "entityType": "default",
+                  "description": "Available in React Native 0.73 - 0.75. The preview of the experimental new debugger experience with a new debugger frontend.",
+                  "descriptionClean": "Available in React Native 0.73 - 0.75. The preview of the experimental new debugger experience with a new debugger frontend.",
+                  "homepage": {
+                    "url": "https://github.com/react-native-community/discussions-and-proposals/discussions/733"
+                  }
+                }
+              },
+              {
+                "id": "debugging_profiling_react_devtools",
+                "entity": {
+                  "name": "React DevTools",
+                  "nameClean": "React DevTools",
+                  "entityType": "default",
+                  "description": "Components inspector and performance profiler that let's you debug the React component hierarchy within your app.",
+                  "descriptionClean": "Components inspector and performance profiler that let's you debug the React component hierarchy within your app.",
+                  "descriptionHtml": "Components inspector and performance profiler that let's you debug the React component hierarchy within your app.",
+                  "homepage": {
+                    "url": "https://reactnative.dev/docs/react-devtools"
+                  }
+                }
+              },
+              {
+                "id": "debugging_profiling_element_inspector",
+                "entity": {
+                  "name": "Element Inspector",
+                  "nameClean": "Element Inspector",
+                  "entityType": "default",
+                  "description": "The inspector lets you tap on any UI element in the app and see information about it.",
+                  "descriptionClean": "The inspector lets you tap on any UI element in the app and see information about it.",
+                  "homepage": {
+                    "url": "https://reactnative.dev/docs/react-devtools#integration-with-the-element-inspector"
+                  }
+                }
+              },
+              {
+                "id": "debugging_profiling_logbox",
+                "entity": {
+                  "name": "LogBox",
+                  "nameClean": "LogBox",
+                  "entityType": "default",
+                  "description": "Displays console errors and console warnings as the overlay inside your app.",
+                  "descriptionClean": "Displays console errors and console warnings as the overlay inside your app.",
+                  "homepage": {
+                    "url": "https://reactnative.dev/docs/debugging#logbox"
+                  }
+                }
+              },
+              {
+                "id": "debugging_profiling_performance_monitor",
+                "entity": {
+                  "name": "Performance Monitor",
+                  "nameClean": "Performance Monitor",
+                  "entityType": "default",
+                  "description": "Displays performance overlay inside your app. Inspect RAM consumption, UI and JS threads FPS and number of views mounted.",
+                  "descriptionClean": "Displays performance overlay inside your app. Inspect RAM consumption, UI and JS threads FPS and number of views mounted.",
+                  "homepage": {
+                    "url": "https://reactnative.dev/docs/performance"
+                  }
+                }
+              },
+              {
+                "id": "debugging_profiling_flipper",
+                "entity": {
+                  "name": "Flipper",
+                  "nameClean": "Flipper",
+                  "entityType": "default",
+                  "description": "Cross-platform debugging tool for mobile apps. Visualize, inspect, and control your apps from a desktop interface, with extensibility via plugins.",
+                  "descriptionClean": "Cross-platform debugging tool for mobile apps. Visualize, inspect, and control your apps from a desktop interface, with extensibility via plugins.",
+                  "homepage": {
+                    "url": "https://fbflipper.com/"
+                  }
+                }
+              },
+              {
+                "id": "debugging_profiling_reactotron",
+                "entity": {
+                  "name": "Reactotron",
+                  "nameClean": "Reactotron",
+                  "entityType": "default",
+                  "description": "A desktop app for inspecting your React JS and React Native projects. macOS, Linux, and Windows.",
+                  "descriptionClean": "A desktop app for inspecting your React JS and React Native projects. macOS, Linux, and Windows.",
+                  "homepage": {
+                    "url": "https://docs.infinite.red/reactotron/"
+                  }
+                }
+              },
+              {
+                "id": "debugging_profiling_expo_dev_tools_plugins",
+                "entity": {
+                  "name": "Expo Dev tools plugins",
+                  "nameClean": "Expo Dev tools plugins",
+                  "entityType": "default",
+                  "description": "Available for Expo Development builds of your app. Add debugging features on top of installed libraries.",
+                  "descriptionClean": "Available for Expo Development builds of your app. Add debugging features on top of installed libraries.",
+                  "homepage": {
+                    "url": "https://docs.expo.dev/debugging/devtools-plugins"
+                  }
+                }
+              },
+              {
+                "id": "debugging_profiling_react_native_performance",
+                "entity": {
+                  "name": "react-native-performance",
+                  "nameClean": "react-native-performance",
+                  "entityType": "default",
+                  "description": "Toolchain to measure and monitor the performance of your React Native app in development, pipeline and in production.",
+                  "descriptionClean": "Toolchain to measure and monitor the performance of your React Native app in development, pipeline and in production."
+                }
+              },
+              {
+                "id": "debugging_profiling_flashlight",
+                "entity": {
+                  "name": "Flashlight",
+                  "nameClean": "Flashlight",
+                  "entityType": "default",
+                  "description": "Lighthouse for Mobile - audits your app and gives a performance score to your Android apps.",
+                  "descriptionClean": "Lighthouse for Mobile - audits your app and gives a performance score to your Android apps.",
+                  "homepage": {
+                    "url": "https://flashlight.dev/"
+                  }
+                }
+              },
+              {
+                "id": "debugging_profiling_react_native_flipper_performance_monitor",
+                "entity": {
+                  "name": "react-native-flipper-performance-monitor",
+                  "nameClean": "react-native-flipper-performance-monitor",
+                  "entityType": "default",
+                  "description": "An attempt to have a lighthouse for React Native. Flipper plugin to show a graph of the React Native performance monitor.",
+                  "descriptionClean": "An attempt to have a lighthouse for React Native. Flipper plugin to show a graph of the React Native performance monitor."
+                }
+              },
+              {
+                "id": "debugging_profiling_native_debugging",
+                "entity": {
+                  "name": "Native debugging",
+                  "nameClean": "Native debugging",
+                  "entityType": "default",
+                  "description": "(Xcode / Android Studio)",
+                  "descriptionClean": "(Xcode / Android Studio)",
+                  "homepage": {
+                    "url": "https://developer.android.com/studio/debug"
+                  }
+                }
+              },
+              {
+                "id": "debugging_profiling_native_profiling",
+                "entity": {
+                  "name": "Native profiling",
+                  "nameClean": "Native profiling",
+                  "entityType": "default",
+                  "description": "(Xcode, Android Studio)",
+                  "descriptionClean": "(Xcode, Android Studio)",
+                  "homepage": {
+                    "url": "https://developer.android.com/studio/profile"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

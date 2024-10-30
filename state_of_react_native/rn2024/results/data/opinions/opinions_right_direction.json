@@ -1,0 +1,41 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "opinions": {
+            "opinions_right_direction": {
+              "responses": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 14,
+                    "percentageSurvey": 40,
+                    "total": 35
+                  },
+                  "average": 1,
+                  "percentiles": {
+                    "p50": 1
+                  },
+                  "buckets": [
+                    {
+                      "count": 14,
+                      "id": "1",
+                      "percentageQuestion": 100,
+                      "percentageSurvey": 40
+                    },
+                    {
+                      "count": 21,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 60
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

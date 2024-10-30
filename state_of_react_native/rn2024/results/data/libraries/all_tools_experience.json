@@ -1,0 +1,2859 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "libraries": {
+            "all_tools_experience": [
+              {
+                "id": "state_management_apollo",
+                "entity": {
+                  "name": "Apollo Client",
+                  "nameClean": "Apollo Client",
+                  "entityType": "library",
+                  "description": "A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server",
+                  "descriptionClean": "A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server",
+                  "homepage": {
+                    "url": "https://www.apollographql.com/docs/react/"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 1
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "neutral",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 86.67,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 86.67,
+                        "percentageSurvey": 41.94
+                      },
+                      {
+                        "count": 0,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 2,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
+                      }
+                    ],
+                    "completion": {
+                      "count": 15,
+                      "percentageSurvey": 48.39,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "state_management_jotai",
+                "entity": {
+                  "name": "Jotai",
+                  "nameClean": "Jotai",
+                  "entityType": "library",
+                  "description": "Primitive, flexible state management for React",
+                  "descriptionClean": "Primitive, flexible state management for React",
+                  "homepage": {
+                    "url": "https://jotai.org/"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 1
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 15,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "neutral",
+                            "percentageBucket": 86.67,
+                            "percentageQuestion": 86.67,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 2,
+                            "id": "insufficient_data",
+                            "percentageBucket": 13
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 48.39
+                      }
+                    ],
+                    "completion": {
+                      "count": 15,
+                      "percentageSurvey": 48.39,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "state_management_mobx",
+                "entity": {
+                  "name": "MobX",
+                  "nameClean": "MobX",
+                  "entityType": "library",
+                  "description": "Simple, scalable state management.",
+                  "descriptionClean": "Simple, scalable state management.",
+                  "homepage": {
+                    "url": "https://mobx.js.org/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 0,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 1,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
+                      },
+                      {
+                        "count": 14,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 14,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 93.33,
+                            "percentageSurvey": 45.16
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 93.33,
+                        "percentageSurvey": 45.16
+                      }
+                    ],
+                    "completion": {
+                      "count": 15,
+                      "percentageSurvey": 48.39,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "state_management_mobx_state_tree",
+                "entity": {
+                  "name": "MobX State Tree",
+                  "nameClean": "MobX State Tree",
+                  "entityType": "library"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 1,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 0,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 1,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
+                      },
+                      {
+                        "count": 13,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 86.67,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 86.67,
+                        "percentageSurvey": 41.94
+                      },
+                      {
+                        "count": 0,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 1,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
+                      }
+                    ],
+                    "completion": {
+                      "count": 15,
+                      "percentageSurvey": 48.39,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "state_management_rn_built_in",
+                "entity": {
+                  "name": "React built-ins",
+                  "nameClean": "React built-ins",
+                  "entityType": "library",
+                  "description": "(useState, useContext, etc.)",
+                  "descriptionClean": "(useState, useContext, etc.)"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 1,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 14,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 14,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 45.16
+                      }
+                    ],
+                    "completion": {
+                      "count": 14,
+                      "percentageSurvey": 45.16,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "state_management_recoil",
+                "entity": {
+                  "name": "Recoil",
+                  "nameClean": "Recoil",
+                  "entityType": "library",
+                  "description": "An experimental state management library for React apps",
+                  "descriptionClean": "An experimental state management library for React apps",
+                  "homepage": {
+                    "url": "https://recoiljs.org/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 1,
+                      "retention": 1,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 14,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 14,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 45.16
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 45.16
+                      }
+                    ],
+                    "completion": {
+                      "count": 14,
+                      "percentageSurvey": 45.16,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "state_management_redux",
+                "entity": {
+                  "name": "Redux",
+                  "nameClean": "Redux",
+                  "entityType": "library",
+                  "description": "Predictable state container for JavaScript apps",
+                  "descriptionClean": "Predictable state container for JavaScript apps",
+                  "homepage": {
+                    "url": "https://redux.js.org"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 1,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 92.86,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 92.86,
+                        "percentageSurvey": 41.94
+                      },
+                      {
+                        "count": 0,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 1,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
+                      }
+                    ],
+                    "completion": {
+                      "count": 14,
+                      "percentageSurvey": 45.16,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "state_management_redux_toolkit",
+                "entity": {
+                  "name": "Redux Toolkit",
+                  "nameClean": "Redux Toolkit",
+                  "entityType": "library",
+                  "description": "The official, opinionated, batteries-included toolset for efficient Redux development",
+                  "descriptionClean": "The official, opinionated, batteries-included toolset for efficient Redux development"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 1,
+                      "retention": 1,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 92.86,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 92.86,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 14,
+                      "percentageSurvey": 45.16,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "state_management_react_query",
+                "entity": {
+                  "name": "TanStack Query",
+                  "nameClean": "TanStack Query",
+                  "entityType": "library",
+                  "description": "(React Query)",
+                  "descriptionClean": "(React Query)"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 1,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 14,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 14,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 45.16
+                      }
+                    ],
+                    "completion": {
+                      "count": 14,
+                      "percentageSurvey": 45.16,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "state_management_xstate",
+                "entity": {
+                  "name": "XState",
+                  "nameClean": "XState",
+                  "entityType": "library",
+                  "description": "State machines and statecharts for the modern web.",
+                  "descriptionClean": "State machines and statecharts for the modern web.",
+                  "homepage": {
+                    "url": "https://xstate.js.org/docs/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 1,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 92.86,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 92.86,
+                        "percentageSurvey": 41.94
+                      },
+                      {
+                        "count": 0,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 1,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
+                      }
+                    ],
+                    "completion": {
+                      "count": 14,
+                      "percentageSurvey": 45.16,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "state_management_zustand",
+                "entity": {
+                  "name": "Zustand",
+                  "nameClean": "Zustand",
+                  "entityType": "library",
+                  "description": "Bear necessities for state management in React",
+                  "descriptionClean": "Bear necessities for state management in React",
+                  "homepage": {
+                    "url": "https://zustand-demo.pmnd.rs/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 92.86,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 92.86,
+                        "percentageSurvey": 41.94
+                      },
+                      {
+                        "count": 0,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 1,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
+                      }
+                    ],
+                    "completion": {
+                      "count": 14,
+                      "percentageSurvey": 45.16,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "data_fetching_fetch",
+                "entity": {
+                  "name": "Fetch API",
+                  "nameClean": "Fetch API",
+                  "entityType": "library",
+                  "homepage": {
+                    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+                  }
+                }
+              },
+              {
+                "id": "data_fetching_axios",
+                "entity": {
+                  "name": "Axios",
+                  "nameClean": "Axios",
+                  "entityType": "library",
+                  "description": "Promise based HTTP client for the browser and node.js",
+                  "descriptionClean": "Promise based HTTP client for the browser and node.js",
+                  "homepage": {
+                    "url": "https://axios-http.com/docs/intro"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 1,
+                      "retention": 1,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 41.94,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "data_fetching_apollo",
+                "entity": {
+                  "name": "Apollo Client",
+                  "nameClean": "Apollo Client",
+                  "entityType": "library",
+                  "description": "🚀  A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server.",
+                  "descriptionClean": "🚀  A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server.",
+                  "homepage": {
+                    "url": "https://www.apollographql.com/docs/react/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 1,
+                      "retention": 1,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 41.94,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "data_fetching_trpc",
+                "entity": {
+                  "name": "tRPC",
+                  "nameClean": "tRPC",
+                  "entityType": "library",
+                  "description": "🧙‍♀️ Move Fast and Break Nothing. End-to-end typesafe APIs made easy.",
+                  "descriptionClean": "🧙‍♀️ Move Fast and Break Nothing. End-to-end typesafe APIs made easy.",
+                  "homepage": {
+                    "url": "https://trpc.io/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 41.94,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "data_fetching_tan_stack",
+                "entity": {
+                  "name": "TanStack Query (React Query)",
+                  "nameClean": "TanStack Query (React Query)",
+                  "entityType": "library",
+                  "description": "🤖 Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query.",
+                  "descriptionClean": "🤖 Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query.",
+                  "homepage": {
+                    "url": "https://tanstack.com/query/latest/docs/react/overview"
+                  }
+                }
+              },
+              {
+                "id": "data_fetching_swr",
+                "entity": {
+                  "name": "SWR",
+                  "nameClean": "SWR",
+                  "entityType": "library",
+                  "description": "React Hooks for Data Fetching",
+                  "descriptionClean": "React Hooks for Data Fetching",
+                  "homepage": {
+                    "url": "https://swr.vercel.app/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 1,
+                      "retention": 1,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 41.94,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "data_fetching_relay",
+                "entity": {
+                  "name": "Relay",
+                  "nameClean": "Relay",
+                  "entityType": "library",
+                  "description": "Relay is a JavaScript framework for building data-driven React applications.",
+                  "descriptionClean": "Relay is a JavaScript framework for building data-driven React applications.",
+                  "homepage": {
+                    "url": "https://relay.dev/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 1,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 41.94,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "data_fetching_rtk_query",
+                "entity": {
+                  "name": "RTK Query",
+                  "nameClean": "RTK Query",
+                  "entityType": "library",
+                  "homepage": {
+                    "url": "https://redux-toolkit.js.org/rtk-query/overview"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 41.94,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "navigation_expo_router",
+                "entity": {
+                  "name": "expo-router",
+                  "nameClean": "expo-router",
+                  "entityType": "library",
+                  "description": "The new File-based router for universal React Native apps!",
+                  "descriptionClean": "The new File-based router for universal React Native apps!",
+                  "homepage": {
+                    "url": "https://expo.github.io/router/docs/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 92.86,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 92.86,
+                        "percentageSurvey": 41.94
+                      },
+                      {
+                        "count": 0,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 1,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
+                      }
+                    ],
+                    "completion": {
+                      "count": 14,
+                      "percentageSurvey": 45.16,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "navigation_react_native_navigation",
+                "entity": {
+                  "name": "react-native-navigation",
+                  "nameClean": "react-native-navigation",
+                  "entityType": "library",
+                  "description": "A complete native navigation solution for React Native",
+                  "descriptionClean": "A complete native navigation solution for React Native",
+                  "homepage": {
+                    "url": "https://wix.github.io/react-native-navigation/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 1,
+                      "retention": 1,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 14,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 14,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 45.16
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 45.16
+                      }
+                    ],
+                    "completion": {
+                      "count": 14,
+                      "percentageSurvey": 45.16,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "navigation_react_navigation",
+                "entity": {
+                  "name": "react-navigation",
+                  "nameClean": "react-navigation",
+                  "entityType": "library",
+                  "description": "Routing and navigation for your React Native apps",
+                  "descriptionClean": "Routing and navigation for your React Native apps",
+                  "homepage": {
+                    "url": "https://reactnavigation.org/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 14,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 14,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 45.16
+                      }
+                    ],
+                    "completion": {
+                      "count": 14,
+                      "percentageSurvey": 45.16,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "navigation_react_router",
+                "entity": {
+                  "name": "react-router",
+                  "nameClean": "react-router",
+                  "entityType": "library",
+                  "description": "Declarative routing for React",
+                  "descriptionClean": "Declarative routing for React",
+                  "homepage": {
+                    "url": "https://reactrouter.com/en/main/router-components/native-router"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "interest": 0,
+                      "retention": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 0,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 1,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
+                      }
+                    ],
+                    "completion": {
+                      "count": 1,
+                      "percentageSurvey": 3.23,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "navigation_solito",
+                "entity": {
+                  "name": "Solito",
+                  "nameClean": "Solito",
+                  "entityType": "library",
+                  "homepage": {
+                    "url": "https://solito.dev/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 92.86,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 92.86,
+                        "percentageSurvey": 41.94
+                      },
+                      {
+                        "count": 0,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 1,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
+                      }
+                    ],
+                    "completion": {
+                      "count": 14,
+                      "percentageSurvey": 45.16,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "navigation_navigation",
+                "entity": {
+                  "name": "The Navigation router",
+                  "nameClean": "The Navigation router",
+                  "entityType": "library",
+                  "description": "Scene-Based Navigation for React and React Native",
+                  "descriptionClean": "Scene-Based Navigation for React and React Native",
+                  "homepage": {
+                    "url": "http://grahammendick.github.io/navigation/native/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 14,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 14,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 45.16
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 45.16
+                      }
+                    ],
+                    "completion": {
+                      "count": 14,
+                      "percentageSurvey": 45.16,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "styling_techniques_dripsy",
+                "entity": {
+                  "name": "Dripsy",
+                  "nameClean": "Dripsy",
+                  "entityType": "library",
+                  "description": "🍷 Responsive, unstyled UI primitives for React Native + Web.",
+                  "descriptionClean": "🍷 Responsive, unstyled UI primitives for React Native + Web.",
+                  "homepage": {
+                    "url": "https://www.dripsy.xyz/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 92.86,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 92.86,
+                        "percentageSurvey": 41.94
+                      },
+                      {
+                        "count": 0,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 1,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
+                      }
+                    ],
+                    "completion": {
+                      "count": 14,
+                      "percentageSurvey": 45.16,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "styling_techniques_emotion",
+                "entity": {
+                  "name": "Emotion",
+                  "nameClean": "Emotion",
+                  "entityType": "library"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 92.86,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 92.86,
+                        "percentageSurvey": 41.94
+                      },
+                      {
+                        "count": 0,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 1,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
+                      }
+                    ],
+                    "completion": {
+                      "count": 14,
+                      "percentageSurvey": 45.16,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "styling_techniques_gluestack_styles",
+                "entity": {
+                  "name": "gluestack-style",
+                  "nameClean": "gluestack-style",
+                  "entityType": "library",
+                  "description": "Universal and Performant Styling library for React Native, Next.js, Expo & React",
+                  "descriptionClean": "Universal and Performant Styling library for React Native, Next.js, Expo  React",
+                  "descriptionHtml": "Universal and Performant Styling library for React Native, Next.js, Expo &amp; React"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 92.86,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 92.86,
+                        "percentageSurvey": 41.94
+                      },
+                      {
+                        "count": 0,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 1,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
+                      }
+                    ],
+                    "completion": {
+                      "count": 14,
+                      "percentageSurvey": 45.16,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "styling_techniques_inline",
+                "entity": {
+                  "name": "Inline styling",
+                  "nameClean": "Inline styling",
+                  "entityType": "library"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 14,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 14,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 45.16
+                      }
+                    ],
+                    "completion": {
+                      "count": 14,
+                      "percentageSurvey": 45.16,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "styling_techniques_nativewind",
+                "entity": {
+                  "name": "NativeWind",
+                  "nameClean": "NativeWind",
+                  "entityType": "library",
+                  "description": "React Native utility-first universal design system - powered by Tailwind CSS",
+                  "descriptionClean": "React Native utility-first universal design system - powered by Tailwind CSS",
+                  "homepage": {
+                    "url": "https://www.nativewind.dev/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 14,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 14,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 45.16
+                      }
+                    ],
+                    "completion": {
+                      "count": 14,
+                      "percentageSurvey": 45.16,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "styling_techniques_react_native_unistyles",
+                "entity": {
+                  "name": "react-native-unistyles",
+                  "nameClean": "react-native-unistyles",
+                  "entityType": "library",
+                  "description": "Universal styling for React Native and React Native Web",
+                  "descriptionClean": "Universal styling for React Native and React Native Web"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 92.86,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 92.86,
+                        "percentageSurvey": 41.94
+                      },
+                      {
+                        "count": 0,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 1,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
+                      }
+                    ],
+                    "completion": {
+                      "count": 14,
+                      "percentageSurvey": 45.16,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "styling_techniques_restyle",
+                "entity": {
+                  "name": "Restyle",
+                  "nameClean": "Restyle",
+                  "entityType": "library",
+                  "description": "A type-enforced system for building UI components in React Native with TypeScript.",
+                  "descriptionClean": "A type-enforced system for building UI components in React Native with TypeScript.",
+                  "homepage": {
+                    "url": "https://shopify.github.io/restyle/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 41.94,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "styling_techniques_style_sheet",
+                "entity": {
+                  "name": "StyleSheet API",
+                  "nameClean": "StyleSheet API",
+                  "entityType": "library",
+                  "homepage": {
+                    "url": "https://reactnative.dev/docs/stylesheet"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 92.86,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 92.86,
+                        "percentageSurvey": 41.94
+                      },
+                      {
+                        "count": 0,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 1,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
+                      }
+                    ],
+                    "completion": {
+                      "count": 14,
+                      "percentageSurvey": 45.16,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "styling_techniques_styled_components",
+                "entity": {
+                  "name": "styled components",
+                  "nameClean": "styled components",
+                  "entityType": "library",
+                  "description": "Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress 💅",
+                  "descriptionClean": "Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress 💅",
+                  "homepage": {
+                    "url": "https://styled-components.com/docs/basics#react-native"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "interest": 0,
+                      "retention": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 0,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 1,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
+                      }
+                    ],
+                    "completion": {
+                      "count": 1,
+                      "percentageSurvey": 3.23,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "styling_techniques_tailwind_rn",
+                "entity": {
+                  "name": "tailwind-rn",
+                  "nameClean": "tailwind-rn",
+                  "entityType": "library",
+                  "description": "🦎 Use Tailwind CSS in React Native projects",
+                  "descriptionClean": "🦎 Use Tailwind CSS in React Native projects"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 14,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 14,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 45.16
+                      }
+                    ],
+                    "completion": {
+                      "count": 14,
+                      "percentageSurvey": 45.16,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "styling_techniques_tamagui",
+                "entity": {
+                  "name": "Tamagui",
+                  "nameClean": "Tamagui",
+                  "entityType": "library",
+                  "description": "Universal UI kit and style system for React Native + Web - with an optimizing compiler 🚄",
+                  "descriptionClean": "Universal UI kit and style system for React Native + Web - with an optimizing compiler 🚄",
+                  "homepage": {
+                    "url": "https://tamagui.dev/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 14,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 14,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 45.16
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 45.16
+                      }
+                    ],
+                    "completion": {
+                      "count": 14,
+                      "percentageSurvey": 45.16,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "styling_techniques_twrnc",
+                "entity": {
+                  "name": "twrnc",
+                  "nameClean": "twrnc",
+                  "entityType": "library",
+                  "description": "Tailwind React Native Classnames",
+                  "descriptionClean": "Tailwind React Native Classnames"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 92.86,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 92.86,
+                        "percentageSurvey": 41.94
+                      },
+                      {
+                        "count": 0,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 1,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
+                      }
+                    ],
+                    "completion": {
+                      "count": 14,
+                      "percentageSurvey": 45.16,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "component_libraries_gluestack_ui",
+                "entity": {
+                  "name": "gluestack-ui",
+                  "nameClean": "gluestack-ui",
+                  "entityType": "library",
+                  "description": "Universal headless components for React Native, Next.js & React with beautiful & optional styling (alpha)",
+                  "descriptionClean": "Universal headless components for React Native, Next.js  React with beautiful  optional styling (alpha)",
+                  "descriptionHtml": "Universal headless components for React Native, Next.js &amp; React with beautiful &amp; optional styling (alpha)",
+                  "homepage": {
+                    "url": "https://gluestack.io/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 92.86,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 92.86,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 14,
+                      "percentageSurvey": 45.16,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "component_libraries_native_base",
+                "entity": {
+                  "name": "NativeBase",
+                  "nameClean": "NativeBase",
+                  "entityType": "library",
+                  "description": "Mobile-first, accessible components for React Native & Web to build consistent UI across Android, iOS and Web.",
+                  "descriptionClean": "Mobile-first, accessible components for React Native  Web to build consistent UI across Android, iOS and Web.",
+                  "descriptionHtml": "Mobile-first, accessible components for React Native &amp; Web to build consistent UI across Android, iOS and Web.",
+                  "homepage": {
+                    "url": "https://nativebase.io/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 41.94,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "component_libraries_rn_elements",
+                "entity": {
+                  "name": "React Native Elements",
+                  "nameClean": "React Native Elements",
+                  "entityType": "library",
+                  "description": "Cross-Platform React Native UI Toolkit",
+                  "descriptionClean": "Cross-Platform React Native UI Toolkit",
+                  "homepage": {
+                    "url": "https://reactnativeelements.com/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 1,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 41.94,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "component_libraries_react_native_material_kit",
+                "entity": {
+                  "name": "React Native Material Kit",
+                  "nameClean": "React Native Material Kit",
+                  "entityType": "library",
+                  "description": "Bringing Material Design to React Native",
+                  "descriptionClean": "Bringing Material Design to React Native",
+                  "homepage": {
+                    "url": "https://rnmk.xinthink.com/"
+                  }
+                }
+              },
+              {
+                "id": "component_libraries_react_native_material_ui",
+                "entity": {
+                  "name": "react-native-material-ui",
+                  "nameClean": "react-native-material-ui",
+                  "entityType": "library",
+                  "description": "Highly customizable material design components for React Native",
+                  "descriptionClean": "Highly customizable material design components for React Native"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 41.94,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "component_libraries_rn_paper",
+                "entity": {
+                  "name": "react-native-paper",
+                  "nameClean": "react-native-paper",
+                  "entityType": "library",
+                  "description": "Material Design for React Native (Android & iOS)",
+                  "descriptionClean": "Material Design for React Native (Android  iOS)",
+                  "descriptionHtml": "Material Design for React Native (Android &amp; iOS)",
+                  "homepage": {
+                    "url": "https://reactnativepaper.com/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 41.94,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "component_libraries_rn_ui_lib",
+                "entity": {
+                  "name": "react-native-ui-lib",
+                  "nameClean": "react-native-ui-lib",
+                  "entityType": "library",
+                  "description": "UI Components Library for React Native",
+                  "descriptionClean": "UI Components Library for React Native",
+                  "homepage": {
+                    "url": "https://wix.github.io/react-native-ui-lib/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 41.94,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "component_libraries_shoutem_ui",
+                "entity": {
+                  "name": "Shoutem UI",
+                  "nameClean": "Shoutem UI",
+                  "entityType": "library",
+                  "description": "Customizable set of components for React Native applications",
+                  "descriptionClean": "Customizable set of components for React Native applications",
+                  "homepage": {
+                    "url": "https://shoutem.github.io/docs/ui-toolkit/introduction"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 1,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 41.94,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "component_libraries_ui_kitten",
+                "entity": {
+                  "name": "ui-kitten",
+                  "nameClean": "ui-kitten",
+                  "entityType": "library",
+                  "description": "💥 React Native UI Library based on Eva Design System",
+                  "descriptionClean": "💥 React Native UI Library based on Eva Design System",
+                  "homepage": {
+                    "url": "https://akveo.github.io/react-native-ui-kitten/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 1,
+                      "retention": 1,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 41.94,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "component_libraries_tamagui",
+                "entity": {
+                  "name": "Tamagui",
+                  "nameClean": "Tamagui",
+                  "entityType": "library",
+                  "description": "A style library, UI kit, and optimizing compiler that makes React run faster - on both native and web",
+                  "descriptionClean": "A style library, UI kit, and optimizing compiler that makes React run faster - on both native and web",
+                  "homepage": {
+                    "url": "https://tamagui.dev/"
+                  }
+                }
+              },
+              {
+                "id": "animations_animated_api",
+                "entity": {
+                  "name": "Animated API",
+                  "nameClean": "Animated API",
+                  "entityType": "library",
+                  "description": "The Animated library is designed to make animations fluid, powerful, and painless to build and maintain.",
+                  "descriptionClean": "The Animated library is designed to make animations fluid, powerful, and painless to build and maintain.",
+                  "homepage": {
+                    "url": "https://reactnative.dev/docs/animated"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 41.94,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "animations_expo_gl",
+                "entity": {
+                  "name": "Expo GL",
+                  "nameClean": "Expo GL",
+                  "entityType": "library",
+                  "description": "Expo module providing WebGL2 implementation",
+                  "descriptionClean": "Expo module providing WebGL2 implementation",
+                  "homepage": {
+                    "url": "https://docs.expo.dev/versions/latest/sdk/gl-view/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 41.94,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "animations_lottie",
+                "entity": {
+                  "name": "Lottie",
+                  "nameClean": "Lottie",
+                  "entityType": "library",
+                  "description": "Lottie wrapper for React Native.",
+                  "descriptionClean": "Lottie wrapper for React Native.",
+                  "homepage": {
+                    "url": "https://airbnb.design/lottie"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 41.94,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "animations_moti",
+                "entity": {
+                  "name": "Moti",
+                  "nameClean": "Moti",
+                  "entityType": "library",
+                  "description": "🐼 The React Native (+ Web) animation library, powered by Reanimated 2.",
+                  "descriptionClean": "🐼 The React Native (+ Web) animation library, powered by Reanimated 2."
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 41.94,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "animations_react_native_animatable",
+                "entity": {
+                  "name": "React Native Animatable",
+                  "nameClean": "React Native Animatable",
+                  "entityType": "library",
+                  "description": "Standard set of easy to use animations and declarative transitions for React Native",
+                  "descriptionClean": "Standard set of easy to use animations and declarative transitions for React Native"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 1,
+                      "retention": 1,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 41.94,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "animations_react_native_reanimated",
+                "entity": {
+                  "name": "React Native Reanimated",
+                  "nameClean": "React Native Reanimated",
+                  "entityType": "library",
+                  "description": "React Native's Animated library reimplemented",
+                  "descriptionClean": "React Native's Animated library reimplemented",
+                  "descriptionHtml": "React Native's Animated library reimplemented",
+                  "homepage": {
+                    "url": "https://docs.swmansion.com/react-native-reanimated/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 1,
+                      "retention": 1,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 41.94,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "animations_react_three_fiber",
+                "entity": {
+                  "name": "React Three Fiber",
+                  "nameClean": "React Three Fiber",
+                  "entityType": "library",
+                  "description": "🇨🇭 A React renderer for Three.js",
+                  "descriptionClean": "🇨🇭 A React renderer for Three.js",
+                  "homepage": {
+                    "url": "https://docs.pmnd.rs/react-three-fiber/getting-started/introduction"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 1,
+                      "retention": 1,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 41.94,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "animations_rive",
+                "entity": {
+                  "name": "Rive",
+                  "nameClean": "Rive",
+                  "entityType": "library",
+                  "homepage": {
+                    "url": "https://rive.app/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 1,
+                      "retention": 1,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 41.94,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "animations_skia",
+                "entity": {
+                  "name": "React Native Skia",
+                  "nameClean": "React Native Skia",
+                  "entityType": "library",
+                  "description": "High-performance React Native Graphics using Skia",
+                  "descriptionClean": "High-performance React Native Graphics using Skia"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 1,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 41.94,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "animations_threejs",
+                "entity": {
+                  "name": "three.js",
+                  "nameClean": "three.js",
+                  "entityType": "library",
+                  "description": "JavaScript 3D Library.",
+                  "descriptionClean": "JavaScript 3D Library.",
+                  "homepage": {
+                    "url": "https://threejs.org/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 1,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 41.94,
+                      "total": 31
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,482 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "data_fetching": {
+            "data_fetching_ratios": [
+              {
+                "id": "data_fetching_fetch",
+                "entity": {
+                  "name": "Fetch API",
+                  "nameClean": "Fetch API",
+                  "entityType": "library",
+                  "homepage": {
+                    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.98,
+                        "interest": 0.33,
+                        "usage": 0.9,
+                        "retention": 0.87,
+                        "positivity": 0.81
+                      },
+                      "completion": {
+                        "count": 1256,
+                        "percentageSurvey": 82.31,
+                        "total": 1526
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.98,
+                        "interest": 0.46,
+                        "usage": 0.9,
+                        "retention": 0.83,
+                        "positivity": 0.79
+                      },
+                      "completion": {
+                        "count": 1943,
+                        "percentageSurvey": 81.09,
+                        "total": 2396
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "data_fetching_axios",
+                "entity": {
+                  "name": "Axios",
+                  "nameClean": "Axios",
+                  "entityType": "library",
+                  "description": "Promise based HTTP client for the browser and node.js",
+                  "descriptionClean": "Promise based HTTP client for the browser and node.js",
+                  "homepage": {
+                    "url": "https://axios-http.com/docs/intro"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.99,
+                        "interest": 0.36,
+                        "usage": 0.88,
+                        "retention": 0.87,
+                        "positivity": 0.8
+                      },
+                      "completion": {
+                        "count": 1257,
+                        "percentageSurvey": 82.37,
+                        "total": 1526
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.98,
+                        "interest": 0.33,
+                        "usage": 0.88,
+                        "retention": 0.86,
+                        "positivity": 0.79
+                      },
+                      "completion": {
+                        "count": 1957,
+                        "percentageSurvey": 81.68,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 1,
+                        "interest": 0,
+                        "usage": 1,
+                        "retention": 1,
+                        "positivity": 1
+                      },
+                      "completion": {
+                        "count": 13,
+                        "percentageSurvey": 41.94,
+                        "total": 31
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "data_fetching_apollo",
+                "entity": {
+                  "name": "Apollo Client",
+                  "nameClean": "Apollo Client",
+                  "entityType": "library",
+                  "description": "🚀  A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server.",
+                  "descriptionClean": "🚀  A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server.",
+                  "homepage": {
+                    "url": "https://www.apollographql.com/docs/react/"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.9,
+                        "interest": 0.54,
+                        "usage": 0.45,
+                        "retention": 0.76,
+                        "positivity": 0.59
+                      },
+                      "completion": {
+                        "count": 1254,
+                        "percentageSurvey": 82.18,
+                        "total": 1526
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.84,
+                        "interest": 0.43,
+                        "usage": 0.38,
+                        "retention": 0.72,
+                        "positivity": 0.47
+                      },
+                      "completion": {
+                        "count": 1925,
+                        "percentageSurvey": 80.34,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 1,
+                        "interest": 0,
+                        "usage": 1,
+                        "retention": 1,
+                        "positivity": 1
+                      },
+                      "completion": {
+                        "count": 13,
+                        "percentageSurvey": 41.94,
+                        "total": 31
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "data_fetching_trpc",
+                "entity": {
+                  "name": "tRPC",
+                  "nameClean": "tRPC",
+                  "entityType": "library",
+                  "description": "🧙‍♀️ Move Fast and Break Nothing. End-to-end typesafe APIs made easy.",
+                  "descriptionClean": "🧙‍♀️ Move Fast and Break Nothing. End-to-end typesafe APIs made easy.",
+                  "homepage": {
+                    "url": "https://trpc.io/"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.64,
+                        "interest": 0.81,
+                        "usage": 0.07,
+                        "retention": 0,
+                        "positivity": 0.45
+                      },
+                      "completion": {
+                        "count": 1248,
+                        "percentageSurvey": 81.78,
+                        "total": 1526
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.63,
+                        "interest": 0.75,
+                        "usage": 0.12,
+                        "retention": 0.91,
+                        "positivity": 0.49
+                      },
+                      "completion": {
+                        "count": 1904,
+                        "percentageSurvey": 79.47,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 0,
+                        "interest": 0,
+                        "usage": 0,
+                        "retention": 0,
+                        "positivity": 1
+                      },
+                      "completion": {
+                        "count": 13,
+                        "percentageSurvey": 41.94,
+                        "total": 31
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "data_fetching_tan_stack",
+                "entity": {
+                  "name": "TanStack Query (React Query)",
+                  "nameClean": "TanStack Query (React Query)",
+                  "entityType": "library",
+                  "description": "🤖 Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query.",
+                  "descriptionClean": "🤖 Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query.",
+                  "homepage": {
+                    "url": "https://tanstack.com/query/latest/docs/react/overview"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.79,
+                        "interest": 0.77,
+                        "usage": 0.45,
+                        "retention": 0.97,
+                        "positivity": 0.7
+                      },
+                      "completion": {
+                        "count": 1250,
+                        "percentageSurvey": 81.91,
+                        "total": 1526
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.81,
+                        "interest": 0.7,
+                        "usage": 0.54,
+                        "retention": 0.97,
+                        "positivity": 0.72
+                      },
+                      "completion": {
+                        "count": 1931,
+                        "percentageSurvey": 80.59,
+                        "total": 2396
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "data_fetching_swr",
+                "entity": {
+                  "name": "SWR",
+                  "nameClean": "SWR",
+                  "entityType": "library",
+                  "description": "React Hooks for Data Fetching",
+                  "descriptionClean": "React Hooks for Data Fetching",
+                  "homepage": {
+                    "url": "https://swr.vercel.app/"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.67,
+                        "interest": 0.59,
+                        "usage": 0.19,
+                        "retention": 0.78,
+                        "positivity": 0.44
+                      },
+                      "completion": {
+                        "count": 1243,
+                        "percentageSurvey": 81.45,
+                        "total": 1526
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.63,
+                        "interest": 0.5,
+                        "usage": 0.17,
+                        "retention": 0.67,
+                        "positivity": 0.34
+                      },
+                      "completion": {
+                        "count": 1914,
+                        "percentageSurvey": 79.88,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 1,
+                        "interest": 0,
+                        "usage": 1,
+                        "retention": 1,
+                        "positivity": 1
+                      },
+                      "completion": {
+                        "count": 13,
+                        "percentageSurvey": 41.94,
+                        "total": 31
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "data_fetching_relay",
+                "entity": {
+                  "name": "Relay",
+                  "nameClean": "Relay",
+                  "entityType": "library",
+                  "description": "Relay is a JavaScript framework for building data-driven React applications.",
+                  "descriptionClean": "Relay is a JavaScript framework for building data-driven React applications.",
+                  "homepage": {
+                    "url": "https://relay.dev/"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.66,
+                        "interest": 0.44,
+                        "usage": 0.06,
+                        "retention": 0.5,
+                        "positivity": 0.29
+                      },
+                      "completion": {
+                        "count": 1245,
+                        "percentageSurvey": 81.59,
+                        "total": 1526
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.58,
+                        "interest": 0.43,
+                        "usage": 0.05,
+                        "retention": 0.59,
+                        "positivity": 0.25
+                      },
+                      "completion": {
+                        "count": 1909,
+                        "percentageSurvey": 79.67,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 1,
+                        "interest": 0,
+                        "usage": 1,
+                        "retention": 0,
+                        "positivity": 0
+                      },
+                      "completion": {
+                        "count": 13,
+                        "percentageSurvey": 41.94,
+                        "total": 31
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "data_fetching_rtk_query",
+                "entity": {
+                  "name": "RTK Query",
+                  "nameClean": "RTK Query",
+                  "entityType": "library",
+                  "homepage": {
+                    "url": "https://redux-toolkit.js.org/rtk-query/overview"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.64,
+                        "interest": 0.52,
+                        "usage": 0.2,
+                        "retention": 0.73,
+                        "positivity": 0.38
+                      },
+                      "completion": {
+                        "count": 1918,
+                        "percentageSurvey": 80.05,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 0,
+                        "interest": 0,
+                        "usage": 0,
+                        "retention": 0,
+                        "positivity": 1
+                      },
+                      "completion": {
+                        "count": 13,
+                        "percentageSurvey": 41.94,
+                        "total": 31
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "data_fetching": {
+            "data_fetching_experience": [
+              {
+                "id": "data_fetching_fetch",
+                "entity": {
+                  "name": "Fetch API",
+                  "nameClean": "Fetch API",
+                  "entityType": "library",
+                  "homepage": {
+                    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+                  }
+                }
+              },
+              {
+                "id": "data_fetching_axios",
+                "entity": {
+                  "name": "Axios",
+                  "nameClean": "Axios",
+                  "entityType": "library",
+                  "description": "Promise based HTTP client for the browser and node.js",
+                  "descriptionClean": "Promise based HTTP client for the browser and node.js",
+                  "homepage": {
+                    "url": "https://axios-http.com/docs/intro"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 1,
+                      "retention": 1,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 41.94,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "data_fetching_apollo",
+                "entity": {
+                  "name": "Apollo Client",
+                  "nameClean": "Apollo Client",
+                  "entityType": "library",
+                  "description": "🚀  A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server.",
+                  "descriptionClean": "🚀  A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server.",
+                  "homepage": {
+                    "url": "https://www.apollographql.com/docs/react/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 1,
+                      "retention": 1,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 41.94,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "data_fetching_trpc",
+                "entity": {
+                  "name": "tRPC",
+                  "nameClean": "tRPC",
+                  "entityType": "library",
+                  "description": "🧙‍♀️ Move Fast and Break Nothing. End-to-end typesafe APIs made easy.",
+                  "descriptionClean": "🧙‍♀️ Move Fast and Break Nothing. End-to-end typesafe APIs made easy.",
+                  "homepage": {
+                    "url": "https://trpc.io/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 41.94,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "data_fetching_tan_stack",
+                "entity": {
+                  "name": "TanStack Query (React Query)",
+                  "nameClean": "TanStack Query (React Query)",
+                  "entityType": "library",
+                  "description": "🤖 Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query.",
+                  "descriptionClean": "🤖 Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query.",
+                  "homepage": {
+                    "url": "https://tanstack.com/query/latest/docs/react/overview"
+                  }
+                }
+              },
+              {
+                "id": "data_fetching_swr",
+                "entity": {
+                  "name": "SWR",
+                  "nameClean": "SWR",
+                  "entityType": "library",
+                  "description": "React Hooks for Data Fetching",
+                  "descriptionClean": "React Hooks for Data Fetching",
+                  "homepage": {
+                    "url": "https://swr.vercel.app/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 1,
+                      "retention": 1,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 41.94,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "data_fetching_relay",
+                "entity": {
+                  "name": "Relay",
+                  "nameClean": "Relay",
+                  "entityType": "library",
+                  "description": "Relay is a JavaScript framework for building data-driven React applications.",
+                  "descriptionClean": "Relay is a JavaScript framework for building data-driven React applications.",
+                  "homepage": {
+                    "url": "https://relay.dev/"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 1,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "negative",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 41.94,
+                      "total": 31
+                    }
+                  }
+                }
+              },
+              {
+                "id": "data_fetching_rtk_query",
+                "entity": {
+                  "name": "RTK Query",
+                  "nameClean": "RTK Query",
+                  "entityType": "library",
+                  "homepage": {
+                    "url": "https://redux-toolkit.js.org/rtk-query/overview"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0,
+                      "interest": 0,
+                      "usage": 0,
+                      "retention": 0,
+                      "positivity": 1
+                    },
+                    "buckets": [
+                      {
+                        "count": 13,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "positive",
+                            "percentageBucket": 100,
+                            "percentageQuestion": 100,
+                            "percentageSurvey": 41.94
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 100,
+                        "percentageSurvey": 41.94
+                      }
+                    ],
+                    "completion": {
+                      "count": 13,
+                      "percentageSurvey": 41.94,
+                      "total": 31
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

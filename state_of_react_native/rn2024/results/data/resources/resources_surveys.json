@@ -1,0 +1,46 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "resources": {
+            "resources_surveys": {
+              "responses": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 13,
+                    "percentageSurvey": 37.14,
+                    "total": 35
+                  },
+                  "buckets": [
+                    {
+                      "count": 13,
+                      "id": "resources_surveys_jamstack",
+                      "percentageQuestion": 100,
+                      "percentageSurvey": 37.14,
+                      "entity": {
+                        "name": "Jamstack Community Survey",
+                        "nameClean": "Jamstack Community Survey",
+                        "id": "resources_surveys_jamstack",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://jamstack.org/survey/"
+                        }
+                      }
+                    },
+                    {
+                      "count": 22,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 62.86
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

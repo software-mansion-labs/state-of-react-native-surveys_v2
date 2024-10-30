@@ -1,0 +1,651 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "state_management": {
+            "state_management_ratios": [
+              {
+                "id": "state_management_apollo",
+                "entity": {
+                  "name": "Apollo Client",
+                  "nameClean": "Apollo Client",
+                  "entityType": "library",
+                  "description": "A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server",
+                  "descriptionClean": "A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server",
+                  "homepage": {
+                    "url": "https://www.apollographql.com/docs/react/"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.89,
+                        "interest": 0.53,
+                        "usage": 0.42,
+                        "retention": 0.74,
+                        "positivity": 0.56
+                      },
+                      "completion": {
+                        "count": 1287,
+                        "percentageSurvey": 84.34,
+                        "total": 1526
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.83,
+                        "interest": 0.42,
+                        "usage": 0.38,
+                        "retention": 0.69,
+                        "positivity": 0.45
+                      },
+                      "completion": {
+                        "count": 2003,
+                        "percentageSurvey": 83.6,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 0,
+                        "interest": 0,
+                        "usage": 0,
+                        "retention": 0,
+                        "positivity": 0
+                      },
+                      "completion": {
+                        "count": 15,
+                        "percentageSurvey": 48.39,
+                        "total": 31
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "state_management_jotai",
+                "entity": {
+                  "name": "Jotai",
+                  "nameClean": "Jotai",
+                  "entityType": "library",
+                  "description": "Primitive, flexible state management for React",
+                  "descriptionClean": "Primitive, flexible state management for React",
+                  "homepage": {
+                    "url": "https://jotai.org/"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.59,
+                        "interest": 0.55,
+                        "usage": 0.09,
+                        "retention": 0.91,
+                        "positivity": 0.36
+                      },
+                      "completion": {
+                        "count": 1287,
+                        "percentageSurvey": 84.34,
+                        "total": 1526
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.64,
+                        "interest": 0.57,
+                        "usage": 0.14,
+                        "retention": 0.86,
+                        "positivity": 0.4
+                      },
+                      "completion": {
+                        "count": 1983,
+                        "percentageSurvey": 82.76,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 0,
+                        "interest": 0,
+                        "usage": 0,
+                        "retention": 0,
+                        "positivity": 0
+                      },
+                      "completion": {
+                        "count": 15,
+                        "percentageSurvey": 48.39,
+                        "total": 31
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "state_management_mobx",
+                "entity": {
+                  "name": "MobX",
+                  "nameClean": "MobX",
+                  "entityType": "library",
+                  "description": "Simple, scalable state management.",
+                  "descriptionClean": "Simple, scalable state management.",
+                  "homepage": {
+                    "url": "https://mobx.js.org/"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.83,
+                        "interest": 0.38,
+                        "usage": 0.19,
+                        "retention": 0.59,
+                        "positivity": 0.36
+                      },
+                      "completion": {
+                        "count": 1985,
+                        "percentageSurvey": 82.85,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 1,
+                        "interest": 0,
+                        "usage": 0,
+                        "retention": 0,
+                        "positivity": 0
+                      },
+                      "completion": {
+                        "count": 15,
+                        "percentageSurvey": 48.39,
+                        "total": 31
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "state_management_mobx_state_tree",
+                "entity": {
+                  "name": "MobX State Tree",
+                  "nameClean": "MobX State Tree",
+                  "entityType": "library"
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.73,
+                        "interest": 0.41,
+                        "usage": 0.12,
+                        "retention": 0.57,
+                        "positivity": 0.32
+                      },
+                      "completion": {
+                        "count": 1979,
+                        "percentageSurvey": 82.6,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 1,
+                        "interest": 1,
+                        "usage": 0,
+                        "retention": 0,
+                        "positivity": 1
+                      },
+                      "completion": {
+                        "count": 15,
+                        "percentageSurvey": 48.39,
+                        "total": 31
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "state_management_rn_built_in",
+                "entity": {
+                  "name": "React built-ins",
+                  "nameClean": "React built-ins",
+                  "entityType": "library",
+                  "description": "(useState, useContext, etc.)",
+                  "descriptionClean": "(useState, useContext, etc.)"
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 1,
+                        "interest": 0.63,
+                        "usage": 0.96,
+                        "retention": 0.97,
+                        "positivity": 0.95
+                      },
+                      "completion": {
+                        "count": 1298,
+                        "percentageSurvey": 85.06,
+                        "total": 1526
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 1,
+                        "interest": 0.42,
+                        "usage": 0.97,
+                        "retention": 0.96,
+                        "positivity": 0.95
+                      },
+                      "completion": {
+                        "count": 2027,
+                        "percentageSurvey": 84.6,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 1,
+                        "interest": 0,
+                        "usage": 1,
+                        "retention": 0,
+                        "positivity": 0
+                      },
+                      "completion": {
+                        "count": 14,
+                        "percentageSurvey": 45.16,
+                        "total": 31
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "state_management_recoil",
+                "entity": {
+                  "name": "Recoil",
+                  "nameClean": "Recoil",
+                  "entityType": "library",
+                  "description": "An experimental state management library for React apps",
+                  "descriptionClean": "An experimental state management library for React apps",
+                  "homepage": {
+                    "url": "https://recoiljs.org/"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.74,
+                        "interest": 0.48,
+                        "usage": 0.1,
+                        "retention": 0.54,
+                        "positivity": 0.36
+                      },
+                      "completion": {
+                        "count": 1281,
+                        "percentageSurvey": 83.94,
+                        "total": 1526
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.7,
+                        "interest": 0.46,
+                        "usage": 0.09,
+                        "retention": 0.65,
+                        "positivity": 0.34
+                      },
+                      "completion": {
+                        "count": 1976,
+                        "percentageSurvey": 82.47,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 1,
+                        "interest": 0,
+                        "usage": 1,
+                        "retention": 1,
+                        "positivity": 1
+                      },
+                      "completion": {
+                        "count": 14,
+                        "percentageSurvey": 45.16,
+                        "total": 31
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "state_management_redux",
+                "entity": {
+                  "name": "Redux",
+                  "nameClean": "Redux",
+                  "entityType": "library",
+                  "description": "Predictable state container for JavaScript apps",
+                  "descriptionClean": "Predictable state container for JavaScript apps",
+                  "homepage": {
+                    "url": "https://redux.js.org"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 1,
+                        "interest": 0.29,
+                        "usage": 0.84,
+                        "retention": 0.55,
+                        "positivity": 0.51
+                      },
+                      "completion": {
+                        "count": 1292,
+                        "percentageSurvey": 84.67,
+                        "total": 1526
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.99,
+                        "interest": 0.29,
+                        "usage": 0.78,
+                        "retention": 0.44,
+                        "positivity": 0.41
+                      },
+                      "completion": {
+                        "count": 2015,
+                        "percentageSurvey": 84.1,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 1,
+                        "interest": 1,
+                        "usage": 0,
+                        "retention": 0,
+                        "positivity": 1
+                      },
+                      "completion": {
+                        "count": 14,
+                        "percentageSurvey": 45.16,
+                        "total": 31
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "state_management_redux_toolkit",
+                "entity": {
+                  "name": "Redux Toolkit",
+                  "nameClean": "Redux Toolkit",
+                  "entityType": "library",
+                  "description": "The official, opinionated, batteries-included toolset for efficient Redux development",
+                  "descriptionClean": "The official, opinionated, batteries-included toolset for efficient Redux development"
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.94,
+                        "interest": 0.41,
+                        "usage": 0.62,
+                        "retention": 0.65,
+                        "positivity": 0.54
+                      },
+                      "completion": {
+                        "count": 2001,
+                        "percentageSurvey": 83.51,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 1,
+                        "interest": 0,
+                        "usage": 1,
+                        "retention": 1,
+                        "positivity": 1
+                      },
+                      "completion": {
+                        "count": 14,
+                        "percentageSurvey": 45.16,
+                        "total": 31
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "state_management_react_query",
+                "entity": {
+                  "name": "TanStack Query",
+                  "nameClean": "TanStack Query",
+                  "entityType": "library",
+                  "description": "(React Query)",
+                  "descriptionClean": "(React Query)"
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.82,
+                        "interest": 0.75,
+                        "usage": 0.45,
+                        "retention": 0.96,
+                        "positivity": 0.71
+                      },
+                      "completion": {
+                        "count": 1289,
+                        "percentageSurvey": 84.47,
+                        "total": 1526
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.84,
+                        "interest": 0.72,
+                        "usage": 0.54,
+                        "retention": 0.96,
+                        "positivity": 0.73
+                      },
+                      "completion": {
+                        "count": 1998,
+                        "percentageSurvey": 83.39,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 1,
+                        "interest": 0,
+                        "usage": 1,
+                        "retention": 0,
+                        "positivity": 0
+                      },
+                      "completion": {
+                        "count": 14,
+                        "percentageSurvey": 45.16,
+                        "total": 31
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "state_management_xstate",
+                "entity": {
+                  "name": "XState",
+                  "nameClean": "XState",
+                  "entityType": "library",
+                  "description": "State machines and statecharts for the modern web.",
+                  "descriptionClean": "State machines and statecharts for the modern web.",
+                  "homepage": {
+                    "url": "https://xstate.js.org/docs/"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.55,
+                        "interest": 0.57,
+                        "usage": 0.07,
+                        "retention": 0.75,
+                        "positivity": 0.33
+                      },
+                      "completion": {
+                        "count": 1969,
+                        "percentageSurvey": 82.18,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 1,
+                        "interest": 1,
+                        "usage": 0,
+                        "retention": 0,
+                        "positivity": 1
+                      },
+                      "completion": {
+                        "count": 14,
+                        "percentageSurvey": 45.16,
+                        "total": 31
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "state_management_zustand",
+                "entity": {
+                  "name": "Zustand",
+                  "nameClean": "Zustand",
+                  "entityType": "library",
+                  "description": "Bear necessities for state management in React",
+                  "descriptionClean": "Bear necessities for state management in React",
+                  "homepage": {
+                    "url": "https://zustand-demo.pmnd.rs/"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.7,
+                        "interest": 0.67,
+                        "usage": 0.22,
+                        "retention": 0.94,
+                        "positivity": 0.53
+                      },
+                      "completion": {
+                        "count": 1288,
+                        "percentageSurvey": 84.4,
+                        "total": 1526
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.81,
+                        "interest": 0.72,
+                        "usage": 0.36,
+                        "retention": 0.93,
+                        "positivity": 0.66
+                      },
+                      "completion": {
+                        "count": 1996,
+                        "percentageSurvey": 83.31,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 0,
+                        "interest": 0,
+                        "usage": 0,
+                        "retention": 0,
+                        "positivity": 1
+                      },
+                      "completion": {
+                        "count": 14,
+                        "percentageSurvey": 45.16,
+                        "total": 31
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

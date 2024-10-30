@@ -1,0 +1,71 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "rn_tools": {
+            "tools_package_managers": {
+              "responses": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 14,
+                    "percentageSurvey": 40,
+                    "total": 35
+                  },
+                  "buckets": [
+                    {
+                      "count": 13,
+                      "id": "tools_package_managers_npm",
+                      "percentageQuestion": 92.86,
+                      "percentageSurvey": 37.14,
+                      "entity": {
+                        "name": "npm",
+                        "nameClean": "npm",
+                        "description": "the package manager for JavaScript",
+                        "descriptionClean": "the package manager for JavaScript",
+                        "id": "tools_package_managers_npm",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://docs.npmjs.com/cli"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/npm"
+                        }
+                      }
+                    },
+                    {
+                      "count": 1,
+                      "id": "tools_package_managers_pnpm",
+                      "percentageQuestion": 7.14,
+                      "percentageSurvey": 2.86,
+                      "entity": {
+                        "name": "pnpm",
+                        "nameClean": "pnpm",
+                        "description": "Fast, disk space efficient package manager",
+                        "descriptionClean": "Fast, disk space efficient package manager",
+                        "id": "tools_package_managers_pnpm",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://pnpm.io/"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/pnpm"
+                        }
+                      }
+                    },
+                    {
+                      "count": 21,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 60
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

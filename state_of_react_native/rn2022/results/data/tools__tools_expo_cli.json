@@ -1,0 +1,117 @@
+{
+  "dataAPI": {
+    "survey": {
+      "tools_expo_cli": {
+        "id": "tools_expo_cli",
+        "entity": {
+          "name": "Expo CLI",
+          "homepage": {
+            "url": "https://docs.expo.dev/workflow/expo-cli/"
+          },
+          "npm": {
+            "url": "https://www.npmjs.com/package/@expo/cli"
+          }
+        },
+        "experience": {
+          "keys": [
+            "would_use",
+            "would_not_use",
+            "interested",
+            "not_interested",
+            "never_heard"
+          ],
+          "all_years": [
+            {
+              "year": 2022,
+              "completion": {
+                "total": 2490,
+                "count": 1266,
+                "percentage_survey": 50.9
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 810,
+                      "percentage_survey": 32.6,
+                      "percentage_question": 64
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 66,
+                      "percentage_survey": 2.7,
+                      "percentage_question": 5.3
+                    },
+                    {
+                      "id": "interested",
+                      "count": 145,
+                      "percentage_survey": 5.9,
+                      "percentage_question": 11.5
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 186,
+                      "percentage_survey": 7.5,
+                      "percentage_question": 14.7
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 59,
+                      "percentage_survey": 2.4,
+                      "percentage_question": 4.7
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "year": 2023,
+              "completion": {
+                "total": 3024,
+                "count": 1528,
+                "percentage_survey": 50.6
+              },
+              "facets": [
+                {
+                  "buckets": [
+                    {
+                      "id": "would_use",
+                      "count": 1038,
+                      "percentage_survey": 34.4,
+                      "percentage_question": 68
+                    },
+                    {
+                      "id": "would_not_use",
+                      "count": 65,
+                      "percentage_survey": 2.2,
+                      "percentage_question": 4.3
+                    },
+                    {
+                      "id": "interested",
+                      "count": 210,
+                      "percentage_survey": 7,
+                      "percentage_question": 13.8
+                    },
+                    {
+                      "id": "not_interested",
+                      "count": 159,
+                      "percentage_survey": 5.3,
+                      "percentage_question": 10.5
+                    },
+                    {
+                      "id": "never_heard",
+                      "count": 56,
+                      "percentage_survey": 1.9,
+                      "percentage_question": 3.7
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

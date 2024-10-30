@@ -1,0 +1,74 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "user_info": {
+            "age": {
+              "responses": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 15,
+                    "percentageSurvey": 42.86,
+                    "total": 35
+                  },
+                  "average": 32.2,
+                  "percentiles": {
+                    "p50": 32
+                  },
+                  "buckets": [
+                    {
+                      "count": 0,
+                      "id": "range_under_20",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 0,
+                      "hasInsufficientData": true
+                    },
+                    {
+                      "count": 1,
+                      "id": "range_20_29",
+                      "percentageQuestion": 6.67,
+                      "percentageSurvey": 2.86
+                    },
+                    {
+                      "count": 13,
+                      "id": "range_30_39",
+                      "percentageQuestion": 86.67,
+                      "percentageSurvey": 37.14
+                    },
+                    {
+                      "count": 1,
+                      "id": "range_40_49",
+                      "percentageQuestion": 6.67,
+                      "percentageSurvey": 2.86
+                    },
+                    {
+                      "count": 0,
+                      "id": "range_50_59",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 0,
+                      "hasInsufficientData": true
+                    },
+                    {
+                      "count": 0,
+                      "id": "range_over_60",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 0,
+                      "hasInsufficientData": true
+                    },
+                    {
+                      "count": 20,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 57.14
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

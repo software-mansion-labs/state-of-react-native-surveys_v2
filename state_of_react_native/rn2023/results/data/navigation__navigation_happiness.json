@@ -1,0 +1,124 @@
+{
+  "dataAPI": {
+    "survey": {
+      "navigation_happiness": {
+        "entity": {
+          "name": "Overall happiness"
+        },
+        "keys": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "all_years": [
+          {
+            "year": 2023,
+            "mean": 2.73,
+            "completion": {
+              "total": 3024,
+              "count": 1888,
+              "percentage_survey": 62.5
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 3024,
+                  "count": 1888,
+                  "percentage_survey": 62.5
+                },
+                "buckets": [
+                  {
+                    "id": 0,
+                    "count": 53,
+                    "percentage_survey": 1.8,
+                    "percentage_question": 2.9
+                  },
+                  {
+                    "id": 1,
+                    "count": 119,
+                    "percentage_survey": 4,
+                    "percentage_question": 6.4
+                  },
+                  {
+                    "id": 2,
+                    "count": 465,
+                    "percentage_survey": 15.4,
+                    "percentage_question": 24.7
+                  },
+                  {
+                    "id": 3,
+                    "count": 907,
+                    "percentage_survey": 30,
+                    "percentage_question": 48.1
+                  },
+                  {
+                    "id": 4,
+                    "count": 344,
+                    "percentage_survey": 11.4,
+                    "percentage_question": 18.3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "year": 2022,
+            "mean": 2.67,
+            "completion": {
+              "total": 2490,
+              "count": 1472,
+              "percentage_survey": 59.2
+            },
+            "facets": [
+              {
+                "id": "default",
+                "type": "default",
+                "completion": {
+                  "total": 2490,
+                  "count": 1472,
+                  "percentage_survey": 59.2
+                },
+                "buckets": [
+                  {
+                    "id": 0,
+                    "count": 28,
+                    "percentage_survey": 1.2,
+                    "percentage_question": 2
+                  },
+                  {
+                    "id": 1,
+                    "count": 119,
+                    "percentage_survey": 4.8,
+                    "percentage_question": 8.1
+                  },
+                  {
+                    "id": 2,
+                    "count": 384,
+                    "percentage_survey": 15.5,
+                    "percentage_question": 26.1
+                  },
+                  {
+                    "id": 3,
+                    "count": 725,
+                    "percentage_survey": 29.2,
+                    "percentage_question": 49.3
+                  },
+                  {
+                    "id": 4,
+                    "count": 216,
+                    "percentage_survey": 8.7,
+                    "percentage_question": 14.7
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
