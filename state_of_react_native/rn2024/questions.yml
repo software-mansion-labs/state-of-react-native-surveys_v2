@@ -628,7 +628,7 @@
     - id: deployment_manually_xcode
     # TODO: Check how it is solve in sor
     - id: deployment_other
-      template: others
+      template: textList
     
     - id: deployment_pain_points
       matchTags: [common_pain_points, react_features]
@@ -683,7 +683,7 @@
     - id: tools_upgrade_helper
 
     - id: tools_other_tools
-      template: others
+      template: textList
       description: "Other answers (freeform)"
 
 ######################################################
@@ -703,7 +703,7 @@
     - id: react_native_alternatives_xamarin
     - id: react_native_alternatives_native_script
     - id: react_native_alternatives_other
-      template: others
+      template: textList
       description: "Other answers (freeform)"
 
 ######################################################
@@ -711,7 +711,6 @@
 ######################################################
 
 - id: resources
-  template: others
   slug: resources
   questions:
     - id: resources_initially_learn_react_native
