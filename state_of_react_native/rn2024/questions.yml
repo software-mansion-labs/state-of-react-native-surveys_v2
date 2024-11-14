@@ -219,17 +219,19 @@
   template: toolv3
   slug: state_management
   questions:
-    - id: state_management_apollo
     - id: state_management_jotai
+    - id: state_management_legend_state
+      yearAdded: 2024
     - id: state_management_mobx
     - id: state_management_mobx_state_tree
     - id: state_management_rn_built_in
     - id: state_management_recoil
     - id: state_management_redux
     - id: state_management_redux_toolkit
-    - id: state_management_react_query
     - id: state_management_xstate
     - id: state_management_zustand
+    # - id: state_management_apollo       # it's data fetching
+    # - id: state_management_react_query  # it's data fetching
 
     - id: state_management_others
       template: projects
