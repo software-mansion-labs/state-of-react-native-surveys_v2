@@ -1,4 +1,3 @@
-
 ######################################################
 #########        DEVELOPER BACKGROUND        #########
 ######################################################
@@ -161,24 +160,28 @@
     - id: platform_apis_questions
       template: multipleWithOtherSentiment
       options:
+        - id: platform_apis_3d_graphics
         - id: platform_apis_accessibility
         - id: platform_apis_appearance
-        - id: platform_apis_ar_av
+        - id: platform_apis_ar
         - id: platform_apis_audio
-        - id: platform_apis_battery_level
-        - id: platform_apis_biometric_authentication
+        - id: platform_apis_background_processing
+        - id: platform_apis_battery
         - id: platform_apis_bluetooth
-        - id: platform_apis_concurrency
+        - id: platform_apis_calendar_reminders
         - id: platform_apis_camera
         - id: platform_apis_clipboard
+        - id: platform_apis_contacts
         - id: platform_apis_cryptography
         - id: platform_apis_deep_links
         - id: platform_apis_file_system
-        - id: platform_apis_foldable
+        - id: platform_apis_generative_ai
+        - id: platform_apis_gpu_processing
         - id: platform_apis_haptics
         - id: platform_apis_in_app_payments
         - id: platform_apis_in_app_reviews
-        - id: platfrom_apis_live_activity
+        - id: platform_apis_live_activity
+        - id: platform_apis_local_authentication
         - id: platform_apis_location
         - id: platform_apis_maps
         - id: platform_apis_media_library
@@ -186,28 +189,27 @@
         - id: platform_apis_ml
         - id: platform_apis_nfc
         - id: platform_apis_notifications
-        - id: platform_apis_ocr
-        - id: platform_apis_openGL
         - id: platform_apis_permissions
-        - id: platform_apis_storage
         - id: platform_apis_printer
         - id: platform_apis_rtl
         - id: platform_apis_screen_orientation
         - id: platform_apis_sensors
+        - id: platform_apis_storage
         - id: platform_apis_telephony
         - id: platform_apis_video_playback
         - id: platform_apis_webview
-          # - id: platform_apis_offline_mode
-          # - id: platform_apis_security
-          # - id: platform_apis_encryption
-          # - id: platform_apis_ads
+        # - id: platform_apis_ocr          # replaced by ML
+        # - id: platform_apis_openGL       # replaced by 3D graphics
+        # - id: platform_apis_foldable     # too niche, too ambiguous
+        # - id: platform_apis_offline_mode # too ambiguous
+        # - id: platform_apis_security     # too ambiguous
+        # - id: platform_apis_encryption   # too ambiguous
+        # - id: platform_apis_ads          # too ambiguous
 
     - id: platform_apis_pain_points
       matchTags: [common_pain_points, react_features]
       disallowedTokenIds: [state_management]
       template: textList
-
-
 
 ######################################################
 #########        STATE MANAGEMENT        #########
@@ -308,12 +310,10 @@
     - id: styling_techniques_other
       template: projects
 
-
     - id: styling_techniques_pain_points
       matchTags: [common_pain_points, react_features]
       disallowedTokenIds: [styling]
       template: textList
-
 
 ######################################################
 #########        COMPONENT LIBRARIES         #########
@@ -414,7 +414,7 @@
 
     - id: debugging_profiling_others
       template: projects
-  
+
     - id: debugging_profiling_pain_points
       matchTags: [common_pain_points, react_features]
       template: textList
@@ -452,7 +452,7 @@
         - id: react_native_app_aspects_crash_reporting_instabug
         - id: react_native_app_aspects_crash_reporting_new_relic
         - id: react_native_app_aspects_crash_reporting_sentry
-    
+
     - id: react_native_app_aspects_crash_reporting_pain_points
       matchTags: [common_pain_points, react_features]
       template: textList
@@ -629,12 +629,10 @@
     # TODO: Check how it is solve in sor
     - id: deployment_other
       template: textList
-    
+
     - id: deployment_pain_points
       matchTags: [common_pain_points, react_features]
       template: textList
-
-
 
 ######################################################
 #########               TOOLS                #########
