@@ -230,16 +230,28 @@
     - id: state_management_redux_toolkit
     - id: state_management_xstate
     - id: state_management_zustand
-    # - id: state_management_apollo       # it's data fetching
-    # - id: state_management_react_query  # it's data fetching
 
     - id: state_management_others
       template: projects
+
+    - id: state_management_storage
+      template: multipleWithOtherSentiment
+      options:
+        - id: state_management_storage_expo_sqlite
+        - id: state_management_storage_react_native_async_storage
+        - id: state_management_storage_react_native_mmkv
+        - id: state_management_storage_react_native_mmkv_storage
+        - id: state_management_storage_react_native_sqlite_storage
+        - id: state_management_storage_realm
+        - id: state_management_storage_watermelondb
 
     - id: state_management_pain_points
       matchTags: [common_pain_points, react_features]
       disallowedTokenIds: [state_management]
       template: textList
+
+    - id: react_native_app_aspects_architecture_local_first
+      template: featurev3
 
 ######################################################
 #########           DATA FETCHING            #########
@@ -249,14 +261,14 @@
   template: toolv3
   slug: data_fetching
   questions:
-    - id: data_fetching_fetch
-    - id: data_fetching_axios
     - id: data_fetching_apollo
-    - id: data_fetching_trpc
-    - id: data_fetching_tan_stack
-    - id: data_fetching_swr
+    - id: data_fetching_axios
+    - id: data_fetching_fetch
     - id: data_fetching_relay
     - id: data_fetching_rtk_query
+    - id: data_fetching_swr
+    - id: data_fetching_tan_stack
+    - id: data_fetching_trpc
       year: 2023
 
     - id: data_fetching_others
@@ -280,7 +292,6 @@
     - id: navigation_react_navigation
     - id: navigation_react_router
     - id: navigation_solito
-    # - id: navigation_navigation # too niche
 
     - id: navigation_others
       template: projects
@@ -308,8 +319,6 @@
     - id: styling_techniques_styled_components
     - id: styling_techniques_tamagui
     - id: styling_techniques_twrnc
-    # - id: styling_techniques_tailwind_rn # too niche, and abandoned
-    # - id: styling_techniques_gluestack_styles  # moved to UI component libraries
 
     - id: styling_techniques_other
       template: projects
@@ -317,33 +326,6 @@
     - id: styling_techniques_pain_points
       matchTags: [common_pain_points, react_features]
       disallowedTokenIds: [styling]
-      template: textList
-
-######################################################
-#########        COMPONENT LIBRARIES         #########
-######################################################
-
-- id: component_libraries
-  template: toolv3
-  slug: component_libraries
-  questions:
-    - id: component_libraries_gluestack_ui
-    - id: component_libraries_native_base
-    - id: component_libraries_rn_elements
-    - id: component_libraries_react_native_material_kit
-    - id: component_libraries_react_native_material_ui
-    - id: component_libraries_rn_paper
-    - id: component_libraries_rn_ui_lib
-    - id: component_libraries_shoutem_ui
-    - id: component_libraries_ui_kitten
-    - id: component_libraries_tamagui
-
-    - id: component_libraries_others
-      template: projects
-
-    - id: component_libraries_pain_points
-      matchTags: [common_pain_points, react_features]
-      disallowedTokenIds: [component_libraries]
       template: textList
 
 ######################################################
@@ -370,6 +352,58 @@
     - id: animations_pain_points
       matchTags: [common_pain_points, react_features]
       disallowedTokenIds: [animations]
+      template: textList
+
+######################################################
+#########        COMPONENT LIBRARIES         #########
+######################################################
+
+- id: component_libraries
+  template: toolv3
+  slug: component_libraries
+  questions:
+    - id: component_libraries_gluestack_ui
+    - id: component_libraries_native_base
+    - id: component_libraries_rn_elements
+    - id: component_libraries_react_native_material_kit
+    - id: component_libraries_react_native_material_ui
+    - id: component_libraries_rn_paper
+    - id: component_libraries_rn_ui_lib
+    - id: component_libraries_shoutem_ui
+    - id: component_libraries_ui_kitten
+    - id: component_libraries_tamagui
+
+    - id: component_libraries_others
+      template: projects
+
+    - id: component_libraries_data_visualisation
+      template: multipleWithOtherSentiment
+      options:
+        - id: component_libraries_data_visualisation_react_native_charts_kit
+        - id: component_libraries_data_visualisation_react_native_svg
+        - id: component_libraries_data_visualisation_recharts
+        - id: component_libraries_data_visualisation_victory_native
+
+    - id: component_libraries_other_libraries
+      template: multipleWithOtherSentiment
+      options:
+        - id: component_libraries_other_libraries_expo_vector_icons
+        - id: component_libraries_other_libraries_gorhom_bottom_sheet
+        - id: component_libraries_other_libraries_shopify_flash_list
+        - id: component_libraries_other_libraries_expo_image
+        - id: component_libraries_other_libraries_react_native_camera
+        - id: component_libraries_other_libraries_react_native_fast_image
+        - id: component_libraries_other_libraries_react_native_gesture_handler
+        - id: component_libraries_other_libraries_react_native_maps
+        - id: component_libraries_other_libraries_react_native_safe_area_context
+        - id: component_libraries_other_libraries_react_native_webview
+        - id: component_libraries_other_libraries_react_native_vector_icons
+        - id: component_libraries_other_libraries_react_native_video
+        - id: component_libraries_other_libraries_react_native_vision_camera
+
+    - id: component_libraries_pain_points
+      matchTags: [common_pain_points, react_features]
+      disallowedTokenIds: [component_libraries]
       template: textList
 
 ######################################################
@@ -415,276 +449,204 @@
 # #########      TESTING AND MONITORING        #########
 # ######################################################
 
-# - id: testing_and_monitoring
-#   template: featurev3
-#   slug: testing_and_monitoring
-#   questions:
-
-
-######################################################
-#########              ASPECTS               #########
-######################################################
-
-- id: react_native_app_aspects
-  template: multiple
-  slug: react_native_app_aspects
-  questions:
-    - id: react_native_app_aspects_analytics
-      template: multipleWithOtherSentiment
-      options:
-        - id: react_native_app_aspects_analytics_amplify_analytics
-        - id: react_native_app_aspects_analytics_amplitude
-        - id: react_native_app_aspects_analytics_appcenter_analytics
-        - id: react_native_app_aspects_analytics_appsflyer
-        - id: react_native_app_aspects_analytics_firebase_analytics
-        - id: react_native_app_aspects_analytics_mixpanel
-        - id: react_native_app_aspects_analytics_segment
-
-    - id: react_native_app_aspects_analytics_pain_points
-      matchTags: [common_pain_points, react_features]
-      template: textList
-
-    - id: react_native_app_aspects_crash_reporting
-      template: multipleWithOtherSentiment
-      options:
-        - id: react_native_app_aspects_crash_reporting_appcenter_crashes
-        - id: react_native_app_aspects_crash_reporting_bugsnag
-        - id: react_native_app_aspects_crash_reporting_datadog
-        - id: react_native_app_aspects_crash_reporting_firebase_crashlytics
-        - id: react_native_app_aspects_crash_reporting_instabug
-        - id: react_native_app_aspects_crash_reporting_new_relic
-        - id: react_native_app_aspects_crash_reporting_sentry
-
-    - id: react_native_app_aspects_crash_reporting_pain_points
-      matchTags: [common_pain_points, react_features]
-      template: textList
-
-    - id: react_native_app_aspects_data_visualisation
-      template: multipleWithOtherSentiment
-      options:
-        - id: react_native_app_aspects_data_visualisation_react_native_charts_kit
-        - id: react_native_app_aspects_data_visualisation_react_native_svg
-        - id: react_native_app_aspects_data_visualisation_recharts
-        - id: react_native_app_aspects_data_visualisation_victory_native
-
-    - id: react_native_app_aspects_data_visualisation_pain_points
-      matchTags: [common_pain_points, react_features]
-      template: textList
-
-    - id: react_native_app_aspects_storage
-      template: multipleWithOtherSentiment
-      options:
-        - id: react_native_app_aspects_storage_expo_sqlite
-        - id: react_native_app_aspects_storage_react_native_async_storage
-        - id: react_native_app_aspects_storage_react_native_mmkv
-        - id: react_native_app_aspects_storage_react_native_mmkv_storage
-        - id: react_native_app_aspects_storage_react_native_sqlite_storage
-        - id: react_native_app_aspects_storage_realm
-        - id: react_native_app_aspects_storage_watermelondb
-
-    - id: react_native_app_aspects_storage_pain_points
-      matchTags: [common_pain_points, react_features]
-      template: textList
-
-    - id: react_native_app_aspects_testing
-      template: multipleWithOtherSentiment
-      options:
-        - id: react_native_app_aspects_testing_appium
-        - id: react_native_app_aspects_testing_detox
-        - id: react_native_app_aspects_testing_jest
-        - id: react_native_app_aspects_testing_maestro
-        - id: react_native_app_aspects_testing_react_native_testing_library
-        - id: react_native_app_aspects_testing_storybook
-
-    - id: react_native_app_aspects_testing_pain_points
-      matchTags: [common_pain_points, react_features]
-      template: textList
-
-    - id: react_native_app_aspects_other_libraries
-      template: multipleWithOtherSentiment
-      options:
-        - id: react_native_app_aspects_other_libraries_expo_vector_icons
-        - id: react_native_app_aspects_other_libraries_gorhom_bottom_sheet
-        - id: react_native_app_aspects_other_libraries_shopify_flash_list
-        - id: react_native_app_aspects_other_libraries_expo_image
-        - id: react_native_app_aspects_other_libraries_react_native_i18next
-        - id: react_native_app_aspects_other_libraries_react_native_camera
-        - id: react_native_app_aspects_other_libraries_react_native_fast_image
-        - id: react_native_app_aspects_other_libraries_react_native_gesture_handler
-        - id: react_native_app_aspects_other_libraries_react_native_localize
-        - id: react_native_app_aspects_other_libraries_react_native_maps
-        - id: react_native_app_aspects_other_libraries_react_native_safe_area_context
-        - id: react_native_app_aspects_other_libraries_react_native_webview
-        - id: react_native_app_aspects_other_libraries_react_native_vector_icons
-        - id: react_native_app_aspects_other_libraries_react_native_video
-        - id: react_native_app_aspects_other_libraries_react_native_vision_camera
-
-    - id: react_native_app_aspects_other_libraries_pain_points
-      matchTags: [common_pain_points, react_features]
-      template: textList
-
-    - id: react_native_app_aspects_architecture_local_first
-      template: featurev3
-
-######################################################
-#########             FEATURES               #########
-######################################################
-
-- id: react_native_specific_features
+- id: testing_and_monitoring
   template: featurev3
-  slug: react_native_specific_features
+  slug: testing_and_monitoring
   questions:
-    - id: react_native_features_version
+    - id: testing_and_monitoring_testing_appium
+    - id: testing_and_monitoring_testing_detox
+    - id: testing_and_monitoring_testing_jest
+    - id: testing_and_monitoring_testing_maestro
+    - id: testing_and_monitoring_testing_react_native_testing_library
+    - id: testing_and_monitoring_testing_storybook
+
+    - id: testing_and_monitoring_testing_others
+      template: projects
+
+    - id: testing_and_monitoring_analytics
+      template: multipleWithOtherSentiment
+      options:
+        - id: testing_and_monitoring_analytics_amplify_analytics
+        - id: testing_and_monitoring_analytics_amplitude
+        - id: testing_and_monitoring_analytics_appcenter_analytics
+        - id: testing_and_monitoring_analytics_appsflyer
+        - id: testing_and_monitoring_analytics_firebase_analytics
+        - id: testing_and_monitoring_analytics_mixpanel
+        - id: testing_and_monitoring_analytics_segment
+
+    - id: testing_and_monitoring_crash_reporting
+      template: multipleWithOtherSentiment
+      options:
+        - id: testing_and_monitoring_crash_reporting_appcenter_crashes
+        - id: testing_and_monitoring_crash_reporting_bugsnag
+        - id: testing_and_monitoring_crash_reporting_datadog
+        - id: testing_and_monitoring_crash_reporting_firebase_crashlytics
+        - id: testing_and_monitoring_crash_reporting_instabug
+        - id: testing_and_monitoring_crash_reporting_new_relic
+        - id: testing_and_monitoring_crash_reporting_sentry
+
+    - id: testing_and_monitoring_pain_points
+      matchTags: [common_pain_points, react_features]
+      template: textList
+
+######################################################
+#########             REACT NATIVE API       #########
+######################################################
+
+- id: react_native_api
+  template: featurev3
+  slug: react_native_api
+  questions:
+    - id: react_native_api_version
       template: single
       options:
-        - id: react_native_features_version_nightly
-        - id: react_native_features_version_next
-        - id: react_native_features_version_0_75
-        - id: react_native_features_version_0_74
-        - id: react_native_features_version_0_73
-        - id: react_native_features_version_0_72
-        - id: react_native_features_version_0_71
-        - id: react_native_features_version_0_70
-        - id: react_native_features_version_0_69
-        - id: react_native_features_version_0_68
-        - id: react_native_features_version_0_67
-        - id: react_native_features_version_0_66
-        - id: react_native_features_version_0_65
-        - id: react_native_features_version_0_64
-        - id: react_native_features_version_0_63_or_lower
+        - id: react_native_api_version_nightly
+        - id: react_native_api_version_next
+        - id: react_native_api_version_0_76
+        - id: react_native_api_version_0_75
+        - id: react_native_api_version_0_74
+        - id: react_native_api_version_0_73
+        - id: react_native_api_version_0_72
+        - id: react_native_api_version_0_71
+        - id: react_native_api_version_0_70
+        - id: react_native_api_version_0_69
+        - id: react_native_api_version_0_68
+        - id: react_native_api_version_0_67
+        - id: react_native_api_version_0_66
+        - id: react_native_api_version_0_65
+        - id: react_native_api_version_0_64
+        - id: react_native_api_version_0_63_or_lower
 
-    - id: react_native_features_strategies
+    - id: react_native_api_strategies
       template: singleWithOther
       options:
-        - id: react_native_features_strategies_stay_latest
-        - id: react_native_features_strategies_upgrade_occasionally
-        - id: react_native_features_strategies_upgrade_for_new_features
-        - id: react_native_features_strategies_upgrade_parallel_with_expo
-        - id: react_native_features_strategies_upgrade_if_necessary
+        - id: react_native_api_strategies_stay_latest
+        - id: react_native_api_strategies_upgrade_occasionally
+        - id: react_native_api_strategies_upgrade_for_new_features
+        - id: react_native_api_strategies_upgrade_parallel_with_expo
+        - id: react_native_api_strategies_upgrade_if_necessary
 
-    - id: react_native_bridgeless_mode
+    - id: react_native_api_bridgeless_mode
       template: featurev3
-    - id: react_native_features_codegen
+    - id: react_native_api_codegen
       template: featurev3
-    - id: react_native_features_custom_native_modules
+    - id: react_native_api_custom_native_modules
       template: featurev3
-    - id: react_native_features_custom_native_views
+    - id: react_native_api_custom_native_views
       template: featurev3
-    - id: react_native_features_expo_modules
+    - id: react_native_api_expo_modules
       template: featurev3
-    - id: react_native_features_fabric
+    - id: react_native_api_fabric
       template: featurev3
-    - id: react_native_features_hermes_runtime
+    - id: react_native_api_hermes_runtime
       template: featurev3
-    - id: react_native_features_jsc_runtime
+    - id: react_native_api_jsc_runtime
       template: featurev3
-    - id: react_native_features_jsi
+    - id: react_native_api_jsi
       template: featurev3
-    - id: react_native_features_new_architecture
+    - id: react_native_api_new_architecture
       template: featurev3
-    - id: react_native_features_react_native_directory
+    - id: react_native_api_react_native_directory
       template: featurev3
-    - id: react_native_features_turbo_modules
+    - id: react_native_api_turbo_modules
       template: featurev3
-    - id: react_native_features_v8_runtime
+    - id: react_native_api_v8_runtime
       template: featurev3
 
-    - id: react_native_features_brownfield
+    - id: react_native_api_brownfield
       template: single
       options:
-        - id: react_native_features_brownfield_green
-        - id: react_native_features_brownfield_brown
-        - id: react_native_features_brownfield_both
+        - id: react_native_api_brownfield_green
+        - id: react_native_api_brownfield_brown
+        - id: react_native_api_brownfield_both
 
-    - id: react_native_features_ota_updates
+    - id: react_native_api_ota_updates
       template: multipleWithOtherSentiment
       options:
-        - id: react_native_features_ota_updates_code_push
-        - id: react_native_features_ota_updates_eas_update
-        - id: react_native_features_ota_updates_expo_publish
-        - id: react_native_features_ota_updates_self_hosted
+        - id: react_native_api_ota_updates_code_push
+        - id: react_native_api_ota_updates_eas_update
+        - id: react_native_api_ota_updates_expo_publish
+        - id: react_native_api_ota_updates_self_hosted
 
-    - id: react_native_features_mobile_web_code_sharing
+    - id: react_native_api_mobile_web_code_sharing
       template: multipleWithOtherSentiment
       options:
-        - id: react_native_features_mobile_web_code_sharing_react_native_web
-        - id: react_native_features_mobile_web_code_sharing_solito
-        - id: react_native_features_mobile_web_code_sharing_webview
-        - id: react_native_features_mobile_web_code_sharing_common_logic_independent_ui
-        - id: react_native_features_mobile_web_code_sharing_independent_projects
+        - id: react_native_api_mobile_web_code_sharing_react_native_web
+        - id: react_native_api_mobile_web_code_sharing_solito
+        - id: react_native_api_mobile_web_code_sharing_webview
+        - id: react_native_api_mobile_web_code_sharing_common_logic_independent_ui
+        - id: react_native_api_mobile_web_code_sharing_independent_projects
 
 ######################################################
-#########            DEPLOYMENT              #########
+#########            BUILD & PUBLISH              #########
 ######################################################
 
-- id: deployment
+- id: build_and_publish
   template: featurev3
-  slug: deployment
+  slug: build_and_publish
   questions:
-    - id: deployment_app_center
-    - id: deployment_bitrise
-    - id: deployment_eas_build
-    - id: deployment_eas_submit
-    - id: deployment_fastlane
-    - id: deployment_manually_android_studio
-    - id: deployment_manually_xcode
-    # TODO: Check how it is solve in sor
-    - id: deployment_other
+    - id: build_and_publish_app_center
+    - id: build_and_publish_bitrise
+    - id: build_and_publish_eas_build
+    - id: build_and_publish_eas_submit
+    - id: build_and_publish_fastlane
+    - id: build_and_publish_manually_android_studio
+    - id: build_and_publish_manually_xcode
+
+    - id: build_and_publish_other
       template: textList
 
-    - id: deployment_pain_points
+    - id: build_and_publish_pain_points
       matchTags: [common_pain_points, react_features]
       template: textList
 
 ######################################################
-#########               TOOLS                #########
+#########               DEV TOOLS            #########
 ######################################################
 
-- id: rn_tools
+- id: dev_tools
   template: featurev3
-  slug: rn_tools
+  slug: dev_tools
   questions:
-    - id: tools_js_ts
+    - id: dev_tools_js_ts
       template: slider
-      description: "How do you divide your time between writing JavaScript and TypeScript code?"
 
-    - id: tools_package_managers
+    - id: dev_tools_package_managers
       template: multipleWithOtherSentiment
       options:
-        - id: tools_package_managers_bun
-        - id: tools_package_managers_npm
-        - id: tools_package_managers_pnpm
-        - id: tools_package_managers_yarn
-        - id: tools_package_managers_yarn_berry
+        - id: dev_tools_package_managers_bun
+        - id: dev_tools_package_managers_npm
+        - id: dev_tools_package_managers_pnpm
+        - id: dev_tools_package_managers_yarn
+        - id: dev_tools_package_managers_yarn_berry
 
-    - id: tools_starter_templates
+    - id: dev_tools_starter_templates
       template: multipleWithOtherSentiment
       options:
-        - id: tools_starter_templates_expo
-        - id: tools_create_expo_stack
-        - id: tools_starter_templates_create_react_native_app
-        - id: tools_starter_templates_solito
-        - id: tools_starter_templates_create_t3_turbo
-        - id: tools_starter_templates_ignite_cli
-        - id: tools_starter_templates_react_native_cli
-        - id: tools_starter_templates_react_native_template_obytes
-        - id: tools_starter_tamagui
+        - id: dev_tools_starter_templates_expo
+        - id: dev_tools_create_expo_stack
+        - id: dev_tools_starter_templates_create_react_native_app
+        - id: dev_tools_starter_templates_solito
+        - id: dev_tools_starter_templates_create_t3_turbo
+        - id: dev_tools_starter_templates_ignite_cli
+        - id: dev_tools_starter_templates_react_native_cli
+        - id: dev_tools_starter_templates_react_native_template_obytes
+        - id: dev_tools_starter_tamagui
 
-    - id: tools_config_plugins
-    - id: tools_custom_development_client
-    - id: tools_eas_cli
-    - id: tools_expo_cli
-    - id: tools_expo_go
-    - id: tools_expo_snack
-    - id: tools_ignite_cli
-    - id: tools_react_native_cli
-    - id: tools_react_native_test_app
-    - id: tools_rnx_kit
-    - id: tools_upgrade_helper
+    - id: dev_tools_config_plugins
+    - id: dev_tools_custom_development_client
+    - id: dev_tools_eas_cli
+    - id: dev_tools_expo_cli
+    - id: dev_tools_expo_go
+    - id: dev_tools_expo_snack
+    - id: dev_tools_ignite_cli
+    - id: dev_tools_react_native_cli
+    - id: dev_tools_react_native_test_app
+    - id: dev_tools_rnx_kit
+    - id: dev_tools_upgrade_helper
 
-    - id: tools_other_tools
+    - id: dev_tools_other_tools
       template: textList
-      description: "Other answers (freeform)"
 
 ######################################################
 #########            ALTERNATIVES            #########
@@ -704,7 +666,6 @@
     - id: react_native_alternatives_native_script
     - id: react_native_alternatives_other
       template: textList
-      description: "Other answers (freeform)"
 
 ######################################################
 #########             RESOURCES              #########
@@ -715,7 +676,6 @@
   questions:
     - id: resources_initially_learn_react_native
       template: multipleWithOther
-      description: What methods do you use to learn and improve your React Native skills? Check all that apply
       options:
         - id: resources_initially_learn_react_native_books
         - id: resources_initially_learn_react_native_coding_bootcamp
@@ -734,7 +694,6 @@
 
     - id: resources_read_multiple
       template: multipleWithOtherSentiment
-      description: What blogs, magazines or newsletters do you consult to keep up with React Native news? Check all that apply
       options:
         - id: resources_read_multiple_callstack_blog
         - id: resources_read_multiple_dev_to
@@ -770,7 +729,6 @@
         - id: resources_course_multiple_youtube
     - id: resources_podcast_multiple
       template: multipleWithOtherSentiment
-      description: What React Native or general programming-related podcasts do you listen to? Check all that apply
       options:
         - id: resources_podcast_multiple_podrocker
         - id: resources_podcast_multiple_react_native_radio
@@ -782,18 +740,13 @@
       template: textList
       intlId: resources.video_creators_rn
       disallowedTokenIds: [twitter]
-      # description:  (freeform)
     - id: resources_people
       template: textList
       intlId: resources.people_rn
       disallowedTokenIds: [twitter]
-      # description: People you read, follow, or just want to highlight for their work. Write all that apply (freeform)
-    # - id: resources_communities
-    #   description: Online communities you actively participate in, such as Slack workspaces, Discord servers, Reddit topics, etc.. Write all that apply (freeform)
 
     - id: resources_surveys
       template: multipleWithOther
-      description: What other developer surveys do you participate in? Check all that apply
       options:
         - id: resources_surveys_design_tools
         - id: resources_surveys_jamstack
@@ -819,7 +772,6 @@
     - id: opinions_changing_too_fast
     - id: opinions_pain_points_multiple
       template: multipleWithOther
-      description: What are the things that makes you feel annoyed while developing React Native apps? Check all that apply
       options:
         - id: opinions_pain_points_multiple_app_building
         - id: opinions_pain_points_multiple_app_deployment
@@ -850,7 +802,6 @@
 
     - id: opinions_missing_multiple
       template: multipleWithOther
-      description: What do you feel currently is missing from React Native? Check all that apply
       options:
         - id: opinions_missing_multiple_android_shadows
         - id: opinions_missing_multiple_better_animations_gestures
@@ -870,7 +821,6 @@
 
     - id: opinions_advantages_multiple
       template: multipleWithOther
-      description: What are advantages of React Native over other solutions? Check all that apply
       options:
         - id: opinions_advantages_multiple_code_sharing
         - id: opinions_advantages_multiple_community
