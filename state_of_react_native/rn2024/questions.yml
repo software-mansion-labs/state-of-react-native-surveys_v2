@@ -1,10 +1,15 @@
 ######################################################
+# This file defines the layout of the the surveyform #
+######################################################
+
+######################################################
 #########        DEVELOPER BACKGROUND        #########
 ######################################################
 
 - id: developer_background
   template: feature
   slug: developer_background
+  messageId: developer_background.intro_message
   questions:
     - id: developer_background_before
       template: multipleWithOther
@@ -110,7 +115,6 @@
         - id: developer_background_industry_sector_crypto
         - id: developer_background_industry_sector_cyber_security
         - id: developer_background_industry_sector_dating
-        # - id: developer_background_industry_sector_ecommerce
         - id: developer_background_industry_sector_education
         - id: developer_background_industry_sector_energy
         - id: developer_background_industry_sector_entertainment
@@ -121,8 +125,6 @@
         - id: developer_background_industry_sector_games
         - id: developer_background_industry_sector_health_fitness
         - id: developer_background_industry_sector_house_home
-        # - id: developer_background_industry_sector_healthcare
-        # - id: developer_background_industry_sector_hospitality
         - id: developer_background_industry_sector_insurance
         - id: developer_background_industry_sector_logistics
         - id: developer_background_industry_sector_lifestyle
@@ -140,12 +142,11 @@
         - id: developer_background_industry_sector_social_media
         - id: developer_background_industry_sector_sports
         - id: developer_background_industry_sector_student
-        # - id: developer_background_industry_sector_telecommunications
         - id: developer_background_industry_sector_transport
         - id: developer_background_industry_sector_travel
         - id: developer_background_industry_sector_weather
         - id: developer_background_industry_sector_video
-        # - id: developer_background_industry_sector_other
+
 ######################################################
 #########           PLATFORM APIS            #########
 ######################################################
@@ -153,10 +154,8 @@
 - id: platform_apis
   template: featurev3
   slug: platform_apis
+  messageId: platform_apis.intro_message
   questions:
-    # - id: platform_apis_intro
-    #   template: help
-
     - id: platform_apis_questions
       template: multipleWithOtherSentiment
       options:
@@ -218,6 +217,7 @@
 - id: state_management
   template: toolv3
   slug: state_management
+  messageId: state_management.intro_message
   questions:
     - id: state_management_jotai
     - id: state_management_legend_state
@@ -258,6 +258,7 @@
     - id: data_fetching_relay
     - id: data_fetching_rtk_query
       year: 2023
+
     - id: data_fetching_others
       template: projects
 
@@ -267,7 +268,7 @@
       template: textList
 
 ######################################################
-#########               NAVIGATION             #########
+#########               NAVIGATION           #########
 ######################################################
 
 - id: navigation
@@ -299,16 +300,17 @@
   questions:
     - id: styling_techniques_dripsy
     - id: styling_techniques_emotion
-    # - id: styling_techniques_gluestack_styles  # moved to UI component libraries
     - id: styling_techniques_inline
     - id: styling_techniques_nativewind
     - id: styling_techniques_react_native_unistyles
     - id: styling_techniques_restyle
     - id: styling_techniques_style_sheet
     - id: styling_techniques_styled_components
-    # - id: styling_techniques_tailwind_rn # too niche, and abandoned
     - id: styling_techniques_tamagui
     - id: styling_techniques_twrnc
+    # - id: styling_techniques_tailwind_rn # too niche, and abandoned
+    # - id: styling_techniques_gluestack_styles  # moved to UI component libraries
+
     - id: styling_techniques_other
       template: projects
 
@@ -335,6 +337,7 @@
     - id: component_libraries_shoutem_ui
     - id: component_libraries_ui_kitten
     - id: component_libraries_tamagui
+
     - id: component_libraries_others
       template: projects
 
@@ -370,7 +373,7 @@
       template: textList
 
 ######################################################
-#########             DEBUGGING              #########
+#########       DEBUGGING AND PROFILING      #########
 ######################################################
 
 - id: debugging_and_profiling
@@ -378,41 +381,28 @@
   slug: debugging_and_profiling
   questions:
     - id: debugging_profiling_console
-      yearAdded: 2024
-    - id: debugging_profiling_remote_javascript_debugging
-      yearAdded: 2024
-    - id: debugging_profiling_hermes_debugger
-      yearAdded: 2024
-    - id: debugging_profiling_direct_jsc_debugging
+    - id: debugging_profiling_radon_ide
       yearAdded: 2024
     - id: debugging_profiling_react_native_devtools
       yearAdded: 2024
+    - id: debugging_profiling_remote_javascript_debugging
+
+    - id: debugging_profiling_hermes_debugger
+    - id: debugging_profiling_direct_jsc_debugging
     - id: debugging_profiling_experimental_new_debugger
-      yearAdded: 2024
+
     - id: debugging_profiling_react_devtools
-      yearAdded: 2024
     - id: debugging_profiling_element_inspector
-      yearAdded: 2024
     - id: debugging_profiling_logbox
-      yearAdded: 2024
     - id: debugging_profiling_performance_monitor
-      yearAdded: 2024
     - id: debugging_profiling_flipper
-      yearAdded: 2024
     - id: debugging_profiling_reactotron
-      yearAdded: 2024
     - id: debugging_profiling_expo_dev_tools_plugins
-      yearAdded: 2024
     - id: debugging_profiling_react_native_performance
-      yearAdded: 2024
     - id: debugging_profiling_flashlight
-      yearAdded: 2024
     - id: debugging_profiling_react_native_flipper_performance_monitor
-      yearAdded: 2024
     - id: debugging_profiling_native_debugging
-      yearAdded: 2024
     - id: debugging_profiling_native_profiling
-      yearAdded: 2024
 
     - id: debugging_profiling_others
       template: projects
@@ -420,6 +410,16 @@
     - id: debugging_profiling_pain_points
       matchTags: [common_pain_points, react_features]
       template: textList
+
+# ######################################################
+# #########      TESTING AND MONITORING        #########
+# ######################################################
+
+# - id: testing_and_monitoring
+#   template: featurev3
+#   slug: testing_and_monitoring
+#   questions:
+
 
 ######################################################
 #########              ASPECTS               #########
