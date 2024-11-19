@@ -595,7 +595,7 @@
     - id: build_and_publish_manually_android_studio
     - id: build_and_publish_manually_xcode
 
-    - id: build_and_publish_other
+    - id: build_and_publish_others
       template: textList
 
     - id: build_and_publish_pain_points
@@ -677,7 +677,7 @@
   slug: resources
   questions:
     - id: resources_initially_learn_react_native
-      template: multipleWithOther
+      template: multipleWithOtherSentiment
       options:
         - id: resources_initially_learn_react_native_books
         - id: resources_initially_learn_react_native_coding_bootcamp
