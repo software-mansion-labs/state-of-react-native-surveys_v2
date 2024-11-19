@@ -250,7 +250,7 @@
       disallowedTokenIds: [state_management]
       template: textList
 
-    - id: react_native_app_aspects_architecture_local_first
+    - id: state_management_pattern_architecture_local_first
       template: featurev3
 
 ######################################################
@@ -387,19 +387,21 @@
     - id: component_libraries_other_libraries
       template: multipleWithOtherSentiment
       options:
-        - id: component_libraries_other_libraries_expo_vector_icons
-        - id: component_libraries_other_libraries_gorhom_bottom_sheet
-        - id: component_libraries_other_libraries_shopify_flash_list
         - id: component_libraries_other_libraries_expo_image
+        - id: component_libraries_other_libraries_expo_vector_icons
+        - id: component_libraries_other_libraries_formik
+        - id: component_libraries_other_libraries_gorhom_bottom_sheet
+        - id: component_libraries_other_libraries_react_hook_form
         - id: component_libraries_other_libraries_react_native_camera
         - id: component_libraries_other_libraries_react_native_fast_image
         - id: component_libraries_other_libraries_react_native_gesture_handler
         - id: component_libraries_other_libraries_react_native_maps
         - id: component_libraries_other_libraries_react_native_safe_area_context
-        - id: component_libraries_other_libraries_react_native_webview
         - id: component_libraries_other_libraries_react_native_vector_icons
         - id: component_libraries_other_libraries_react_native_video
         - id: component_libraries_other_libraries_react_native_vision_camera
+        - id: component_libraries_other_libraries_react_native_webview
+        - id: component_libraries_other_libraries_shopify_flash_list
 
     - id: component_libraries_pain_points
       matchTags: [common_pain_points, react_features]
