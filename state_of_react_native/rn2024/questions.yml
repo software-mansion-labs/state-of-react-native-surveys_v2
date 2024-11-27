@@ -496,89 +496,78 @@
 #########             REACT NATIVE API       #########
 ######################################################
 
-- id: react_native_api
+- id: react_native_architecture
   template: featurev3
-  slug: react_native_api
+  slug: react_native_architecture
   questions:
-    - id: react_native_api_version
+    - id: react_native_architecture_version
       template: single
       options:
-        - id: react_native_api_version_nightly
-        - id: react_native_api_version_next
-        - id: react_native_api_version_0_76
-        - id: react_native_api_version_0_75
-        - id: react_native_api_version_0_74
-        - id: react_native_api_version_0_73
-        - id: react_native_api_version_0_72
-        - id: react_native_api_version_0_71
-        - id: react_native_api_version_0_70
-        - id: react_native_api_version_0_69
-        - id: react_native_api_version_0_68
-        - id: react_native_api_version_0_67
-        - id: react_native_api_version_0_66
-        - id: react_native_api_version_0_65
-        - id: react_native_api_version_0_64
-        - id: react_native_api_version_0_63_or_lower
+        - id: react_native_architecture_version_nightly
+        - id: react_native_architecture_version_next
+        - id: react_native_architecture_version_0_76
+        - id: react_native_architecture_version_0_75
+        - id: react_native_architecture_version_0_74
+        - id: react_native_architecture_version_0_73
+        - id: react_native_architecture_version_0_72
+        - id: react_native_architecture_version_0_71
+        - id: react_native_architecture_version_0_70
+        - id: react_native_architecture_version_0_69_or_lower
 
-    - id: react_native_api_strategies
+    - id: react_native_architecture_strategies
       template: singleWithOther
       options:
-        - id: react_native_api_strategies_stay_latest
-        - id: react_native_api_strategies_upgrade_occasionally
-        - id: react_native_api_strategies_upgrade_for_new_features
-        - id: react_native_api_strategies_upgrade_parallel_with_expo
-        - id: react_native_api_strategies_upgrade_if_necessary
+        - id: react_native_architecture_strategies_stay_latest
+        - id: react_native_architecture_strategies_upgrade_occasionally
+        - id: react_native_architecture_strategies_upgrade_for_new_features
+        - id: react_native_architecture_strategies_upgrade_parallel_with_expo
+        - id: react_native_architecture_strategies_upgrade_if_necessary
 
-    - id: react_native_api_bridgeless_mode
+    - id: react_native_architecture_codegen
       template: featurev3
-    - id: react_native_api_codegen
+    - id: react_native_architecture_custom_native_modules
       template: featurev3
-    - id: react_native_api_custom_native_modules
+    - id: react_native_architecture_custom_native_views
       template: featurev3
-    - id: react_native_api_custom_native_views
+    - id: react_native_architecture_expo_modules
       template: featurev3
-    - id: react_native_api_expo_modules
+    - id: react_native_architecture_fabric
       template: featurev3
-    - id: react_native_api_fabric
+    - id: react_native_architecture_hermes_runtime
       template: featurev3
-    - id: react_native_api_hermes_runtime
+    - id: react_native_architecture_jsc_runtime
       template: featurev3
-    - id: react_native_api_jsc_runtime
+    - id: react_native_architecture_jsi
       template: featurev3
-    - id: react_native_api_jsi
+    - id: react_native_architecture_new_architecture
       template: featurev3
-    - id: react_native_api_new_architecture
+    - id: react_native_architecture_turbo_modules
       template: featurev3
-    - id: react_native_api_react_native_directory
-      template: featurev3
-    - id: react_native_api_turbo_modules
-      template: featurev3
-    - id: react_native_api_v8_runtime
+    - id: react_native_architecture_v8_runtime
       template: featurev3
 
-    - id: react_native_api_brownfield
+    - id: react_native_architecture_brownfield
       template: single
       options:
-        - id: react_native_api_brownfield_green
-        - id: react_native_api_brownfield_brown
-        - id: react_native_api_brownfield_both
+        - id: react_native_architecture_brownfield_green
+        - id: react_native_architecture_brownfield_brown
+        - id: react_native_architecture_brownfield_both
 
-    - id: react_native_api_ota_updates
+    - id: react_native_architecture_ota_updates
       template: multipleWithOtherSentiment
       options:
-        - id: react_native_api_ota_updates_code_push
-        - id: react_native_api_ota_updates_eas_update
-        - id: react_native_api_ota_updates_expo_publish
-        - id: react_native_api_ota_updates_self_hosted
+        - id: react_native_architecture_ota_updates_code_push
+        - id: react_native_architecture_ota_updates_eas_update
+        - id: react_native_architecture_ota_updates_self_hosted
 
-    - id: react_native_api_mobile_web_code_sharing
+    - id: react_native_architecture_mobile_web_code_sharing
       template: multipleWithOtherSentiment
       options:
-        - id: react_native_api_mobile_web_code_sharing_react_native_web
-        - id: react_native_api_mobile_web_code_sharing_solito
-        - id: react_native_api_mobile_web_code_sharing_webview
-        - id: react_native_api_mobile_web_code_sharing_common_logic_independent_ui
-        - id: react_native_api_mobile_web_code_sharing_independent_projects
+        - id: react_native_architecture_mobile_web_code_sharing_react_native_web
+        - id: react_native_architecture_mobile_web_code_sharing_solito
+        - id: react_native_architecture_mobile_web_code_sharing_webview
+        - id: react_native_architecture_mobile_web_code_sharing_common_logic_independent_ui
+        - id: react_native_architecture_mobile_web_code_sharing_independent_projects
 
 ######################################################
 #########            BUILD & PUBLISH              #########
@@ -637,7 +626,7 @@
         - id: dev_tools_starter_tamagui
 
     - id: dev_tools_config_plugins
-    - id: dev_tools_custom_development_client
+    - id: dev_tools_expo_dev_client
     - id: dev_tools_eas_cli
     - id: dev_tools_expo_cli
     - id: dev_tools_expo_go
@@ -647,6 +636,8 @@
     - id: dev_tools_react_native_test_app
     - id: dev_tools_rnx_kit
     - id: dev_tools_upgrade_helper
+    - id: dev_tools_setup_ci
+      yearAdded: 2024
 
     - id: dev_tools_other_tools
       template: textList
@@ -710,6 +701,7 @@
         - id: resources_read_multiple_react_native_newsletter
         - id: resources_read_multiple_software_mansion_blog
         - id: resources_read_multiple_this_week_in_react
+
     - id: resources_course_multiple
       template: multipleWithOtherSentiment
       options:
@@ -730,6 +722,7 @@
         - id: resources_course_multiple_book_react_native_optimization
         - id: resources_course_twitter
         - id: resources_course_multiple_youtube
+
     - id: resources_podcast_multiple
       template: multipleWithOtherSentiment
       options:
@@ -739,10 +732,15 @@
         - id: resources_podcast_multiple_syntax_fm
         - id: resources_podcast_multiple_the_changelog
         - id: resources_podcast_multiple_react_universe_on_air
+
+    - id: resources_react_native_directory
+      template: featurev3
+
     - id: resources_video
       template: textList
       intlId: resources.video_creators_rn
       disallowedTokenIds: [twitter]
+
     - id: resources_people
       template: textList
       intlId: resources.people_rn
