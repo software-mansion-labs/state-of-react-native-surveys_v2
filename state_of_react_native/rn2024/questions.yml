@@ -28,21 +28,21 @@
         - id: developer_background_before_started_with_rn
 
     - id: developer_background_usage_type
-      template: single
+      template: singleWithOther
       options:
         - id: developer_background_usage_type_professional
         - id: developer_background_usage_type_student
         - id: developer_background_usage_type_hobby
 
     - id: developer_background_primarily_system
-      template: single
+      template: singleWithOther
       options:
         - id: developer_background_primarily_system_macos
         - id: developer_background_primarily_system_linux
         - id: developer_background_primarily_system_windows
 
     - id: developer_background_users_count
-      template: single
+      template: singleWithOther
       options:
         - id: developer_background_users_count_only_me
         - id: developer_background_users_count_2_100
@@ -53,7 +53,7 @@
         - id: developer_background_users_count_1m_plus
 
     - id: developer_background_team_size
-      template: single
+      template: singleWithOther
       options:
         - id: developer_background_team_size_solo
         - id: developer_background_team_size_two
@@ -69,9 +69,10 @@
         - id: developer_background_platforms_web
         - id: developer_background_platforms_macos
         - id: developer_background_platforms_windows
-        - id: developer_background_platforms_skia
+        - id: developer_background_platforms_visionos
         - id: developer_background_platforms_android_tv
         - id: developer_background_platforms_tvos
+        - id: developer_background_platforms_skia
 
     - id: developer_background_contribution_to_rn
       template: single
@@ -86,7 +87,7 @@
         - id: answer_no
 
     - id: developer_background_releases_count
-      template: single
+      template: singleWithOther
       options:
         - id: developer_background_releases_count_none
         - id: developer_background_releases_count_one
@@ -95,7 +96,7 @@
         - id: developer_background_releases_count_more_than_10
 
     - id: developer_background_os_target
-      template: single
+      template: singleWithOther
       options:
         - id: developer_background_os_target_most_recent
         - id: developer_background_os_target_reasonably_current
@@ -251,7 +252,7 @@
       disallowedTokenIds: [state_management]
       template: textList
 
-    - id: state_management_pattern_architecture_local_first
+    - id: state_management_app_architecture_pattern_local_first
       template: featurev3
 
 ######################################################
@@ -290,6 +291,8 @@
   questions:
     - id: navigation_expo_router
     - id: navigation_react_native_navigation
+    - id: navigation_react_native_screens
+      yearAdded: 2024
     - id: navigation_react_navigation
     - id: navigation_react_router
     - id: navigation_solito
@@ -315,9 +318,13 @@
     - id: styling_techniques_inline
     - id: styling_techniques_nativewind
     - id: styling_techniques_react_native_unistyles
+    - id: styling_techniques_react_strict_dom
+      yearAdded: 2024
     - id: styling_techniques_restyle
     - id: styling_techniques_style_sheet
     - id: styling_techniques_styled_components
+    - id: styling_techniques_stylex
+      yearAdded: 2024
     - id: styling_techniques_tamagui
     - id: styling_techniques_twrnc
 
@@ -347,6 +354,7 @@
     - id: animations_rive
     - id: animations_skia
     - id: animations_threejs
+
     - id: animations_other
       template: projects
 
@@ -422,22 +430,19 @@
       yearAdded: 2024
     - id: debugging_profiling_react_native_devtools
       yearAdded: 2024
-    - id: debugging_profiling_remote_javascript_debugging
 
-    - id: debugging_profiling_hermes_debugger
-    - id: debugging_profiling_direct_jsc_debugging
-    - id: debugging_profiling_experimental_new_debugger
+    - id: debugging_profiling_legacy_javascript_hermes_debugging
 
     - id: debugging_profiling_react_devtools
     - id: debugging_profiling_element_inspector
     - id: debugging_profiling_logbox
     - id: debugging_profiling_performance_monitor
+
     - id: debugging_profiling_flipper
     - id: debugging_profiling_reactotron
-    - id: debugging_profiling_expo_dev_tools_plugins
+
     - id: debugging_profiling_react_native_performance
     - id: debugging_profiling_flashlight
-    - id: debugging_profiling_react_native_flipper_performance_monitor
     - id: debugging_profiling_native_debugging
     - id: debugging_profiling_native_profiling
 
@@ -469,12 +474,16 @@
     - id: testing_and_monitoring_analytics
       template: multipleWithOtherSentiment
       options:
+        - id: testing_and_monitoring_analytics_adobe_analytics
+          yearAdded: 2024
         - id: testing_and_monitoring_analytics_amplify_analytics
         - id: testing_and_monitoring_analytics_amplitude
         - id: testing_and_monitoring_analytics_appcenter_analytics
         - id: testing_and_monitoring_analytics_appsflyer
         - id: testing_and_monitoring_analytics_firebase_analytics
         - id: testing_and_monitoring_analytics_mixpanel
+        - id: testing_and_monitoring_analytics_posthog
+          yearAdded: 2024
         - id: testing_and_monitoring_analytics_segment
 
     - id: testing_and_monitoring_crash_reporting
@@ -493,7 +502,7 @@
       template: textList
 
 ######################################################
-#########             REACT NATIVE API       #########
+#########     REACT NATIVE ARCHITECTURE      #########
 ######################################################
 
 - id: react_native_architecture
@@ -523,35 +532,32 @@
         - id: react_native_architecture_strategies_upgrade_parallel_with_expo
         - id: react_native_architecture_strategies_upgrade_if_necessary
 
-    - id: react_native_architecture_codegen
-      template: featurev3
-    - id: react_native_architecture_custom_native_modules
-      template: featurev3
-    - id: react_native_architecture_custom_native_views
-      template: featurev3
-    - id: react_native_architecture_expo_modules
-      template: featurev3
-    - id: react_native_architecture_fabric
-      template: featurev3
-    - id: react_native_architecture_hermes_runtime
-      template: featurev3
-    - id: react_native_architecture_jsc_runtime
-      template: featurev3
-    - id: react_native_architecture_jsi
-      template: featurev3
-    - id: react_native_architecture_new_architecture
-      template: featurev3
-    - id: react_native_architecture_turbo_modules
-      template: featurev3
-    - id: react_native_architecture_v8_runtime
-      template: featurev3
-
     - id: react_native_architecture_brownfield
       template: single
       options:
         - id: react_native_architecture_brownfield_green
         - id: react_native_architecture_brownfield_brown
         - id: react_native_architecture_brownfield_both
+
+    - id: react_native_architecture_codegen
+    - id: react_native_architecture_custom_native_modules
+    - id: react_native_architecture_custom_native_views
+    - id: react_native_architecture_expo_modules
+    - id: react_native_architecture_fabric
+    - id: react_native_architecture_hermes_runtime
+    - id: react_native_architecture_jsc_runtime
+    - id: react_native_architecture_jsi
+    - id: react_native_architecture_new_architecture
+    - id: react_native_architecture_turbo_modules
+    - id: react_native_architecture_v8_runtime
+    - id: react_native_architecture_ota
+      yearAdded: 2024
+    - id: react_native_architecture_concurrent_react
+      yearAdded: 2024
+    - id: react_native_architecture_dom_components
+      yearAdded: 2024
+    - id: react_native_architecture_server_components
+      yearAdded: 2024
 
     - id: react_native_architecture_ota_updates
       template: multipleWithOtherSentiment
@@ -584,6 +590,8 @@
     - id: build_and_publish_fastlane
     - id: build_and_publish_manually_android_studio
     - id: build_and_publish_manually_xcode
+    - id: build_and_publish_workflows
+      yearAdded: 2024
 
     - id: build_and_publish_others
       template: textList
@@ -650,14 +658,19 @@
   template: featurev3
   slug: react_native_alternatives
   questions:
+    - id: react_native_alternatives_capacitor
+      yearAdded: 2024
     - id: react_native_alternatives_cordova
     - id: react_native_alternatives_flutter
     - id: react_native_alternatives_ionic
     - id: react_native_alternatives_jetpack_compose
     - id: react_native_alternatives_kotlin
-    - id: react_native_alternatives_swiftui
-    - id: react_native_alternatives_xamarin
     - id: react_native_alternatives_native_script
+    - id: react_native_alternatives_swiftui
+    - id: react_native_alternatives_tauri
+      yearAdded: 2024
+    - id: react_native_alternatives_xamarin
+
     - id: react_native_alternatives_other
       template: textList
 
@@ -668,97 +681,99 @@
 - id: resources
   slug: resources
   questions:
-    - id: resources_initially_learn_react_native
+    - id: resources_learn_initially
       template: multipleWithOtherSentiment
       options:
-        - id: resources_initially_learn_react_native_books
-        - id: resources_initially_learn_react_native_coding_bootcamp
-        - id: resources_initially_learn_react_native_expo_docs
-        - id: resources_initially_learn_react_native_mentoring
-        - id: resources_initially_learn_react_native_official_docs
-        - id: resources_initially_learn_react_native_on_the_job_training
-        - id: resources_initially_learn_react_native_online_courses_free
-        - id: resources_initially_learn_react_native_online_courses_paid
-        - id: resources_initially_learn_react_native_podcasts
-        - id: resources_initially_learn_react_native_react_native_directory
-        - id: resources_initially_learn_react_native_school_higher_education
-        - id: resources_initially_learn_react_native_self_directed_learning
-        - id: resources_initially_learn_react_native_videos
-        - id: resources_initially_learn_react_native_x
+        - id: resources_learn_initially_ai_tools
+        - id: resources_learn_initially_books
+        - id: resources_learn_initially_coding_bootcamp
+        - id: resources_learn_initially_expo_docs
+        - id: resources_learn_initially_mentoring
+        - id: resources_learn_initially_official_docs
+        - id: resources_learn_initially_on_the_job_training
+        - id: resources_learn_initially_online_courses_free
+        - id: resources_learn_initially_online_courses_paid
+        - id: resources_learn_initially_podcasts
+        - id: resources_learn_initially_school_higher_education
+        - id: resources_learn_initially_self_directed_learning
+        - id: resources_learn_initially_videos
 
-    - id: resources_read_multiple
+    - id: resources_learn_more
       template: multipleWithOtherSentiment
       options:
-        - id: resources_read_multiple_callstack_blog
-        - id: resources_read_multiple_dev_to
-        - id: resources_read_multiple_expo_blog
-        - id: resources_read_multiple_kent_c_dodds
-        - id: resources_read_multiple_log_rocket
-        - id: resources_read_multiple_medium
-        - id: resources_read_multiple_microsof_react_native_blog
-        - id: resources_read_react_native_reddit
-        - id: resources_read_multiple_react_native_blog
-        - id: resources_read_multiple_react_native_newsletter
-        - id: resources_read_multiple_software_mansion_blog
-        - id: resources_read_multiple_this_week_in_react
+        - id: resources_learn_more_react_native_docs
+        - id: resources_learn_more_expo_docs
 
-    - id: resources_course_multiple
-      template: multipleWithOtherSentiment
-      options:
-        - id: resources_course_multiple_animate_react_native
-        - id: resources_course_multiple_codecademy
-        - id: resources_course_multiple_developer_training
-        - id: resources_course_multiple_egghead
-        - id: resources_course_multiple_epic_react
-        - id: resources_course_expo_docs
-        - id: resources_course_multiple_frontend_masters
-        - id: resources_course_multiple_medium
-        - id: resources_course_react_native_docs
-        - id: resources_course_multiple_reddit
-        - id: resources_course_multiple_stack_overflow
-        - id: resources_course_multiple_start_react_native
-        - id: resources_course_multiple_solito_docs
-        - id: resources_course_multiple_udemy
-        - id: resources_course_multiple_book_react_native_optimization
-        - id: resources_course_twitter
-        - id: resources_course_multiple_youtube
+        - id: resources_learn_more_react_native_blog
+        - id: resources_learn_more_expo_blog
 
-    - id: resources_podcast_multiple
+        - id: resources_learn_more_medium
+        - id: resources_learn_more_dev_to
+        - id: resources_learn_more_software_mansion_blog
+        - id: resources_learn_more_callstack_blog
+        - id: resources_learn_more_log_rocket
+        - id: resources_learn_more_microsoft_react_native_blog
+
+        - id: resources_learn_more_egghead
+        - id: resources_learn_more_codecademy
+        - id: resources_learn_more_udemy
+        - id: resources_learn_more_coursera
+        - id: resources_learn_more_frontend_masters
+        - id: resources_learn_more_galaxies_dev
+        - id: resources_learn_more_react_native_mastery
+
+        - id: resources_learn_more_animate_react_native
+        - id: resources_learn_more_book_react_native_optimization
+        - id: resources_learn_more_stack_overflow
+        - id: resources_learn_more_youtube
+        - id: resources_learn_more_ai_tools
+
+    - id: resources_stay_up_to_date
       template: multipleWithOtherSentiment
       options:
-        - id: resources_podcast_multiple_podrocker
-        - id: resources_podcast_multiple_react_native_radio
-        - id: resources_podcast_multiple_rocket_ship
-        - id: resources_podcast_multiple_syntax_fm
-        - id: resources_podcast_multiple_the_changelog
-        - id: resources_podcast_multiple_react_universe_on_air
+        - id: resources_stay_up_to_date_react_native_newsletter
+        - id: resources_stay_up_to_date_callstack_newsletter
+        - id: resources_stay_up_to_date_this_week_in_react
+        - id: resources_stay_up_to_date_notjustdev
+        - id: resources_stay_up_to_date_expo_newsletter
+        - id: resources_stay_up_to_date_expo_changelog
+        - id: resources_stay_up_to_date_x
+        - id: resources_stay_up_to_date_bluesky
+        - id: resources_stay_up_to_date_expo_discord
+        - id: resources_stay_up_to_date_reddit
+
+    - id: resources_podcasts
+      template: multipleWithOtherSentiment
+      options:
+        - id: resources_podcasts_podrocker
+        - id: resources_podcasts_react_native_radio
+        - id: resources_podcasts_rocket_ship
+        - id: resources_podcasts_syntax_fm
+        - id: resources_podcasts_the_changelog
+        - id: resources_podcasts_react_universe_on_air
 
     - id: resources_react_native_directory
       template: featurev3
 
-    - id: resources_video
+    - id: resources_video_creators
       template: textList
-      intlId: resources.video_creators_rn
       disallowedTokenIds: [twitter]
 
     - id: resources_people
       template: textList
-      intlId: resources.people_rn
       disallowedTokenIds: [twitter]
 
     - id: resources_surveys
       template: multipleWithOther
       options:
         - id: resources_surveys_design_tools
-        - id: resources_surveys_jamstack
         - id: resources_surveys_jetbrains
         - id: resources_surveys_postman
         - id: resources_surveys_stack_overflow
         - id: resources_surveys_state_of_css
         - id: resources_surveys_state_of_js
-        - id: resources_surveys_state_of_graphql
-        - id: resources_surveys_state_of_react
         - id: resources_surveys_state_of_html
+        - id: resources_surveys_state_of_react
 
 ######################################################
 #########             OPINIONS               #########
@@ -771,7 +786,9 @@
     - id: opinions_right_direction
     - id: opinions_complex
     - id: opinions_changing_too_fast
+
     - id: opinions_pain_points_multiple
+      limit: 3
       template: multipleWithOther
       options:
         - id: opinions_pain_points_multiple_app_building
@@ -803,8 +820,8 @@
 
     - id: opinions_missing_multiple
       template: multipleWithOther
+      limit: 3
       options:
-        - id: opinions_missing_multiple_android_shadows
         - id: opinions_missing_multiple_better_animations_gestures
         - id: opinions_missing_multiple_better_debugging
         - id: opinions_missing_multiple_better_profiling
@@ -822,6 +839,7 @@
 
     - id: opinions_advantages_multiple
       template: multipleWithOther
+      limit: 3
       options:
         - id: opinions_advantages_multiple_code_sharing
         - id: opinions_advantages_multiple_community
@@ -834,6 +852,7 @@
         - id: opinions_advantages_multiple_expo
         - id: opinions_advantages_multiple_fast_iteration
         - id: opinions_advantages_multiple_hot_reloading
+        - id: opinions_advantages_multiple_learn_once
         - id: opinions_advantages_multiple_native_feel_of_app
         - id: opinions_advantages_multiple_over_the_air_updates
         - id: opinions_advantages_multiple_performance
@@ -841,7 +860,6 @@
         - id: opinions_advantages_multiple_stable
         - id: opinions_advantages_multiple_time_to_market
         - id: opinions_advantages_multiple_web_technologies
-        - id: opinions_advantages_multiple_other_advantages
 
 ######################################################
 #########             ABOUT YOU              #########
