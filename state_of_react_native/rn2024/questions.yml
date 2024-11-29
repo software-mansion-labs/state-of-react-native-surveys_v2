@@ -788,7 +788,6 @@
     - id: opinions_changing_too_fast
 
     - id: opinions_pain_points_multiple
-      limit: 3
       template: multipleWithOther
       options:
         - id: opinions_pain_points_multiple_app_building
@@ -820,7 +819,6 @@
 
     - id: opinions_missing_multiple
       template: multipleWithOther
-      limit: 3
       options:
         - id: opinions_missing_multiple_better_animations_gestures
         - id: opinions_missing_multiple_better_debugging
@@ -839,7 +837,6 @@
 
     - id: opinions_advantages_multiple
       template: multipleWithOther
-      limit: 3
       options:
         - id: opinions_advantages_multiple_code_sharing
         - id: opinions_advantages_multiple_community
