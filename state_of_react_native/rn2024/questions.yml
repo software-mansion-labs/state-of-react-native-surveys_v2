@@ -262,6 +262,7 @@
 - id: data_fetching
   template: toolv3
   slug: data_fetching
+  messageId: data_fetching.intro_message
   questions:
     - id: data_fetching_apollo
     - id: data_fetching_axios
@@ -305,6 +306,9 @@
       disallowedTokenIds: [navigation]
       template: textList
 
+    - id: navigation_app_architecture_pattern_file_based_routing
+      template: featurev3
+
 ######################################################
 #########               STYLING              #########
 ######################################################
@@ -312,6 +316,7 @@
 - id: styling
   template: toolv3
   slug: styling
+  messageId: styling.intro_message
   questions:
     - id: styling_techniques_dripsy
     - id: styling_techniques_emotion
@@ -426,25 +431,21 @@
   slug: debugging_and_profiling
   questions:
     - id: debugging_profiling_console
-    - id: debugging_profiling_radon_ide
-      yearAdded: 2024
-    - id: debugging_profiling_react_native_devtools
-      yearAdded: 2024
-
-    - id: debugging_profiling_legacy_javascript_hermes_debugging
-
-    - id: debugging_profiling_react_devtools
     - id: debugging_profiling_element_inspector
-    - id: debugging_profiling_logbox
-    - id: debugging_profiling_performance_monitor
-
-    - id: debugging_profiling_flipper
-    - id: debugging_profiling_reactotron
-
-    - id: debugging_profiling_react_native_performance
     - id: debugging_profiling_flashlight
+    - id: debugging_profiling_flipper
+    - id: debugging_profiling_legacy_javascript_hermes_debugging
+    - id: debugging_profiling_logbox
     - id: debugging_profiling_native_debugging
     - id: debugging_profiling_native_profiling
+    - id: debugging_profiling_radon_ide
+      yearAdded: 2024
+    - id: debugging_profiling_react_devtools
+    - id: debugging_profiling_react_native_devtools
+      yearAdded: 2024
+    - id: debugging_profiling_react_native_performance
+    - id: debugging_profiling_performance_monitor
+    - id: debugging_profiling_reactotron
 
     - id: debugging_profiling_others
       template: projects
@@ -540,24 +541,24 @@
         - id: react_native_architecture_brownfield_both
 
     - id: react_native_architecture_codegen
-    - id: react_native_architecture_custom_native_modules
-    - id: react_native_architecture_custom_native_views
+    - id: react_native_architecture_concurrent_react
+      yearAdded: 2024
+    - id: react_native_architecture_dom_components
+      yearAdded: 2024
     - id: react_native_architecture_expo_modules
     - id: react_native_architecture_fabric
     - id: react_native_architecture_hermes_runtime
     - id: react_native_architecture_jsc_runtime
     - id: react_native_architecture_jsi
+    - id: react_native_architecture_custom_native_modules
+    - id: react_native_architecture_custom_native_views
     - id: react_native_architecture_new_architecture
-    - id: react_native_architecture_turbo_modules
-    - id: react_native_architecture_v8_runtime
     - id: react_native_architecture_ota
-      yearAdded: 2024
-    - id: react_native_architecture_concurrent_react
-      yearAdded: 2024
-    - id: react_native_architecture_dom_components
       yearAdded: 2024
     - id: react_native_architecture_server_components
       yearAdded: 2024
+    - id: react_native_architecture_turbo_modules
+    - id: react_native_architecture_v8_runtime
 
     - id: react_native_architecture_ota_updates
       template: multipleWithOtherSentiment
@@ -609,6 +610,10 @@
   slug: dev_tools
   questions:
     - id: dev_tools_js_ts
+      template: slider
+
+    - id: dev_tools_ai_generated_code_balance
+      yearAdded: 2024
       template: slider
 
     - id: dev_tools_package_managers
