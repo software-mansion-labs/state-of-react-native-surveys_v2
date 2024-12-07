@@ -430,25 +430,46 @@
   template: featurev3
   slug: debugging_and_profiling
   questions:
-    - id: debugging_profiling_console
-    - id: debugging_profiling_element_inspector
-    - id: debugging_profiling_flashlight
-    - id: debugging_profiling_flipper
-    - id: debugging_profiling_legacy_javascript_hermes_debugging
-    - id: debugging_profiling_logbox
-    - id: debugging_profiling_native_debugging
-    - id: debugging_profiling_native_profiling
-    - id: debugging_profiling_radon_ide
-      yearAdded: 2024
-    - id: debugging_profiling_react_devtools
+    - id: debugging_and_profiling_subheading_clients_and_tools
+      template: subheading
+
     - id: debugging_profiling_react_native_devtools
       yearAdded: 2024
-    - id: debugging_profiling_react_native_performance
-    - id: debugging_profiling_performance_monitor
     - id: debugging_profiling_reactotron
+    - id: debugging_profiling_radon_ide
+      yearAdded: 2024
+    - id: debugging_profiling_legacy_javascript_hermes_debugging
+    - id: debugging_profiling_flipper
+
+    - id: debugging_profiling_native_debugging
+    - id: debugging_profiling_native_profiling
+    - id: debugging_profiling_expo_devtools_plugins
+    - id: debugging_profiling_flashlight
+
+    - id: debugging_and_profiling_subheading_features
+      template: subheading
+
+    - id: debugging_profiling_console
+    - id: debugging_profiling_react_devtools
+    - id: debugging_profiling_element_inspector
+    - id: debugging_profiling_performance_monitor
+    - id: debugging_profiling_react_native_performance
+    - id: debugging_profiling_network_inspector_expo
 
     - id: debugging_profiling_others
-      template: projects
+      template: textList
+
+    - id: debugging_profiling_intent
+      yearAdded: 2024
+      template: multipleWithOtherSentiment
+      options:
+        - id: debugging_profiling_intent_view_app_logs
+        - id: debugging_profiling_intent_inspect_layout_and_styles
+        - id: debugging_profiling_intent_inspect_code_behavior
+        - id: debugging_profiling_intent_understand_react_behavior
+        - id: debugging_profiling_intent_inspect_network_requests
+        - id: debugging_profiling_intent_profile_the_app
+        - id: debugging_profiling_intent_understand_3rd_party_libraries
 
     - id: debugging_profiling_pain_points
       matchTags: [common_pain_points, react_features]
@@ -649,8 +670,8 @@
     - id: dev_tools_react_native_test_app
     - id: dev_tools_rnx_kit
     - id: dev_tools_upgrade_helper
-    - id: dev_tools_setup_ci
-      yearAdded: 2024
+    # - id: dev_tools_setup_ci # too niche
+    #   yearAdded: 2024
 
     - id: dev_tools_other_tools
       template: textList

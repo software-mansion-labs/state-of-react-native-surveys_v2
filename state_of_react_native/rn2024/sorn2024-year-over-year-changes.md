@@ -1045,7 +1045,7 @@ What blogs, magazines or newsletters do you consult to keep up with React Native
 - React Native blog <!-- https://reactnative.dev/blog -->
 - React Native Newsletter (by Infinite Red) <!-- https://reactnativenewsletter.com/ -->
 - Software Mansion blog <!-- https://blog.swmansion.com/ -->
-- This Week In React (by Sébastien Lorber) <!-- https://thisweekinreact.com/ -->
+- This Week In React (by Sébastien Lorber) <!-- https://thisweekinreact.com/?utm_source=state_of_rn -->
 - Other blogs, magazines or newsletters
   > **(_separate question below_)**
   - What other blogs, magazines or newsletters not listed above do you read? Write all that apply (freeform)
