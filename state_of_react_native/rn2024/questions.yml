@@ -61,18 +61,28 @@
         - id: developer_background_team_size_6_10
         - id: developer_background_team_size_more_than_10
 
-    - id: developer_background_platforms
+    - id: developer_background_target_platforms
       template: multipleWithOther
       options:
-        - id: developer_background_platforms_ios
-        - id: developer_background_platforms_android
-        - id: developer_background_platforms_web
-        - id: developer_background_platforms_macos
-        - id: developer_background_platforms_windows
-        - id: developer_background_platforms_visionos
-        - id: developer_background_platforms_android_tv
-        - id: developer_background_platforms_tvos
-        - id: developer_background_platforms_skia
+        - id: developer_background_target_platforms_ios
+        - id: developer_background_target_platforms_android
+        - id: developer_background_target_platforms_web
+        - id: developer_background_target_platforms_macos
+        - id: developer_background_target_platforms_windows
+        - id: developer_background_target_platforms_visionos
+        - id: developer_background_target_platforms_android_tv
+        - id: developer_background_target_platforms_tvos
+        - id: developer_background_target_platforms_skia
+
+    - id: developer_background_main_daily_platforms
+      yearAdded: 2024
+      template: multipleWithOther
+      options:
+        - id: developer_background_main_daily_platforms_ios_device
+        - id: developer_background_main_daily_platforms_android_device
+        - id: developer_background_main_daily_platforms_ios_simulator
+        - id: developer_background_main_daily_platforms_android_emulator
+        - id: developer_background_main_daily_platforms_web_browser
 
     - id: developer_background_contribution_to_rn
       template: single
