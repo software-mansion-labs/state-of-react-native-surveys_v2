@@ -1,0 +1,65 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "testing_and_monitoring": {
+            "testing_and_monitoring_pain_points": {
+              "freeform": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 51,
+                    "percentageSurvey": 2.22,
+                    "total": 2294
+                  },
+                  "buckets": [
+                    {
+                      "count": 10,
+                      "id": "configuration",
+                      "percentageQuestion": 19.61,
+                      "percentageSurvey": 0.44,
+                      "entity": {
+                        "name": "Configuration",
+                        "nameClean": "Configuration",
+                        "description": "Difficulties with set-up and configuration",
+                        "descriptionClean": "Difficulties with set-up and configuration",
+                        "id": "configuration",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 2243,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 97.78
+                    },
+                    {
+                      "count": 63,
+                      "id": "other_answers",
+                      "percentageQuestion": 123.53,
+                      "percentageSurvey": 2.73,
+                      "groupedBuckets": [
+                        {
+                          "count": 28,
+                          "id": "cutoff_answers",
+                          "percentageQuestion": 54.9,
+                          "percentageSurvey": 1.2
+                        },
+                        {
+                          "count": 35,
+                          "id": "no_match",
+                          "percentageQuestion": 68.63,
+                          "percentageSurvey": 1.53
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

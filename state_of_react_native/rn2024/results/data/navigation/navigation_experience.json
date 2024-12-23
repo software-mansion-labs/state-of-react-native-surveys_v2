@@ -10,33 +10,65 @@
                 "entity": {
                   "name": "expo-router",
                   "nameClean": "expo-router",
-                  "entityType": "library",
-                  "description": "The new File-based router for universal React Native apps!",
-                  "descriptionClean": "The new File-based router for universal React Native apps!",
+                  "entityType": "default",
+                  "description": "A file-based router for React Native and web applications.",
+                  "descriptionClean": "A file-based router for React Native and web applications.",
                   "homepage": {
                     "url": "https://expo.github.io/router/docs/"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 45
                   }
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 0,
-                      "interest": 0,
-                      "usage": 0,
-                      "retention": 0,
-                      "positivity": 1
+                      "awareness": 0.98,
+                      "interest": 0.68,
+                      "usage": 0.65,
+                      "retention": 0.8,
+                      "positivity": 0.29
                     },
                     "buckets": [
                       {
-                        "count": 13,
+                        "count": 21,
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 13,
+                            "count": 21,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 1.37,
+                        "percentageSurvey": 0.92
+                      },
+                      {
+                        "count": 508,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 42,
+                            "id": "negative",
+                            "percentageBucket": 8.27,
+                            "percentageQuestion": 2.73,
+                            "percentageSurvey": 1.83
+                          },
+                          {
+                            "count": 376,
+                            "id": "neutral",
+                            "percentageBucket": 74.02,
+                            "percentageQuestion": 24.46,
+                            "percentageSurvey": 16.39
+                          },
+                          {
+                            "count": 90,
                             "id": "positive",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 92.86,
-                            "percentageSurvey": 41.94
+                            "percentageBucket": 17.72,
+                            "percentageQuestion": 5.86,
+                            "percentageSurvey": 3.92
                           },
                           {
                             "count": 0,
@@ -44,27 +76,48 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 92.86,
-                        "percentageSurvey": 41.94
+                        "percentageQuestion": 33.05,
+                        "percentageSurvey": 22.14
                       },
                       {
-                        "count": 0,
-                        "id": "heard",
+                        "count": 1000,
+                        "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 1,
+                            "count": 364,
+                            "id": "positive",
+                            "percentageBucket": 36.4,
+                            "percentageQuestion": 23.68,
+                            "percentageSurvey": 15.87
+                          },
+                          {
+                            "count": 88,
+                            "id": "negative",
+                            "percentageBucket": 8.8,
+                            "percentageQuestion": 5.73,
+                            "percentageSurvey": 3.84
+                          },
+                          {
+                            "count": 548,
+                            "id": "neutral",
+                            "percentageBucket": 54.8,
+                            "percentageQuestion": 35.65,
+                            "percentageSurvey": 23.89
+                          },
+                          {
+                            "count": 0,
                             "id": "insufficient_data",
-                            "percentageBucket": 100
+                            "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 0,
-                        "percentageSurvey": 0
+                        "percentageQuestion": 65.06,
+                        "percentageSurvey": 43.59
                       }
                     ],
                     "completion": {
-                      "count": 14,
-                      "percentageSurvey": 45.16,
-                      "total": 31
+                      "count": 1537,
+                      "percentageSurvey": 67,
+                      "total": 2294
                     }
                   }
                 }
@@ -74,33 +127,72 @@
                 "entity": {
                   "name": "react-native-navigation",
                   "nameClean": "react-native-navigation",
-                  "entityType": "library",
-                  "description": "A complete native navigation solution for React Native",
-                  "descriptionClean": "A complete native navigation solution for React Native",
+                  "entityType": "default",
+                  "description": "100% native platform navigation on both iOS and Android for React Native apps.",
+                  "descriptionClean": "100% native platform navigation on both iOS and Android for React Native apps.",
                   "homepage": {
                     "url": "https://wix.github.io/react-native-navigation/"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 8
                   }
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 1,
-                      "interest": 0,
-                      "usage": 1,
-                      "retention": 1,
-                      "positivity": 1
+                      "awareness": 0.9,
+                      "interest": 0.11,
+                      "usage": 0.43,
+                      "retention": 0.66,
+                      "positivity": 0.1
                     },
                     "buckets": [
                       {
-                        "count": 14,
-                        "id": "used",
+                        "count": 143,
+                        "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 14,
+                            "count": 120,
+                            "id": "neutral",
+                            "percentageBucket": 83.92,
+                            "percentageQuestion": 7.89,
+                            "percentageSurvey": 5.23
+                          },
+                          {
+                            "count": 23,
+                            "id": "insufficient_data",
+                            "percentageBucket": 16
+                          }
+                        ],
+                        "percentageQuestion": 9.41,
+                        "percentageSurvey": 6.23
+                      },
+                      {
+                        "count": 707,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 18,
                             "id": "positive",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 100,
-                            "percentageSurvey": 45.16
+                            "percentageBucket": 2.55,
+                            "percentageQuestion": 1.18,
+                            "percentageSurvey": 0.78
+                          },
+                          {
+                            "count": 136,
+                            "id": "negative",
+                            "percentageBucket": 19.24,
+                            "percentageQuestion": 8.95,
+                            "percentageSurvey": 5.93
+                          },
+                          {
+                            "count": 553,
+                            "id": "neutral",
+                            "percentageBucket": 78.22,
+                            "percentageQuestion": 36.38,
+                            "percentageSurvey": 24.11
                           },
                           {
                             "count": 0,
@@ -108,14 +200,172 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 100,
-                        "percentageSurvey": 45.16
+                        "percentageQuestion": 46.51,
+                        "percentageSurvey": 30.82
+                      },
+                      {
+                        "count": 656,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 451,
+                            "id": "neutral",
+                            "percentageBucket": 68.75,
+                            "percentageQuestion": 29.67,
+                            "percentageSurvey": 19.66
+                          },
+                          {
+                            "count": 68,
+                            "id": "negative",
+                            "percentageBucket": 10.37,
+                            "percentageQuestion": 4.47,
+                            "percentageSurvey": 2.96
+                          },
+                          {
+                            "count": 137,
+                            "id": "positive",
+                            "percentageBucket": 20.88,
+                            "percentageQuestion": 9.01,
+                            "percentageSurvey": 5.97
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 43.16,
+                        "percentageSurvey": 28.6
                       }
                     ],
                     "completion": {
-                      "count": 14,
-                      "percentageSurvey": 45.16,
-                      "total": 31
+                      "count": 1520,
+                      "percentageSurvey": 66.26,
+                      "total": 2294
+                    }
+                  }
+                }
+              },
+              {
+                "id": "navigation_react_native_screens",
+                "entity": {
+                  "name": "React Native Screens",
+                  "nameClean": "React Native Screens",
+                  "entityType": "default",
+                  "description": "Native navigation primitives for your React Native app. Used directly in the React Navigation (Native Stack Navigator) and Expo Router libraries.",
+                  "descriptionClean": "Native navigation primitives for your React Native app. Used directly in the React Navigation (Native Stack Navigator) and Expo Router libraries.",
+                  "homepage": {
+                    "url": "https://docs.swmansion.com/react-native-screens/"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 5
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.88,
+                      "interest": 0.63,
+                      "usage": 0.65,
+                      "retention": 0.94,
+                      "positivity": 0.2
+                    },
+                    "buckets": [
+                      {
+                        "count": 175,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 157,
+                            "id": "neutral",
+                            "percentageBucket": 89.71,
+                            "percentageQuestion": 10.36,
+                            "percentageSurvey": 6.84
+                          },
+                          {
+                            "count": 18,
+                            "id": "insufficient_data",
+                            "percentageBucket": 10
+                          }
+                        ],
+                        "percentageQuestion": 11.55,
+                        "percentageSurvey": 7.63
+                      },
+                      {
+                        "count": 340,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 29,
+                            "id": "positive",
+                            "percentageBucket": 8.53,
+                            "percentageQuestion": 1.91,
+                            "percentageSurvey": 1.26
+                          },
+                          {
+                            "count": 294,
+                            "id": "neutral",
+                            "percentageBucket": 86.47,
+                            "percentageQuestion": 19.41,
+                            "percentageSurvey": 12.82
+                          },
+                          {
+                            "count": 17,
+                            "id": "negative",
+                            "percentageBucket": 5,
+                            "percentageQuestion": 1.12,
+                            "percentageSurvey": 0.74
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 22.44,
+                        "percentageSurvey": 14.82
+                      },
+                      {
+                        "count": 989,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 16,
+                            "id": "negative",
+                            "percentageBucket": 1.62,
+                            "percentageQuestion": 1.06,
+                            "percentageSurvey": 0.7
+                          },
+                          {
+                            "count": 284,
+                            "id": "positive",
+                            "percentageBucket": 28.72,
+                            "percentageQuestion": 18.75,
+                            "percentageSurvey": 12.38
+                          },
+                          {
+                            "count": 689,
+                            "id": "neutral",
+                            "percentageBucket": 69.67,
+                            "percentageQuestion": 45.48,
+                            "percentageSurvey": 30.03
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 65.28,
+                        "percentageSurvey": 43.11
+                      }
+                    ],
+                    "completion": {
+                      "count": 1515,
+                      "percentageSurvey": 66.04,
+                      "total": 2294
                     }
                   }
                 }
@@ -125,41 +375,100 @@
                 "entity": {
                   "name": "react-navigation",
                   "nameClean": "react-navigation",
-                  "entityType": "library",
-                  "description": "Routing and navigation for your React Native apps",
-                  "descriptionClean": "Routing and navigation for your React Native apps",
+                  "entityType": "default",
+                  "description": "Routing and navigation for your React Native apps.",
+                  "descriptionClean": "Routing and navigation for your React Native apps.",
                   "homepage": {
                     "url": "https://reactnavigation.org/"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 11
                   }
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 0,
+                      "awareness": 0.97,
                       "interest": 0,
-                      "usage": 0,
-                      "retention": 0,
-                      "positivity": 0
+                      "usage": 0.83,
+                      "retention": 0.94,
+                      "positivity": 0.3
                     },
                     "buckets": [
                       {
-                        "count": 14,
+                        "count": 41,
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 14,
+                            "count": 41,
                             "id": "insufficient_data",
                             "percentageBucket": 100
                           }
                         ],
-                        "percentageQuestion": 100,
-                        "percentageSurvey": 45.16
+                        "percentageQuestion": 2.7,
+                        "percentageSurvey": 1.79
+                      },
+                      {
+                        "count": 212,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 194,
+                            "id": "neutral",
+                            "percentageBucket": 91.51,
+                            "percentageQuestion": 12.75,
+                            "percentageSurvey": 8.46
+                          },
+                          {
+                            "count": 18,
+                            "id": "insufficient_data",
+                            "percentageBucket": 8
+                          }
+                        ],
+                        "percentageQuestion": 13.94,
+                        "percentageSurvey": 9.24
+                      },
+                      {
+                        "count": 1262,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 774,
+                            "id": "neutral",
+                            "percentageBucket": 61.33,
+                            "percentageQuestion": 50.89,
+                            "percentageSurvey": 33.74
+                          },
+                          {
+                            "count": 26,
+                            "id": "negative",
+                            "percentageBucket": 2.06,
+                            "percentageQuestion": 1.71,
+                            "percentageSurvey": 1.13
+                          },
+                          {
+                            "count": 462,
+                            "id": "positive",
+                            "percentageBucket": 36.61,
+                            "percentageQuestion": 30.37,
+                            "percentageSurvey": 20.14
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 82.97,
+                        "percentageSurvey": 55.01
                       }
                     ],
                     "completion": {
-                      "count": 14,
-                      "percentageSurvey": 45.16,
-                      "total": 31
+                      "count": 1521,
+                      "percentageSurvey": 66.3,
+                      "total": 2294
                     }
                   }
                 }
@@ -169,38 +478,121 @@
                 "entity": {
                   "name": "react-router",
                   "nameClean": "react-router",
-                  "entityType": "library",
-                  "description": "Declarative routing for React",
-                  "descriptionClean": "Declarative routing for React",
+                  "entityType": "default",
+                  "description": "Interface for running React Router in a React Native app.",
+                  "descriptionClean": "Interface for running React Router in a React Native app.",
                   "homepage": {
                     "url": "https://reactrouter.com/en/main/router-components/native-router"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 6
                   }
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "interest": 0,
-                      "retention": 0
+                      "awareness": 0.84,
+                      "interest": 0.29,
+                      "usage": 0.28,
+                      "retention": 0.72,
+                      "positivity": 0.08
                     },
                     "buckets": [
                       {
-                        "count": 0,
+                        "count": 225,
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 1,
+                            "count": 199,
+                            "id": "neutral",
+                            "percentageBucket": 88.44,
+                            "percentageQuestion": 13.3,
+                            "percentageSurvey": 8.67
+                          },
+                          {
+                            "count": 26,
                             "id": "insufficient_data",
-                            "percentageBucket": 100
+                            "percentageBucket": 12
                           }
                         ],
-                        "percentageQuestion": 0,
-                        "percentageSurvey": 0
+                        "percentageQuestion": 15.04,
+                        "percentageSurvey": 9.81
+                      },
+                      {
+                        "count": 839,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 40,
+                            "id": "positive",
+                            "percentageBucket": 4.77,
+                            "percentageQuestion": 2.67,
+                            "percentageSurvey": 1.74
+                          },
+                          {
+                            "count": 97,
+                            "id": "negative",
+                            "percentageBucket": 11.56,
+                            "percentageQuestion": 6.48,
+                            "percentageSurvey": 4.23
+                          },
+                          {
+                            "count": 702,
+                            "id": "neutral",
+                            "percentageBucket": 83.67,
+                            "percentageQuestion": 46.93,
+                            "percentageSurvey": 30.6
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 56.08,
+                        "percentageSurvey": 36.57
+                      },
+                      {
+                        "count": 427,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 301,
+                            "id": "neutral",
+                            "percentageBucket": 70.49,
+                            "percentageQuestion": 20.12,
+                            "percentageSurvey": 13.12
+                          },
+                          {
+                            "count": 35,
+                            "id": "negative",
+                            "percentageBucket": 8.2,
+                            "percentageQuestion": 2.34,
+                            "percentageSurvey": 1.53
+                          },
+                          {
+                            "count": 91,
+                            "id": "positive",
+                            "percentageBucket": 21.31,
+                            "percentageQuestion": 6.08,
+                            "percentageSurvey": 3.97
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 28.54,
+                        "percentageSurvey": 18.61
                       }
                     ],
                     "completion": {
-                      "count": 1,
-                      "percentageSurvey": 3.23,
-                      "total": 31
+                      "count": 1496,
+                      "percentageSurvey": 65.21,
+                      "total": 2294
                     }
                   }
                 }
@@ -210,31 +602,52 @@
                 "entity": {
                   "name": "Solito",
                   "nameClean": "Solito",
-                  "entityType": "library",
+                  "entityType": "default",
+                  "description": "A wrapper around React Navigation and Next.js that lets you share navigation code when building cross-platform apps.",
+                  "descriptionClean": "A wrapper around React Navigation and Next.js that lets you share navigation code when building cross-platform apps.",
                   "homepage": {
-                    "url": "https://solito.dev/"
+                    "url": "https://solito.dev/app-directory/overview"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 3
                   }
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 0,
-                      "interest": 0,
-                      "usage": 0,
-                      "retention": 0,
-                      "positivity": 0
+                      "awareness": 0.4,
+                      "interest": 0.33,
+                      "usage": 0.05,
+                      "retention": 0.69,
+                      "positivity": 0.06
                     },
                     "buckets": [
                       {
-                        "count": 13,
+                        "count": 888,
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 13,
+                            "count": 816,
+                            "id": "neutral",
+                            "percentageBucket": 91.89,
+                            "percentageQuestion": 54.77,
+                            "percentageSurvey": 35.57
+                          },
+                          {
+                            "count": 22,
+                            "id": "positive",
+                            "percentageBucket": 2.48,
+                            "percentageQuestion": 1.48,
+                            "percentageSurvey": 0.96
+                          },
+                          {
+                            "count": 50,
                             "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 92.86,
-                            "percentageSurvey": 41.94
+                            "percentageBucket": 5.63,
+                            "percentageQuestion": 3.36,
+                            "percentageSurvey": 2.18
                           },
                           {
                             "count": 0,
@@ -242,27 +655,82 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 92.86,
-                        "percentageSurvey": 41.94
+                        "percentageQuestion": 59.6,
+                        "percentageSurvey": 38.71
                       },
                       {
-                        "count": 0,
+                        "count": 511,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 41,
+                            "id": "positive",
+                            "percentageBucket": 8.02,
+                            "percentageQuestion": 2.75,
+                            "percentageSurvey": 1.79
+                          },
+                          {
+                            "count": 81,
+                            "id": "negative",
+                            "percentageBucket": 15.85,
+                            "percentageQuestion": 5.44,
+                            "percentageSurvey": 3.53
+                          },
+                          {
+                            "count": 389,
+                            "id": "neutral",
+                            "percentageBucket": 76.13,
+                            "percentageQuestion": 26.11,
+                            "percentageSurvey": 16.96
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 34.3,
+                        "percentageSurvey": 22.28
+                      },
+                      {
+                        "count": 88,
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 1,
+                            "count": 30,
+                            "id": "positive",
+                            "percentageBucket": 34.09,
+                            "percentageQuestion": 2.01,
+                            "percentageSurvey": 1.31
+                          },
+                          {
+                            "count": 13,
+                            "id": "negative",
+                            "percentageBucket": 14.77,
+                            "percentageQuestion": 0.87,
+                            "percentageSurvey": 0.57
+                          },
+                          {
+                            "count": 45,
+                            "id": "neutral",
+                            "percentageBucket": 51.14,
+                            "percentageQuestion": 3.02,
+                            "percentageSurvey": 1.96
+                          },
+                          {
+                            "count": 0,
                             "id": "insufficient_data",
-                            "percentageBucket": 100
+                            "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 0,
-                        "percentageSurvey": 0
+                        "percentageQuestion": 5.91,
+                        "percentageSurvey": 3.84
                       }
                     ],
                     "completion": {
-                      "count": 14,
-                      "percentageSurvey": 45.16,
-                      "total": 31
+                      "count": 1490,
+                      "percentageSurvey": 64.95,
+                      "total": 2294
                     }
                   }
                 }
@@ -272,33 +740,49 @@
                 "entity": {
                   "name": "The Navigation router",
                   "nameClean": "The Navigation router",
-                  "entityType": "library",
-                  "description": "Scene-Based Navigation for React and React Native",
-                  "descriptionClean": "Scene-Based Navigation for React and React Native",
-                  "homepage": {
-                    "url": "http://grahammendick.github.io/navigation/native/"
+                  "entityType": "default",
+                  "description": "Scene-based navigation for React and React Native.",
+                  "descriptionClean": "Scene-based navigation for React and React Native."
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 3
                   }
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 0,
-                      "interest": 0,
-                      "usage": 0,
+                      "awareness": 0.15,
+                      "interest": 0.27,
+                      "usage": 0.02,
                       "retention": 0,
-                      "positivity": 0
+                      "positivity": 0.03
                     },
                     "buckets": [
                       {
-                        "count": 14,
+                        "count": 1250,
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 14,
+                            "count": 1110,
+                            "id": "neutral",
+                            "percentageBucket": 88.8,
+                            "percentageQuestion": 74.55,
+                            "percentageSurvey": 48.39
+                          },
+                          {
+                            "count": 35,
+                            "id": "positive",
+                            "percentageBucket": 2.8,
+                            "percentageQuestion": 2.35,
+                            "percentageSurvey": 1.53
+                          },
+                          {
+                            "count": 105,
                             "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 100,
-                            "percentageSurvey": 45.16
+                            "percentageBucket": 8.4,
+                            "percentageQuestion": 7.05,
+                            "percentageSurvey": 4.58
                           },
                           {
                             "count": 0,
@@ -306,14 +790,68 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 100,
-                        "percentageSurvey": 45.16
+                        "percentageQuestion": 83.95,
+                        "percentageSurvey": 54.49
+                      },
+                      {
+                        "count": 195,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 29,
+                            "id": "negative",
+                            "percentageBucket": 14.87,
+                            "percentageQuestion": 1.95,
+                            "percentageSurvey": 1.26
+                          },
+                          {
+                            "count": 155,
+                            "id": "neutral",
+                            "percentageBucket": 79.49,
+                            "percentageQuestion": 10.41,
+                            "percentageSurvey": 6.76
+                          },
+                          {
+                            "count": 11,
+                            "id": "positive",
+                            "percentageBucket": 5.64,
+                            "percentageQuestion": 0.74,
+                            "percentageSurvey": 0.48
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 13.1,
+                        "percentageSurvey": 8.5
+                      },
+                      {
+                        "count": 41,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 29,
+                            "id": "neutral",
+                            "percentageBucket": 70.73,
+                            "percentageQuestion": 1.95,
+                            "percentageSurvey": 1.26
+                          },
+                          {
+                            "count": 12,
+                            "id": "insufficient_data",
+                            "percentageBucket": 29
+                          }
+                        ],
+                        "percentageQuestion": 2.75,
+                        "percentageSurvey": 1.79
                       }
                     ],
                     "completion": {
-                      "count": 14,
-                      "percentageSurvey": 45.16,
-                      "total": 31
+                      "count": 1489,
+                      "percentageSurvey": 64.91,
+                      "total": 2294
                     }
                   }
                 }

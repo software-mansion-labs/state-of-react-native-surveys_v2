@@ -1,0 +1,51 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "data_fetching": {
+            "data_fetching_pain_points": {
+              "freeform": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 120,
+                    "percentageSurvey": 5.23,
+                    "total": 2294
+                  },
+                  "buckets": [
+                    {
+                      "count": 2174,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 94.77
+                    },
+                    {
+                      "count": 157,
+                      "id": "other_answers",
+                      "percentageQuestion": 130.81,
+                      "percentageSurvey": 6.81,
+                      "groupedBuckets": [
+                        {
+                          "count": 58,
+                          "id": "cutoff_answers",
+                          "percentageQuestion": 48.31,
+                          "percentageSurvey": 2.49
+                        },
+                        {
+                          "count": 99,
+                          "id": "no_match",
+                          "percentageQuestion": 82.5,
+                          "percentageSurvey": 4.32
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

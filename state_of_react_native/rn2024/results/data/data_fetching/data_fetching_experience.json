@@ -6,13 +6,132 @@
           "data_fetching": {
             "data_fetching_experience": [
               {
-                "id": "data_fetching_fetch",
+                "id": "data_fetching_apollo",
                 "entity": {
-                  "name": "Fetch API",
-                  "nameClean": "Fetch API",
-                  "entityType": "library",
+                  "name": "Apollo Client",
+                  "nameClean": "Apollo Client",
+                  "entityType": "default",
+                  "description": "A library enabling managing both local and remote data with GraphQL. Used for fetching, caching, and modifying application data, all while automatically updating the app's UI.",
+                  "descriptionClean": "A library enabling managing both local and remote data with GraphQL. Used for fetching, caching, and modifying application data, all while automatically updating the app's UI.",
+                  "descriptionHtml": "A library enabling managing both local and remote data with GraphQL. Used for fetching, caching, and modifying application data, all while automatically updating the app's UI.",
                   "homepage": {
-                    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+                    "url": "https://www.apollographql.com/docs/react"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "const client = new ApolloClient({ uri, cache })\nconst query = gql`\n  query Example {\n    // ...\n  }\n`\n\nfunction Component() {\n  const { loading, error, data } = useQuery(query)\n  // ...\n}\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> client = <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">ApolloClient</span>({ uri, cache })\n<span class=\"hljs-keyword\">const</span> query = gql`<span class=\"language-graphql\">\n  <span class=\"hljs-keyword\">query</span> Example <span class=\"hljs-punctuation\">{</span>\n    // <span class=\"hljs-punctuation\">...</span>\n  <span class=\"hljs-punctuation\">}</span>\n`</span>\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Component</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> { loading, error, data } = <span class=\"hljs-title function_\">useQuery</span>(query)\n  <span class=\"hljs-comment\">// ...</span>\n}"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 12
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.85,
+                      "interest": 0.27,
+                      "usage": 0.34,
+                      "retention": 0.58,
+                      "positivity": 0.11
+                    },
+                    "buckets": [
+                      {
+                        "count": 219,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 201,
+                            "id": "neutral",
+                            "percentageBucket": 91.78,
+                            "percentageQuestion": 13.01,
+                            "percentageSurvey": 8.76
+                          },
+                          {
+                            "count": 18,
+                            "id": "insufficient_data",
+                            "percentageBucket": 8
+                          }
+                        ],
+                        "percentageQuestion": 14.17,
+                        "percentageSurvey": 9.55
+                      },
+                      {
+                        "count": 789,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 613,
+                            "id": "neutral",
+                            "percentageBucket": 77.69,
+                            "percentageQuestion": 39.68,
+                            "percentageSurvey": 26.72
+                          },
+                          {
+                            "count": 128,
+                            "id": "negative",
+                            "percentageBucket": 16.22,
+                            "percentageQuestion": 8.28,
+                            "percentageSurvey": 5.58
+                          },
+                          {
+                            "count": 48,
+                            "id": "positive",
+                            "percentageBucket": 6.08,
+                            "percentageQuestion": 3.11,
+                            "percentageSurvey": 2.09
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 51.07,
+                        "percentageSurvey": 34.39
+                      },
+                      {
+                        "count": 533,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 131,
+                            "id": "positive",
+                            "percentageBucket": 24.58,
+                            "percentageQuestion": 8.48,
+                            "percentageSurvey": 5.71
+                          },
+                          {
+                            "count": 93,
+                            "id": "negative",
+                            "percentageBucket": 17.45,
+                            "percentageQuestion": 6.02,
+                            "percentageSurvey": 4.05
+                          },
+                          {
+                            "count": 309,
+                            "id": "neutral",
+                            "percentageBucket": 57.97,
+                            "percentageQuestion": 20,
+                            "percentageSurvey": 13.47
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 34.5,
+                        "percentageSurvey": 23.23
+                      }
+                    ],
+                    "completion": {
+                      "count": 1545,
+                      "percentageSurvey": 67.35,
+                      "total": 2294
+                    }
                   }
                 }
               },
@@ -21,135 +140,90 @@
                 "entity": {
                   "name": "Axios",
                   "nameClean": "Axios",
-                  "entityType": "library",
-                  "description": "Promise based HTTP client for the browser and node.js",
-                  "descriptionClean": "Promise based HTTP client for the browser and node.js",
+                  "entityType": "default",
+                  "description": "Promise based HTTP client based on XMLHttpRequests.",
+                  "descriptionClean": "Promise based HTTP client based on XMLHttpRequests.",
                   "homepage": {
                     "url": "https://axios-http.com/docs/intro"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "const response = await axios.get(url)\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> response = <span class=\"hljs-keyword\">await</span> axios.<span class=\"hljs-title function_\">get</span>(url)"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 11
                   }
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 1,
+                      "awareness": 0.99,
                       "interest": 0,
-                      "usage": 1,
-                      "retention": 1,
-                      "positivity": 1
+                      "usage": 0.86,
+                      "retention": 0.88,
+                      "positivity": 0.28
                     },
                     "buckets": [
                       {
-                        "count": 13,
-                        "id": "used",
-                        "facetBuckets": [
-                          {
-                            "count": 13,
-                            "id": "positive",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 100,
-                            "percentageSurvey": 41.94
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 100,
-                        "percentageSurvey": 41.94
-                      }
-                    ],
-                    "completion": {
-                      "count": 13,
-                      "percentageSurvey": 41.94,
-                      "total": 31
-                    }
-                  }
-                }
-              },
-              {
-                "id": "data_fetching_apollo",
-                "entity": {
-                  "name": "Apollo Client",
-                  "nameClean": "Apollo Client",
-                  "entityType": "library",
-                  "description": "🚀  A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server.",
-                  "descriptionClean": "🚀  A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server.",
-                  "homepage": {
-                    "url": "https://www.apollographql.com/docs/react/"
-                  }
-                },
-                "responses": {
-                  "currentEdition": {
-                    "ratios": {
-                      "awareness": 1,
-                      "interest": 0,
-                      "usage": 1,
-                      "retention": 1,
-                      "positivity": 1
-                    },
-                    "buckets": [
-                      {
-                        "count": 13,
-                        "id": "used",
-                        "facetBuckets": [
-                          {
-                            "count": 13,
-                            "id": "positive",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 100,
-                            "percentageSurvey": 41.94
-                          },
-                          {
-                            "count": 0,
-                            "id": "insufficient_data",
-                            "percentageBucket": 0
-                          }
-                        ],
-                        "percentageQuestion": 100,
-                        "percentageSurvey": 41.94
-                      }
-                    ],
-                    "completion": {
-                      "count": 13,
-                      "percentageSurvey": 41.94,
-                      "total": 31
-                    }
-                  }
-                }
-              },
-              {
-                "id": "data_fetching_trpc",
-                "entity": {
-                  "name": "tRPC",
-                  "nameClean": "tRPC",
-                  "entityType": "library",
-                  "description": "🧙‍♀️ Move Fast and Break Nothing. End-to-end typesafe APIs made easy.",
-                  "descriptionClean": "🧙‍♀️ Move Fast and Break Nothing. End-to-end typesafe APIs made easy.",
-                  "homepage": {
-                    "url": "https://trpc.io/"
-                  }
-                },
-                "responses": {
-                  "currentEdition": {
-                    "ratios": {
-                      "awareness": 0,
-                      "interest": 0,
-                      "usage": 0,
-                      "retention": 0,
-                      "positivity": 1
-                    },
-                    "buckets": [
-                      {
-                        "count": 13,
+                        "count": 12,
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 13,
+                            "count": 12,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0.77,
+                        "percentageSurvey": 0.52
+                      },
+                      {
+                        "count": 193,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 151,
+                            "id": "neutral",
+                            "percentageBucket": 78.24,
+                            "percentageQuestion": 9.65,
+                            "percentageSurvey": 6.58
+                          },
+                          {
+                            "count": 42,
+                            "id": "insufficient_data",
+                            "percentageBucket": 22
+                          }
+                        ],
+                        "percentageQuestion": 12.33,
+                        "percentageSurvey": 8.41
+                      },
+                      {
+                        "count": 1353,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 850,
+                            "id": "neutral",
+                            "percentageBucket": 62.82,
+                            "percentageQuestion": 54.31,
+                            "percentageSurvey": 37.05
+                          },
+                          {
+                            "count": 445,
                             "id": "positive",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 100,
-                            "percentageSurvey": 41.94
+                            "percentageBucket": 32.89,
+                            "percentageQuestion": 28.43,
+                            "percentageSurvey": 19.4
+                          },
+                          {
+                            "count": 58,
+                            "id": "negative",
+                            "percentageBucket": 4.29,
+                            "percentageQuestion": 3.71,
+                            "percentageSurvey": 2.53
                           },
                           {
                             "count": 0,
@@ -157,41 +231,38 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 100,
-                        "percentageSurvey": 41.94
+                        "percentageQuestion": 86.45,
+                        "percentageSurvey": 58.98
                       }
                     ],
                     "completion": {
-                      "count": 13,
-                      "percentageSurvey": 41.94,
-                      "total": 31
+                      "count": 1565,
+                      "percentageSurvey": 68.22,
+                      "total": 2294
                     }
                   }
                 }
               },
               {
-                "id": "data_fetching_tan_stack",
+                "id": "data_fetching_fetch",
                 "entity": {
-                  "name": "TanStack Query (React Query)",
-                  "nameClean": "TanStack Query (React Query)",
-                  "entityType": "library",
-                  "description": "🤖 Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query.",
-                  "descriptionClean": "🤖 Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query.",
+                  "name": "Fetch API",
+                  "nameClean": "Fetch API",
+                  "entityType": "default",
+                  "description": "An interface for fetching resources.",
+                  "descriptionClean": "An interface for fetching resources.",
                   "homepage": {
-                    "url": "https://tanstack.com/query/latest/docs/react/overview"
+                    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "const response = await fetch(url)\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> response = <span class=\"hljs-keyword\">await</span> <span class=\"hljs-title function_\">fetch</span>(url)"
                   }
-                }
-              },
-              {
-                "id": "data_fetching_swr",
-                "entity": {
-                  "name": "SWR",
-                  "nameClean": "SWR",
-                  "entityType": "library",
-                  "description": "React Hooks for Data Fetching",
-                  "descriptionClean": "React Hooks for Data Fetching",
-                  "homepage": {
-                    "url": "https://swr.vercel.app/"
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 8
                   }
                 },
                 "responses": {
@@ -199,21 +270,68 @@
                     "ratios": {
                       "awareness": 1,
                       "interest": 0,
-                      "usage": 1,
-                      "retention": 1,
-                      "positivity": 1
+                      "usage": 0.92,
+                      "retention": 0.88,
+                      "positivity": 0.28
                     },
                     "buckets": [
                       {
-                        "count": 13,
+                        "count": 0,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 6,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
+                      },
+                      {
+                        "count": 119,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 104,
+                            "id": "neutral",
+                            "percentageBucket": 87.39,
+                            "percentageQuestion": 6.66,
+                            "percentageSurvey": 4.53
+                          },
+                          {
+                            "count": 15,
+                            "id": "insufficient_data",
+                            "percentageBucket": 13
+                          }
+                        ],
+                        "percentageQuestion": 7.62,
+                        "percentageSurvey": 5.19
+                      },
+                      {
+                        "count": 1427,
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 13,
+                            "count": 436,
                             "id": "positive",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 100,
-                            "percentageSurvey": 41.94
+                            "percentageBucket": 30.55,
+                            "percentageQuestion": 27.91,
+                            "percentageSurvey": 19.01
+                          },
+                          {
+                            "count": 56,
+                            "id": "negative",
+                            "percentageBucket": 3.92,
+                            "percentageQuestion": 3.59,
+                            "percentageSurvey": 2.44
+                          },
+                          {
+                            "count": 935,
+                            "id": "neutral",
+                            "percentageBucket": 65.52,
+                            "percentageQuestion": 59.86,
+                            "percentageSurvey": 40.76
                           },
                           {
                             "count": 0,
@@ -221,14 +339,14 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 100,
-                        "percentageSurvey": 41.94
+                        "percentageQuestion": 91.36,
+                        "percentageSurvey": 62.21
                       }
                     ],
                     "completion": {
-                      "count": 13,
-                      "percentageSurvey": 41.94,
-                      "total": 31
+                      "count": 1562,
+                      "percentageSurvey": 68.09,
+                      "total": 2294
                     }
                   }
                 }
@@ -238,33 +356,57 @@
                 "entity": {
                   "name": "Relay",
                   "nameClean": "Relay",
-                  "entityType": "library",
-                  "description": "Relay is a JavaScript framework for building data-driven React applications.",
-                  "descriptionClean": "Relay is a JavaScript framework for building data-driven React applications.",
+                  "entityType": "default",
+                  "description": "The GraphQL client that scales with you. A framework for building data-driven React applications.",
+                  "descriptionClean": "The GraphQL client that scales with you. A framework for building data-driven React applications.",
                   "homepage": {
                     "url": "https://relay.dev/"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "const query = graphql`\n  query Example {\n    // ...\n  }\n`\n\nfunction Component() {\n  const data = useLazyLoadQuery(query)\n  // ...\n}\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> query = graphql<span class=\"hljs-string\">`\n  query Example {\n    // ...\n  }\n`</span>\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Component</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> data = <span class=\"hljs-title function_\">useLazyLoadQuery</span>(query)\n  <span class=\"hljs-comment\">// ...</span>\n}"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 3
                   }
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 1,
-                      "interest": 0,
-                      "usage": 1,
-                      "retention": 0,
-                      "positivity": 0
+                      "awareness": 0.52,
+                      "interest": 0.26,
+                      "usage": 0.05,
+                      "retention": 0.39,
+                      "positivity": 0.04
                     },
                     "buckets": [
                       {
-                        "count": 13,
-                        "id": "used",
+                        "count": 730,
+                        "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 13,
+                            "count": 62,
                             "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 100,
-                            "percentageSurvey": 41.94
+                            "percentageBucket": 8.49,
+                            "percentageQuestion": 4.04,
+                            "percentageSurvey": 2.7
+                          },
+                          {
+                            "count": 21,
+                            "id": "positive",
+                            "percentageBucket": 2.88,
+                            "percentageQuestion": 1.37,
+                            "percentageSurvey": 0.92
+                          },
+                          {
+                            "count": 647,
+                            "id": "neutral",
+                            "percentageBucket": 88.63,
+                            "percentageQuestion": 42.18,
+                            "percentageSurvey": 28.2
                           },
                           {
                             "count": 0,
@@ -272,14 +414,82 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 100,
-                        "percentageSurvey": 41.94
+                        "percentageQuestion": 47.59,
+                        "percentageSurvey": 31.82
+                      },
+                      {
+                        "count": 719,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 40,
+                            "id": "positive",
+                            "percentageBucket": 5.56,
+                            "percentageQuestion": 2.61,
+                            "percentageSurvey": 1.74
+                          },
+                          {
+                            "count": 568,
+                            "id": "neutral",
+                            "percentageBucket": 79,
+                            "percentageQuestion": 37.03,
+                            "percentageSurvey": 24.76
+                          },
+                          {
+                            "count": 111,
+                            "id": "negative",
+                            "percentageBucket": 15.44,
+                            "percentageQuestion": 7.24,
+                            "percentageSurvey": 4.84
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 46.87,
+                        "percentageSurvey": 31.34
+                      },
+                      {
+                        "count": 82,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 17,
+                            "id": "negative",
+                            "percentageBucket": 20.73,
+                            "percentageQuestion": 1.11,
+                            "percentageSurvey": 0.74
+                          },
+                          {
+                            "count": 11,
+                            "id": "positive",
+                            "percentageBucket": 13.41,
+                            "percentageQuestion": 0.72,
+                            "percentageSurvey": 0.48
+                          },
+                          {
+                            "count": 54,
+                            "id": "neutral",
+                            "percentageBucket": 65.85,
+                            "percentageQuestion": 3.52,
+                            "percentageSurvey": 2.35
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 5.35,
+                        "percentageSurvey": 3.57
                       }
                     ],
                     "completion": {
-                      "count": 13,
-                      "percentageSurvey": 41.94,
-                      "total": 31
+                      "count": 1534,
+                      "percentageSurvey": 66.87,
+                      "total": 2294
                     }
                   }
                 }
@@ -289,31 +499,58 @@
                 "entity": {
                   "name": "RTK Query",
                   "nameClean": "RTK Query",
-                  "entityType": "library",
+                  "entityType": "default",
+                  "description": "A powerful data fetching and caching tool. It is designed to simplify common cases for loading data in an application, eliminating the need to hand-write data fetching & caching logic yourself.",
+                  "descriptionClean": "A powerful data fetching and caching tool. It is designed to simplify common cases for loading data in an application, eliminating the need to hand-write data fetching  caching logic yourself.",
+                  "descriptionHtml": "A powerful data fetching and caching tool. It is designed to simplify common cases for loading data in an application, eliminating the need to hand-write data fetching &amp; caching logic yourself.",
                   "homepage": {
                     "url": "https://redux-toolkit.js.org/rtk-query/overview"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "const exampleApi = createApi({\n  baseQuery: fetchBaseQuery({ baseUrl }),\n  endpoints: (builder) => ({\n    exampleQuery: builder.query({\n      query: () => `examplePath`\n    })\n  }),\n  // ...\n})\n\nconst store = configureStore({\n  reducer: {\n    [exampleApi.reducerPath]: exampleApi.reducer\n  },\n  // ...\n})\n\nfunction Component() {\n  const { data, error, isLoading } = exampleApi.useExampleQuery()\n  // ...\n}\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> exampleApi = <span class=\"hljs-title function_\">createApi</span>({\n  <span class=\"hljs-attr\">baseQuery</span>: <span class=\"hljs-title function_\">fetchBaseQuery</span>({ baseUrl }),\n  <span class=\"hljs-attr\">endpoints</span>: <span class=\"hljs-function\">(<span class=\"hljs-params\">builder</span>) =&gt;</span> ({\n    <span class=\"hljs-attr\">exampleQuery</span>: builder.<span class=\"hljs-title function_\">query</span>({\n      <span class=\"hljs-attr\">query</span>: <span class=\"hljs-function\">() =&gt;</span> <span class=\"hljs-string\">`examplePath`</span>\n    })\n  }),\n  <span class=\"hljs-comment\">// ...</span>\n})\n\n<span class=\"hljs-keyword\">const</span> store = <span class=\"hljs-title function_\">configureStore</span>({\n  <span class=\"hljs-attr\">reducer</span>: {\n    [exampleApi.<span class=\"hljs-property\">reducerPath</span>]: exampleApi.<span class=\"hljs-property\">reducer</span>\n  },\n  <span class=\"hljs-comment\">// ...</span>\n})\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Component</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> { data, error, isLoading } = exampleApi.<span class=\"hljs-title function_\">useExampleQuery</span>()\n  <span class=\"hljs-comment\">// ...</span>\n}"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 4
                   }
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 0,
-                      "interest": 0,
-                      "usage": 0,
-                      "retention": 0,
-                      "positivity": 1
+                      "awareness": 0.62,
+                      "interest": 0.26,
+                      "usage": 0.22,
+                      "retention": 0.69,
+                      "positivity": 0.09
                     },
                     "buckets": [
                       {
-                        "count": 13,
+                        "count": 573,
                         "id": "never_heard",
                         "facetBuckets": [
                           {
+                            "count": 49,
+                            "id": "negative",
+                            "percentageBucket": 8.55,
+                            "percentageQuestion": 3.16,
+                            "percentageSurvey": 2.14
+                          },
+                          {
+                            "count": 511,
+                            "id": "neutral",
+                            "percentageBucket": 89.18,
+                            "percentageQuestion": 32.97,
+                            "percentageSurvey": 22.28
+                          },
+                          {
                             "count": 13,
                             "id": "positive",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 100,
-                            "percentageSurvey": 41.94
+                            "percentageBucket": 2.27,
+                            "percentageQuestion": 0.84,
+                            "percentageSurvey": 0.57
                           },
                           {
                             "count": 0,
@@ -321,14 +558,498 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 100,
-                        "percentageSurvey": 41.94
+                        "percentageQuestion": 36.97,
+                        "percentageSurvey": 24.98
+                      },
+                      {
+                        "count": 622,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 41,
+                            "id": "positive",
+                            "percentageBucket": 6.59,
+                            "percentageQuestion": 2.65,
+                            "percentageSurvey": 1.79
+                          },
+                          {
+                            "count": 470,
+                            "id": "neutral",
+                            "percentageBucket": 75.56,
+                            "percentageQuestion": 30.32,
+                            "percentageSurvey": 20.49
+                          },
+                          {
+                            "count": 111,
+                            "id": "negative",
+                            "percentageBucket": 17.85,
+                            "percentageQuestion": 7.16,
+                            "percentageSurvey": 4.84
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 40.13,
+                        "percentageSurvey": 27.11
+                      },
+                      {
+                        "count": 346,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 220,
+                            "id": "neutral",
+                            "percentageBucket": 63.58,
+                            "percentageQuestion": 14.19,
+                            "percentageSurvey": 9.59
+                          },
+                          {
+                            "count": 38,
+                            "id": "negative",
+                            "percentageBucket": 10.98,
+                            "percentageQuestion": 2.45,
+                            "percentageSurvey": 1.66
+                          },
+                          {
+                            "count": 88,
+                            "id": "positive",
+                            "percentageBucket": 25.43,
+                            "percentageQuestion": 5.68,
+                            "percentageSurvey": 3.84
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 22.32,
+                        "percentageSurvey": 15.08
                       }
                     ],
                     "completion": {
-                      "count": 13,
-                      "percentageSurvey": 41.94,
-                      "total": 31
+                      "count": 1550,
+                      "percentageSurvey": 67.57,
+                      "total": 2294
+                    }
+                  }
+                }
+              },
+              {
+                "id": "data_fetching_swr",
+                "entity": {
+                  "name": "SWR",
+                  "nameClean": "SWR",
+                  "entityType": "default",
+                  "description": "React Hooks for Data Fetching. A strategy to first return the data from cache (stale), then send the fetch request (revalidate), and finally come with the up-to-date data.",
+                  "descriptionClean": "React Hooks for Data Fetching. A strategy to first return the data from cache (stale), then send the fetch request (revalidate), and finally come with the up-to-date data.",
+                  "homepage": {
+                    "url": "https://swr.vercel.app/"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "function Component() {\n  const { data, error, isLoading } = useSWR(url, fetcher)\n  // ...\n}\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Component</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> { data, error, isLoading } = <span class=\"hljs-title function_\">useSWR</span>(url, fetcher)\n  <span class=\"hljs-comment\">// ...</span>\n}"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 5
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.62,
+                      "interest": 0.39,
+                      "usage": 0.17,
+                      "retention": 0.68,
+                      "positivity": 0.09
+                    },
+                    "buckets": [
+                      {
+                        "count": 577,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 514,
+                            "id": "neutral",
+                            "percentageBucket": 89.08,
+                            "percentageQuestion": 33.38,
+                            "percentageSurvey": 22.41
+                          },
+                          {
+                            "count": 26,
+                            "id": "positive",
+                            "percentageBucket": 4.51,
+                            "percentageQuestion": 1.69,
+                            "percentageSurvey": 1.13
+                          },
+                          {
+                            "count": 37,
+                            "id": "negative",
+                            "percentageBucket": 6.41,
+                            "percentageQuestion": 2.4,
+                            "percentageSurvey": 1.61
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 37.47,
+                        "percentageSurvey": 25.15
+                      },
+                      {
+                        "count": 696,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 558,
+                            "id": "neutral",
+                            "percentageBucket": 80.17,
+                            "percentageQuestion": 36.23,
+                            "percentageSurvey": 24.32
+                          },
+                          {
+                            "count": 84,
+                            "id": "negative",
+                            "percentageBucket": 12.07,
+                            "percentageQuestion": 5.45,
+                            "percentageSurvey": 3.66
+                          },
+                          {
+                            "count": 54,
+                            "id": "positive",
+                            "percentageBucket": 7.76,
+                            "percentageQuestion": 3.51,
+                            "percentageSurvey": 2.35
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 45.19,
+                        "percentageSurvey": 30.34
+                      },
+                      {
+                        "count": 266,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 165,
+                            "id": "neutral",
+                            "percentageBucket": 62.03,
+                            "percentageQuestion": 10.71,
+                            "percentageSurvey": 7.19
+                          },
+                          {
+                            "count": 69,
+                            "id": "positive",
+                            "percentageBucket": 25.94,
+                            "percentageQuestion": 4.48,
+                            "percentageSurvey": 3.01
+                          },
+                          {
+                            "count": 32,
+                            "id": "negative",
+                            "percentageBucket": 12.03,
+                            "percentageQuestion": 2.08,
+                            "percentageSurvey": 1.39
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 17.27,
+                        "percentageSurvey": 11.6
+                      }
+                    ],
+                    "completion": {
+                      "count": 1540,
+                      "percentageSurvey": 67.13,
+                      "total": 2294
+                    }
+                  }
+                }
+              },
+              {
+                "id": "data_fetching_tan_stack",
+                "entity": {
+                  "name": "TanStack Query",
+                  "nameClean": "TanStack Query",
+                  "entityType": "default",
+                  "description": "(former React Query) A data-fetching library that makes fetching, caching, synchronizing and updating server state in the application a breeze.",
+                  "descriptionClean": "(former React Query) A data-fetching library that makes fetching, caching, synchronizing and updating server state in the application a breeze.",
+                  "homepage": {
+                    "url": "https://tanstack.com/query/latest"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "const queryClient = new QueryClient()\n\nfunction Component() {\n  const { isPending, error, data } = useQuery({ queryKey: ['example'], queryFn })\n  // ...\n}\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> queryClient = <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">QueryClient</span>()\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Component</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> { isPending, error, data } = <span class=\"hljs-title function_\">useQuery</span>({ <span class=\"hljs-attr\">queryKey</span>: [<span class=\"hljs-string\">&#x27;example&#x27;</span>], queryFn })\n  <span class=\"hljs-comment\">// ...</span>\n}"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 18
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.87,
+                      "interest": 0.79,
+                      "usage": 0.62,
+                      "retention": 0.96,
+                      "positivity": 0.34
+                    },
+                    "buckets": [
+                      {
+                        "count": 194,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 180,
+                            "id": "neutral",
+                            "percentageBucket": 92.78,
+                            "percentageQuestion": 11.6,
+                            "percentageSurvey": 7.85
+                          },
+                          {
+                            "count": 14,
+                            "id": "insufficient_data",
+                            "percentageBucket": 7
+                          }
+                        ],
+                        "percentageQuestion": 12.5,
+                        "percentageSurvey": 8.46
+                      },
+                      {
+                        "count": 385,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 292,
+                            "id": "neutral",
+                            "percentageBucket": 75.84,
+                            "percentageQuestion": 18.81,
+                            "percentageSurvey": 12.73
+                          },
+                          {
+                            "count": 19,
+                            "id": "negative",
+                            "percentageBucket": 4.94,
+                            "percentageQuestion": 1.22,
+                            "percentageSurvey": 0.83
+                          },
+                          {
+                            "count": 74,
+                            "id": "positive",
+                            "percentageBucket": 19.22,
+                            "percentageQuestion": 4.77,
+                            "percentageSurvey": 3.23
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 24.81,
+                        "percentageSurvey": 16.78
+                      },
+                      {
+                        "count": 970,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 491,
+                            "id": "neutral",
+                            "percentageBucket": 50.62,
+                            "percentageQuestion": 31.64,
+                            "percentageSurvey": 21.4
+                          },
+                          {
+                            "count": 462,
+                            "id": "positive",
+                            "percentageBucket": 47.63,
+                            "percentageQuestion": 29.77,
+                            "percentageSurvey": 20.14
+                          },
+                          {
+                            "count": 17,
+                            "id": "negative",
+                            "percentageBucket": 1.75,
+                            "percentageQuestion": 1.1,
+                            "percentageSurvey": 0.74
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 62.5,
+                        "percentageSurvey": 42.28
+                      }
+                    ],
+                    "completion": {
+                      "count": 1552,
+                      "percentageSurvey": 67.65,
+                      "total": 2294
+                    }
+                  }
+                }
+              },
+              {
+                "id": "data_fetching_trpc",
+                "entity": {
+                  "name": "tRPC",
+                  "nameClean": "tRPC",
+                  "entityType": "default",
+                  "description": "A solution that allows you to easily build & consume fully typesafe APIs without schemas or code generation.",
+                  "descriptionClean": "A solution that allows you to easily build  consume fully typesafe APIs without schemas or code generation.",
+                  "descriptionHtml": "A solution that allows you to easily build &amp; consume fully typesafe APIs without schemas or code generation.",
+                  "homepage": {
+                    "url": "https://trpc.io/"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "const trpc = createTRPCClient<AppRouter>()\n\nfunction Component() {\n  const result = trpc.hello.useQuery()\n  // ...\n}\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> trpc = createTRPCClient&lt;<span class=\"hljs-title class_\">AppRouter</span>&gt;()\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Component</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> result = trpc.<span class=\"hljs-property\">hello</span>.<span class=\"hljs-title function_\">useQuery</span>()\n  <span class=\"hljs-comment\">// ...</span>\n}"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 4
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.65,
+                      "interest": 0.67,
+                      "usage": 0.12,
+                      "retention": 0.88,
+                      "positivity": 0.15
+                    },
+                    "buckets": [
+                      {
+                        "count": 523,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 472,
+                            "id": "neutral",
+                            "percentageBucket": 90.25,
+                            "percentageQuestion": 30.69,
+                            "percentageSurvey": 20.58
+                          },
+                          {
+                            "count": 25,
+                            "id": "positive",
+                            "percentageBucket": 4.78,
+                            "percentageQuestion": 1.63,
+                            "percentageSurvey": 1.09
+                          },
+                          {
+                            "count": 26,
+                            "id": "negative",
+                            "percentageBucket": 4.97,
+                            "percentageQuestion": 1.69,
+                            "percentageSurvey": 1.13
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 34.01,
+                        "percentageSurvey": 22.8
+                      },
+                      {
+                        "count": 815,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 615,
+                            "id": "neutral",
+                            "percentageBucket": 75.46,
+                            "percentageQuestion": 39.99,
+                            "percentageSurvey": 26.81
+                          },
+                          {
+                            "count": 135,
+                            "id": "positive",
+                            "percentageBucket": 16.56,
+                            "percentageQuestion": 8.78,
+                            "percentageSurvey": 5.88
+                          },
+                          {
+                            "count": 65,
+                            "id": "negative",
+                            "percentageBucket": 7.98,
+                            "percentageQuestion": 4.23,
+                            "percentageSurvey": 2.83
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 52.99,
+                        "percentageSurvey": 35.53
+                      },
+                      {
+                        "count": 196,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 11,
+                            "id": "negative",
+                            "percentageBucket": 5.61,
+                            "percentageQuestion": 0.72,
+                            "percentageSurvey": 0.48
+                          },
+                          {
+                            "count": 82,
+                            "id": "positive",
+                            "percentageBucket": 41.84,
+                            "percentageQuestion": 5.33,
+                            "percentageSurvey": 3.57
+                          },
+                          {
+                            "count": 103,
+                            "id": "neutral",
+                            "percentageBucket": 52.55,
+                            "percentageQuestion": 6.7,
+                            "percentageSurvey": 4.49
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 12.74,
+                        "percentageSurvey": 8.54
+                      }
+                    ],
+                    "completion": {
+                      "count": 1538,
+                      "percentageSurvey": 67.04,
+                      "total": 2294
                     }
                   }
                 }

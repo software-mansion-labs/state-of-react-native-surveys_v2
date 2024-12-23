@@ -8,28 +8,63 @@
               "freeform": {
                 "currentEdition": {
                   "completion": {
-                    "count": 1,
-                    "percentageSurvey": 2.86,
-                    "total": 35
+                    "count": 130,
+                    "percentageSurvey": 5.67,
+                    "total": 2294
                   },
                   "buckets": [
                     {
-                      "count": 34,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 97.14
+                      "count": 37,
+                      "id": "styling_customization",
+                      "percentageQuestion": 28.46,
+                      "percentageSurvey": 1.61,
+                      "entity": {
+                        "name": "Styling & customization",
+                        "nameHtml": "Styling &amp; customization",
+                        "nameClean": "Styling  customization",
+                        "description": "CSS styling and customization issues.",
+                        "descriptionClean": "CSS styling and customization issues.",
+                        "id": "styling_customization",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 2,
+                      "count": 11,
+                      "id": "performance",
+                      "percentageQuestion": 8.46,
+                      "percentageSurvey": 0.48,
+                      "entity": {
+                        "name": "Performance",
+                        "nameClean": "Performance",
+                        "description": "Performance issues",
+                        "descriptionClean": "Performance issues",
+                        "id": "performance",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 2164,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 94.33
+                    },
+                    {
+                      "count": 157,
                       "id": "other_answers",
-                      "percentageQuestion": 200,
-                      "percentageSurvey": 5.72,
+                      "percentageQuestion": 120.81,
+                      "percentageSurvey": 6.8,
                       "groupedBuckets": [
                         {
-                          "count": 2,
+                          "count": 47,
                           "id": "cutoff_answers",
-                          "percentageQuestion": 200,
-                          "percentageSurvey": 5.72
+                          "percentageQuestion": 36.19,
+                          "percentageSurvey": 2
+                        },
+                        {
+                          "count": 110,
+                          "id": "no_match",
+                          "percentageQuestion": 84.62,
+                          "percentageSurvey": 4.8
                         }
                       ]
                     }

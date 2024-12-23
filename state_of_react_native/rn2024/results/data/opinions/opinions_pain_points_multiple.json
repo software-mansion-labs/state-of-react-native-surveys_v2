@@ -8,34 +8,172 @@
               "responses": {
                 "currentEdition": {
                   "completion": {
-                    "count": 14,
-                    "percentageSurvey": 40,
-                    "total": 35
+                    "count": 1155,
+                    "percentageSurvey": 50.35,
+                    "total": 2294
                   },
                   "buckets": [
                     {
-                      "count": 14,
+                      "count": 575,
+                      "id": "opinions_pain_points_multiple_unmaintained_packages",
+                      "percentageQuestion": 49.78,
+                      "percentageSurvey": 25.07
+                    },
+                    {
+                      "count": 549,
+                      "id": "opinions_pain_points_multiple_debugging",
+                      "percentageQuestion": 47.53,
+                      "percentageSurvey": 23.93
+                    },
+                    {
+                      "count": 450,
+                      "id": "opinions_pain_points_multiple_keyboard_handling",
+                      "percentageQuestion": 38.96,
+                      "percentageSurvey": 19.62
+                    },
+                    {
+                      "count": 412,
+                      "id": "opinions_pain_points_multiple_unusable_error_messages",
+                      "percentageQuestion": 35.67,
+                      "percentageSurvey": 17.96
+                    },
+                    {
+                      "count": 405,
+                      "id": "opinions_pain_points_multiple_dealing_with_native_code",
+                      "percentageQuestion": 35.06,
+                      "percentageSurvey": 17.65
+                    },
+                    {
+                      "count": 367,
                       "id": "opinions_pain_points_multiple_build_times",
-                      "percentageQuestion": 100,
-                      "percentageSurvey": 40
+                      "percentageQuestion": 31.77,
+                      "percentageSurvey": 16
                     },
                     {
-                      "count": 13,
+                      "count": 349,
+                      "id": "opinions_pain_points_multiple_platforms_inconsistencies",
+                      "percentageQuestion": 30.22,
+                      "percentageSurvey": 15.21
+                    },
+                    {
+                      "count": 341,
+                      "id": "opinions_pain_points_multiple_reliance_on_third_party_modules",
+                      "percentageQuestion": 29.52,
+                      "percentageSurvey": 14.86
+                    },
+                    {
+                      "count": 335,
+                      "id": "opinions_pain_points_multiple_end_to_end_testing",
+                      "percentageQuestion": 29,
+                      "percentageSurvey": 14.6
+                    },
+                    {
+                      "count": 331,
+                      "id": "opinions_pain_points_multiple_upgrades",
+                      "percentageQuestion": 28.66,
+                      "percentageSurvey": 14.43
+                    },
+                    {
+                      "count": 305,
+                      "id": "opinions_pain_points_multiple_performance",
+                      "percentageQuestion": 26.41,
+                      "percentageSurvey": 13.3
+                    },
+                    {
+                      "count": 262,
+                      "id": "opinions_pain_points_multiple_app_deployment",
+                      "percentageQuestion": 22.68,
+                      "percentageSurvey": 11.42
+                    },
+                    {
+                      "count": 261,
+                      "id": "opinions_pain_points_multiple_app_building",
+                      "percentageQuestion": 22.6,
+                      "percentageSurvey": 11.38
+                    },
+                    {
+                      "count": 236,
+                      "id": "opinions_pain_points_multiple_code_sharing_with_web",
+                      "percentageQuestion": 20.43,
+                      "percentageSurvey": 10.29
+                    },
+                    {
+                      "count": 235,
+                      "id": "opinions_pain_points_multiple_styling_limitations",
+                      "percentageQuestion": 20.35,
+                      "percentageSurvey": 10.24
+                    },
+                    {
+                      "count": 194,
+                      "id": "opinions_pain_points_multiple_pain_monorepos",
+                      "percentageQuestion": 16.8,
+                      "percentageSurvey": 8.46
+                    },
+                    {
+                      "count": 188,
+                      "id": "opinions_pain_points_multiple_bundle_size",
+                      "percentageQuestion": 16.28,
+                      "percentageSurvey": 8.2
+                    },
+                    {
+                      "count": 188,
+                      "id": "opinions_pain_points_multiple_new_architecture",
+                      "percentageQuestion": 16.28,
+                      "percentageSurvey": 8.2
+                    },
+                    {
+                      "count": 186,
+                      "id": "opinions_pain_points_multiple_graphics_and_animations",
+                      "percentageQuestion": 16.1,
+                      "percentageSurvey": 8.11
+                    },
+                    {
+                      "count": 183,
+                      "id": "opinions_pain_points_multiple_managing_secrets",
+                      "percentageQuestion": 15.84,
+                      "percentageSurvey": 7.98
+                    },
+                    {
+                      "count": 163,
+                      "id": "opinions_pain_points_multiple_navigation_solutions",
+                      "percentageQuestion": 14.11,
+                      "percentageSurvey": 7.11
+                    },
+                    {
+                      "count": 146,
+                      "id": "opinions_pain_points_multiple_continuous_deployment",
+                      "percentageQuestion": 12.64,
+                      "percentageSurvey": 6.36
+                    },
+                    {
+                      "count": 128,
+                      "id": "opinions_pain_points_multiple_stability",
+                      "percentageQuestion": 11.08,
+                      "percentageSurvey": 5.58
+                    },
+                    {
+                      "count": 116,
+                      "id": "opinions_pain_points_multiple_documentation",
+                      "percentageQuestion": 10.04,
+                      "percentageSurvey": 5.06
+                    },
+                    {
+                      "count": 88,
                       "id": "opinions_pain_points_multiple_project_setup",
-                      "percentageQuestion": 92.86,
-                      "percentageSurvey": 37.14
+                      "percentageQuestion": 7.62,
+                      "percentageSurvey": 3.84
                     },
                     {
-                      "count": 13,
+                      "count": 32,
                       "id": "opinions_pain_points_multiple_setting_up_servers",
-                      "percentageQuestion": 92.86,
-                      "percentageSurvey": 37.14
+                      "percentageQuestion": 2.77,
+                      "percentageSurvey": 1.39
                     },
                     {
-                      "count": 21,
+                      "count": 1137,
                       "id": "no_answer",
                       "percentageQuestion": 0,
-                      "percentageSurvey": 60
+                      "percentageSurvey": 49.56
                     }
                   ]
                 }

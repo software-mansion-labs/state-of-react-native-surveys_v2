@@ -8,38 +8,61 @@
               "responses": {
                 "currentEdition": {
                   "completion": {
-                    "count": 15,
-                    "percentageSurvey": 42.86,
-                    "total": 35
+                    "count": 1175,
+                    "percentageSurvey": 51.22,
+                    "total": 2294
                   },
                   "buckets": [
                     {
-                      "count": 15,
+                      "count": 1182,
                       "id": "overall",
-                      "percentageQuestion": 100,
-                      "percentageSurvey": 42.86,
+                      "percentageQuestion": 100.6,
+                      "percentageSurvey": 51.53,
                       "facetBuckets": [
                         {
+                          "id": "male",
+                          "count": 1136,
+                          "percentageBucket": 96.11
+                        },
+                        {
                           "id": "female",
-                          "count": 13,
-                          "percentageBucket": 86.67
+                          "count": 33,
+                          "percentageBucket": 2.79
                         },
                         {
                           "id": "insufficient_data",
-                          "count": 2,
-                          "percentageBucket": 13
+                          "count": 13,
+                          "percentageBucket": 1
                         }
                       ]
                     },
                     {
-                      "count": 13,
-                      "id": "ALB",
-                      "percentageQuestion": 86.67,
-                      "percentageSurvey": 37.14,
+                      "count": 168,
+                      "id": "USA",
+                      "percentageQuestion": 14.3,
+                      "percentageSurvey": 7.32,
                       "facetBuckets": [
                         {
-                          "id": "female",
-                          "count": 13,
+                          "id": "male",
+                          "count": 153,
+                          "percentageBucket": 91.07
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 15,
+                          "percentageBucket": 9
+                        }
+                      ]
+                    },
+                    {
+                      "count": 85,
+                      "id": "IND",
+                      "percentageQuestion": 7.23,
+                      "percentageSurvey": 3.71,
+                      "facetBuckets": [
+                        {
+                          "id": "male",
+                          "count": 85,
                           "percentageBucket": 100
                         },
                         {
@@ -50,11 +73,224 @@
                       ]
                     },
                     {
-                      "count": 0,
-                      "id": "DZA",
+                      "count": 79,
+                      "id": "FRA",
+                      "percentageQuestion": 6.72,
+                      "percentageSurvey": 3.44,
+                      "facetBuckets": [
+                        {
+                          "id": "male",
+                          "count": 74,
+                          "percentageBucket": 93.67
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 5,
+                          "percentageBucket": 6
+                        }
+                      ]
+                    },
+                    {
+                      "count": 73,
+                      "id": "POL",
+                      "percentageQuestion": 6.21,
+                      "percentageSurvey": 3.18,
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 73,
+                          "percentageBucket": 100
+                        }
+                      ]
+                    },
+                    {
+                      "count": 41,
+                      "id": "CAN",
+                      "percentageQuestion": 3.49,
+                      "percentageSurvey": 1.79,
+                      "facetBuckets": [
+                        {
+                          "id": "male",
+                          "count": 37,
+                          "percentageBucket": 90.24
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 4,
+                          "percentageBucket": 10
+                        }
+                      ]
+                    },
+                    {
+                      "count": 41,
+                      "id": "GBR",
+                      "percentageQuestion": 3.49,
+                      "percentageSurvey": 1.79,
+                      "facetBuckets": [
+                        {
+                          "id": "male",
+                          "count": 38,
+                          "percentageBucket": 92.68
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 3,
+                          "percentageBucket": 7
+                        }
+                      ]
+                    },
+                    {
+                      "count": 40,
+                      "id": "BRA",
+                      "percentageQuestion": 3.4,
+                      "percentageSurvey": 1.74,
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 40,
+                          "percentageBucket": 100
+                        }
+                      ]
+                    },
+                    {
+                      "count": 40,
+                      "id": "DEU",
+                      "percentageQuestion": 3.4,
+                      "percentageSurvey": 1.74,
+                      "facetBuckets": [
+                        {
+                          "id": "male",
+                          "count": 37,
+                          "percentageBucket": 92.5
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 3,
+                          "percentageBucket": 8
+                        }
+                      ]
+                    },
+                    {
+                      "count": 30,
+                      "id": "NLD",
+                      "percentageQuestion": 2.55,
+                      "percentageSurvey": 1.31,
+                      "facetBuckets": [
+                        {
+                          "id": "male",
+                          "count": 30,
+                          "percentageBucket": 100
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 0,
+                          "percentageBucket": 0
+                        }
+                      ]
+                    },
+                    {
+                      "count": 28,
+                      "id": "AUS",
+                      "percentageQuestion": 2.38,
+                      "percentageSurvey": 1.22,
+                      "facetBuckets": [
+                        {
+                          "id": "male",
+                          "count": 25,
+                          "percentageBucket": 89.29
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 3,
+                          "percentageBucket": 11
+                        }
+                      ]
+                    },
+                    {
+                      "count": 28,
+                      "id": "TUR",
+                      "percentageQuestion": 2.38,
+                      "percentageSurvey": 1.22,
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 28,
+                          "percentageBucket": 100
+                        }
+                      ]
+                    },
+                    {
+                      "count": 23,
+                      "id": "VNM",
+                      "percentageQuestion": 1.96,
+                      "percentageSurvey": 1,
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 23,
+                          "percentageBucket": 100
+                        }
+                      ]
+                    },
+                    {
+                      "count": 20,
+                      "id": "ESP",
+                      "percentageQuestion": 1.7,
+                      "percentageSurvey": 0.87,
+                      "facetBuckets": [
+                        {
+                          "id": "insufficient_data",
+                          "count": 20,
+                          "percentageBucket": 100
+                        }
+                      ]
+                    },
+                    {
+                      "count": 20,
+                      "id": "UKR",
+                      "percentageQuestion": 1.7,
+                      "percentageSurvey": 0.87,
+                      "facetBuckets": [
+                        {
+                          "id": "male",
+                          "count": 20,
+                          "percentageBucket": 100
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 0,
+                          "percentageBucket": 0
+                        }
+                      ]
+                    },
+                    {
+                      "count": 1118,
+                      "id": "no_answer",
                       "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
+                      "percentageSurvey": 48.74,
+                      "facetBuckets": [
+                        {
+                          "id": "male",
+                          "count": 17,
+                          "percentageBucket": 1.52
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 1099,
+                          "percentageBucket": 98.3
+                        },
+                        {
+                          "id": "insufficient_data",
+                          "count": 2,
+                          "percentageBucket": 0
+                        }
+                      ]
+                    },
+                    {
+                      "count": 200,
+                      "id": "overlimit_answers",
+                      "percentageQuestion": 17.03,
+                      "percentageSurvey": 8.71,
                       "averageByFacet": 0,
                       "percentilesByFacet": {
                         "p0": 0,
@@ -67,27 +303,9 @@
                       },
                       "facetBuckets": [
                         {
-                          "id": "insufficient_data",
-                          "count": 2,
-                          "percentageBucket": 100
-                        }
-                      ]
-                    },
-                    {
-                      "count": 20,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 57.14,
-                      "facetBuckets": [
-                        {
-                          "id": "no_answer",
-                          "count": 20,
-                          "percentageBucket": 100
-                        },
-                        {
-                          "id": "insufficient_data",
-                          "count": 0,
-                          "percentageBucket": 0
+                          "id": "male",
+                          "count": 127,
+                          "percentageBucket": 63.5
                         }
                       ]
                     }

@@ -1,0 +1,1751 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "react_native_architecture": {
+            "react_native_architecture_experience": [
+              {
+                "id": "react_native_architecture_codegen",
+                "entity": {
+                  "name": "Codegen",
+                  "nameClean": "Codegen",
+                  "entityType": "default",
+                  "description": "A tool that automates the generation of code for native modules and components.",
+                  "descriptionClean": "A tool that automates the generation of code for native modules and components.",
+                  "homepage": {
+                    "url": "https://reactnative.dev/docs/the-new-architecture/what-is-codegen"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 4
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.76,
+                      "interest": 0.82,
+                      "usage": 0.24,
+                      "retention": 0.8,
+                      "positivity": 0.16
+                    },
+                    "buckets": [
+                      {
+                        "count": 292,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 28,
+                            "id": "positive",
+                            "percentageBucket": 9.59,
+                            "percentageQuestion": 2.28,
+                            "percentageSurvey": 1.22
+                          },
+                          {
+                            "count": 254,
+                            "id": "neutral",
+                            "percentageBucket": 86.99,
+                            "percentageQuestion": 20.7,
+                            "percentageSurvey": 11.07
+                          },
+                          {
+                            "count": 10,
+                            "id": "negative",
+                            "percentageBucket": 3.42,
+                            "percentageQuestion": 0.81,
+                            "percentageSurvey": 0.44
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 23.8,
+                        "percentageSurvey": 12.73
+                      },
+                      {
+                        "count": 629,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 19,
+                            "id": "negative",
+                            "percentageBucket": 3.02,
+                            "percentageQuestion": 1.55,
+                            "percentageSurvey": 0.83
+                          },
+                          {
+                            "count": 88,
+                            "id": "positive",
+                            "percentageBucket": 13.99,
+                            "percentageQuestion": 7.17,
+                            "percentageSurvey": 3.84
+                          },
+                          {
+                            "count": 522,
+                            "id": "neutral",
+                            "percentageBucket": 82.99,
+                            "percentageQuestion": 42.54,
+                            "percentageSurvey": 22.76
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 51.26,
+                        "percentageSurvey": 27.42
+                      },
+                      {
+                        "count": 303,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 22,
+                            "id": "negative",
+                            "percentageBucket": 7.26,
+                            "percentageQuestion": 1.79,
+                            "percentageSurvey": 0.96
+                          },
+                          {
+                            "count": 91,
+                            "id": "positive",
+                            "percentageBucket": 30.03,
+                            "percentageQuestion": 7.42,
+                            "percentageSurvey": 3.97
+                          },
+                          {
+                            "count": 190,
+                            "id": "neutral",
+                            "percentageBucket": 62.71,
+                            "percentageQuestion": 15.48,
+                            "percentageSurvey": 8.28
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 24.69,
+                        "percentageSurvey": 13.21
+                      }
+                    ],
+                    "completion": {
+                      "count": 1227,
+                      "percentageSurvey": 53.49,
+                      "total": 2294
+                    }
+                  }
+                }
+              },
+              {
+                "id": "react_native_architecture_concurrent_react",
+                "entity": {
+                  "name": "Concurrent React",
+                  "nameClean": "Concurrent React",
+                  "entityType": "default",
+                  "description": "React 18 concurrent features that are enabled in New Architecture",
+                  "descriptionClean": "React 18 concurrent features that are enabled in New Architecture",
+                  "homepage": {
+                    "url": "https://react.dev/blog/2022/03/29/react-v18#what-is-concurrent-react"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 3
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.74,
+                      "interest": 0,
+                      "usage": 0.16,
+                      "retention": 0,
+                      "positivity": 0
+                    },
+                    "buckets": [
+                      {
+                        "count": 307,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 261,
+                            "id": "neutral",
+                            "percentageBucket": 85.02,
+                            "percentageQuestion": 21.32,
+                            "percentageSurvey": 11.38
+                          },
+                          {
+                            "count": 46,
+                            "id": "insufficient_data",
+                            "percentageBucket": 15
+                          }
+                        ],
+                        "percentageQuestion": 25.08,
+                        "percentageSurvey": 13.38
+                      },
+                      {
+                        "count": 715,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 533,
+                            "id": "neutral",
+                            "percentageBucket": 74.55,
+                            "percentageQuestion": 43.55,
+                            "percentageSurvey": 23.23
+                          },
+                          {
+                            "count": 182,
+                            "id": "insufficient_data",
+                            "percentageBucket": 25
+                          }
+                        ],
+                        "percentageQuestion": 58.42,
+                        "percentageSurvey": 31.17
+                      },
+                      {
+                        "count": 198,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 143,
+                            "id": "neutral",
+                            "percentageBucket": 72.22,
+                            "percentageQuestion": 11.68,
+                            "percentageSurvey": 6.23
+                          },
+                          {
+                            "count": 55,
+                            "id": "insufficient_data",
+                            "percentageBucket": 28
+                          }
+                        ],
+                        "percentageQuestion": 16.18,
+                        "percentageSurvey": 8.63
+                      }
+                    ],
+                    "completion": {
+                      "count": 1224,
+                      "percentageSurvey": 53.36,
+                      "total": 2294
+                    }
+                  }
+                }
+              },
+              {
+                "id": "react_native_architecture_dom_components",
+                "entity": {
+                  "name": "DOM components",
+                  "nameClean": "DOM components",
+                  "entityType": "default",
+                  "description": "Components allowing existing React web components directly within native apps. By using the \"use dom\" directive, these components can leverage web technologies while maintaining compatibility with native functionality.",
+                  "descriptionClean": "Components allowing existing React web components directly within native apps. By using the \"use dom\" directive, these components can leverage web technologies while maintaining compatibility with native functionality.",
+                  "descriptionHtml": "Components allowing existing React web components directly within native apps. By using the \"use dom\" directive, these components can leverage web technologies while maintaining compatibility with native functionality.",
+                  "homepage": {
+                    "url": "https://expo.dev/blog/the-magic-of-expo-dom-components"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 8
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.8,
+                      "interest": 0.76,
+                      "usage": 0.11,
+                      "retention": 0,
+                      "positivity": 0.15
+                    },
+                    "buckets": [
+                      {
+                        "count": 238,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 192,
+                            "id": "neutral",
+                            "percentageBucket": 80.67,
+                            "percentageQuestion": 15.71,
+                            "percentageSurvey": 8.37
+                          },
+                          {
+                            "count": 46,
+                            "id": "insufficient_data",
+                            "percentageBucket": 19
+                          }
+                        ],
+                        "percentageQuestion": 19.48,
+                        "percentageSurvey": 10.37
+                      },
+                      {
+                        "count": 838,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 190,
+                            "id": "positive",
+                            "percentageBucket": 22.67,
+                            "percentageQuestion": 15.55,
+                            "percentageSurvey": 8.28
+                          },
+                          {
+                            "count": 589,
+                            "id": "neutral",
+                            "percentageBucket": 70.29,
+                            "percentageQuestion": 48.2,
+                            "percentageSurvey": 25.68
+                          },
+                          {
+                            "count": 59,
+                            "id": "negative",
+                            "percentageBucket": 7.04,
+                            "percentageQuestion": 4.83,
+                            "percentageSurvey": 2.57
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 68.58,
+                        "percentageSurvey": 36.53
+                      },
+                      {
+                        "count": 139,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 97,
+                            "id": "neutral",
+                            "percentageBucket": 69.78,
+                            "percentageQuestion": 7.94,
+                            "percentageSurvey": 4.23
+                          },
+                          {
+                            "count": 42,
+                            "id": "insufficient_data",
+                            "percentageBucket": 30
+                          }
+                        ],
+                        "percentageQuestion": 11.37,
+                        "percentageSurvey": 6.06
+                      }
+                    ],
+                    "completion": {
+                      "count": 1222,
+                      "percentageSurvey": 53.27,
+                      "total": 2294
+                    }
+                  }
+                }
+              },
+              {
+                "id": "react_native_architecture_expo_modules",
+                "entity": {
+                  "name": "Expo Modules API",
+                  "nameClean": "Expo Modules API",
+                  "entityType": "default",
+                  "description": "API for creating native modules and views for React Native leveraging Kotlin and Swift languages modern features, consistency between platforms, minimal boilerplate and performance.",
+                  "descriptionClean": "API for creating native modules and views for React Native leveraging Kotlin and Swift languages modern features, consistency between platforms, minimal boilerplate and performance.",
+                  "homepage": {
+                    "url": "https://docs.expo.dev/modules/overview/"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 12
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.89,
+                      "interest": 0.85,
+                      "usage": 0.36,
+                      "retention": 0.89,
+                      "positivity": 0.23
+                    },
+                    "buckets": [
+                      {
+                        "count": 129,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 112,
+                            "id": "neutral",
+                            "percentageBucket": 86.82,
+                            "percentageQuestion": 9.16,
+                            "percentageSurvey": 4.88
+                          },
+                          {
+                            "count": 17,
+                            "id": "insufficient_data",
+                            "percentageBucket": 13
+                          }
+                        ],
+                        "percentageQuestion": 10.55,
+                        "percentageSurvey": 5.62
+                      },
+                      {
+                        "count": 641,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 143,
+                            "id": "positive",
+                            "percentageBucket": 22.31,
+                            "percentageQuestion": 11.69,
+                            "percentageSurvey": 6.23
+                          },
+                          {
+                            "count": 24,
+                            "id": "negative",
+                            "percentageBucket": 3.74,
+                            "percentageQuestion": 1.96,
+                            "percentageSurvey": 1.05
+                          },
+                          {
+                            "count": 474,
+                            "id": "neutral",
+                            "percentageBucket": 73.95,
+                            "percentageQuestion": 38.76,
+                            "percentageSurvey": 20.66
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 52.41,
+                        "percentageSurvey": 27.94
+                      },
+                      {
+                        "count": 448,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 284,
+                            "id": "neutral",
+                            "percentageBucket": 63.39,
+                            "percentageQuestion": 23.22,
+                            "percentageSurvey": 12.38
+                          },
+                          {
+                            "count": 18,
+                            "id": "negative",
+                            "percentageBucket": 4.02,
+                            "percentageQuestion": 1.47,
+                            "percentageSurvey": 0.78
+                          },
+                          {
+                            "count": 146,
+                            "id": "positive",
+                            "percentageBucket": 32.59,
+                            "percentageQuestion": 11.94,
+                            "percentageSurvey": 6.36
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 36.63,
+                        "percentageSurvey": 19.53
+                      }
+                    ],
+                    "completion": {
+                      "count": 1223,
+                      "percentageSurvey": 53.31,
+                      "total": 2294
+                    }
+                  }
+                }
+              },
+              {
+                "id": "react_native_architecture_fabric",
+                "entity": {
+                  "name": "Fabric",
+                  "nameClean": "Fabric",
+                  "entityType": "default",
+                  "description": "A new rendering system for React Native that consolidates rendering logic in C++ and enhances compatibility with host platforms.",
+                  "descriptionClean": "A new rendering system for React Native that consolidates rendering logic in C++ and enhances compatibility with host platforms.",
+                  "homepage": {
+                    "url": "https://reactnative.dev/architecture/fabric-renderer"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 5
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.85,
+                      "interest": 0,
+                      "usage": 0.26,
+                      "retention": 0.88,
+                      "positivity": 0.07
+                    },
+                    "buckets": [
+                      {
+                        "count": 173,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 161,
+                            "id": "neutral",
+                            "percentageBucket": 93.06,
+                            "percentageQuestion": 13.19,
+                            "percentageSurvey": 7.02
+                          },
+                          {
+                            "count": 12,
+                            "id": "insufficient_data",
+                            "percentageBucket": 7
+                          }
+                        ],
+                        "percentageQuestion": 14.17,
+                        "percentageSurvey": 7.54
+                      },
+                      {
+                        "count": 717,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 562,
+                            "id": "neutral",
+                            "percentageBucket": 78.38,
+                            "percentageQuestion": 46.03,
+                            "percentageSurvey": 24.5
+                          },
+                          {
+                            "count": 155,
+                            "id": "insufficient_data",
+                            "percentageBucket": 22
+                          }
+                        ],
+                        "percentageQuestion": 58.72,
+                        "percentageSurvey": 31.26
+                      },
+                      {
+                        "count": 326,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 93,
+                            "id": "positive",
+                            "percentageBucket": 28.53,
+                            "percentageQuestion": 7.62,
+                            "percentageSurvey": 4.05
+                          },
+                          {
+                            "count": 12,
+                            "id": "negative",
+                            "percentageBucket": 3.68,
+                            "percentageQuestion": 0.98,
+                            "percentageSurvey": 0.52
+                          },
+                          {
+                            "count": 221,
+                            "id": "neutral",
+                            "percentageBucket": 67.79,
+                            "percentageQuestion": 18.1,
+                            "percentageSurvey": 9.63
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 26.7,
+                        "percentageSurvey": 14.21
+                      }
+                    ],
+                    "completion": {
+                      "count": 1221,
+                      "percentageSurvey": 53.23,
+                      "total": 2294
+                    }
+                  }
+                }
+              },
+              {
+                "id": "react_native_architecture_hermes_runtime",
+                "entity": {
+                  "name": "Hermes runtime",
+                  "nameClean": "Hermes runtime",
+                  "entityType": "default",
+                  "description": "A JavaScript engine optimized for fast start-up of React Native apps. It features ahead-of-time static optimization and compact bytecode.",
+                  "descriptionClean": "A JavaScript engine optimized for fast start-up of React Native apps. It features ahead-of-time static optimization and compact bytecode.",
+                  "homepage": {
+                    "url": "https://hermesengine.dev/"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 7
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.94,
+                      "interest": 0,
+                      "usage": 0.66,
+                      "retention": 0.96,
+                      "positivity": 0.2
+                    },
+                    "buckets": [
+                      {
+                        "count": 67,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 59,
+                            "id": "neutral",
+                            "percentageBucket": 88.06,
+                            "percentageQuestion": 4.83,
+                            "percentageSurvey": 2.57
+                          },
+                          {
+                            "count": 8,
+                            "id": "insufficient_data",
+                            "percentageBucket": 12
+                          }
+                        ],
+                        "percentageQuestion": 5.48,
+                        "percentageSurvey": 2.92
+                      },
+                      {
+                        "count": 335,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 276,
+                            "id": "neutral",
+                            "percentageBucket": 82.39,
+                            "percentageQuestion": 22.59,
+                            "percentageSurvey": 12.03
+                          },
+                          {
+                            "count": 59,
+                            "id": "insufficient_data",
+                            "percentageBucket": 18
+                          }
+                        ],
+                        "percentageQuestion": 27.41,
+                        "percentageSurvey": 14.6
+                      },
+                      {
+                        "count": 816,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 10,
+                            "id": "negative",
+                            "percentageBucket": 1.23,
+                            "percentageQuestion": 0.82,
+                            "percentageSurvey": 0.44
+                          },
+                          {
+                            "count": 251,
+                            "id": "positive",
+                            "percentageBucket": 30.76,
+                            "percentageQuestion": 20.54,
+                            "percentageSurvey": 10.94
+                          },
+                          {
+                            "count": 555,
+                            "id": "neutral",
+                            "percentageBucket": 68.01,
+                            "percentageQuestion": 45.42,
+                            "percentageSurvey": 24.19
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 66.78,
+                        "percentageSurvey": 35.57
+                      }
+                    ],
+                    "completion": {
+                      "count": 1222,
+                      "percentageSurvey": 53.27,
+                      "total": 2294
+                    }
+                  }
+                }
+              },
+              {
+                "id": "react_native_architecture_jsc_runtime",
+                "entity": {
+                  "name": "JSC runtime",
+                  "nameClean": "JSC runtime",
+                  "entityType": "default",
+                  "description": "A JavaScript engine coming from Apple that provides runtime support for executing JavaScript code in React Native applications.",
+                  "descriptionClean": "A JavaScript engine coming from Apple that provides runtime support for executing JavaScript code in React Native applications.",
+                  "homepage": {
+                    "url": "https://developer.apple.com/documentation/javascriptcore"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.82,
+                      "interest": 0.71,
+                      "usage": 0.43,
+                      "retention": 0.65,
+                      "positivity": 0.11
+                    },
+                    "buckets": [
+                      {
+                        "count": 207,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 190,
+                            "id": "neutral",
+                            "percentageBucket": 91.79,
+                            "percentageQuestion": 15.73,
+                            "percentageSurvey": 8.28
+                          },
+                          {
+                            "count": 17,
+                            "id": "insufficient_data",
+                            "percentageBucket": 8
+                          }
+                        ],
+                        "percentageQuestion": 17.14,
+                        "percentageSurvey": 9.02
+                      },
+                      {
+                        "count": 468,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 53,
+                            "id": "positive",
+                            "percentageBucket": 11.32,
+                            "percentageQuestion": 4.39,
+                            "percentageSurvey": 2.31
+                          },
+                          {
+                            "count": 394,
+                            "id": "neutral",
+                            "percentageBucket": 84.19,
+                            "percentageQuestion": 32.62,
+                            "percentageSurvey": 17.18
+                          },
+                          {
+                            "count": 21,
+                            "id": "negative",
+                            "percentageBucket": 4.49,
+                            "percentageQuestion": 1.74,
+                            "percentageSurvey": 0.92
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 38.74,
+                        "percentageSurvey": 20.4
+                      },
+                      {
+                        "count": 530,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 80,
+                            "id": "positive",
+                            "percentageBucket": 15.09,
+                            "percentageQuestion": 6.62,
+                            "percentageSurvey": 3.49
+                          },
+                          {
+                            "count": 407,
+                            "id": "neutral",
+                            "percentageBucket": 76.79,
+                            "percentageQuestion": 33.69,
+                            "percentageSurvey": 17.74
+                          },
+                          {
+                            "count": 43,
+                            "id": "negative",
+                            "percentageBucket": 8.11,
+                            "percentageQuestion": 3.56,
+                            "percentageSurvey": 1.87
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 43.87,
+                        "percentageSurvey": 23.1
+                      }
+                    ],
+                    "completion": {
+                      "count": 1208,
+                      "percentageSurvey": 52.66,
+                      "total": 2294
+                    }
+                  }
+                }
+              },
+              {
+                "id": "react_native_architecture_jsi",
+                "entity": {
+                  "name": "JSI",
+                  "nameClean": "JSI",
+                  "entityType": "default",
+                  "description": "A JavaScript Interface that allows for direct communication between JavaScript and native code in React Native.",
+                  "descriptionClean": "A JavaScript Interface that allows for direct communication between JavaScript and native code in React Native.",
+                  "homepage": {
+                    "url": "https://reactnative.dev/architecture/glossary#javascript-interfaces-jsi"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 2
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.81,
+                      "interest": 0,
+                      "usage": 0.38,
+                      "retention": 0.89,
+                      "positivity": 0.09
+                    },
+                    "buckets": [
+                      {
+                        "count": 221,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 203,
+                            "id": "neutral",
+                            "percentageBucket": 91.86,
+                            "percentageQuestion": 16.79,
+                            "percentageSurvey": 8.85
+                          },
+                          {
+                            "count": 18,
+                            "id": "insufficient_data",
+                            "percentageBucket": 8
+                          }
+                        ],
+                        "percentageQuestion": 18.28,
+                        "percentageSurvey": 9.63
+                      },
+                      {
+                        "count": 520,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 414,
+                            "id": "neutral",
+                            "percentageBucket": 79.62,
+                            "percentageQuestion": 34.24,
+                            "percentageSurvey": 18.05
+                          },
+                          {
+                            "count": 106,
+                            "id": "insufficient_data",
+                            "percentageBucket": 20
+                          }
+                        ],
+                        "percentageQuestion": 43.01,
+                        "percentageSurvey": 22.67
+                      },
+                      {
+                        "count": 466,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 110,
+                            "id": "positive",
+                            "percentageBucket": 23.61,
+                            "percentageQuestion": 9.1,
+                            "percentageSurvey": 4.8
+                          },
+                          {
+                            "count": 13,
+                            "id": "negative",
+                            "percentageBucket": 2.79,
+                            "percentageQuestion": 1.08,
+                            "percentageSurvey": 0.57
+                          },
+                          {
+                            "count": 343,
+                            "id": "neutral",
+                            "percentageBucket": 73.61,
+                            "percentageQuestion": 28.37,
+                            "percentageSurvey": 14.95
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 38.54,
+                        "percentageSurvey": 20.31
+                      }
+                    ],
+                    "completion": {
+                      "count": 1209,
+                      "percentageSurvey": 52.7,
+                      "total": 2294
+                    }
+                  }
+                }
+              },
+              {
+                "id": "react_native_architecture_custom_native_modules",
+                "entity": {
+                  "name": "Native modules (legacy architecture)",
+                  "nameClean": "Native modules (legacy architecture)",
+                  "entityType": "default",
+                  "description": "Custom modules written in platform-specific native code (Java/Kotlin or Objective-C/Swift) that allow accessing platform-specific APIs and functionalities not available in JavaScript.",
+                  "descriptionClean": "Custom modules written in platform-specific native code (Java/Kotlin or Objective-C/Swift) that allow accessing platform-specific APIs and functionalities not available in JavaScript.",
+                  "homepage": {
+                    "url": "https://reactnative.dev/docs/legacy/native-modules-intro"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 2
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.9,
+                      "interest": 0.4,
+                      "usage": 0.5,
+                      "retention": 0.55,
+                      "positivity": 0.09
+                    },
+                    "buckets": [
+                      {
+                        "count": 113,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 101,
+                            "id": "neutral",
+                            "percentageBucket": 89.38,
+                            "percentageQuestion": 8.47,
+                            "percentageSurvey": 4.4
+                          },
+                          {
+                            "count": 12,
+                            "id": "insufficient_data",
+                            "percentageBucket": 11
+                          }
+                        ],
+                        "percentageQuestion": 9.48,
+                        "percentageSurvey": 4.93
+                      },
+                      {
+                        "count": 474,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 422,
+                            "id": "neutral",
+                            "percentageBucket": 89.03,
+                            "percentageQuestion": 35.4,
+                            "percentageSurvey": 18.4
+                          },
+                          {
+                            "count": 31,
+                            "id": "negative",
+                            "percentageBucket": 6.54,
+                            "percentageQuestion": 2.6,
+                            "percentageSurvey": 1.35
+                          },
+                          {
+                            "count": 21,
+                            "id": "positive",
+                            "percentageBucket": 4.43,
+                            "percentageQuestion": 1.76,
+                            "percentageSurvey": 0.92
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 39.77,
+                        "percentageSurvey": 20.66
+                      },
+                      {
+                        "count": 600,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 70,
+                            "id": "negative",
+                            "percentageBucket": 11.67,
+                            "percentageQuestion": 5.87,
+                            "percentageSurvey": 3.05
+                          },
+                          {
+                            "count": 441,
+                            "id": "neutral",
+                            "percentageBucket": 73.5,
+                            "percentageQuestion": 37,
+                            "percentageSurvey": 19.22
+                          },
+                          {
+                            "count": 89,
+                            "id": "positive",
+                            "percentageBucket": 14.83,
+                            "percentageQuestion": 7.47,
+                            "percentageSurvey": 3.88
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 50.34,
+                        "percentageSurvey": 26.16
+                      }
+                    ],
+                    "completion": {
+                      "count": 1192,
+                      "percentageSurvey": 51.96,
+                      "total": 2294
+                    }
+                  }
+                }
+              },
+              {
+                "id": "react_native_architecture_custom_native_views",
+                "entity": {
+                  "name": "Native views (legacy architecture)",
+                  "nameClean": "Native views (legacy architecture)",
+                  "entityType": "default",
+                  "description": "Components that are implemented in platform-specific native code (Java/Kotlin or Objective-C/Swift) and are used to render UI elements that require platform-specific functionality or performance optimizations.",
+                  "descriptionClean": "Components that are implemented in platform-specific native code (Java/Kotlin or Objective-C/Swift) and are used to render UI elements that require platform-specific functionality or performance optimizations.",
+                  "homepage": {
+                    "url": "https://reactnative.dev/docs/native-components-android"
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.81,
+                      "interest": 0.37,
+                      "usage": 0.33,
+                      "retention": 0.52,
+                      "positivity": 0.07
+                    },
+                    "buckets": [
+                      {
+                        "count": 222,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 207,
+                            "id": "neutral",
+                            "percentageBucket": 93.24,
+                            "percentageQuestion": 17.59,
+                            "percentageSurvey": 9.02
+                          },
+                          {
+                            "count": 15,
+                            "id": "insufficient_data",
+                            "percentageBucket": 7
+                          }
+                        ],
+                        "percentageQuestion": 18.86,
+                        "percentageSurvey": 9.68
+                      },
+                      {
+                        "count": 562,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 25,
+                            "id": "positive",
+                            "percentageBucket": 4.45,
+                            "percentageQuestion": 2.12,
+                            "percentageSurvey": 1.09
+                          },
+                          {
+                            "count": 495,
+                            "id": "neutral",
+                            "percentageBucket": 88.08,
+                            "percentageQuestion": 42.06,
+                            "percentageSurvey": 21.58
+                          },
+                          {
+                            "count": 42,
+                            "id": "negative",
+                            "percentageBucket": 7.47,
+                            "percentageQuestion": 3.57,
+                            "percentageSurvey": 1.83
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 47.75,
+                        "percentageSurvey": 24.5
+                      },
+                      {
+                        "count": 389,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 278,
+                            "id": "neutral",
+                            "percentageBucket": 71.47,
+                            "percentageQuestion": 23.62,
+                            "percentageSurvey": 12.12
+                          },
+                          {
+                            "count": 53,
+                            "id": "negative",
+                            "percentageBucket": 13.62,
+                            "percentageQuestion": 4.5,
+                            "percentageSurvey": 2.31
+                          },
+                          {
+                            "count": 58,
+                            "id": "positive",
+                            "percentageBucket": 14.91,
+                            "percentageQuestion": 4.93,
+                            "percentageSurvey": 2.53
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 33.05,
+                        "percentageSurvey": 16.96
+                      }
+                    ],
+                    "completion": {
+                      "count": 1177,
+                      "percentageSurvey": 51.31,
+                      "total": 2294
+                    }
+                  }
+                }
+              },
+              {
+                "id": "react_native_architecture_new_architecture",
+                "entity": {
+                  "name": "New Architecture",
+                  "nameClean": "New Architecture",
+                  "entityType": "default",
+                  "description": "A modern framework for React Native that enhances support for advanced React features and improves native module integration.",
+                  "descriptionClean": "A modern framework for React Native that enhances support for advanced React features and improves native module integration.",
+                  "homepage": {
+                    "url": "https://reactnative.dev/architecture/landing-page"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 15
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.96,
+                      "interest": 0,
+                      "usage": 0.48,
+                      "retention": 0.81,
+                      "positivity": 0.13
+                    },
+                    "buckets": [
+                      {
+                        "count": 41,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 38,
+                            "id": "neutral",
+                            "percentageBucket": 92.68,
+                            "percentageQuestion": 3.12,
+                            "percentageSurvey": 1.66
+                          },
+                          {
+                            "count": 3,
+                            "id": "insufficient_data",
+                            "percentageBucket": 7
+                          }
+                        ],
+                        "percentageQuestion": 3.37,
+                        "percentageSurvey": 1.79
+                      },
+                      {
+                        "count": 579,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 428,
+                            "id": "neutral",
+                            "percentageBucket": 73.92,
+                            "percentageQuestion": 35.17,
+                            "percentageSurvey": 18.66
+                          },
+                          {
+                            "count": 151,
+                            "id": "insufficient_data",
+                            "percentageBucket": 26
+                          }
+                        ],
+                        "percentageQuestion": 47.58,
+                        "percentageSurvey": 25.24
+                      },
+                      {
+                        "count": 591,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 385,
+                            "id": "neutral",
+                            "percentageBucket": 65.14,
+                            "percentageQuestion": 31.64,
+                            "percentageSurvey": 16.78
+                          },
+                          {
+                            "count": 38,
+                            "id": "negative",
+                            "percentageBucket": 6.43,
+                            "percentageQuestion": 3.12,
+                            "percentageSurvey": 1.66
+                          },
+                          {
+                            "count": 168,
+                            "id": "positive",
+                            "percentageBucket": 28.43,
+                            "percentageQuestion": 13.8,
+                            "percentageSurvey": 7.32
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 48.56,
+                        "percentageSurvey": 25.76
+                      }
+                    ],
+                    "completion": {
+                      "count": 1217,
+                      "percentageSurvey": 53.05,
+                      "total": 2294
+                    }
+                  }
+                }
+              },
+              {
+                "id": "react_native_architecture_ota",
+                "entity": {
+                  "name": "Over-the-air updates",
+                  "nameClean": "Over-the-air updates",
+                  "entityType": "default",
+                  "description": "A feature enabling deploying updates, bug fixes, and new content directly to users' devices without going through the app store review process, enabling faster iteration and delivery of improvements to React Native applications.",
+                  "descriptionClean": "A feature enabling deploying updates, bug fixes, and new content directly to users' devices without going through the app store review process, enabling faster iteration and delivery of improvements to React Native applications.",
+                  "descriptionHtml": "A feature enabling deploying updates, bug fixes, and new content directly to users' devices without going through the app store review process, enabling faster iteration and delivery of improvements to React Native applications.",
+                  "homepage": {
+                    "url": "https://en.wikipedia.org/wiki/Over-the-air_update"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 14
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.92,
+                      "interest": 0,
+                      "usage": 0.51,
+                      "retention": 0.88,
+                      "positivity": 0.18
+                    },
+                    "buckets": [
+                      {
+                        "count": 86,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 74,
+                            "id": "neutral",
+                            "percentageBucket": 86.05,
+                            "percentageQuestion": 6.09,
+                            "percentageSurvey": 3.23
+                          },
+                          {
+                            "count": 12,
+                            "id": "insufficient_data",
+                            "percentageBucket": 14
+                          }
+                        ],
+                        "percentageQuestion": 7.07,
+                        "percentageSurvey": 3.75
+                      },
+                      {
+                        "count": 499,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 371,
+                            "id": "neutral",
+                            "percentageBucket": 74.35,
+                            "percentageQuestion": 30.51,
+                            "percentageSurvey": 16.17
+                          },
+                          {
+                            "count": 128,
+                            "id": "insufficient_data",
+                            "percentageBucket": 26
+                          }
+                        ],
+                        "percentageQuestion": 41.04,
+                        "percentageSurvey": 21.75
+                      },
+                      {
+                        "count": 628,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 29,
+                            "id": "negative",
+                            "percentageBucket": 4.62,
+                            "percentageQuestion": 2.38,
+                            "percentageSurvey": 1.26
+                          },
+                          {
+                            "count": 228,
+                            "id": "positive",
+                            "percentageBucket": 36.31,
+                            "percentageQuestion": 18.75,
+                            "percentageSurvey": 9.94
+                          },
+                          {
+                            "count": 371,
+                            "id": "neutral",
+                            "percentageBucket": 59.08,
+                            "percentageQuestion": 30.51,
+                            "percentageSurvey": 16.17
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 51.64,
+                        "percentageSurvey": 27.38
+                      }
+                    ],
+                    "completion": {
+                      "count": 1216,
+                      "percentageSurvey": 53.01,
+                      "total": 2294
+                    }
+                  }
+                }
+              },
+              {
+                "id": "react_native_architecture_server_components",
+                "entity": {
+                  "name": "Server components",
+                  "nameClean": "Server components",
+                  "entityType": "default",
+                  "description": "A new type of Component that renders ahead of time, before bundling, in an environment separate from your client app.",
+                  "descriptionClean": "A new type of Component that renders ahead of time, before bundling, in an environment separate from your client app.",
+                  "homepage": {
+                    "url": "https://react.dev/reference/rsc/server-components"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 9
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.93,
+                      "interest": 0.69,
+                      "usage": 0.12,
+                      "retention": 0.71,
+                      "positivity": 0.19
+                    },
+                    "buckets": [
+                      {
+                        "count": 81,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 73,
+                            "id": "neutral",
+                            "percentageBucket": 90.12,
+                            "percentageQuestion": 6,
+                            "percentageSurvey": 3.18
+                          },
+                          {
+                            "count": 8,
+                            "id": "insufficient_data",
+                            "percentageBucket": 10
+                          }
+                        ],
+                        "percentageQuestion": 6.66,
+                        "percentageSurvey": 3.53
+                      },
+                      {
+                        "count": 980,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 197,
+                            "id": "positive",
+                            "percentageBucket": 20.1,
+                            "percentageQuestion": 16.2,
+                            "percentageSurvey": 8.59
+                          },
+                          {
+                            "count": 696,
+                            "id": "neutral",
+                            "percentageBucket": 71.02,
+                            "percentageQuestion": 57.24,
+                            "percentageSurvey": 30.34
+                          },
+                          {
+                            "count": 87,
+                            "id": "negative",
+                            "percentageBucket": 8.88,
+                            "percentageQuestion": 7.15,
+                            "percentageSurvey": 3.79
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 80.59,
+                        "percentageSurvey": 42.72
+                      },
+                      {
+                        "count": 148,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 37,
+                            "id": "positive",
+                            "percentageBucket": 25,
+                            "percentageQuestion": 3.04,
+                            "percentageSurvey": 1.61
+                          },
+                          {
+                            "count": 96,
+                            "id": "neutral",
+                            "percentageBucket": 64.86,
+                            "percentageQuestion": 7.89,
+                            "percentageSurvey": 4.18
+                          },
+                          {
+                            "count": 15,
+                            "id": "negative",
+                            "percentageBucket": 10.14,
+                            "percentageQuestion": 1.23,
+                            "percentageSurvey": 0.65
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 12.17,
+                        "percentageSurvey": 6.45
+                      }
+                    ],
+                    "completion": {
+                      "count": 1216,
+                      "percentageSurvey": 53.01,
+                      "total": 2294
+                    }
+                  }
+                }
+              },
+              {
+                "id": "react_native_architecture_turbo_modules",
+                "entity": {
+                  "name": "Turbo Native Modules",
+                  "nameClean": "Turbo Native Modules",
+                  "entityType": "default",
+                  "description": "An advanced iteration of Native Modules that offers strongly typed interfaces, lazy loading, and JSI integration.",
+                  "descriptionClean": "An advanced iteration of Native Modules that offers strongly typed interfaces, lazy loading, and JSI integration.",
+                  "homepage": {
+                    "url": "https://github.com/reactwg/react-native-new-architecture/blob/main/docs/turbo-modules.md"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 1
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.8,
+                      "interest": 0.92,
+                      "usage": 0.18,
+                      "retention": 0,
+                      "positivity": 0.14
+                    },
+                    "buckets": [
+                      {
+                        "count": 236,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 211,
+                            "id": "neutral",
+                            "percentageBucket": 89.41,
+                            "percentageQuestion": 17.61,
+                            "percentageSurvey": 9.2
+                          },
+                          {
+                            "count": 25,
+                            "id": "insufficient_data",
+                            "percentageBucket": 11
+                          }
+                        ],
+                        "percentageQuestion": 19.7,
+                        "percentageSurvey": 10.29
+                      },
+                      {
+                        "count": 737,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 171,
+                            "id": "positive",
+                            "percentageBucket": 23.2,
+                            "percentageQuestion": 14.27,
+                            "percentageSurvey": 7.45
+                          },
+                          {
+                            "count": 13,
+                            "id": "negative",
+                            "percentageBucket": 1.76,
+                            "percentageQuestion": 1.09,
+                            "percentageSurvey": 0.57
+                          },
+                          {
+                            "count": 553,
+                            "id": "neutral",
+                            "percentageBucket": 75.03,
+                            "percentageQuestion": 46.16,
+                            "percentageSurvey": 24.11
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 61.52,
+                        "percentageSurvey": 32.13
+                      },
+                      {
+                        "count": 223,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 154,
+                            "id": "neutral",
+                            "percentageBucket": 69.06,
+                            "percentageQuestion": 12.85,
+                            "percentageSurvey": 6.71
+                          },
+                          {
+                            "count": 69,
+                            "id": "insufficient_data",
+                            "percentageBucket": 31
+                          }
+                        ],
+                        "percentageQuestion": 18.61,
+                        "percentageSurvey": 9.72
+                      }
+                    ],
+                    "completion": {
+                      "count": 1198,
+                      "percentageSurvey": 52.22,
+                      "total": 2294
+                    }
+                  }
+                }
+              },
+              {
+                "id": "react_native_architecture_v8_runtime",
+                "entity": {
+                  "name": "V8 runtime",
+                  "nameClean": "V8 runtime",
+                  "entityType": "default",
+                  "description": "A high-performance JavaScript engine used in React Native, known for its speed and efficiency.",
+                  "descriptionClean": "A high-performance JavaScript engine used in React Native, known for its speed and efficiency."
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 2
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.87,
+                      "interest": 0.61,
+                      "usage": 0.29,
+                      "retention": 0.86,
+                      "positivity": 0.11
+                    },
+                    "buckets": [
+                      {
+                        "count": 155,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 139,
+                            "id": "neutral",
+                            "percentageBucket": 89.68,
+                            "percentageQuestion": 11.57,
+                            "percentageSurvey": 6.06
+                          },
+                          {
+                            "count": 16,
+                            "id": "insufficient_data",
+                            "percentageBucket": 10
+                          }
+                        ],
+                        "percentageQuestion": 12.91,
+                        "percentageSurvey": 6.76
+                      },
+                      {
+                        "count": 689,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 48,
+                            "id": "negative",
+                            "percentageBucket": 6.97,
+                            "percentageQuestion": 4,
+                            "percentageSurvey": 2.09
+                          },
+                          {
+                            "count": 77,
+                            "id": "positive",
+                            "percentageBucket": 11.18,
+                            "percentageQuestion": 6.41,
+                            "percentageSurvey": 3.36
+                          },
+                          {
+                            "count": 564,
+                            "id": "neutral",
+                            "percentageBucket": 81.86,
+                            "percentageQuestion": 46.96,
+                            "percentageSurvey": 24.59
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 57.37,
+                        "percentageSurvey": 30.03
+                      },
+                      {
+                        "count": 354,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 10,
+                            "id": "negative",
+                            "percentageBucket": 2.82,
+                            "percentageQuestion": 0.83,
+                            "percentageSurvey": 0.44
+                          },
+                          {
+                            "count": 66,
+                            "id": "positive",
+                            "percentageBucket": 18.64,
+                            "percentageQuestion": 5.5,
+                            "percentageSurvey": 2.88
+                          },
+                          {
+                            "count": 278,
+                            "id": "neutral",
+                            "percentageBucket": 78.53,
+                            "percentageQuestion": 23.15,
+                            "percentageSurvey": 12.12
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 29.48,
+                        "percentageSurvey": 15.43
+                      }
+                    ],
+                    "completion": {
+                      "count": 1201,
+                      "percentageSurvey": 52.35,
+                      "total": 2294
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

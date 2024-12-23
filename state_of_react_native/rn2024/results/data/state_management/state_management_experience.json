@@ -6,42 +6,61 @@
           "state_management": {
             "state_management_experience": [
               {
-                "id": "state_management_apollo",
+                "id": "state_management_jotai",
                 "entity": {
-                  "name": "Apollo Client",
-                  "nameClean": "Apollo Client",
-                  "entityType": "library",
-                  "description": "A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server",
-                  "descriptionClean": "A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server",
+                  "name": "Jotai",
+                  "nameClean": "Jotai",
+                  "entityType": "default",
+                  "description": "A state management solution that takes an atomic approach to global React state management. Build state by combining atoms and renders are automatically optimized based on atom dependency.",
+                  "descriptionClean": "A state management solution that takes an atomic approach to global React state management. Build state by combining atoms and renders are automatically optimized based on atom dependency.",
                   "homepage": {
-                    "url": "https://www.apollographql.com/docs/react/"
+                    "url": "https://jotai.org"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "const valueAtom = atom(0)\n\nfunction Counter() {\n  const [value, setValue] = useAtom(animeAtom)\n  const increment = setValue((v) => v + 1)\n  // ...\n}\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> valueAtom = <span class=\"hljs-title function_\">atom</span>(<span class=\"hljs-number\">0</span>)\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Counter</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> [value, setValue] = <span class=\"hljs-title function_\">useAtom</span>(animeAtom)\n  <span class=\"hljs-keyword\">const</span> increment = <span class=\"hljs-title function_\">setValue</span>(<span class=\"hljs-function\">(<span class=\"hljs-params\">v</span>) =&gt;</span> v + <span class=\"hljs-number\">1</span>)\n  <span class=\"hljs-comment\">// ...</span>\n}"
                   }
                 },
                 "comments": {
                   "currentEdition": {
-                    "count": 1
+                    "count": 4
                   }
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 0,
-                      "interest": 0,
-                      "usage": 0,
-                      "retention": 0,
-                      "positivity": 0
+                      "awareness": 0.69,
+                      "interest": 0.57,
+                      "usage": 0.17,
+                      "retention": 0.93,
+                      "positivity": 0.18
                     },
                     "buckets": [
                       {
-                        "count": 13,
+                        "count": 507,
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 13,
+                            "count": 30,
+                            "id": "negative",
+                            "percentageBucket": 5.92,
+                            "percentageQuestion": 1.81,
+                            "percentageSurvey": 1.31
+                          },
+                          {
+                            "count": 452,
                             "id": "neutral",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 86.67,
-                            "percentageSurvey": 41.94
+                            "percentageBucket": 89.15,
+                            "percentageQuestion": 27.25,
+                            "percentageSurvey": 19.7
+                          },
+                          {
+                            "count": 25,
+                            "id": "positive",
+                            "percentageBucket": 4.93,
+                            "percentageQuestion": 1.51,
+                            "percentageSurvey": 1.09
                           },
                           {
                             "count": 0,
@@ -49,83 +68,211 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 86.67,
-                        "percentageSurvey": 41.94
+                        "percentageQuestion": 30.56,
+                        "percentageSurvey": 22.1
                       },
                       {
-                        "count": 0,
+                        "count": 845,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 92,
+                            "id": "negative",
+                            "percentageBucket": 10.89,
+                            "percentageQuestion": 5.55,
+                            "percentageSurvey": 4.01
+                          },
+                          {
+                            "count": 122,
+                            "id": "positive",
+                            "percentageBucket": 14.44,
+                            "percentageQuestion": 7.35,
+                            "percentageSurvey": 5.32
+                          },
+                          {
+                            "count": 631,
+                            "id": "neutral",
+                            "percentageBucket": 74.67,
+                            "percentageQuestion": 38.03,
+                            "percentageSurvey": 27.51
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 50.93,
+                        "percentageSurvey": 36.84
+                      },
+                      {
+                        "count": 292,
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 2,
+                            "count": 11,
+                            "id": "negative",
+                            "percentageBucket": 3.77,
+                            "percentageQuestion": 0.66,
+                            "percentageSurvey": 0.48
+                          },
+                          {
+                            "count": 157,
+                            "id": "positive",
+                            "percentageBucket": 53.77,
+                            "percentageQuestion": 9.46,
+                            "percentageSurvey": 6.84
+                          },
+                          {
+                            "count": 124,
+                            "id": "neutral",
+                            "percentageBucket": 42.47,
+                            "percentageQuestion": 7.47,
+                            "percentageSurvey": 5.41
+                          },
+                          {
+                            "count": 0,
                             "id": "insufficient_data",
-                            "percentageBucket": 100
+                            "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 0,
-                        "percentageSurvey": 0
+                        "percentageQuestion": 17.6,
+                        "percentageSurvey": 12.73
                       }
                     ],
                     "completion": {
-                      "count": 15,
-                      "percentageSurvey": 48.39,
-                      "total": 31
+                      "count": 1659,
+                      "percentageSurvey": 72.32,
+                      "total": 2294
                     }
                   }
                 }
               },
               {
-                "id": "state_management_jotai",
+                "id": "state_management_legend_state",
                 "entity": {
-                  "name": "Jotai",
-                  "nameClean": "Jotai",
-                  "entityType": "library",
-                  "description": "Primitive, flexible state management for React",
-                  "descriptionClean": "Primitive, flexible state management for React",
+                  "name": "Legend State",
+                  "nameClean": "Legend State",
+                  "entityType": "default",
+                  "description": "A state management solution that provides extremely fast signal-based state with fine-grained reactivity and a powerful sync system that works with any backend.",
+                  "descriptionClean": "A state management solution that provides extremely fast signal-based state with fine-grained reactivity and a powerful sync system that works with any backend.",
                   "homepage": {
-                    "url": "https://jotai.org/"
+                    "url": "https://legendapp.com/open-source/state/"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "const counter = observable({ value: 0 })\n\nconst Counter = observer(() => {\n  const value = counter.value.use()\n  const increment = () => counter.value.set((v) => v + 1)\n  // ...\n})\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> counter = <span class=\"hljs-title function_\">observable</span>({ <span class=\"hljs-attr\">value</span>: <span class=\"hljs-number\">0</span> })\n\n<span class=\"hljs-keyword\">const</span> <span class=\"hljs-title class_\">Counter</span> = <span class=\"hljs-title function_\">observer</span>(<span class=\"hljs-function\">() =&gt;</span> {\n  <span class=\"hljs-keyword\">const</span> value = counter.<span class=\"hljs-property\">value</span>.<span class=\"hljs-title function_\">use</span>()\n  <span class=\"hljs-keyword\">const</span> <span class=\"hljs-title function_\">increment</span> = (<span class=\"hljs-params\"></span>) =&gt; counter.<span class=\"hljs-property\">value</span>.<span class=\"hljs-title function_\">set</span>(<span class=\"hljs-function\">(<span class=\"hljs-params\">v</span>) =&gt;</span> v + <span class=\"hljs-number\">1</span>)\n  <span class=\"hljs-comment\">// ...</span>\n})"
                   }
                 },
                 "comments": {
                   "currentEdition": {
-                    "count": 1
+                    "count": 4
                   }
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 0,
-                      "interest": 0,
-                      "usage": 0,
-                      "retention": 0,
-                      "positivity": 0
+                      "awareness": 0.34,
+                      "interest": 0.63,
+                      "usage": 0.03,
+                      "retention": 1,
+                      "positivity": 0.12
                     },
                     "buckets": [
                       {
-                        "count": 15,
+                        "count": 1078,
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 13,
-                            "id": "neutral",
-                            "percentageBucket": 86.67,
-                            "percentageQuestion": 86.67,
-                            "percentageSurvey": 41.94
+                            "count": 73,
+                            "id": "negative",
+                            "percentageBucket": 6.77,
+                            "percentageQuestion": 4.43,
+                            "percentageSurvey": 3.18
                           },
                           {
-                            "count": 2,
+                            "count": 927,
+                            "id": "neutral",
+                            "percentageBucket": 85.99,
+                            "percentageQuestion": 56.22,
+                            "percentageSurvey": 40.41
+                          },
+                          {
+                            "count": 78,
+                            "id": "positive",
+                            "percentageBucket": 7.24,
+                            "percentageQuestion": 4.73,
+                            "percentageSurvey": 3.4
+                          },
+                          {
+                            "count": 0,
                             "id": "insufficient_data",
-                            "percentageBucket": 13
+                            "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 100,
-                        "percentageSurvey": 48.39
+                        "percentageQuestion": 65.37,
+                        "percentageSurvey": 46.99
+                      },
+                      {
+                        "count": 503,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 50,
+                            "id": "negative",
+                            "percentageBucket": 9.94,
+                            "percentageQuestion": 3.03,
+                            "percentageSurvey": 2.18
+                          },
+                          {
+                            "count": 87,
+                            "id": "positive",
+                            "percentageBucket": 17.3,
+                            "percentageQuestion": 5.28,
+                            "percentageSurvey": 3.79
+                          },
+                          {
+                            "count": 366,
+                            "id": "neutral",
+                            "percentageBucket": 72.76,
+                            "percentageQuestion": 22.2,
+                            "percentageSurvey": 15.95
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 30.5,
+                        "percentageSurvey": 21.93
+                      },
+                      {
+                        "count": 64,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 34,
+                            "id": "positive",
+                            "percentageBucket": 53.13,
+                            "percentageQuestion": 2.06,
+                            "percentageSurvey": 1.48
+                          },
+                          {
+                            "count": 30,
+                            "id": "insufficient_data",
+                            "percentageBucket": 47
+                          }
+                        ],
+                        "percentageQuestion": 3.88,
+                        "percentageSurvey": 2.79
                       }
                     ],
                     "completion": {
-                      "count": 15,
-                      "percentageSurvey": 48.39,
-                      "total": 31
+                      "count": 1649,
+                      "percentageSurvey": 71.88,
+                      "total": 2294
                     }
                   }
                 }
@@ -135,46 +282,57 @@
                 "entity": {
                   "name": "MobX",
                   "nameClean": "MobX",
-                  "entityType": "library",
-                  "description": "Simple, scalable state management.",
-                  "descriptionClean": "Simple, scalable state management.",
+                  "entityType": "default",
+                  "description": "A signal-based state management library that makes state management simple and scalable by transparently applying functional reactive programming.",
+                  "descriptionClean": "A signal-based state management library that makes state management simple and scalable by transparently applying functional reactive programming.",
                   "homepage": {
-                    "url": "https://mobx.js.org/"
+                    "url": "https://mobx.js.org"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "const counter = observable({ value: 0 })\n\nconst Counter = observer(() => {\n  const value = counter.value\n  const increment = () => counter.value++\n  // ...\n})\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> counter = <span class=\"hljs-title function_\">observable</span>({ <span class=\"hljs-attr\">value</span>: <span class=\"hljs-number\">0</span> })\n\n<span class=\"hljs-keyword\">const</span> <span class=\"hljs-title class_\">Counter</span> = <span class=\"hljs-title function_\">observer</span>(<span class=\"hljs-function\">() =&gt;</span> {\n  <span class=\"hljs-keyword\">const</span> value = counter.<span class=\"hljs-property\">value</span>\n  <span class=\"hljs-keyword\">const</span> <span class=\"hljs-title function_\">increment</span> = (<span class=\"hljs-params\"></span>) =&gt; counter.<span class=\"hljs-property\">value</span>++\n  <span class=\"hljs-comment\">// ...</span>\n})"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 6
                   }
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 1,
-                      "interest": 0,
-                      "usage": 0,
-                      "retention": 0,
-                      "positivity": 0
+                      "awareness": 0.82,
+                      "interest": 0.19,
+                      "usage": 0.18,
+                      "retention": 0.58,
+                      "positivity": 0.07
                     },
                     "buckets": [
                       {
-                        "count": 0,
+                        "count": 280,
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 1,
-                            "id": "insufficient_data",
-                            "percentageBucket": 100
-                          }
-                        ],
-                        "percentageQuestion": 0,
-                        "percentageSurvey": 0
-                      },
-                      {
-                        "count": 14,
-                        "id": "heard",
-                        "facetBuckets": [
-                          {
-                            "count": 14,
+                            "count": 10,
                             "id": "negative",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 93.33,
-                            "percentageSurvey": 45.16
+                            "percentageBucket": 3.57,
+                            "percentageQuestion": 0.61,
+                            "percentageSurvey": 0.44
+                          },
+                          {
+                            "count": 12,
+                            "id": "positive",
+                            "percentageBucket": 4.29,
+                            "percentageQuestion": 0.73,
+                            "percentageSurvey": 0.52
+                          },
+                          {
+                            "count": 258,
+                            "id": "neutral",
+                            "percentageBucket": 92.14,
+                            "percentageQuestion": 15.62,
+                            "percentageSurvey": 11.25
                           },
                           {
                             "count": 0,
@@ -182,14 +340,82 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 93.33,
-                        "percentageSurvey": 45.16
+                        "percentageQuestion": 16.95,
+                        "percentageSurvey": 12.21
+                      },
+                      {
+                        "count": 1064,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 47,
+                            "id": "positive",
+                            "percentageBucket": 4.42,
+                            "percentageQuestion": 2.85,
+                            "percentageSurvey": 2.05
+                          },
+                          {
+                            "count": 821,
+                            "id": "neutral",
+                            "percentageBucket": 77.16,
+                            "percentageQuestion": 49.7,
+                            "percentageSurvey": 35.79
+                          },
+                          {
+                            "count": 196,
+                            "id": "negative",
+                            "percentageBucket": 18.42,
+                            "percentageQuestion": 11.86,
+                            "percentageSurvey": 8.54
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 64.41,
+                        "percentageSurvey": 46.38
+                      },
+                      {
+                        "count": 297,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 51,
+                            "id": "negative",
+                            "percentageBucket": 17.17,
+                            "percentageQuestion": 3.09,
+                            "percentageSurvey": 2.22
+                          },
+                          {
+                            "count": 71,
+                            "id": "positive",
+                            "percentageBucket": 23.91,
+                            "percentageQuestion": 4.3,
+                            "percentageSurvey": 3.1
+                          },
+                          {
+                            "count": 175,
+                            "id": "neutral",
+                            "percentageBucket": 58.92,
+                            "percentageQuestion": 10.59,
+                            "percentageSurvey": 7.63
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 17.98,
+                        "percentageSurvey": 12.95
                       }
                     ],
                     "completion": {
-                      "count": 15,
-                      "percentageSurvey": 48.39,
-                      "total": 31
+                      "count": 1652,
+                      "percentageSurvey": 72.01,
+                      "total": 2294
                     }
                   }
                 }
@@ -199,41 +425,58 @@
                 "entity": {
                   "name": "MobX State Tree",
                   "nameClean": "MobX State Tree",
-                  "entityType": "library"
+                  "entityType": "default",
+                  "description": "A state container system built on top of MobX. MobX is a state management \"engine\", and MobX-State-Tree gives it structure and common tools you need for your app.",
+                  "descriptionClean": "A state container system built on top of MobX. MobX is a state management \"engine\", and MobX-State-Tree gives it structure and common tools you need for your app.",
+                  "descriptionHtml": "A state container system built on top of MobX. MobX is a state management \"engine\", and MobX-State-Tree gives it structure and common tools you need for your app.",
+                  "homepage": {
+                    "url": "https://mobx-state-tree.js.org"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "const model = t\n  .model('counter', { value: t.number })\n  .actions((self) => ({ increment() { self.value++ }))\n\nconst counter = model.create({ value: 0 })\n\nfunction Counter() {\n  const value = counter.value\n  const increment = counter.increment\n  // ...\n}\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> model = t\n  .<span class=\"hljs-title function_\">model</span>(<span class=\"hljs-string\">&#x27;counter&#x27;</span>, { <span class=\"hljs-attr\">value</span>: t.<span class=\"hljs-property\">number</span> })\n  .<span class=\"hljs-title function_\">actions</span>(<span class=\"hljs-function\">(<span class=\"hljs-params\">self</span>) =&gt;</span> ({ <span class=\"hljs-title function_\">increment</span>(<span class=\"hljs-params\"></span>) { self.<span class=\"hljs-property\">value</span>++ }))\n\n<span class=\"hljs-keyword\">const</span> counter = model.<span class=\"hljs-title function_\">create</span>({ <span class=\"hljs-attr\">value</span>: <span class=\"hljs-number\">0</span> })\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Counter</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> value = counter.<span class=\"hljs-property\">value</span>\n  <span class=\"hljs-keyword\">const</span> increment = counter.<span class=\"hljs-property\">increment</span>\n  <span class=\"hljs-comment\">// ...</span>\n}"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 5
+                  }
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 1,
-                      "interest": 1,
-                      "usage": 0,
-                      "retention": 0,
-                      "positivity": 1
+                      "awareness": 0.6,
+                      "interest": 0.2,
+                      "usage": 0.1,
+                      "retention": 0.62,
+                      "positivity": 0.05
                     },
                     "buckets": [
                       {
-                        "count": 0,
+                        "count": 639,
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 1,
-                            "id": "insufficient_data",
-                            "percentageBucket": 100
-                          }
-                        ],
-                        "percentageQuestion": 0,
-                        "percentageSurvey": 0
-                      },
-                      {
-                        "count": 13,
-                        "id": "heard",
-                        "facetBuckets": [
+                            "count": 563,
+                            "id": "neutral",
+                            "percentageBucket": 88.11,
+                            "percentageQuestion": 34.35,
+                            "percentageSurvey": 24.54
+                          },
                           {
-                            "count": 13,
+                            "count": 12,
                             "id": "positive",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 86.67,
-                            "percentageSurvey": 41.94
+                            "percentageBucket": 1.88,
+                            "percentageQuestion": 0.73,
+                            "percentageSurvey": 0.52
+                          },
+                          {
+                            "count": 64,
+                            "id": "negative",
+                            "percentageBucket": 10.02,
+                            "percentageQuestion": 3.9,
+                            "percentageSurvey": 2.79
                           },
                           {
                             "count": 0,
@@ -241,27 +484,82 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 86.67,
-                        "percentageSurvey": 41.94
+                        "percentageQuestion": 38.99,
+                        "percentageSurvey": 27.86
                       },
                       {
-                        "count": 0,
+                        "count": 823,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 36,
+                            "id": "positive",
+                            "percentageBucket": 4.37,
+                            "percentageQuestion": 2.2,
+                            "percentageSurvey": 1.57
+                          },
+                          {
+                            "count": 139,
+                            "id": "negative",
+                            "percentageBucket": 16.89,
+                            "percentageQuestion": 8.48,
+                            "percentageSurvey": 6.06
+                          },
+                          {
+                            "count": 648,
+                            "id": "neutral",
+                            "percentageBucket": 78.74,
+                            "percentageQuestion": 39.54,
+                            "percentageSurvey": 28.25
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 50.21,
+                        "percentageSurvey": 35.88
+                      },
+                      {
+                        "count": 173,
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 1,
+                            "count": 44,
+                            "id": "positive",
+                            "percentageBucket": 25.43,
+                            "percentageQuestion": 2.68,
+                            "percentageSurvey": 1.92
+                          },
+                          {
+                            "count": 26,
+                            "id": "negative",
+                            "percentageBucket": 15.03,
+                            "percentageQuestion": 1.59,
+                            "percentageSurvey": 1.13
+                          },
+                          {
+                            "count": 103,
+                            "id": "neutral",
+                            "percentageBucket": 59.54,
+                            "percentageQuestion": 6.28,
+                            "percentageSurvey": 4.49
+                          },
+                          {
+                            "count": 0,
                             "id": "insufficient_data",
-                            "percentageBucket": 100
+                            "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 0,
-                        "percentageSurvey": 0
+                        "percentageQuestion": 10.56,
+                        "percentageSurvey": 7.54
                       }
                     ],
                     "completion": {
-                      "count": 15,
-                      "percentageSurvey": 48.39,
-                      "total": 31
+                      "count": 1639,
+                      "percentageSurvey": 71.45,
+                      "total": 2294
                     }
                   }
                 }
@@ -271,38 +569,113 @@
                 "entity": {
                   "name": "React built-ins",
                   "nameClean": "React built-ins",
-                  "entityType": "library",
-                  "description": "(useState, useContext, etc.)",
-                  "descriptionClean": "(useState, useContext, etc.)"
+                  "entityType": "default",
+                  "description": "The most basic primitives for \"remembering\" the state of the React component.",
+                  "descriptionClean": "The most basic primitives for \"remembering\" the state of the React component.",
+                  "descriptionHtml": "The most basic primitives for \"remembering\" the state of the React component.",
+                  "homepage": {
+                    "url": "https://react.dev/reference/react/hooks"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "function Counter() {\n  const [value, setValue] = useState(0)\n  const increment = () => setValue((v) => v + 1)\n  // ...\n}\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Counter</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> [value, setValue] = <span class=\"hljs-title function_\">useState</span>(<span class=\"hljs-number\">0</span>)\n  <span class=\"hljs-keyword\">const</span> <span class=\"hljs-title function_\">increment</span> = (<span class=\"hljs-params\"></span>) =&gt; <span class=\"hljs-title function_\">setValue</span>(<span class=\"hljs-function\">(<span class=\"hljs-params\">v</span>) =&gt;</span> v + <span class=\"hljs-number\">1</span>)\n  <span class=\"hljs-comment\">// ...</span>\n}"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 7
+                  }
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 1,
+                      "awareness": 0.94,
                       "interest": 0,
-                      "usage": 1,
-                      "retention": 0,
-                      "positivity": 0
+                      "usage": 0.92,
+                      "retention": 0.94,
+                      "positivity": 0.31
                     },
                     "buckets": [
                       {
-                        "count": 14,
+                        "count": 83,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 76,
+                            "id": "neutral",
+                            "percentageBucket": 91.57,
+                            "percentageQuestion": 4.6,
+                            "percentageSurvey": 3.31
+                          },
+                          {
+                            "count": 7,
+                            "id": "insufficient_data",
+                            "percentageBucket": 8
+                          }
+                        ],
+                        "percentageQuestion": 5.02,
+                        "percentageSurvey": 3.62
+                      },
+                      {
+                        "count": 39,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 28,
+                            "id": "neutral",
+                            "percentageBucket": 71.79,
+                            "percentageQuestion": 1.69,
+                            "percentageSurvey": 1.22
+                          },
+                          {
+                            "count": 11,
+                            "id": "insufficient_data",
+                            "percentageBucket": 28
+                          }
+                        ],
+                        "percentageQuestion": 2.36,
+                        "percentageSurvey": 1.7
+                      },
+                      {
+                        "count": 1523,
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 14,
+                            "count": 29,
+                            "id": "negative",
+                            "percentageBucket": 1.9,
+                            "percentageQuestion": 1.76,
+                            "percentageSurvey": 1.26
+                          },
+                          {
+                            "count": 519,
+                            "id": "positive",
+                            "percentageBucket": 34.08,
+                            "percentageQuestion": 31.42,
+                            "percentageSurvey": 22.62
+                          },
+                          {
+                            "count": 975,
+                            "id": "neutral",
+                            "percentageBucket": 64.02,
+                            "percentageQuestion": 59.02,
+                            "percentageSurvey": 42.5
+                          },
+                          {
+                            "count": 0,
                             "id": "insufficient_data",
-                            "percentageBucket": 100
+                            "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 100,
-                        "percentageSurvey": 45.16
+                        "percentageQuestion": 92.19,
+                        "percentageSurvey": 66.39
                       }
                     ],
                     "completion": {
-                      "count": 14,
-                      "percentageSurvey": 45.16,
-                      "total": 31
+                      "count": 1652,
+                      "percentageSurvey": 72.01,
+                      "total": 2294
                     }
                   }
                 }
@@ -312,33 +685,57 @@
                 "entity": {
                   "name": "Recoil",
                   "nameClean": "Recoil",
-                  "entityType": "library",
-                  "description": "An experimental state management library for React apps",
-                  "descriptionClean": "An experimental state management library for React apps",
+                  "entityType": "default",
+                  "description": "An experimental state management library that lets you create a data-flow graph that flows from atoms (shared state) through selectors (pure functions) and down into your React components.",
+                  "descriptionClean": "An experimental state management library that lets you create a data-flow graph that flows from atoms (shared state) through selectors (pure functions) and down into your React components.",
                   "homepage": {
-                    "url": "https://recoiljs.org/"
+                    "url": "https://recoiljs.org"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "const state = atom({ key: 'counter', default: 0 })\n\nfunction Counter() {\n  const [value, setValue] = useRecoilState(state)\n  const increment = () => setValue(v => v + 1)\n  // ...\n}\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> state = <span class=\"hljs-title function_\">atom</span>({ <span class=\"hljs-attr\">key</span>: <span class=\"hljs-string\">&#x27;counter&#x27;</span>, <span class=\"hljs-attr\">default</span>: <span class=\"hljs-number\">0</span> })\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Counter</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> [value, setValue] = <span class=\"hljs-title function_\">useRecoilState</span>(state)\n  <span class=\"hljs-keyword\">const</span> <span class=\"hljs-title function_\">increment</span> = (<span class=\"hljs-params\"></span>) =&gt; <span class=\"hljs-title function_\">setValue</span>(<span class=\"hljs-function\"><span class=\"hljs-params\">v</span> =&gt;</span> v + <span class=\"hljs-number\">1</span>)\n  <span class=\"hljs-comment\">// ...</span>\n}"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 4
                   }
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 1,
-                      "interest": 0,
-                      "usage": 1,
-                      "retention": 1,
-                      "positivity": 1
+                      "awareness": 0.61,
+                      "interest": 0.28,
+                      "usage": 0.09,
+                      "retention": 0.62,
+                      "positivity": 0.06
                     },
                     "buckets": [
                       {
-                        "count": 14,
-                        "id": "used",
+                        "count": 627,
+                        "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 14,
+                            "count": 42,
+                            "id": "negative",
+                            "percentageBucket": 6.7,
+                            "percentageQuestion": 2.57,
+                            "percentageSurvey": 1.83
+                          },
+                          {
+                            "count": 13,
                             "id": "positive",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 100,
-                            "percentageSurvey": 45.16
+                            "percentageBucket": 2.07,
+                            "percentageQuestion": 0.8,
+                            "percentageSurvey": 0.57
+                          },
+                          {
+                            "count": 572,
+                            "id": "neutral",
+                            "percentageBucket": 91.23,
+                            "percentageQuestion": 35.01,
+                            "percentageSurvey": 24.93
                           },
                           {
                             "count": 0,
@@ -346,14 +743,82 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 100,
-                        "percentageSurvey": 45.16
+                        "percentageQuestion": 38.37,
+                        "percentageSurvey": 27.33
+                      },
+                      {
+                        "count": 853,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 57,
+                            "id": "positive",
+                            "percentageBucket": 6.68,
+                            "percentageQuestion": 3.49,
+                            "percentageSurvey": 2.48
+                          },
+                          {
+                            "count": 651,
+                            "id": "neutral",
+                            "percentageBucket": 76.32,
+                            "percentageQuestion": 39.84,
+                            "percentageSurvey": 28.38
+                          },
+                          {
+                            "count": 145,
+                            "id": "negative",
+                            "percentageBucket": 17,
+                            "percentageQuestion": 8.87,
+                            "percentageSurvey": 6.32
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 52.2,
+                        "percentageSurvey": 37.18
+                      },
+                      {
+                        "count": 150,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 32,
+                            "id": "positive",
+                            "percentageBucket": 21.33,
+                            "percentageQuestion": 1.96,
+                            "percentageSurvey": 1.39
+                          },
+                          {
+                            "count": 99,
+                            "id": "neutral",
+                            "percentageBucket": 66,
+                            "percentageQuestion": 6.06,
+                            "percentageSurvey": 4.32
+                          },
+                          {
+                            "count": 19,
+                            "id": "negative",
+                            "percentageBucket": 12.67,
+                            "percentageQuestion": 1.16,
+                            "percentageSurvey": 0.83
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 9.18,
+                        "percentageSurvey": 6.54
                       }
                     ],
                     "completion": {
-                      "count": 14,
-                      "percentageSurvey": 45.16,
-                      "total": 31
+                      "count": 1634,
+                      "percentageSurvey": 71.23,
+                      "total": 2294
                     }
                   }
                 }
@@ -363,33 +828,70 @@
                 "entity": {
                   "name": "Redux",
                   "nameClean": "Redux",
-                  "entityType": "library",
-                  "description": "Predictable state container for JavaScript apps",
-                  "descriptionClean": "Predictable state container for JavaScript apps",
+                  "entityType": "default",
+                  "description": "A predictable state container based on unidirectional data flow and immutable state updates.",
+                  "descriptionClean": "A predictable state container based on unidirectional data flow and immutable state updates.",
                   "homepage": {
                     "url": "https://redux.js.org"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "function reducer(state = { value: 0 }, action) {\n  switch (action.type) {\n    case 'increment':\n      return { value: state.value + 1 }\n    default:\n      return state\n  }\n}\nconst store = createStore(reducer)\n\nfunction Counter() {\n  const value = useSelector((state) => state.value)\n  const dispatch = useDispatch()\n  const increment = dispatch({ type: 'increment' })\n  // ...\n}\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">reducer</span>(<span class=\"hljs-params\">state = { value: <span class=\"hljs-number\">0</span> }, action</span>) {\n  <span class=\"hljs-keyword\">switch</span> (action.<span class=\"hljs-property\">type</span>) {\n    <span class=\"hljs-keyword\">case</span> <span class=\"hljs-string\">&#x27;increment&#x27;</span>:\n      <span class=\"hljs-keyword\">return</span> { <span class=\"hljs-attr\">value</span>: state.<span class=\"hljs-property\">value</span> + <span class=\"hljs-number\">1</span> }\n    <span class=\"hljs-attr\">default</span>:\n      <span class=\"hljs-keyword\">return</span> state\n  }\n}\n<span class=\"hljs-keyword\">const</span> store = <span class=\"hljs-title function_\">createStore</span>(reducer)\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Counter</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> value = <span class=\"hljs-title function_\">useSelector</span>(<span class=\"hljs-function\">(<span class=\"hljs-params\">state</span>) =&gt;</span> state.<span class=\"hljs-property\">value</span>)\n  <span class=\"hljs-keyword\">const</span> dispatch = <span class=\"hljs-title function_\">useDispatch</span>()\n  <span class=\"hljs-keyword\">const</span> increment = <span class=\"hljs-title function_\">dispatch</span>({ <span class=\"hljs-attr\">type</span>: <span class=\"hljs-string\">&#x27;increment&#x27;</span> })\n  <span class=\"hljs-comment\">// ...</span>\n}"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 17
                   }
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 1,
-                      "interest": 1,
-                      "usage": 0,
-                      "retention": 0,
-                      "positivity": 1
+                      "awareness": 0.98,
+                      "interest": 0.11,
+                      "usage": 0.72,
+                      "retention": 0.35,
+                      "positivity": 0.11
                     },
                     "buckets": [
                       {
-                        "count": 13,
+                        "count": 17,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 17,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 1.03,
+                        "percentageSurvey": 0.74
+                      },
+                      {
+                        "count": 425,
                         "id": "heard",
                         "facetBuckets": [
                           {
-                            "count": 13,
+                            "count": 12,
                             "id": "positive",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 92.86,
-                            "percentageSurvey": 41.94
+                            "percentageBucket": 2.82,
+                            "percentageQuestion": 0.73,
+                            "percentageSurvey": 0.52
+                          },
+                          {
+                            "count": 89,
+                            "id": "negative",
+                            "percentageBucket": 20.94,
+                            "percentageQuestion": 5.39,
+                            "percentageSurvey": 3.88
+                          },
+                          {
+                            "count": 324,
+                            "id": "neutral",
+                            "percentageBucket": 76.24,
+                            "percentageQuestion": 19.64,
+                            "percentageSurvey": 14.12
                           },
                           {
                             "count": 0,
@@ -397,27 +899,48 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 92.86,
-                        "percentageSurvey": 41.94
+                        "percentageQuestion": 25.76,
+                        "percentageSurvey": 18.53
                       },
                       {
-                        "count": 0,
+                        "count": 1191,
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 1,
+                            "count": 707,
+                            "id": "neutral",
+                            "percentageBucket": 59.36,
+                            "percentageQuestion": 42.85,
+                            "percentageSurvey": 30.82
+                          },
+                          {
+                            "count": 313,
+                            "id": "negative",
+                            "percentageBucket": 26.28,
+                            "percentageQuestion": 18.97,
+                            "percentageSurvey": 13.64
+                          },
+                          {
+                            "count": 171,
+                            "id": "positive",
+                            "percentageBucket": 14.36,
+                            "percentageQuestion": 10.36,
+                            "percentageSurvey": 7.45
+                          },
+                          {
+                            "count": 0,
                             "id": "insufficient_data",
-                            "percentageBucket": 100
+                            "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 0,
-                        "percentageSurvey": 0
+                        "percentageQuestion": 72.18,
+                        "percentageSurvey": 51.92
                       }
                     ],
                     "completion": {
-                      "count": 14,
-                      "percentageSurvey": 45.16,
-                      "total": 31
+                      "count": 1650,
+                      "percentageSurvey": 71.93,
+                      "total": 2294
                     }
                   }
                 }
@@ -427,30 +950,77 @@
                 "entity": {
                   "name": "Redux Toolkit",
                   "nameClean": "Redux Toolkit",
-                  "entityType": "library",
-                  "description": "The official, opinionated, batteries-included toolset for efficient Redux development",
-                  "descriptionClean": "The official, opinionated, batteries-included toolset for efficient Redux development"
+                  "entityType": "default",
+                  "description": "The official, opinionated, batteries-included toolset for efficient Redux development.",
+                  "descriptionClean": "The official, opinionated, batteries-included toolset for efficient Redux development.",
+                  "homepage": {
+                    "url": "https://redux-toolkit.js.org"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "const slice = createSlice({\n  name: 'counter',\n  initialState: { value: 0 },\n  reducers: {\n    increment: (state) => { state.value++ },\n  },\n})\n\nconst store = configureStore({ reducer: slice.reducer })\n\nfunction Counter() {\n  const value = useSelector((state) => state.value)\n  const dispatch = useDispatch()\n  const increment = () => dispatch(counterSlice.actions.increment())\n  // ...\n}\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> slice = <span class=\"hljs-title function_\">createSlice</span>({\n  <span class=\"hljs-attr\">name</span>: <span class=\"hljs-string\">&#x27;counter&#x27;</span>,\n  <span class=\"hljs-attr\">initialState</span>: { <span class=\"hljs-attr\">value</span>: <span class=\"hljs-number\">0</span> },\n  <span class=\"hljs-attr\">reducers</span>: {\n    <span class=\"hljs-attr\">increment</span>: <span class=\"hljs-function\">(<span class=\"hljs-params\">state</span>) =&gt;</span> { state.<span class=\"hljs-property\">value</span>++ },\n  },\n})\n\n<span class=\"hljs-keyword\">const</span> store = <span class=\"hljs-title function_\">configureStore</span>({ <span class=\"hljs-attr\">reducer</span>: slice.<span class=\"hljs-property\">reducer</span> })\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Counter</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> value = <span class=\"hljs-title function_\">useSelector</span>(<span class=\"hljs-function\">(<span class=\"hljs-params\">state</span>) =&gt;</span> state.<span class=\"hljs-property\">value</span>)\n  <span class=\"hljs-keyword\">const</span> dispatch = <span class=\"hljs-title function_\">useDispatch</span>()\n  <span class=\"hljs-keyword\">const</span> <span class=\"hljs-title function_\">increment</span> = (<span class=\"hljs-params\"></span>) =&gt; <span class=\"hljs-title function_\">dispatch</span>(counterSlice.<span class=\"hljs-property\">actions</span>.<span class=\"hljs-title function_\">increment</span>())\n  <span class=\"hljs-comment\">// ...</span>\n}"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 8
+                  }
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 1,
-                      "interest": 0,
-                      "usage": 1,
-                      "retention": 1,
-                      "positivity": 1
+                      "awareness": 0.93,
+                      "interest": 0.23,
+                      "usage": 0.61,
+                      "retention": 0.63,
+                      "positivity": 0.17
                     },
                     "buckets": [
                       {
-                        "count": 13,
-                        "id": "used",
+                        "count": 107,
+                        "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 13,
+                            "count": 96,
+                            "id": "neutral",
+                            "percentageBucket": 89.72,
+                            "percentageQuestion": 5.87,
+                            "percentageSurvey": 4.18
+                          },
+                          {
+                            "count": 11,
+                            "id": "insufficient_data",
+                            "percentageBucket": 10
+                          }
+                        ],
+                        "percentageQuestion": 6.54,
+                        "percentageSurvey": 4.66
+                      },
+                      {
+                        "count": 522,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 89,
+                            "id": "negative",
+                            "percentageBucket": 17.05,
+                            "percentageQuestion": 5.44,
+                            "percentageSurvey": 3.88
+                          },
+                          {
+                            "count": 405,
+                            "id": "neutral",
+                            "percentageBucket": 77.59,
+                            "percentageQuestion": 24.76,
+                            "percentageSurvey": 17.65
+                          },
+                          {
+                            "count": 28,
                             "id": "positive",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 92.86,
-                            "percentageSurvey": 41.94
+                            "percentageBucket": 5.36,
+                            "percentageQuestion": 1.71,
+                            "percentageSurvey": 1.22
                           },
                           {
                             "count": 0,
@@ -458,55 +1028,48 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 92.86,
-                        "percentageSurvey": 41.94
-                      }
-                    ],
-                    "completion": {
-                      "count": 14,
-                      "percentageSurvey": 45.16,
-                      "total": 31
-                    }
-                  }
-                }
-              },
-              {
-                "id": "state_management_react_query",
-                "entity": {
-                  "name": "TanStack Query",
-                  "nameClean": "TanStack Query",
-                  "entityType": "library",
-                  "description": "(React Query)",
-                  "descriptionClean": "(React Query)"
-                },
-                "responses": {
-                  "currentEdition": {
-                    "ratios": {
-                      "awareness": 1,
-                      "interest": 0,
-                      "usage": 1,
-                      "retention": 0,
-                      "positivity": 0
-                    },
-                    "buckets": [
+                        "percentageQuestion": 31.91,
+                        "percentageSurvey": 22.76
+                      },
                       {
-                        "count": 14,
+                        "count": 1003,
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 14,
+                            "count": 608,
+                            "id": "neutral",
+                            "percentageBucket": 60.62,
+                            "percentageQuestion": 37.16,
+                            "percentageSurvey": 26.5
+                          },
+                          {
+                            "count": 251,
+                            "id": "positive",
+                            "percentageBucket": 25.02,
+                            "percentageQuestion": 15.34,
+                            "percentageSurvey": 10.94
+                          },
+                          {
+                            "count": 144,
+                            "id": "negative",
+                            "percentageBucket": 14.36,
+                            "percentageQuestion": 8.8,
+                            "percentageSurvey": 6.28
+                          },
+                          {
+                            "count": 0,
                             "id": "insufficient_data",
-                            "percentageBucket": 100
+                            "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 100,
-                        "percentageSurvey": 45.16
+                        "percentageQuestion": 61.31,
+                        "percentageSurvey": 43.72
                       }
                     ],
                     "completion": {
-                      "count": 14,
-                      "percentageSurvey": 45.16,
-                      "total": 31
+                      "count": 1636,
+                      "percentageSurvey": 71.32,
+                      "total": 2294
                     }
                   }
                 }
@@ -516,33 +1079,57 @@
                 "entity": {
                   "name": "XState",
                   "nameClean": "XState",
-                  "entityType": "library",
-                  "description": "State machines and statecharts for the modern web.",
-                  "descriptionClean": "State machines and statecharts for the modern web.",
+                  "entityType": "default",
+                  "description": "A powerful and flexible way to manage application and workflow state by allowing developers to model logic as actors and state machines.",
+                  "descriptionClean": "A powerful and flexible way to manage application and workflow state by allowing developers to model logic as actors and state machines.",
                   "homepage": {
-                    "url": "https://xstate.js.org/docs/"
+                    "url": "https://stately.ai/docs/xstate"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "const machine = createMachine({\n  initial: 'active',\n  context: {\n    value: 0,\n  },\n  states: {\n    active: {\n      on: {\n        INCREMENT: {\n          actions: assign({\n            value: (context) => context.value + 1 })\n          }\n        }\n      }\n    }\n  }\n})\n\nfunction Counter() {\n  const [snapshot, send] = useMachine(machine)\n  const value = snapshot.context.value\n  const increment = () => send('INCREMENT')\n  // ...\n}\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> machine = <span class=\"hljs-title function_\">createMachine</span>({\n  <span class=\"hljs-attr\">initial</span>: <span class=\"hljs-string\">&#x27;active&#x27;</span>,\n  <span class=\"hljs-attr\">context</span>: {\n    <span class=\"hljs-attr\">value</span>: <span class=\"hljs-number\">0</span>,\n  },\n  <span class=\"hljs-attr\">states</span>: {\n    <span class=\"hljs-attr\">active</span>: {\n      <span class=\"hljs-attr\">on</span>: {\n        <span class=\"hljs-attr\">INCREMENT</span>: {\n          <span class=\"hljs-attr\">actions</span>: <span class=\"hljs-title function_\">assign</span>({\n            <span class=\"hljs-attr\">value</span>: <span class=\"hljs-function\">(<span class=\"hljs-params\">context</span>) =&gt;</span> context.<span class=\"hljs-property\">value</span> + <span class=\"hljs-number\">1</span> })\n          }\n        }\n      }\n    }\n  }\n})\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Counter</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> [snapshot, send] = <span class=\"hljs-title function_\">useMachine</span>(machine)\n  <span class=\"hljs-keyword\">const</span> value = snapshot.<span class=\"hljs-property\">context</span>.<span class=\"hljs-property\">value</span>\n  <span class=\"hljs-keyword\">const</span> <span class=\"hljs-title function_\">increment</span> = (<span class=\"hljs-params\"></span>) =&gt; <span class=\"hljs-title function_\">send</span>(<span class=\"hljs-string\">&#x27;INCREMENT&#x27;</span>)\n  <span class=\"hljs-comment\">// ...</span>\n}"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 10
                   }
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 1,
-                      "interest": 1,
-                      "usage": 0,
-                      "retention": 0,
-                      "positivity": 1
+                      "awareness": 0.47,
+                      "interest": 0.47,
+                      "usage": 0.08,
+                      "retention": 0.56,
+                      "positivity": 0.07
                     },
                     "buckets": [
                       {
-                        "count": 13,
-                        "id": "heard",
+                        "count": 857,
+                        "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 13,
+                            "count": 78,
+                            "id": "negative",
+                            "percentageBucket": 9.1,
+                            "percentageQuestion": 4.81,
+                            "percentageSurvey": 3.4
+                          },
+                          {
+                            "count": 10,
                             "id": "positive",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 92.86,
-                            "percentageSurvey": 41.94
+                            "percentageBucket": 1.17,
+                            "percentageQuestion": 0.62,
+                            "percentageSurvey": 0.44
+                          },
+                          {
+                            "count": 769,
+                            "id": "neutral",
+                            "percentageBucket": 89.73,
+                            "percentageQuestion": 47.44,
+                            "percentageSurvey": 33.52
                           },
                           {
                             "count": 0,
@@ -550,27 +1137,82 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 92.86,
-                        "percentageSurvey": 41.94
+                        "percentageQuestion": 52.87,
+                        "percentageSurvey": 37.36
                       },
                       {
-                        "count": 0,
+                        "count": 619,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 82,
+                            "id": "negative",
+                            "percentageBucket": 13.25,
+                            "percentageQuestion": 5.06,
+                            "percentageSurvey": 3.57
+                          },
+                          {
+                            "count": 462,
+                            "id": "neutral",
+                            "percentageBucket": 74.64,
+                            "percentageQuestion": 28.5,
+                            "percentageSurvey": 20.14
+                          },
+                          {
+                            "count": 75,
+                            "id": "positive",
+                            "percentageBucket": 12.12,
+                            "percentageQuestion": 4.63,
+                            "percentageSurvey": 3.27
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 38.19,
+                        "percentageSurvey": 26.98
+                      },
+                      {
+                        "count": 142,
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 1,
+                            "count": 84,
+                            "id": "neutral",
+                            "percentageBucket": 59.15,
+                            "percentageQuestion": 5.18,
+                            "percentageSurvey": 3.66
+                          },
+                          {
+                            "count": 33,
+                            "id": "positive",
+                            "percentageBucket": 23.24,
+                            "percentageQuestion": 2.04,
+                            "percentageSurvey": 1.44
+                          },
+                          {
+                            "count": 25,
+                            "id": "negative",
+                            "percentageBucket": 17.61,
+                            "percentageQuestion": 1.54,
+                            "percentageSurvey": 1.09
+                          },
+                          {
+                            "count": 0,
                             "id": "insufficient_data",
-                            "percentageBucket": 100
+                            "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 0,
-                        "percentageSurvey": 0
+                        "percentageQuestion": 8.76,
+                        "percentageSurvey": 6.19
                       }
                     ],
                     "completion": {
-                      "count": 14,
-                      "percentageSurvey": 45.16,
-                      "total": 31
+                      "count": 1621,
+                      "percentageSurvey": 70.66,
+                      "total": 2294
                     }
                   }
                 }
@@ -580,33 +1222,78 @@
                 "entity": {
                   "name": "Zustand",
                   "nameClean": "Zustand",
-                  "entityType": "library",
-                  "description": "Bear necessities for state management in React",
-                  "descriptionClean": "Bear necessities for state management in React",
+                  "entityType": "default",
+                  "description": "A small, fast, and scalable bearbones state management solution that isn't boilerplatey or opinionated, but has enough convention to be explicit and flux-like.",
+                  "descriptionClean": "A small, fast, and scalable bearbones state management solution that isn't boilerplatey or opinionated, but has enough convention to be explicit and flux-like.",
+                  "descriptionHtml": "A small, fast, and scalable bearbones state management solution that isn't boilerplatey or opinionated, but has enough convention to be explicit and flux-like.",
                   "homepage": {
-                    "url": "https://zustand-demo.pmnd.rs/"
+                    "url": "https://zustand-demo.pmnd.rs"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "const useStore = create((set) => ({\n  count: 0,\n  increment: () => set((state) => ({ count: state.count + 1 })),\n}))\n\nfunction Counter() {\n  const { count, increment } = useStore()\n  // ...\n}\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> useStore = <span class=\"hljs-title function_\">create</span>(<span class=\"hljs-function\">(<span class=\"hljs-params\">set</span>) =&gt;</span> ({\n  <span class=\"hljs-attr\">count</span>: <span class=\"hljs-number\">0</span>,\n  <span class=\"hljs-attr\">increment</span>: <span class=\"hljs-function\">() =&gt;</span> <span class=\"hljs-title function_\">set</span>(<span class=\"hljs-function\">(<span class=\"hljs-params\">state</span>) =&gt;</span> ({ <span class=\"hljs-attr\">count</span>: state.<span class=\"hljs-property\">count</span> + <span class=\"hljs-number\">1</span> })),\n}))\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Counter</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> { count, increment } = <span class=\"hljs-title function_\">useStore</span>()\n  <span class=\"hljs-comment\">// ...</span>\n}"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 16
                   }
                 },
                 "responses": {
                   "currentEdition": {
                     "ratios": {
-                      "awareness": 0,
-                      "interest": 0,
-                      "usage": 0,
-                      "retention": 0,
-                      "positivity": 1
+                      "awareness": 0.88,
+                      "interest": 0.8,
+                      "usage": 0.48,
+                      "retention": 0.96,
+                      "positivity": 0.29
                     },
                     "buckets": [
                       {
-                        "count": 13,
+                        "count": 192,
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 13,
+                            "count": 171,
+                            "id": "neutral",
+                            "percentageBucket": 89.06,
+                            "percentageQuestion": 10.44,
+                            "percentageSurvey": 7.45
+                          },
+                          {
+                            "count": 21,
+                            "id": "insufficient_data",
+                            "percentageBucket": 11
+                          }
+                        ],
+                        "percentageQuestion": 11.72,
+                        "percentageSurvey": 8.37
+                      },
+                      {
+                        "count": 645,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 493,
+                            "id": "neutral",
+                            "percentageBucket": 76.43,
+                            "percentageQuestion": 30.1,
+                            "percentageSurvey": 21.49
+                          },
+                          {
+                            "count": 123,
                             "id": "positive",
-                            "percentageBucket": 100,
-                            "percentageQuestion": 92.86,
-                            "percentageSurvey": 41.94
+                            "percentageBucket": 19.07,
+                            "percentageQuestion": 7.51,
+                            "percentageSurvey": 5.36
+                          },
+                          {
+                            "count": 29,
+                            "id": "negative",
+                            "percentageBucket": 4.5,
+                            "percentageQuestion": 1.77,
+                            "percentageSurvey": 1.26
                           },
                           {
                             "count": 0,
@@ -614,27 +1301,48 @@
                             "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 92.86,
-                        "percentageSurvey": 41.94
+                        "percentageQuestion": 39.38,
+                        "percentageSurvey": 28.12
                       },
                       {
-                        "count": 0,
-                        "id": "heard",
+                        "count": 794,
+                        "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 1,
+                            "count": 14,
+                            "id": "negative",
+                            "percentageBucket": 1.76,
+                            "percentageQuestion": 0.85,
+                            "percentageSurvey": 0.61
+                          },
+                          {
+                            "count": 354,
+                            "id": "positive",
+                            "percentageBucket": 44.58,
+                            "percentageQuestion": 21.61,
+                            "percentageSurvey": 15.43
+                          },
+                          {
+                            "count": 426,
+                            "id": "neutral",
+                            "percentageBucket": 53.65,
+                            "percentageQuestion": 26.01,
+                            "percentageSurvey": 18.57
+                          },
+                          {
+                            "count": 0,
                             "id": "insufficient_data",
-                            "percentageBucket": 100
+                            "percentageBucket": 0
                           }
                         ],
-                        "percentageQuestion": 0,
-                        "percentageSurvey": 0
+                        "percentageQuestion": 48.47,
+                        "percentageSurvey": 34.61
                       }
                     ],
                     "completion": {
-                      "count": 14,
-                      "percentageSurvey": 45.16,
-                      "total": 31
+                      "count": 1638,
+                      "percentageSurvey": 71.4,
+                      "total": 2294
                     }
                   }
                 }

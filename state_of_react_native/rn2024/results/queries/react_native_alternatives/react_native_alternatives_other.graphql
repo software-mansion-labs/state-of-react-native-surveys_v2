@@ -4,7 +4,15 @@ query rn2024reactNativeAlternativesOtherQuery {
       rn2024 {
         react_native_alternatives {
           react_native_alternatives_other {
-            prenormalized(parameters: { limit: 10, enableCache: false }) {
+            freeform(
+              parameters: {
+                showNoAnswer: true
+                cutoff: 10
+                limit: 20
+                mergeOtherBuckets: true
+                enableCache: false
+              }
+            ) {
               currentEdition {
                 completion {
                   count
@@ -77,6 +85,71 @@ query rn2024reactNativeAlternativesOtherQuery {
                     resources {
                       url
                       title
+                    }
+                  }
+                  groupedBuckets {
+                    count
+                    id
+                    percentageQuestion
+                    percentageSurvey
+                    isFreeformData
+                    hasInsufficientData
+                    entity {
+                      name
+                      nameHtml
+                      nameClean
+                      alias
+                      description
+                      descriptionHtml
+                      descriptionClean
+                      id
+                      entityType
+                      example {
+                        label
+                        language
+                        code
+                        codeHighlighted
+                      }
+                      avatar {
+                        url
+                      }
+                      homepage {
+                        url
+                      }
+                      youtube {
+                        url
+                      }
+                      twitter {
+                        url
+                      }
+                      twitch {
+                        url
+                      }
+                      rss {
+                        url
+                      }
+                      blog {
+                        url
+                      }
+                      mastodon {
+                        url
+                      }
+                      github {
+                        url
+                      }
+                      npm {
+                        url
+                      }
+                      mdn {
+                        url
+                      }
+                      caniuse {
+                        url
+                      }
+                      resources {
+                        url
+                        title
+                      }
                     }
                   }
                 }

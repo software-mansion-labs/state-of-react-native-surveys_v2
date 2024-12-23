@@ -6,80 +6,20 @@
           "state_management": {
             "state_management_ratios": [
               {
-                "id": "state_management_apollo",
-                "entity": {
-                  "name": "Apollo Client",
-                  "nameClean": "Apollo Client",
-                  "entityType": "library",
-                  "description": "A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server",
-                  "descriptionClean": "A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server",
-                  "homepage": {
-                    "url": "https://www.apollographql.com/docs/react/"
-                  }
-                },
-                "responses": {
-                  "allEditions": [
-                    {
-                      "year": 2022,
-                      "editionId": "rn2022",
-                      "ratios": {
-                        "awareness": 0.89,
-                        "interest": 0.53,
-                        "usage": 0.42,
-                        "retention": 0.74,
-                        "positivity": 0.56
-                      },
-                      "completion": {
-                        "count": 1287,
-                        "percentageSurvey": 84.34,
-                        "total": 1526
-                      }
-                    },
-                    {
-                      "year": 2023,
-                      "editionId": "rn2023",
-                      "ratios": {
-                        "awareness": 0.83,
-                        "interest": 0.42,
-                        "usage": 0.38,
-                        "retention": 0.69,
-                        "positivity": 0.45
-                      },
-                      "completion": {
-                        "count": 2003,
-                        "percentageSurvey": 83.6,
-                        "total": 2396
-                      }
-                    },
-                    {
-                      "year": 2024,
-                      "editionId": "rn2024",
-                      "ratios": {
-                        "awareness": 0,
-                        "interest": 0,
-                        "usage": 0,
-                        "retention": 0,
-                        "positivity": 0
-                      },
-                      "completion": {
-                        "count": 15,
-                        "percentageSurvey": 48.39,
-                        "total": 31
-                      }
-                    }
-                  ]
-                }
-              },
-              {
                 "id": "state_management_jotai",
                 "entity": {
                   "name": "Jotai",
                   "nameClean": "Jotai",
-                  "entityType": "library",
-                  "description": "Primitive, flexible state management for React",
-                  "descriptionClean": "Primitive, flexible state management for React",
+                  "entityType": "default",
+                  "description": "A state management solution that takes an atomic approach to global React state management. Build state by combining atoms and renders are automatically optimized based on atom dependency.",
+                  "descriptionClean": "A state management solution that takes an atomic approach to global React state management. Build state by combining atoms and renders are automatically optimized based on atom dependency.",
                   "homepage": {
-                    "url": "https://jotai.org/"
+                    "url": "https://jotai.org"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "const valueAtom = atom(0)\n\nfunction Counter() {\n  const [value, setValue] = useAtom(animeAtom)\n  const increment = setValue((v) => v + 1)\n  // ...\n}\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> valueAtom = <span class=\"hljs-title function_\">atom</span>(<span class=\"hljs-number\">0</span>)\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Counter</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> [value, setValue] = <span class=\"hljs-title function_\">useAtom</span>(animeAtom)\n  <span class=\"hljs-keyword\">const</span> increment = <span class=\"hljs-title function_\">setValue</span>(<span class=\"hljs-function\">(<span class=\"hljs-params\">v</span>) =&gt;</span> v + <span class=\"hljs-number\">1</span>)\n  <span class=\"hljs-comment\">// ...</span>\n}"
                   }
                 },
                 "responses": {
@@ -88,16 +28,16 @@
                       "year": 2022,
                       "editionId": "rn2022",
                       "ratios": {
-                        "awareness": 0.59,
-                        "interest": 0.55,
+                        "awareness": 0.57,
+                        "interest": 0.57,
                         "usage": 0.09,
-                        "retention": 0.91,
+                        "retention": 0.89,
                         "positivity": 0.36
                       },
                       "completion": {
-                        "count": 1287,
-                        "percentageSurvey": 84.34,
-                        "total": 1526
+                        "count": 1576,
+                        "percentageSurvey": 83.47,
+                        "total": 1888
                       }
                     },
                     {
@@ -112,24 +52,62 @@
                       },
                       "completion": {
                         "count": 1983,
-                        "percentageSurvey": 82.76,
-                        "total": 2396
+                        "percentageSurvey": 82.8,
+                        "total": 2395
                       }
                     },
                     {
                       "year": 2024,
                       "editionId": "rn2024",
                       "ratios": {
-                        "awareness": 0,
-                        "interest": 0,
-                        "usage": 0,
-                        "retention": 0,
-                        "positivity": 0
+                        "awareness": 0.69,
+                        "interest": 0.57,
+                        "usage": 0.17,
+                        "retention": 0.93,
+                        "positivity": 0.18
                       },
                       "completion": {
-                        "count": 15,
-                        "percentageSurvey": 48.39,
-                        "total": 31
+                        "count": 1659,
+                        "percentageSurvey": 72.32,
+                        "total": 2294
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "state_management_legend_state",
+                "entity": {
+                  "name": "Legend State",
+                  "nameClean": "Legend State",
+                  "entityType": "default",
+                  "description": "A state management solution that provides extremely fast signal-based state with fine-grained reactivity and a powerful sync system that works with any backend.",
+                  "descriptionClean": "A state management solution that provides extremely fast signal-based state with fine-grained reactivity and a powerful sync system that works with any backend.",
+                  "homepage": {
+                    "url": "https://legendapp.com/open-source/state/"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "const counter = observable({ value: 0 })\n\nconst Counter = observer(() => {\n  const value = counter.value.use()\n  const increment = () => counter.value.set((v) => v + 1)\n  // ...\n})\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> counter = <span class=\"hljs-title function_\">observable</span>({ <span class=\"hljs-attr\">value</span>: <span class=\"hljs-number\">0</span> })\n\n<span class=\"hljs-keyword\">const</span> <span class=\"hljs-title class_\">Counter</span> = <span class=\"hljs-title function_\">observer</span>(<span class=\"hljs-function\">() =&gt;</span> {\n  <span class=\"hljs-keyword\">const</span> value = counter.<span class=\"hljs-property\">value</span>.<span class=\"hljs-title function_\">use</span>()\n  <span class=\"hljs-keyword\">const</span> <span class=\"hljs-title function_\">increment</span> = (<span class=\"hljs-params\"></span>) =&gt; counter.<span class=\"hljs-property\">value</span>.<span class=\"hljs-title function_\">set</span>(<span class=\"hljs-function\">(<span class=\"hljs-params\">v</span>) =&gt;</span> v + <span class=\"hljs-number\">1</span>)\n  <span class=\"hljs-comment\">// ...</span>\n})"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 0.34,
+                        "interest": 0.63,
+                        "usage": 0.03,
+                        "retention": 1,
+                        "positivity": 0.12
+                      },
+                      "completion": {
+                        "count": 1649,
+                        "percentageSurvey": 71.88,
+                        "total": 2294
                       }
                     }
                   ]
@@ -140,11 +118,16 @@
                 "entity": {
                   "name": "MobX",
                   "nameClean": "MobX",
-                  "entityType": "library",
-                  "description": "Simple, scalable state management.",
-                  "descriptionClean": "Simple, scalable state management.",
+                  "entityType": "default",
+                  "description": "A signal-based state management library that makes state management simple and scalable by transparently applying functional reactive programming.",
+                  "descriptionClean": "A signal-based state management library that makes state management simple and scalable by transparently applying functional reactive programming.",
                   "homepage": {
-                    "url": "https://mobx.js.org/"
+                    "url": "https://mobx.js.org"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "const counter = observable({ value: 0 })\n\nconst Counter = observer(() => {\n  const value = counter.value\n  const increment = () => counter.value++\n  // ...\n})\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> counter = <span class=\"hljs-title function_\">observable</span>({ <span class=\"hljs-attr\">value</span>: <span class=\"hljs-number\">0</span> })\n\n<span class=\"hljs-keyword\">const</span> <span class=\"hljs-title class_\">Counter</span> = <span class=\"hljs-title function_\">observer</span>(<span class=\"hljs-function\">() =&gt;</span> {\n  <span class=\"hljs-keyword\">const</span> value = counter.<span class=\"hljs-property\">value</span>\n  <span class=\"hljs-keyword\">const</span> <span class=\"hljs-title function_\">increment</span> = (<span class=\"hljs-params\"></span>) =&gt; counter.<span class=\"hljs-property\">value</span>++\n  <span class=\"hljs-comment\">// ...</span>\n})"
                   }
                 },
                 "responses": {
@@ -161,24 +144,24 @@
                       },
                       "completion": {
                         "count": 1985,
-                        "percentageSurvey": 82.85,
-                        "total": 2396
+                        "percentageSurvey": 82.88,
+                        "total": 2395
                       }
                     },
                     {
                       "year": 2024,
                       "editionId": "rn2024",
                       "ratios": {
-                        "awareness": 1,
-                        "interest": 0,
-                        "usage": 0,
-                        "retention": 0,
-                        "positivity": 0
+                        "awareness": 0.82,
+                        "interest": 0.19,
+                        "usage": 0.18,
+                        "retention": 0.58,
+                        "positivity": 0.07
                       },
                       "completion": {
-                        "count": 15,
-                        "percentageSurvey": 48.39,
-                        "total": 31
+                        "count": 1652,
+                        "percentageSurvey": 72.01,
+                        "total": 2294
                       }
                     }
                   ]
@@ -189,7 +172,18 @@
                 "entity": {
                   "name": "MobX State Tree",
                   "nameClean": "MobX State Tree",
-                  "entityType": "library"
+                  "entityType": "default",
+                  "description": "A state container system built on top of MobX. MobX is a state management \"engine\", and MobX-State-Tree gives it structure and common tools you need for your app.",
+                  "descriptionClean": "A state container system built on top of MobX. MobX is a state management \"engine\", and MobX-State-Tree gives it structure and common tools you need for your app.",
+                  "descriptionHtml": "A state container system built on top of MobX. MobX is a state management \"engine\", and MobX-State-Tree gives it structure and common tools you need for your app.",
+                  "homepage": {
+                    "url": "https://mobx-state-tree.js.org"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "const model = t\n  .model('counter', { value: t.number })\n  .actions((self) => ({ increment() { self.value++ }))\n\nconst counter = model.create({ value: 0 })\n\nfunction Counter() {\n  const value = counter.value\n  const increment = counter.increment\n  // ...\n}\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> model = t\n  .<span class=\"hljs-title function_\">model</span>(<span class=\"hljs-string\">&#x27;counter&#x27;</span>, { <span class=\"hljs-attr\">value</span>: t.<span class=\"hljs-property\">number</span> })\n  .<span class=\"hljs-title function_\">actions</span>(<span class=\"hljs-function\">(<span class=\"hljs-params\">self</span>) =&gt;</span> ({ <span class=\"hljs-title function_\">increment</span>(<span class=\"hljs-params\"></span>) { self.<span class=\"hljs-property\">value</span>++ }))\n\n<span class=\"hljs-keyword\">const</span> counter = model.<span class=\"hljs-title function_\">create</span>({ <span class=\"hljs-attr\">value</span>: <span class=\"hljs-number\">0</span> })\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Counter</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> value = counter.<span class=\"hljs-property\">value</span>\n  <span class=\"hljs-keyword\">const</span> increment = counter.<span class=\"hljs-property\">increment</span>\n  <span class=\"hljs-comment\">// ...</span>\n}"
+                  }
                 },
                 "responses": {
                   "allEditions": [
@@ -205,24 +199,24 @@
                       },
                       "completion": {
                         "count": 1979,
-                        "percentageSurvey": 82.6,
-                        "total": 2396
+                        "percentageSurvey": 82.63,
+                        "total": 2395
                       }
                     },
                     {
                       "year": 2024,
                       "editionId": "rn2024",
                       "ratios": {
-                        "awareness": 1,
-                        "interest": 1,
-                        "usage": 0,
-                        "retention": 0,
-                        "positivity": 1
+                        "awareness": 0.6,
+                        "interest": 0.2,
+                        "usage": 0.1,
+                        "retention": 0.62,
+                        "positivity": 0.05
                       },
                       "completion": {
-                        "count": 15,
-                        "percentageSurvey": 48.39,
-                        "total": 31
+                        "count": 1639,
+                        "percentageSurvey": 71.45,
+                        "total": 2294
                       }
                     }
                   ]
@@ -233,9 +227,18 @@
                 "entity": {
                   "name": "React built-ins",
                   "nameClean": "React built-ins",
-                  "entityType": "library",
-                  "description": "(useState, useContext, etc.)",
-                  "descriptionClean": "(useState, useContext, etc.)"
+                  "entityType": "default",
+                  "description": "The most basic primitives for \"remembering\" the state of the React component.",
+                  "descriptionClean": "The most basic primitives for \"remembering\" the state of the React component.",
+                  "descriptionHtml": "The most basic primitives for \"remembering\" the state of the React component.",
+                  "homepage": {
+                    "url": "https://react.dev/reference/react/hooks"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "function Counter() {\n  const [value, setValue] = useState(0)\n  const increment = () => setValue((v) => v + 1)\n  // ...\n}\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Counter</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> [value, setValue] = <span class=\"hljs-title function_\">useState</span>(<span class=\"hljs-number\">0</span>)\n  <span class=\"hljs-keyword\">const</span> <span class=\"hljs-title function_\">increment</span> = (<span class=\"hljs-params\"></span>) =&gt; <span class=\"hljs-title function_\">setValue</span>(<span class=\"hljs-function\">(<span class=\"hljs-params\">v</span>) =&gt;</span> v + <span class=\"hljs-number\">1</span>)\n  <span class=\"hljs-comment\">// ...</span>\n}"
+                  }
                 },
                 "responses": {
                   "allEditions": [
@@ -244,15 +247,15 @@
                       "editionId": "rn2022",
                       "ratios": {
                         "awareness": 1,
-                        "interest": 0.63,
+                        "interest": 0.64,
                         "usage": 0.96,
                         "retention": 0.97,
                         "positivity": 0.95
                       },
                       "completion": {
-                        "count": 1298,
-                        "percentageSurvey": 85.06,
-                        "total": 1526
+                        "count": 1591,
+                        "percentageSurvey": 84.27,
+                        "total": 1888
                       }
                     },
                     {
@@ -267,24 +270,24 @@
                       },
                       "completion": {
                         "count": 2027,
-                        "percentageSurvey": 84.6,
-                        "total": 2396
+                        "percentageSurvey": 84.63,
+                        "total": 2395
                       }
                     },
                     {
                       "year": 2024,
                       "editionId": "rn2024",
                       "ratios": {
-                        "awareness": 1,
+                        "awareness": 0.94,
                         "interest": 0,
-                        "usage": 1,
-                        "retention": 0,
-                        "positivity": 0
+                        "usage": 0.92,
+                        "retention": 0.94,
+                        "positivity": 0.31
                       },
                       "completion": {
-                        "count": 14,
-                        "percentageSurvey": 45.16,
-                        "total": 31
+                        "count": 1652,
+                        "percentageSurvey": 72.01,
+                        "total": 2294
                       }
                     }
                   ]
@@ -295,11 +298,16 @@
                 "entity": {
                   "name": "Recoil",
                   "nameClean": "Recoil",
-                  "entityType": "library",
-                  "description": "An experimental state management library for React apps",
-                  "descriptionClean": "An experimental state management library for React apps",
+                  "entityType": "default",
+                  "description": "An experimental state management library that lets you create a data-flow graph that flows from atoms (shared state) through selectors (pure functions) and down into your React components.",
+                  "descriptionClean": "An experimental state management library that lets you create a data-flow graph that flows from atoms (shared state) through selectors (pure functions) and down into your React components.",
                   "homepage": {
-                    "url": "https://recoiljs.org/"
+                    "url": "https://recoiljs.org"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "const state = atom({ key: 'counter', default: 0 })\n\nfunction Counter() {\n  const [value, setValue] = useRecoilState(state)\n  const increment = () => setValue(v => v + 1)\n  // ...\n}\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> state = <span class=\"hljs-title function_\">atom</span>({ <span class=\"hljs-attr\">key</span>: <span class=\"hljs-string\">&#x27;counter&#x27;</span>, <span class=\"hljs-attr\">default</span>: <span class=\"hljs-number\">0</span> })\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Counter</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> [value, setValue] = <span class=\"hljs-title function_\">useRecoilState</span>(state)\n  <span class=\"hljs-keyword\">const</span> <span class=\"hljs-title function_\">increment</span> = (<span class=\"hljs-params\"></span>) =&gt; <span class=\"hljs-title function_\">setValue</span>(<span class=\"hljs-function\"><span class=\"hljs-params\">v</span> =&gt;</span> v + <span class=\"hljs-number\">1</span>)\n  <span class=\"hljs-comment\">// ...</span>\n}"
                   }
                 },
                 "responses": {
@@ -311,13 +319,13 @@
                         "awareness": 0.74,
                         "interest": 0.48,
                         "usage": 0.1,
-                        "retention": 0.54,
-                        "positivity": 0.36
+                        "retention": 0.55,
+                        "positivity": 0.37
                       },
                       "completion": {
-                        "count": 1281,
-                        "percentageSurvey": 83.94,
-                        "total": 1526
+                        "count": 1571,
+                        "percentageSurvey": 83.21,
+                        "total": 1888
                       }
                     },
                     {
@@ -332,24 +340,24 @@
                       },
                       "completion": {
                         "count": 1976,
-                        "percentageSurvey": 82.47,
-                        "total": 2396
+                        "percentageSurvey": 82.51,
+                        "total": 2395
                       }
                     },
                     {
                       "year": 2024,
                       "editionId": "rn2024",
                       "ratios": {
-                        "awareness": 1,
-                        "interest": 0,
-                        "usage": 1,
-                        "retention": 1,
-                        "positivity": 1
+                        "awareness": 0.61,
+                        "interest": 0.28,
+                        "usage": 0.09,
+                        "retention": 0.62,
+                        "positivity": 0.06
                       },
                       "completion": {
-                        "count": 14,
-                        "percentageSurvey": 45.16,
-                        "total": 31
+                        "count": 1634,
+                        "percentageSurvey": 71.23,
+                        "total": 2294
                       }
                     }
                   ]
@@ -360,11 +368,16 @@
                 "entity": {
                   "name": "Redux",
                   "nameClean": "Redux",
-                  "entityType": "library",
-                  "description": "Predictable state container for JavaScript apps",
-                  "descriptionClean": "Predictable state container for JavaScript apps",
+                  "entityType": "default",
+                  "description": "A predictable state container based on unidirectional data flow and immutable state updates.",
+                  "descriptionClean": "A predictable state container based on unidirectional data flow and immutable state updates.",
                   "homepage": {
                     "url": "https://redux.js.org"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "function reducer(state = { value: 0 }, action) {\n  switch (action.type) {\n    case 'increment':\n      return { value: state.value + 1 }\n    default:\n      return state\n  }\n}\nconst store = createStore(reducer)\n\nfunction Counter() {\n  const value = useSelector((state) => state.value)\n  const dispatch = useDispatch()\n  const increment = dispatch({ type: 'increment' })\n  // ...\n}\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">reducer</span>(<span class=\"hljs-params\">state = { value: <span class=\"hljs-number\">0</span> }, action</span>) {\n  <span class=\"hljs-keyword\">switch</span> (action.<span class=\"hljs-property\">type</span>) {\n    <span class=\"hljs-keyword\">case</span> <span class=\"hljs-string\">&#x27;increment&#x27;</span>:\n      <span class=\"hljs-keyword\">return</span> { <span class=\"hljs-attr\">value</span>: state.<span class=\"hljs-property\">value</span> + <span class=\"hljs-number\">1</span> }\n    <span class=\"hljs-attr\">default</span>:\n      <span class=\"hljs-keyword\">return</span> state\n  }\n}\n<span class=\"hljs-keyword\">const</span> store = <span class=\"hljs-title function_\">createStore</span>(reducer)\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Counter</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> value = <span class=\"hljs-title function_\">useSelector</span>(<span class=\"hljs-function\">(<span class=\"hljs-params\">state</span>) =&gt;</span> state.<span class=\"hljs-property\">value</span>)\n  <span class=\"hljs-keyword\">const</span> dispatch = <span class=\"hljs-title function_\">useDispatch</span>()\n  <span class=\"hljs-keyword\">const</span> increment = <span class=\"hljs-title function_\">dispatch</span>({ <span class=\"hljs-attr\">type</span>: <span class=\"hljs-string\">&#x27;increment&#x27;</span> })\n  <span class=\"hljs-comment\">// ...</span>\n}"
                   }
                 },
                 "responses": {
@@ -374,15 +387,15 @@
                       "editionId": "rn2022",
                       "ratios": {
                         "awareness": 1,
-                        "interest": 0.29,
+                        "interest": 0.3,
                         "usage": 0.84,
-                        "retention": 0.55,
-                        "positivity": 0.51
+                        "retention": 0.56,
+                        "positivity": 0.52
                       },
                       "completion": {
-                        "count": 1292,
-                        "percentageSurvey": 84.67,
-                        "total": 1526
+                        "count": 1584,
+                        "percentageSurvey": 83.9,
+                        "total": 1888
                       }
                     },
                     {
@@ -397,24 +410,24 @@
                       },
                       "completion": {
                         "count": 2015,
-                        "percentageSurvey": 84.1,
-                        "total": 2396
+                        "percentageSurvey": 84.13,
+                        "total": 2395
                       }
                     },
                     {
                       "year": 2024,
                       "editionId": "rn2024",
                       "ratios": {
-                        "awareness": 1,
-                        "interest": 1,
-                        "usage": 0,
-                        "retention": 0,
-                        "positivity": 1
+                        "awareness": 0.98,
+                        "interest": 0.11,
+                        "usage": 0.72,
+                        "retention": 0.35,
+                        "positivity": 0.11
                       },
                       "completion": {
-                        "count": 14,
-                        "percentageSurvey": 45.16,
-                        "total": 31
+                        "count": 1650,
+                        "percentageSurvey": 71.93,
+                        "total": 2294
                       }
                     }
                   ]
@@ -425,9 +438,17 @@
                 "entity": {
                   "name": "Redux Toolkit",
                   "nameClean": "Redux Toolkit",
-                  "entityType": "library",
-                  "description": "The official, opinionated, batteries-included toolset for efficient Redux development",
-                  "descriptionClean": "The official, opinionated, batteries-included toolset for efficient Redux development"
+                  "entityType": "default",
+                  "description": "The official, opinionated, batteries-included toolset for efficient Redux development.",
+                  "descriptionClean": "The official, opinionated, batteries-included toolset for efficient Redux development.",
+                  "homepage": {
+                    "url": "https://redux-toolkit.js.org"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "const slice = createSlice({\n  name: 'counter',\n  initialState: { value: 0 },\n  reducers: {\n    increment: (state) => { state.value++ },\n  },\n})\n\nconst store = configureStore({ reducer: slice.reducer })\n\nfunction Counter() {\n  const value = useSelector((state) => state.value)\n  const dispatch = useDispatch()\n  const increment = () => dispatch(counterSlice.actions.increment())\n  // ...\n}\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> slice = <span class=\"hljs-title function_\">createSlice</span>({\n  <span class=\"hljs-attr\">name</span>: <span class=\"hljs-string\">&#x27;counter&#x27;</span>,\n  <span class=\"hljs-attr\">initialState</span>: { <span class=\"hljs-attr\">value</span>: <span class=\"hljs-number\">0</span> },\n  <span class=\"hljs-attr\">reducers</span>: {\n    <span class=\"hljs-attr\">increment</span>: <span class=\"hljs-function\">(<span class=\"hljs-params\">state</span>) =&gt;</span> { state.<span class=\"hljs-property\">value</span>++ },\n  },\n})\n\n<span class=\"hljs-keyword\">const</span> store = <span class=\"hljs-title function_\">configureStore</span>({ <span class=\"hljs-attr\">reducer</span>: slice.<span class=\"hljs-property\">reducer</span> })\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Counter</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> value = <span class=\"hljs-title function_\">useSelector</span>(<span class=\"hljs-function\">(<span class=\"hljs-params\">state</span>) =&gt;</span> state.<span class=\"hljs-property\">value</span>)\n  <span class=\"hljs-keyword\">const</span> dispatch = <span class=\"hljs-title function_\">useDispatch</span>()\n  <span class=\"hljs-keyword\">const</span> <span class=\"hljs-title function_\">increment</span> = (<span class=\"hljs-params\"></span>) =&gt; <span class=\"hljs-title function_\">dispatch</span>(counterSlice.<span class=\"hljs-property\">actions</span>.<span class=\"hljs-title function_\">increment</span>())\n  <span class=\"hljs-comment\">// ...</span>\n}"
+                  }
                 },
                 "responses": {
                   "allEditions": [
@@ -443,86 +464,24 @@
                       },
                       "completion": {
                         "count": 2001,
-                        "percentageSurvey": 83.51,
-                        "total": 2396
+                        "percentageSurvey": 83.55,
+                        "total": 2395
                       }
                     },
                     {
                       "year": 2024,
                       "editionId": "rn2024",
                       "ratios": {
-                        "awareness": 1,
-                        "interest": 0,
-                        "usage": 1,
-                        "retention": 1,
-                        "positivity": 1
+                        "awareness": 0.93,
+                        "interest": 0.23,
+                        "usage": 0.61,
+                        "retention": 0.63,
+                        "positivity": 0.17
                       },
                       "completion": {
-                        "count": 14,
-                        "percentageSurvey": 45.16,
-                        "total": 31
-                      }
-                    }
-                  ]
-                }
-              },
-              {
-                "id": "state_management_react_query",
-                "entity": {
-                  "name": "TanStack Query",
-                  "nameClean": "TanStack Query",
-                  "entityType": "library",
-                  "description": "(React Query)",
-                  "descriptionClean": "(React Query)"
-                },
-                "responses": {
-                  "allEditions": [
-                    {
-                      "year": 2022,
-                      "editionId": "rn2022",
-                      "ratios": {
-                        "awareness": 0.82,
-                        "interest": 0.75,
-                        "usage": 0.45,
-                        "retention": 0.96,
-                        "positivity": 0.71
-                      },
-                      "completion": {
-                        "count": 1289,
-                        "percentageSurvey": 84.47,
-                        "total": 1526
-                      }
-                    },
-                    {
-                      "year": 2023,
-                      "editionId": "rn2023",
-                      "ratios": {
-                        "awareness": 0.84,
-                        "interest": 0.72,
-                        "usage": 0.54,
-                        "retention": 0.96,
-                        "positivity": 0.73
-                      },
-                      "completion": {
-                        "count": 1998,
-                        "percentageSurvey": 83.39,
-                        "total": 2396
-                      }
-                    },
-                    {
-                      "year": 2024,
-                      "editionId": "rn2024",
-                      "ratios": {
-                        "awareness": 1,
-                        "interest": 0,
-                        "usage": 1,
-                        "retention": 0,
-                        "positivity": 0
-                      },
-                      "completion": {
-                        "count": 14,
-                        "percentageSurvey": 45.16,
-                        "total": 31
+                        "count": 1636,
+                        "percentageSurvey": 71.32,
+                        "total": 2294
                       }
                     }
                   ]
@@ -533,11 +492,16 @@
                 "entity": {
                   "name": "XState",
                   "nameClean": "XState",
-                  "entityType": "library",
-                  "description": "State machines and statecharts for the modern web.",
-                  "descriptionClean": "State machines and statecharts for the modern web.",
+                  "entityType": "default",
+                  "description": "A powerful and flexible way to manage application and workflow state by allowing developers to model logic as actors and state machines.",
+                  "descriptionClean": "A powerful and flexible way to manage application and workflow state by allowing developers to model logic as actors and state machines.",
                   "homepage": {
-                    "url": "https://xstate.js.org/docs/"
+                    "url": "https://stately.ai/docs/xstate"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "const machine = createMachine({\n  initial: 'active',\n  context: {\n    value: 0,\n  },\n  states: {\n    active: {\n      on: {\n        INCREMENT: {\n          actions: assign({\n            value: (context) => context.value + 1 })\n          }\n        }\n      }\n    }\n  }\n})\n\nfunction Counter() {\n  const [snapshot, send] = useMachine(machine)\n  const value = snapshot.context.value\n  const increment = () => send('INCREMENT')\n  // ...\n}\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> machine = <span class=\"hljs-title function_\">createMachine</span>({\n  <span class=\"hljs-attr\">initial</span>: <span class=\"hljs-string\">&#x27;active&#x27;</span>,\n  <span class=\"hljs-attr\">context</span>: {\n    <span class=\"hljs-attr\">value</span>: <span class=\"hljs-number\">0</span>,\n  },\n  <span class=\"hljs-attr\">states</span>: {\n    <span class=\"hljs-attr\">active</span>: {\n      <span class=\"hljs-attr\">on</span>: {\n        <span class=\"hljs-attr\">INCREMENT</span>: {\n          <span class=\"hljs-attr\">actions</span>: <span class=\"hljs-title function_\">assign</span>({\n            <span class=\"hljs-attr\">value</span>: <span class=\"hljs-function\">(<span class=\"hljs-params\">context</span>) =&gt;</span> context.<span class=\"hljs-property\">value</span> + <span class=\"hljs-number\">1</span> })\n          }\n        }\n      }\n    }\n  }\n})\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Counter</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> [snapshot, send] = <span class=\"hljs-title function_\">useMachine</span>(machine)\n  <span class=\"hljs-keyword\">const</span> value = snapshot.<span class=\"hljs-property\">context</span>.<span class=\"hljs-property\">value</span>\n  <span class=\"hljs-keyword\">const</span> <span class=\"hljs-title function_\">increment</span> = (<span class=\"hljs-params\"></span>) =&gt; <span class=\"hljs-title function_\">send</span>(<span class=\"hljs-string\">&#x27;INCREMENT&#x27;</span>)\n  <span class=\"hljs-comment\">// ...</span>\n}"
                   }
                 },
                 "responses": {
@@ -554,24 +518,24 @@
                       },
                       "completion": {
                         "count": 1969,
-                        "percentageSurvey": 82.18,
-                        "total": 2396
+                        "percentageSurvey": 82.21,
+                        "total": 2395
                       }
                     },
                     {
                       "year": 2024,
                       "editionId": "rn2024",
                       "ratios": {
-                        "awareness": 1,
-                        "interest": 1,
-                        "usage": 0,
-                        "retention": 0,
-                        "positivity": 1
+                        "awareness": 0.47,
+                        "interest": 0.47,
+                        "usage": 0.08,
+                        "retention": 0.56,
+                        "positivity": 0.07
                       },
                       "completion": {
-                        "count": 14,
-                        "percentageSurvey": 45.16,
-                        "total": 31
+                        "count": 1621,
+                        "percentageSurvey": 70.66,
+                        "total": 2294
                       }
                     }
                   ]
@@ -582,11 +546,17 @@
                 "entity": {
                   "name": "Zustand",
                   "nameClean": "Zustand",
-                  "entityType": "library",
-                  "description": "Bear necessities for state management in React",
-                  "descriptionClean": "Bear necessities for state management in React",
+                  "entityType": "default",
+                  "description": "A small, fast, and scalable bearbones state management solution that isn't boilerplatey or opinionated, but has enough convention to be explicit and flux-like.",
+                  "descriptionClean": "A small, fast, and scalable bearbones state management solution that isn't boilerplatey or opinionated, but has enough convention to be explicit and flux-like.",
+                  "descriptionHtml": "A small, fast, and scalable bearbones state management solution that isn't boilerplatey or opinionated, but has enough convention to be explicit and flux-like.",
                   "homepage": {
-                    "url": "https://zustand-demo.pmnd.rs/"
+                    "url": "https://zustand-demo.pmnd.rs"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "const useStore = create((set) => ({\n  count: 0,\n  increment: () => set((state) => ({ count: state.count + 1 })),\n}))\n\nfunction Counter() {\n  const { count, increment } = useStore()\n  // ...\n}\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> useStore = <span class=\"hljs-title function_\">create</span>(<span class=\"hljs-function\">(<span class=\"hljs-params\">set</span>) =&gt;</span> ({\n  <span class=\"hljs-attr\">count</span>: <span class=\"hljs-number\">0</span>,\n  <span class=\"hljs-attr\">increment</span>: <span class=\"hljs-function\">() =&gt;</span> <span class=\"hljs-title function_\">set</span>(<span class=\"hljs-function\">(<span class=\"hljs-params\">state</span>) =&gt;</span> ({ <span class=\"hljs-attr\">count</span>: state.<span class=\"hljs-property\">count</span> + <span class=\"hljs-number\">1</span> })),\n}))\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Counter</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> { count, increment } = <span class=\"hljs-title function_\">useStore</span>()\n  <span class=\"hljs-comment\">// ...</span>\n}"
                   }
                 },
                 "responses": {
@@ -595,16 +565,16 @@
                       "year": 2022,
                       "editionId": "rn2022",
                       "ratios": {
-                        "awareness": 0.7,
+                        "awareness": 0.69,
                         "interest": 0.67,
-                        "usage": 0.22,
+                        "usage": 0.21,
                         "retention": 0.94,
-                        "positivity": 0.53
+                        "positivity": 0.52
                       },
                       "completion": {
-                        "count": 1288,
-                        "percentageSurvey": 84.4,
-                        "total": 1526
+                        "count": 1577,
+                        "percentageSurvey": 83.53,
+                        "total": 1888
                       }
                     },
                     {
@@ -619,24 +589,24 @@
                       },
                       "completion": {
                         "count": 1996,
-                        "percentageSurvey": 83.31,
-                        "total": 2396
+                        "percentageSurvey": 83.34,
+                        "total": 2395
                       }
                     },
                     {
                       "year": 2024,
                       "editionId": "rn2024",
                       "ratios": {
-                        "awareness": 0,
-                        "interest": 0,
-                        "usage": 0,
-                        "retention": 0,
-                        "positivity": 1
+                        "awareness": 0.88,
+                        "interest": 0.8,
+                        "usage": 0.48,
+                        "retention": 0.96,
+                        "positivity": 0.29
                       },
                       "completion": {
-                        "count": 14,
-                        "percentageSurvey": 45.16,
-                        "total": 31
+                        "count": 1638,
+                        "percentageSurvey": 71.4,
+                        "total": 2294
                       }
                     }
                   ]

@@ -6,6 +6,1136 @@
           "debugging_and_profiling": {
             "debugging_and_profiling_experience": [
               {
+                "id": "debugging_profiling_react_native_devtools",
+                "entity": {
+                  "name": "React Native DevTools",
+                  "nameClean": "React Native DevTools",
+                  "entityType": "default",
+                  "description": "_(React Native built-in)_ The new default debugging experience introduced in React Native 0.76, leveraging <strong>Chrome DevTools Protocol</strong> (<strong><i>Console API</i>, <i>Sources & breakpoints</i></strong>) and providing integrated <strong>React DevTools</strong> functionality as a core feature.",
+                  "descriptionClean": "(React Native built-in) The new default debugging experience introduced in React Native 0.76, leveraging Chrome DevTools Protocol (Console API, Sources  breakpoints) and providing integrated React DevTools functionality as a core feature.",
+                  "descriptionHtml": "<em>(React Native built-in)</em> The new default debugging experience introduced in React Native 0.76, leveraging <strong>Chrome DevTools Protocol</strong> (<strong><i>Console API</i>, <i>Sources &amp; breakpoints</i></strong>) and providing integrated <strong>React DevTools</strong> functionality as a core feature.",
+                  "homepage": {
+                    "url": "https://github.com/react-native-community/discussions-and-proposals/discussions/819"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 15
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.97,
+                      "interest": 0,
+                      "usage": 0.64,
+                      "retention": 0.74,
+                      "positivity": 0.16
+                    },
+                    "buckets": [
+                      {
+                        "count": 36,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 30,
+                            "id": "neutral",
+                            "percentageBucket": 83.33,
+                            "percentageQuestion": 2.31,
+                            "percentageSurvey": 1.31
+                          },
+                          {
+                            "count": 6,
+                            "id": "insufficient_data",
+                            "percentageBucket": 17
+                          }
+                        ],
+                        "percentageQuestion": 2.77,
+                        "percentageSurvey": 1.57
+                      },
+                      {
+                        "count": 425,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 297,
+                            "id": "neutral",
+                            "percentageBucket": 69.88,
+                            "percentageQuestion": 22.86,
+                            "percentageSurvey": 12.95
+                          },
+                          {
+                            "count": 128,
+                            "id": "insufficient_data",
+                            "percentageBucket": 30
+                          }
+                        ],
+                        "percentageQuestion": 32.72,
+                        "percentageSurvey": 18.53
+                      },
+                      {
+                        "count": 830,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 212,
+                            "id": "positive",
+                            "percentageBucket": 25.54,
+                            "percentageQuestion": 16.32,
+                            "percentageSurvey": 9.24
+                          },
+                          {
+                            "count": 71,
+                            "id": "negative",
+                            "percentageBucket": 8.55,
+                            "percentageQuestion": 5.47,
+                            "percentageSurvey": 3.1
+                          },
+                          {
+                            "count": 547,
+                            "id": "neutral",
+                            "percentageBucket": 65.9,
+                            "percentageQuestion": 42.11,
+                            "percentageSurvey": 23.84
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 63.9,
+                        "percentageSurvey": 36.18
+                      }
+                    ],
+                    "completion": {
+                      "count": 1299,
+                      "percentageSurvey": 56.63,
+                      "total": 2294
+                    }
+                  }
+                }
+              },
+              {
+                "id": "debugging_profiling_reactotron",
+                "entity": {
+                  "name": "Reactotron",
+                  "nameClean": "Reactotron",
+                  "entityType": "default",
+                  "description": "A desktop application for inspecting your React and React Native projects. Enables monitoring application's state, network requests, and performance metrics.",
+                  "descriptionClean": "A desktop application for inspecting your React and React Native projects. Enables monitoring application's state, network requests, and performance metrics.",
+                  "descriptionHtml": "A desktop application for inspecting your React and React Native projects. Enables monitoring application's state, network requests, and performance metrics.",
+                  "homepage": {
+                    "url": "https://docs.infinite.red/reactotron/"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 8
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.6,
+                      "interest": 0.46,
+                      "usage": 0.31,
+                      "retention": 0.56,
+                      "positivity": 0.13
+                    },
+                    "buckets": [
+                      {
+                        "count": 507,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 26,
+                            "id": "positive",
+                            "percentageBucket": 5.13,
+                            "percentageQuestion": 2.02,
+                            "percentageSurvey": 1.13
+                          },
+                          {
+                            "count": 21,
+                            "id": "negative",
+                            "percentageBucket": 4.14,
+                            "percentageQuestion": 1.63,
+                            "percentageSurvey": 0.92
+                          },
+                          {
+                            "count": 460,
+                            "id": "neutral",
+                            "percentageBucket": 90.73,
+                            "percentageQuestion": 35.8,
+                            "percentageSurvey": 20.05
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 39.46,
+                        "percentageSurvey": 22.1
+                      },
+                      {
+                        "count": 365,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 53,
+                            "id": "negative",
+                            "percentageBucket": 14.52,
+                            "percentageQuestion": 4.12,
+                            "percentageSurvey": 2.31
+                          },
+                          {
+                            "count": 266,
+                            "id": "neutral",
+                            "percentageBucket": 72.88,
+                            "percentageQuestion": 20.7,
+                            "percentageSurvey": 11.6
+                          },
+                          {
+                            "count": 46,
+                            "id": "positive",
+                            "percentageBucket": 12.6,
+                            "percentageQuestion": 3.58,
+                            "percentageSurvey": 2.01
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 28.4,
+                        "percentageSurvey": 15.91
+                      },
+                      {
+                        "count": 410,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 239,
+                            "id": "neutral",
+                            "percentageBucket": 58.29,
+                            "percentageQuestion": 18.6,
+                            "percentageSurvey": 10.42
+                          },
+                          {
+                            "count": 96,
+                            "id": "positive",
+                            "percentageBucket": 23.41,
+                            "percentageQuestion": 7.47,
+                            "percentageSurvey": 4.18
+                          },
+                          {
+                            "count": 75,
+                            "id": "negative",
+                            "percentageBucket": 18.29,
+                            "percentageQuestion": 5.84,
+                            "percentageSurvey": 3.27
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 31.91,
+                        "percentageSurvey": 17.87
+                      }
+                    ],
+                    "completion": {
+                      "count": 1285,
+                      "percentageSurvey": 56.02,
+                      "total": 2294
+                    }
+                  }
+                }
+              },
+              {
+                "id": "debugging_profiling_radon_ide",
+                "entity": {
+                  "name": "Radon IDE",
+                  "nameClean": "Radon IDE",
+                  "entityType": "default",
+                  "description": "A better developer experience for React Native developers. A Visual Studio Code / Cursor IDE extension that aims to simplify the development of React Native applications.",
+                  "descriptionClean": "A better developer experience for React Native developers. A Visual Studio Code / Cursor IDE extension that aims to simplify the development of React Native applications.",
+                  "homepage": {
+                    "url": "https://ide.swmansion.com/"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 22
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.63,
+                      "interest": 0.73,
+                      "usage": 0.19,
+                      "retention": 0.48,
+                      "positivity": 0.16
+                    },
+                    "buckets": [
+                      {
+                        "count": 469,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 19,
+                            "id": "negative",
+                            "percentageBucket": 4.05,
+                            "percentageQuestion": 1.48,
+                            "percentageSurvey": 0.83
+                          },
+                          {
+                            "count": 417,
+                            "id": "neutral",
+                            "percentageBucket": 88.91,
+                            "percentageQuestion": 32.48,
+                            "percentageSurvey": 18.18
+                          },
+                          {
+                            "count": 33,
+                            "id": "positive",
+                            "percentageBucket": 7.04,
+                            "percentageQuestion": 2.57,
+                            "percentageSurvey": 1.44
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 36.53,
+                        "percentageSurvey": 20.44
+                      },
+                      {
+                        "count": 566,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 121,
+                            "id": "positive",
+                            "percentageBucket": 21.38,
+                            "percentageQuestion": 9.42,
+                            "percentageSurvey": 5.27
+                          },
+                          {
+                            "count": 43,
+                            "id": "negative",
+                            "percentageBucket": 7.6,
+                            "percentageQuestion": 3.35,
+                            "percentageSurvey": 1.87
+                          },
+                          {
+                            "count": 402,
+                            "id": "neutral",
+                            "percentageBucket": 71.02,
+                            "percentageQuestion": 31.31,
+                            "percentageSurvey": 17.52
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 44.08,
+                        "percentageSurvey": 24.67
+                      },
+                      {
+                        "count": 244,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 126,
+                            "id": "neutral",
+                            "percentageBucket": 51.64,
+                            "percentageQuestion": 9.81,
+                            "percentageSurvey": 5.49
+                          },
+                          {
+                            "count": 61,
+                            "id": "negative",
+                            "percentageBucket": 25,
+                            "percentageQuestion": 4.75,
+                            "percentageSurvey": 2.66
+                          },
+                          {
+                            "count": 57,
+                            "id": "positive",
+                            "percentageBucket": 23.36,
+                            "percentageQuestion": 4.44,
+                            "percentageSurvey": 2.48
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 19,
+                        "percentageSurvey": 10.64
+                      }
+                    ],
+                    "completion": {
+                      "count": 1284,
+                      "percentageSurvey": 55.97,
+                      "total": 2294
+                    }
+                  }
+                }
+              },
+              {
+                "id": "debugging_profiling_legacy_javascript_hermes_debugging",
+                "entity": {
+                  "name": "Legacy JavaScript runtime debuggers",
+                  "nameClean": "Legacy JavaScript runtime debuggers",
+                  "entityType": "default",
+                  "description": "_(React Native built-in)_ JavaScript runtime debugging solutions up to React Native 0.75 (from before <strong>React Native DevTools</strong> era) - <i>experimental New Debugger</i>, <i>Hermes debugging</i> or <i>remote JavaScript debugging</i>.",
+                  "descriptionClean": "(React Native built-in) JavaScript runtime debugging solutions up to React Native 0.75 (from before React Native DevTools era) - experimental New Debugger, Hermes debugging or remote JavaScript debugging.",
+                  "descriptionHtml": "<em>(React Native built-in)</em> JavaScript runtime debugging solutions up to React Native 0.75 (from before <strong>React Native DevTools</strong> era) - <i>experimental New Debugger</i>, <i>Hermes debugging</i> or <i>remote JavaScript debugging</i>."
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 5
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.83,
+                      "interest": 0,
+                      "usage": 0.62,
+                      "retention": 0.3,
+                      "positivity": 0.06
+                    },
+                    "buckets": [
+                      {
+                        "count": 209,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 187,
+                            "id": "neutral",
+                            "percentageBucket": 89.47,
+                            "percentageQuestion": 14.88,
+                            "percentageSurvey": 8.15
+                          },
+                          {
+                            "count": 22,
+                            "id": "insufficient_data",
+                            "percentageBucket": 11
+                          }
+                        ],
+                        "percentageQuestion": 16.63,
+                        "percentageSurvey": 9.11
+                      },
+                      {
+                        "count": 255,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 232,
+                            "id": "neutral",
+                            "percentageBucket": 90.98,
+                            "percentageQuestion": 18.46,
+                            "percentageSurvey": 10.11
+                          },
+                          {
+                            "count": 23,
+                            "id": "insufficient_data",
+                            "percentageBucket": 9
+                          }
+                        ],
+                        "percentageQuestion": 20.29,
+                        "percentageSurvey": 11.12
+                      },
+                      {
+                        "count": 789,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 180,
+                            "id": "negative",
+                            "percentageBucket": 22.81,
+                            "percentageQuestion": 14.32,
+                            "percentageSurvey": 7.85
+                          },
+                          {
+                            "count": 80,
+                            "id": "positive",
+                            "percentageBucket": 10.14,
+                            "percentageQuestion": 6.36,
+                            "percentageSurvey": 3.49
+                          },
+                          {
+                            "count": 529,
+                            "id": "neutral",
+                            "percentageBucket": 67.05,
+                            "percentageQuestion": 42.08,
+                            "percentageSurvey": 23.06
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 62.77,
+                        "percentageSurvey": 34.39
+                      }
+                    ],
+                    "completion": {
+                      "count": 1257,
+                      "percentageSurvey": 54.8,
+                      "total": 2294
+                    }
+                  }
+                }
+              },
+              {
+                "id": "debugging_profiling_flipper",
+                "entity": {
+                  "name": "Flipper",
+                  "nameClean": "Flipper",
+                  "entityType": "default",
+                  "description": "A desktop application enabling cross-platform debugging for mobile apps. Visualize, inspect, and control your apps from a desktop interface, with extensibility via plugins.",
+                  "descriptionClean": "A desktop application enabling cross-platform debugging for mobile apps. Visualize, inspect, and control your apps from a desktop interface, with extensibility via plugins.",
+                  "homepage": {
+                    "url": "https://fbflipper.com/"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 12
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.81,
+                      "interest": 0.29,
+                      "usage": 0.55,
+                      "retention": 0.24,
+                      "positivity": 0.09
+                    },
+                    "buckets": [
+                      {
+                        "count": 230,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 13,
+                            "id": "negative",
+                            "percentageBucket": 5.65,
+                            "percentageQuestion": 1.02,
+                            "percentageSurvey": 0.57
+                          },
+                          {
+                            "count": 198,
+                            "id": "neutral",
+                            "percentageBucket": 86.09,
+                            "percentageQuestion": 15.48,
+                            "percentageSurvey": 8.63
+                          },
+                          {
+                            "count": 19,
+                            "id": "positive",
+                            "percentageBucket": 8.26,
+                            "percentageQuestion": 1.49,
+                            "percentageSurvey": 0.83
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 17.98,
+                        "percentageSurvey": 10.03
+                      },
+                      {
+                        "count": 337,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 17,
+                            "id": "positive",
+                            "percentageBucket": 5.04,
+                            "percentageQuestion": 1.33,
+                            "percentageSurvey": 0.74
+                          },
+                          {
+                            "count": 41,
+                            "id": "negative",
+                            "percentageBucket": 12.17,
+                            "percentageQuestion": 3.21,
+                            "percentageSurvey": 1.79
+                          },
+                          {
+                            "count": 279,
+                            "id": "neutral",
+                            "percentageBucket": 82.79,
+                            "percentageQuestion": 21.81,
+                            "percentageSurvey": 12.16
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 26.35,
+                        "percentageSurvey": 14.69
+                      },
+                      {
+                        "count": 706,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 373,
+                            "id": "neutral",
+                            "percentageBucket": 52.83,
+                            "percentageQuestion": 29.16,
+                            "percentageSurvey": 16.26
+                          },
+                          {
+                            "count": 251,
+                            "id": "negative",
+                            "percentageBucket": 35.55,
+                            "percentageQuestion": 19.62,
+                            "percentageSurvey": 10.94
+                          },
+                          {
+                            "count": 82,
+                            "id": "positive",
+                            "percentageBucket": 11.61,
+                            "percentageQuestion": 6.41,
+                            "percentageSurvey": 3.57
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 55.2,
+                        "percentageSurvey": 30.78
+                      }
+                    ],
+                    "completion": {
+                      "count": 1279,
+                      "percentageSurvey": 55.75,
+                      "total": 2294
+                    }
+                  }
+                }
+              },
+              {
+                "id": "debugging_profiling_native_debugging",
+                "entity": {
+                  "name": "Native debugging",
+                  "nameClean": "Native debugging",
+                  "entityType": "default",
+                  "description": "(Xcode, Android Studio) Platform-native tools for debugging app behavior, variables, and execution flow.",
+                  "descriptionClean": "(Xcode, Android Studio) Platform-native tools for debugging app behavior, variables, and execution flow.",
+                  "homepage": {
+                    "url": "https://developer.android.com/studio/debug"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 9
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.89,
+                      "interest": 0.28,
+                      "usage": 0.59,
+                      "retention": 0.51,
+                      "positivity": 0.11
+                    },
+                    "buckets": [
+                      {
+                        "count": 137,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 124,
+                            "id": "neutral",
+                            "percentageBucket": 90.51,
+                            "percentageQuestion": 9.81,
+                            "percentageSurvey": 5.41
+                          },
+                          {
+                            "count": 13,
+                            "id": "insufficient_data",
+                            "percentageBucket": 9
+                          }
+                        ],
+                        "percentageQuestion": 10.84,
+                        "percentageSurvey": 5.97
+                      },
+                      {
+                        "count": 368,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 15,
+                            "id": "positive",
+                            "percentageBucket": 4.08,
+                            "percentageQuestion": 1.19,
+                            "percentageSurvey": 0.65
+                          },
+                          {
+                            "count": 315,
+                            "id": "neutral",
+                            "percentageBucket": 85.6,
+                            "percentageQuestion": 24.92,
+                            "percentageSurvey": 13.73
+                          },
+                          {
+                            "count": 38,
+                            "id": "negative",
+                            "percentageBucket": 10.33,
+                            "percentageQuestion": 3.01,
+                            "percentageSurvey": 1.66
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 29.11,
+                        "percentageSurvey": 16.04
+                      },
+                      {
+                        "count": 755,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 129,
+                            "id": "negative",
+                            "percentageBucket": 17.09,
+                            "percentageQuestion": 10.21,
+                            "percentageSurvey": 5.62
+                          },
+                          {
+                            "count": 136,
+                            "id": "positive",
+                            "percentageBucket": 18.01,
+                            "percentageQuestion": 10.76,
+                            "percentageSurvey": 5.93
+                          },
+                          {
+                            "count": 490,
+                            "id": "neutral",
+                            "percentageBucket": 64.9,
+                            "percentageQuestion": 38.77,
+                            "percentageSurvey": 21.36
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 59.73,
+                        "percentageSurvey": 32.91
+                      }
+                    ],
+                    "completion": {
+                      "count": 1264,
+                      "percentageSurvey": 55.1,
+                      "total": 2294
+                    }
+                  }
+                }
+              },
+              {
+                "id": "debugging_profiling_native_profiling",
+                "entity": {
+                  "name": "Native profiling",
+                  "nameClean": "Native profiling",
+                  "entityType": "default",
+                  "description": "(Xcode, Android Studio) Platform-native tools for profiling app performance, memory usage, and resource consumption.",
+                  "descriptionClean": "(Xcode, Android Studio) Platform-native tools for profiling app performance, memory usage, and resource consumption.",
+                  "homepage": {
+                    "url": "https://developer.android.com/studio/profile"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 8
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.8,
+                      "interest": 0.58,
+                      "usage": 0.41,
+                      "retention": 0.56,
+                      "positivity": 0.12
+                    },
+                    "buckets": [
+                      {
+                        "count": 249,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 231,
+                            "id": "neutral",
+                            "percentageBucket": 92.77,
+                            "percentageQuestion": 18.38,
+                            "percentageSurvey": 10.07
+                          },
+                          {
+                            "count": 18,
+                            "id": "insufficient_data",
+                            "percentageBucket": 7
+                          }
+                        ],
+                        "percentageQuestion": 19.81,
+                        "percentageSurvey": 10.85
+                      },
+                      {
+                        "count": 479,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 44,
+                            "id": "positive",
+                            "percentageBucket": 9.19,
+                            "percentageQuestion": 3.5,
+                            "percentageSurvey": 1.92
+                          },
+                          {
+                            "count": 31,
+                            "id": "negative",
+                            "percentageBucket": 6.47,
+                            "percentageQuestion": 2.47,
+                            "percentageSurvey": 1.35
+                          },
+                          {
+                            "count": 404,
+                            "id": "neutral",
+                            "percentageBucket": 84.34,
+                            "percentageQuestion": 32.14,
+                            "percentageSurvey": 17.61
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 38.11,
+                        "percentageSurvey": 20.88
+                      },
+                      {
+                        "count": 527,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 107,
+                            "id": "positive",
+                            "percentageBucket": 20.3,
+                            "percentageQuestion": 8.51,
+                            "percentageSurvey": 4.66
+                          },
+                          {
+                            "count": 82,
+                            "id": "negative",
+                            "percentageBucket": 15.56,
+                            "percentageQuestion": 6.52,
+                            "percentageSurvey": 3.57
+                          },
+                          {
+                            "count": 338,
+                            "id": "neutral",
+                            "percentageBucket": 64.14,
+                            "percentageQuestion": 26.89,
+                            "percentageSurvey": 14.73
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 41.93,
+                        "percentageSurvey": 22.97
+                      }
+                    ],
+                    "completion": {
+                      "count": 1257,
+                      "percentageSurvey": 54.8,
+                      "total": 2294
+                    }
+                  }
+                }
+              },
+              {
+                "id": "debugging_profiling_expo_devtools_plugins",
+                "entity": {
+                  "name": "Expo DevTools Plugins",
+                  "nameClean": "Expo DevTools Plugins",
+                  "entityType": "default",
+                  "description": "A plugin system for Expo DevTools that enables developers to create custom debugging and development tools. Allows integration of third-party debugging tools and custom functionality directly into the Expo development environment.",
+                  "descriptionClean": "A plugin system for Expo DevTools that enables developers to create custom debugging and development tools. Allows integration of third-party debugging tools and custom functionality directly into the Expo development environment.",
+                  "homepage": {
+                    "url": "https://docs.expo.dev/debugging/devtools-plugins/"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 10
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.78,
+                      "interest": 0.84,
+                      "usage": 0.37,
+                      "retention": 0.84,
+                      "positivity": 0.16
+                    },
+                    "buckets": [
+                      {
+                        "count": 277,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 242,
+                            "id": "neutral",
+                            "percentageBucket": 87.36,
+                            "percentageQuestion": 19.18,
+                            "percentageSurvey": 10.55
+                          },
+                          {
+                            "count": 35,
+                            "id": "insufficient_data",
+                            "percentageBucket": 13
+                          }
+                        ],
+                        "percentageQuestion": 21.95,
+                        "percentageSurvey": 12.07
+                      },
+                      {
+                        "count": 509,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 76,
+                            "id": "positive",
+                            "percentageBucket": 14.93,
+                            "percentageQuestion": 6.02,
+                            "percentageSurvey": 3.31
+                          },
+                          {
+                            "count": 14,
+                            "id": "negative",
+                            "percentageBucket": 2.75,
+                            "percentageQuestion": 1.11,
+                            "percentageSurvey": 0.61
+                          },
+                          {
+                            "count": 419,
+                            "id": "neutral",
+                            "percentageBucket": 82.32,
+                            "percentageQuestion": 33.2,
+                            "percentageSurvey": 18.27
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 40.33,
+                        "percentageSurvey": 22.19
+                      },
+                      {
+                        "count": 474,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 314,
+                            "id": "neutral",
+                            "percentageBucket": 66.24,
+                            "percentageQuestion": 24.88,
+                            "percentageSurvey": 13.69
+                          },
+                          {
+                            "count": 25,
+                            "id": "negative",
+                            "percentageBucket": 5.27,
+                            "percentageQuestion": 1.98,
+                            "percentageSurvey": 1.09
+                          },
+                          {
+                            "count": 135,
+                            "id": "positive",
+                            "percentageBucket": 28.48,
+                            "percentageQuestion": 10.7,
+                            "percentageSurvey": 5.88
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 37.56,
+                        "percentageSurvey": 20.66
+                      }
+                    ],
+                    "completion": {
+                      "count": 1262,
+                      "percentageSurvey": 55.01,
+                      "total": 2294
+                    }
+                  }
+                }
+              },
+              {
+                "id": "debugging_profiling_flashlight",
+                "entity": {
+                  "name": "Flashlight",
+                  "nameClean": "Flashlight",
+                  "entityType": "default",
+                  "description": "Lighthouse for Mobile - a web service that audits your app and gives a performance score to your Android apps.",
+                  "descriptionClean": "Lighthouse for Mobile - a web service that audits your app and gives a performance score to your Android apps.",
+                  "homepage": {
+                    "url": "https://flashlight.dev/"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 3
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.32,
+                      "interest": 0.78,
+                      "usage": 0.09,
+                      "retention": 0,
+                      "positivity": 0.09
+                    },
+                    "buckets": [
+                      {
+                        "count": 843,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 757,
+                            "id": "neutral",
+                            "percentageBucket": 89.8,
+                            "percentageQuestion": 60.27,
+                            "percentageSurvey": 33
+                          },
+                          {
+                            "count": 28,
+                            "id": "negative",
+                            "percentageBucket": 3.32,
+                            "percentageQuestion": 2.23,
+                            "percentageSurvey": 1.22
+                          },
+                          {
+                            "count": 58,
+                            "id": "positive",
+                            "percentageBucket": 6.88,
+                            "percentageQuestion": 4.62,
+                            "percentageSurvey": 2.53
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 67.12,
+                        "percentageSurvey": 36.75
+                      },
+                      {
+                        "count": 285,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 65,
+                            "id": "positive",
+                            "percentageBucket": 22.81,
+                            "percentageQuestion": 5.18,
+                            "percentageSurvey": 2.83
+                          },
+                          {
+                            "count": 18,
+                            "id": "negative",
+                            "percentageBucket": 6.32,
+                            "percentageQuestion": 1.43,
+                            "percentageSurvey": 0.78
+                          },
+                          {
+                            "count": 202,
+                            "id": "neutral",
+                            "percentageBucket": 70.88,
+                            "percentageQuestion": 16.08,
+                            "percentageSurvey": 8.81
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 22.69,
+                        "percentageSurvey": 12.42
+                      },
+                      {
+                        "count": 125,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 71,
+                            "id": "neutral",
+                            "percentageBucket": 56.8,
+                            "percentageQuestion": 5.65,
+                            "percentageSurvey": 3.1
+                          },
+                          {
+                            "count": 54,
+                            "id": "insufficient_data",
+                            "percentageBucket": 43
+                          }
+                        ],
+                        "percentageQuestion": 9.95,
+                        "percentageSurvey": 5.45
+                      }
+                    ],
+                    "completion": {
+                      "count": 1256,
+                      "percentageSurvey": 54.75,
+                      "total": 2294
+                    }
+                  }
+                }
+              },
+              {
                 "id": "debugging_profiling_console",
                 "entity": {
                   "name": "console API",
@@ -19,71 +1149,88 @@
                     "code": "console.log(\"Hello React Native! 😊\")\n",
                     "codeHighlighted": "<span class=\"hljs-variable language_\">console</span>.<span class=\"hljs-title function_\">log</span>(<span class=\"hljs-string\">&quot;Hello React Native! 😊&quot;</span>)"
                   }
-                }
-              },
-              {
-                "id": "debugging_profiling_remote_javascript_debugging",
-                "entity": {
-                  "name": "Remote JavaScript Debugging",
-                  "nameClean": "Remote JavaScript Debugging",
-                  "entityType": "default",
-                  "description": "Deprecated since React Native 0.73. Remote JavaScript Debugging connects an external web browser (Chrome) to your app and runs your JavaScript code inside a web page.",
-                  "descriptionClean": "Deprecated since React Native 0.73. Remote JavaScript Debugging connects an external web browser (Chrome) to your app and runs your JavaScript code inside a web page.",
-                  "homepage": {
-                    "url": "https://reactnative.dev/docs/other-debugging-methods#remote-javascript-debugging-deprecated"
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 22
                   }
-                }
-              },
-              {
-                "id": "debugging_profiling_hermes_debugger",
-                "entity": {
-                  "name": "Hermes Debugger",
-                  "nameClean": "Hermes Debugger",
-                  "entityType": "default",
-                  "description": "Available starting with React Native 0.73. Debug JavaScript code on the device via Hermes that supports Chrome DevTools Protocol.",
-                  "descriptionClean": "Available starting with React Native 0.73. Debug JavaScript code on the device via Hermes that supports Chrome DevTools Protocol.",
-                  "homepage": {
-                    "url": "https://reactnative.dev/docs/debugging?js-debugger=hermes#opening-the-debugger"
-                  }
-                }
-              },
-              {
-                "id": "debugging_profiling_direct_jsc_debugging",
-                "entity": {
-                  "name": "Direct JSC debugging",
-                  "nameClean": "Direct JSC debugging",
-                  "entityType": "default",
-                  "description": "Use Safari to debug the iOS version of your app when using JavaScriptCore (JSC) as your app's runtime.",
-                  "descriptionClean": "Use Safari to debug the iOS version of your app when using JavaScriptCore (JSC) as your app's runtime.",
-                  "descriptionHtml": "Use Safari to debug the iOS version of your app when using JavaScriptCore (JSC) as your app's runtime.",
-                  "homepage": {
-                    "url": "https://reactnative.dev/docs/other-debugging-methods#safari-developer-tools-direct-jsc-debugging"
-                  }
-                }
-              },
-              {
-                "id": "debugging_profiling_react_native_devtools",
-                "entity": {
-                  "name": "React Native DevTools",
-                  "nameClean": "React Native DevTools",
-                  "entityType": "default",
-                  "description": "Starting with React Native 0.76. New default debugging experience for React Native apps based on Chrome DevTools Protocol with React DevTools included.",
-                  "descriptionClean": "Starting with React Native 0.76. New default debugging experience for React Native apps based on Chrome DevTools Protocol with React DevTools included.",
-                  "homepage": {
-                    "url": "https://github.com/react-native-community/discussions-and-proposals/discussions/819"
-                  }
-                }
-              },
-              {
-                "id": "debugging_profiling_experimental_new_debugger",
-                "entity": {
-                  "name": "Experimental New Debugger",
-                  "nameClean": "Experimental New Debugger",
-                  "entityType": "default",
-                  "description": "Available in React Native 0.73 - 0.75. The preview of the experimental new debugger experience with a new debugger frontend.",
-                  "descriptionClean": "Available in React Native 0.73 - 0.75. The preview of the experimental new debugger experience with a new debugger frontend.",
-                  "homepage": {
-                    "url": "https://github.com/react-native-community/discussions-and-proposals/discussions/733"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 1,
+                      "interest": 0,
+                      "usage": 1,
+                      "retention": 0.96,
+                      "positivity": 0.39
+                    },
+                    "buckets": [
+                      {
+                        "count": 0,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 7,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
+                      },
+                      {
+                        "count": 0,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 9,
+                            "id": "insufficient_data",
+                            "percentageBucket": 100
+                          }
+                        ],
+                        "percentageQuestion": 0,
+                        "percentageSurvey": 0
+                      },
+                      {
+                        "count": 1271,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 755,
+                            "id": "neutral",
+                            "percentageBucket": 59.4,
+                            "percentageQuestion": 58.62,
+                            "percentageSurvey": 32.91
+                          },
+                          {
+                            "count": 499,
+                            "id": "positive",
+                            "percentageBucket": 39.26,
+                            "percentageQuestion": 38.74,
+                            "percentageSurvey": 21.75
+                          },
+                          {
+                            "count": 17,
+                            "id": "negative",
+                            "percentageBucket": 1.34,
+                            "percentageQuestion": 1.32,
+                            "percentageSurvey": 0.74
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 98.68,
+                        "percentageSurvey": 55.41
+                      }
+                    ],
+                    "completion": {
+                      "count": 1288,
+                      "percentageSurvey": 56.15,
+                      "total": 2294
+                    }
                   }
                 }
               },
@@ -93,11 +1240,108 @@
                   "name": "React DevTools",
                   "nameClean": "React DevTools",
                   "entityType": "default",
-                  "description": "Components inspector and performance profiler that let's you debug the React component hierarchy within your app.",
-                  "descriptionClean": "Components inspector and performance profiler that let's you debug the React component hierarchy within your app.",
-                  "descriptionHtml": "Components inspector and performance profiler that let's you debug the React component hierarchy within your app.",
+                  "description": "A desktop application providing <strong>Component Inspector</strong> and <strong>Performance Profiler</strong> panels, mirroring functionality from web browser extension. Now seamlessly integrated within <strong>React Native DevTools</strong>.",
+                  "descriptionClean": "A desktop application providing Component Inspector and Performance Profiler panels, mirroring functionality from web browser extension. Now seamlessly integrated within React Native DevTools.",
+                  "descriptionHtml": "A desktop application providing <strong>Component Inspector</strong> and <strong>Performance Profiler</strong> panels, mirroring functionality from web browser extension. Now seamlessly integrated within <strong>React Native DevTools</strong>.",
                   "homepage": {
                     "url": "https://reactnative.dev/docs/react-devtools"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 7
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.95,
+                      "interest": 0,
+                      "usage": 0.75,
+                      "retention": 0.79,
+                      "positivity": 0.18
+                    },
+                    "buckets": [
+                      {
+                        "count": 52,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 44,
+                            "id": "neutral",
+                            "percentageBucket": 84.62,
+                            "percentageQuestion": 3.46,
+                            "percentageSurvey": 1.92
+                          },
+                          {
+                            "count": 8,
+                            "id": "insufficient_data",
+                            "percentageBucket": 15
+                          }
+                        ],
+                        "percentageQuestion": 4.08,
+                        "percentageSurvey": 2.27
+                      },
+                      {
+                        "count": 258,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 229,
+                            "id": "neutral",
+                            "percentageBucket": 88.76,
+                            "percentageQuestion": 17.99,
+                            "percentageSurvey": 9.98
+                          },
+                          {
+                            "count": 29,
+                            "id": "insufficient_data",
+                            "percentageBucket": 11
+                          }
+                        ],
+                        "percentageQuestion": 20.27,
+                        "percentageSurvey": 11.25
+                      },
+                      {
+                        "count": 960,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 60,
+                            "id": "negative",
+                            "percentageBucket": 6.25,
+                            "percentageQuestion": 4.71,
+                            "percentageSurvey": 2.62
+                          },
+                          {
+                            "count": 237,
+                            "id": "positive",
+                            "percentageBucket": 24.69,
+                            "percentageQuestion": 18.62,
+                            "percentageSurvey": 10.33
+                          },
+                          {
+                            "count": 663,
+                            "id": "neutral",
+                            "percentageBucket": 69.06,
+                            "percentageQuestion": 52.08,
+                            "percentageSurvey": 28.9
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 75.41,
+                        "percentageSurvey": 41.85
+                      }
+                    ],
+                    "completion": {
+                      "count": 1273,
+                      "percentageSurvey": 55.49,
+                      "total": 2294
+                    }
                   }
                 }
               },
@@ -107,23 +1351,108 @@
                   "name": "Element Inspector",
                   "nameClean": "Element Inspector",
                   "entityType": "default",
-                  "description": "The inspector lets you tap on any UI element in the app and see information about it.",
-                  "descriptionClean": "The inspector lets you tap on any UI element in the app and see information about it.",
+                  "description": "_(React Native built-in)_ A debugging utility that, once enabled, allows inspection of UI elements through direct interaction, displaying detailed component information upon tap directly within the app.",
+                  "descriptionClean": "(React Native built-in) A debugging utility that, once enabled, allows inspection of UI elements through direct interaction, displaying detailed component information upon tap directly within the app.",
+                  "descriptionHtml": "<em>(React Native built-in)</em> A debugging utility that, once enabled, allows inspection of UI elements through direct interaction, displaying detailed component information upon tap directly within the app.",
                   "homepage": {
                     "url": "https://reactnative.dev/docs/react-devtools#integration-with-the-element-inspector"
                   }
-                }
-              },
-              {
-                "id": "debugging_profiling_logbox",
-                "entity": {
-                  "name": "LogBox",
-                  "nameClean": "LogBox",
-                  "entityType": "default",
-                  "description": "Displays console errors and console warnings as the overlay inside your app.",
-                  "descriptionClean": "Displays console errors and console warnings as the overlay inside your app.",
-                  "homepage": {
-                    "url": "https://reactnative.dev/docs/debugging#logbox"
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 11
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.91,
+                      "interest": 0,
+                      "usage": 0.79,
+                      "retention": 0.64,
+                      "positivity": 0.16
+                    },
+                    "buckets": [
+                      {
+                        "count": 105,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 96,
+                            "id": "neutral",
+                            "percentageBucket": 91.43,
+                            "percentageQuestion": 7.58,
+                            "percentageSurvey": 4.18
+                          },
+                          {
+                            "count": 9,
+                            "id": "insufficient_data",
+                            "percentageBucket": 9
+                          }
+                        ],
+                        "percentageQuestion": 8.29,
+                        "percentageSurvey": 4.58
+                      },
+                      {
+                        "count": 149,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 135,
+                            "id": "neutral",
+                            "percentageBucket": 90.6,
+                            "percentageQuestion": 10.66,
+                            "percentageSurvey": 5.88
+                          },
+                          {
+                            "count": 14,
+                            "id": "insufficient_data",
+                            "percentageBucket": 9
+                          }
+                        ],
+                        "percentageQuestion": 11.76,
+                        "percentageSurvey": 6.5
+                      },
+                      {
+                        "count": 1006,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 209,
+                            "id": "positive",
+                            "percentageBucket": 20.78,
+                            "percentageQuestion": 16.5,
+                            "percentageSurvey": 9.11
+                          },
+                          {
+                            "count": 115,
+                            "id": "negative",
+                            "percentageBucket": 11.43,
+                            "percentageQuestion": 9.08,
+                            "percentageSurvey": 5.01
+                          },
+                          {
+                            "count": 682,
+                            "id": "neutral",
+                            "percentageBucket": 67.79,
+                            "percentageQuestion": 53.83,
+                            "percentageSurvey": 29.73
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 79.4,
+                        "percentageSurvey": 43.85
+                      }
+                    ],
+                    "completion": {
+                      "count": 1267,
+                      "percentageSurvey": 55.23,
+                      "total": 2294
+                    }
                   }
                 }
               },
@@ -133,108 +1462,348 @@
                   "name": "Performance Monitor",
                   "nameClean": "Performance Monitor",
                   "entityType": "default",
-                  "description": "Displays performance overlay inside your app. Inspect RAM consumption, UI and JS threads FPS and number of views mounted.",
-                  "descriptionClean": "Displays performance overlay inside your app. Inspect RAM consumption, UI and JS threads FPS and number of views mounted.",
+                  "description": "_(React Native built-in)_ An integrated performance monitoring overlay that provides real-time metrics visualization. Allows inspection of RAM consumption, UI and JS threads FPS and number of views mounted.",
+                  "descriptionClean": "(React Native built-in) An integrated performance monitoring overlay that provides real-time metrics visualization. Allows inspection of RAM consumption, UI and JS threads FPS and number of views mounted.",
+                  "descriptionHtml": "<em>(React Native built-in)</em> An integrated performance monitoring overlay that provides real-time metrics visualization. Allows inspection of RAM consumption, UI and JS threads FPS and number of views mounted.",
                   "homepage": {
                     "url": "https://reactnative.dev/docs/performance"
                   }
-                }
-              },
-              {
-                "id": "debugging_profiling_flipper",
-                "entity": {
-                  "name": "Flipper",
-                  "nameClean": "Flipper",
-                  "entityType": "default",
-                  "description": "Cross-platform debugging tool for mobile apps. Visualize, inspect, and control your apps from a desktop interface, with extensibility via plugins.",
-                  "descriptionClean": "Cross-platform debugging tool for mobile apps. Visualize, inspect, and control your apps from a desktop interface, with extensibility via plugins.",
-                  "homepage": {
-                    "url": "https://fbflipper.com/"
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 6
                   }
-                }
-              },
-              {
-                "id": "debugging_profiling_reactotron",
-                "entity": {
-                  "name": "Reactotron",
-                  "nameClean": "Reactotron",
-                  "entityType": "default",
-                  "description": "A desktop app for inspecting your React JS and React Native projects. macOS, Linux, and Windows.",
-                  "descriptionClean": "A desktop app for inspecting your React JS and React Native projects. macOS, Linux, and Windows.",
-                  "homepage": {
-                    "url": "https://docs.infinite.red/reactotron/"
-                  }
-                }
-              },
-              {
-                "id": "debugging_profiling_expo_dev_tools_plugins",
-                "entity": {
-                  "name": "Expo Dev tools plugins",
-                  "nameClean": "Expo Dev tools plugins",
-                  "entityType": "default",
-                  "description": "Available for Expo Development builds of your app. Add debugging features on top of installed libraries.",
-                  "descriptionClean": "Available for Expo Development builds of your app. Add debugging features on top of installed libraries.",
-                  "homepage": {
-                    "url": "https://docs.expo.dev/debugging/devtools-plugins"
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.87,
+                      "interest": 0,
+                      "usage": 0.64,
+                      "retention": 0.73,
+                      "positivity": 0.13
+                    },
+                    "buckets": [
+                      {
+                        "count": 156,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 134,
+                            "id": "neutral",
+                            "percentageBucket": 85.9,
+                            "percentageQuestion": 10.57,
+                            "percentageSurvey": 5.84
+                          },
+                          {
+                            "count": 22,
+                            "id": "insufficient_data",
+                            "percentageBucket": 14
+                          }
+                        ],
+                        "percentageQuestion": 12.3,
+                        "percentageSurvey": 6.8
+                      },
+                      {
+                        "count": 290,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 260,
+                            "id": "neutral",
+                            "percentageBucket": 89.66,
+                            "percentageQuestion": 20.5,
+                            "percentageSurvey": 11.33
+                          },
+                          {
+                            "count": 30,
+                            "id": "insufficient_data",
+                            "percentageBucket": 10
+                          }
+                        ],
+                        "percentageQuestion": 22.87,
+                        "percentageSurvey": 12.64
+                      },
+                      {
+                        "count": 818,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 175,
+                            "id": "positive",
+                            "percentageBucket": 21.39,
+                            "percentageQuestion": 13.8,
+                            "percentageSurvey": 7.63
+                          },
+                          {
+                            "count": 62,
+                            "id": "negative",
+                            "percentageBucket": 7.58,
+                            "percentageQuestion": 4.89,
+                            "percentageSurvey": 2.7
+                          },
+                          {
+                            "count": 581,
+                            "id": "neutral",
+                            "percentageBucket": 71.03,
+                            "percentageQuestion": 45.82,
+                            "percentageSurvey": 25.33
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 64.51,
+                        "percentageSurvey": 35.66
+                      }
+                    ],
+                    "completion": {
+                      "count": 1268,
+                      "percentageSurvey": 55.27,
+                      "total": 2294
+                    }
                   }
                 }
               },
               {
                 "id": "debugging_profiling_react_native_performance",
                 "entity": {
-                  "name": "react-native-performance",
-                  "nameClean": "react-native-performance",
+                  "name": "Performance API (react-native-performance)",
+                  "nameClean": "Performance API (react-native-performance)",
                   "entityType": "default",
-                  "description": "Toolchain to measure and monitor the performance of your React Native app in development, pipeline and in production.",
-                  "descriptionClean": "Toolchain to measure and monitor the performance of your React Native app in development, pipeline and in production."
-                }
-              },
-              {
-                "id": "debugging_profiling_flashlight",
-                "entity": {
-                  "name": "Flashlight",
-                  "nameClean": "Flashlight",
-                  "entityType": "default",
-                  "description": "Lighthouse for Mobile - audits your app and gives a performance score to your Android apps.",
-                  "descriptionClean": "Lighthouse for Mobile - audits your app and gives a performance score to your Android apps.",
-                  "homepage": {
-                    "url": "https://flashlight.dev/"
+                  "description": "A runtime library that delivers an implementation of the Performance API for React Native based on the User Timing Level 3 and Performance Timeline Level 2 drafts.",
+                  "descriptionClean": "A runtime library that delivers an implementation of the Performance API for React Native based on the User Timing Level 3 and Performance Timeline Level 2 drafts."
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.42,
+                      "interest": 0.76,
+                      "usage": 0.12,
+                      "retention": 0.76,
+                      "positivity": 0.13
+                    },
+                    "buckets": [
+                      {
+                        "count": 715,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 616,
+                            "id": "neutral",
+                            "percentageBucket": 86.15,
+                            "percentageQuestion": 49.64,
+                            "percentageSurvey": 26.85
+                          },
+                          {
+                            "count": 81,
+                            "id": "positive",
+                            "percentageBucket": 11.33,
+                            "percentageQuestion": 6.53,
+                            "percentageSurvey": 3.53
+                          },
+                          {
+                            "count": 18,
+                            "id": "negative",
+                            "percentageBucket": 2.52,
+                            "percentageQuestion": 1.45,
+                            "percentageSurvey": 0.78
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 57.61,
+                        "percentageSurvey": 31.17
+                      },
+                      {
+                        "count": 369,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 50,
+                            "id": "positive",
+                            "percentageBucket": 13.55,
+                            "percentageQuestion": 4.03,
+                            "percentageSurvey": 2.18
+                          },
+                          {
+                            "count": 15,
+                            "id": "negative",
+                            "percentageBucket": 4.07,
+                            "percentageQuestion": 1.21,
+                            "percentageSurvey": 0.65
+                          },
+                          {
+                            "count": 304,
+                            "id": "neutral",
+                            "percentageBucket": 82.38,
+                            "percentageQuestion": 24.5,
+                            "percentageSurvey": 13.25
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 29.73,
+                        "percentageSurvey": 16.09
+                      },
+                      {
+                        "count": 156,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 33,
+                            "id": "positive",
+                            "percentageBucket": 21.15,
+                            "percentageQuestion": 2.66,
+                            "percentageSurvey": 1.44
+                          },
+                          {
+                            "count": 10,
+                            "id": "negative",
+                            "percentageBucket": 6.41,
+                            "percentageQuestion": 0.81,
+                            "percentageSurvey": 0.44
+                          },
+                          {
+                            "count": 113,
+                            "id": "neutral",
+                            "percentageBucket": 72.44,
+                            "percentageQuestion": 9.11,
+                            "percentageSurvey": 4.93
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 12.57,
+                        "percentageSurvey": 6.8
+                      }
+                    ],
+                    "completion": {
+                      "count": 1241,
+                      "percentageSurvey": 54.1,
+                      "total": 2294
+                    }
                   }
                 }
               },
               {
-                "id": "debugging_profiling_react_native_flipper_performance_monitor",
+                "id": "debugging_profiling_network_inspector_expo",
                 "entity": {
-                  "name": "react-native-flipper-performance-monitor",
-                  "nameClean": "react-native-flipper-performance-monitor",
+                  "name": "Network Inspector",
+                  "nameClean": "Network Inspector",
                   "entityType": "default",
-                  "description": "An attempt to have a lighthouse for React Native. Flipper plugin to show a graph of the React Native performance monitor.",
-                  "descriptionClean": "An attempt to have a lighthouse for React Native. Flipper plugin to show a graph of the React Native performance monitor."
-                }
-              },
-              {
-                "id": "debugging_profiling_native_debugging",
-                "entity": {
-                  "name": "Native debugging",
-                  "nameClean": "Native debugging",
-                  "entityType": "default",
-                  "description": "(Xcode / Android Studio)",
-                  "descriptionClean": "(Xcode / Android Studio)",
+                  "description": "A network inspector available only in Expo projects that allows you to monitor and debug network requests made by your app.",
+                  "descriptionClean": "A network inspector available only in Expo projects that allows you to monitor and debug network requests made by your app.",
                   "homepage": {
-                    "url": "https://developer.android.com/studio/debug"
+                    "url": "https://docs.expo.dev/debugging/tools/#inspecting-network-requests"
                   }
-                }
-              },
-              {
-                "id": "debugging_profiling_native_profiling",
-                "entity": {
-                  "name": "Native profiling",
-                  "nameClean": "Native profiling",
-                  "entityType": "default",
-                  "description": "(Xcode, Android Studio)",
-                  "descriptionClean": "(Xcode, Android Studio)",
-                  "homepage": {
-                    "url": "https://developer.android.com/studio/profile"
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 12
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.68,
+                      "interest": 0,
+                      "usage": 0.41,
+                      "retention": 0.85,
+                      "positivity": 0.11
+                    },
+                    "buckets": [
+                      {
+                        "count": 396,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 326,
+                            "id": "neutral",
+                            "percentageBucket": 82.32,
+                            "percentageQuestion": 25.96,
+                            "percentageSurvey": 14.21
+                          },
+                          {
+                            "count": 70,
+                            "id": "insufficient_data",
+                            "percentageBucket": 18
+                          }
+                        ],
+                        "percentageQuestion": 31.53,
+                        "percentageSurvey": 17.26
+                      },
+                      {
+                        "count": 331,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 276,
+                            "id": "neutral",
+                            "percentageBucket": 83.38,
+                            "percentageQuestion": 21.97,
+                            "percentageSurvey": 12.03
+                          },
+                          {
+                            "count": 55,
+                            "id": "insufficient_data",
+                            "percentageBucket": 17
+                          }
+                        ],
+                        "percentageQuestion": 26.35,
+                        "percentageSurvey": 14.43
+                      },
+                      {
+                        "count": 525,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 142,
+                            "id": "positive",
+                            "percentageBucket": 27.05,
+                            "percentageQuestion": 11.31,
+                            "percentageSurvey": 6.19
+                          },
+                          {
+                            "count": 25,
+                            "id": "negative",
+                            "percentageBucket": 4.76,
+                            "percentageQuestion": 1.99,
+                            "percentageSurvey": 1.09
+                          },
+                          {
+                            "count": 358,
+                            "id": "neutral",
+                            "percentageBucket": 68.19,
+                            "percentageQuestion": 28.5,
+                            "percentageSurvey": 15.61
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 41.8,
+                        "percentageSurvey": 22.89
+                      }
+                    ],
+                    "completion": {
+                      "count": 1256,
+                      "percentageSurvey": 54.75,
+                      "total": 2294
+                    }
                   }
                 }
               }

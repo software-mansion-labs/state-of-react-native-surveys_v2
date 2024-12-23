@@ -1,0 +1,142 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "state_management": {
+            "state_management_others": {
+              "prenormalized": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 90,
+                    "percentageSurvey": 3.92,
+                    "total": 2294
+                  },
+                  "buckets": [
+                    {
+                      "count": 40,
+                      "id": "tanstack_query",
+                      "percentageQuestion": 44.44,
+                      "percentageSurvey": 1.74
+                    },
+                    {
+                      "count": 13,
+                      "id": "valtio",
+                      "percentageQuestion": 14.44,
+                      "percentageSurvey": 0.57
+                    },
+                    {
+                      "count": 8,
+                      "id": "apollo_client",
+                      "percentageQuestion": 8.89,
+                      "percentageSurvey": 0.35
+                    },
+                    {
+                      "count": 7,
+                      "id": "stan_js",
+                      "percentageQuestion": 7.78,
+                      "percentageSurvey": 0.31
+                    },
+                    {
+                      "count": 3,
+                      "id": "signals",
+                      "percentageQuestion": 3.33,
+                      "percentageSurvey": 0.13,
+                      "entity": {
+                        "name": "Signals",
+                        "nameClean": "Signals",
+                        "id": "signals",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 2,
+                      "id": "relay",
+                      "percentageQuestion": 2.22,
+                      "percentageSurvey": 0.09,
+                      "entity": {
+                        "name": "Relay",
+                        "nameClean": "Relay",
+                        "description": "The GraphQL client that scales with you. A framework for building data-driven React applications.",
+                        "descriptionClean": "The GraphQL client that scales with you. A framework for building data-driven React applications.",
+                        "id": "data_fetching_relay",
+                        "entityType": "default",
+                        "example": {
+                          "language": "js",
+                          "code": "const query = graphql`\n  query Example {\n    // ...\n  }\n`\n\nfunction Component() {\n  const data = useLazyLoadQuery(query)\n  // ...\n}\n",
+                          "codeHighlighted": "<span class=\"hljs-keyword\">const</span> query = graphql<span class=\"hljs-string\">`\n  query Example {\n    // ...\n  }\n`</span>\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Component</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> data = <span class=\"hljs-title function_\">useLazyLoadQuery</span>(query)\n  <span class=\"hljs-comment\">// ...</span>\n}"
+                        },
+                        "homepage": {
+                          "url": "https://relay.dev/"
+                        },
+                        "github": {
+                          "url": "https://github.com/facebook/relay"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/react-relay"
+                        }
+                      }
+                    },
+                    {
+                      "count": 2,
+                      "id": "zustand",
+                      "percentageQuestion": 2.22,
+                      "percentageSurvey": 0.09,
+                      "entity": {
+                        "name": "Zustand",
+                        "nameClean": "Zustand",
+                        "description": "A small, fast, and scalable bearbones state management solution that isn't boilerplatey or opinionated, but has enough convention to be explicit and flux-like.",
+                        "descriptionHtml": "A small, fast, and scalable bearbones state management solution that isn't boilerplatey or opinionated, but has enough convention to be explicit and flux-like.",
+                        "descriptionClean": "A small, fast, and scalable bearbones state management solution that isn't boilerplatey or opinionated, but has enough convention to be explicit and flux-like.",
+                        "id": "state_management_zustand",
+                        "entityType": "default",
+                        "example": {
+                          "language": "js",
+                          "code": "const useStore = create((set) => ({\n  count: 0,\n  increment: () => set((state) => ({ count: state.count + 1 })),\n}))\n\nfunction Counter() {\n  const { count, increment } = useStore()\n  // ...\n}\n",
+                          "codeHighlighted": "<span class=\"hljs-keyword\">const</span> useStore = <span class=\"hljs-title function_\">create</span>(<span class=\"hljs-function\">(<span class=\"hljs-params\">set</span>) =&gt;</span> ({\n  <span class=\"hljs-attr\">count</span>: <span class=\"hljs-number\">0</span>,\n  <span class=\"hljs-attr\">increment</span>: <span class=\"hljs-function\">() =&gt;</span> <span class=\"hljs-title function_\">set</span>(<span class=\"hljs-function\">(<span class=\"hljs-params\">state</span>) =&gt;</span> ({ <span class=\"hljs-attr\">count</span>: state.<span class=\"hljs-property\">count</span> + <span class=\"hljs-number\">1</span> })),\n}))\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Counter</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> { count, increment } = <span class=\"hljs-title function_\">useStore</span>()\n  <span class=\"hljs-comment\">// ...</span>\n}"
+                        },
+                        "homepage": {
+                          "url": "https://zustand-demo.pmnd.rs"
+                        },
+                        "github": {
+                          "url": "https://github.com/pmndrs/zustand"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/zustand"
+                        }
+                      }
+                    },
+                    {
+                      "count": 1,
+                      "id": "better_sqlite3",
+                      "percentageQuestion": 1.11,
+                      "percentageSurvey": 0.04
+                    },
+                    {
+                      "count": 1,
+                      "id": "clojurescript",
+                      "percentageQuestion": 1.11,
+                      "percentageSurvey": 0.04
+                    },
+                    {
+                      "count": 1,
+                      "id": "flux",
+                      "percentageQuestion": 1.11,
+                      "percentageSurvey": 0.04
+                    },
+                    {
+                      "count": 15,
+                      "id": "other_answers",
+                      "percentageQuestion": 16.65,
+                      "percentageSurvey": 0.6
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

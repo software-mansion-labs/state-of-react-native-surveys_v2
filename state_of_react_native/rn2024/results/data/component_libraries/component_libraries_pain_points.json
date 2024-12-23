@@ -1,0 +1,77 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "component_libraries": {
+            "component_libraries_pain_points": {
+              "freeform": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 71,
+                    "percentageSurvey": 3.1,
+                    "total": 2294
+                  },
+                  "buckets": [
+                    {
+                      "count": 11,
+                      "id": "maintenance",
+                      "percentageQuestion": 15.49,
+                      "percentageSurvey": 0.48,
+                      "entity": {
+                        "name": "Maintenance",
+                        "nameClean": "Maintenance",
+                        "id": "maintenance",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 10,
+                      "id": "performance",
+                      "percentageQuestion": 14.08,
+                      "percentageSurvey": 0.44,
+                      "entity": {
+                        "name": "Performance",
+                        "nameClean": "Performance",
+                        "description": "Performance issues",
+                        "descriptionClean": "Performance issues",
+                        "id": "performance",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 2223,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 96.9
+                    },
+                    {
+                      "count": 81,
+                      "id": "other_answers",
+                      "percentageQuestion": 114.11,
+                      "percentageSurvey": 3.5,
+                      "groupedBuckets": [
+                        {
+                          "count": 29,
+                          "id": "cutoff_answers",
+                          "percentageQuestion": 40.87,
+                          "percentageSurvey": 1.23
+                        },
+                        {
+                          "count": 52,
+                          "id": "no_match",
+                          "percentageQuestion": 73.24,
+                          "percentageSurvey": 2.27
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

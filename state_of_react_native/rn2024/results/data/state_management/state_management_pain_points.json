@@ -1,0 +1,143 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "state_management": {
+            "state_management_pain_points": {
+              "freeform": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 201,
+                    "percentageSurvey": 8.76,
+                    "total": 2294
+                  },
+                  "buckets": [
+                    {
+                      "count": 33,
+                      "id": "synchronization_issues",
+                      "percentageQuestion": 16.42,
+                      "percentageSurvey": 1.44,
+                      "entity": {
+                        "name": "Synchronization issues",
+                        "nameClean": "Synchronization issues",
+                        "id": "synchronization_issues",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 21,
+                      "id": "context_api",
+                      "percentageQuestion": 10.45,
+                      "percentageSurvey": 0.92,
+                      "entity": {
+                        "name": "Context API",
+                        "nameClean": "Context API",
+                        "id": "context_api",
+                        "entityType": "default"
+                      },
+                      "groupedBuckets": [
+                        {
+                          "count": 21,
+                          "id": "excesssive_rerendering",
+                          "percentageQuestion": 10.45,
+                          "percentageSurvey": 0.92,
+                          "entity": {
+                            "name": "Excessive re-renderings",
+                            "nameClean": "Excessive re-renderings",
+                            "id": "excesssive_rerendering",
+                            "entityType": "default"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "count": 18,
+                      "id": "redux_issues",
+                      "percentageQuestion": 8.96,
+                      "percentageSurvey": 0.78,
+                      "entity": {
+                        "name": "Redux issues",
+                        "nameClean": "Redux issues",
+                        "id": "redux_issues",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 15,
+                      "id": "too_much_boilerplate",
+                      "percentageQuestion": 7.46,
+                      "percentageSurvey": 0.65,
+                      "entity": {
+                        "name": "Excessive boilerplate",
+                        "nameClean": "Excessive boilerplate",
+                        "description": "Too much boilerplate required",
+                        "descriptionClean": "Too much boilerplate required",
+                        "id": "too_much_boilerplate",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 14,
+                      "id": "performance",
+                      "percentageQuestion": 6.97,
+                      "percentageSurvey": 0.61,
+                      "entity": {
+                        "name": "Performance",
+                        "nameClean": "Performance",
+                        "description": "Performance issues",
+                        "descriptionClean": "Performance issues",
+                        "id": "performance",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 10,
+                      "id": "excessive_complexity",
+                      "percentageQuestion": 4.98,
+                      "percentageSurvey": 0.44,
+                      "entity": {
+                        "name": "Excessive complexity",
+                        "nameClean": "Excessive complexity",
+                        "description": "Too much complexity",
+                        "descriptionClean": "Too much complexity",
+                        "id": "excessive_complexity",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 2093,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 91.24
+                    },
+                    {
+                      "count": 167,
+                      "id": "other_answers",
+                      "percentageQuestion": 83.14,
+                      "percentageSurvey": 7.26,
+                      "groupedBuckets": [
+                        {
+                          "count": 79,
+                          "id": "cutoff_answers",
+                          "percentageQuestion": 39.36,
+                          "percentageSurvey": 3.42
+                        },
+                        {
+                          "count": 88,
+                          "id": "no_match",
+                          "percentageQuestion": 43.78,
+                          "percentageSurvey": 3.84
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

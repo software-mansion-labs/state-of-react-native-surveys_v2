@@ -8,671 +8,87 @@
               "responses": {
                 "currentEdition": {
                   "completion": {
-                    "count": 15,
-                    "percentageSurvey": 42.86,
-                    "total": 35
+                    "count": 1784,
+                    "percentageSurvey": 77.77,
+                    "total": 2294
                   },
                   "buckets": [
                     {
-                      "count": 15,
-                      "id": "platform_apis_accessibility",
-                      "percentageQuestion": 100,
-                      "percentageSurvey": 42.86,
-                      "entity": {
-                        "name": "Accessibility",
-                        "nameClean": "Accessibility",
-                        "id": "platform_apis_accessibility",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/accessibility/",
-                            "title": "Apple"
-                          },
-                          {
-                            "url": "https://developer.android.com/guide/topics/ui/accessibility",
-                            "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 73,
-                      "percentageNegative": 27
-                    },
-                    {
-                      "count": 15,
-                      "id": "platform_apis_appearance",
-                      "percentageQuestion": 100,
-                      "percentageSurvey": 42.86,
-                      "entity": {
-                        "name": "Appearance",
-                        "nameClean": "Appearance",
-                        "id": "platform_apis_appearance",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/uikit/appearance_customization",
-                            "title": "Apple"
-                          },
-                          {
-                            "url": "https://developer.android.com/develop/ui/views/theming/themes",
-                            "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 93,
-                      "percentageNegative": 7
-                    },
-                    {
-                      "count": 15,
-                      "id": "platform_apis_audio",
-                      "percentageQuestion": 100,
-                      "percentageSurvey": 42.86,
-                      "entity": {
-                        "name": "Audio playback",
-                        "nameClean": "Audio playback",
-                        "id": "platform_apis_audio",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/avfoundation/audio_playback_recording_and_processing",
-                            "title": "Apple"
-                          },
-                          {
-                            "url": "https://developer.android.com/guide/topics/media/mediaplayer",
-                            "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 7,
-                      "percentageNegative": 80
-                    },
-                    {
-                      "count": 15,
-                      "id": "platform_apis_battery_level",
-                      "percentageQuestion": 100,
-                      "percentageSurvey": 42.86,
-                      "entity": {
-                        "name": "Battery",
-                        "nameClean": "Battery",
-                        "id": "platform_apis_battery_level",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/uikit/uidevice/1620042-batterylevel",
-                            "title": "Apple"
-                          },
-                          {
-                            "url": "https://developer.android.com/training/monitoring-device-state/battery-monitoring",
-                            "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 20,
-                      "percentageNegative": 73
-                    },
-                    {
-                      "count": 15,
-                      "id": "platform_apis_camera",
-                      "percentageQuestion": 100,
-                      "percentageSurvey": 42.86,
-                      "entity": {
-                        "name": "Camera",
-                        "nameClean": "Camera",
-                        "id": "platform_apis_camera",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/avfoundation/cameras_and_media_capture",
-                            "title": "Apple"
-                          },
-                          {
-                            "url": "https://developer.android.com/media/camera/camerax",
-                            "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 20,
-                      "percentageNegative": 80
-                    },
-                    {
-                      "count": 15,
-                      "id": "platform_apis_media_library",
-                      "percentageQuestion": 100,
-                      "percentageSurvey": 42.86,
-                      "entity": {
-                        "name": "Media library",
-                        "nameClean": "Media library",
-                        "description": "e.g. gallery",
-                        "descriptionClean": "e.g. gallery",
-                        "id": "platform_apis_media_library",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/photokit",
-                            "title": "Apple"
-                          },
-                          {
-                            "url": "https://developer.android.com/training/data-storage/shared/media",
-                            "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 87,
-                      "percentageNegative": 0
-                    },
-                    {
-                      "count": 15,
-                      "id": "platform_apis_microphone",
-                      "percentageQuestion": 100,
-                      "percentageSurvey": 42.86,
-                      "entity": {
-                        "name": "Microphone",
-                        "nameClean": "Microphone",
-                        "id": "platform_apis_microphone",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/avfoundation/audio_playback_recording_and_processing",
-                            "title": "Apple"
-                          },
-                          {
-                            "url": "https://developer.android.com/guide/topics/media/mediarecorder",
-                            "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 87,
-                      "percentageNegative": 0
-                    },
-                    {
-                      "count": 15,
-                      "id": "platform_apis_openGL",
-                      "percentageQuestion": 100,
-                      "percentageSurvey": 42.86,
-                      "entity": {
-                        "name": "OpenGL",
-                        "nameClean": "OpenGL",
-                        "id": "platform_apis_openGL",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/opengles",
-                            "title": "Apple"
-                          },
-                          {
-                            "url": "https://developer.android.com/guide/topics/graphics/opengl",
-                            "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 13,
-                      "percentageNegative": 7
-                    },
-                    {
-                      "count": 15,
-                      "id": "platform_apis_rtl",
-                      "percentageQuestion": 100,
-                      "percentageSurvey": 42.86,
-                      "entity": {
-                        "name": "RTL",
-                        "nameClean": "RTL",
-                        "id": "platform_apis_rtl",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/design/human-interface-guidelines/right-to-left",
-                            "title": "Apple"
-                          },
-                          {
-                            "url": "https://developer.android.com/training/basics/supporting-devices/languages",
-                            "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 13,
-                      "percentageNegative": 80
-                    },
-                    {
-                      "count": 15,
-                      "id": "platform_apis_sensors",
-                      "percentageQuestion": 100,
-                      "percentageSurvey": 42.86,
-                      "entity": {
-                        "name": "Sensors",
-                        "nameClean": "Sensors",
-                        "description": "e.g. gyroscope, accelerometer",
-                        "descriptionClean": "e.g. gyroscope, accelerometer",
-                        "id": "platform_apis_sensors",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/coremotion",
-                            "title": "Apple"
-                          },
-                          {
-                            "url": "https://developer.android.com/guide/topics/sensors/sensors_overview",
-                            "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 0,
-                      "percentageNegative": 80
-                    },
-                    {
-                      "count": 15,
-                      "id": "platform_apis_webview",
-                      "percentageQuestion": 100,
-                      "percentageSurvey": 42.86,
-                      "entity": {
-                        "name": "WebView",
-                        "nameClean": "WebView",
-                        "id": "platform_apis_webview",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/webkit/wkwebview",
-                            "title": "Apple"
-                          },
-                          {
-                            "url": "https://developer.android.com/guide/webapps/webview",
-                            "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 100,
-                      "percentageNegative": 0
-                    },
-                    {
-                      "count": 14,
-                      "id": "platform_apis_ar_av",
-                      "percentageQuestion": 93.33,
-                      "percentageSurvey": 40,
-                      "entity": {
-                        "name": "AR / VR",
-                        "nameClean": "AR / VR",
-                        "id": "platform_apis_ar_av",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/augmented-reality/",
-                            "title": "Apple"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 86,
-                      "percentageNegative": 14
-                    },
-                    {
-                      "count": 14,
-                      "id": "platform_apis_biometric_authentication",
-                      "percentageQuestion": 93.33,
-                      "percentageSurvey": 40,
-                      "entity": {
-                        "name": "Biometric authentication",
-                        "nameClean": "Biometric authentication",
-                        "id": "platform_apis_biometric_authentication",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/localauthentication",
-                            "title": "Apple"
-                          },
-                          {
-                            "url": "https://developer.android.com/training/sign-in/biometric-auth",
-                            "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 14,
-                      "percentageNegative": 79
-                    },
-                    {
-                      "count": 14,
-                      "id": "platform_apis_bluetooth",
-                      "percentageQuestion": 93.33,
-                      "percentageSurvey": 40,
-                      "entity": {
-                        "name": "Bluetooth",
-                        "nameClean": "Bluetooth",
-                        "id": "platform_apis_bluetooth",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/corebluetooth",
-                            "title": "Apple"
-                          },
-                          {
-                            "url": "https://developer.android.com/guide/topics/connectivity/bluetooth",
-                            "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 93,
-                      "percentageNegative": 7
-                    },
-                    {
-                      "count": 14,
-                      "id": "platform_apis_concurrency",
-                      "percentageQuestion": 93.33,
-                      "percentageSurvey": 40,
-                      "entity": {
-                        "name": "Background processing",
-                        "nameClean": "Background processing",
-                        "id": "platform_apis_concurrency",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/backgroundtasks",
-                            "title": "Apple"
-                          },
-                          {
-                            "url": "https://developer.android.com/guide/background",
-                            "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 93,
-                      "percentageNegative": 7
-                    },
-                    {
-                      "count": 14,
-                      "id": "platform_apis_cryptography",
-                      "percentageQuestion": 93.33,
-                      "percentageSurvey": 40,
-                      "entity": {
-                        "name": "Cryptography",
-                        "nameClean": "Cryptography",
-                        "description": "e.g. hardware encryption",
-                        "descriptionClean": "e.g. hardware encryption",
-                        "id": "platform_apis_cryptography",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/cryptokit",
-                            "title": "Apple"
-                          },
-                          {
-                            "url": "https://developer.android.com/guide/topics/security/cryptography",
-                            "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 14,
-                      "percentageNegative": 7
-                    },
-                    {
-                      "count": 14,
-                      "id": "platform_apis_file_system",
-                      "percentageQuestion": 93.33,
-                      "percentageSurvey": 40,
-                      "entity": {
-                        "name": "File System",
-                        "nameClean": "File System",
-                        "id": "platform_apis_file_system",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/foundation/filemanager",
-                            "title": "Apple"
-                          },
-                          {
-                            "url": "https://developer.android.com/training/data-storage",
-                            "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 7,
-                      "percentageNegative": 7
-                    },
-                    {
-                      "count": 14,
-                      "id": "platform_apis_foldable",
-                      "percentageQuestion": 93.33,
-                      "percentageSurvey": 40,
-                      "entity": {
-                        "name": "Foldable",
-                        "nameClean": "Foldable",
-                        "id": "platform_apis_foldable",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.android.com/guide/topics/large-screens/learn-about-foldables",
-                            "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 0,
-                      "percentageNegative": 79
-                    },
-                    {
-                      "count": 14,
-                      "id": "platform_apis_haptics",
-                      "percentageQuestion": 93.33,
-                      "percentageSurvey": 40,
-                      "entity": {
-                        "name": "Haptics",
-                        "nameClean": "Haptics",
-                        "id": "platform_apis_haptics",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/corehaptics",
-                            "title": "Apple"
-                          },
-                          {
-                            "url": "https://developer.android.com/develop/ui/views/haptics?hl=en",
-                            "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 100,
-                      "percentageNegative": 0
-                    },
-                    {
-                      "count": 14,
-                      "id": "platform_apis_location",
-                      "percentageQuestion": 93.33,
-                      "percentageSurvey": 40,
-                      "entity": {
-                        "name": "Location",
-                        "nameClean": "Location",
-                        "id": "platform_apis_location",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/corelocation",
-                            "title": "Apple"
-                          },
-                          {
-                            "url": "https://developer.android.com/training/location",
-                            "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 86,
-                      "percentageNegative": 14
-                    },
-                    {
-                      "count": 14,
-                      "id": "platform_apis_maps",
-                      "percentageQuestion": 93.33,
-                      "percentageSurvey": 40,
-                      "entity": {
-                        "name": "Maps",
-                        "nameClean": "Maps",
-                        "id": "platform_apis_maps",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/maps/",
-                            "title": "Apple"
-                          },
-                          {
-                            "url": "https://developers.google.com/maps/documentation/android-sdk",
-                            "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 7,
-                      "percentageNegative": 86
-                    },
-                    {
-                      "count": 14,
+                      "count": 1189,
                       "id": "platform_apis_notifications",
-                      "percentageQuestion": 93.33,
-                      "percentageSurvey": 40,
+                      "percentageQuestion": 66.65,
+                      "percentageSurvey": 51.83,
                       "entity": {
                         "name": "Notifications",
                         "nameClean": "Notifications",
+                        "description": "Control user-facing notifications",
+                        "descriptionClean": "Control user-facing notifications",
                         "id": "platform_apis_notifications",
-                        "entityType": "feature",
+                        "entityType": "default",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/usernotifications",
-                            "title": "Apple"
+                            "title": "iOS"
                           },
                           {
                             "url": "https://developer.android.com/guide/topics/ui/notifiers/notifications",
                             "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 7,
-                      "percentageNegative": 7
-                    },
-                    {
-                      "count": 14,
-                      "id": "platform_apis_ocr",
-                      "percentageQuestion": 93.33,
-                      "percentageSurvey": 40,
-                      "entity": {
-                        "name": "OCR",
-                        "nameClean": "OCR",
-                        "id": "platform_apis_ocr",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/vision/vnrecognizetextrequest",
-                            "title": "Apple"
                           },
                           {
-                            "url": "https://developers.google.com/ml-kit/vision/text-recognition/android",
-                            "title": "Android"
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API",
+                            "title": "Web API"
                           }
                         ]
                       },
-                      "percentagePositive": 0,
-                      "percentageNegative": 7
+                      "percentagePositive": 19,
+                      "percentageNegative": 8
                     },
                     {
-                      "count": 14,
-                      "id": "platform_apis_screen_orientation",
-                      "percentageQuestion": 93.33,
-                      "percentageSurvey": 40,
+                      "count": 1151,
+                      "id": "platform_apis_camera",
+                      "percentageQuestion": 64.52,
+                      "percentageSurvey": 50.17,
                       "entity": {
-                        "name": "Screen orientation",
-                        "nameClean": "Screen orientation",
-                        "id": "platform_apis_screen_orientation",
-                        "entityType": "feature",
+                        "name": "Camera",
+                        "nameClean": "Camera",
+                        "description": "Capture photos and videos",
+                        "descriptionClean": "Capture photos and videos",
+                        "id": "platform_apis_camera",
+                        "entityType": "default",
                         "resources": [
                           {
-                            "url": "https://developer.apple.com/documentation/uikit/uiinterfaceorientation",
-                            "title": "Apple"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 93,
-                      "percentageNegative": 0
-                    },
-                    {
-                      "count": 14,
-                      "id": "platform_apis_storage",
-                      "percentageQuestion": 93.33,
-                      "percentageSurvey": 40,
-                      "entity": {
-                        "name": "Persistent storage",
-                        "nameClean": "Persistent storage",
-                        "description": "e.g. SQL database",
-                        "descriptionClean": "e.g. SQL database",
-                        "id": "platform_apis_storage",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/coredata",
-                            "title": "Apple"
+                            "url": "https://developer.apple.com/documentation/avfoundation/cameras_and_media_capture",
+                            "title": "iOS"
                           },
                           {
-                            "url": "https://developer.android.com/training/data-storage/sqlite",
+                            "url": "https://developer.android.com/media/camera/get-started-with-camera",
                             "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 21,
-                      "percentageNegative": 0
-                    },
-                    {
-                      "count": 14,
-                      "id": "platform_apis_telephony",
-                      "percentageQuestion": 93.33,
-                      "percentageSurvey": 40,
-                      "entity": {
-                        "name": "Telephony",
-                        "nameClean": "Telephony",
-                        "description": "e.g. SMS, email, dialing",
-                        "descriptionClean": "e.g. SMS, email, dialing",
-                        "id": "platform_apis_telephony",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/messageui",
-                            "title": "Apple"
                           },
                           {
-                            "url": "https://developer.android.com/guide/components/intents-common#Phone",
-                            "title": "Android"
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Media_Capture_and_Streams_API",
+                            "title": "Web API"
                           }
                         ]
                       },
-                      "percentagePositive": 86,
-                      "percentageNegative": 7
+                      "percentagePositive": 29,
+                      "percentageNegative": 4
                     },
                     {
-                      "count": 13,
-                      "id": "platform_apis_clipboard",
-                      "percentageQuestion": 86.67,
-                      "percentageSurvey": 37.14,
-                      "entity": {
-                        "name": "Clipboard",
-                        "nameClean": "Clipboard",
-                        "id": "platform_apis_clipboard",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/uikit/uipasteboard",
-                            "title": "Apple"
-                          },
-                          {
-                            "url": "https://developer.android.com/guide/topics/text/copy-paste",
-                            "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 100,
-                      "percentageNegative": 0
-                    },
-                    {
-                      "count": 13,
+                      "count": 1123,
                       "id": "platform_apis_deep_links",
-                      "percentageQuestion": 86.67,
-                      "percentageSurvey": 37.14,
+                      "percentageQuestion": 62.95,
+                      "percentageSurvey": 48.95,
                       "entity": {
                         "name": "Deep links",
                         "nameClean": "Deep links",
+                        "description": "Link directly to content within the app",
+                        "descriptionClean": "Link directly to content within the app",
                         "id": "platform_apis_deep_links",
-                        "entityType": "feature",
+                        "entityType": "default",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app",
-                            "title": "Apple"
+                            "title": "iOS"
                           },
                           {
                             "url": "https://developer.android.com/training/app-links",
@@ -680,119 +96,25 @@
                           }
                         ]
                       },
-                      "percentagePositive": 0,
-                      "percentageNegative": 92
+                      "percentagePositive": 20,
+                      "percentageNegative": 10
                     },
                     {
-                      "count": 13,
-                      "id": "platform_apis_in_app_payments",
-                      "percentageQuestion": 86.67,
-                      "percentageSurvey": 37.14,
-                      "entity": {
-                        "name": "In-app payments",
-                        "nameClean": "In-app payments",
-                        "id": "platform_apis_in_app_payments",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/in-app-purchase/",
-                            "title": "Apple"
-                          },
-                          {
-                            "url": "https://developer.android.com/google/play/billing",
-                            "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 8,
-                      "percentageNegative": 85
-                    },
-                    {
-                      "count": 13,
-                      "id": "platform_apis_in_app_reviews",
-                      "percentageQuestion": 86.67,
-                      "percentageSurvey": 37.14,
-                      "entity": {
-                        "name": "In-app reviews",
-                        "nameClean": "In-app reviews",
-                        "id": "platform_apis_in_app_reviews",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/storekit/requestreviewaction",
-                            "title": "Apple"
-                          },
-                          {
-                            "url": "https://developer.android.com/guide/playcore/in-app-review",
-                            "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 92,
-                      "percentageNegative": 0
-                    },
-                    {
-                      "count": 13,
-                      "id": "platform_apis_ml",
-                      "percentageQuestion": 86.67,
-                      "percentageSurvey": 37.14,
-                      "entity": {
-                        "name": "ML / AI",
-                        "nameClean": "ML / AI",
-                        "id": "platform_apis_ml",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/machine-learning/",
-                            "title": "Apple"
-                          },
-                          {
-                            "url": "https://developer.android.com/ml",
-                            "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 15,
-                      "percentageNegative": 0
-                    },
-                    {
-                      "count": 13,
-                      "id": "platform_apis_nfc",
-                      "percentageQuestion": 86.67,
-                      "percentageSurvey": 37.14,
-                      "entity": {
-                        "name": "NFC",
-                        "nameClean": "NFC",
-                        "id": "platform_apis_nfc",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/corenfc",
-                            "title": "Apple"
-                          },
-                          {
-                            "url": "https://developer.android.com/guide/topics/connectivity/nfc",
-                            "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 8,
-                      "percentageNegative": 0
-                    },
-                    {
-                      "count": 13,
+                      "count": 1114,
                       "id": "platform_apis_permissions",
-                      "percentageQuestion": 86.67,
-                      "percentageSurvey": 37.14,
+                      "percentageQuestion": 62.44,
+                      "percentageSurvey": 48.56,
                       "entity": {
                         "name": "Permissions",
                         "nameClean": "Permissions",
+                        "description": "Access protected APIs and data",
+                        "descriptionClean": "Access protected APIs and data",
                         "id": "platform_apis_permissions",
-                        "entityType": "feature",
+                        "entityType": "default",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/uikit/protecting_the_user_s_privacy",
-                            "title": "Apple"
+                            "title": "iOS"
                           },
                           {
                             "url": "https://developer.android.com/guide/topics/permissions/overview",
@@ -800,84 +122,1003 @@
                           }
                         ]
                       },
-                      "percentagePositive": 8,
-                      "percentageNegative": 8
+                      "percentagePositive": 24,
+                      "percentageNegative": 4
                     },
                     {
-                      "count": 13,
-                      "id": "platform_apis_printer",
-                      "percentageQuestion": 86.67,
-                      "percentageSurvey": 37.14,
+                      "count": 1039,
+                      "id": "platform_apis_storage",
+                      "percentageQuestion": 58.24,
+                      "percentageSurvey": 45.29,
                       "entity": {
-                        "name": "Printer",
-                        "nameClean": "Printer",
-                        "id": "platform_apis_printer",
-                        "entityType": "feature",
+                        "name": "Persistent storage",
+                        "nameClean": "Persistent storage",
+                        "description": "Persist or cache data on the device",
+                        "descriptionClean": "Persist or cache data on the device",
+                        "id": "platform_apis_storage",
+                        "entityType": "default",
                         "resources": [
                           {
-                            "url": "https://developer.apple.com/documentation/uikit/uiprintinteractioncontroller",
-                            "title": "Apple"
+                            "url": "https://developer.apple.com/documentation/coredata",
+                            "title": "iOS"
                           },
                           {
-                            "url": "https://developer.android.com/training/printing",
+                            "url": "https://developer.android.com/training/data-storage/sqlite",
+                            "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Storage_API",
+                            "title": "Web API"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 27,
+                      "percentageNegative": 2
+                    },
+                    {
+                      "count": 992,
+                      "id": "platform_apis_appearance",
+                      "percentageQuestion": 55.61,
+                      "percentageSurvey": 43.24,
+                      "entity": {
+                        "name": "Appearance",
+                        "nameClean": "Appearance",
+                        "description": "Light and dark modes configuration",
+                        "descriptionClean": "Light and dark modes configuration",
+                        "id": "platform_apis_appearance",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/uikit/appearance_customization",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/develop/ui/views/theming/darktheme",
+                            "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark",
+                            "title": "Web CSS API"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 34,
+                      "percentageNegative": 2
+                    },
+                    {
+                      "count": 962,
+                      "id": "platform_apis_webview",
+                      "percentageQuestion": 53.92,
+                      "percentageSurvey": 41.94,
+                      "entity": {
+                        "name": "WebView",
+                        "nameClean": "WebView",
+                        "description": "Deliver web page as a part of the app",
+                        "descriptionClean": "Deliver web page as a part of the app",
+                        "id": "platform_apis_webview",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/webkit/wkwebview",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/guide/webapps/webview",
                             "title": "Android"
                           }
                         ]
                       },
-                      "percentagePositive": 92,
-                      "percentageNegative": 0
+                      "percentagePositive": 22,
+                      "percentageNegative": 6
                     },
                     {
-                      "count": 13,
+                      "count": 922,
+                      "id": "platform_apis_file_system",
+                      "percentageQuestion": 51.68,
+                      "percentageSurvey": 40.19,
+                      "entity": {
+                        "name": "File System",
+                        "nameClean": "File System",
+                        "description": "Access files on the device file system",
+                        "descriptionClean": "Access files on the device file system",
+                        "id": "platform_apis_file_system",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/foundation/filemanager",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/training/data-storage",
+                            "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/File_System_API",
+                            "title": "Web API"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 23,
+                      "percentageNegative": 5
+                    },
+                    {
+                      "count": 834,
+                      "id": "platform_apis_location",
+                      "percentageQuestion": 46.75,
+                      "percentageSurvey": 36.36,
+                      "entity": {
+                        "name": "Location",
+                        "nameClean": "Location",
+                        "description": "Access device geographic location",
+                        "descriptionClean": "Access device geographic location",
+                        "id": "platform_apis_location",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/corelocation",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/training/location",
+                            "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API",
+                            "title": "Web API"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 26,
+                      "percentageNegative": 5
+                    },
+                    {
+                      "count": 752,
+                      "id": "platform_apis_media_library",
+                      "percentageQuestion": 42.15,
+                      "percentageSurvey": 32.78,
+                      "entity": {
+                        "name": "Media library",
+                        "nameClean": "Media library",
+                        "description": "Access images and videos on the device",
+                        "descriptionClean": "Access images and videos on the device",
+                        "id": "platform_apis_media_library",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/photokit",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/training/data-storage/shared/photopicker",
+                            "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/showOpenFilePicker",
+                            "title": "Web API"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 26,
+                      "percentageNegative": 2
+                    },
+                    {
+                      "count": 742,
+                      "id": "platform_apis_maps",
+                      "percentageQuestion": 41.59,
+                      "percentageSurvey": 32.35,
+                      "entity": {
+                        "name": "Maps",
+                        "nameClean": "Maps",
+                        "description": "Render map component in the app",
+                        "descriptionClean": "Render map component in the app",
+                        "id": "platform_apis_maps",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/maps/",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developers.google.com/maps/documentation/android-sdk",
+                            "title": "Android"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 21,
+                      "percentageNegative": 7
+                    },
+                    {
+                      "count": 725,
+                      "id": "platform_apis_clipboard",
+                      "percentageQuestion": 40.64,
+                      "percentageSurvey": 31.6,
+                      "entity": {
+                        "name": "Clipboard",
+                        "nameClean": "Clipboard",
+                        "description": "Access system clipboard",
+                        "descriptionClean": "Access system clipboard",
+                        "id": "platform_apis_clipboard",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/uikit/uipasteboard",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/guide/topics/text/copy-paste",
+                            "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API",
+                            "title": "Web API"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 30,
+                      "percentageNegative": 1
+                    },
+                    {
+                      "count": 661,
+                      "id": "platform_apis_haptics",
+                      "percentageQuestion": 37.05,
+                      "percentageSurvey": 28.81,
+                      "entity": {
+                        "name": "Haptics",
+                        "nameClean": "Haptics",
+                        "description": "Provide haptic feedback",
+                        "descriptionClean": "Provide haptic feedback",
+                        "id": "platform_apis_haptics",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/corehaptics",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/develop/ui/views/haptics",
+                            "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Vibration_API",
+                            "title": "Web API"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 29,
+                      "percentageNegative": 2
+                    },
+                    {
+                      "count": 511,
+                      "id": "platform_apis_in_app_payments",
+                      "percentageQuestion": 28.64,
+                      "percentageSurvey": 22.28,
+                      "entity": {
+                        "name": "In-app payments",
+                        "nameClean": "In-app payments",
+                        "description": "Sell digital products and content in the app",
+                        "descriptionClean": "Sell digital products and content in the app",
+                        "id": "platform_apis_in_app_payments",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/in-app-purchase/",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/google/play/billing",
+                            "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Payment_Request_API",
+                            "title": "Web API"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 19,
+                      "percentageNegative": 12
+                    },
+                    {
+                      "count": 503,
+                      "id": "platform_apis_audio",
+                      "percentageQuestion": 28.2,
+                      "percentageSurvey": 21.93,
+                      "entity": {
+                        "name": "Audio playback",
+                        "nameClean": "Audio playback",
+                        "description": "Play the audio on the device",
+                        "descriptionClean": "Play the audio on the device",
+                        "id": "platform_apis_audio",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/avfoundation/audio_playback_recording_and_processing",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/media/media3/session/control-playback",
+                            "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API",
+                            "title": "Web API"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 22,
+                      "percentageNegative": 9
+                    },
+                    {
+                      "count": 484,
+                      "id": "platform_apis_background_processing",
+                      "percentageQuestion": 27.13,
+                      "percentageSurvey": 21.1,
+                      "entity": {
+                        "name": "Background processing",
+                        "nameClean": "Background processing",
+                        "description": "Request the system to launch the app in the background to run tasks",
+                        "descriptionClean": "Request the system to launch the app in the background to run tasks",
+                        "id": "platform_apis_background_processing",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/backgroundtasks",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/guide/background",
+                            "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Background_Fetch_API",
+                            "title": "Web API"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 14,
+                      "percentageNegative": 20
+                    },
+                    {
+                      "count": 472,
+                      "id": "platform_apis_screen_orientation",
+                      "percentageQuestion": 26.46,
+                      "percentageSurvey": 20.58,
+                      "entity": {
+                        "name": "Screen orientation",
+                        "nameClean": "Screen orientation",
+                        "description": "Access and control screen orientation",
+                        "descriptionClean": "Access and control screen orientation",
+                        "id": "platform_apis_screen_orientation",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/uikit/uiinterfaceorientation",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/guide/practices/device-compatibility-mode",
+                            "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Screen_Orientation_API",
+                            "title": "Web API"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 20,
+                      "percentageNegative": 8
+                    },
+                    {
+                      "count": 458,
                       "id": "platform_apis_video_playback",
-                      "percentageQuestion": 86.67,
-                      "percentageSurvey": 37.14,
+                      "percentageQuestion": 25.67,
+                      "percentageSurvey": 19.97,
                       "entity": {
                         "name": "Video playback",
                         "nameClean": "Video playback",
+                        "description": "Play the video on the device",
+                        "descriptionClean": "Play the video on the device",
                         "id": "platform_apis_video_playback",
-                        "entityType": "feature",
+                        "entityType": "default",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/avfoundation/media_playback_and_selection",
-                            "title": "Apple"
+                            "title": "iOS"
                           },
                           {
                             "url": "https://developer.android.com/guide/topics/media/mediaplayer",
                             "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement",
+                            "title": "Web API"
                           }
                         ]
                       },
-                      "percentagePositive": 8,
-                      "percentageNegative": 92
+                      "percentagePositive": 18,
+                      "percentageNegative": 10
                     },
                     {
-                      "count": 3,
-                      "id": "platfrom_apis_live_activity",
-                      "percentageQuestion": 20,
-                      "percentageSurvey": 8.57,
+                      "count": 455,
+                      "id": "platform_apis_local_authentication",
+                      "percentageQuestion": 25.5,
+                      "percentageSurvey": 19.83,
+                      "entity": {
+                        "name": "Local authentication",
+                        "nameClean": "Local authentication",
+                        "description": "Authenticate biometrically or with a passphrase",
+                        "descriptionClean": "Authenticate biometrically or with a passphrase",
+                        "id": "platform_apis_local_authentication",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/localauthentication",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/training/sign-in/biometric-auth",
+                            "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Authentication_API",
+                            "title": "Web API"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 25,
+                      "percentageNegative": 5
+                    },
+                    {
+                      "count": 427,
+                      "id": "platform_apis_accessibility",
+                      "percentageQuestion": 23.93,
+                      "percentageSurvey": 18.61,
+                      "entity": {
+                        "name": "Accessibility (a11y)",
+                        "nameClean": "Accessibility (a11y)",
+                        "description": "Make the app accessible to everyone",
+                        "descriptionClean": "Make the app accessible to everyone",
+                        "id": "platform_apis_accessibility",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/accessibility",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/guide/topics/ui/accessibility",
+                            "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
+                            "title": "Web"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 25,
+                      "percentageNegative": 11
+                    },
+                    {
+                      "count": 397,
+                      "id": "platform_apis_in_app_reviews",
+                      "percentageQuestion": 22.25,
+                      "percentageSurvey": 17.31,
+                      "entity": {
+                        "name": "In-app reviews",
+                        "nameClean": "In-app reviews",
+                        "description": "Prompt user to submit rating or review without leaving the app",
+                        "descriptionClean": "Prompt user to submit rating or review without leaving the app",
+                        "id": "platform_apis_in_app_reviews",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/storekit/requestreviewaction",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/guide/playcore/in-app-review",
+                            "title": "Android"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 25,
+                      "percentageNegative": 5
+                    },
+                    {
+                      "count": 322,
+                      "id": "platform_apis_calendar_reminders",
+                      "percentageQuestion": 18.05,
+                      "percentageSurvey": 14.04,
+                      "entity": {
+                        "name": "Calendar and reminders",
+                        "nameClean": "Calendar and reminders",
+                        "description": "Manipulate calendar and reminder events",
+                        "descriptionClean": "Manipulate calendar and reminder events",
+                        "id": "platform_apis_calendar_reminders",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/eventkit",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/identity/providers/calendar-provider",
+                            "title": "Android"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 22,
+                      "percentageNegative": 7
+                    },
+                    {
+                      "count": 316,
+                      "id": "platform_apis_microphone",
+                      "percentageQuestion": 17.71,
+                      "percentageSurvey": 13.78,
+                      "entity": {
+                        "name": "Microphone",
+                        "nameClean": "Microphone",
+                        "description": "Record audio via microphone",
+                        "descriptionClean": "Record audio via microphone",
+                        "id": "platform_apis_microphone",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/avfoundation/audio_playback_recording_and_processing",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/guide/topics/media/mediarecorder",
+                            "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API",
+                            "title": "Web API"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 17,
+                      "percentageNegative": 4
+                    },
+                    {
+                      "count": 304,
+                      "id": "platform_apis_contacts",
+                      "percentageQuestion": 17.04,
+                      "percentageSurvey": 13.25,
+                      "entity": {
+                        "name": "Contacts",
+                        "nameClean": "Contacts",
+                        "description": "Access the user's contacts",
+                        "descriptionHtml": "Access the user's contacts",
+                        "descriptionClean": "Access the user's contacts",
+                        "id": "platform_apis_contacts",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/contacts",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/identity/providers/contacts-provider",
+                            "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Contact_Picker_API",
+                            "title": "Web API"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 21,
+                      "percentageNegative": 3
+                    },
+                    {
+                      "count": 293,
+                      "id": "platform_apis_bluetooth",
+                      "percentageQuestion": 16.42,
+                      "percentageSurvey": 12.77,
+                      "entity": {
+                        "name": "Bluetooth",
+                        "nameClean": "Bluetooth",
+                        "description": "Communicate with bluetooth devices",
+                        "descriptionClean": "Communicate with bluetooth devices",
+                        "id": "platform_apis_bluetooth",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/corebluetooth",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/guide/topics/connectivity/bluetooth",
+                            "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API",
+                            "title": "Web API"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 18,
+                      "percentageNegative": 13
+                    },
+                    {
+                      "count": 190,
+                      "id": "platform_apis_cryptography",
+                      "percentageQuestion": 10.65,
+                      "percentageSurvey": 8.28,
+                      "entity": {
+                        "name": "Cryptography",
+                        "nameClean": "Cryptography",
+                        "description": "Cryptographic primitives and mechanisms (e.g. hardware encryption)",
+                        "descriptionClean": "Cryptographic primitives and mechanisms (e.g. hardware encryption)",
+                        "id": "platform_apis_cryptography",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/cryptokit",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/guide/topics/security/cryptography",
+                            "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Crypto",
+                            "title": "Web API"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 21,
+                      "percentageNegative": 12
+                    },
+                    {
+                      "count": 186,
+                      "id": "platform_apis_sensors",
+                      "percentageQuestion": 10.43,
+                      "percentageSurvey": 8.11,
+                      "entity": {
+                        "name": "Sensors",
+                        "nameClean": "Sensors",
+                        "description": "Process events from accelerometer, gyroscope, magnetometer, barometer, pedometer, etc.",
+                        "descriptionClean": "Process events from accelerometer, gyroscope, magnetometer, barometer, pedometer, etc.",
+                        "id": "platform_apis_sensors",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/coremotion",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/guide/topics/sensors/sensors_overview",
+                            "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Sensor",
+                            "title": "Web API"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 23,
+                      "percentageNegative": 5
+                    },
+                    {
+                      "count": 160,
+                      "id": "platform_apis_rtl",
+                      "percentageQuestion": 8.97,
+                      "percentageSurvey": 6.97,
+                      "entity": {
+                        "name": "RTL (right-to-left)",
+                        "nameClean": "RTL (right-to-left)",
+                        "description": "Support right-to-left languages",
+                        "descriptionClean": "Support right-to-left languages",
+                        "id": "platform_apis_rtl",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/design/human-interface-guidelines/right-to-left",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/training/basics/supporting-devices/languages",
+                            "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Glossary/RTL",
+                            "title": "Web"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 13,
+                      "percentageNegative": 17
+                    },
+                    {
+                      "count": 150,
+                      "id": "platform_apis_battery",
+                      "percentageQuestion": 8.41,
+                      "percentageSurvey": 6.54,
+                      "entity": {
+                        "name": "Battery",
+                        "nameClean": "Battery",
+                        "description": "Access battery information",
+                        "descriptionClean": "Access battery information",
+                        "id": "platform_apis_battery",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/uikit/uidevice/1620042-batterylevel",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/training/monitoring-device-state/battery-monitoring",
+                            "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API",
+                            "title": "Web API"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 31,
+                      "percentageNegative": 2
+                    },
+                    {
+                      "count": 138,
+                      "id": "platform_apis_live_activity",
+                      "percentageQuestion": 7.74,
+                      "percentageSurvey": 6.02,
                       "entity": {
                         "name": "Live activity",
                         "nameClean": "Live activity",
-                        "description": "e.g. Dynamic Island",
-                        "descriptionClean": "e.g. Dynamic Island",
-                        "id": "platfrom_apis_live_activity",
-                        "entityType": "feature",
+                        "description": "Live updates from the app via notification (e.g. Dynamic Island)",
+                        "descriptionClean": "Live updates from the app via notification (e.g. Dynamic Island)",
+                        "id": "platform_apis_live_activity",
+                        "entityType": "default",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/activitykit",
-                            "title": "Apple"
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/develop/ui/views/notifications/custom-notification",
+                            "title": "Android"
                           }
                         ]
                       },
-                      "percentagePositive": 67,
-                      "percentageNegative": 33
+                      "percentagePositive": 13,
+                      "percentageNegative": 18
                     },
                     {
-                      "count": 20,
+                      "count": 117,
+                      "id": "platform_apis_telephony",
+                      "percentageQuestion": 6.56,
+                      "percentageSurvey": 5.1,
+                      "entity": {
+                        "name": "Telephony",
+                        "nameClean": "Telephony",
+                        "description": "Access SMS, email and dialing features",
+                        "descriptionClean": "Access SMS, email and dialing features",
+                        "id": "platform_apis_telephony",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/messageui",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/guide/components/intents-common#Phone",
+                            "title": "Android"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 16,
+                      "percentageNegative": 11
+                    },
+                    {
+                      "count": 110,
+                      "id": "platform_apis_nfc",
+                      "percentageQuestion": 6.17,
+                      "percentageSurvey": 4.8,
+                      "entity": {
+                        "name": "NFC (near field communication)",
+                        "nameClean": "NFC (near field communication)",
+                        "description": "Communicate with NFT tags",
+                        "descriptionClean": "Communicate with NFT tags",
+                        "id": "platform_apis_nfc",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/corenfc",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/guide/topics/connectivity/nfc",
+                            "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_NFC_API",
+                            "title": "Web API"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 15,
+                      "percentageNegative": 9
+                    },
+                    {
+                      "count": 93,
+                      "id": "platform_apis_3d_graphics",
+                      "percentageQuestion": 5.21,
+                      "percentageSurvey": 4.05,
+                      "entity": {
+                        "name": "3D graphics",
+                        "nameClean": "3D graphics",
+                        "description": "Render advanced 3D graphics",
+                        "descriptionClean": "Render advanced 3D graphics",
+                        "id": "platform_apis_3d_graphics",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/metal",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/ndk/guides/graphics",
+                            "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API",
+                            "title": "Web API"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 27,
+                      "percentageNegative": 24
+                    },
+                    {
+                      "count": 84,
+                      "id": "platform_apis_printer",
+                      "percentageQuestion": 4.71,
+                      "percentageSurvey": 3.66,
+                      "entity": {
+                        "name": "Printer",
+                        "nameClean": "Printer",
+                        "description": "Print documents, images, etc",
+                        "descriptionClean": "Print documents, images, etc",
+                        "id": "platform_apis_printer",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/uikit/uiprintinteractioncontroller",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/training/printing",
+                            "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/print",
+                            "title": "Web API"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 11,
+                      "percentageNegative": 8
+                    },
+                    {
+                      "count": 60,
+                      "id": "platform_apis_ar",
+                      "percentageQuestion": 3.36,
+                      "percentageSurvey": 2.62,
+                      "entity": {
+                        "name": "AR",
+                        "nameClean": "AR",
+                        "description": "Augmented reality experiences",
+                        "descriptionClean": "Augmented reality experiences",
+                        "id": "platform_apis_ar",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/augmented-reality/",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developers.google.com/ar",
+                            "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API",
+                            "title": "Web API"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 22,
+                      "percentageNegative": 28
+                    },
+                    {
+                      "count": 59,
+                      "id": "platform_apis_ml",
+                      "percentageQuestion": 3.31,
+                      "percentageSurvey": 2.57,
+                      "entity": {
+                        "name": "ML",
+                        "nameClean": "ML",
+                        "description": "On-device machine learning capabilities (e.g. leverage pretrained ML models to perform OCR, face detection, etc)",
+                        "descriptionClean": "On-device machine learning capabilities (e.g. leverage pretrained ML models to perform OCR, face detection, etc)",
+                        "id": "platform_apis_ml",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/machine-learning/",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developers.google.com/ml-kit",
+                            "title": "Android"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 17,
+                      "percentageNegative": 17
+                    },
+                    {
+                      "count": 54,
+                      "id": "platform_apis_generative_ai",
+                      "percentageQuestion": 3.03,
+                      "percentageSurvey": 2.35,
+                      "entity": {
+                        "name": "Generative AI",
+                        "nameClean": "Generative AI",
+                        "description": "On-device generative models (e.g. Apple intelligence, Gemini Nano)",
+                        "descriptionClean": "On-device generative models (e.g. Apple intelligence, Gemini Nano)",
+                        "id": "platform_apis_generative_ai",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/apple-intelligence/",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/ai",
+                            "title": "Android"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 17,
+                      "percentageNegative": 17
+                    },
+                    {
+                      "count": 43,
+                      "id": "platform_apis_gpu_processing",
+                      "percentageQuestion": 2.41,
+                      "percentageSurvey": 1.87,
+                      "entity": {
+                        "name": "GPU processing",
+                        "nameClean": "GPU processing",
+                        "description": "Perform GPU calculations",
+                        "descriptionClean": "Perform GPU calculations",
+                        "id": "platform_apis_gpu_processing",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/metal/performing_calculations_on_a_gpu",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/ndk/guides/graphics",
+                            "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API",
+                            "title": "Web API"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 19,
+                      "percentageNegative": 21
+                    },
+                    {
+                      "count": 495,
                       "id": "no_answer",
                       "percentageQuestion": 0,
-                      "percentageSurvey": 57.14
+                      "percentageSurvey": 21.58
                     }
                   ]
                 }
