@@ -10,6 +10,7 @@
 - id: developer_background
   template: feature
   slug: developer_background
+  matchTags: [react_features]
   messageId: developer_background.intro_message
   questions:
     - id: developer_background_before
@@ -26,6 +27,7 @@
         - id: developer_background_before_embedded
         - id: developer_background_before_non_technical
         - id: developer_background_before_started_with_rn
+
 
     - id: developer_background_usage_type
       template: singleWithOther
@@ -795,10 +797,12 @@
     - id: resources_video_creators
       template: textList
       disallowedTokenIds: [twitter]
+      matchTags: [people]
 
     - id: resources_people
       template: textList
       disallowedTokenIds: [twitter]
+      matchTags: [people]
 
     - id: resources_surveys
       template: multipleWithOther
