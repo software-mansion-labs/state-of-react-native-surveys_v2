@@ -8,34 +8,48 @@
               "freeform": {
                 "currentEdition": {
                   "completion": {
-                    "count": 77,
-                    "percentageSurvey": 3.36,
-                    "total": 2294
+                    "count": 87,
+                    "percentageSurvey": 3.25,
+                    "total": 2680
                   },
                   "buckets": [
                     {
-                      "count": 2217,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 96.64
+                      "count": 10,
+                      "id": "lack_of_documentation",
+                      "percentageQuestion": 11.49,
+                      "percentageSurvey": 0.37,
+                      "entity": {
+                        "name": "Lack of documentation",
+                        "nameClean": "Lack of documentation",
+                        "description": "Lack of documentation or code examples",
+                        "descriptionClean": "Lack of documentation or code examples",
+                        "id": "lack_of_documentation",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 113,
+                      "count": 2593,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 96.75
+                    },
+                    {
+                      "count": 118,
                       "id": "other_answers",
-                      "percentageQuestion": 146.77,
-                      "percentageSurvey": 4.89,
+                      "percentageQuestion": 135.66,
+                      "percentageSurvey": 4.41,
                       "groupedBuckets": [
                         {
-                          "count": 54,
+                          "count": 51,
                           "id": "cutoff_answers",
-                          "percentageQuestion": 70.15,
-                          "percentageSurvey": 2.32
+                          "percentageQuestion": 58.65,
+                          "percentageSurvey": 1.91
                         },
                         {
-                          "count": 59,
+                          "count": 67,
                           "id": "no_match",
-                          "percentageQuestion": 76.62,
-                          "percentageSurvey": 2.57
+                          "percentageQuestion": 77.01,
+                          "percentageSurvey": 2.5
                         }
                       ]
                     }

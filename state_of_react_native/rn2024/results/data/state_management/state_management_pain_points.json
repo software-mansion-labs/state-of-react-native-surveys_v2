@@ -8,16 +8,16 @@
               "freeform": {
                 "currentEdition": {
                   "completion": {
-                    "count": 201,
-                    "percentageSurvey": 8.76,
-                    "total": 2294
+                    "count": 224,
+                    "percentageSurvey": 8.36,
+                    "total": 2680
                   },
                   "buckets": [
                     {
-                      "count": 33,
+                      "count": 38,
                       "id": "synchronization_issues",
-                      "percentageQuestion": 16.42,
-                      "percentageSurvey": 1.44,
+                      "percentageQuestion": 16.96,
+                      "percentageSurvey": 1.42,
                       "entity": {
                         "name": "Synchronization issues",
                         "nameClean": "Synchronization issues",
@@ -26,10 +26,22 @@
                       }
                     },
                     {
-                      "count": 21,
+                      "count": 24,
+                      "id": "redux_issues",
+                      "percentageQuestion": 10.71,
+                      "percentageSurvey": 0.9,
+                      "entity": {
+                        "name": "Redux issues",
+                        "nameClean": "Redux issues",
+                        "id": "redux_issues",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 23,
                       "id": "context_api",
-                      "percentageQuestion": 10.45,
-                      "percentageSurvey": 0.92,
+                      "percentageQuestion": 10.27,
+                      "percentageSurvey": 0.86,
                       "entity": {
                         "name": "Context API",
                         "nameClean": "Context API",
@@ -38,10 +50,10 @@
                       },
                       "groupedBuckets": [
                         {
-                          "count": 21,
+                          "count": 23,
                           "id": "excesssive_rerendering",
-                          "percentageQuestion": 10.45,
-                          "percentageSurvey": 0.92,
+                          "percentageQuestion": 10.27,
+                          "percentageSurvey": 0.86,
                           "entity": {
                             "name": "Excessive re-renderings",
                             "nameClean": "Excessive re-renderings",
@@ -52,22 +64,10 @@
                       ]
                     },
                     {
-                      "count": 18,
-                      "id": "redux_issues",
-                      "percentageQuestion": 8.96,
-                      "percentageSurvey": 0.78,
-                      "entity": {
-                        "name": "Redux issues",
-                        "nameClean": "Redux issues",
-                        "id": "redux_issues",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 15,
+                      "count": 21,
                       "id": "too_much_boilerplate",
-                      "percentageQuestion": 7.46,
-                      "percentageSurvey": 0.65,
+                      "percentageQuestion": 9.38,
+                      "percentageSurvey": 0.78,
                       "entity": {
                         "name": "Excessive boilerplate",
                         "nameClean": "Excessive boilerplate",
@@ -78,10 +78,10 @@
                       }
                     },
                     {
-                      "count": 14,
+                      "count": 16,
                       "id": "performance",
-                      "percentageQuestion": 6.97,
-                      "percentageSurvey": 0.61,
+                      "percentageQuestion": 7.14,
+                      "percentageSurvey": 0.6,
                       "entity": {
                         "name": "Performance",
                         "nameClean": "Performance",
@@ -92,10 +92,10 @@
                       }
                     },
                     {
-                      "count": 10,
+                      "count": 12,
                       "id": "excessive_complexity",
-                      "percentageQuestion": 4.98,
-                      "percentageSurvey": 0.44,
+                      "percentageQuestion": 5.36,
+                      "percentageSurvey": 0.45,
                       "entity": {
                         "name": "Excessive complexity",
                         "nameClean": "Excessive complexity",
@@ -106,28 +106,54 @@
                       }
                     },
                     {
-                      "count": 2093,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 91.24
+                      "count": 10,
+                      "id": "configuration",
+                      "percentageQuestion": 4.46,
+                      "percentageSurvey": 0.37,
+                      "entity": {
+                        "name": "Configuration",
+                        "nameClean": "Configuration",
+                        "description": "Difficulties with set-up and configuration",
+                        "descriptionClean": "Difficulties with set-up and configuration",
+                        "id": "configuration",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 167,
+                      "count": 10,
+                      "id": "global_state_management",
+                      "percentageQuestion": 4.46,
+                      "percentageSurvey": 0.37,
+                      "entity": {
+                        "name": "Global state management",
+                        "nameClean": "Global state management",
+                        "id": "global_state_management",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 2456,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 91.64
+                    },
+                    {
+                      "count": 166,
                       "id": "other_answers",
-                      "percentageQuestion": 83.14,
-                      "percentageSurvey": 7.26,
+                      "percentageQuestion": 74.13,
+                      "percentageSurvey": 6.19,
                       "groupedBuckets": [
                         {
-                          "count": 79,
+                          "count": 66,
                           "id": "cutoff_answers",
-                          "percentageQuestion": 39.36,
-                          "percentageSurvey": 3.42
+                          "percentageQuestion": 29.49,
+                          "percentageSurvey": 2.46
                         },
                         {
-                          "count": 88,
+                          "count": 100,
                           "id": "no_match",
-                          "percentageQuestion": 43.78,
-                          "percentageSurvey": 3.84
+                          "percentageQuestion": 44.64,
+                          "percentageSurvey": 3.73
                         }
                       ]
                     }

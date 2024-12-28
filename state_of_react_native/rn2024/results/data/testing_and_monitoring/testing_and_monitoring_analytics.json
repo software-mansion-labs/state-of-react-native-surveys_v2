@@ -8,16 +8,16 @@
               "responses": {
                 "currentEdition": {
                   "completion": {
-                    "count": 861,
-                    "percentageSurvey": 37.53,
-                    "total": 2294
+                    "count": 957,
+                    "percentageSurvey": 35.71,
+                    "total": 2680
                   },
                   "buckets": [
                     {
-                      "count": 634,
+                      "count": 706,
                       "id": "testing_and_monitoring_analytics_firebase_analytics",
-                      "percentageQuestion": 73.64,
-                      "percentageSurvey": 27.64,
+                      "percentageQuestion": 73.77,
+                      "percentageSurvey": 26.34,
                       "entity": {
                         "name": "Firebase Analytics",
                         "nameClean": "Firebase Analytics",
@@ -33,10 +33,10 @@
                       "percentageNegative": 5
                     },
                     {
-                      "count": 175,
+                      "count": 196,
                       "id": "testing_and_monitoring_analytics_mixpanel",
-                      "percentageQuestion": 20.33,
-                      "percentageSurvey": 7.63,
+                      "percentageQuestion": 20.48,
+                      "percentageSurvey": 7.31,
                       "entity": {
                         "name": "Mixpanel",
                         "nameClean": "Mixpanel",
@@ -49,13 +49,13 @@
                         }
                       },
                       "percentagePositive": 17,
-                      "percentageNegative": 5
+                      "percentageNegative": 4
                     },
                     {
-                      "count": 160,
+                      "count": 177,
                       "id": "testing_and_monitoring_analytics_amplitude",
-                      "percentageQuestion": 18.58,
-                      "percentageSurvey": 6.97,
+                      "percentageQuestion": 18.5,
+                      "percentageSurvey": 6.6,
                       "entity": {
                         "name": "Amplitude",
                         "nameClean": "Amplitude",
@@ -67,14 +67,14 @@
                           "url": "https://amplitude.com/"
                         }
                       },
-                      "percentagePositive": 13,
+                      "percentagePositive": 12,
                       "percentageNegative": 4
                     },
                     {
-                      "count": 151,
+                      "count": 161,
                       "id": "testing_and_monitoring_analytics_posthog",
-                      "percentageQuestion": 17.54,
-                      "percentageSurvey": 6.58,
+                      "percentageQuestion": 16.82,
+                      "percentageSurvey": 6.01,
                       "entity": {
                         "name": "PostHog",
                         "nameClean": "PostHog",
@@ -86,33 +86,14 @@
                           "url": "https://posthog.com/product-analytics"
                         }
                       },
-                      "percentagePositive": 27,
+                      "percentagePositive": 28,
                       "percentageNegative": 2
                     },
                     {
-                      "count": 135,
-                      "id": "testing_and_monitoring_analytics_segment",
-                      "percentageQuestion": 15.68,
-                      "percentageSurvey": 5.88,
-                      "entity": {
-                        "name": "Segment",
-                        "nameClean": "Segment",
-                        "description": "A customer data platform that helps collect, unify, and route user data to various analytics tools.",
-                        "descriptionClean": "A customer data platform that helps collect, unify, and route user data to various analytics tools.",
-                        "id": "testing_and_monitoring_analytics_segment",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://segment.com/"
-                        }
-                      },
-                      "percentagePositive": 17,
-                      "percentageNegative": 4
-                    },
-                    {
-                      "count": 133,
+                      "count": 147,
                       "id": "testing_and_monitoring_analytics_appsflyer",
-                      "percentageQuestion": 15.45,
-                      "percentageSurvey": 5.8,
+                      "percentageQuestion": 15.36,
+                      "percentageSurvey": 5.49,
                       "entity": {
                         "name": "AppsFlyer",
                         "nameClean": "AppsFlyer",
@@ -124,14 +105,14 @@
                           "url": "https://www.appsflyer.com/"
                         }
                       },
-                      "percentagePositive": 8,
-                      "percentageNegative": 11
+                      "percentagePositive": 7,
+                      "percentageNegative": 10
                     },
                     {
-                      "count": 127,
+                      "count": 146,
                       "id": "testing_and_monitoring_analytics_appcenter_analytics",
-                      "percentageQuestion": 14.75,
-                      "percentageSurvey": 5.54,
+                      "percentageQuestion": 15.26,
+                      "percentageSurvey": 5.45,
                       "entity": {
                         "name": "AppCenter Analytics",
                         "nameClean": "AppCenter Analytics",
@@ -143,14 +124,33 @@
                           "url": "https://learn.microsoft.com/en-us/appcenter/sdk/getting-started/react-native"
                         }
                       },
-                      "percentagePositive": 6,
+                      "percentagePositive": 5,
                       "percentageNegative": 2
                     },
                     {
-                      "count": 44,
+                      "count": 146,
+                      "id": "testing_and_monitoring_analytics_segment",
+                      "percentageQuestion": 15.26,
+                      "percentageSurvey": 5.45,
+                      "entity": {
+                        "name": "Segment",
+                        "nameClean": "Segment",
+                        "description": "A customer data platform that helps collect, unify, and route user data to various analytics tools.",
+                        "descriptionClean": "A customer data platform that helps collect, unify, and route user data to various analytics tools.",
+                        "id": "testing_and_monitoring_analytics_segment",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://segment.com/"
+                        }
+                      },
+                      "percentagePositive": 18,
+                      "percentageNegative": 4
+                    },
+                    {
+                      "count": 54,
                       "id": "testing_and_monitoring_analytics_amplify_analytics",
-                      "percentageQuestion": 5.11,
-                      "percentageSurvey": 1.92,
+                      "percentageQuestion": 5.64,
+                      "percentageSurvey": 2.01,
                       "entity": {
                         "name": "Amplify Analytics",
                         "nameClean": "Amplify Analytics",
@@ -163,13 +163,13 @@
                         }
                       },
                       "percentagePositive": 2,
-                      "percentageNegative": 5
+                      "percentageNegative": 6
                     },
                     {
-                      "count": 33,
+                      "count": 38,
                       "id": "testing_and_monitoring_analytics_adobe_analytics",
-                      "percentageQuestion": 3.83,
-                      "percentageSurvey": 1.44,
+                      "percentageQuestion": 3.97,
+                      "percentageSurvey": 1.42,
                       "entity": {
                         "name": "Adobe Analytics",
                         "nameClean": "Adobe Analytics",
@@ -181,14 +181,14 @@
                           "url": "https://business.adobe.com/products/adobe-analytics.html"
                         }
                       },
-                      "percentagePositive": 6,
-                      "percentageNegative": 6
+                      "percentagePositive": 5,
+                      "percentageNegative": 5
                     },
                     {
-                      "count": 1415,
+                      "count": 1702,
                       "id": "no_answer",
                       "percentageQuestion": 0,
-                      "percentageSurvey": 61.68
+                      "percentageSurvey": 63.51
                     }
                   ]
                 }

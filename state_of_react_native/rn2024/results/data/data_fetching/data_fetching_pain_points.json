@@ -8,34 +8,58 @@
               "freeform": {
                 "currentEdition": {
                   "completion": {
-                    "count": 120,
-                    "percentageSurvey": 5.23,
-                    "total": 2294
+                    "count": 140,
+                    "percentageSurvey": 5.22,
+                    "total": 2680
                   },
                   "buckets": [
                     {
-                      "count": 2174,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 94.77
+                      "count": 11,
+                      "id": "state_management",
+                      "percentageQuestion": 7.86,
+                      "percentageSurvey": 0.41,
+                      "entity": {
+                        "name": "State management",
+                        "nameClean": "State management",
+                        "id": "state_management",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 157,
+                      "count": 10,
+                      "id": "error_handling",
+                      "percentageQuestion": 7.14,
+                      "percentageSurvey": 0.37,
+                      "entity": {
+                        "name": "Error handling",
+                        "nameClean": "Error handling",
+                        "id": "error_handling",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 2540,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 94.78
+                    },
+                    {
+                      "count": 167,
                       "id": "other_answers",
-                      "percentageQuestion": 130.81,
-                      "percentageSurvey": 6.81,
+                      "percentageQuestion": 119.26,
+                      "percentageSurvey": 6.23,
                       "groupedBuckets": [
                         {
-                          "count": 58,
+                          "count": 53,
                           "id": "cutoff_answers",
-                          "percentageQuestion": 48.31,
-                          "percentageSurvey": 2.49
+                          "percentageQuestion": 37.83,
+                          "percentageSurvey": 1.98
                         },
                         {
-                          "count": 99,
+                          "count": 114,
                           "id": "no_match",
-                          "percentageQuestion": 82.5,
-                          "percentageSurvey": 4.32
+                          "percentageQuestion": 81.43,
+                          "percentageSurvey": 4.25
                         }
                       ]
                     }

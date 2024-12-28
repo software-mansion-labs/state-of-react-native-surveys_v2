@@ -8,16 +8,16 @@
               "responses": {
                 "currentEdition": {
                   "completion": {
-                    "count": 1784,
-                    "percentageSurvey": 77.77,
-                    "total": 2294
+                    "count": 2050,
+                    "percentageSurvey": 76.49,
+                    "total": 2680
                   },
                   "buckets": [
                     {
-                      "count": 1189,
+                      "count": 1350,
                       "id": "platform_apis_notifications",
-                      "percentageQuestion": 66.65,
-                      "percentageSurvey": 51.83,
+                      "percentageQuestion": 65.85,
+                      "percentageSurvey": 50.37,
                       "entity": {
                         "name": "Notifications",
                         "nameClean": "Notifications",
@@ -44,10 +44,10 @@
                       "percentageNegative": 8
                     },
                     {
-                      "count": 1151,
+                      "count": 1327,
                       "id": "platform_apis_camera",
-                      "percentageQuestion": 64.52,
-                      "percentageSurvey": 50.17,
+                      "percentageQuestion": 64.73,
+                      "percentageSurvey": 49.51,
                       "entity": {
                         "name": "Camera",
                         "nameClean": "Camera",
@@ -70,40 +70,14 @@
                           }
                         ]
                       },
-                      "percentagePositive": 29,
+                      "percentagePositive": 30,
                       "percentageNegative": 4
                     },
                     {
-                      "count": 1123,
-                      "id": "platform_apis_deep_links",
-                      "percentageQuestion": 62.95,
-                      "percentageSurvey": 48.95,
-                      "entity": {
-                        "name": "Deep links",
-                        "nameClean": "Deep links",
-                        "description": "Link directly to content within the app",
-                        "descriptionClean": "Link directly to content within the app",
-                        "id": "platform_apis_deep_links",
-                        "entityType": "default",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app",
-                            "title": "iOS"
-                          },
-                          {
-                            "url": "https://developer.android.com/training/app-links",
-                            "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 20,
-                      "percentageNegative": 10
-                    },
-                    {
-                      "count": 1114,
+                      "count": 1264,
                       "id": "platform_apis_permissions",
-                      "percentageQuestion": 62.44,
-                      "percentageSurvey": 48.56,
+                      "percentageQuestion": 61.66,
+                      "percentageSurvey": 47.16,
                       "entity": {
                         "name": "Permissions",
                         "nameClean": "Permissions",
@@ -126,10 +100,36 @@
                       "percentageNegative": 4
                     },
                     {
-                      "count": 1039,
+                      "count": 1257,
+                      "id": "platform_apis_deep_links",
+                      "percentageQuestion": 61.32,
+                      "percentageSurvey": 46.9,
+                      "entity": {
+                        "name": "Deep links",
+                        "nameClean": "Deep links",
+                        "description": "Link directly to content within the app",
+                        "descriptionClean": "Link directly to content within the app",
+                        "id": "platform_apis_deep_links",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/training/app-links",
+                            "title": "Android"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 21,
+                      "percentageNegative": 9
+                    },
+                    {
+                      "count": 1175,
                       "id": "platform_apis_storage",
-                      "percentageQuestion": 58.24,
-                      "percentageSurvey": 45.29,
+                      "percentageQuestion": 57.32,
+                      "percentageSurvey": 43.84,
                       "entity": {
                         "name": "Persistent storage",
                         "nameClean": "Persistent storage",
@@ -152,14 +152,14 @@
                           }
                         ]
                       },
-                      "percentagePositive": 27,
+                      "percentagePositive": 28,
                       "percentageNegative": 2
                     },
                     {
-                      "count": 992,
+                      "count": 1137,
                       "id": "platform_apis_appearance",
-                      "percentageQuestion": 55.61,
-                      "percentageSurvey": 43.24,
+                      "percentageQuestion": 55.46,
+                      "percentageSurvey": 42.43,
                       "entity": {
                         "name": "Appearance",
                         "nameClean": "Appearance",
@@ -186,10 +186,10 @@
                       "percentageNegative": 2
                     },
                     {
-                      "count": 962,
+                      "count": 1082,
                       "id": "platform_apis_webview",
-                      "percentageQuestion": 53.92,
-                      "percentageSurvey": 41.94,
+                      "percentageQuestion": 52.78,
+                      "percentageSurvey": 40.37,
                       "entity": {
                         "name": "WebView",
                         "nameClean": "WebView",
@@ -208,14 +208,14 @@
                           }
                         ]
                       },
-                      "percentagePositive": 22,
+                      "percentagePositive": 23,
                       "percentageNegative": 6
                     },
                     {
-                      "count": 922,
+                      "count": 1063,
                       "id": "platform_apis_file_system",
-                      "percentageQuestion": 51.68,
-                      "percentageSurvey": 40.19,
+                      "percentageQuestion": 51.85,
+                      "percentageSurvey": 39.66,
                       "entity": {
                         "name": "File System",
                         "nameClean": "File System",
@@ -242,10 +242,10 @@
                       "percentageNegative": 5
                     },
                     {
-                      "count": 834,
+                      "count": 957,
                       "id": "platform_apis_location",
-                      "percentageQuestion": 46.75,
-                      "percentageSurvey": 36.36,
+                      "percentageQuestion": 46.68,
+                      "percentageSurvey": 35.71,
                       "entity": {
                         "name": "Location",
                         "nameClean": "Location",
@@ -268,14 +268,14 @@
                           }
                         ]
                       },
-                      "percentagePositive": 26,
-                      "percentageNegative": 5
+                      "percentagePositive": 27,
+                      "percentageNegative": 4
                     },
                     {
-                      "count": 752,
+                      "count": 868,
                       "id": "platform_apis_media_library",
-                      "percentageQuestion": 42.15,
-                      "percentageSurvey": 32.78,
+                      "percentageQuestion": 42.34,
+                      "percentageSurvey": 32.39,
                       "entity": {
                         "name": "Media library",
                         "nameClean": "Media library",
@@ -298,14 +298,14 @@
                           }
                         ]
                       },
-                      "percentagePositive": 26,
+                      "percentagePositive": 27,
                       "percentageNegative": 2
                     },
                     {
-                      "count": 742,
+                      "count": 864,
                       "id": "platform_apis_maps",
-                      "percentageQuestion": 41.59,
-                      "percentageSurvey": 32.35,
+                      "percentageQuestion": 42.15,
+                      "percentageSurvey": 32.24,
                       "entity": {
                         "name": "Maps",
                         "nameClean": "Maps",
@@ -324,14 +324,14 @@
                           }
                         ]
                       },
-                      "percentagePositive": 21,
+                      "percentagePositive": 22,
                       "percentageNegative": 7
                     },
                     {
-                      "count": 725,
+                      "count": 829,
                       "id": "platform_apis_clipboard",
-                      "percentageQuestion": 40.64,
-                      "percentageSurvey": 31.6,
+                      "percentageQuestion": 40.44,
+                      "percentageSurvey": 30.93,
                       "entity": {
                         "name": "Clipboard",
                         "nameClean": "Clipboard",
@@ -354,14 +354,14 @@
                           }
                         ]
                       },
-                      "percentagePositive": 30,
+                      "percentagePositive": 31,
                       "percentageNegative": 1
                     },
                     {
-                      "count": 661,
+                      "count": 733,
                       "id": "platform_apis_haptics",
-                      "percentageQuestion": 37.05,
-                      "percentageSurvey": 28.81,
+                      "percentageQuestion": 35.76,
+                      "percentageSurvey": 27.35,
                       "entity": {
                         "name": "Haptics",
                         "nameClean": "Haptics",
@@ -384,14 +384,44 @@
                           }
                         ]
                       },
-                      "percentagePositive": 29,
+                      "percentagePositive": 30,
                       "percentageNegative": 2
                     },
                     {
-                      "count": 511,
+                      "count": 590,
+                      "id": "platform_apis_audio",
+                      "percentageQuestion": 28.78,
+                      "percentageSurvey": 22.01,
+                      "entity": {
+                        "name": "Audio playback",
+                        "nameClean": "Audio playback",
+                        "description": "Play the audio on the device",
+                        "descriptionClean": "Play the audio on the device",
+                        "id": "platform_apis_audio",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/avfoundation/audio_playback_recording_and_processing",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/media/media3/session/control-playback",
+                            "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API",
+                            "title": "Web API"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 23,
+                      "percentageNegative": 10
+                    },
+                    {
+                      "count": 590,
                       "id": "platform_apis_in_app_payments",
-                      "percentageQuestion": 28.64,
-                      "percentageSurvey": 22.28,
+                      "percentageQuestion": 28.78,
+                      "percentageSurvey": 22.01,
                       "entity": {
                         "name": "In-app payments",
                         "nameClean": "In-app payments",
@@ -418,40 +448,10 @@
                       "percentageNegative": 12
                     },
                     {
-                      "count": 503,
-                      "id": "platform_apis_audio",
-                      "percentageQuestion": 28.2,
-                      "percentageSurvey": 21.93,
-                      "entity": {
-                        "name": "Audio playback",
-                        "nameClean": "Audio playback",
-                        "description": "Play the audio on the device",
-                        "descriptionClean": "Play the audio on the device",
-                        "id": "platform_apis_audio",
-                        "entityType": "default",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/avfoundation/audio_playback_recording_and_processing",
-                            "title": "iOS"
-                          },
-                          {
-                            "url": "https://developer.android.com/media/media3/session/control-playback",
-                            "title": "Android"
-                          },
-                          {
-                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API",
-                            "title": "Web API"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 22,
-                      "percentageNegative": 9
-                    },
-                    {
-                      "count": 484,
+                      "count": 562,
                       "id": "platform_apis_background_processing",
-                      "percentageQuestion": 27.13,
-                      "percentageSurvey": 21.1,
+                      "percentageQuestion": 27.41,
+                      "percentageSurvey": 20.97,
                       "entity": {
                         "name": "Background processing",
                         "nameClean": "Background processing",
@@ -478,10 +478,10 @@
                       "percentageNegative": 20
                     },
                     {
-                      "count": 472,
+                      "count": 540,
                       "id": "platform_apis_screen_orientation",
-                      "percentageQuestion": 26.46,
-                      "percentageSurvey": 20.58,
+                      "percentageQuestion": 26.34,
+                      "percentageSurvey": 20.15,
                       "entity": {
                         "name": "Screen orientation",
                         "nameClean": "Screen orientation",
@@ -504,44 +504,14 @@
                           }
                         ]
                       },
-                      "percentagePositive": 20,
+                      "percentagePositive": 21,
                       "percentageNegative": 8
                     },
                     {
-                      "count": 458,
-                      "id": "platform_apis_video_playback",
-                      "percentageQuestion": 25.67,
-                      "percentageSurvey": 19.97,
-                      "entity": {
-                        "name": "Video playback",
-                        "nameClean": "Video playback",
-                        "description": "Play the video on the device",
-                        "descriptionClean": "Play the video on the device",
-                        "id": "platform_apis_video_playback",
-                        "entityType": "default",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/avfoundation/media_playback_and_selection",
-                            "title": "iOS"
-                          },
-                          {
-                            "url": "https://developer.android.com/guide/topics/media/mediaplayer",
-                            "title": "Android"
-                          },
-                          {
-                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement",
-                            "title": "Web API"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 18,
-                      "percentageNegative": 10
-                    },
-                    {
-                      "count": 455,
+                      "count": 522,
                       "id": "platform_apis_local_authentication",
-                      "percentageQuestion": 25.5,
-                      "percentageSurvey": 19.83,
+                      "percentageQuestion": 25.46,
+                      "percentageSurvey": 19.48,
                       "entity": {
                         "name": "Local authentication",
                         "nameClean": "Local authentication",
@@ -565,13 +535,43 @@
                         ]
                       },
                       "percentagePositive": 25,
-                      "percentageNegative": 5
+                      "percentageNegative": 4
                     },
                     {
-                      "count": 427,
+                      "count": 515,
+                      "id": "platform_apis_video_playback",
+                      "percentageQuestion": 25.12,
+                      "percentageSurvey": 19.22,
+                      "entity": {
+                        "name": "Video playback",
+                        "nameClean": "Video playback",
+                        "description": "Play the video on the device",
+                        "descriptionClean": "Play the video on the device",
+                        "id": "platform_apis_video_playback",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/avfoundation/media_playback_and_selection",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/guide/topics/media/mediaplayer",
+                            "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement",
+                            "title": "Web API"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 19,
+                      "percentageNegative": 10
+                    },
+                    {
+                      "count": 489,
                       "id": "platform_apis_accessibility",
-                      "percentageQuestion": 23.93,
-                      "percentageSurvey": 18.61,
+                      "percentageQuestion": 23.85,
+                      "percentageSurvey": 18.25,
                       "entity": {
                         "name": "Accessibility (a11y)",
                         "nameClean": "Accessibility (a11y)",
@@ -594,14 +594,14 @@
                           }
                         ]
                       },
-                      "percentagePositive": 25,
-                      "percentageNegative": 11
+                      "percentagePositive": 26,
+                      "percentageNegative": 10
                     },
                     {
-                      "count": 397,
+                      "count": 450,
                       "id": "platform_apis_in_app_reviews",
-                      "percentageQuestion": 22.25,
-                      "percentageSurvey": 17.31,
+                      "percentageQuestion": 21.95,
+                      "percentageSurvey": 16.79,
                       "entity": {
                         "name": "In-app reviews",
                         "nameClean": "In-app reviews",
@@ -624,36 +624,10 @@
                       "percentageNegative": 5
                     },
                     {
-                      "count": 322,
-                      "id": "platform_apis_calendar_reminders",
-                      "percentageQuestion": 18.05,
-                      "percentageSurvey": 14.04,
-                      "entity": {
-                        "name": "Calendar and reminders",
-                        "nameClean": "Calendar and reminders",
-                        "description": "Manipulate calendar and reminder events",
-                        "descriptionClean": "Manipulate calendar and reminder events",
-                        "id": "platform_apis_calendar_reminders",
-                        "entityType": "default",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/eventkit",
-                            "title": "iOS"
-                          },
-                          {
-                            "url": "https://developer.android.com/identity/providers/calendar-provider",
-                            "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 22,
-                      "percentageNegative": 7
-                    },
-                    {
-                      "count": 316,
+                      "count": 377,
                       "id": "platform_apis_microphone",
-                      "percentageQuestion": 17.71,
-                      "percentageSurvey": 13.78,
+                      "percentageQuestion": 18.39,
+                      "percentageSurvey": 14.07,
                       "entity": {
                         "name": "Microphone",
                         "nameClean": "Microphone",
@@ -676,14 +650,40 @@
                           }
                         ]
                       },
-                      "percentagePositive": 17,
+                      "percentagePositive": 18,
                       "percentageNegative": 4
                     },
                     {
-                      "count": 304,
+                      "count": 374,
+                      "id": "platform_apis_calendar_reminders",
+                      "percentageQuestion": 18.24,
+                      "percentageSurvey": 13.96,
+                      "entity": {
+                        "name": "Calendar and reminders",
+                        "nameClean": "Calendar and reminders",
+                        "description": "Manipulate calendar and reminder events",
+                        "descriptionClean": "Manipulate calendar and reminder events",
+                        "id": "platform_apis_calendar_reminders",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/eventkit",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/identity/providers/calendar-provider",
+                            "title": "Android"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 24,
+                      "percentageNegative": 7
+                    },
+                    {
+                      "count": 358,
                       "id": "platform_apis_contacts",
-                      "percentageQuestion": 17.04,
-                      "percentageSurvey": 13.25,
+                      "percentageQuestion": 17.46,
+                      "percentageSurvey": 13.36,
                       "entity": {
                         "name": "Contacts",
                         "nameClean": "Contacts",
@@ -707,14 +707,14 @@
                           }
                         ]
                       },
-                      "percentagePositive": 21,
+                      "percentagePositive": 22,
                       "percentageNegative": 3
                     },
                     {
-                      "count": 293,
+                      "count": 337,
                       "id": "platform_apis_bluetooth",
-                      "percentageQuestion": 16.42,
-                      "percentageSurvey": 12.77,
+                      "percentageQuestion": 16.44,
+                      "percentageSurvey": 12.57,
                       "entity": {
                         "name": "Bluetooth",
                         "nameClean": "Bluetooth",
@@ -737,14 +737,14 @@
                           }
                         ]
                       },
-                      "percentagePositive": 18,
+                      "percentagePositive": 20,
                       "percentageNegative": 13
                     },
                     {
-                      "count": 190,
+                      "count": 224,
                       "id": "platform_apis_cryptography",
-                      "percentageQuestion": 10.65,
-                      "percentageSurvey": 8.28,
+                      "percentageQuestion": 10.93,
+                      "percentageSurvey": 8.36,
                       "entity": {
                         "name": "Cryptography",
                         "nameClean": "Cryptography",
@@ -767,14 +767,14 @@
                           }
                         ]
                       },
-                      "percentagePositive": 21,
-                      "percentageNegative": 12
+                      "percentagePositive": 22,
+                      "percentageNegative": 11
                     },
                     {
-                      "count": 186,
+                      "count": 218,
                       "id": "platform_apis_sensors",
-                      "percentageQuestion": 10.43,
-                      "percentageSurvey": 8.11,
+                      "percentageQuestion": 10.63,
+                      "percentageSurvey": 8.13,
                       "entity": {
                         "name": "Sensors",
                         "nameClean": "Sensors",
@@ -797,44 +797,14 @@
                           }
                         ]
                       },
-                      "percentagePositive": 23,
-                      "percentageNegative": 5
+                      "percentagePositive": 22,
+                      "percentageNegative": 6
                     },
                     {
-                      "count": 160,
-                      "id": "platform_apis_rtl",
-                      "percentageQuestion": 8.97,
-                      "percentageSurvey": 6.97,
-                      "entity": {
-                        "name": "RTL (right-to-left)",
-                        "nameClean": "RTL (right-to-left)",
-                        "description": "Support right-to-left languages",
-                        "descriptionClean": "Support right-to-left languages",
-                        "id": "platform_apis_rtl",
-                        "entityType": "default",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/design/human-interface-guidelines/right-to-left",
-                            "title": "iOS"
-                          },
-                          {
-                            "url": "https://developer.android.com/training/basics/supporting-devices/languages",
-                            "title": "Android"
-                          },
-                          {
-                            "url": "https://developer.mozilla.org/en-US/docs/Glossary/RTL",
-                            "title": "Web"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 13,
-                      "percentageNegative": 17
-                    },
-                    {
-                      "count": 150,
+                      "count": 181,
                       "id": "platform_apis_battery",
-                      "percentageQuestion": 8.41,
-                      "percentageSurvey": 6.54,
+                      "percentageQuestion": 8.83,
+                      "percentageSurvey": 6.75,
                       "entity": {
                         "name": "Battery",
                         "nameClean": "Battery",
@@ -857,14 +827,44 @@
                           }
                         ]
                       },
-                      "percentagePositive": 31,
+                      "percentagePositive": 33,
                       "percentageNegative": 2
                     },
                     {
-                      "count": 138,
+                      "count": 179,
+                      "id": "platform_apis_rtl",
+                      "percentageQuestion": 8.73,
+                      "percentageSurvey": 6.68,
+                      "entity": {
+                        "name": "RTL (right-to-left)",
+                        "nameClean": "RTL (right-to-left)",
+                        "description": "Support right-to-left languages",
+                        "descriptionClean": "Support right-to-left languages",
+                        "id": "platform_apis_rtl",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/design/human-interface-guidelines/right-to-left",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/training/basics/supporting-devices/languages",
+                            "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Glossary/RTL",
+                            "title": "Web"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 14,
+                      "percentageNegative": 17
+                    },
+                    {
+                      "count": 158,
                       "id": "platform_apis_live_activity",
-                      "percentageQuestion": 7.74,
-                      "percentageSurvey": 6.02,
+                      "percentageQuestion": 7.71,
+                      "percentageSurvey": 5.9,
                       "entity": {
                         "name": "Live activity",
                         "nameClean": "Live activity",
@@ -887,10 +887,10 @@
                       "percentageNegative": 18
                     },
                     {
-                      "count": 117,
+                      "count": 133,
                       "id": "platform_apis_telephony",
-                      "percentageQuestion": 6.56,
-                      "percentageSurvey": 5.1,
+                      "percentageQuestion": 6.49,
+                      "percentageSurvey": 4.96,
                       "entity": {
                         "name": "Telephony",
                         "nameClean": "Telephony",
@@ -909,14 +909,14 @@
                           }
                         ]
                       },
-                      "percentagePositive": 16,
+                      "percentagePositive": 18,
                       "percentageNegative": 11
                     },
                     {
-                      "count": 110,
+                      "count": 128,
                       "id": "platform_apis_nfc",
-                      "percentageQuestion": 6.17,
-                      "percentageSurvey": 4.8,
+                      "percentageQuestion": 6.24,
+                      "percentageSurvey": 4.78,
                       "entity": {
                         "name": "NFC (near field communication)",
                         "nameClean": "NFC (near field communication)",
@@ -939,14 +939,14 @@
                           }
                         ]
                       },
-                      "percentagePositive": 15,
-                      "percentageNegative": 9
+                      "percentagePositive": 16,
+                      "percentageNegative": 11
                     },
                     {
-                      "count": 93,
+                      "count": 119,
                       "id": "platform_apis_3d_graphics",
-                      "percentageQuestion": 5.21,
-                      "percentageSurvey": 4.05,
+                      "percentageQuestion": 5.8,
+                      "percentageSurvey": 4.44,
                       "entity": {
                         "name": "3D graphics",
                         "nameClean": "3D graphics",
@@ -969,14 +969,14 @@
                           }
                         ]
                       },
-                      "percentagePositive": 27,
+                      "percentagePositive": 24,
                       "percentageNegative": 24
                     },
                     {
-                      "count": 84,
+                      "count": 100,
                       "id": "platform_apis_printer",
-                      "percentageQuestion": 4.71,
-                      "percentageSurvey": 3.66,
+                      "percentageQuestion": 4.88,
+                      "percentageSurvey": 3.73,
                       "entity": {
                         "name": "Printer",
                         "nameClean": "Printer",
@@ -999,14 +999,66 @@
                           }
                         ]
                       },
-                      "percentagePositive": 11,
-                      "percentageNegative": 8
+                      "percentagePositive": 12,
+                      "percentageNegative": 9
                     },
                     {
-                      "count": 60,
+                      "count": 78,
+                      "id": "platform_apis_ml",
+                      "percentageQuestion": 3.8,
+                      "percentageSurvey": 2.91,
+                      "entity": {
+                        "name": "ML",
+                        "nameClean": "ML",
+                        "description": "On-device machine learning capabilities (e.g. leverage pretrained ML models to perform OCR, face detection, etc)",
+                        "descriptionClean": "On-device machine learning capabilities (e.g. leverage pretrained ML models to perform OCR, face detection, etc)",
+                        "id": "platform_apis_ml",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/machine-learning/",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developers.google.com/ml-kit",
+                            "title": "Android"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 19,
+                      "percentageNegative": 14
+                    },
+                    {
+                      "count": 77,
+                      "id": "platform_apis_generative_ai",
+                      "percentageQuestion": 3.76,
+                      "percentageSurvey": 2.87,
+                      "entity": {
+                        "name": "Generative AI",
+                        "nameClean": "Generative AI",
+                        "description": "On-device generative models (e.g. Apple intelligence, Gemini Nano)",
+                        "descriptionClean": "On-device generative models (e.g. Apple intelligence, Gemini Nano)",
+                        "id": "platform_apis_generative_ai",
+                        "entityType": "default",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/apple-intelligence/",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/ai",
+                            "title": "Android"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 18,
+                      "percentageNegative": 13
+                    },
+                    {
+                      "count": 76,
                       "id": "platform_apis_ar",
-                      "percentageQuestion": 3.36,
-                      "percentageSurvey": 2.62,
+                      "percentageQuestion": 3.71,
+                      "percentageSurvey": 2.84,
                       "entity": {
                         "name": "AR",
                         "nameClean": "AR",
@@ -1033,62 +1085,10 @@
                       "percentageNegative": 28
                     },
                     {
-                      "count": 59,
-                      "id": "platform_apis_ml",
-                      "percentageQuestion": 3.31,
-                      "percentageSurvey": 2.57,
-                      "entity": {
-                        "name": "ML",
-                        "nameClean": "ML",
-                        "description": "On-device machine learning capabilities (e.g. leverage pretrained ML models to perform OCR, face detection, etc)",
-                        "descriptionClean": "On-device machine learning capabilities (e.g. leverage pretrained ML models to perform OCR, face detection, etc)",
-                        "id": "platform_apis_ml",
-                        "entityType": "default",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/machine-learning/",
-                            "title": "iOS"
-                          },
-                          {
-                            "url": "https://developers.google.com/ml-kit",
-                            "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 17,
-                      "percentageNegative": 17
-                    },
-                    {
-                      "count": 54,
-                      "id": "platform_apis_generative_ai",
-                      "percentageQuestion": 3.03,
-                      "percentageSurvey": 2.35,
-                      "entity": {
-                        "name": "Generative AI",
-                        "nameClean": "Generative AI",
-                        "description": "On-device generative models (e.g. Apple intelligence, Gemini Nano)",
-                        "descriptionClean": "On-device generative models (e.g. Apple intelligence, Gemini Nano)",
-                        "id": "platform_apis_generative_ai",
-                        "entityType": "default",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/apple-intelligence/",
-                            "title": "iOS"
-                          },
-                          {
-                            "url": "https://developer.android.com/ai",
-                            "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 17,
-                      "percentageNegative": 17
-                    },
-                    {
-                      "count": 43,
+                      "count": 57,
                       "id": "platform_apis_gpu_processing",
-                      "percentageQuestion": 2.41,
-                      "percentageSurvey": 1.87,
+                      "percentageQuestion": 2.78,
+                      "percentageSurvey": 2.13,
                       "entity": {
                         "name": "GPU processing",
                         "nameClean": "GPU processing",
@@ -1111,14 +1111,14 @@
                           }
                         ]
                       },
-                      "percentagePositive": 19,
-                      "percentageNegative": 21
+                      "percentagePositive": 18,
+                      "percentageNegative": 19
                     },
                     {
-                      "count": 495,
+                      "count": 612,
                       "id": "no_answer",
                       "percentageQuestion": 0,
-                      "percentageSurvey": 21.58
+                      "percentageSurvey": 22.84
                     }
                   ]
                 }
