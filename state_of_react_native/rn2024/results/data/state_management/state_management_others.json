@@ -66,7 +66,7 @@
                         "description": "The GraphQL client that scales with you. A framework for building data-driven React applications.",
                         "descriptionClean": "The GraphQL client that scales with you. A framework for building data-driven React applications.",
                         "id": "data_fetching_relay",
-                        "entityType": "default",
+                        "entityType": "library",
                         "example": {
                           "language": "js",
                           "code": "const query = graphql`\n  query Example {\n    // ...\n  }\n`\n\nfunction Component() {\n  const data = useLazyLoadQuery(query)\n  // ...\n}\n",
@@ -107,7 +107,7 @@
                         "descriptionHtml": "A small, fast, and scalable bearbones state management solution that isn't boilerplatey or opinionated, but has enough convention to be explicit and flux-like.",
                         "descriptionClean": "A small, fast, and scalable bearbones state management solution that isn't boilerplatey or opinionated, but has enough convention to be explicit and flux-like.",
                         "id": "state_management_zustand",
-                        "entityType": "default",
+                        "entityType": "library",
                         "example": {
                           "language": "js",
                           "code": "const useStore = create((set) => ({\n  count: 0,\n  increment: () => set((state) => ({ count: state.count + 1 })),\n}))\n\nfunction Counter() {\n  const { count, increment } = useStore()\n  // ...\n}\n",

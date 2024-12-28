@@ -10,7 +10,7 @@
                 "entity": {
                   "name": "React Native DevTools",
                   "nameClean": "React Native DevTools",
-                  "entityType": "default",
+                  "entityType": "library",
                   "description": "_(React Native built-in)_ The new default debugging experience introduced in React Native 0.76, leveraging <strong>Chrome DevTools Protocol</strong> (<strong><i>Console API</i>, <i>Sources & breakpoints</i></strong>) and providing integrated <strong>React DevTools</strong> functionality as a core feature.",
                   "descriptionClean": "(React Native built-in) The new default debugging experience introduced in React Native 0.76, leveraging Chrome DevTools Protocol (Console API, Sources  breakpoints) and providing integrated React DevTools functionality as a core feature.",
                   "descriptionHtml": "<em>(React Native built-in)</em> The new default debugging experience introduced in React Native 0.76, leveraging <strong>Chrome DevTools Protocol</strong> (<strong><i>Console API</i>, <i>Sources &amp; breakpoints</i></strong>) and providing integrated <strong>React DevTools</strong> functionality as a core feature.",
@@ -78,11 +78,11 @@
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 239,
-                            "id": "positive",
-                            "percentageBucket": 25.73,
-                            "percentageQuestion": 16.33,
-                            "percentageSurvey": 8.92
+                            "count": 610,
+                            "id": "neutral",
+                            "percentageBucket": 65.66,
+                            "percentageQuestion": 41.67,
+                            "percentageSurvey": 22.76
                           },
                           {
                             "count": 80,
@@ -92,11 +92,11 @@
                             "percentageSurvey": 2.99
                           },
                           {
-                            "count": 610,
-                            "id": "neutral",
-                            "percentageBucket": 65.66,
-                            "percentageQuestion": 41.67,
-                            "percentageSurvey": 22.76
+                            "count": 239,
+                            "id": "positive",
+                            "percentageBucket": 25.73,
+                            "percentageQuestion": 16.33,
+                            "percentageSurvey": 8.92
                           },
                           {
                             "count": 0,
@@ -121,7 +121,7 @@
                 "entity": {
                   "name": "Reactotron",
                   "nameClean": "Reactotron",
-                  "entityType": "default",
+                  "entityType": "library",
                   "description": "A desktop application for inspecting your React and React Native projects. Enables monitoring application's state, network requests, and performance metrics.",
                   "descriptionClean": "A desktop application for inspecting your React and React Native projects. Enables monitoring application's state, network requests, and performance metrics.",
                   "descriptionHtml": "A desktop application for inspecting your React and React Native projects. Enables monitoring application's state, network requests, and performance metrics.",
@@ -149,6 +149,13 @@
                         "id": "never_heard",
                         "facetBuckets": [
                           {
+                            "count": 533,
+                            "id": "neutral",
+                            "percentageBucket": 89.58,
+                            "percentageQuestion": 36.86,
+                            "percentageSurvey": 19.89
+                          },
+                          {
                             "count": 36,
                             "id": "positive",
                             "percentageBucket": 6.05,
@@ -161,13 +168,6 @@
                             "percentageBucket": 4.37,
                             "percentageQuestion": 1.8,
                             "percentageSurvey": 0.97
-                          },
-                          {
-                            "count": 533,
-                            "id": "neutral",
-                            "percentageBucket": 89.58,
-                            "percentageQuestion": 36.86,
-                            "percentageSurvey": 19.89
                           },
                           {
                             "count": 0,
@@ -260,7 +260,7 @@
                 "entity": {
                   "name": "Radon IDE",
                   "nameClean": "Radon IDE",
-                  "entityType": "default",
+                  "entityType": "library",
                   "description": "A better developer experience for React Native developers. A Visual Studio Code / Cursor IDE extension that aims to simplify the development of React Native applications.",
                   "descriptionClean": "A better developer experience for React Native developers. A Visual Studio Code / Cursor IDE extension that aims to simplify the development of React Native applications.",
                   "homepage": {
@@ -287,13 +287,6 @@
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 487,
-                            "id": "neutral",
-                            "percentageBucket": 87.91,
-                            "percentageQuestion": 33.8,
-                            "percentageSurvey": 18.17
-                          },
-                          {
                             "count": 23,
                             "id": "negative",
                             "percentageBucket": 4.15,
@@ -306,6 +299,13 @@
                             "percentageBucket": 7.94,
                             "percentageQuestion": 3.05,
                             "percentageSurvey": 1.64
+                          },
+                          {
+                            "count": 487,
+                            "id": "neutral",
+                            "percentageBucket": 87.91,
+                            "percentageQuestion": 33.8,
+                            "percentageSurvey": 18.17
                           },
                           {
                             "count": 0,
@@ -398,7 +398,7 @@
                 "entity": {
                   "name": "Legacy JavaScript runtime debuggers",
                   "nameClean": "Legacy JavaScript runtime debuggers",
-                  "entityType": "default",
+                  "entityType": "library",
                   "description": "_(React Native built-in)_ JavaScript runtime debugging solutions up to React Native 0.75 (from before <strong>React Native DevTools</strong> era) - <i>experimental New Debugger</i>, <i>Hermes debugging</i> or <i>remote JavaScript debugging</i>.",
                   "descriptionClean": "(React Native built-in) JavaScript runtime debugging solutions up to React Native 0.75 (from before React Native DevTools era) - experimental New Debugger, Hermes debugging or remote JavaScript debugging.",
                   "descriptionHtml": "<em>(React Native built-in)</em> JavaScript runtime debugging solutions up to React Native 0.75 (from before <strong>React Native DevTools</strong> era) - <i>experimental New Debugger</i>, <i>Hermes debugging</i> or <i>remote JavaScript debugging</i>."
@@ -470,18 +470,18 @@
                             "percentageSurvey": 22.01
                           },
                           {
-                            "count": 97,
-                            "id": "positive",
-                            "percentageBucket": 11.05,
-                            "percentageQuestion": 6.85,
-                            "percentageSurvey": 3.62
-                          },
-                          {
                             "count": 191,
                             "id": "negative",
                             "percentageBucket": 21.75,
                             "percentageQuestion": 13.48,
                             "percentageSurvey": 7.13
+                          },
+                          {
+                            "count": 97,
+                            "id": "positive",
+                            "percentageBucket": 11.05,
+                            "percentageQuestion": 6.85,
+                            "percentageSurvey": 3.62
                           },
                           {
                             "count": 0,
@@ -506,7 +506,7 @@
                 "entity": {
                   "name": "Flipper",
                   "nameClean": "Flipper",
-                  "entityType": "default",
+                  "entityType": "library",
                   "description": "A desktop application enabling cross-platform debugging for mobile apps. Visualize, inspect, and control your apps from a desktop interface, with extensibility via plugins.",
                   "descriptionClean": "A desktop application enabling cross-platform debugging for mobile apps. Visualize, inspect, and control your apps from a desktop interface, with extensibility via plugins.",
                   "homepage": {
@@ -533,6 +533,13 @@
                         "id": "never_heard",
                         "facetBuckets": [
                           {
+                            "count": 242,
+                            "id": "neutral",
+                            "percentageBucket": 86.12,
+                            "percentageQuestion": 16.84,
+                            "percentageSurvey": 9.03
+                          },
+                          {
                             "count": 16,
                             "id": "negative",
                             "percentageBucket": 5.69,
@@ -545,13 +552,6 @@
                             "percentageBucket": 8.19,
                             "percentageQuestion": 1.6,
                             "percentageSurvey": 0.86
-                          },
-                          {
-                            "count": 242,
-                            "id": "neutral",
-                            "percentageBucket": 86.12,
-                            "percentageQuestion": 16.84,
-                            "percentageSurvey": 9.03
                           },
                           {
                             "count": 0,
@@ -567,18 +567,18 @@
                         "id": "heard",
                         "facetBuckets": [
                           {
-                            "count": 24,
-                            "id": "positive",
-                            "percentageBucket": 6.33,
-                            "percentageQuestion": 1.67,
-                            "percentageSurvey": 0.9
-                          },
-                          {
                             "count": 47,
                             "id": "negative",
                             "percentageBucket": 12.4,
                             "percentageQuestion": 3.27,
                             "percentageSurvey": 1.75
+                          },
+                          {
+                            "count": 24,
+                            "id": "positive",
+                            "percentageBucket": 6.33,
+                            "percentageQuestion": 1.67,
+                            "percentageSurvey": 0.9
                           },
                           {
                             "count": 308,
@@ -644,7 +644,7 @@
                 "entity": {
                   "name": "Native debugging",
                   "nameClean": "Native debugging",
-                  "entityType": "default",
+                  "entityType": "library",
                   "description": "(Xcode, Android Studio) Platform-native tools for debugging app behavior, variables, and execution flow.",
                   "descriptionClean": "(Xcode, Android Studio) Platform-native tools for debugging app behavior, variables, and execution flow.",
                   "homepage": {
@@ -698,18 +698,18 @@
                             "percentageSurvey": 1.64
                           },
                           {
-                            "count": 18,
-                            "id": "positive",
-                            "percentageBucket": 4.35,
-                            "percentageQuestion": 1.27,
-                            "percentageSurvey": 0.67
-                          },
-                          {
                             "count": 352,
                             "id": "neutral",
                             "percentageBucket": 85.02,
                             "percentageQuestion": 24.75,
                             "percentageSurvey": 13.13
+                          },
+                          {
+                            "count": 18,
+                            "id": "positive",
+                            "percentageBucket": 4.35,
+                            "percentageQuestion": 1.27,
+                            "percentageSurvey": 0.67
                           },
                           {
                             "count": 0,
@@ -725,11 +725,11 @@
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 546,
-                            "id": "neutral",
-                            "percentageBucket": 65.08,
-                            "percentageQuestion": 38.4,
-                            "percentageSurvey": 20.37
+                            "count": 150,
+                            "id": "positive",
+                            "percentageBucket": 17.88,
+                            "percentageQuestion": 10.55,
+                            "percentageSurvey": 5.6
                           },
                           {
                             "count": 143,
@@ -739,11 +739,11 @@
                             "percentageSurvey": 5.34
                           },
                           {
-                            "count": 150,
-                            "id": "positive",
-                            "percentageBucket": 17.88,
-                            "percentageQuestion": 10.55,
-                            "percentageSurvey": 5.6
+                            "count": 546,
+                            "id": "neutral",
+                            "percentageBucket": 65.08,
+                            "percentageQuestion": 38.4,
+                            "percentageSurvey": 20.37
                           },
                           {
                             "count": 0,
@@ -768,7 +768,7 @@
                 "entity": {
                   "name": "Native profiling",
                   "nameClean": "Native profiling",
-                  "entityType": "default",
+                  "entityType": "library",
                   "description": "(Xcode, Android Studio) Platform-native tools for profiling app performance, memory usage, and resource consumption.",
                   "descriptionClean": "(Xcode, Android Studio) Platform-native tools for profiling app performance, memory usage, and resource consumption.",
                   "homepage": {
@@ -795,6 +795,13 @@
                         "id": "never_heard",
                         "facetBuckets": [
                           {
+                            "count": 15,
+                            "id": "positive",
+                            "percentageBucket": 5.08,
+                            "percentageQuestion": 1.06,
+                            "percentageSurvey": 0.56
+                          },
+                          {
                             "count": 270,
                             "id": "neutral",
                             "percentageBucket": 91.53,
@@ -807,13 +814,6 @@
                             "percentageBucket": 3.39,
                             "percentageQuestion": 0.71,
                             "percentageSurvey": 0.37
-                          },
-                          {
-                            "count": 15,
-                            "id": "positive",
-                            "percentageBucket": 5.08,
-                            "percentageQuestion": 1.06,
-                            "percentageSurvey": 0.56
                           },
                           {
                             "count": 0,
@@ -906,7 +906,7 @@
                 "entity": {
                   "name": "Expo DevTools Plugins",
                   "nameClean": "Expo DevTools Plugins",
-                  "entityType": "default",
+                  "entityType": "library",
                   "description": "A plugin system for Expo DevTools that enables developers to create custom debugging and development tools. Allows integration of third-party debugging tools and custom functionality directly into the Expo development environment.",
                   "descriptionClean": "A plugin system for Expo DevTools that enables developers to create custom debugging and development tools. Allows integration of third-party debugging tools and custom functionality directly into the Expo development environment.",
                   "homepage": {
@@ -933,6 +933,13 @@
                         "id": "never_heard",
                         "facetBuckets": [
                           {
+                            "count": 280,
+                            "id": "neutral",
+                            "percentageBucket": 86.15,
+                            "percentageQuestion": 19.75,
+                            "percentageSurvey": 10.45
+                          },
+                          {
                             "count": 33,
                             "id": "positive",
                             "percentageBucket": 10.15,
@@ -945,13 +952,6 @@
                             "percentageBucket": 3.69,
                             "percentageQuestion": 0.85,
                             "percentageSurvey": 0.45
-                          },
-                          {
-                            "count": 280,
-                            "id": "neutral",
-                            "percentageBucket": 86.15,
-                            "percentageQuestion": 19.75,
-                            "percentageSurvey": 10.45
                           },
                           {
                             "count": 0,
@@ -974,18 +974,18 @@
                             "percentageSurvey": 0.52
                           },
                           {
-                            "count": 80,
-                            "id": "positive",
-                            "percentageBucket": 14.36,
-                            "percentageQuestion": 5.64,
-                            "percentageSurvey": 2.99
-                          },
-                          {
                             "count": 463,
                             "id": "neutral",
                             "percentageBucket": 83.12,
                             "percentageQuestion": 32.65,
                             "percentageSurvey": 17.28
+                          },
+                          {
+                            "count": 80,
+                            "id": "positive",
+                            "percentageBucket": 14.36,
+                            "percentageQuestion": 5.64,
+                            "percentageSurvey": 2.99
                           },
                           {
                             "count": 0,
@@ -1001,13 +1001,6 @@
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 349,
-                            "id": "neutral",
-                            "percentageBucket": 65.6,
-                            "percentageQuestion": 24.61,
-                            "percentageSurvey": 13.02
-                          },
-                          {
                             "count": 28,
                             "id": "negative",
                             "percentageBucket": 5.26,
@@ -1020,6 +1013,13 @@
                             "percentageBucket": 29.14,
                             "percentageQuestion": 10.93,
                             "percentageSurvey": 5.78
+                          },
+                          {
+                            "count": 349,
+                            "id": "neutral",
+                            "percentageBucket": 65.6,
+                            "percentageQuestion": 24.61,
+                            "percentageSurvey": 13.02
                           },
                           {
                             "count": 0,
@@ -1044,7 +1044,7 @@
                 "entity": {
                   "name": "Flashlight",
                   "nameClean": "Flashlight",
-                  "entityType": "default",
+                  "entityType": "library",
                   "description": "Lighthouse for Mobile - a web service that audits your app and gives a performance score to your Android apps.",
                   "descriptionClean": "Lighthouse for Mobile - a web service that audits your app and gives a performance score to your Android apps.",
                   "homepage": {
@@ -1105,6 +1105,13 @@
                         "id": "heard",
                         "facetBuckets": [
                           {
+                            "count": 222,
+                            "id": "neutral",
+                            "percentageBucket": 71.84,
+                            "percentageQuestion": 15.73,
+                            "percentageSurvey": 8.28
+                          },
+                          {
                             "count": 67,
                             "id": "positive",
                             "percentageBucket": 21.68,
@@ -1117,13 +1124,6 @@
                             "percentageBucket": 6.47,
                             "percentageQuestion": 1.42,
                             "percentageSurvey": 0.75
-                          },
-                          {
-                            "count": 222,
-                            "id": "neutral",
-                            "percentageBucket": 71.84,
-                            "percentageQuestion": 15.73,
-                            "percentageSurvey": 8.28
                           },
                           {
                             "count": 0,
@@ -1168,7 +1168,7 @@
                 "entity": {
                   "name": "console API",
                   "nameClean": "console API",
-                  "entityType": "default",
+                  "entityType": "library",
                   "homepage": {
                     "url": "https://developer.mozilla.org/en-US/docs/Web/API/console"
                   },
@@ -1231,18 +1231,18 @@
                             "percentageSurvey": 31.83
                           },
                           {
-                            "count": 558,
-                            "id": "positive",
-                            "percentageBucket": 39.08,
-                            "percentageQuestion": 38.43,
-                            "percentageSurvey": 20.82
-                          },
-                          {
                             "count": 17,
                             "id": "negative",
                             "percentageBucket": 1.19,
                             "percentageQuestion": 1.17,
                             "percentageSurvey": 0.63
+                          },
+                          {
+                            "count": 558,
+                            "id": "positive",
+                            "percentageBucket": 39.08,
+                            "percentageQuestion": 38.43,
+                            "percentageSurvey": 20.82
                           },
                           {
                             "count": 0,
@@ -1267,7 +1267,7 @@
                 "entity": {
                   "name": "React DevTools",
                   "nameClean": "React DevTools",
-                  "entityType": "default",
+                  "entityType": "library",
                   "description": "A desktop application providing <strong>Component Inspector</strong> and <strong>Performance Profiler</strong> panels, mirroring functionality from web browser extension. Now seamlessly integrated within <strong>React Native DevTools</strong>.",
                   "descriptionClean": "A desktop application providing Component Inspector and Performance Profiler panels, mirroring functionality from web browser extension. Now seamlessly integrated within React Native DevTools.",
                   "descriptionHtml": "A desktop application providing <strong>Component Inspector</strong> and <strong>Performance Profiler</strong> panels, mirroring functionality from web browser extension. Now seamlessly integrated within <strong>React Native DevTools</strong>.",
@@ -1378,7 +1378,7 @@
                 "entity": {
                   "name": "Element Inspector",
                   "nameClean": "Element Inspector",
-                  "entityType": "default",
+                  "entityType": "library",
                   "description": "_(React Native built-in)_ A debugging utility that, once enabled, allows inspection of UI elements through direct interaction, displaying detailed component information upon tap directly within the app.",
                   "descriptionClean": "(React Native built-in) A debugging utility that, once enabled, allows inspection of UI elements through direct interaction, displaying detailed component information upon tap directly within the app.",
                   "descriptionHtml": "<em>(React Native built-in)</em> A debugging utility that, once enabled, allows inspection of UI elements through direct interaction, displaying detailed component information upon tap directly within the app.",
@@ -1446,13 +1446,6 @@
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 754,
-                            "id": "neutral",
-                            "percentageBucket": 67.56,
-                            "percentageQuestion": 52.8,
-                            "percentageSurvey": 28.13
-                          },
-                          {
                             "count": 235,
                             "id": "positive",
                             "percentageBucket": 21.06,
@@ -1465,6 +1458,13 @@
                             "percentageBucket": 11.38,
                             "percentageQuestion": 8.89,
                             "percentageSurvey": 4.74
+                          },
+                          {
+                            "count": 754,
+                            "id": "neutral",
+                            "percentageBucket": 67.56,
+                            "percentageQuestion": 52.8,
+                            "percentageSurvey": 28.13
                           },
                           {
                             "count": 0,
@@ -1489,7 +1489,7 @@
                 "entity": {
                   "name": "Performance Monitor",
                   "nameClean": "Performance Monitor",
-                  "entityType": "default",
+                  "entityType": "library",
                   "description": "_(React Native built-in)_ An integrated performance monitoring overlay that provides real-time metrics visualization. Allows inspection of RAM consumption, UI and JS threads FPS and number of views mounted.",
                   "descriptionClean": "(React Native built-in) An integrated performance monitoring overlay that provides real-time metrics visualization. Allows inspection of RAM consumption, UI and JS threads FPS and number of views mounted.",
                   "descriptionHtml": "<em>(React Native built-in)</em> An integrated performance monitoring overlay that provides real-time metrics visualization. Allows inspection of RAM consumption, UI and JS threads FPS and number of views mounted.",
@@ -1600,7 +1600,7 @@
                 "entity": {
                   "name": "Performance API (react-native-performance)",
                   "nameClean": "Performance API (react-native-performance)",
-                  "entityType": "default",
+                  "entityType": "library",
                   "description": "A runtime library that delivers an implementation of the Performance API for React Native based on the User Timing Level 3 and Performance Timeline Level 2 drafts.",
                   "descriptionClean": "A runtime library that delivers an implementation of the Performance API for React Native based on the User Timing Level 3 and Performance Timeline Level 2 drafts."
                 },
@@ -1619,13 +1619,6 @@
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 690,
-                            "id": "neutral",
-                            "percentageBucket": 85.61,
-                            "percentageQuestion": 49.5,
-                            "percentageSurvey": 25.75
-                          },
-                          {
                             "count": 94,
                             "id": "positive",
                             "percentageBucket": 11.66,
@@ -1638,6 +1631,13 @@
                             "percentageBucket": 2.73,
                             "percentageQuestion": 1.58,
                             "percentageSurvey": 0.82
+                          },
+                          {
+                            "count": 690,
+                            "id": "neutral",
+                            "percentageBucket": 85.61,
+                            "percentageQuestion": 49.5,
+                            "percentageSurvey": 25.75
                           },
                           {
                             "count": 0,
@@ -1730,7 +1730,7 @@
                 "entity": {
                   "name": "Network Inspector",
                   "nameClean": "Network Inspector",
-                  "entityType": "default",
+                  "entityType": "library",
                   "description": "A network inspector available only in Expo projects that allows you to monitor and debug network requests made by your app.",
                   "descriptionClean": "A network inspector available only in Expo projects that allows you to monitor and debug network requests made by your app.",
                   "homepage": {

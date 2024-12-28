@@ -10,7 +10,7 @@
                 "entity": {
                   "name": "Apollo Client",
                   "nameClean": "Apollo Client",
-                  "entityType": "default",
+                  "entityType": "library",
                   "description": "A library enabling managing both local and remote data with GraphQL. Used for fetching, caching, and modifying application data, all while automatically updating the app's UI.",
                   "descriptionClean": "A library enabling managing both local and remote data with GraphQL. Used for fetching, caching, and modifying application data, all while automatically updating the app's UI.",
                   "descriptionHtml": "A library enabling managing both local and remote data with GraphQL. Used for fetching, caching, and modifying application data, all while automatically updating the app's UI.",
@@ -77,6 +77,13 @@
                         "id": "heard",
                         "facetBuckets": [
                           {
+                            "count": 680,
+                            "id": "neutral",
+                            "percentageBucket": 77.89,
+                            "percentageQuestion": 38.64,
+                            "percentageSurvey": 25.37
+                          },
+                          {
                             "count": 137,
                             "id": "negative",
                             "percentageBucket": 15.69,
@@ -89,13 +96,6 @@
                             "percentageBucket": 6.41,
                             "percentageQuestion": 3.18,
                             "percentageSurvey": 2.09
-                          },
-                          {
-                            "count": 680,
-                            "id": "neutral",
-                            "percentageBucket": 77.89,
-                            "percentageQuestion": 38.64,
-                            "percentageSurvey": 25.37
                           },
                           {
                             "count": 0,
@@ -111,13 +111,6 @@
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 353,
-                            "id": "neutral",
-                            "percentageBucket": 58.25,
-                            "percentageQuestion": 20.06,
-                            "percentageSurvey": 13.17
-                          },
-                          {
                             "count": 103,
                             "id": "negative",
                             "percentageBucket": 17,
@@ -130,6 +123,13 @@
                             "percentageBucket": 24.75,
                             "percentageQuestion": 8.52,
                             "percentageSurvey": 5.6
+                          },
+                          {
+                            "count": 353,
+                            "id": "neutral",
+                            "percentageBucket": 58.25,
+                            "percentageQuestion": 20.06,
+                            "percentageSurvey": 13.17
                           },
                           {
                             "count": 0,
@@ -154,7 +154,7 @@
                 "entity": {
                   "name": "Axios",
                   "nameClean": "Axios",
-                  "entityType": "default",
+                  "entityType": "library",
                   "description": "Promise based HTTP client based on XMLHttpRequests.",
                   "descriptionClean": "Promise based HTTP client based on XMLHttpRequests.",
                   "homepage": {
@@ -226,13 +226,6 @@
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 64,
-                            "id": "negative",
-                            "percentageBucket": 4.16,
-                            "percentageQuestion": 3.59,
-                            "percentageSurvey": 2.39
-                          },
-                          {
                             "count": 964,
                             "id": "neutral",
                             "percentageBucket": 62.64,
@@ -245,6 +238,13 @@
                             "percentageBucket": 33.2,
                             "percentageQuestion": 28.66,
                             "percentageSurvey": 19.07
+                          },
+                          {
+                            "count": 64,
+                            "id": "negative",
+                            "percentageBucket": 4.16,
+                            "percentageQuestion": 3.59,
+                            "percentageSurvey": 2.39
                           },
                           {
                             "count": 0,
@@ -269,7 +269,7 @@
                 "entity": {
                   "name": "Fetch API",
                   "nameClean": "Fetch API",
-                  "entityType": "default",
+                  "entityType": "library",
                   "description": "An interface for fetching resources.",
                   "descriptionClean": "An interface for fetching resources.",
                   "homepage": {
@@ -341,18 +341,18 @@
                             "percentageSurvey": 39.51
                           },
                           {
-                            "count": 495,
-                            "id": "positive",
-                            "percentageBucket": 30.48,
-                            "percentageQuestion": 27.82,
-                            "percentageSurvey": 18.47
-                          },
-                          {
                             "count": 70,
                             "id": "negative",
                             "percentageBucket": 4.31,
                             "percentageQuestion": 3.93,
                             "percentageSurvey": 2.61
+                          },
+                          {
+                            "count": 495,
+                            "id": "positive",
+                            "percentageBucket": 30.48,
+                            "percentageQuestion": 27.82,
+                            "percentageSurvey": 18.47
                           },
                           {
                             "count": 0,
@@ -377,7 +377,7 @@
                 "entity": {
                   "name": "Relay",
                   "nameClean": "Relay",
-                  "entityType": "default",
+                  "entityType": "library",
                   "description": "The GraphQL client that scales with you. A framework for building data-driven React applications.",
                   "descriptionClean": "The GraphQL client that scales with you. A framework for building data-driven React applications.",
                   "homepage": {
@@ -409,6 +409,13 @@
                         "id": "never_heard",
                         "facetBuckets": [
                           {
+                            "count": 744,
+                            "id": "neutral",
+                            "percentageBucket": 88.57,
+                            "percentageQuestion": 42.69,
+                            "percentageSurvey": 27.76
+                          },
+                          {
                             "count": 26,
                             "id": "positive",
                             "percentageBucket": 3.1,
@@ -421,13 +428,6 @@
                             "percentageBucket": 8.33,
                             "percentageQuestion": 4.02,
                             "percentageSurvey": 2.61
-                          },
-                          {
-                            "count": 744,
-                            "id": "neutral",
-                            "percentageBucket": 88.57,
-                            "percentageQuestion": 42.69,
-                            "percentageSurvey": 27.76
                           },
                           {
                             "count": 0,
@@ -450,18 +450,18 @@
                             "percentageSurvey": 4.59
                           },
                           {
-                            "count": 43,
-                            "id": "positive",
-                            "percentageBucket": 5.36,
-                            "percentageQuestion": 2.47,
-                            "percentageSurvey": 1.6
-                          },
-                          {
                             "count": 636,
                             "id": "neutral",
                             "percentageBucket": 79.3,
                             "percentageQuestion": 36.49,
                             "percentageSurvey": 23.73
+                          },
+                          {
+                            "count": 43,
+                            "id": "positive",
+                            "percentageBucket": 5.36,
+                            "percentageQuestion": 2.47,
+                            "percentageSurvey": 1.6
                           },
                           {
                             "count": 0,
@@ -477,13 +477,6 @@
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 65,
-                            "id": "neutral",
-                            "percentageBucket": 66.33,
-                            "percentageQuestion": 3.73,
-                            "percentageSurvey": 2.43
-                          },
-                          {
                             "count": 12,
                             "id": "positive",
                             "percentageBucket": 12.24,
@@ -496,6 +489,13 @@
                             "percentageBucket": 21.43,
                             "percentageQuestion": 1.2,
                             "percentageSurvey": 0.78
+                          },
+                          {
+                            "count": 65,
+                            "id": "neutral",
+                            "percentageBucket": 66.33,
+                            "percentageQuestion": 3.73,
+                            "percentageSurvey": 2.43
                           },
                           {
                             "count": 0,
@@ -520,7 +520,7 @@
                 "entity": {
                   "name": "RTK Query",
                   "nameClean": "RTK Query",
-                  "entityType": "default",
+                  "entityType": "library",
                   "description": "A powerful data fetching and caching tool. It is designed to simplify common cases for loading data in an application, eliminating the need to hand-write data fetching & caching logic yourself.",
                   "descriptionClean": "A powerful data fetching and caching tool. It is designed to simplify common cases for loading data in an application, eliminating the need to hand-write data fetching  caching logic yourself.",
                   "descriptionHtml": "A powerful data fetching and caching tool. It is designed to simplify common cases for loading data in an application, eliminating the need to hand-write data fetching &amp; caching logic yourself.",
@@ -553,13 +553,6 @@
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 592,
-                            "id": "neutral",
-                            "percentageBucket": 88.62,
-                            "percentageQuestion": 33.6,
-                            "percentageSurvey": 22.09
-                          },
-                          {
                             "count": 55,
                             "id": "negative",
                             "percentageBucket": 8.23,
@@ -572,6 +565,13 @@
                             "percentageBucket": 3.14,
                             "percentageQuestion": 1.19,
                             "percentageSurvey": 0.78
+                          },
+                          {
+                            "count": 592,
+                            "id": "neutral",
+                            "percentageBucket": 88.62,
+                            "percentageQuestion": 33.6,
+                            "percentageSurvey": 22.09
                           },
                           {
                             "count": 0,
@@ -587,13 +587,6 @@
                         "id": "heard",
                         "facetBuckets": [
                           {
-                            "count": 518,
-                            "id": "neutral",
-                            "percentageBucket": 75.73,
-                            "percentageQuestion": 29.4,
-                            "percentageSurvey": 19.33
-                          },
-                          {
                             "count": 119,
                             "id": "negative",
                             "percentageBucket": 17.4,
@@ -606,6 +599,13 @@
                             "percentageBucket": 6.87,
                             "percentageQuestion": 2.67,
                             "percentageSurvey": 1.75
+                          },
+                          {
+                            "count": 518,
+                            "id": "neutral",
+                            "percentageBucket": 75.73,
+                            "percentageQuestion": 29.4,
+                            "percentageSurvey": 19.33
                           },
                           {
                             "count": 0,
@@ -621,13 +621,6 @@
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 43,
-                            "id": "negative",
-                            "percentageBucket": 10.72,
-                            "percentageQuestion": 2.44,
-                            "percentageSurvey": 1.6
-                          },
-                          {
                             "count": 99,
                             "id": "positive",
                             "percentageBucket": 24.69,
@@ -640,6 +633,13 @@
                             "percentageBucket": 64.59,
                             "percentageQuestion": 14.7,
                             "percentageSurvey": 9.66
+                          },
+                          {
+                            "count": 43,
+                            "id": "negative",
+                            "percentageBucket": 10.72,
+                            "percentageQuestion": 2.44,
+                            "percentageSurvey": 1.6
                           },
                           {
                             "count": 0,
@@ -664,7 +664,7 @@
                 "entity": {
                   "name": "SWR",
                   "nameClean": "SWR",
-                  "entityType": "default",
+                  "entityType": "library",
                   "description": "React Hooks for Data Fetching. A strategy to first return the data from cache (stale), then send the fetch request (revalidate), and finally come with the up-to-date data.",
                   "descriptionClean": "React Hooks for Data Fetching. A strategy to first return the data from cache (stale), then send the fetch request (revalidate), and finally come with the up-to-date data.",
                   "homepage": {
@@ -696,13 +696,6 @@
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 591,
-                            "id": "neutral",
-                            "percentageBucket": 88.34,
-                            "percentageQuestion": 33.85,
-                            "percentageSurvey": 22.05
-                          },
-                          {
                             "count": 35,
                             "id": "positive",
                             "percentageBucket": 5.23,
@@ -715,6 +708,13 @@
                             "percentageBucket": 6.43,
                             "percentageQuestion": 2.46,
                             "percentageSurvey": 1.6
+                          },
+                          {
+                            "count": 591,
+                            "id": "neutral",
+                            "percentageBucket": 88.34,
+                            "percentageQuestion": 33.85,
+                            "percentageSurvey": 22.05
                           },
                           {
                             "count": 0,
@@ -730,11 +730,11 @@
                         "id": "heard",
                         "facetBuckets": [
                           {
-                            "count": 88,
-                            "id": "negative",
-                            "percentageBucket": 11.4,
-                            "percentageQuestion": 5.04,
-                            "percentageSurvey": 3.28
+                            "count": 625,
+                            "id": "neutral",
+                            "percentageBucket": 80.96,
+                            "percentageQuestion": 35.8,
+                            "percentageSurvey": 23.32
                           },
                           {
                             "count": 59,
@@ -744,11 +744,11 @@
                             "percentageSurvey": 2.2
                           },
                           {
-                            "count": 625,
-                            "id": "neutral",
-                            "percentageBucket": 80.96,
-                            "percentageQuestion": 35.8,
-                            "percentageSurvey": 23.32
+                            "count": 88,
+                            "id": "negative",
+                            "percentageBucket": 11.4,
+                            "percentageQuestion": 5.04,
+                            "percentageSurvey": 3.28
                           },
                           {
                             "count": 0,
@@ -764,13 +764,6 @@
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 191,
-                            "id": "neutral",
-                            "percentageBucket": 62.83,
-                            "percentageQuestion": 10.94,
-                            "percentageSurvey": 7.13
-                          },
-                          {
                             "count": 36,
                             "id": "negative",
                             "percentageBucket": 11.84,
@@ -783,6 +776,13 @@
                             "percentageBucket": 25.33,
                             "percentageQuestion": 4.41,
                             "percentageSurvey": 2.87
+                          },
+                          {
+                            "count": 191,
+                            "id": "neutral",
+                            "percentageBucket": 62.83,
+                            "percentageQuestion": 10.94,
+                            "percentageSurvey": 7.13
                           },
                           {
                             "count": 0,
@@ -807,7 +807,7 @@
                 "entity": {
                   "name": "TanStack Query",
                   "nameClean": "TanStack Query",
-                  "entityType": "default",
+                  "entityType": "library",
                   "description": "(former React Query) A data-fetching library that makes fetching, caching, synchronizing and updating server state in the application a breeze.",
                   "descriptionClean": "(former React Query) A data-fetching library that makes fetching, caching, synchronizing and updating server state in the application a breeze.",
                   "homepage": {
@@ -866,18 +866,18 @@
                             "percentageSurvey": 3.13
                           },
                           {
-                            "count": 21,
-                            "id": "negative",
-                            "percentageBucket": 4.78,
-                            "percentageQuestion": 1.19,
-                            "percentageSurvey": 0.78
-                          },
-                          {
                             "count": 334,
                             "id": "neutral",
                             "percentageBucket": 76.08,
                             "percentageQuestion": 18.99,
                             "percentageSurvey": 12.46
+                          },
+                          {
+                            "count": 21,
+                            "id": "negative",
+                            "percentageBucket": 4.78,
+                            "percentageQuestion": 1.19,
+                            "percentageSurvey": 0.78
                           },
                           {
                             "count": 0,
@@ -936,7 +936,7 @@
                 "entity": {
                   "name": "tRPC",
                   "nameClean": "tRPC",
-                  "entityType": "default",
+                  "entityType": "library",
                   "description": "A solution that allows you to easily build & consume fully typesafe APIs without schemas or code generation.",
                   "descriptionClean": "A solution that allows you to easily build  consume fully typesafe APIs without schemas or code generation.",
                   "descriptionHtml": "A solution that allows you to easily build &amp; consume fully typesafe APIs without schemas or code generation.",
@@ -1003,13 +1003,6 @@
                         "id": "heard",
                         "facetBuckets": [
                           {
-                            "count": 683,
-                            "id": "neutral",
-                            "percentageBucket": 75.89,
-                            "percentageQuestion": 39.21,
-                            "percentageSurvey": 25.49
-                          },
-                          {
                             "count": 74,
                             "id": "negative",
                             "percentageBucket": 8.22,
@@ -1022,6 +1015,13 @@
                             "percentageBucket": 15.89,
                             "percentageQuestion": 8.21,
                             "percentageSurvey": 5.34
+                          },
+                          {
+                            "count": 683,
+                            "id": "neutral",
+                            "percentageBucket": 75.89,
+                            "percentageQuestion": 39.21,
+                            "percentageSurvey": 25.49
                           },
                           {
                             "count": 0,
@@ -1037,6 +1037,13 @@
                         "id": "used",
                         "facetBuckets": [
                           {
+                            "count": 109,
+                            "id": "neutral",
+                            "percentageBucket": 51.17,
+                            "percentageQuestion": 6.26,
+                            "percentageSurvey": 4.07
+                          },
+                          {
                             "count": 92,
                             "id": "positive",
                             "percentageBucket": 43.19,
@@ -1049,13 +1056,6 @@
                             "percentageBucket": 5.63,
                             "percentageQuestion": 0.69,
                             "percentageSurvey": 0.45
-                          },
-                          {
-                            "count": 109,
-                            "id": "neutral",
-                            "percentageBucket": 51.17,
-                            "percentageQuestion": 6.26,
-                            "percentageSurvey": 4.07
                           },
                           {
                             "count": 0,

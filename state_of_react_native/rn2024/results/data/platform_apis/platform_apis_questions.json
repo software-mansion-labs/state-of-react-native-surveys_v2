@@ -24,7 +24,7 @@
                         "description": "Control user-facing notifications",
                         "descriptionClean": "Control user-facing notifications",
                         "id": "platform_apis_notifications",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/usernotifications",
@@ -54,7 +54,7 @@
                         "description": "Capture photos and videos",
                         "descriptionClean": "Capture photos and videos",
                         "id": "platform_apis_camera",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/avfoundation/cameras_and_media_capture",
@@ -84,7 +84,7 @@
                         "description": "Access protected APIs and data",
                         "descriptionClean": "Access protected APIs and data",
                         "id": "platform_apis_permissions",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/uikit/protecting_the_user_s_privacy",
@@ -110,7 +110,7 @@
                         "description": "Link directly to content within the app",
                         "descriptionClean": "Link directly to content within the app",
                         "id": "platform_apis_deep_links",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app",
@@ -136,7 +136,7 @@
                         "description": "Persist or cache data on the device",
                         "descriptionClean": "Persist or cache data on the device",
                         "id": "platform_apis_storage",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/coredata",
@@ -166,7 +166,7 @@
                         "description": "Light and dark modes configuration",
                         "descriptionClean": "Light and dark modes configuration",
                         "id": "platform_apis_appearance",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/uikit/appearance_customization",
@@ -196,7 +196,7 @@
                         "description": "Deliver web page as a part of the app",
                         "descriptionClean": "Deliver web page as a part of the app",
                         "id": "platform_apis_webview",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/webkit/wkwebview",
@@ -222,7 +222,7 @@
                         "description": "Access files on the device file system",
                         "descriptionClean": "Access files on the device file system",
                         "id": "platform_apis_file_system",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/foundation/filemanager",
@@ -252,7 +252,7 @@
                         "description": "Access device geographic location",
                         "descriptionClean": "Access device geographic location",
                         "id": "platform_apis_location",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/corelocation",
@@ -282,7 +282,7 @@
                         "description": "Access images and videos on the device",
                         "descriptionClean": "Access images and videos on the device",
                         "id": "platform_apis_media_library",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/photokit",
@@ -312,7 +312,7 @@
                         "description": "Render map component in the app",
                         "descriptionClean": "Render map component in the app",
                         "id": "platform_apis_maps",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/maps/",
@@ -338,7 +338,7 @@
                         "description": "Access system clipboard",
                         "descriptionClean": "Access system clipboard",
                         "id": "platform_apis_clipboard",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/uikit/uipasteboard",
@@ -368,7 +368,7 @@
                         "description": "Provide haptic feedback",
                         "descriptionClean": "Provide haptic feedback",
                         "id": "platform_apis_haptics",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/corehaptics",
@@ -398,7 +398,7 @@
                         "description": "Play the audio on the device",
                         "descriptionClean": "Play the audio on the device",
                         "id": "platform_apis_audio",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/avfoundation/audio_playback_recording_and_processing",
@@ -428,7 +428,7 @@
                         "description": "Sell digital products and content in the app",
                         "descriptionClean": "Sell digital products and content in the app",
                         "id": "platform_apis_in_app_payments",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/in-app-purchase/",
@@ -458,7 +458,7 @@
                         "description": "Request the system to launch the app in the background to run tasks",
                         "descriptionClean": "Request the system to launch the app in the background to run tasks",
                         "id": "platform_apis_background_processing",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/backgroundtasks",
@@ -488,7 +488,7 @@
                         "description": "Access and control screen orientation",
                         "descriptionClean": "Access and control screen orientation",
                         "id": "platform_apis_screen_orientation",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/uikit/uiinterfaceorientation",
@@ -518,7 +518,7 @@
                         "description": "Authenticate biometrically or with a passphrase",
                         "descriptionClean": "Authenticate biometrically or with a passphrase",
                         "id": "platform_apis_local_authentication",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/localauthentication",
@@ -548,7 +548,7 @@
                         "description": "Play the video on the device",
                         "descriptionClean": "Play the video on the device",
                         "id": "platform_apis_video_playback",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/avfoundation/media_playback_and_selection",
@@ -578,7 +578,7 @@
                         "description": "Make the app accessible to everyone",
                         "descriptionClean": "Make the app accessible to everyone",
                         "id": "platform_apis_accessibility",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/accessibility",
@@ -608,7 +608,7 @@
                         "description": "Prompt user to submit rating or review without leaving the app",
                         "descriptionClean": "Prompt user to submit rating or review without leaving the app",
                         "id": "platform_apis_in_app_reviews",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/storekit/requestreviewaction",
@@ -634,7 +634,7 @@
                         "description": "Record audio via microphone",
                         "descriptionClean": "Record audio via microphone",
                         "id": "platform_apis_microphone",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/avfoundation/audio_playback_recording_and_processing",
@@ -664,7 +664,7 @@
                         "description": "Manipulate calendar and reminder events",
                         "descriptionClean": "Manipulate calendar and reminder events",
                         "id": "platform_apis_calendar_reminders",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/eventkit",
@@ -691,7 +691,7 @@
                         "descriptionHtml": "Access the user's contacts",
                         "descriptionClean": "Access the user's contacts",
                         "id": "platform_apis_contacts",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/contacts",
@@ -721,7 +721,7 @@
                         "description": "Communicate with bluetooth devices",
                         "descriptionClean": "Communicate with bluetooth devices",
                         "id": "platform_apis_bluetooth",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/corebluetooth",
@@ -751,7 +751,7 @@
                         "description": "Cryptographic primitives and mechanisms (e.g. hardware encryption)",
                         "descriptionClean": "Cryptographic primitives and mechanisms (e.g. hardware encryption)",
                         "id": "platform_apis_cryptography",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/cryptokit",
@@ -781,7 +781,7 @@
                         "description": "Process events from accelerometer, gyroscope, magnetometer, barometer, pedometer, etc.",
                         "descriptionClean": "Process events from accelerometer, gyroscope, magnetometer, barometer, pedometer, etc.",
                         "id": "platform_apis_sensors",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/coremotion",
@@ -811,7 +811,7 @@
                         "description": "Access battery information",
                         "descriptionClean": "Access battery information",
                         "id": "platform_apis_battery",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/uikit/uidevice/1620042-batterylevel",
@@ -841,7 +841,7 @@
                         "description": "Support right-to-left languages",
                         "descriptionClean": "Support right-to-left languages",
                         "id": "platform_apis_rtl",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/design/human-interface-guidelines/right-to-left",
@@ -871,7 +871,7 @@
                         "description": "Live updates from the app via notification (e.g. Dynamic Island)",
                         "descriptionClean": "Live updates from the app via notification (e.g. Dynamic Island)",
                         "id": "platform_apis_live_activity",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/activitykit",
@@ -897,7 +897,7 @@
                         "description": "Access SMS, email and dialing features",
                         "descriptionClean": "Access SMS, email and dialing features",
                         "id": "platform_apis_telephony",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/messageui",
@@ -923,7 +923,7 @@
                         "description": "Communicate with NFT tags",
                         "descriptionClean": "Communicate with NFT tags",
                         "id": "platform_apis_nfc",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/corenfc",
@@ -953,7 +953,7 @@
                         "description": "Render advanced 3D graphics",
                         "descriptionClean": "Render advanced 3D graphics",
                         "id": "platform_apis_3d_graphics",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/metal",
@@ -983,7 +983,7 @@
                         "description": "Print documents, images, etc",
                         "descriptionClean": "Print documents, images, etc",
                         "id": "platform_apis_printer",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/uikit/uiprintinteractioncontroller",
@@ -1013,7 +1013,7 @@
                         "description": "On-device machine learning capabilities (e.g. leverage pretrained ML models to perform OCR, face detection, etc)",
                         "descriptionClean": "On-device machine learning capabilities (e.g. leverage pretrained ML models to perform OCR, face detection, etc)",
                         "id": "platform_apis_ml",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/machine-learning/",
@@ -1039,7 +1039,7 @@
                         "description": "On-device generative models (e.g. Apple intelligence, Gemini Nano)",
                         "descriptionClean": "On-device generative models (e.g. Apple intelligence, Gemini Nano)",
                         "id": "platform_apis_generative_ai",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/apple-intelligence/",
@@ -1065,7 +1065,7 @@
                         "description": "Augmented reality experiences",
                         "descriptionClean": "Augmented reality experiences",
                         "id": "platform_apis_ar",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/augmented-reality/",
@@ -1095,7 +1095,7 @@
                         "description": "Perform GPU calculations",
                         "descriptionClean": "Perform GPU calculations",
                         "id": "platform_apis_gpu_processing",
-                        "entityType": "default",
+                        "entityType": "feature",
                         "resources": [
                           {
                             "url": "https://developer.apple.com/documentation/metal/performing_calculations_on_a_gpu",
