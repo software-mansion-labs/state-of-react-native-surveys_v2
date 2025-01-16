@@ -8,16 +8,16 @@
               "responses": {
                 "currentEdition": {
                   "completion": {
-                    "count": 1485,
-                    "percentageSurvey": 55.41,
-                    "total": 2680
+                    "count": 1883,
+                    "percentageSurvey": 53.78,
+                    "total": 3501
                   },
                   "buckets": [
                     {
-                      "count": 1175,
+                      "count": 1469,
                       "id": "component_libraries_other_libraries_react_native_safe_area_context",
-                      "percentageQuestion": 79.12,
-                      "percentageSurvey": 43.84,
+                      "percentageQuestion": 78.01,
+                      "percentageSurvey": 41.96,
                       "entity": {
                         "name": "react-native-safe-area-context",
                         "nameClean": "react-native-safe-area-context",
@@ -32,14 +32,14 @@
                           "url": "https://www.npmjs.com/package/react-native-safe-area-context"
                         }
                       },
-                      "percentagePositive": 19,
+                      "percentagePositive": 18,
                       "percentageNegative": 1
                     },
                     {
-                      "count": 1115,
+                      "count": 1408,
                       "id": "component_libraries_other_libraries_react_native_gesture_handler",
-                      "percentageQuestion": 75.08,
-                      "percentageSurvey": 41.6,
+                      "percentageQuestion": 74.77,
+                      "percentageSurvey": 40.22,
                       "entity": {
                         "name": "react-native-gesture-handler",
                         "nameClean": "react-native-gesture-handler",
@@ -57,14 +57,14 @@
                           "url": "https://www.npmjs.com/package/react-native-gesture-handler"
                         }
                       },
-                      "percentagePositive": 20,
+                      "percentagePositive": 19,
                       "percentageNegative": 1
                     },
                     {
-                      "count": 967,
+                      "count": 1228,
                       "id": "component_libraries_other_libraries_expo_image",
-                      "percentageQuestion": 65.12,
-                      "percentageSurvey": 36.08,
+                      "percentageQuestion": 65.22,
+                      "percentageSurvey": 35.08,
                       "entity": {
                         "name": "expo-image",
                         "nameClean": "expo-image",
@@ -86,10 +86,10 @@
                       "percentageNegative": 1
                     },
                     {
-                      "count": 902,
+                      "count": 1132,
                       "id": "component_libraries_other_libraries_gorhom_bottom_sheet",
-                      "percentageQuestion": 60.74,
-                      "percentageSurvey": 33.66,
+                      "percentageQuestion": 60.12,
+                      "percentageSurvey": 32.33,
                       "entity": {
                         "name": "@gorhom/bottom-sheet",
                         "nameClean": "@gorhom/bottom-sheet",
@@ -107,14 +107,39 @@
                           "url": "https://www.npmjs.com/package/@gorhom/bottom-sheet"
                         }
                       },
-                      "percentagePositive": 22,
+                      "percentagePositive": 21,
                       "percentageNegative": 4
                     },
                     {
-                      "count": 873,
+                      "count": 1076,
+                      "id": "component_libraries_other_libraries_expo_vector_icons",
+                      "percentageQuestion": 57.14,
+                      "percentageSurvey": 30.73,
+                      "entity": {
+                        "name": "@expo/vector-icons",
+                        "nameClean": "@expo/vector-icons",
+                        "description": "A library providing various types of icons for Expo apps, including vector icons, custom icon fonts, icon images, and icon buttons.",
+                        "descriptionClean": "A library providing various types of icons for Expo apps, including vector icons, custom icon fonts, icon images, and icon buttons.",
+                        "id": "component_libraries_other_libraries_expo_vector_icons",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://docs.expo.dev/guides/icons/"
+                        },
+                        "github": {
+                          "url": "https://github.com/expo/vector-icons"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/@expo/vector-icons"
+                        }
+                      },
+                      "percentagePositive": 19,
+                      "percentageNegative": 1
+                    },
+                    {
+                      "count": 1075,
                       "id": "component_libraries_other_libraries_shopify_flash_list",
-                      "percentageQuestion": 58.79,
-                      "percentageSurvey": 32.57,
+                      "percentageQuestion": 57.09,
+                      "percentageSurvey": 30.71,
                       "entity": {
                         "name": "@shopify/flash-list",
                         "nameClean": "@shopify/flash-list",
@@ -137,35 +162,10 @@
                       "percentageNegative": 5
                     },
                     {
-                      "count": 840,
-                      "id": "component_libraries_other_libraries_expo_vector_icons",
-                      "percentageQuestion": 56.57,
-                      "percentageSurvey": 31.34,
-                      "entity": {
-                        "name": "@expo/vector-icons",
-                        "nameClean": "@expo/vector-icons",
-                        "description": "A library providing various types of icons for Expo apps, including vector icons, custom icon fonts, icon images, and icon buttons.",
-                        "descriptionClean": "A library providing various types of icons for Expo apps, including vector icons, custom icon fonts, icon images, and icon buttons.",
-                        "id": "component_libraries_other_libraries_expo_vector_icons",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://docs.expo.dev/guides/icons/"
-                        },
-                        "github": {
-                          "url": "https://github.com/expo/vector-icons"
-                        },
-                        "npm": {
-                          "url": "https://www.npmjs.com/package/@expo/vector-icons"
-                        }
-                      },
-                      "percentagePositive": 19,
-                      "percentageNegative": 1
-                    },
-                    {
-                      "count": 798,
+                      "count": 1013,
                       "id": "component_libraries_other_libraries_react_native_webview",
-                      "percentageQuestion": 53.74,
-                      "percentageSurvey": 29.78,
+                      "percentageQuestion": 53.8,
+                      "percentageSurvey": 28.93,
                       "entity": {
                         "name": "react-native-webview",
                         "nameClean": "react-native-webview",
@@ -181,14 +181,14 @@
                           "url": "https://www.npmjs.com/package/react-native-webview"
                         }
                       },
-                      "percentagePositive": 17,
-                      "percentageNegative": 2
+                      "percentagePositive": 16,
+                      "percentageNegative": 3
                     },
                     {
-                      "count": 764,
+                      "count": 965,
                       "id": "component_libraries_other_libraries_react_hook_form",
-                      "percentageQuestion": 51.45,
-                      "percentageSurvey": 28.51,
+                      "percentageQuestion": 51.25,
+                      "percentageSurvey": 27.56,
                       "entity": {
                         "name": "react-hook-form",
                         "nameClean": "react-hook-form",
@@ -206,14 +206,14 @@
                           "url": "https://www.npmjs.com/package/react-hook-form"
                         }
                       },
-                      "percentagePositive": 23,
+                      "percentagePositive": 22,
                       "percentageNegative": 1
                     },
                     {
-                      "count": 607,
+                      "count": 781,
                       "id": "component_libraries_other_libraries_react_native_maps",
-                      "percentageQuestion": 40.88,
-                      "percentageSurvey": 22.65,
+                      "percentageQuestion": 41.48,
+                      "percentageSurvey": 22.31,
                       "entity": {
                         "name": "react-native-maps",
                         "nameClean": "react-native-maps",
@@ -228,14 +228,14 @@
                           "url": "https://www.npmjs.com/package/react-native-maps"
                         }
                       },
-                      "percentagePositive": 15,
+                      "percentagePositive": 16,
                       "percentageNegative": 3
                     },
                     {
-                      "count": 540,
+                      "count": 703,
                       "id": "component_libraries_other_libraries_react_native_vector_icons",
-                      "percentageQuestion": 36.36,
-                      "percentageSurvey": 20.15,
+                      "percentageQuestion": 37.33,
+                      "percentageSurvey": 20.08,
                       "entity": {
                         "name": "react-native-vector-icons",
                         "nameClean": "react-native-vector-icons",
@@ -257,10 +257,10 @@
                       "percentageNegative": 2
                     },
                     {
-                      "count": 512,
+                      "count": 652,
                       "id": "component_libraries_other_libraries_react_native_fast_image",
-                      "percentageQuestion": 34.48,
-                      "percentageSurvey": 19.1,
+                      "percentageQuestion": 34.63,
+                      "percentageSurvey": 18.62,
                       "entity": {
                         "name": "react-native-fast-image",
                         "nameClean": "react-native-fast-image",
@@ -279,10 +279,10 @@
                       "percentageNegative": 4
                     },
                     {
-                      "count": 462,
+                      "count": 621,
                       "id": "component_libraries_other_libraries_react_native_camera",
-                      "percentageQuestion": 31.11,
-                      "percentageSurvey": 17.24,
+                      "percentageQuestion": 32.98,
+                      "percentageSurvey": 17.74,
                       "entity": {
                         "name": "react-native-camera",
                         "nameClean": "react-native-camera",
@@ -304,10 +304,10 @@
                       "percentageNegative": 3
                     },
                     {
-                      "count": 401,
+                      "count": 494,
                       "id": "component_libraries_other_libraries_react_native_vision_camera",
-                      "percentageQuestion": 27,
-                      "percentageSurvey": 14.96,
+                      "percentageQuestion": 26.23,
+                      "percentageSurvey": 14.11,
                       "entity": {
                         "name": "react-native-vision-camera",
                         "nameClean": "react-native-vision-camera",
@@ -329,10 +329,35 @@
                       "percentageNegative": 2
                     },
                     {
-                      "count": 364,
+                      "count": 491,
+                      "id": "component_libraries_other_libraries_formik",
+                      "percentageQuestion": 26.08,
+                      "percentageSurvey": 14.02,
+                      "entity": {
+                        "name": "formik",
+                        "nameClean": "formik",
+                        "description": "A library for building forms in React with minimal tears and maximum productivity.",
+                        "descriptionClean": "A library for building forms in React with minimal tears and maximum productivity.",
+                        "id": "component_libraries_other_libraries_formik",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://formik.org/"
+                        },
+                        "github": {
+                          "url": "https://github.com/jaredpalmer/formik"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/formik"
+                        }
+                      },
+                      "percentagePositive": 15,
+                      "percentageNegative": 8
+                    },
+                    {
+                      "count": 469,
                       "id": "component_libraries_other_libraries_react_native_video",
-                      "percentageQuestion": 24.51,
-                      "percentageSurvey": 13.58,
+                      "percentageQuestion": 24.91,
+                      "percentageSurvey": 13.4,
                       "entity": {
                         "name": "react-native-video",
                         "nameClean": "react-native-video",
@@ -352,38 +377,13 @@
                         }
                       },
                       "percentagePositive": 15,
-                      "percentageNegative": 4
+                      "percentageNegative": 5
                     },
                     {
-                      "count": 358,
-                      "id": "component_libraries_other_libraries_formik",
-                      "percentageQuestion": 24.11,
-                      "percentageSurvey": 13.36,
-                      "entity": {
-                        "name": "formik",
-                        "nameClean": "formik",
-                        "description": "A library for building forms in React with minimal tears and maximum productivity.",
-                        "descriptionClean": "A library for building forms in React with minimal tears and maximum productivity.",
-                        "id": "component_libraries_other_libraries_formik",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://formik.org/"
-                        },
-                        "github": {
-                          "url": "https://github.com/jaredpalmer/formik"
-                        },
-                        "npm": {
-                          "url": "https://www.npmjs.com/package/formik"
-                        }
-                      },
-                      "percentagePositive": 15,
-                      "percentageNegative": 9
-                    },
-                    {
-                      "count": 1195,
+                      "count": 1618,
                       "id": "no_answer",
                       "percentageQuestion": 0,
-                      "percentageSurvey": 44.59
+                      "percentageSurvey": 46.22
                     }
                   ]
                 }

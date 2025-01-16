@@ -8,16 +8,16 @@
               "freeform": {
                 "currentEdition": {
                   "completion": {
-                    "count": 430,
-                    "percentageSurvey": 16.04,
-                    "total": 2680
+                    "count": 552,
+                    "percentageSurvey": 15.77,
+                    "total": 3501
                   },
                   "buckets": [
                     {
-                      "count": 23,
+                      "count": 31,
                       "id": "lack_of_documentation",
-                      "percentageQuestion": 5.35,
-                      "percentageSurvey": 0.86,
+                      "percentageQuestion": 5.62,
+                      "percentageSurvey": 0.89,
                       "entity": {
                         "name": "Lack of documentation",
                         "nameClean": "Lack of documentation",
@@ -28,10 +28,10 @@
                       }
                     },
                     {
-                      "count": 20,
+                      "count": 26,
                       "id": "configuration",
-                      "percentageQuestion": 4.65,
-                      "percentageSurvey": 0.75,
+                      "percentageQuestion": 4.71,
+                      "percentageSurvey": 0.74,
                       "entity": {
                         "name": "Configuration",
                         "nameClean": "Configuration",
@@ -42,10 +42,10 @@
                       }
                     },
                     {
-                      "count": 18,
+                      "count": 25,
                       "id": "performance",
-                      "percentageQuestion": 4.19,
-                      "percentageSurvey": 0.67,
+                      "percentageQuestion": 4.53,
+                      "percentageSurvey": 0.71,
                       "entity": {
                         "name": "Performance",
                         "nameClean": "Performance",
@@ -56,10 +56,10 @@
                       }
                     },
                     {
-                      "count": 17,
+                      "count": 21,
                       "id": "version_updates",
-                      "percentageQuestion": 3.95,
-                      "percentageSurvey": 0.63,
+                      "percentageQuestion": 3.8,
+                      "percentageSurvey": 0.6,
                       "entity": {
                         "name": "Version changes",
                         "nameClean": "Version changes",
@@ -70,24 +70,10 @@
                       }
                     },
                     {
-                      "count": 13,
-                      "id": "accessibility",
-                      "percentageQuestion": 3.02,
-                      "percentageSurvey": 0.49,
-                      "entity": {
-                        "name": "Accessibility",
-                        "nameClean": "Accessibility",
-                        "description": "Accessibility improvements",
-                        "descriptionClean": "Accessibility improvements",
-                        "id": "accessibility",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 11,
+                      "count": 16,
                       "id": "excessive_complexity",
-                      "percentageQuestion": 2.56,
-                      "percentageSurvey": 0.41,
+                      "percentageQuestion": 2.9,
+                      "percentageSurvey": 0.46,
                       "entity": {
                         "name": "Excessive complexity",
                         "nameClean": "Excessive complexity",
@@ -98,28 +84,68 @@
                       }
                     },
                     {
-                      "count": 2250,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 83.96
+                      "count": 15,
+                      "id": "accessibility",
+                      "percentageQuestion": 2.72,
+                      "percentageSurvey": 0.43,
+                      "entity": {
+                        "name": "Accessibility",
+                        "nameClean": "Accessibility",
+                        "description": "Accessibility improvements",
+                        "descriptionClean": "Accessibility improvements",
+                        "id": "accessibility",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 598,
+                      "count": 15,
+                      "id": "maintenance",
+                      "percentageQuestion": 2.72,
+                      "percentageSurvey": 0.43,
+                      "entity": {
+                        "name": "Maintenance",
+                        "nameClean": "Maintenance",
+                        "id": "maintenance",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 10,
+                      "id": "debugging",
+                      "percentageQuestion": 1.81,
+                      "percentageSurvey": 0.29,
+                      "entity": {
+                        "name": "Debugging",
+                        "nameClean": "Debugging",
+                        "description": "Debugging issues",
+                        "descriptionClean": "Debugging issues",
+                        "id": "debugging",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 2949,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 84.23
+                    },
+                    {
+                      "count": 743,
                       "id": "other_answers",
-                      "percentageQuestion": 139.1,
-                      "percentageSurvey": 22.29,
+                      "percentageQuestion": 134.58,
+                      "percentageSurvey": 21.26,
                       "groupedBuckets": [
                         {
-                          "count": 85,
+                          "count": 82,
                           "id": "cutoff_answers",
-                          "percentageQuestion": 19.8,
-                          "percentageSurvey": 3.15
+                          "percentageQuestion": 14.83,
+                          "percentageSurvey": 2.38
                         },
                         {
-                          "count": 513,
+                          "count": 661,
                           "id": "no_match",
-                          "percentageQuestion": 119.3,
-                          "percentageSurvey": 19.14
+                          "percentageQuestion": 119.75,
+                          "percentageSurvey": 18.88
                         }
                       ]
                     }
