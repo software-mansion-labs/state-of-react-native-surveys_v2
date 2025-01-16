@@ -8,16 +8,28 @@
               "freeform": {
                 "currentEdition": {
                   "completion": {
-                    "count": 140,
-                    "percentageSurvey": 5.22,
-                    "total": 2680
+                    "count": 175,
+                    "percentageSurvey": 5,
+                    "total": 3501
                   },
                   "buckets": [
                     {
-                      "count": 11,
+                      "count": 16,
+                      "id": "error_handling",
+                      "percentageQuestion": 9.14,
+                      "percentageSurvey": 0.46,
+                      "entity": {
+                        "name": "Error handling",
+                        "nameClean": "Error handling",
+                        "id": "error_handling",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 14,
                       "id": "state_management",
-                      "percentageQuestion": 7.86,
-                      "percentageSurvey": 0.41,
+                      "percentageQuestion": 8,
+                      "percentageSurvey": 0.4,
                       "entity": {
                         "name": "State management",
                         "nameClean": "State management",
@@ -27,39 +39,41 @@
                     },
                     {
                       "count": 10,
-                      "id": "error_handling",
-                      "percentageQuestion": 7.14,
-                      "percentageSurvey": 0.37,
+                      "id": "excessive_complexity",
+                      "percentageQuestion": 5.71,
+                      "percentageSurvey": 0.29,
                       "entity": {
-                        "name": "Error handling",
-                        "nameClean": "Error handling",
-                        "id": "error_handling",
+                        "name": "Excessive complexity",
+                        "nameClean": "Excessive complexity",
+                        "description": "Too much complexity",
+                        "descriptionClean": "Too much complexity",
+                        "id": "excessive_complexity",
                         "entityType": "default"
                       }
                     },
                     {
-                      "count": 2540,
+                      "count": 3326,
                       "id": "no_answer",
                       "percentageQuestion": 0,
-                      "percentageSurvey": 94.78
+                      "percentageSurvey": 95
                     },
                     {
-                      "count": 167,
+                      "count": 207,
                       "id": "other_answers",
-                      "percentageQuestion": 119.26,
-                      "percentageSurvey": 6.23,
+                      "percentageQuestion": 118.26,
+                      "percentageSurvey": 5.94,
                       "groupedBuckets": [
                         {
-                          "count": 53,
+                          "count": 62,
                           "id": "cutoff_answers",
-                          "percentageQuestion": 37.83,
-                          "percentageSurvey": 1.98
+                          "percentageQuestion": 35.4,
+                          "percentageSurvey": 1.8
                         },
                         {
-                          "count": 114,
+                          "count": 145,
                           "id": "no_match",
-                          "percentageQuestion": 81.43,
-                          "percentageSurvey": 4.25
+                          "percentageQuestion": 82.86,
+                          "percentageSurvey": 4.14
                         }
                       ]
                     }

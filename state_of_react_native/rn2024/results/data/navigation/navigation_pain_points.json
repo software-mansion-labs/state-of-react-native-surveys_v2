@@ -8,16 +8,16 @@
               "freeform": {
                 "currentEdition": {
                   "completion": {
-                    "count": 179,
-                    "percentageSurvey": 6.68,
-                    "total": 2680
+                    "count": 235,
+                    "percentageSurvey": 6.71,
+                    "total": 3501
                   },
                   "buckets": [
                     {
-                      "count": 15,
+                      "count": 19,
                       "id": "lack_of_documentation",
-                      "percentageQuestion": 8.38,
-                      "percentageSurvey": 0.56,
+                      "percentageQuestion": 8.09,
+                      "percentageSurvey": 0.54,
                       "entity": {
                         "name": "Lack of documentation",
                         "nameClean": "Lack of documentation",
@@ -28,10 +28,10 @@
                       }
                     },
                     {
-                      "count": 12,
+                      "count": 17,
                       "id": "excessive_complexity",
-                      "percentageQuestion": 6.7,
-                      "percentageSurvey": 0.45,
+                      "percentageQuestion": 7.23,
+                      "percentageSurvey": 0.49,
                       "entity": {
                         "name": "Excessive complexity",
                         "nameClean": "Excessive complexity",
@@ -42,10 +42,10 @@
                       }
                     },
                     {
-                      "count": 10,
+                      "count": 15,
                       "id": "configuration",
-                      "percentageQuestion": 5.59,
-                      "percentageSurvey": 0.37,
+                      "percentageQuestion": 6.38,
+                      "percentageSurvey": 0.43,
                       "entity": {
                         "name": "Configuration",
                         "nameClean": "Configuration",
@@ -56,10 +56,24 @@
                       }
                     },
                     {
-                      "count": 10,
+                      "count": 12,
+                      "id": "performance",
+                      "percentageQuestion": 5.11,
+                      "percentageSurvey": 0.34,
+                      "entity": {
+                        "name": "Performance",
+                        "nameClean": "Performance",
+                        "description": "Performance issues",
+                        "descriptionClean": "Performance issues",
+                        "id": "performance",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 12,
                       "id": "state_management",
-                      "percentageQuestion": 5.59,
-                      "percentageSurvey": 0.37,
+                      "percentageQuestion": 5.11,
+                      "percentageSurvey": 0.34,
                       "entity": {
                         "name": "State management",
                         "nameClean": "State management",
@@ -68,28 +82,28 @@
                       }
                     },
                     {
-                      "count": 2501,
+                      "count": 3266,
                       "id": "no_answer",
                       "percentageQuestion": 0,
-                      "percentageSurvey": 93.32
+                      "percentageSurvey": 93.29
                     },
                     {
-                      "count": 224,
+                      "count": 286,
                       "id": "other_answers",
-                      "percentageQuestion": 125.16,
-                      "percentageSurvey": 8.36,
+                      "percentageQuestion": 121.72,
+                      "percentageSurvey": 8.19,
                       "groupedBuckets": [
                         {
-                          "count": 50,
+                          "count": 62,
                           "id": "cutoff_answers",
-                          "percentageQuestion": 27.95,
-                          "percentageSurvey": 1.87
+                          "percentageQuestion": 26.4,
+                          "percentageSurvey": 1.79
                         },
                         {
-                          "count": 174,
+                          "count": 224,
                           "id": "no_match",
-                          "percentageQuestion": 97.21,
-                          "percentageSurvey": 6.49
+                          "percentageQuestion": 95.32,
+                          "percentageSurvey": 6.4
                         }
                       ]
                     }

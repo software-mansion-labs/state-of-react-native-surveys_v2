@@ -8,16 +8,16 @@
               "responses": {
                 "currentEdition": {
                   "completion": {
-                    "count": 957,
-                    "percentageSurvey": 35.71,
-                    "total": 2680
+                    "count": 1218,
+                    "percentageSurvey": 34.79,
+                    "total": 3501
                   },
                   "buckets": [
                     {
-                      "count": 706,
+                      "count": 897,
                       "id": "testing_and_monitoring_analytics_firebase_analytics",
-                      "percentageQuestion": 73.77,
-                      "percentageSurvey": 26.34,
+                      "percentageQuestion": 73.65,
+                      "percentageSurvey": 25.62,
                       "entity": {
                         "name": "Firebase Analytics",
                         "nameClean": "Firebase Analytics",
@@ -33,10 +33,10 @@
                       "percentageNegative": 5
                     },
                     {
-                      "count": 196,
+                      "count": 259,
                       "id": "testing_and_monitoring_analytics_mixpanel",
-                      "percentageQuestion": 20.48,
-                      "percentageSurvey": 7.31,
+                      "percentageQuestion": 21.26,
+                      "percentageSurvey": 7.4,
                       "entity": {
                         "name": "Mixpanel",
                         "nameClean": "Mixpanel",
@@ -52,10 +52,10 @@
                       "percentageNegative": 4
                     },
                     {
-                      "count": 177,
+                      "count": 222,
                       "id": "testing_and_monitoring_analytics_amplitude",
-                      "percentageQuestion": 18.5,
-                      "percentageSurvey": 6.6,
+                      "percentageQuestion": 18.23,
+                      "percentageSurvey": 6.34,
                       "entity": {
                         "name": "Amplitude",
                         "nameClean": "Amplitude",
@@ -71,10 +71,29 @@
                       "percentageNegative": 4
                     },
                     {
-                      "count": 161,
+                      "count": 199,
+                      "id": "testing_and_monitoring_analytics_appcenter_analytics",
+                      "percentageQuestion": 16.34,
+                      "percentageSurvey": 5.68,
+                      "entity": {
+                        "name": "AppCenter Analytics",
+                        "nameClean": "AppCenter Analytics",
+                        "description": "A tool for tracking app performance and user analytics in React Native applications.",
+                        "descriptionClean": "A tool for tracking app performance and user analytics in React Native applications.",
+                        "id": "testing_and_monitoring_analytics_appcenter_analytics",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://learn.microsoft.com/en-us/appcenter/sdk/getting-started/react-native"
+                        }
+                      },
+                      "percentagePositive": 6,
+                      "percentageNegative": 4
+                    },
+                    {
+                      "count": 198,
                       "id": "testing_and_monitoring_analytics_posthog",
-                      "percentageQuestion": 16.82,
-                      "percentageSurvey": 6.01,
+                      "percentageQuestion": 16.26,
+                      "percentageSurvey": 5.66,
                       "entity": {
                         "name": "PostHog",
                         "nameClean": "PostHog",
@@ -90,48 +109,10 @@
                       "percentageNegative": 2
                     },
                     {
-                      "count": 147,
-                      "id": "testing_and_monitoring_analytics_appsflyer",
-                      "percentageQuestion": 15.36,
-                      "percentageSurvey": 5.49,
-                      "entity": {
-                        "name": "AppsFlyer",
-                        "nameClean": "AppsFlyer",
-                        "description": "A mobile attribution and marketing analytics platform that helps track user acquisition and engagement.",
-                        "descriptionClean": "A mobile attribution and marketing analytics platform that helps track user acquisition and engagement.",
-                        "id": "testing_and_monitoring_analytics_appsflyer",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://www.appsflyer.com/"
-                        }
-                      },
-                      "percentagePositive": 7,
-                      "percentageNegative": 10
-                    },
-                    {
-                      "count": 146,
-                      "id": "testing_and_monitoring_analytics_appcenter_analytics",
-                      "percentageQuestion": 15.26,
-                      "percentageSurvey": 5.45,
-                      "entity": {
-                        "name": "AppCenter Analytics",
-                        "nameClean": "AppCenter Analytics",
-                        "description": "A tool for tracking app performance and user analytics in React Native applications.",
-                        "descriptionClean": "A tool for tracking app performance and user analytics in React Native applications.",
-                        "id": "testing_and_monitoring_analytics_appcenter_analytics",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://learn.microsoft.com/en-us/appcenter/sdk/getting-started/react-native"
-                        }
-                      },
-                      "percentagePositive": 5,
-                      "percentageNegative": 2
-                    },
-                    {
-                      "count": 146,
+                      "count": 185,
                       "id": "testing_and_monitoring_analytics_segment",
-                      "percentageQuestion": 15.26,
-                      "percentageSurvey": 5.45,
+                      "percentageQuestion": 15.19,
+                      "percentageSurvey": 5.28,
                       "entity": {
                         "name": "Segment",
                         "nameClean": "Segment",
@@ -143,14 +124,33 @@
                           "url": "https://segment.com/"
                         }
                       },
-                      "percentagePositive": 18,
+                      "percentagePositive": 16,
                       "percentageNegative": 4
                     },
                     {
-                      "count": 54,
+                      "count": 180,
+                      "id": "testing_and_monitoring_analytics_appsflyer",
+                      "percentageQuestion": 14.78,
+                      "percentageSurvey": 5.14,
+                      "entity": {
+                        "name": "AppsFlyer",
+                        "nameClean": "AppsFlyer",
+                        "description": "A mobile attribution and marketing analytics platform that helps track user acquisition and engagement.",
+                        "descriptionClean": "A mobile attribution and marketing analytics platform that helps track user acquisition and engagement.",
+                        "id": "testing_and_monitoring_analytics_appsflyer",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://www.appsflyer.com/"
+                        }
+                      },
+                      "percentagePositive": 8,
+                      "percentageNegative": 9
+                    },
+                    {
+                      "count": 76,
                       "id": "testing_and_monitoring_analytics_amplify_analytics",
-                      "percentageQuestion": 5.64,
-                      "percentageSurvey": 2.01,
+                      "percentageQuestion": 6.24,
+                      "percentageSurvey": 2.17,
                       "entity": {
                         "name": "Amplify Analytics",
                         "nameClean": "Amplify Analytics",
@@ -162,14 +162,14 @@
                           "url": "https://docs.amplify.aws/react-native/"
                         }
                       },
-                      "percentagePositive": 2,
-                      "percentageNegative": 6
+                      "percentagePositive": 4,
+                      "percentageNegative": 4
                     },
                     {
-                      "count": 38,
+                      "count": 63,
                       "id": "testing_and_monitoring_analytics_adobe_analytics",
-                      "percentageQuestion": 3.97,
-                      "percentageSurvey": 1.42,
+                      "percentageQuestion": 5.17,
+                      "percentageSurvey": 1.8,
                       "entity": {
                         "name": "Adobe Analytics",
                         "nameClean": "Adobe Analytics",
@@ -182,13 +182,13 @@
                         }
                       },
                       "percentagePositive": 5,
-                      "percentageNegative": 5
+                      "percentageNegative": 3
                     },
                     {
-                      "count": 1702,
+                      "count": 2255,
                       "id": "no_answer",
                       "percentageQuestion": 0,
-                      "percentageSurvey": 63.51
+                      "percentageSurvey": 64.41
                     }
                   ]
                 }

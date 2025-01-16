@@ -8,46 +8,16 @@
               "responses": {
                 "currentEdition": {
                   "completion": {
-                    "count": 2050,
-                    "percentageSurvey": 76.49,
-                    "total": 2680
+                    "count": 2650,
+                    "percentageSurvey": 75.69,
+                    "total": 3501
                   },
                   "buckets": [
                     {
-                      "count": 1350,
-                      "id": "platform_apis_notifications",
-                      "percentageQuestion": 65.85,
-                      "percentageSurvey": 50.37,
-                      "entity": {
-                        "name": "Notifications",
-                        "nameClean": "Notifications",
-                        "description": "Control user-facing notifications",
-                        "descriptionClean": "Control user-facing notifications",
-                        "id": "platform_apis_notifications",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/usernotifications",
-                            "title": "iOS"
-                          },
-                          {
-                            "url": "https://developer.android.com/guide/topics/ui/notifiers/notifications",
-                            "title": "Android"
-                          },
-                          {
-                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API",
-                            "title": "Web API"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 19,
-                      "percentageNegative": 8
-                    },
-                    {
-                      "count": 1327,
+                      "count": 1734,
                       "id": "platform_apis_camera",
-                      "percentageQuestion": 64.73,
-                      "percentageSurvey": 49.51,
+                      "percentageQuestion": 65.43,
+                      "percentageSurvey": 49.53,
                       "entity": {
                         "name": "Camera",
                         "nameClean": "Camera",
@@ -70,14 +40,44 @@
                           }
                         ]
                       },
-                      "percentagePositive": 30,
+                      "percentagePositive": 29,
                       "percentageNegative": 4
                     },
                     {
-                      "count": 1264,
+                      "count": 1734,
+                      "id": "platform_apis_notifications",
+                      "percentageQuestion": 65.43,
+                      "percentageSurvey": 49.53,
+                      "entity": {
+                        "name": "Notifications",
+                        "nameClean": "Notifications",
+                        "description": "Control user-facing notifications",
+                        "descriptionClean": "Control user-facing notifications",
+                        "id": "platform_apis_notifications",
+                        "entityType": "feature",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/usernotifications",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/guide/topics/ui/notifiers/notifications",
+                            "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API",
+                            "title": "Web API"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 20,
+                      "percentageNegative": 8
+                    },
+                    {
+                      "count": 1630,
                       "id": "platform_apis_permissions",
-                      "percentageQuestion": 61.66,
-                      "percentageSurvey": 47.16,
+                      "percentageQuestion": 61.51,
+                      "percentageSurvey": 46.56,
                       "entity": {
                         "name": "Permissions",
                         "nameClean": "Permissions",
@@ -100,10 +100,10 @@
                       "percentageNegative": 4
                     },
                     {
-                      "count": 1257,
+                      "count": 1599,
                       "id": "platform_apis_deep_links",
-                      "percentageQuestion": 61.32,
-                      "percentageSurvey": 46.9,
+                      "percentageQuestion": 60.34,
+                      "percentageSurvey": 45.67,
                       "entity": {
                         "name": "Deep links",
                         "nameClean": "Deep links",
@@ -122,14 +122,14 @@
                           }
                         ]
                       },
-                      "percentagePositive": 21,
-                      "percentageNegative": 9
+                      "percentagePositive": 20,
+                      "percentageNegative": 10
                     },
                     {
-                      "count": 1175,
+                      "count": 1485,
                       "id": "platform_apis_storage",
-                      "percentageQuestion": 57.32,
-                      "percentageSurvey": 43.84,
+                      "percentageQuestion": 56.04,
+                      "percentageSurvey": 42.42,
                       "entity": {
                         "name": "Persistent storage",
                         "nameClean": "Persistent storage",
@@ -156,10 +156,10 @@
                       "percentageNegative": 2
                     },
                     {
-                      "count": 1137,
+                      "count": 1435,
                       "id": "platform_apis_appearance",
-                      "percentageQuestion": 55.46,
-                      "percentageSurvey": 42.43,
+                      "percentageQuestion": 54.15,
+                      "percentageSurvey": 40.99,
                       "entity": {
                         "name": "Appearance",
                         "nameClean": "Appearance",
@@ -186,10 +186,10 @@
                       "percentageNegative": 2
                     },
                     {
-                      "count": 1082,
+                      "count": 1389,
                       "id": "platform_apis_webview",
-                      "percentageQuestion": 52.78,
-                      "percentageSurvey": 40.37,
+                      "percentageQuestion": 52.42,
+                      "percentageSurvey": 39.67,
                       "entity": {
                         "name": "WebView",
                         "nameClean": "WebView",
@@ -212,10 +212,10 @@
                       "percentageNegative": 6
                     },
                     {
-                      "count": 1063,
+                      "count": 1362,
                       "id": "platform_apis_file_system",
-                      "percentageQuestion": 51.85,
-                      "percentageSurvey": 39.66,
+                      "percentageQuestion": 51.4,
+                      "percentageSurvey": 38.9,
                       "entity": {
                         "name": "File System",
                         "nameClean": "File System",
@@ -238,14 +238,14 @@
                           }
                         ]
                       },
-                      "percentagePositive": 23,
-                      "percentageNegative": 5
+                      "percentagePositive": 22,
+                      "percentageNegative": 6
                     },
                     {
-                      "count": 957,
+                      "count": 1242,
                       "id": "platform_apis_location",
-                      "percentageQuestion": 46.68,
-                      "percentageSurvey": 35.71,
+                      "percentageQuestion": 46.87,
+                      "percentageSurvey": 35.48,
                       "entity": {
                         "name": "Location",
                         "nameClean": "Location",
@@ -272,10 +272,10 @@
                       "percentageNegative": 4
                     },
                     {
-                      "count": 868,
+                      "count": 1128,
                       "id": "platform_apis_media_library",
-                      "percentageQuestion": 42.34,
-                      "percentageSurvey": 32.39,
+                      "percentageQuestion": 42.57,
+                      "percentageSurvey": 32.22,
                       "entity": {
                         "name": "Media library",
                         "nameClean": "Media library",
@@ -302,10 +302,10 @@
                       "percentageNegative": 2
                     },
                     {
-                      "count": 864,
+                      "count": 1114,
                       "id": "platform_apis_maps",
-                      "percentageQuestion": 42.15,
-                      "percentageSurvey": 32.24,
+                      "percentageQuestion": 42.04,
+                      "percentageSurvey": 31.82,
                       "entity": {
                         "name": "Maps",
                         "nameClean": "Maps",
@@ -328,10 +328,10 @@
                       "percentageNegative": 7
                     },
                     {
-                      "count": 829,
+                      "count": 1061,
                       "id": "platform_apis_clipboard",
-                      "percentageQuestion": 40.44,
-                      "percentageSurvey": 30.93,
+                      "percentageQuestion": 40.04,
+                      "percentageSurvey": 30.31,
                       "entity": {
                         "name": "Clipboard",
                         "nameClean": "Clipboard",
@@ -358,10 +358,10 @@
                       "percentageNegative": 1
                     },
                     {
-                      "count": 733,
+                      "count": 911,
                       "id": "platform_apis_haptics",
-                      "percentageQuestion": 35.76,
-                      "percentageSurvey": 27.35,
+                      "percentageQuestion": 34.38,
+                      "percentageSurvey": 26.02,
                       "entity": {
                         "name": "Haptics",
                         "nameClean": "Haptics",
@@ -384,14 +384,14 @@
                           }
                         ]
                       },
-                      "percentagePositive": 30,
+                      "percentagePositive": 29,
                       "percentageNegative": 2
                     },
                     {
-                      "count": 590,
+                      "count": 757,
                       "id": "platform_apis_audio",
-                      "percentageQuestion": 28.78,
-                      "percentageSurvey": 22.01,
+                      "percentageQuestion": 28.57,
+                      "percentageSurvey": 21.62,
                       "entity": {
                         "name": "Audio playback",
                         "nameClean": "Audio playback",
@@ -415,13 +415,13 @@
                         ]
                       },
                       "percentagePositive": 23,
-                      "percentageNegative": 10
+                      "percentageNegative": 9
                     },
                     {
-                      "count": 590,
+                      "count": 754,
                       "id": "platform_apis_in_app_payments",
-                      "percentageQuestion": 28.78,
-                      "percentageSurvey": 22.01,
+                      "percentageQuestion": 28.45,
+                      "percentageSurvey": 21.54,
                       "entity": {
                         "name": "In-app payments",
                         "nameClean": "In-app payments",
@@ -445,13 +445,13 @@
                         ]
                       },
                       "percentagePositive": 19,
-                      "percentageNegative": 12
+                      "percentageNegative": 11
                     },
                     {
-                      "count": 562,
+                      "count": 749,
                       "id": "platform_apis_background_processing",
-                      "percentageQuestion": 27.41,
-                      "percentageSurvey": 20.97,
+                      "percentageQuestion": 28.26,
+                      "percentageSurvey": 21.39,
                       "entity": {
                         "name": "Background processing",
                         "nameClean": "Background processing",
@@ -474,44 +474,14 @@
                           }
                         ]
                       },
-                      "percentagePositive": 14,
-                      "percentageNegative": 20
+                      "percentagePositive": 15,
+                      "percentageNegative": 19
                     },
                     {
-                      "count": 540,
-                      "id": "platform_apis_screen_orientation",
-                      "percentageQuestion": 26.34,
-                      "percentageSurvey": 20.15,
-                      "entity": {
-                        "name": "Screen orientation",
-                        "nameClean": "Screen orientation",
-                        "description": "Access and control screen orientation",
-                        "descriptionClean": "Access and control screen orientation",
-                        "id": "platform_apis_screen_orientation",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/uikit/uiinterfaceorientation",
-                            "title": "iOS"
-                          },
-                          {
-                            "url": "https://developer.android.com/guide/practices/device-compatibility-mode",
-                            "title": "Android"
-                          },
-                          {
-                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Screen_Orientation_API",
-                            "title": "Web API"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 21,
-                      "percentageNegative": 8
-                    },
-                    {
-                      "count": 522,
+                      "count": 697,
                       "id": "platform_apis_local_authentication",
-                      "percentageQuestion": 25.46,
-                      "percentageSurvey": 19.48,
+                      "percentageQuestion": 26.3,
+                      "percentageSurvey": 19.91,
                       "entity": {
                         "name": "Local authentication",
                         "nameClean": "Local authentication",
@@ -538,10 +508,40 @@
                       "percentageNegative": 4
                     },
                     {
-                      "count": 515,
+                      "count": 696,
+                      "id": "platform_apis_screen_orientation",
+                      "percentageQuestion": 26.26,
+                      "percentageSurvey": 19.88,
+                      "entity": {
+                        "name": "Screen orientation",
+                        "nameClean": "Screen orientation",
+                        "description": "Access and control screen orientation",
+                        "descriptionClean": "Access and control screen orientation",
+                        "id": "platform_apis_screen_orientation",
+                        "entityType": "feature",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/uikit/uiinterfaceorientation",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/guide/practices/device-compatibility-mode",
+                            "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Screen_Orientation_API",
+                            "title": "Web API"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 21,
+                      "percentageNegative": 8
+                    },
+                    {
+                      "count": 669,
                       "id": "platform_apis_video_playback",
-                      "percentageQuestion": 25.12,
-                      "percentageSurvey": 19.22,
+                      "percentageQuestion": 25.25,
+                      "percentageSurvey": 19.11,
                       "entity": {
                         "name": "Video playback",
                         "nameClean": "Video playback",
@@ -564,14 +564,14 @@
                           }
                         ]
                       },
-                      "percentagePositive": 19,
-                      "percentageNegative": 10
+                      "percentagePositive": 20,
+                      "percentageNegative": 9
                     },
                     {
-                      "count": 489,
+                      "count": 633,
                       "id": "platform_apis_accessibility",
-                      "percentageQuestion": 23.85,
-                      "percentageSurvey": 18.25,
+                      "percentageQuestion": 23.89,
+                      "percentageSurvey": 18.08,
                       "entity": {
                         "name": "Accessibility (a11y)",
                         "nameClean": "Accessibility (a11y)",
@@ -594,14 +594,14 @@
                           }
                         ]
                       },
-                      "percentagePositive": 26,
-                      "percentageNegative": 10
+                      "percentagePositive": 24,
+                      "percentageNegative": 9
                     },
                     {
-                      "count": 450,
+                      "count": 577,
                       "id": "platform_apis_in_app_reviews",
-                      "percentageQuestion": 21.95,
-                      "percentageSurvey": 16.79,
+                      "percentageQuestion": 21.77,
+                      "percentageSurvey": 16.48,
                       "entity": {
                         "name": "In-app reviews",
                         "nameClean": "In-app reviews",
@@ -620,14 +620,40 @@
                           }
                         ]
                       },
-                      "percentagePositive": 25,
+                      "percentagePositive": 24,
                       "percentageNegative": 5
                     },
                     {
-                      "count": 377,
+                      "count": 509,
+                      "id": "platform_apis_calendar_reminders",
+                      "percentageQuestion": 19.21,
+                      "percentageSurvey": 14.54,
+                      "entity": {
+                        "name": "Calendar and reminders",
+                        "nameClean": "Calendar and reminders",
+                        "description": "Manipulate calendar and reminder events",
+                        "descriptionClean": "Manipulate calendar and reminder events",
+                        "id": "platform_apis_calendar_reminders",
+                        "entityType": "feature",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/eventkit",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/identity/providers/calendar-provider",
+                            "title": "Android"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 24,
+                      "percentageNegative": 6
+                    },
+                    {
+                      "count": 497,
                       "id": "platform_apis_microphone",
-                      "percentageQuestion": 18.39,
-                      "percentageSurvey": 14.07,
+                      "percentageQuestion": 18.75,
+                      "percentageSurvey": 14.2,
                       "entity": {
                         "name": "Microphone",
                         "nameClean": "Microphone",
@@ -654,36 +680,10 @@
                       "percentageNegative": 4
                     },
                     {
-                      "count": 374,
-                      "id": "platform_apis_calendar_reminders",
-                      "percentageQuestion": 18.24,
-                      "percentageSurvey": 13.96,
-                      "entity": {
-                        "name": "Calendar and reminders",
-                        "nameClean": "Calendar and reminders",
-                        "description": "Manipulate calendar and reminder events",
-                        "descriptionClean": "Manipulate calendar and reminder events",
-                        "id": "platform_apis_calendar_reminders",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/eventkit",
-                            "title": "iOS"
-                          },
-                          {
-                            "url": "https://developer.android.com/identity/providers/calendar-provider",
-                            "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 24,
-                      "percentageNegative": 7
-                    },
-                    {
-                      "count": 358,
+                      "count": 480,
                       "id": "platform_apis_contacts",
-                      "percentageQuestion": 17.46,
-                      "percentageSurvey": 13.36,
+                      "percentageQuestion": 18.11,
+                      "percentageSurvey": 13.71,
                       "entity": {
                         "name": "Contacts",
                         "nameClean": "Contacts",
@@ -707,14 +707,14 @@
                           }
                         ]
                       },
-                      "percentagePositive": 22,
+                      "percentagePositive": 23,
                       "percentageNegative": 3
                     },
                     {
-                      "count": 337,
+                      "count": 453,
                       "id": "platform_apis_bluetooth",
-                      "percentageQuestion": 16.44,
-                      "percentageSurvey": 12.57,
+                      "percentageQuestion": 17.09,
+                      "percentageSurvey": 12.94,
                       "entity": {
                         "name": "Bluetooth",
                         "nameClean": "Bluetooth",
@@ -741,10 +741,40 @@
                       "percentageNegative": 13
                     },
                     {
-                      "count": 224,
+                      "count": 288,
+                      "id": "platform_apis_sensors",
+                      "percentageQuestion": 10.87,
+                      "percentageSurvey": 8.23,
+                      "entity": {
+                        "name": "Sensors",
+                        "nameClean": "Sensors",
+                        "description": "Process events from accelerometer, gyroscope, magnetometer, barometer, pedometer, etc.",
+                        "descriptionClean": "Process events from accelerometer, gyroscope, magnetometer, barometer, pedometer, etc.",
+                        "id": "platform_apis_sensors",
+                        "entityType": "feature",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/documentation/coremotion",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developer.android.com/guide/topics/sensors/sensors_overview",
+                            "title": "Android"
+                          },
+                          {
+                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Sensor",
+                            "title": "Web API"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 23,
+                      "percentageNegative": 5
+                    },
+                    {
+                      "count": 284,
                       "id": "platform_apis_cryptography",
-                      "percentageQuestion": 10.93,
-                      "percentageSurvey": 8.36,
+                      "percentageQuestion": 10.72,
+                      "percentageSurvey": 8.11,
                       "entity": {
                         "name": "Cryptography",
                         "nameClean": "Cryptography",
@@ -768,43 +798,13 @@
                         ]
                       },
                       "percentagePositive": 22,
-                      "percentageNegative": 11
+                      "percentageNegative": 10
                     },
                     {
-                      "count": 218,
-                      "id": "platform_apis_sensors",
-                      "percentageQuestion": 10.63,
-                      "percentageSurvey": 8.13,
-                      "entity": {
-                        "name": "Sensors",
-                        "nameClean": "Sensors",
-                        "description": "Process events from accelerometer, gyroscope, magnetometer, barometer, pedometer, etc.",
-                        "descriptionClean": "Process events from accelerometer, gyroscope, magnetometer, barometer, pedometer, etc.",
-                        "id": "platform_apis_sensors",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/coremotion",
-                            "title": "iOS"
-                          },
-                          {
-                            "url": "https://developer.android.com/guide/topics/sensors/sensors_overview",
-                            "title": "Android"
-                          },
-                          {
-                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Sensor",
-                            "title": "Web API"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 22,
-                      "percentageNegative": 6
-                    },
-                    {
-                      "count": 181,
+                      "count": 243,
                       "id": "platform_apis_battery",
-                      "percentageQuestion": 8.83,
-                      "percentageSurvey": 6.75,
+                      "percentageQuestion": 9.17,
+                      "percentageSurvey": 6.94,
                       "entity": {
                         "name": "Battery",
                         "nameClean": "Battery",
@@ -827,14 +827,14 @@
                           }
                         ]
                       },
-                      "percentagePositive": 33,
+                      "percentagePositive": 30,
                       "percentageNegative": 2
                     },
                     {
-                      "count": 179,
+                      "count": 235,
                       "id": "platform_apis_rtl",
-                      "percentageQuestion": 8.73,
-                      "percentageSurvey": 6.68,
+                      "percentageQuestion": 8.87,
+                      "percentageSurvey": 6.71,
                       "entity": {
                         "name": "RTL (right-to-left)",
                         "nameClean": "RTL (right-to-left)",
@@ -858,13 +858,13 @@
                         ]
                       },
                       "percentagePositive": 14,
-                      "percentageNegative": 17
+                      "percentageNegative": 14
                     },
                     {
-                      "count": 158,
+                      "count": 205,
                       "id": "platform_apis_live_activity",
-                      "percentageQuestion": 7.71,
-                      "percentageSurvey": 5.9,
+                      "percentageQuestion": 7.74,
+                      "percentageSurvey": 5.86,
                       "entity": {
                         "name": "Live activity",
                         "nameClean": "Live activity",
@@ -883,14 +883,14 @@
                           }
                         ]
                       },
-                      "percentagePositive": 13,
-                      "percentageNegative": 18
+                      "percentagePositive": 17,
+                      "percentageNegative": 17
                     },
                     {
-                      "count": 133,
+                      "count": 175,
                       "id": "platform_apis_telephony",
-                      "percentageQuestion": 6.49,
-                      "percentageSurvey": 4.96,
+                      "percentageQuestion": 6.6,
+                      "percentageSurvey": 5,
                       "entity": {
                         "name": "Telephony",
                         "nameClean": "Telephony",
@@ -909,14 +909,14 @@
                           }
                         ]
                       },
-                      "percentagePositive": 18,
-                      "percentageNegative": 11
+                      "percentagePositive": 19,
+                      "percentageNegative": 9
                     },
                     {
-                      "count": 128,
+                      "count": 163,
                       "id": "platform_apis_nfc",
-                      "percentageQuestion": 6.24,
-                      "percentageSurvey": 4.78,
+                      "percentageQuestion": 6.15,
+                      "percentageSurvey": 4.66,
                       "entity": {
                         "name": "NFC (near field communication)",
                         "nameClean": "NFC (near field communication)",
@@ -939,14 +939,14 @@
                           }
                         ]
                       },
-                      "percentagePositive": 16,
-                      "percentageNegative": 11
+                      "percentagePositive": 15,
+                      "percentageNegative": 13
                     },
                     {
-                      "count": 119,
+                      "count": 158,
                       "id": "platform_apis_3d_graphics",
-                      "percentageQuestion": 5.8,
-                      "percentageSurvey": 4.44,
+                      "percentageQuestion": 5.96,
+                      "percentageSurvey": 4.51,
                       "entity": {
                         "name": "3D graphics",
                         "nameClean": "3D graphics",
@@ -970,13 +970,13 @@
                         ]
                       },
                       "percentagePositive": 24,
-                      "percentageNegative": 24
+                      "percentageNegative": 20
                     },
                     {
-                      "count": 100,
+                      "count": 130,
                       "id": "platform_apis_printer",
-                      "percentageQuestion": 4.88,
-                      "percentageSurvey": 3.73,
+                      "percentageQuestion": 4.91,
+                      "percentageSurvey": 3.71,
                       "entity": {
                         "name": "Printer",
                         "nameClean": "Printer",
@@ -1000,39 +1000,13 @@
                         ]
                       },
                       "percentagePositive": 12,
-                      "percentageNegative": 9
+                      "percentageNegative": 11
                     },
                     {
-                      "count": 78,
-                      "id": "platform_apis_ml",
-                      "percentageQuestion": 3.8,
-                      "percentageSurvey": 2.91,
-                      "entity": {
-                        "name": "ML",
-                        "nameClean": "ML",
-                        "description": "On-device machine learning capabilities (e.g. leverage pretrained ML models to perform OCR, face detection, etc)",
-                        "descriptionClean": "On-device machine learning capabilities (e.g. leverage pretrained ML models to perform OCR, face detection, etc)",
-                        "id": "platform_apis_ml",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/machine-learning/",
-                            "title": "iOS"
-                          },
-                          {
-                            "url": "https://developers.google.com/ml-kit",
-                            "title": "Android"
-                          }
-                        ]
-                      },
-                      "percentagePositive": 19,
-                      "percentageNegative": 14
-                    },
-                    {
-                      "count": 77,
+                      "count": 106,
                       "id": "platform_apis_generative_ai",
-                      "percentageQuestion": 3.76,
-                      "percentageSurvey": 2.87,
+                      "percentageQuestion": 4,
+                      "percentageSurvey": 3.03,
                       "entity": {
                         "name": "Generative AI",
                         "nameClean": "Generative AI",
@@ -1052,13 +1026,39 @@
                         ]
                       },
                       "percentagePositive": 18,
-                      "percentageNegative": 13
+                      "percentageNegative": 10
                     },
                     {
-                      "count": 76,
+                      "count": 106,
+                      "id": "platform_apis_ml",
+                      "percentageQuestion": 4,
+                      "percentageSurvey": 3.03,
+                      "entity": {
+                        "name": "ML",
+                        "nameClean": "ML",
+                        "description": "On-device machine learning capabilities (e.g. leverage pretrained ML models to perform OCR, face detection, etc)",
+                        "descriptionClean": "On-device machine learning capabilities (e.g. leverage pretrained ML models to perform OCR, face detection, etc)",
+                        "id": "platform_apis_ml",
+                        "entityType": "feature",
+                        "resources": [
+                          {
+                            "url": "https://developer.apple.com/machine-learning/",
+                            "title": "iOS"
+                          },
+                          {
+                            "url": "https://developers.google.com/ml-kit",
+                            "title": "Android"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 20,
+                      "percentageNegative": 11
+                    },
+                    {
+                      "count": 100,
                       "id": "platform_apis_ar",
-                      "percentageQuestion": 3.71,
-                      "percentageSurvey": 2.84,
+                      "percentageQuestion": 3.77,
+                      "percentageSurvey": 2.86,
                       "entity": {
                         "name": "AR",
                         "nameClean": "AR",
@@ -1081,14 +1081,14 @@
                           }
                         ]
                       },
-                      "percentagePositive": 22,
-                      "percentageNegative": 28
+                      "percentagePositive": 21,
+                      "percentageNegative": 23
                     },
                     {
-                      "count": 57,
+                      "count": 75,
                       "id": "platform_apis_gpu_processing",
-                      "percentageQuestion": 2.78,
-                      "percentageSurvey": 2.13,
+                      "percentageQuestion": 2.83,
+                      "percentageSurvey": 2.14,
                       "entity": {
                         "name": "GPU processing",
                         "nameClean": "GPU processing",
@@ -1111,14 +1111,14 @@
                           }
                         ]
                       },
-                      "percentagePositive": 18,
-                      "percentageNegative": 19
+                      "percentagePositive": 16,
+                      "percentageNegative": 17
                     },
                     {
-                      "count": 612,
+                      "count": 828,
                       "id": "no_answer",
                       "percentageQuestion": 0,
-                      "percentageSurvey": 22.84
+                      "percentageSurvey": 23.65
                     }
                   ]
                 }

@@ -8,16 +8,16 @@
               "responses": {
                 "currentEdition": {
                   "completion": {
-                    "count": 1108,
-                    "percentageSurvey": 41.34,
-                    "total": 2680
+                    "count": 1404,
+                    "percentageSurvey": 40.1,
+                    "total": 3501
                   },
                   "buckets": [
                     {
-                      "count": 841,
+                      "count": 1062,
                       "id": "testing_and_monitoring_crash_reporting_sentry",
-                      "percentageQuestion": 75.9,
-                      "percentageSurvey": 31.38,
+                      "percentageQuestion": 75.64,
+                      "percentageSurvey": 30.33,
                       "entity": {
                         "name": "Sentry",
                         "nameClean": "Sentry",
@@ -33,10 +33,10 @@
                       "percentageNegative": 2
                     },
                     {
-                      "count": 538,
+                      "count": 687,
                       "id": "testing_and_monitoring_crash_reporting_firebase_crashlytics",
-                      "percentageQuestion": 48.56,
-                      "percentageSurvey": 20.07,
+                      "percentageQuestion": 48.93,
+                      "percentageSurvey": 19.62,
                       "entity": {
                         "name": "Firebase Crashlytics",
                         "nameClean": "Firebase Crashlytics",
@@ -49,13 +49,13 @@
                         }
                       },
                       "percentagePositive": 11,
-                      "percentageNegative": 6
+                      "percentageNegative": 7
                     },
                     {
-                      "count": 171,
+                      "count": 211,
                       "id": "testing_and_monitoring_crash_reporting_datadog",
-                      "percentageQuestion": 15.43,
-                      "percentageSurvey": 6.38,
+                      "percentageQuestion": 15.03,
+                      "percentageSurvey": 6.03,
                       "entity": {
                         "name": "Datadog",
                         "nameClean": "Datadog",
@@ -68,32 +68,13 @@
                         }
                       },
                       "percentagePositive": 13,
-                      "percentageNegative": 4
+                      "percentageNegative": 3
                     },
                     {
-                      "count": 127,
-                      "id": "testing_and_monitoring_crash_reporting_bugsnag",
-                      "percentageQuestion": 11.46,
-                      "percentageSurvey": 4.74,
-                      "entity": {
-                        "name": "Bugsnag",
-                        "nameClean": "Bugsnag",
-                        "description": "An error monitoring tool that helps developers detect and resolve issues in their applications.",
-                        "descriptionClean": "An error monitoring tool that helps developers detect and resolve issues in their applications.",
-                        "id": "testing_and_monitoring_crash_reporting_bugsnag",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://www.bugsnag.com/"
-                        }
-                      },
-                      "percentagePositive": 12,
-                      "percentageNegative": 7
-                    },
-                    {
-                      "count": 118,
+                      "count": 166,
                       "id": "testing_and_monitoring_crash_reporting_appcenter_crashes",
-                      "percentageQuestion": 10.65,
-                      "percentageSurvey": 4.4,
+                      "percentageQuestion": 11.82,
+                      "percentageSurvey": 4.74,
                       "entity": {
                         "name": "AppCenter Crashes",
                         "nameClean": "AppCenter Crashes",
@@ -109,10 +90,29 @@
                       "percentageNegative": 8
                     },
                     {
-                      "count": 63,
+                      "count": 159,
+                      "id": "testing_and_monitoring_crash_reporting_bugsnag",
+                      "percentageQuestion": 11.32,
+                      "percentageSurvey": 4.54,
+                      "entity": {
+                        "name": "Bugsnag",
+                        "nameClean": "Bugsnag",
+                        "description": "An error monitoring tool that helps developers detect and resolve issues in their applications.",
+                        "descriptionClean": "An error monitoring tool that helps developers detect and resolve issues in their applications.",
+                        "id": "testing_and_monitoring_crash_reporting_bugsnag",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://www.bugsnag.com/"
+                        }
+                      },
+                      "percentagePositive": 13,
+                      "percentageNegative": 6
+                    },
+                    {
+                      "count": 83,
                       "id": "testing_and_monitoring_crash_reporting_new_relic",
-                      "percentageQuestion": 5.69,
-                      "percentageSurvey": 2.35,
+                      "percentageQuestion": 5.91,
+                      "percentageSurvey": 2.37,
                       "entity": {
                         "name": "New Relic",
                         "nameClean": "New Relic",
@@ -124,14 +124,14 @@
                           "url": "https://newrelic.com/"
                         }
                       },
-                      "percentagePositive": 8,
-                      "percentageNegative": 13
+                      "percentagePositive": 7,
+                      "percentageNegative": 11
                     },
                     {
-                      "count": 46,
+                      "count": 61,
                       "id": "testing_and_monitoring_crash_reporting_instabug",
-                      "percentageQuestion": 4.15,
-                      "percentageSurvey": 1.72,
+                      "percentageQuestion": 4.34,
+                      "percentageSurvey": 1.74,
                       "entity": {
                         "name": "Instabug",
                         "nameClean": "Instabug",
@@ -144,13 +144,13 @@
                         }
                       },
                       "percentagePositive": 11,
-                      "percentageNegative": 13
+                      "percentageNegative": 11
                     },
                     {
-                      "count": 1561,
+                      "count": 2084,
                       "id": "no_answer",
                       "percentageQuestion": 0,
-                      "percentageSurvey": 58.25
+                      "percentageSurvey": 59.53
                     }
                   ]
                 }

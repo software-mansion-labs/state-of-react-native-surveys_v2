@@ -8,16 +8,16 @@
               "freeform": {
                 "currentEdition": {
                   "completion": {
-                    "count": 113,
-                    "percentageSurvey": 4.22,
-                    "total": 2680
+                    "count": 146,
+                    "percentageSurvey": 4.17,
+                    "total": 3501
                   },
                   "buckets": [
                     {
-                      "count": 38,
+                      "count": 53,
                       "id": "debugging",
-                      "percentageQuestion": 33.63,
-                      "percentageSurvey": 1.42,
+                      "percentageQuestion": 36.3,
+                      "percentageSurvey": 1.51,
                       "entity": {
                         "name": "Debugging",
                         "nameClean": "Debugging",
@@ -28,28 +28,56 @@
                       }
                     },
                     {
-                      "count": 2567,
-                      "id": "no_answer",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 95.78
+                      "count": 11,
+                      "id": "performance",
+                      "percentageQuestion": 7.53,
+                      "percentageSurvey": 0.31,
+                      "entity": {
+                        "name": "Performance",
+                        "nameClean": "Performance",
+                        "description": "Performance issues",
+                        "descriptionClean": "Performance issues",
+                        "id": "performance",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 136,
+                      "count": 10,
+                      "id": "version_updates",
+                      "percentageQuestion": 6.85,
+                      "percentageSurvey": 0.29,
+                      "entity": {
+                        "name": "Version changes",
+                        "nameClean": "Version changes",
+                        "description": "Breaking changes and other updating issues",
+                        "descriptionClean": "Breaking changes and other updating issues",
+                        "id": "version_updates",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 3355,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 95.83
+                    },
+                    {
+                      "count": 161,
                       "id": "other_answers",
-                      "percentageQuestion": 120.32,
-                      "percentageSurvey": 5.07,
+                      "percentageQuestion": 110.23,
+                      "percentageSurvey": 4.62,
                       "groupedBuckets": [
                         {
                           "count": 42,
                           "id": "cutoff_answers",
-                          "percentageQuestion": 37.13,
-                          "percentageSurvey": 1.56
+                          "percentageQuestion": 28.72,
+                          "percentageSurvey": 1.22
                         },
                         {
-                          "count": 94,
+                          "count": 119,
                           "id": "no_match",
-                          "percentageQuestion": 83.19,
-                          "percentageSurvey": 3.51
+                          "percentageQuestion": 81.51,
+                          "percentageSurvey": 3.4
                         }
                       ]
                     }
