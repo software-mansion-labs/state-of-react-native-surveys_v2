@@ -203,7 +203,7 @@
           # - id: platform_apis_ads
 
     - id: platform_apis_pain_points
-      matchTags: [common_pain_points, react_features]
+      matchTags: [common_pain_points, react_features, platform_api_paint_points]
       disallowedTokenIds: [state_management]
       template: textList
 
@@ -310,7 +310,7 @@
 
 
     - id: styling_techniques_pain_points
-      matchTags: [common_pain_points, react_features]
+      matchTags: [common_pain_points, styling_pain_points, react_features]
       disallowedTokenIds: [styling]
       template: textList
 

@@ -10,9 +10,21 @@
                   "completion": {
                     "count": 175,
                     "percentageSurvey": 5,
-                    "total": 3501
+                    "total": 3502
                   },
                   "buckets": [
+                    {
+                      "count": 36,
+                      "id": "caching",
+                      "percentageQuestion": 20.57,
+                      "percentageSurvey": 1.03,
+                      "entity": {
+                        "name": "Caching",
+                        "nameClean": "Caching",
+                        "id": "caching",
+                        "entityType": "default"
+                      }
+                    },
                     {
                       "count": 16,
                       "id": "error_handling",
@@ -52,16 +64,16 @@
                       }
                     },
                     {
-                      "count": 3326,
+                      "count": 3327,
                       "id": "no_answer",
                       "percentageQuestion": 0,
                       "percentageSurvey": 95
                     },
                     {
-                      "count": 207,
+                      "count": 177,
                       "id": "other_answers",
-                      "percentageQuestion": 118.26,
-                      "percentageSurvey": 5.94,
+                      "percentageQuestion": 101.11,
+                      "percentageSurvey": 5.08,
                       "groupedBuckets": [
                         {
                           "count": 62,
@@ -70,10 +82,10 @@
                           "percentageSurvey": 1.8
                         },
                         {
-                          "count": 145,
+                          "count": 115,
                           "id": "no_match",
-                          "percentageQuestion": 82.86,
-                          "percentageSurvey": 4.14
+                          "percentageQuestion": 65.71,
+                          "percentageSurvey": 3.28
                         }
                       ]
                     }

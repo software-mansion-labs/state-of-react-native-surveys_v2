@@ -220,7 +220,7 @@
         # - id: platform_apis_ads          # too ambiguous
 
     - id: platform_apis_pain_points
-      matchTags: [common_pain_points, react_features]
+      matchTags: [common_pain_points, platform_api_paint_points, react_features]
       disallowedTokenIds: [state_management]
       template: textList
 
@@ -260,7 +260,7 @@
         - id: state_management_storage_watermelondb
 
     - id: state_management_pain_points
-      matchTags: [common_pain_points, react_features]
+      matchTags: [common_pain_points, state_management_pain_points, react_features]
       disallowedTokenIds: [state_management]
       template: textList
 
@@ -290,7 +290,7 @@
       template: projects
 
     - id: data_fetching_pain_points
-      matchTags: [common_pain_points, react_features]
+      matchTags: [common_pain_points, data_fetching_pain_points, react_features]
       disallowedTokenIds: [data_fetching]
       template: textList
 
@@ -315,7 +315,7 @@
       template: projects
 
     - id: navigation_pain_points
-      matchTags: [common_pain_points, react_features]
+      matchTags: [common_pain_points, navigation_pain_points, react_features]
       disallowedTokenIds: [navigation]
       template: textList
 
@@ -350,7 +350,7 @@
       template: projects
 
     - id: styling_techniques_pain_points
-      matchTags: [common_pain_points, react_features]
+      matchTags: [common_pain_points, styling_pain_points, react_features]
       disallowedTokenIds: [styling]
       template: textList
 
@@ -377,7 +377,7 @@
       template: projects
 
     - id: animations_pain_points
-      matchTags: [common_pain_points, react_features]
+      matchTags: [common_pain_points, animations_pain_points, react_features]
       disallowedTokenIds: [animations]
       template: textList
 
@@ -431,7 +431,7 @@
         - id: component_libraries_other_libraries_shopify_flash_list
 
     - id: component_libraries_pain_points
-      matchTags: [common_pain_points, react_features]
+      matchTags: [common_pain_points, component_libraries_pain_points, react_features]
       disallowedTokenIds: [component_libraries]
       template: textList
 
@@ -470,6 +470,7 @@
     - id: debugging_profiling_network_inspector_expo
 
     - id: debugging_profiling_others
+      matchTags: [debugging_profiling_others]
       template: textList
 
     - id: debugging_profiling_intent
@@ -485,7 +486,7 @@
         - id: debugging_profiling_intent_understand_3rd_party_libraries
 
     - id: debugging_profiling_pain_points
-      matchTags: [common_pain_points, react_features]
+      matchTags: [common_pain_points, debugging_profiling_pain_points, react_features]
       template: textList
 
 # ######################################################
@@ -533,7 +534,7 @@
         - id: testing_and_monitoring_crash_reporting_sentry
 
     - id: testing_and_monitoring_pain_points
-      matchTags: [common_pain_points, react_features]
+      matchTags: [common_pain_points, testing_and_monitoring_pain_points, react_features]
       template: textList
 
 ######################################################
@@ -629,10 +630,11 @@
       yearAdded: 2024
 
     - id: build_and_publish_others
+      matchTags: [build_and_publish_others]
       template: textList
 
     - id: build_and_publish_pain_points
-      matchTags: [common_pain_points, react_features]
+      matchTags: [common_pain_points, build_and_publish_pain_points, react_features]
       template: textList
 
 ######################################################
@@ -687,6 +689,7 @@
     #   yearAdded: 2024
 
     - id: dev_tools_other_tools
+      matchTags: [dev_tools_other_tools]
       template: textList
 
 ######################################################
@@ -711,6 +714,7 @@
     - id: react_native_alternatives_xamarin
 
     - id: react_native_alternatives_other
+      matchTags: [react_native_alternatives_other]
       template: textList
 
 ######################################################

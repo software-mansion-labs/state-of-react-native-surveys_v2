@@ -10,11 +10,11 @@
                   "completion": {
                     "count": 29,
                     "percentageSurvey": 0.83,
-                    "total": 3501
+                    "total": 3502
                   },
                   "buckets": [
                     {
-                      "count": 3472,
+                      "count": 3473,
                       "id": "no_answer",
                       "percentageQuestion": 0,
                       "percentageSurvey": 99.17
@@ -22,14 +22,20 @@
                     {
                       "count": 33,
                       "id": "other_answers",
-                      "percentageQuestion": 113.79,
+                      "percentageQuestion": 113.8,
                       "percentageSurvey": 0.94,
                       "groupedBuckets": [
                         {
-                          "count": 33,
+                          "count": 14,
+                          "id": "cutoff_answers",
+                          "percentageQuestion": 48.28,
+                          "percentageSurvey": 0.4
+                        },
+                        {
+                          "count": 19,
                           "id": "no_match",
-                          "percentageQuestion": 113.79,
-                          "percentageSurvey": 0.94
+                          "percentageQuestion": 65.52,
+                          "percentageSurvey": 0.54
                         }
                       ]
                     }

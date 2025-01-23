@@ -10,26 +10,44 @@
                   "completion": {
                     "count": 42,
                     "percentageSurvey": 1.2,
-                    "total": 3501
+                    "total": 3502
                   },
                   "buckets": [
                     {
-                      "count": 3459,
+                      "count": 10,
+                      "id": "proxyman",
+                      "percentageQuestion": 23.81,
+                      "percentageSurvey": 0.29,
+                      "entity": {
+                        "name": "Proxyman",
+                        "nameClean": "Proxyman",
+                        "id": "proxyman",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 3460,
                       "id": "no_answer",
                       "percentageQuestion": 0,
                       "percentageSurvey": 98.8
                     },
                     {
-                      "count": 54,
+                      "count": 44,
                       "id": "other_answers",
-                      "percentageQuestion": 128.57,
-                      "percentageSurvey": 1.54,
+                      "percentageQuestion": 104.75,
+                      "percentageSurvey": 1.25,
                       "groupedBuckets": [
                         {
-                          "count": 54,
+                          "count": 15,
+                          "id": "cutoff_answers",
+                          "percentageQuestion": 35.7,
+                          "percentageSurvey": 0.42
+                        },
+                        {
+                          "count": 29,
                           "id": "no_match",
-                          "percentageQuestion": 128.57,
-                          "percentageSurvey": 1.54
+                          "percentageQuestion": 69.05,
+                          "percentageSurvey": 0.83
                         }
                       ]
                     }

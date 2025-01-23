@@ -9,7 +9,7 @@ query rn2024countryVsSalaryQuery {
               parameters: {
                 enableCache: false
                 showNoAnswer: true
-                cutoff: 100
+                cutoff: 50
                 sort: {
                   property: medianByFacet
                   order: desc
