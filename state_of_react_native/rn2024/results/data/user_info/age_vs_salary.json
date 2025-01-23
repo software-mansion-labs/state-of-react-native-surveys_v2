@@ -39,14 +39,34 @@
                           "percentageBucket": 29.55
                         },
                         {
+                          "id": "range_10_30",
+                          "count": 4,
+                          "percentageBucket": 9.09
+                        },
+                        {
+                          "id": "range_30_50",
+                          "count": 1,
+                          "percentageBucket": 2.27
+                        },
+                        {
+                          "id": "range_50_100",
+                          "count": 1,
+                          "percentageBucket": 2.27
+                        },
+                        {
                           "id": "na",
                           "count": 20,
                           "percentageBucket": 45.45
                         },
                         {
+                          "id": "no_answer",
+                          "count": 5,
+                          "percentageBucket": 11.36
+                        },
+                        {
                           "id": "insufficient_data",
-                          "count": 11,
-                          "percentageBucket": 25
+                          "count": 0,
+                          "percentageBucket": 0
                         }
                       ]
                     },
@@ -193,6 +213,11 @@
                       },
                       "facetBuckets": [
                         {
+                          "id": "range_0_10",
+                          "count": 3,
+                          "percentageBucket": 1.88
+                        },
+                        {
                           "id": "range_10_30",
                           "count": 10,
                           "percentageBucket": 6.25
@@ -223,9 +248,14 @@
                           "percentageBucket": 8.13
                         },
                         {
+                          "id": "no_answer",
+                          "count": 5,
+                          "percentageBucket": 3.13
+                        },
+                        {
                           "id": "insufficient_data",
-                          "count": 8,
-                          "percentageBucket": 5
+                          "count": 0,
+                          "percentageBucket": 0
                         }
                       ]
                     },
@@ -246,9 +276,49 @@
                       },
                       "facetBuckets": [
                         {
+                          "id": "range_0_10",
+                          "count": 2,
+                          "percentageBucket": 6.45
+                        },
+                        {
+                          "id": "range_10_30",
+                          "count": 4,
+                          "percentageBucket": 12.9
+                        },
+                        {
+                          "id": "range_30_50",
+                          "count": 1,
+                          "percentageBucket": 3.23
+                        },
+                        {
+                          "id": "range_50_100",
+                          "count": 4,
+                          "percentageBucket": 12.9
+                        },
+                        {
+                          "id": "range_100_200",
+                          "count": 6,
+                          "percentageBucket": 19.35
+                        },
+                        {
+                          "id": "range_more_than_200",
+                          "count": 5,
+                          "percentageBucket": 16.13
+                        },
+                        {
+                          "id": "na",
+                          "count": 5,
+                          "percentageBucket": 16.13
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 4,
+                          "percentageBucket": 12.9
+                        },
+                        {
                           "id": "insufficient_data",
-                          "count": 31,
-                          "percentageBucket": 100
+                          "count": 0,
+                          "percentageBucket": 0
                         }
                       ]
                     },
@@ -327,6 +397,21 @@
                       },
                       "facetBuckets": [
                         {
+                          "id": "range_0_10",
+                          "count": 6,
+                          "percentageBucket": 0.33
+                        },
+                        {
+                          "id": "range_10_30",
+                          "count": 3,
+                          "percentageBucket": 0.16
+                        },
+                        {
+                          "id": "range_30_50",
+                          "count": 8,
+                          "percentageBucket": 0.44
+                        },
+                        {
                           "id": "range_50_100",
                           "count": 11,
                           "percentageBucket": 0.6
@@ -337,33 +422,59 @@
                           "percentageBucket": 0.6
                         },
                         {
+                          "id": "range_more_than_200",
+                          "count": 4,
+                          "percentageBucket": 0.22
+                        },
+                        {
+                          "id": "na",
+                          "count": 9,
+                          "percentageBucket": 0.49
+                        },
+                        {
                           "id": "no_answer",
                           "count": 1785,
                           "percentageBucket": 97.17
                         },
                         {
                           "id": "insufficient_data",
-                          "count": 30,
-                          "percentageBucket": 2
+                          "count": 0,
+                          "percentageBucket": 0
                         }
                       ]
                     },
                     {
-                      "count": 0,
+                      "count": 5,
                       "id": "other_answers",
-                      "percentageQuestion": 0,
-                      "percentageSurvey": 0,
-                      "hasInsufficientData": true,
-                      "averageByFacet": 0,
+                      "percentageQuestion": 0.3,
+                      "percentageSurvey": 0.15,
+                      "averageByFacet": 50000,
                       "percentilesByFacet": {
-                        "p0": 0,
-                        "p10": 0,
-                        "p25": 0,
-                        "p50": 0,
-                        "p75": 0,
-                        "p90": 0,
-                        "p100": 0
-                      }
+                        "p0": 50000,
+                        "p10": 50000,
+                        "p25": 50000,
+                        "p50": 50000,
+                        "p75": 50000,
+                        "p90": 50000,
+                        "p100": 50000
+                      },
+                      "facetBuckets": [
+                        {
+                          "id": "range_more_than_200",
+                          "count": 1,
+                          "percentageBucket": 20
+                        },
+                        {
+                          "id": "na",
+                          "count": 1,
+                          "percentageBucket": 20
+                        },
+                        {
+                          "id": "no_answer",
+                          "count": 3,
+                          "percentageBucket": 60
+                        }
+                      ]
                     }
                   ]
                 }
