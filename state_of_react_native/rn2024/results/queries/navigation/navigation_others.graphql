@@ -4,7 +4,13 @@ query rn2024navigationOthersQuery {
       rn2024 {
         navigation {
           navigation_others {
-            prenormalized(parameters: { limit: 10, enableCache: false }) {
+            prenormalized(
+              parameters: {
+                limit: 10
+                cutoff: 5
+                enableCache: false
+              }
+            ) {
               currentEdition {
                 completion {
                   count

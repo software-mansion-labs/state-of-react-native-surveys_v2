@@ -38,97 +38,10 @@
                       "percentageSurvey": 0.23
                     },
                     {
-                      "count": 4,
-                      "id": "signals",
-                      "percentageQuestion": 3.15,
-                      "percentageSurvey": 0.11,
-                      "entity": {
-                        "name": "Signals",
-                        "nameClean": "Signals",
-                        "id": "signals",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 3,
-                      "id": "react_oidc_context",
-                      "percentageQuestion": 2.36,
-                      "percentageSurvey": 0.09
-                    },
-                    {
-                      "count": 3,
-                      "id": "rematch",
-                      "percentageQuestion": 2.36,
-                      "percentageSurvey": 0.09
-                    },
-                    {
-                      "count": 3,
-                      "id": "zustand",
-                      "percentageQuestion": 2.36,
-                      "percentageSurvey": 0.09,
-                      "entity": {
-                        "name": "Zustand",
-                        "nameClean": "Zustand",
-                        "description": "A small, fast, and scalable bearbones state management solution that isn't boilerplatey or opinionated, but has enough convention to be explicit and flux-like.",
-                        "descriptionHtml": "A small, fast, and scalable bearbones state management solution that isn't boilerplatey or opinionated, but has enough convention to be explicit and flux-like.",
-                        "descriptionClean": "A small, fast, and scalable bearbones state management solution that isn't boilerplatey or opinionated, but has enough convention to be explicit and flux-like.",
-                        "id": "state_management_zustand",
-                        "entityType": "library",
-                        "example": {
-                          "language": "js",
-                          "code": "const useStore = create((set) => ({\n  count: 0,\n  increment: () => set((state) => ({ count: state.count + 1 })),\n}))\n\nfunction Counter() {\n  const { count, increment } = useStore()\n  // ...\n}\n",
-                          "codeHighlighted": "<span class=\"hljs-keyword\">const</span> useStore = <span class=\"hljs-title function_\">create</span>(<span class=\"hljs-function\">(<span class=\"hljs-params\">set</span>) =&gt;</span> ({\n  <span class=\"hljs-attr\">count</span>: <span class=\"hljs-number\">0</span>,\n  <span class=\"hljs-attr\">increment</span>: <span class=\"hljs-function\">() =&gt;</span> <span class=\"hljs-title function_\">set</span>(<span class=\"hljs-function\">(<span class=\"hljs-params\">state</span>) =&gt;</span> ({ <span class=\"hljs-attr\">count</span>: state.<span class=\"hljs-property\">count</span> + <span class=\"hljs-number\">1</span> })),\n}))\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Counter</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> { count, increment } = <span class=\"hljs-title function_\">useStore</span>()\n  <span class=\"hljs-comment\">// ...</span>\n}"
-                        },
-                        "homepage": {
-                          "url": "https://zustand-demo.pmnd.rs"
-                        },
-                        "github": {
-                          "url": "https://github.com/pmndrs/zustand"
-                        },
-                        "npm": {
-                          "url": "https://www.npmjs.com/package/zustand"
-                        }
-                      }
-                    },
-                    {
-                      "count": 2,
-                      "id": "immer",
-                      "percentageQuestion": 1.57,
-                      "percentageSurvey": 0.06
-                    },
-                    {
-                      "count": 2,
-                      "id": "relay",
-                      "percentageQuestion": 1.57,
-                      "percentageSurvey": 0.06,
-                      "entity": {
-                        "name": "Relay",
-                        "nameClean": "Relay",
-                        "description": "The GraphQL client that scales with you. A framework for building data-driven React applications.",
-                        "descriptionClean": "The GraphQL client that scales with you. A framework for building data-driven React applications.",
-                        "id": "data_fetching_relay",
-                        "entityType": "library",
-                        "example": {
-                          "language": "js",
-                          "code": "const query = graphql`\n  query Example {\n    // ...\n  }\n`\n\nfunction Component() {\n  const data = useLazyLoadQuery(query)\n  // ...\n}\n",
-                          "codeHighlighted": "<span class=\"hljs-keyword\">const</span> query = graphql<span class=\"hljs-string\">`\n  query Example {\n    // ...\n  }\n`</span>\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Component</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> data = <span class=\"hljs-title function_\">useLazyLoadQuery</span>(query)\n  <span class=\"hljs-comment\">// ...</span>\n}"
-                        },
-                        "homepage": {
-                          "url": "https://relay.dev/"
-                        },
-                        "github": {
-                          "url": "https://github.com/facebook/relay"
-                        },
-                        "npm": {
-                          "url": "https://www.npmjs.com/package/react-relay"
-                        }
-                      }
-                    },
-                    {
-                      "count": 30,
+                      "count": 47,
                       "id": "other_answers",
-                      "percentageQuestion": 23.67,
-                      "percentageSurvey": 0.9
+                      "percentageQuestion": 37.04,
+                      "percentageSurvey": 1.4
                     }
                   ]
                 }

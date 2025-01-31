@@ -14,6 +14,9 @@ query rn2024itemsQuery {
               description
               descriptionClean
               descriptionHtml
+              npm {
+                url
+              }
               homepage {
                 url
               }
