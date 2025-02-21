@@ -1,0 +1,325 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "state_management": {
+            "state_management_pain_points": {
+              "freeform": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 276,
+                    "percentageSurvey": 7.88,
+                    "total": 3501
+                  },
+                  "buckets": [
+                    {
+                      "count": 44,
+                      "id": "synchronization_issues",
+                      "percentageQuestion": 15.94,
+                      "percentageSurvey": 1.26,
+                      "entity": {
+                        "name": "Synchronization issues",
+                        "nameClean": "Synchronization issues",
+                        "id": "synchronization_issues",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 31,
+                      "id": "excessive_rerendering",
+                      "percentageQuestion": 11.23,
+                      "percentageSurvey": 0.89,
+                      "entity": {
+                        "name": "Excessive re-renders",
+                        "nameClean": "Excessive re-renders",
+                        "id": "excessive_rerendering",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 28,
+                      "id": "redux",
+                      "percentageQuestion": 10.14,
+                      "percentageSurvey": 0.8,
+                      "entity": {
+                        "name": "Redux",
+                        "nameClean": "Redux",
+                        "description": "A predictable state container based on unidirectional data flow and immutable state updates.",
+                        "descriptionClean": "A predictable state container based on unidirectional data flow and immutable state updates.",
+                        "id": "state_management_redux",
+                        "entityType": "library",
+                        "example": {
+                          "language": "js",
+                          "code": "function reducer(state = { value: 0 }, action) {\n  switch (action.type) {\n    case 'increment':\n      return { value: state.value + 1 }\n    default:\n      return state\n  }\n}\nconst store = createStore(reducer)\n\nfunction Counter() {\n  const value = useSelector((state) => state.value)\n  const dispatch = useDispatch()\n  const increment = dispatch({ type: 'increment' })\n  // ...\n}\n",
+                          "codeHighlighted": "<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">reducer</span>(<span class=\"hljs-params\">state = { value: <span class=\"hljs-number\">0</span> }, action</span>) {\n  <span class=\"hljs-keyword\">switch</span> (action.<span class=\"hljs-property\">type</span>) {\n    <span class=\"hljs-keyword\">case</span> <span class=\"hljs-string\">&#x27;increment&#x27;</span>:\n      <span class=\"hljs-keyword\">return</span> { <span class=\"hljs-attr\">value</span>: state.<span class=\"hljs-property\">value</span> + <span class=\"hljs-number\">1</span> }\n    <span class=\"hljs-attr\">default</span>:\n      <span class=\"hljs-keyword\">return</span> state\n  }\n}\n<span class=\"hljs-keyword\">const</span> store = <span class=\"hljs-title function_\">createStore</span>(reducer)\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Counter</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> value = <span class=\"hljs-title function_\">useSelector</span>(<span class=\"hljs-function\">(<span class=\"hljs-params\">state</span>) =&gt;</span> state.<span class=\"hljs-property\">value</span>)\n  <span class=\"hljs-keyword\">const</span> dispatch = <span class=\"hljs-title function_\">useDispatch</span>()\n  <span class=\"hljs-keyword\">const</span> increment = <span class=\"hljs-title function_\">dispatch</span>({ <span class=\"hljs-attr\">type</span>: <span class=\"hljs-string\">&#x27;increment&#x27;</span> })\n  <span class=\"hljs-comment\">// ...</span>\n}"
+                        },
+                        "homepage": {
+                          "url": "https://redux.js.org"
+                        },
+                        "github": {
+                          "url": "https://github.com/reduxjs/redux"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/redux"
+                        }
+                      }
+                    },
+                    {
+                      "count": 24,
+                      "id": "excessive_complexity",
+                      "percentageQuestion": 8.7,
+                      "percentageSurvey": 0.69,
+                      "entity": {
+                        "name": "Excessive complexity",
+                        "nameClean": "Excessive complexity",
+                        "description": "Too much complexity",
+                        "descriptionClean": "Too much complexity",
+                        "id": "excessive_complexity",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 23,
+                      "id": "too_much_boilerplate",
+                      "percentageQuestion": 8.33,
+                      "percentageSurvey": 0.66,
+                      "entity": {
+                        "name": "Excessive boilerplate",
+                        "nameClean": "Excessive boilerplate",
+                        "description": "Too much boilerplate required",
+                        "descriptionClean": "Too much boilerplate required",
+                        "id": "too_much_boilerplate",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 22,
+                      "id": "performance",
+                      "percentageQuestion": 7.97,
+                      "percentageSurvey": 0.63,
+                      "entity": {
+                        "name": "Performance",
+                        "nameClean": "Performance",
+                        "description": "Performance issues",
+                        "descriptionClean": "Performance issues",
+                        "id": "performance",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 16,
+                      "id": "context",
+                      "percentageQuestion": 5.8,
+                      "percentageSurvey": 0.46,
+                      "entity": {
+                        "name": "Context",
+                        "nameClean": "Context",
+                        "id": "context",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 15,
+                      "id": "debugging",
+                      "percentageQuestion": 5.43,
+                      "percentageSurvey": 0.43,
+                      "entity": {
+                        "name": "Debugging",
+                        "nameClean": "Debugging",
+                        "id": "debugging",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 12,
+                      "id": "architecture",
+                      "percentageQuestion": 4.35,
+                      "percentageSurvey": 0.34,
+                      "entity": {
+                        "name": "Architecture",
+                        "nameClean": "Architecture",
+                        "id": "architecture",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 12,
+                      "id": "global",
+                      "percentageQuestion": 4.35,
+                      "percentageSurvey": 0.34,
+                      "entity": {
+                        "name": "Global state management",
+                        "nameClean": "Global state management",
+                        "id": "global",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 11,
+                      "id": "configuration",
+                      "percentageQuestion": 3.99,
+                      "percentageSurvey": 0.31,
+                      "entity": {
+                        "name": "Configuration",
+                        "nameClean": "Configuration",
+                        "description": "Difficulties with set-up and configuration",
+                        "descriptionClean": "Difficulties with set-up and configuration",
+                        "id": "configuration",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 9,
+                      "id": "complex",
+                      "percentageQuestion": 3.26,
+                      "percentageSurvey": 0.26,
+                      "entity": {
+                        "name": "Complexity",
+                        "nameClean": "Complexity",
+                        "id": "complex",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 9,
+                      "id": "unusable",
+                      "percentageQuestion": 3.26,
+                      "percentageSurvey": 0.26,
+                      "entity": {
+                        "name": "Unusable",
+                        "nameClean": "Unusable",
+                        "id": "unusable",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 8,
+                      "id": "debugging_in_general",
+                      "percentageQuestion": 2.9,
+                      "percentageSurvey": 0.23,
+                      "entity": {
+                        "name": "Debugging in general",
+                        "nameClean": "Debugging in general",
+                        "id": "debugging_in_general",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 8,
+                      "id": "navigation_state",
+                      "percentageQuestion": 2.9,
+                      "percentageSurvey": 0.23,
+                      "entity": {
+                        "name": "Navigation state",
+                        "nameClean": "Navigation state",
+                        "id": "navigation_state",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 8,
+                      "id": "too_many_choices",
+                      "percentageQuestion": 2.9,
+                      "percentageSurvey": 0.23,
+                      "entity": {
+                        "name": "Choice overload",
+                        "nameClean": "Choice overload",
+                        "description": "Overwhelming amount of options and choices",
+                        "descriptionClean": "Overwhelming amount of options and choices",
+                        "id": "too_many_choices",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 7,
+                      "id": "lack_of_documentation",
+                      "percentageQuestion": 2.54,
+                      "percentageSurvey": 0.2,
+                      "entity": {
+                        "name": "Lack of documentation",
+                        "nameClean": "Lack of documentation",
+                        "description": "Lack of documentation or code examples",
+                        "descriptionClean": "Lack of documentation or code examples",
+                        "id": "lack_of_documentation",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 7,
+                      "id": "migration",
+                      "percentageQuestion": 2.54,
+                      "percentageSurvey": 0.2,
+                      "entity": {
+                        "name": "Migration",
+                        "nameClean": "Migration",
+                        "id": "migration",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 7,
+                      "id": "persistence",
+                      "percentageQuestion": 2.54,
+                      "percentageSurvey": 0.2,
+                      "entity": {
+                        "name": "Persistence",
+                        "nameClean": "Persistence",
+                        "id": "persistence",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 6,
+                      "id": "caching",
+                      "percentageQuestion": 2.17,
+                      "percentageSurvey": 0.17,
+                      "entity": {
+                        "name": "Caching",
+                        "nameClean": "Caching",
+                        "id": "caching",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 3224,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 92.09
+                    },
+                    {
+                      "count": 137,
+                      "id": "other_answers",
+                      "percentageQuestion": 49.59,
+                      "percentageSurvey": 3.91,
+                      "groupedBuckets": [
+                        {
+                          "count": 23,
+                          "id": "overlimit_answers",
+                          "percentageQuestion": 8.32,
+                          "percentageSurvey": 0.65
+                        },
+                        {
+                          "count": 37,
+                          "id": "cutoff_answers",
+                          "percentageQuestion": 13.37,
+                          "percentageSurvey": 1.06
+                        },
+                        {
+                          "count": 77,
+                          "id": "no_match",
+                          "percentageQuestion": 27.9,
+                          "percentageSurvey": 2.2
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
