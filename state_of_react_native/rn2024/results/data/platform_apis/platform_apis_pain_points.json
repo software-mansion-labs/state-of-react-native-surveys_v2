@@ -8,15 +8,15 @@
               "freeform": {
                 "currentEdition": {
                   "completion": {
-                    "count": 545,
-                    "percentageSurvey": 15.57,
+                    "count": 544,
+                    "percentageSurvey": 15.54,
                     "total": 3501
                   },
                   "buckets": [
                     {
                       "count": 71,
                       "id": "notifications",
-                      "percentageQuestion": 13.03,
+                      "percentageQuestion": 13.05,
                       "percentageSurvey": 2.03,
                       "entity": {
                         "name": "Notifications",
@@ -44,7 +44,7 @@
                     {
                       "count": 48,
                       "id": "background_processing",
-                      "percentageQuestion": 8.81,
+                      "percentageQuestion": 8.82,
                       "percentageSurvey": 1.37,
                       "entity": {
                         "name": "Background processing",
@@ -56,7 +56,7 @@
                     {
                       "count": 45,
                       "id": "deep_linking",
-                      "percentageQuestion": 8.26,
+                      "percentageQuestion": 8.27,
                       "percentageSurvey": 1.29,
                       "entity": {
                         "name": "Deep linking",
@@ -68,7 +68,7 @@
                     {
                       "count": 40,
                       "id": "maps",
-                      "percentageQuestion": 7.34,
+                      "percentageQuestion": 7.35,
                       "percentageSurvey": 1.14,
                       "entity": {
                         "name": "Maps",
@@ -92,7 +92,7 @@
                     {
                       "count": 38,
                       "id": "permissions",
-                      "percentageQuestion": 6.97,
+                      "percentageQuestion": 6.99,
                       "percentageSurvey": 1.09,
                       "entity": {
                         "name": "Permissions",
@@ -115,20 +115,8 @@
                     },
                     {
                       "count": 34,
-                      "id": "video",
-                      "percentageQuestion": 6.24,
-                      "percentageSurvey": 0.97,
-                      "entity": {
-                        "name": "Video",
-                        "nameClean": "Video",
-                        "id": "video",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 34,
                       "id": "webview",
-                      "percentageQuestion": 6.24,
+                      "percentageQuestion": 6.25,
                       "percentageSurvey": 0.97,
                       "entity": {
                         "name": "WebView",
@@ -151,8 +139,22 @@
                     },
                     {
                       "count": 33,
+                      "id": "excessive_complexity",
+                      "percentageQuestion": 6.07,
+                      "percentageSurvey": 0.94,
+                      "entity": {
+                        "name": "Excessive complexity",
+                        "nameClean": "Excessive complexity",
+                        "description": "Too much complexity",
+                        "descriptionClean": "Too much complexity",
+                        "id": "excessive_complexity",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 33,
                       "id": "lack_of_documentation",
-                      "percentageQuestion": 6.06,
+                      "percentageQuestion": 6.07,
                       "percentageSurvey": 0.94,
                       "entity": {
                         "name": "Lack of documentation",
@@ -164,9 +166,21 @@
                       }
                     },
                     {
+                      "count": 33,
+                      "id": "video",
+                      "percentageQuestion": 6.07,
+                      "percentageSurvey": 0.94,
+                      "entity": {
+                        "name": "Video",
+                        "nameClean": "Video",
+                        "id": "video",
+                        "entityType": "default"
+                      }
+                    },
+                    {
                       "count": 31,
                       "id": "camera",
-                      "percentageQuestion": 5.69,
+                      "percentageQuestion": 5.7,
                       "percentageSurvey": 0.89,
                       "entity": {
                         "name": "Camera",
@@ -194,7 +208,7 @@
                     {
                       "count": 29,
                       "id": "audio",
-                      "percentageQuestion": 5.32,
+                      "percentageQuestion": 5.33,
                       "percentageSurvey": 0.83,
                       "entity": {
                         "name": "Audio",
@@ -206,7 +220,7 @@
                     {
                       "count": 26,
                       "id": "bluetooth",
-                      "percentageQuestion": 4.77,
+                      "percentageQuestion": 4.78,
                       "percentageSurvey": 0.74,
                       "entity": {
                         "name": "Bluetooth",
@@ -234,7 +248,7 @@
                     {
                       "count": 26,
                       "id": "configuration",
-                      "percentageQuestion": 4.77,
+                      "percentageQuestion": 4.78,
                       "percentageSurvey": 0.74,
                       "entity": {
                         "name": "Configuration",
@@ -248,7 +262,7 @@
                     {
                       "count": 25,
                       "id": "performance",
-                      "percentageQuestion": 4.59,
+                      "percentageQuestion": 4.6,
                       "percentageSurvey": 0.71,
                       "entity": {
                         "name": "Performance",
@@ -262,7 +276,7 @@
                     {
                       "count": 24,
                       "id": "location",
-                      "percentageQuestion": 4.4,
+                      "percentageQuestion": 4.41,
                       "percentageSurvey": 0.69,
                       "entity": {
                         "name": "Location",
@@ -316,7 +330,7 @@
                     {
                       "count": 20,
                       "id": "filesystem",
-                      "percentageQuestion": 3.67,
+                      "percentageQuestion": 3.68,
                       "percentageSurvey": 0.57,
                       "entity": {
                         "name": "Filesystem",
@@ -326,24 +340,22 @@
                       }
                     },
                     {
-                      "count": 16,
-                      "id": "excessive_complexity",
-                      "percentageQuestion": 2.94,
-                      "percentageSurvey": 0.46,
+                      "count": 19,
+                      "id": "maintenance",
+                      "percentageQuestion": 3.49,
+                      "percentageSurvey": 0.54,
                       "entity": {
-                        "name": "Excessive complexity",
-                        "nameClean": "Excessive complexity",
-                        "description": "Too much complexity",
-                        "descriptionClean": "Too much complexity",
-                        "id": "excessive_complexity",
+                        "name": "Maintenance",
+                        "nameClean": "Maintenance",
+                        "id": "maintenance",
                         "entityType": "default"
                       }
                     },
                     {
-                      "count": 16,
+                      "count": 17,
                       "id": "screen_orientation",
-                      "percentageQuestion": 2.94,
-                      "percentageSurvey": 0.46,
+                      "percentageQuestion": 3.13,
+                      "percentageSurvey": 0.49,
                       "entity": {
                         "name": "Screen orientation",
                         "nameClean": "Screen orientation",
@@ -354,7 +366,7 @@
                     {
                       "count": 15,
                       "id": "accessibility",
-                      "percentageQuestion": 2.75,
+                      "percentageQuestion": 2.76,
                       "percentageSurvey": 0.43,
                       "entity": {
                         "name": "Accessibility",
@@ -366,46 +378,22 @@
                       }
                     },
                     {
-                      "count": 14,
-                      "id": "maintenance",
-                      "percentageQuestion": 2.57,
-                      "percentageSurvey": 0.4,
+                      "count": 13,
+                      "id": "navigation_state",
+                      "percentageQuestion": 2.39,
+                      "percentageSurvey": 0.37,
                       "entity": {
-                        "name": "Maintenance",
-                        "nameClean": "Maintenance",
-                        "id": "maintenance",
+                        "name": "Navigation state",
+                        "nameClean": "Navigation state",
+                        "id": "navigation_state",
                         "entityType": "default"
                       }
                     },
                     {
                       "count": 10,
-                      "id": "keyboard",
-                      "percentageQuestion": 1.83,
-                      "percentageSurvey": 0.29,
-                      "entity": {
-                        "name": "Keyboard",
-                        "nameClean": "Keyboard",
-                        "id": "keyboard",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 10,
-                      "id": "rtl",
-                      "percentageQuestion": 1.83,
-                      "percentageSurvey": 0.29,
-                      "entity": {
-                        "name": "RTL",
-                        "nameClean": "RTL",
-                        "id": "rtl",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 9,
                       "id": "contacts",
-                      "percentageQuestion": 1.65,
-                      "percentageSurvey": 0.26,
+                      "percentageQuestion": 1.84,
+                      "percentageSurvey": 0.29,
                       "entity": {
                         "name": "Contacts",
                         "nameClean": "Contacts",
@@ -431,15 +419,51 @@
                       }
                     },
                     {
-                      "count": 9,
+                      "count": 10,
                       "id": "files_and_assets_manipulation",
-                      "percentageQuestion": 1.65,
-                      "percentageSurvey": 0.26,
+                      "percentageQuestion": 1.84,
+                      "percentageSurvey": 0.29,
                       "entity": {
                         "name": "Files & assets manipulation",
                         "nameHtml": "Files &amp; assets manipulation",
                         "nameClean": "Files  assets manipulation",
                         "id": "files_and_assets_manipulation",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 10,
+                      "id": "keyboard",
+                      "percentageQuestion": 1.84,
+                      "percentageSurvey": 0.29,
+                      "entity": {
+                        "name": "Keyboard",
+                        "nameClean": "Keyboard",
+                        "id": "keyboard",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 10,
+                      "id": "rtl",
+                      "percentageQuestion": 1.84,
+                      "percentageSurvey": 0.29,
+                      "entity": {
+                        "name": "RTL",
+                        "nameClean": "RTL",
+                        "id": "rtl",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 9,
+                      "id": "unusable",
+                      "percentageQuestion": 1.65,
+                      "percentageSurvey": 0.26,
+                      "entity": {
+                        "name": "Unusable",
+                        "nameClean": "Unusable",
+                        "id": "unusable",
                         "entityType": "default"
                       }
                     },
@@ -480,52 +504,28 @@
                       }
                     },
                     {
-                      "count": 7,
-                      "id": "authentication",
-                      "percentageQuestion": 1.28,
-                      "percentageSurvey": 0.2,
-                      "entity": {
-                        "name": "Authentication",
-                        "nameClean": "Authentication",
-                        "id": "authentication",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 7,
-                      "id": "live_activity",
-                      "percentageQuestion": 1.28,
-                      "percentageSurvey": 0.2,
-                      "entity": {
-                        "name": "Live Activity",
-                        "nameClean": "Live Activity",
-                        "id": "live_activity",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 283,
+                      "count": 295,
                       "id": "other_answers",
-                      "percentageQuestion": 51.91,
-                      "percentageSurvey": 8.08,
+                      "percentageQuestion": 54.23,
+                      "percentageSurvey": 8.43,
                       "groupedBuckets": [
                         {
-                          "count": 34,
+                          "count": 67,
                           "id": "overlimit_answers",
-                          "percentageQuestion": 6.24,
-                          "percentageSurvey": 0.96
+                          "percentageQuestion": 12.31,
+                          "percentageSurvey": 1.9
                         },
                         {
-                          "count": 50,
+                          "count": 59,
                           "id": "cutoff_answers",
-                          "percentageQuestion": 9.16,
-                          "percentageSurvey": 1.44
+                          "percentageQuestion": 10.85,
+                          "percentageSurvey": 1.7
                         },
                         {
-                          "count": 199,
+                          "count": 169,
                           "id": "no_match",
-                          "percentageQuestion": 36.51,
-                          "percentageSurvey": 5.68
+                          "percentageQuestion": 31.07,
+                          "percentageSurvey": 4.83
                         }
                       ]
                     }
