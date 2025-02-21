@@ -4,13 +4,7 @@ query rn2024resourcesStayUpToDateQuery {
       rn2024 {
         resources {
           resources_stay_up_to_date {
-            responses(
-              parameters: {
-                showNoAnswer: true
-                mergeOtherBuckets: false
-                enableCache: false
-              }
-            ) {
+            combined(parameters: { enableCache: false }) {
               currentEdition {
                 completion {
                   count
@@ -72,6 +66,9 @@ query rn2024resourcesStayUpToDateQuery {
                       url
                     }
                     npm {
+                      url
+                    }
+                    bluesky {
                       url
                     }
                     mdn {

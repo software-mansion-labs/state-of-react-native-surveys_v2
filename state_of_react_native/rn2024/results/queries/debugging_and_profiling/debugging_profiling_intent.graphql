@@ -4,13 +4,7 @@ query rn2024debuggingProfilingIntentQuery {
       rn2024 {
         debugging_and_profiling {
           debugging_profiling_intent {
-            responses(
-              parameters: {
-                showNoAnswer: true
-                mergeOtherBuckets: false
-                enableCache: false
-              }
-            ) {
+            combined(parameters: { enableCache: false }) {
               currentEdition {
                 completion {
                   count
@@ -72,6 +66,9 @@ query rn2024debuggingProfilingIntentQuery {
                       url
                     }
                     npm {
+                      url
+                    }
+                    bluesky {
                       url
                     }
                     mdn {

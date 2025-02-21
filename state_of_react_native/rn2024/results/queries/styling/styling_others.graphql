@@ -1,13 +1,13 @@
-query rn2024yearsOfExperienceQuery {
+query rn2024stylingOthersQuery {
   surveys {
     state_of_react_native {
       rn2024 {
-        user_info {
-          years_of_experience {
-            responses(
+        styling {
+          styling_others {
+            prenormalized(
               parameters: {
-                showNoAnswer: true
-                mergeOtherBuckets: false
+                limit: 10
+                cutoff: 5
                 enableCache: false
               }
             ) {
@@ -72,9 +72,6 @@ query rn2024yearsOfExperienceQuery {
                       url
                     }
                     npm {
-                      url
-                    }
-                    bluesky {
                       url
                     }
                     mdn {

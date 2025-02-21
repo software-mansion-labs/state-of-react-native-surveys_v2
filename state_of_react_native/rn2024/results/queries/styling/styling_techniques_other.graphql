@@ -1,13 +1,13 @@
-query rn2024yearsOfExperienceQuery {
+query rn2024stylingTechniquesOtherQuery {
   surveys {
     state_of_react_native {
       rn2024 {
-        user_info {
-          years_of_experience {
-            responses(
+        styling {
+          styling_techniques_other {
+            prenormalized(
               parameters: {
-                showNoAnswer: true
-                mergeOtherBuckets: false
+                limit: 10
+                cutoff: 5
                 enableCache: false
               }
             ) {

@@ -4,13 +4,7 @@ query rn2024devToolsPackageManagersQuery {
       rn2024 {
         dev_tools {
           dev_tools_package_managers {
-            responses(
-              parameters: {
-                showNoAnswer: true
-                mergeOtherBuckets: false
-                enableCache: false
-              }
-            ) {
+            combined(parameters: { enableCache: false }) {
               currentEdition {
                 completion {
                   count
@@ -72,6 +66,9 @@ query rn2024devToolsPackageManagersQuery {
                       url
                     }
                     npm {
+                      url
+                    }
+                    bluesky {
                       url
                     }
                     mdn {

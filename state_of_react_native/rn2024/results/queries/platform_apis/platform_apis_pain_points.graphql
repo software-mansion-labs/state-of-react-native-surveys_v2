@@ -6,9 +6,9 @@ query rn2024platformApisPainPointsQuery {
           platform_apis_pain_points {
             freeform(
               parameters: {
-                showNoAnswer: true
-                cutoff: 10
-                limit: 10
+                showNoAnswer: false
+                cutoff: 5
+                limit: 30
                 mergeOtherBuckets: true
                 enableCache: false
               }
@@ -76,6 +76,9 @@ query rn2024platformApisPainPointsQuery {
                     npm {
                       url
                     }
+                    bluesky {
+                      url
+                    }
                     mdn {
                       url
                     }
@@ -138,6 +141,9 @@ query rn2024platformApisPainPointsQuery {
                         url
                       }
                       npm {
+                        url
+                      }
+                      bluesky {
                         url
                       }
                       mdn {

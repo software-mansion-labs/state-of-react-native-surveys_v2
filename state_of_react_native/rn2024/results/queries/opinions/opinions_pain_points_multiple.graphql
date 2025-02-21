@@ -4,10 +4,12 @@ query rn2024opinionsPainPointsMultipleQuery {
       rn2024 {
         opinions {
           opinions_pain_points_multiple {
-            responses(
+            freeform(
               parameters: {
                 showNoAnswer: true
-                mergeOtherBuckets: false
+                cutoff: 10
+                limit: 20
+                mergeOtherBuckets: true
                 enableCache: false
               }
             ) {
@@ -74,6 +76,9 @@ query rn2024opinionsPainPointsMultipleQuery {
                     npm {
                       url
                     }
+                    bluesky {
+                      url
+                    }
                     mdn {
                       url
                     }
@@ -83,6 +88,74 @@ query rn2024opinionsPainPointsMultipleQuery {
                     resources {
                       url
                       title
+                    }
+                  }
+                  groupedBuckets {
+                    count
+                    id
+                    percentageQuestion
+                    percentageSurvey
+                    isFreeformData
+                    hasInsufficientData
+                    entity {
+                      name
+                      nameHtml
+                      nameClean
+                      alias
+                      description
+                      descriptionHtml
+                      descriptionClean
+                      id
+                      entityType
+                      example {
+                        label
+                        language
+                        code
+                        codeHighlighted
+                      }
+                      avatar {
+                        url
+                      }
+                      homepage {
+                        url
+                      }
+                      youtube {
+                        url
+                      }
+                      twitter {
+                        url
+                      }
+                      twitch {
+                        url
+                      }
+                      rss {
+                        url
+                      }
+                      blog {
+                        url
+                      }
+                      mastodon {
+                        url
+                      }
+                      github {
+                        url
+                      }
+                      npm {
+                        url
+                      }
+                      bluesky {
+                        url
+                      }
+                      mdn {
+                        url
+                      }
+                      caniuse {
+                        url
+                      }
+                      resources {
+                        url
+                        title
+                      }
                     }
                   }
                 }

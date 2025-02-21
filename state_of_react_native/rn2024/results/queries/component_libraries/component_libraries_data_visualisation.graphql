@@ -4,13 +4,7 @@ query rn2024componentLibrariesDataVisualisationQuery {
       rn2024 {
         component_libraries {
           component_libraries_data_visualisation {
-            responses(
-              parameters: {
-                showNoAnswer: true
-                mergeOtherBuckets: false
-                enableCache: false
-              }
-            ) {
+            combined(parameters: { cutoff: 5, enableCache: false }) {
               currentEdition {
                 completion {
                   count
@@ -72,6 +66,9 @@ query rn2024componentLibrariesDataVisualisationQuery {
                       url
                     }
                     npm {
+                      url
+                    }
+                    bluesky {
                       url
                     }
                     mdn {

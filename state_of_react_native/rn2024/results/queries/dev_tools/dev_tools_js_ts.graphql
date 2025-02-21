@@ -4,7 +4,13 @@ query rn2024devToolsJsTsQuery {
       rn2024 {
         dev_tools {
           dev_tools_js_ts {
-            responses(parameters: { showNoAnswer: true, enableCache: false }) {
+            responses(
+              parameters: {
+                showNoAnswer: true
+                mergeOtherBuckets: false
+                enableCache: false
+              }
+            ) {
               currentEdition {
                 completion {
                   count
@@ -66,6 +72,9 @@ query rn2024devToolsJsTsQuery {
                       url
                     }
                     npm {
+                      url
+                    }
+                    bluesky {
                       url
                     }
                     mdn {

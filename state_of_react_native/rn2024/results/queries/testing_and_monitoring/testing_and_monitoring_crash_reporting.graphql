@@ -4,13 +4,7 @@ query rn2024testingAndMonitoringCrashReportingQuery {
       rn2024 {
         testing_and_monitoring {
           testing_and_monitoring_crash_reporting {
-            responses(
-              parameters: {
-                showNoAnswer: true
-                mergeOtherBuckets: false
-                enableCache: false
-              }
-            ) {
+            combined(parameters: { cutoff: 4, enableCache: false }) {
               currentEdition {
                 completion {
                   count
@@ -72,6 +66,9 @@ query rn2024testingAndMonitoringCrashReportingQuery {
                       url
                     }
                     npm {
+                      url
+                    }
+                    bluesky {
                       url
                     }
                     mdn {

@@ -28,7 +28,6 @@
         - id: developer_background_before_non_technical
         - id: developer_background_before_started_with_rn
 
-
     - id: developer_background_usage_type
       template: singleWithOther
       options:
@@ -260,8 +259,7 @@
         - id: state_management_storage_watermelondb
 
     - id: state_management_pain_points
-      matchTags: [common_pain_points, state_management_pain_points, react_features]
-      disallowedTokenIds: [state_management]
+      matchTags: [common_pain_points, state_management_pain_points]
       template: textList
 
     - id: state_management_app_architecture_pattern_local_first

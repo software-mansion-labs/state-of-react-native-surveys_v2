@@ -7,7 +7,7 @@ query rn2024animationsPainPointsQuery {
             freeform(
               parameters: {
                 showNoAnswer: true
-                cutoff: 10
+                cutoff: 5
                 limit: 20
                 mergeOtherBuckets: true
                 enableCache: false
@@ -76,6 +76,9 @@ query rn2024animationsPainPointsQuery {
                     npm {
                       url
                     }
+                    bluesky {
+                      url
+                    }
                     mdn {
                       url
                     }
@@ -138,6 +141,9 @@ query rn2024animationsPainPointsQuery {
                         url
                       }
                       npm {
+                        url
+                      }
+                      bluesky {
                         url
                       }
                       mdn {

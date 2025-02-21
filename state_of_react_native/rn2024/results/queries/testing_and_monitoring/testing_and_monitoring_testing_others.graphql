@@ -1,13 +1,13 @@
-query rn2024yearsOfExperienceQuery {
+query rn2024testingAndMonitoringTestingOthersQuery {
   surveys {
     state_of_react_native {
       rn2024 {
-        user_info {
-          years_of_experience {
-            responses(
+        testing_and_monitoring {
+          testing_and_monitoring_testing_others {
+            prenormalized(
               parameters: {
-                showNoAnswer: true
-                mergeOtherBuckets: false
+                limit: 10
+                cutoff: 2
                 enableCache: false
               }
             ) {

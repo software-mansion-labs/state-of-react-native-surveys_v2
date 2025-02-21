@@ -4,13 +4,7 @@ query rn2024testingAndMonitoringAnalyticsQuery {
       rn2024 {
         testing_and_monitoring {
           testing_and_monitoring_analytics {
-            responses(
-              parameters: {
-                showNoAnswer: true
-                mergeOtherBuckets: false
-                enableCache: false
-              }
-            ) {
+            combined(parameters: { cutoff: 4, enableCache: false }) {
               currentEdition {
                 completion {
                   count
@@ -72,6 +66,9 @@ query rn2024testingAndMonitoringAnalyticsQuery {
                       url
                     }
                     npm {
+                      url
+                    }
+                    bluesky {
                       url
                     }
                     mdn {

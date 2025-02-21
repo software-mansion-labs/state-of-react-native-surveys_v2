@@ -4,7 +4,13 @@ query rn2024devToolsAiGeneratedCodeBalanceQuery {
       rn2024 {
         dev_tools {
           dev_tools_ai_generated_code_balance {
-            responses(parameters: { showNoAnswer: true, enableCache: false }) {
+            responses(
+              parameters: {
+                showNoAnswer: true
+                mergeOtherBuckets: false
+                enableCache: false
+              }
+            ) {
               currentEdition {
                 completion {
                   count
@@ -66,6 +72,9 @@ query rn2024devToolsAiGeneratedCodeBalanceQuery {
                       url
                     }
                     npm {
+                      url
+                    }
+                    bluesky {
                       url
                     }
                     mdn {

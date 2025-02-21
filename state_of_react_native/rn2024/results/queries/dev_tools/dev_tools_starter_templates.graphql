@@ -1,16 +1,10 @@
-query rn2024yearsOfExperienceQuery {
+query rn2024devToolsStarterTemplatesQuery {
   surveys {
     state_of_react_native {
       rn2024 {
-        user_info {
-          years_of_experience {
-            responses(
-              parameters: {
-                showNoAnswer: true
-                mergeOtherBuckets: false
-                enableCache: false
-              }
-            ) {
+        dev_tools {
+          dev_tools_starter_templates {
+            combined(parameters: { enableCache: false }) {
               currentEdition {
                 completion {
                   count

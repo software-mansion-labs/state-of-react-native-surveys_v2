@@ -1,16 +1,10 @@
-query rn2024yearsOfExperienceQuery {
+query rn2024stateManagementStorageQuery {
   surveys {
     state_of_react_native {
       rn2024 {
-        user_info {
-          years_of_experience {
-            responses(
-              parameters: {
-                showNoAnswer: true
-                mergeOtherBuckets: false
-                enableCache: false
-              }
-            ) {
+        state_management {
+          state_management_storage {
+            combined(parameters: { cutoff: 5, enableCache: false }) {
               currentEdition {
                 completion {
                   count
