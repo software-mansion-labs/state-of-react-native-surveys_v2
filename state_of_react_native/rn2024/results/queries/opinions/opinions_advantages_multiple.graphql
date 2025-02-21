@@ -4,12 +4,10 @@ query rn2024opinionsAdvantagesMultipleQuery {
       rn2024 {
         opinions {
           opinions_advantages_multiple {
-            freeform(
+            responses(
               parameters: {
                 showNoAnswer: true
-                cutoff: 10
-                limit: 20
-                mergeOtherBuckets: true
+                mergeOtherBuckets: false
                 enableCache: false
               }
             ) {
@@ -88,74 +86,6 @@ query rn2024opinionsAdvantagesMultipleQuery {
                     resources {
                       url
                       title
-                    }
-                  }
-                  groupedBuckets {
-                    count
-                    id
-                    percentageQuestion
-                    percentageSurvey
-                    isFreeformData
-                    hasInsufficientData
-                    entity {
-                      name
-                      nameHtml
-                      nameClean
-                      alias
-                      description
-                      descriptionHtml
-                      descriptionClean
-                      id
-                      entityType
-                      example {
-                        label
-                        language
-                        code
-                        codeHighlighted
-                      }
-                      avatar {
-                        url
-                      }
-                      homepage {
-                        url
-                      }
-                      youtube {
-                        url
-                      }
-                      twitter {
-                        url
-                      }
-                      twitch {
-                        url
-                      }
-                      rss {
-                        url
-                      }
-                      blog {
-                        url
-                      }
-                      mastodon {
-                        url
-                      }
-                      github {
-                        url
-                      }
-                      npm {
-                        url
-                      }
-                      bluesky {
-                        url
-                      }
-                      mdn {
-                        url
-                      }
-                      caniuse {
-                        url
-                      }
-                      resources {
-                        url
-                        title
-                      }
                     }
                   }
                 }
