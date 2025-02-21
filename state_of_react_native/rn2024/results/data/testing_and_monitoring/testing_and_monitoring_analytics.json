@@ -1,0 +1,286 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "testing_and_monitoring": {
+            "testing_and_monitoring_analytics": {
+              "combined": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 1218,
+                    "percentageSurvey": 34.79,
+                    "total": 3501
+                  },
+                  "buckets": [
+                    {
+                      "count": 897,
+                      "id": "testing_and_monitoring_analytics_firebase_analytics",
+                      "percentageQuestion": 73.65,
+                      "percentageSurvey": 25.62,
+                      "entity": {
+                        "name": "Firebase Analytics",
+                        "nameClean": "Firebase Analytics",
+                        "description": "A service that provides insights into app usage and user engagement through analytics.",
+                        "descriptionClean": "A service that provides insights into app usage and user engagement through analytics.",
+                        "id": "testing_and_monitoring_analytics_firebase_analytics",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://firebase.google.com/products/analytics"
+                        }
+                      },
+                      "percentagePositive": 12,
+                      "percentageNegative": 5
+                    },
+                    {
+                      "count": 259,
+                      "id": "testing_and_monitoring_analytics_mixpanel",
+                      "percentageQuestion": 21.26,
+                      "percentageSurvey": 7.4,
+                      "entity": {
+                        "name": "Mixpanel",
+                        "nameClean": "Mixpanel",
+                        "description": "An advanced analytics platform that allows for tracking user interactions and engagement within applications.",
+                        "descriptionClean": "An advanced analytics platform that allows for tracking user interactions and engagement within applications.",
+                        "id": "testing_and_monitoring_analytics_mixpanel",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://mixpanel.com/"
+                        }
+                      },
+                      "percentagePositive": 17,
+                      "percentageNegative": 4
+                    },
+                    {
+                      "count": 222,
+                      "id": "testing_and_monitoring_analytics_amplitude",
+                      "percentageQuestion": 18.23,
+                      "percentageSurvey": 6.34,
+                      "entity": {
+                        "name": "Amplitude",
+                        "nameClean": "Amplitude",
+                        "description": "A product analytics platform that helps teams understand user behavior and improve their applications.",
+                        "descriptionClean": "A product analytics platform that helps teams understand user behavior and improve their applications.",
+                        "id": "testing_and_monitoring_analytics_amplitude",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://amplitude.com/"
+                        }
+                      },
+                      "percentagePositive": 12,
+                      "percentageNegative": 4
+                    },
+                    {
+                      "count": 199,
+                      "id": "testing_and_monitoring_analytics_appcenter_analytics",
+                      "percentageQuestion": 16.34,
+                      "percentageSurvey": 5.68,
+                      "entity": {
+                        "name": "AppCenter Analytics",
+                        "nameClean": "AppCenter Analytics",
+                        "description": "A tool for tracking app performance and user analytics in React Native applications.",
+                        "descriptionClean": "A tool for tracking app performance and user analytics in React Native applications.",
+                        "id": "testing_and_monitoring_analytics_appcenter_analytics",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://learn.microsoft.com/en-us/appcenter/sdk/getting-started/react-native"
+                        }
+                      },
+                      "percentagePositive": 6,
+                      "percentageNegative": 4
+                    },
+                    {
+                      "count": 198,
+                      "id": "testing_and_monitoring_analytics_posthog",
+                      "percentageQuestion": 16.26,
+                      "percentageSurvey": 5.66,
+                      "entity": {
+                        "name": "PostHog",
+                        "nameClean": "PostHog",
+                        "description": "The only product analytics platform built to natively work with session replay, feature flags, experiments, and surveys.",
+                        "descriptionClean": "The only product analytics platform built to natively work with session replay, feature flags, experiments, and surveys.",
+                        "id": "testing_and_monitoring_analytics_posthog",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://posthog.com/product-analytics"
+                        }
+                      },
+                      "percentagePositive": 28,
+                      "percentageNegative": 2
+                    },
+                    {
+                      "count": 185,
+                      "id": "testing_and_monitoring_analytics_segment",
+                      "percentageQuestion": 15.19,
+                      "percentageSurvey": 5.28,
+                      "entity": {
+                        "name": "Segment",
+                        "nameClean": "Segment",
+                        "description": "A customer data platform that helps collect, unify, and route user data to various analytics tools.",
+                        "descriptionClean": "A customer data platform that helps collect, unify, and route user data to various analytics tools.",
+                        "id": "testing_and_monitoring_analytics_segment",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://segment.com/"
+                        }
+                      },
+                      "percentagePositive": 16,
+                      "percentageNegative": 4
+                    },
+                    {
+                      "count": 180,
+                      "id": "testing_and_monitoring_analytics_appsflyer",
+                      "percentageQuestion": 14.78,
+                      "percentageSurvey": 5.14,
+                      "entity": {
+                        "name": "AppsFlyer",
+                        "nameClean": "AppsFlyer",
+                        "description": "A mobile attribution and marketing analytics platform that helps track user acquisition and engagement.",
+                        "descriptionClean": "A mobile attribution and marketing analytics platform that helps track user acquisition and engagement.",
+                        "id": "testing_and_monitoring_analytics_appsflyer",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://www.appsflyer.com/"
+                        }
+                      },
+                      "percentagePositive": 8,
+                      "percentageNegative": 9
+                    },
+                    {
+                      "count": 76,
+                      "id": "testing_and_monitoring_analytics_amplify_analytics",
+                      "percentageQuestion": 6.24,
+                      "percentageSurvey": 2.17,
+                      "entity": {
+                        "name": "Amplify Analytics",
+                        "nameClean": "Amplify Analytics",
+                        "description": "A service that provides analytics capabilities for applications built with AWS Amplify.",
+                        "descriptionClean": "A service that provides analytics capabilities for applications built with AWS Amplify.",
+                        "id": "testing_and_monitoring_analytics_amplify_analytics",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://docs.amplify.aws/react-native/"
+                        }
+                      },
+                      "percentagePositive": 4,
+                      "percentageNegative": 4
+                    },
+                    {
+                      "count": 63,
+                      "id": "testing_and_monitoring_analytics_adobe_analytics",
+                      "percentageQuestion": 5.17,
+                      "percentageSurvey": 1.8,
+                      "entity": {
+                        "name": "Adobe Analytics",
+                        "nameClean": "Adobe Analytics",
+                        "description": "The analytics solution for unified customer measurement across data, content, and journeys.",
+                        "descriptionClean": "The analytics solution for unified customer measurement across data, content, and journeys.",
+                        "id": "testing_and_monitoring_analytics_adobe_analytics",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://business.adobe.com/products/adobe-analytics.html"
+                        }
+                      },
+                      "percentagePositive": 5,
+                      "percentageNegative": 3
+                    },
+                    {
+                      "count": 10,
+                      "id": "sentry",
+                      "percentageQuestion": 0.82,
+                      "percentageSurvey": 0.29,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "Sentry",
+                        "nameClean": "Sentry",
+                        "id": "sentry",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://sentry.com/"
+                        }
+                      }
+                    },
+                    {
+                      "count": 7,
+                      "id": "datadog",
+                      "percentageQuestion": 0.57,
+                      "percentageSurvey": 0.2,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "Datadog",
+                        "nameClean": "Datadog",
+                        "id": "datadog",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://www.datadoghq.com/"
+                        }
+                      }
+                    },
+                    {
+                      "count": 6,
+                      "id": "adjust",
+                      "percentageQuestion": 0.49,
+                      "percentageSurvey": 0.17,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "Adjust",
+                        "nameClean": "Adjust",
+                        "id": "adjust",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 4,
+                      "id": "aptabase",
+                      "percentageQuestion": 0.33,
+                      "percentageSurvey": 0.11,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "Aptabase",
+                        "nameClean": "Aptabase",
+                        "id": "aptabase",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 4,
+                      "id": "newrelic",
+                      "percentageQuestion": 0.33,
+                      "percentageSurvey": 0.11,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "NewRelic",
+                        "nameClean": "NewRelic",
+                        "id": "newrelic",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 4,
+                      "id": "statsig",
+                      "percentageQuestion": 0.33,
+                      "percentageSurvey": 0.11,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "Statsig",
+                        "nameClean": "Statsig",
+                        "id": "statsig",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 70,
+                      "id": "other_answers",
+                      "percentageQuestion": 5.71,
+                      "percentageSurvey": 2.06
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

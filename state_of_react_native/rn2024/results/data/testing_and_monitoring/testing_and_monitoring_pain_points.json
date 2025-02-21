@@ -1,0 +1,161 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "testing_and_monitoring": {
+            "testing_and_monitoring_pain_points": {
+              "freeform": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 77,
+                    "percentageSurvey": 2.2,
+                    "total": 3501
+                  },
+                  "buckets": [
+                    {
+                      "count": 22,
+                      "id": "stacktrace",
+                      "percentageQuestion": 28.57,
+                      "percentageSurvey": 0.63,
+                      "entity": {
+                        "name": "Unreadable stacktrace",
+                        "nameClean": "Unreadable stacktrace",
+                        "id": "stacktrace",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 14,
+                      "id": "configuration",
+                      "percentageQuestion": 18.18,
+                      "percentageSurvey": 0.4,
+                      "entity": {
+                        "name": "Configuration",
+                        "nameClean": "Configuration",
+                        "description": "Difficulties with set-up and configuration",
+                        "descriptionClean": "Difficulties with set-up and configuration",
+                        "id": "configuration",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 9,
+                      "id": "error_handling",
+                      "percentageQuestion": 11.69,
+                      "percentageSurvey": 0.26,
+                      "entity": {
+                        "name": "Error handling",
+                        "nameClean": "Error handling",
+                        "id": "error_handling",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 6,
+                      "id": "excessive_complexity",
+                      "percentageQuestion": 7.79,
+                      "percentageSurvey": 0.17,
+                      "entity": {
+                        "name": "Excessive complexity",
+                        "nameClean": "Excessive complexity",
+                        "description": "Too much complexity",
+                        "descriptionClean": "Too much complexity",
+                        "id": "excessive_complexity",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 6,
+                      "id": "maestro",
+                      "percentageQuestion": 7.79,
+                      "percentageSurvey": 0.17,
+                      "entity": {
+                        "name": "Maestro",
+                        "nameClean": "Maestro",
+                        "description": "The easiest way to automate UI testing for your mobile app.",
+                        "descriptionClean": "The easiest way to automate UI testing for your mobile app.",
+                        "id": "testing_and_monitoring_testing_maestro",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://maestro.mobile.dev/"
+                        },
+                        "github": {
+                          "url": "https://github.com/mobile-dev-inc/maestro"
+                        }
+                      }
+                    },
+                    {
+                      "count": 3,
+                      "id": "e2e",
+                      "percentageQuestion": 3.9,
+                      "percentageSurvey": 0.09,
+                      "entity": {
+                        "name": "E2E",
+                        "nameClean": "E2E",
+                        "id": "e2e",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 3,
+                      "id": "flaky",
+                      "percentageQuestion": 3.9,
+                      "percentageSurvey": 0.09,
+                      "entity": {
+                        "name": "Flaky",
+                        "nameClean": "Flaky",
+                        "id": "flaky",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 3,
+                      "id": "performance",
+                      "percentageQuestion": 3.9,
+                      "percentageSurvey": 0.09,
+                      "entity": {
+                        "name": "Performance",
+                        "nameClean": "Performance",
+                        "description": "Performance issues",
+                        "descriptionClean": "Performance issues",
+                        "id": "performance",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 3424,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 97.8
+                    },
+                    {
+                      "count": 47,
+                      "id": "other_answers",
+                      "percentageQuestion": 61.05,
+                      "percentageSurvey": 1.36,
+                      "groupedBuckets": [
+                        {
+                          "count": 11,
+                          "id": "cutoff_answers",
+                          "percentageQuestion": 14.3,
+                          "percentageSurvey": 0.33
+                        },
+                        {
+                          "count": 36,
+                          "id": "no_match",
+                          "percentageQuestion": 46.75,
+                          "percentageSurvey": 1.03
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
