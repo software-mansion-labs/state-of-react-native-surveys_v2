@@ -1,0 +1,287 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "data_fetching": {
+            "data_fetching_pain_points": {
+              "freeform": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 175,
+                    "percentageSurvey": 5,
+                    "total": 3501
+                  },
+                  "buckets": [
+                    {
+                      "count": 38,
+                      "id": "caching",
+                      "percentageQuestion": 21.71,
+                      "percentageSurvey": 1.09,
+                      "entity": {
+                        "name": "Caching",
+                        "nameClean": "Caching",
+                        "id": "caching",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 18,
+                      "id": "excessive_complexity",
+                      "percentageQuestion": 10.29,
+                      "percentageSurvey": 0.51,
+                      "entity": {
+                        "name": "Excessive complexity",
+                        "nameClean": "Excessive complexity",
+                        "description": "Too much complexity",
+                        "descriptionClean": "Too much complexity",
+                        "id": "excessive_complexity",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 16,
+                      "id": "error_handling",
+                      "percentageQuestion": 9.14,
+                      "percentageSurvey": 0.46,
+                      "entity": {
+                        "name": "Error handling",
+                        "nameClean": "Error handling",
+                        "id": "error_handling",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 12,
+                      "id": "types",
+                      "percentageQuestion": 6.86,
+                      "percentageSurvey": 0.34,
+                      "entity": {
+                        "name": "Missing types",
+                        "nameClean": "Missing types",
+                        "id": "types",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 11,
+                      "id": "syncing",
+                      "percentageQuestion": 6.29,
+                      "percentageSurvey": 0.31,
+                      "entity": {
+                        "name": "Syncing state",
+                        "nameClean": "Syncing state",
+                        "id": "syncing",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 9,
+                      "id": "local_first",
+                      "percentageQuestion": 5.14,
+                      "percentageSurvey": 0.26,
+                      "entity": {
+                        "name": "Local first support",
+                        "nameClean": "Local first support",
+                        "id": "local_first",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 8,
+                      "id": "debugging",
+                      "percentageQuestion": 4.57,
+                      "percentageSurvey": 0.23,
+                      "entity": {
+                        "name": "Debugging",
+                        "nameClean": "Debugging",
+                        "id": "debugging",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 7,
+                      "id": "infinite_fetching",
+                      "percentageQuestion": 4,
+                      "percentageSurvey": 0.2,
+                      "entity": {
+                        "name": "Infinite fetching",
+                        "nameClean": "Infinite fetching",
+                        "id": "infinite_fetching",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 7,
+                      "id": "loading_state",
+                      "percentageQuestion": 4,
+                      "percentageSurvey": 0.2,
+                      "entity": {
+                        "name": "Loading state",
+                        "nameClean": "Loading state",
+                        "id": "loading_state",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 7,
+                      "id": "navigation_state",
+                      "percentageQuestion": 4,
+                      "percentageSurvey": 0.2,
+                      "entity": {
+                        "name": "Navigation state",
+                        "nameClean": "Navigation state",
+                        "id": "navigation_state",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 7,
+                      "id": "stream_support",
+                      "percentageQuestion": 4,
+                      "percentageSurvey": 0.2,
+                      "entity": {
+                        "name": "Stream support",
+                        "nameClean": "Stream support",
+                        "id": "stream_support",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 6,
+                      "id": "cancellation",
+                      "percentageQuestion": 3.43,
+                      "percentageSurvey": 0.17,
+                      "entity": {
+                        "name": "Cancellation",
+                        "nameClean": "Cancellation",
+                        "id": "cancellation",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 6,
+                      "id": "performance",
+                      "percentageQuestion": 3.43,
+                      "percentageSurvey": 0.17,
+                      "entity": {
+                        "name": "Performance",
+                        "nameClean": "Performance",
+                        "description": "Performance issues",
+                        "descriptionClean": "Performance issues",
+                        "id": "performance",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 6,
+                      "id": "too_much_boilerplate",
+                      "percentageQuestion": 3.43,
+                      "percentageSurvey": 0.17,
+                      "entity": {
+                        "name": "Excessive boilerplate",
+                        "nameClean": "Excessive boilerplate",
+                        "description": "Too much boilerplate required",
+                        "descriptionClean": "Too much boilerplate required",
+                        "id": "too_much_boilerplate",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 6,
+                      "id": "version_updates",
+                      "percentageQuestion": 3.43,
+                      "percentageSurvey": 0.17,
+                      "entity": {
+                        "name": "Version changes",
+                        "nameClean": "Version changes",
+                        "description": "Breaking changes and other updating issues",
+                        "descriptionClean": "Breaking changes and other updating issues",
+                        "id": "version_updates",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 5,
+                      "id": "authentication",
+                      "percentageQuestion": 2.86,
+                      "percentageSurvey": 0.14,
+                      "entity": {
+                        "name": "Authentication",
+                        "nameClean": "Authentication",
+                        "id": "authentication",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 5,
+                      "id": "excessive_rerendering",
+                      "percentageQuestion": 2.86,
+                      "percentageSurvey": 0.14,
+                      "entity": {
+                        "name": "Excessive re-renders",
+                        "nameClean": "Excessive re-renders",
+                        "id": "excessive_rerendering",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 5,
+                      "id": "failures",
+                      "percentageQuestion": 2.86,
+                      "percentageSurvey": 0.14,
+                      "entity": {
+                        "name": "Failures",
+                        "nameClean": "Failures",
+                        "id": "failures",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 5,
+                      "id": "navigation",
+                      "percentageQuestion": 2.86,
+                      "percentageSurvey": 0.14,
+                      "entity": {
+                        "name": "Navigation integration",
+                        "nameClean": "Navigation integration",
+                        "id": "navigation",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 3326,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 95
+                    },
+                    {
+                      "count": 91,
+                      "id": "other_answers",
+                      "percentageQuestion": 51.99,
+                      "percentageSurvey": 2.61,
+                      "groupedBuckets": [
+                        {
+                          "count": 45,
+                          "id": "cutoff_answers",
+                          "percentageQuestion": 25.7,
+                          "percentageSurvey": 1.3
+                        },
+                        {
+                          "count": 46,
+                          "id": "no_match",
+                          "percentageQuestion": 26.29,
+                          "percentageSurvey": 1.31
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
