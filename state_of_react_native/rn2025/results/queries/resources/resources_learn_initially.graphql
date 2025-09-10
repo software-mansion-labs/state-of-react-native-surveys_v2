@@ -1,7 +1,7 @@
-query rn2024resourcesLearnInitiallyQuery {
+query rn2025resourcesLearnInitiallyQuery {
   surveys {
     state_of_react_native {
-      rn2024 {
+      rn2025 {
         resources {
           resources_learn_initially {
             combined(parameters: { enableCache: false }) {

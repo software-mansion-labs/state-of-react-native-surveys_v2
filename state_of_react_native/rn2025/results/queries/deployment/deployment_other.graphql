@@ -1,7 +1,7 @@
-query rn2024deploymentOtherQuery {
+query rn2025deploymentOtherQuery {
   surveys {
     state_of_react_native {
-      rn2024 {
+      rn2025 {
         deployment {
           deployment_other {
             prenormalized(parameters: { limit: 10, enableCache: false }) {

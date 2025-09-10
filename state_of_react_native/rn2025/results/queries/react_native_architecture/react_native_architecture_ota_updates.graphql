@@ -1,7 +1,7 @@
-query rn2024reactNativeArchitectureOtaUpdatesQuery {
+query rn2025reactNativeArchitectureOtaUpdatesQuery {
   surveys {
     state_of_react_native {
-      rn2024 {
+      rn2025 {
         react_native_architecture {
           react_native_architecture_ota_updates {
             combined(parameters: { cutoff: 4, enableCache: false }) {

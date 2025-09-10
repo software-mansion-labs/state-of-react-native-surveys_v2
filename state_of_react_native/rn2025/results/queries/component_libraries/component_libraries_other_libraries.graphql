@@ -1,7 +1,7 @@
-query rn2024componentLibrariesOtherLibrariesQuery {
+query rn2025componentLibrariesOtherLibrariesQuery {
   surveys {
     state_of_react_native {
-      rn2024 {
+      rn2025 {
         component_libraries {
           component_libraries_other_libraries {
             combined(parameters: { cutoff: 3, enableCache: false }) {

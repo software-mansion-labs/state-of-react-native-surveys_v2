@@ -1,7 +1,7 @@
-query rn2024resourcesStayUpToDateQuery {
+query rn2025resourcesStayUpToDateQuery {
   surveys {
     state_of_react_native {
-      rn2024 {
+      rn2025 {
         resources {
           resources_stay_up_to_date {
             combined(parameters: { enableCache: false }) {
