@@ -1,9 +1,9 @@
-# State of React Native 2024
+# State of React Native 2025
 
-This is a questions list proposal for the 2024 edition of the State of React Native survey (3rd edition).
+This is a questions list proposal for the 2025 edition of the State of React Native survey (4rd edition).
 The list of changes is incomplete. Follow the yaml files changes and discussion on GitHub to get a better picture of year over the year changes.
 
-- [State of React Native 2024](#state-of-react-native-2024)
+- [State of React Native 2025](#state-of-react-native-2025)
 - [Overall survey framework changes](#overall-survey-framework-changes)
   - [Must do](#must-do)
   - [Won't do](#wont-do)
