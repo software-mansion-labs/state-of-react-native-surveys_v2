@@ -1,0 +1,169 @@
+query rn2024platformApisPainPointsQuery {
+  surveys {
+    state_of_react_native {
+      rn2024 {
+        platform_apis {
+          platform_apis_pain_points {
+            freeform(
+              parameters: {
+                showNoAnswer: false
+                cutoff: 5
+                limit: 30
+                mergeOtherBuckets: true
+                enableCache: false
+              }
+            ) {
+              currentEdition {
+                completion {
+                  count
+                  percentageSurvey
+                  total
+                }
+                average
+                percentiles {
+                  p50
+                }
+                buckets {
+                  count
+                  id
+                  percentageQuestion
+                  percentageSurvey
+                  isFreeformData
+                  hasInsufficientData
+                  entity {
+                    name
+                    nameHtml
+                    nameClean
+                    alias
+                    description
+                    descriptionHtml
+                    descriptionClean
+                    id
+                    entityType
+                    example {
+                      label
+                      language
+                      code
+                      codeHighlighted
+                    }
+                    avatar {
+                      url
+                    }
+                    homepage {
+                      url
+                    }
+                    youtube {
+                      url
+                    }
+                    twitter {
+                      url
+                    }
+                    twitch {
+                      url
+                    }
+                    rss {
+                      url
+                    }
+                    blog {
+                      url
+                    }
+                    mastodon {
+                      url
+                    }
+                    github {
+                      url
+                    }
+                    npm {
+                      url
+                    }
+                    bluesky {
+                      url
+                    }
+                    mdn {
+                      url
+                    }
+                    caniuse {
+                      url
+                    }
+                    resources {
+                      url
+                      title
+                    }
+                  }
+                  groupedBuckets {
+                    count
+                    id
+                    percentageQuestion
+                    percentageSurvey
+                    isFreeformData
+                    hasInsufficientData
+                    entity {
+                      name
+                      nameHtml
+                      nameClean
+                      alias
+                      description
+                      descriptionHtml
+                      descriptionClean
+                      id
+                      entityType
+                      example {
+                        label
+                        language
+                        code
+                        codeHighlighted
+                      }
+                      avatar {
+                        url
+                      }
+                      homepage {
+                        url
+                      }
+                      youtube {
+                        url
+                      }
+                      twitter {
+                        url
+                      }
+                      twitch {
+                        url
+                      }
+                      rss {
+                        url
+                      }
+                      blog {
+                        url
+                      }
+                      mastodon {
+                        url
+                      }
+                      github {
+                        url
+                      }
+                      npm {
+                        url
+                      }
+                      bluesky {
+                        url
+                      }
+                      mdn {
+                        url
+                      }
+                      caniuse {
+                        url
+                      }
+                      resources {
+                        url
+                        title
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

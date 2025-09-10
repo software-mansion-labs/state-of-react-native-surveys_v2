@@ -1,0 +1,265 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "styling": {
+            "styling_techniques_pain_points": {
+              "freeform": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 188,
+                    "percentageSurvey": 5.37,
+                    "total": 3501
+                  },
+                  "buckets": [
+                    {
+                      "count": 32,
+                      "id": "light_dark_theme",
+                      "percentageQuestion": 17.02,
+                      "percentageSurvey": 0.91,
+                      "entity": {
+                        "name": "Light/dark theme",
+                        "nameClean": "Light/dark theme",
+                        "id": "light_dark_theme",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 29,
+                      "id": "cross_platform_consistency",
+                      "percentageQuestion": 15.43,
+                      "percentageSurvey": 0.83,
+                      "entity": {
+                        "name": "Cross platform support",
+                        "nameClean": "Cross platform support",
+                        "id": "cross_platform_consistency",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 23,
+                      "id": "nativewind",
+                      "percentageQuestion": 12.23,
+                      "percentageSurvey": 0.66,
+                      "entity": {
+                        "name": "NativeWind",
+                        "nameClean": "NativeWind",
+                        "description": "A utility-first design system for React Native that leverages Tailwind CSS for styling components.",
+                        "descriptionClean": "A utility-first design system for React Native that leverages Tailwind CSS for styling components.",
+                        "id": "styling_techniques_nativewind",
+                        "entityType": "library",
+                        "example": {
+                          "language": "jsx",
+                          "code": "<View className=\"h-[100] md:h-[200] bg-primary\" />\n",
+                          "codeHighlighted": "&lt;<span class=\"hljs-title class_\">View</span> className=<span class=\"hljs-string\">&quot;h-[100] md:h-[200] bg-primary&quot;</span> /&gt;"
+                        },
+                        "homepage": {
+                          "url": "https://www.nativewind.dev/"
+                        },
+                        "github": {
+                          "url": "https://github.com/marklawlor/nativewind"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/nativewind"
+                        }
+                      }
+                    },
+                    {
+                      "count": 18,
+                      "id": "performance",
+                      "percentageQuestion": 9.57,
+                      "percentageSurvey": 0.51,
+                      "entity": {
+                        "name": "Performance",
+                        "nameClean": "Performance",
+                        "description": "Performance issues",
+                        "descriptionClean": "Performance issues",
+                        "id": "performance",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 14,
+                      "id": "lack_of_css_api",
+                      "percentageQuestion": 7.45,
+                      "percentageSurvey": 0.4,
+                      "entity": {
+                        "name": "Lack of CSS api",
+                        "nameClean": "Lack of CSS api",
+                        "id": "lack_of_css_api",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 13,
+                      "id": "excessive_complexity",
+                      "percentageQuestion": 6.91,
+                      "percentageSurvey": 0.37,
+                      "entity": {
+                        "name": "Excessive complexity",
+                        "nameClean": "Excessive complexity",
+                        "description": "Too much complexity",
+                        "descriptionClean": "Too much complexity",
+                        "id": "excessive_complexity",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 10,
+                      "id": "unusable",
+                      "percentageQuestion": 5.32,
+                      "percentageSurvey": 0.29,
+                      "entity": {
+                        "name": "Unusable",
+                        "nameClean": "Unusable",
+                        "id": "unusable",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 9,
+                      "id": "architecture",
+                      "percentageQuestion": 4.79,
+                      "percentageSurvey": 0.26,
+                      "entity": {
+                        "name": "Architecture",
+                        "nameClean": "Architecture",
+                        "id": "architecture",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 9,
+                      "id": "configuration",
+                      "percentageQuestion": 4.79,
+                      "percentageSurvey": 0.26,
+                      "entity": {
+                        "name": "Configuration",
+                        "nameClean": "Configuration",
+                        "description": "Difficulties with set-up and configuration",
+                        "descriptionClean": "Difficulties with set-up and configuration",
+                        "id": "configuration",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 8,
+                      "id": "animations",
+                      "percentageQuestion": 4.26,
+                      "percentageSurvey": 0.23,
+                      "entity": {
+                        "name": "Animations",
+                        "nameClean": "Animations",
+                        "id": "animations",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 7,
+                      "id": "tamagui",
+                      "percentageQuestion": 3.72,
+                      "percentageSurvey": 0.2,
+                      "entity": {
+                        "name": "Tamagui",
+                        "nameClean": "Tamagui",
+                        "description": "All the components you'd want, cross platform and adaptable to each other. Compound Component APIs, styled or unstyled, sizable, themeable, and more.",
+                        "descriptionHtml": "All the components you'd want, cross platform and adaptable to each other. Compound Component APIs, styled or unstyled, sizable, themeable, and more.",
+                        "descriptionClean": "All the components you'd want, cross platform and adaptable to each other. Compound Component APIs, styled or unstyled, sizable, themeable, and more.",
+                        "id": "component_libraries_tamagui",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://tamagui.dev/"
+                        },
+                        "github": {
+                          "url": "https://github.com/tamagui/tamagui"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/tamagui"
+                        }
+                      }
+                    },
+                    {
+                      "count": 6,
+                      "id": "debugging_in_general",
+                      "percentageQuestion": 3.19,
+                      "percentageSurvey": 0.17,
+                      "entity": {
+                        "name": "Debugging in general",
+                        "nameClean": "Debugging in general",
+                        "id": "debugging_in_general",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 6,
+                      "id": "navigation_state",
+                      "percentageQuestion": 3.19,
+                      "percentageSurvey": 0.17,
+                      "entity": {
+                        "name": "Navigation state",
+                        "nameClean": "Navigation state",
+                        "id": "navigation_state",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 5,
+                      "id": "customization",
+                      "percentageQuestion": 2.66,
+                      "percentageSurvey": 0.14,
+                      "entity": {
+                        "name": "Customization",
+                        "nameClean": "Customization",
+                        "id": "customization",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 5,
+                      "id": "responsiveness",
+                      "percentageQuestion": 2.66,
+                      "percentageSurvey": 0.14,
+                      "entity": {
+                        "name": "responsiveness",
+                        "nameClean": "responsiveness",
+                        "id": "responsiveness",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 3313,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 94.63
+                    },
+                    {
+                      "count": 112,
+                      "id": "other_answers",
+                      "percentageQuestion": 59.56,
+                      "percentageSurvey": 3.24,
+                      "groupedBuckets": [
+                        {
+                          "count": 56,
+                          "id": "cutoff_answers",
+                          "percentageQuestion": 29.77,
+                          "percentageSurvey": 1.64
+                        },
+                        {
+                          "count": 56,
+                          "id": "no_match",
+                          "percentageQuestion": 29.79,
+                          "percentageSurvey": 1.6
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

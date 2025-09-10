@@ -1,0 +1,75 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "build_and_publish": {
+            "build_and_publish_others": {
+              "freeform": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 42,
+                    "percentageSurvey": 1.2,
+                    "total": 3501
+                  },
+                  "buckets": [
+                    {
+                      "count": 8,
+                      "id": "Github Actions",
+                      "percentageQuestion": 19.05,
+                      "percentageSurvey": 0.23,
+                      "entity": {
+                        "name": "Github Actions",
+                        "nameClean": "Github Actions",
+                        "id": "Github Actions",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 5,
+                      "id": "Codemagic",
+                      "percentageQuestion": 11.9,
+                      "percentageSurvey": 0.14,
+                      "entity": {
+                        "name": "Codemagic",
+                        "nameClean": "Codemagic",
+                        "id": "Codemagic",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 3459,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 98.8
+                    },
+                    {
+                      "count": 34,
+                      "id": "other_answers",
+                      "percentageQuestion": 80.94,
+                      "percentageSurvey": 0.97,
+                      "groupedBuckets": [
+                        {
+                          "count": 16,
+                          "id": "cutoff_answers",
+                          "percentageQuestion": 38.08,
+                          "percentageSurvey": 0.46
+                        },
+                        {
+                          "count": 18,
+                          "id": "no_match",
+                          "percentageQuestion": 42.86,
+                          "percentageSurvey": 0.51
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

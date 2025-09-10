@@ -1,0 +1,226 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "state_management": {
+            "state_management_storage": {
+              "combined": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 2312,
+                    "percentageSurvey": 66.04,
+                    "total": 3501
+                  },
+                  "buckets": [
+                    {
+                      "count": 1938,
+                      "id": "state_management_storage_react_native_async_storage",
+                      "percentageQuestion": 83.82,
+                      "percentageSurvey": 55.36,
+                      "entity": {
+                        "name": "React Native Async Storage",
+                        "nameClean": "React Native Async Storage",
+                        "description": "An asynchronous, unencrypted, persistent, key-value storage system for React Native.",
+                        "descriptionClean": "An asynchronous, unencrypted, persistent, key-value storage system for React Native.",
+                        "id": "state_management_storage_react_native_async_storage",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://react-native-async-storage.github.io/async-storage/"
+                        },
+                        "github": {
+                          "url": "https://github.com/react-native-async-storage/async-storage"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/@react-native-async-storage/async-storage"
+                        }
+                      },
+                      "percentagePositive": 21,
+                      "percentageNegative": 4
+                    },
+                    {
+                      "count": 1021,
+                      "id": "state_management_storage_react_native_mmkv",
+                      "percentageQuestion": 44.16,
+                      "percentageSurvey": 29.16,
+                      "entity": {
+                        "name": "react-native-mmkv",
+                        "nameClean": "react-native-mmkv",
+                        "description": "The fastest key/value storage for React Native based on MMKV. ~30x faster than AsyncStorage.",
+                        "descriptionClean": "The fastest key/value storage for React Native based on MMKV. ~30x faster than AsyncStorage.",
+                        "id": "state_management_storage_react_native_mmkv",
+                        "entityType": "library",
+                        "github": {
+                          "url": "https://github.com/mrousavy/react-native-mmkv"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/react-native-mmkv"
+                        }
+                      },
+                      "percentagePositive": 31,
+                      "percentageNegative": 1
+                    },
+                    {
+                      "count": 520,
+                      "id": "state_management_storage_expo_sqlite",
+                      "percentageQuestion": 22.49,
+                      "percentageSurvey": 14.85,
+                      "entity": {
+                        "name": "Expo SQLite",
+                        "nameClean": "Expo SQLite",
+                        "description": "A library providing access to a database that can be queried through a SQLite API.",
+                        "descriptionClean": "A library providing access to a database that can be queried through a SQLite API.",
+                        "id": "state_management_storage_expo_sqlite",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://docs.expo.dev/versions/latest/sdk/sqlite/"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/expo-sqlite"
+                        }
+                      },
+                      "percentagePositive": 23,
+                      "percentageNegative": 1
+                    },
+                    {
+                      "count": 410,
+                      "id": "state_management_storage_react_native_mmkv_storage",
+                      "percentageQuestion": 17.73,
+                      "percentageSurvey": 11.71,
+                      "entity": {
+                        "name": "react-native-mmkv-storage",
+                        "nameClean": "react-native-mmkv-storage",
+                        "description": "An ultra fast(0.0002s read/write), small & encrypted mobile key-value storage framework for React Native written in C++ using JSI.",
+                        "descriptionHtml": "An ultra fast(0.0002s read/write), small &amp; encrypted mobile key-value storage framework for React Native written in C++ using JSI.",
+                        "descriptionClean": "An ultra fast(0.0002s read/write), small  encrypted mobile key-value storage framework for React Native written in C++ using JSI.",
+                        "id": "state_management_storage_react_native_mmkv_storage",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://rnmmkv.vercel.app/"
+                        },
+                        "github": {
+                          "url": "https://github.com/ammarahm-ed/react-native-mmkv-storage"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/react-native-mmkv-storage"
+                        }
+                      },
+                      "percentagePositive": 28,
+                      "percentageNegative": 2
+                    },
+                    {
+                      "count": 225,
+                      "id": "state_management_storage_realm",
+                      "percentageQuestion": 9.73,
+                      "percentageSurvey": 6.43,
+                      "entity": {
+                        "name": "Realm",
+                        "nameClean": "Realm",
+                        "description": "Realm is a mobile database that runs directly inside phones, tablets or wearables; an alternative to SQLite & key-value stores.",
+                        "descriptionHtml": "Realm is a mobile database that runs directly inside phones, tablets or wearables; an alternative to SQLite &amp; key-value stores.",
+                        "descriptionClean": "Realm is a mobile database that runs directly inside phones, tablets or wearables; an alternative to SQLite  key-value stores.",
+                        "id": "state_management_storage_realm",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://realm.io/"
+                        },
+                        "github": {
+                          "url": "https://github.com/realm/realm-js"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/realm"
+                        }
+                      },
+                      "percentagePositive": 19,
+                      "percentageNegative": 13
+                    },
+                    {
+                      "count": 175,
+                      "id": "state_management_storage_react_native_sqlite_storage",
+                      "percentageQuestion": 7.57,
+                      "percentageSurvey": 5,
+                      "entity": {
+                        "name": "React Native SQLite Storage",
+                        "nameClean": "React Native SQLite Storage",
+                        "description": "Full featured SQLite3 Native Plugin for React Native (Android and iOS).",
+                        "descriptionClean": "Full featured SQLite3 Native Plugin for React Native (Android and iOS).",
+                        "id": "state_management_storage_react_native_sqlite_storage",
+                        "entityType": "library",
+                        "github": {
+                          "url": "https://github.com/andpor/react-native-sqlite-storage"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/react-native-sqlite-storage"
+                        }
+                      },
+                      "percentagePositive": 15,
+                      "percentageNegative": 2
+                    },
+                    {
+                      "count": 171,
+                      "id": "state_management_storage_watermelondb",
+                      "percentageQuestion": 7.4,
+                      "percentageSurvey": 4.88,
+                      "entity": {
+                        "name": "WatermelonDB",
+                        "nameClean": "WatermelonDB",
+                        "description": "Reactive & asynchronous database for powerful React and React Native apps.",
+                        "descriptionHtml": "Reactive &amp; asynchronous database for powerful React and React Native apps.",
+                        "descriptionClean": "Reactive  asynchronous database for powerful React and React Native apps.",
+                        "id": "state_management_storage_watermelondb",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://watermelondb.dev"
+                        },
+                        "github": {
+                          "url": "https://github.com/Nozbe/WatermelonDB"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/@nozbe/watermelondb"
+                        }
+                      },
+                      "percentagePositive": 20,
+                      "percentageNegative": 12
+                    },
+                    {
+                      "count": 23,
+                      "id": "expo_secure_store",
+                      "percentageQuestion": 0.99,
+                      "percentageSurvey": 0.66,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "expo-secure-store",
+                        "nameClean": "expo-secure-store",
+                        "id": "expo_secure_store",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 12,
+                      "id": "op_sqlite",
+                      "percentageQuestion": 0.52,
+                      "percentageSurvey": 0.34,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "op-sqlite",
+                        "nameClean": "op-sqlite",
+                        "id": "op_sqlite",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 55,
+                      "id": "other_answers",
+                      "percentageQuestion": 2.36,
+                      "percentageSurvey": 1.59
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

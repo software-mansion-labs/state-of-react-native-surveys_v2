@@ -1,0 +1,724 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "styling": {
+            "styling_ratios": [
+              {
+                "id": "styling_techniques_dripsy",
+                "entity": {
+                  "name": "Dripsy",
+                  "nameClean": "Dripsy",
+                  "entityType": "library",
+                  "description": "Unstyled, responsive UI primitives for React Native + Web.",
+                  "descriptionClean": "Unstyled, responsive UI primitives for React Native + Web.",
+                  "homepage": {
+                    "url": "https://www.dripsy.xyz/"
+                  },
+                  "example": {
+                    "language": "jsx",
+                    "code": "<View sx={{ bg: '$primary', height: [100, 200] }} />\n",
+                    "codeHighlighted": "&lt;<span class=\"hljs-title class_\">View</span> sx={{ <span class=\"hljs-attr\">bg</span>: <span class=\"hljs-string\">&#x27;$primary&#x27;</span>, <span class=\"hljs-attr\">height</span>: [<span class=\"hljs-number\">100</span>, <span class=\"hljs-number\">200</span>] }} /&gt;"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.33,
+                        "interest": 0.53,
+                        "usage": 0.05,
+                        "retention": 0.6,
+                        "positivity": 0.54
+                      },
+                      "completion": {
+                        "count": 1847,
+                        "percentageSurvey": 77.09,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 0.24,
+                        "interest": 0.25,
+                        "usage": 0.04,
+                        "retention": 0.59,
+                        "positivity": 0.35
+                      },
+                      "completion": {
+                        "count": 2134,
+                        "percentageSurvey": 60.95,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "styling_techniques_emotion",
+                "entity": {
+                  "name": "Emotion",
+                  "nameClean": "Emotion",
+                  "entityType": "library",
+                  "description": "CSS-in-JS library designed for high performance style composition.",
+                  "descriptionClean": "CSS-in-JS library designed for high performance style composition.",
+                  "homepage": {
+                    "url": "https://emotion.sh/"
+                  },
+                  "example": {
+                    "language": "jsx",
+                    "code": "const Card = styled.View`\n  background-color: ${props => props.theme.primary};\n  height: 100px;\n`\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> <span class=\"hljs-title class_\">Card</span> = styled.<span class=\"hljs-property\">View</span><span class=\"hljs-string\">`\n  background-color: <span class=\"hljs-subst\">${props =&gt; props.theme.primary}</span>;\n  height: 100px;\n`</span>"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.56,
+                        "interest": 0.39,
+                        "usage": 0.16,
+                        "retention": 0.47,
+                        "positivity": 0.41
+                      },
+                      "completion": {
+                        "count": 1845,
+                        "percentageSurvey": 77,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 0.55,
+                        "interest": 0.09,
+                        "usage": 0.18,
+                        "retention": 0.39,
+                        "positivity": 0.23
+                      },
+                      "completion": {
+                        "count": 2137,
+                        "percentageSurvey": 61.04,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "styling_techniques_inline",
+                "entity": {
+                  "name": "Inline styling",
+                  "nameClean": "Inline styling",
+                  "entityType": "library",
+                  "description": "A straightforward method of applying styles directly within the component using the style prop.",
+                  "descriptionClean": "A straightforward method of applying styles directly within the component using the style prop.",
+                  "homepage": {
+                    "url": "https://reactnative.dev/docs/view"
+                  },
+                  "example": {
+                    "language": "jsx",
+                    "code": "<View style={{ height: 100, backgroundColor: \"red\" }} />\n",
+                    "codeHighlighted": "&lt;<span class=\"hljs-title class_\">View</span> style={{ <span class=\"hljs-attr\">height</span>: <span class=\"hljs-number\">100</span>, <span class=\"hljs-attr\">backgroundColor</span>: <span class=\"hljs-string\">&quot;red&quot;</span> }} /&gt;"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.93,
+                        "interest": 0.15,
+                        "usage": 0.79,
+                        "retention": 0.56,
+                        "positivity": 0.5
+                      },
+                      "completion": {
+                        "count": 1439,
+                        "percentageSurvey": 76.22,
+                        "total": 1888
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.93,
+                        "interest": 0.23,
+                        "usage": 0.84,
+                        "retention": 0.66,
+                        "positivity": 0.62
+                      },
+                      "completion": {
+                        "count": 1857,
+                        "percentageSurvey": 77.5,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 0.99,
+                        "interest": 0,
+                        "usage": 0.94,
+                        "retention": 0.73,
+                        "positivity": 0.72
+                      },
+                      "completion": {
+                        "count": 2163,
+                        "percentageSurvey": 61.78,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "styling_techniques_nativewind",
+                "entity": {
+                  "name": "NativeWind",
+                  "nameClean": "NativeWind",
+                  "entityType": "library",
+                  "description": "A utility-first design system for React Native that leverages Tailwind CSS for styling components.",
+                  "descriptionClean": "A utility-first design system for React Native that leverages Tailwind CSS for styling components.",
+                  "homepage": {
+                    "url": "https://www.nativewind.dev/"
+                  },
+                  "example": {
+                    "language": "jsx",
+                    "code": "<View className=\"h-[100] md:h-[200] bg-primary\" />\n",
+                    "codeHighlighted": "&lt;<span class=\"hljs-title class_\">View</span> className=<span class=\"hljs-string\">&quot;h-[100] md:h-[200] bg-primary&quot;</span> /&gt;"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.43,
+                        "interest": 0.6,
+                        "usage": 0.09,
+                        "retention": 0.87,
+                        "positivity": 0.65
+                      },
+                      "completion": {
+                        "count": 1445,
+                        "percentageSurvey": 76.54,
+                        "total": 1888
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.65,
+                        "interest": 0.58,
+                        "usage": 0.21,
+                        "retention": 0.79,
+                        "positivity": 0.65
+                      },
+                      "completion": {
+                        "count": 1843,
+                        "percentageSurvey": 76.92,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 0.84,
+                        "interest": 0.51,
+                        "usage": 0.36,
+                        "retention": 0.82,
+                        "positivity": 0.67
+                      },
+                      "completion": {
+                        "count": 2150,
+                        "percentageSurvey": 61.41,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "styling_techniques_react_native_unistyles",
+                "entity": {
+                  "name": "react-native-unistyles",
+                  "nameClean": "react-native-unistyles",
+                  "entityType": "library",
+                  "description": "A cross-platform library that enables you to share up to 100% of your styles across all platforms. It combines the simplicity of StyleSheet with the performance of C++.",
+                  "descriptionClean": "A cross-platform library that enables you to share up to 100% of your styles across all platforms. It combines the simplicity of StyleSheet with the performance of C++.",
+                  "homepage": {
+                    "url": "https://www.unistyl.es/"
+                  },
+                  "example": {
+                    "language": "jsx",
+                    "code": "const stylesheet = createStyleSheet(theme => ({\n  card: {\n    height: {\n      xs: 100,\n      md: 200\n    },\n    backgroundColor: theme.colors.primary\n  }\n})\n\nfunction Component() {\n  const { styles } = useStyles(stylesheet)\n  return <View style={styles.card} />\n}\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> stylesheet = <span class=\"hljs-title function_\">createStyleSheet</span>(<span class=\"hljs-function\"><span class=\"hljs-params\">theme</span> =&gt;</span> ({\n  <span class=\"hljs-attr\">card</span>: {\n    <span class=\"hljs-attr\">height</span>: {\n      <span class=\"hljs-attr\">xs</span>: <span class=\"hljs-number\">100</span>,\n      <span class=\"hljs-attr\">md</span>: <span class=\"hljs-number\">200</span>\n    },\n    <span class=\"hljs-attr\">backgroundColor</span>: theme.<span class=\"hljs-property\">colors</span>.<span class=\"hljs-property\">primary</span>\n  }\n})\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Component</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> { styles } = <span class=\"hljs-title function_\">useStyles</span>(stylesheet)\n  <span class=\"hljs-keyword\">return</span> &lt;View style={styles.card} /&gt;\n}"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.38,
+                        "interest": 0.68,
+                        "usage": 0.04,
+                        "retention": 0.9,
+                        "positivity": 0.71
+                      },
+                      "completion": {
+                        "count": 1835,
+                        "percentageSurvey": 76.59,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 0.54,
+                        "interest": 0.75,
+                        "usage": 0.17,
+                        "retention": 0.93,
+                        "positivity": 0.75
+                      },
+                      "completion": {
+                        "count": 2137,
+                        "percentageSurvey": 61.04,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "styling_techniques_react_strict_dom",
+                "entity": {
+                  "name": "React Strict DOM",
+                  "nameClean": "React Strict DOM",
+                  "entityType": "library",
+                  "description": "React Strict DOM (RSD) standardizes the development of styled React components for web and native.",
+                  "descriptionClean": "React Strict DOM (RSD) standardizes the development of styled React components for web and native.",
+                  "homepage": {
+                    "url": "https://facebook.github.io/react-strict-dom"
+                  },
+                  "example": {
+                    "language": "jsx",
+                    "code": "const theme = css.createTheme({ /* ... */ })\n\nconst styles = css.create({\n  card: {\n    height: 100,\n    backgroundColor: theme.primary,\n  }\n})\n\nfunction Component() {\n  return (\n    <html.div style={styles.card} />\n  );\n}\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> theme = css.<span class=\"hljs-title function_\">createTheme</span>({ <span class=\"hljs-comment\">/* ... */</span> })\n\n<span class=\"hljs-keyword\">const</span> styles = css.<span class=\"hljs-title function_\">create</span>({\n  <span class=\"hljs-attr\">card</span>: {\n    <span class=\"hljs-attr\">height</span>: <span class=\"hljs-number\">100</span>,\n    <span class=\"hljs-attr\">backgroundColor</span>: theme.<span class=\"hljs-property\">primary</span>,\n  }\n})\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Component</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">return</span> (\n    &lt;html.div style={styles.card} /&gt;\n  );\n}"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 0.44,
+                        "interest": 0.75,
+                        "usage": 0.08,
+                        "retention": 0.71,
+                        "positivity": 0.62
+                      },
+                      "completion": {
+                        "count": 2126,
+                        "percentageSurvey": 60.73,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "styling_techniques_restyle",
+                "entity": {
+                  "name": "Restyle",
+                  "nameClean": "Restyle",
+                  "entityType": "library",
+                  "description": "A type-enforced system for building UI components in React Native with TypeScript. It's a library for building UI libraries, with themability as the core focus.",
+                  "descriptionClean": "A type-enforced system for building UI components in React Native with TypeScript. It's a library for building UI libraries, with themability as the core focus.",
+                  "descriptionHtml": "A type-enforced system for building UI components in React Native with TypeScript. It's a library for building UI libraries, with themability as the core focus.",
+                  "homepage": {
+                    "url": "https://shopify.github.io/restyle/"
+                  },
+                  "example": {
+                    "language": "jsx",
+                    "code": "<Box backgroundColor=\"primary\" height={{ sm: 100, md: 200 }} />\n",
+                    "codeHighlighted": "&lt;<span class=\"hljs-title class_\">Box</span> backgroundColor=<span class=\"hljs-string\">&quot;primary&quot;</span> height={{ <span class=\"hljs-attr\">sm</span>: <span class=\"hljs-number\">100</span>, <span class=\"hljs-attr\">md</span>: <span class=\"hljs-number\">200</span> }} /&gt;"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.35,
+                        "interest": 0.52,
+                        "usage": 0.11,
+                        "retention": 0.68,
+                        "positivity": 0.57
+                      },
+                      "completion": {
+                        "count": 1440,
+                        "percentageSurvey": 76.27,
+                        "total": 1888
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.47,
+                        "interest": 0.62,
+                        "usage": 0.11,
+                        "retention": 0.75,
+                        "positivity": 0.65
+                      },
+                      "completion": {
+                        "count": 1840,
+                        "percentageSurvey": 76.79,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 0.42,
+                        "interest": 0.36,
+                        "usage": 0.09,
+                        "retention": 0.68,
+                        "positivity": 0.45
+                      },
+                      "completion": {
+                        "count": 2121,
+                        "percentageSurvey": 60.58,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "styling_techniques_style_sheet",
+                "entity": {
+                  "name": "StyleSheet API",
+                  "nameClean": "StyleSheet API",
+                  "entityType": "library",
+                  "description": "A built-in React Native API for creating stylesheets that improve performance and organization of styles.",
+                  "descriptionClean": "A built-in React Native API for creating stylesheets that improve performance and organization of styles.",
+                  "homepage": {
+                    "url": "https://reactnative.dev/docs/stylesheet"
+                  },
+                  "example": {
+                    "language": "jsx",
+                    "code": "const styles = StyleSheet.create({\n  card: { height: 100, backgroundColor: \"red\" }\n})\n\nfunction Component() {\n  return <View style={styles.card} />\n}\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> styles = <span class=\"hljs-title class_\">StyleSheet</span>.<span class=\"hljs-title function_\">create</span>({\n  <span class=\"hljs-attr\">card</span>: { <span class=\"hljs-attr\">height</span>: <span class=\"hljs-number\">100</span>, <span class=\"hljs-attr\">backgroundColor</span>: <span class=\"hljs-string\">&quot;red&quot;</span> }\n})\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Component</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">return</span> &lt;View style={styles.card} /&gt;\n}"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.98,
+                        "interest": 0.37,
+                        "usage": 0.94,
+                        "retention": 0.88,
+                        "positivity": 0.86
+                      },
+                      "completion": {
+                        "count": 1462,
+                        "percentageSurvey": 77.44,
+                        "total": 1888
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.95,
+                        "interest": 0.45,
+                        "usage": 0.9,
+                        "retention": 0.84,
+                        "positivity": 0.82
+                      },
+                      "completion": {
+                        "count": 1865,
+                        "percentageSurvey": 77.84,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 0.96,
+                        "interest": 0.33,
+                        "usage": 0.9,
+                        "retention": 0.82,
+                        "positivity": 0.8
+                      },
+                      "completion": {
+                        "count": 2157,
+                        "percentageSurvey": 61.61,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "styling_techniques_styled_components",
+                "entity": {
+                  "name": "styled components",
+                  "nameClean": "styled components",
+                  "entityType": "library",
+                  "description": "Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress. Utilising tagged template literals and the power of CSS, styled-components allows you to write actual CSS code to style your components.",
+                  "descriptionClean": "Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress. Utilising tagged template literals and the power of CSS, styled-components allows you to write actual CSS code to style your components.",
+                  "homepage": {
+                    "url": "https://styled-components.com/docs/basics#react-native"
+                  },
+                  "example": {
+                    "language": "jsx",
+                    "code": "const Card = styled.View`\n  background-color: ${props => props.theme.primary};\n  height: 100px;\n`\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> <span class=\"hljs-title class_\">Card</span> = styled.<span class=\"hljs-property\">View</span><span class=\"hljs-string\">`\n  background-color: <span class=\"hljs-subst\">${props =&gt; props.theme.primary}</span>;\n  height: 100px;\n`</span>"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.94,
+                        "interest": 0.4,
+                        "usage": 0.59,
+                        "retention": 0.58,
+                        "positivity": 0.51
+                      },
+                      "completion": {
+                        "count": 1450,
+                        "percentageSurvey": 76.8,
+                        "total": 1888
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.92,
+                        "interest": 0.33,
+                        "usage": 0.6,
+                        "retention": 0.49,
+                        "positivity": 0.44
+                      },
+                      "completion": {
+                        "count": 1846,
+                        "percentageSurvey": 77.05,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 0.85,
+                        "interest": 0.08,
+                        "usage": 0.46,
+                        "retention": 0.43,
+                        "positivity": 0.33
+                      },
+                      "completion": {
+                        "count": 2131,
+                        "percentageSurvey": 60.87,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "styling_techniques_stylex",
+                "entity": {
+                  "name": "StyleX",
+                  "nameClean": "StyleX",
+                  "entityType": "library",
+                  "description": "The styling system that powers Meta products (e.g. Facebook, Instagram).",
+                  "descriptionClean": "The styling system that powers Meta products (e.g. Facebook, Instagram).",
+                  "homepage": {
+                    "url": "https://stylexjs.com/"
+                  },
+                  "example": {
+                    "language": "jsx",
+                    "code": "const vars = stylex.defineVars({ /* ... */ })\n\nconst styles = stylex.create({\n  card: {\n    backgroundColor: vars.primary,\n    height: vars.height,\n  }\n})\n\n<View {...stylex.props(styles.base)} />\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> vars = stylex.<span class=\"hljs-title function_\">defineVars</span>({ <span class=\"hljs-comment\">/* ... */</span> })\n\n<span class=\"hljs-keyword\">const</span> styles = stylex.<span class=\"hljs-title function_\">create</span>({\n  <span class=\"hljs-attr\">card</span>: {\n    <span class=\"hljs-attr\">backgroundColor</span>: vars.<span class=\"hljs-property\">primary</span>,\n    <span class=\"hljs-attr\">height</span>: vars.<span class=\"hljs-property\">height</span>,\n  }\n})\n\n&lt;<span class=\"hljs-title class_\">View</span> {...stylex.<span class=\"hljs-title function_\">props</span>(styles.<span class=\"hljs-property\">base</span>)} /&gt;"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 0.43,
+                        "interest": 0.54,
+                        "usage": 0.02,
+                        "retention": 0.76,
+                        "positivity": 0.49
+                      },
+                      "completion": {
+                        "count": 2109,
+                        "percentageSurvey": 60.24,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "styling_techniques_tamagui",
+                "entity": {
+                  "name": "Tamagui",
+                  "nameClean": "Tamagui",
+                  "entityType": "library",
+                  "description": "A style library for React and React Native with a large typed superset of the React Native style API, with no outside dependencies.",
+                  "descriptionClean": "A style library for React and React Native with a large typed superset of the React Native style API, with no outside dependencies.",
+                  "homepage": {
+                    "url": "https://tamagui.dev/"
+                  },
+                  "example": {
+                    "language": "jsx",
+                    "code": "const Card = styled(View, {\n  height: {\n    sm: 100,\n    md: 200,\n  },\n  backgroundColor: '$primary',\n});\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> <span class=\"hljs-title class_\">Card</span> = <span class=\"hljs-title function_\">styled</span>(<span class=\"hljs-title class_\">View</span>, {\n  <span class=\"hljs-attr\">height</span>: {\n    <span class=\"hljs-attr\">sm</span>: <span class=\"hljs-number\">100</span>,\n    <span class=\"hljs-attr\">md</span>: <span class=\"hljs-number\">200</span>,\n  },\n  <span class=\"hljs-attr\">backgroundColor</span>: <span class=\"hljs-string\">&#x27;$primary&#x27;</span>,\n});"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.41,
+                        "interest": 0.69,
+                        "usage": 0.05,
+                        "retention": 0.73,
+                        "positivity": 0.69
+                      },
+                      "completion": {
+                        "count": 1446,
+                        "percentageSurvey": 76.59,
+                        "total": 1888
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.69,
+                        "interest": 0.69,
+                        "usage": 0.18,
+                        "retention": 0.76,
+                        "positivity": 0.71
+                      },
+                      "completion": {
+                        "count": 1841,
+                        "percentageSurvey": 76.84,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 0.71,
+                        "interest": 0.44,
+                        "usage": 0.17,
+                        "retention": 0.44,
+                        "positivity": 0.42
+                      },
+                      "completion": {
+                        "count": 2118,
+                        "percentageSurvey": 60.5,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "styling_techniques_twrnc",
+                "entity": {
+                  "name": "Tailwind React Native Classnames (twrnc)",
+                  "nameClean": "Tailwind React Native Classnames (twrnc)",
+                  "entityType": "library",
+                  "description": "A simple, expressive API for TailwindCSS + React Native, written in TypeScript.",
+                  "descriptionClean": "A simple, expressive API for TailwindCSS + React Native, written in TypeScript.",
+                  "example": {
+                    "language": "jsx",
+                    "code": "<View style={tw(\"h-[100] md:h-[200] bg-primary\")} />\n",
+                    "codeHighlighted": "&lt;<span class=\"hljs-title class_\">View</span> style={<span class=\"hljs-title function_\">tw</span>(<span class=\"hljs-string\">&quot;h-[100] md:h-[200] bg-primary&quot;</span>)} /&gt;"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.5,
+                        "interest": 0.44,
+                        "usage": 0.09,
+                        "retention": 0.6,
+                        "positivity": 0.47
+                      },
+                      "completion": {
+                        "count": 1833,
+                        "percentageSurvey": 76.5,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 0.54,
+                        "interest": 0.22,
+                        "usage": 0.14,
+                        "retention": 0.58,
+                        "positivity": 0.38
+                      },
+                      "completion": {
+                        "count": 2110,
+                        "percentageSurvey": 60.27,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

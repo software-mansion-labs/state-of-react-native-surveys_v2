@@ -1,0 +1,185 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "developer_background": {
+            "developer_background_target_platforms": {
+              "responses": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 3426,
+                    "percentageSurvey": 97.86,
+                    "total": 3501
+                  },
+                  "buckets": [
+                    {
+                      "count": 3303,
+                      "id": "developer_background_target_platforms_android",
+                      "percentageQuestion": 96.41,
+                      "percentageSurvey": 94.34
+                    },
+                    {
+                      "count": 3170,
+                      "id": "developer_background_target_platforms_ios",
+                      "percentageQuestion": 92.53,
+                      "percentageSurvey": 90.55
+                    },
+                    {
+                      "count": 740,
+                      "id": "developer_background_target_platforms_web",
+                      "percentageQuestion": 21.6,
+                      "percentageSurvey": 21.14,
+                      "entity": {
+                        "name": "Web",
+                        "nameClean": "Web",
+                        "description": "React Native on the web using React DOM.",
+                        "descriptionClean": "React Native on the web using React DOM.",
+                        "id": "developer_background_target_platforms_web",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://necolas.github.io/react-native-web"
+                        },
+                        "github": {
+                          "url": "https://github.com/necolas/react-native-web"
+                        }
+                      }
+                    },
+                    {
+                      "count": 137,
+                      "id": "developer_background_target_platforms_macos",
+                      "percentageQuestion": 4,
+                      "percentageSurvey": 3.91,
+                      "entity": {
+                        "name": "macOS",
+                        "nameClean": "macOS",
+                        "description": "Native macOS apps with React.",
+                        "descriptionClean": "Native macOS apps with React.",
+                        "id": "developer_background_target_platforms_macos",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://microsoft.github.io/react-native-windows"
+                        },
+                        "github": {
+                          "url": "https://github.com/microsoft/react-native-macos"
+                        }
+                      }
+                    },
+                    {
+                      "count": 120,
+                      "id": "developer_background_target_platforms_android_tv",
+                      "percentageQuestion": 3.5,
+                      "percentageSurvey": 3.43,
+                      "entity": {
+                        "name": "Android TV",
+                        "nameClean": "Android TV",
+                        "description": "React Native for Android TV devices.",
+                        "descriptionClean": "React Native for Android TV devices.",
+                        "id": "developer_background_target_platforms_android_tv",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://developer.android.com/tv"
+                        },
+                        "github": {
+                          "url": "https://github.com/https://github.com/react-native-tvos/react-native-tvos"
+                        }
+                      }
+                    },
+                    {
+                      "count": 109,
+                      "id": "developer_background_target_platforms_windows",
+                      "percentageQuestion": 3.18,
+                      "percentageSurvey": 3.11,
+                      "entity": {
+                        "name": "Windows",
+                        "nameClean": "Windows",
+                        "description": "Native Windows (Microsoft's Universal Windows Platform (UWP)) apps with React.",
+                        "descriptionHtml": "Native Windows (Microsoft's Universal Windows Platform (UWP)) apps with React.",
+                        "descriptionClean": "Native Windows (Microsoft's Universal Windows Platform (UWP)) apps with React.",
+                        "id": "developer_background_target_platforms_windows",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://microsoft.github.io/react-native-windows"
+                        },
+                        "github": {
+                          "url": "https://github.com/microsoft/react-native-windows"
+                        }
+                      }
+                    },
+                    {
+                      "count": 99,
+                      "id": "developer_background_target_platforms_tvos",
+                      "percentageQuestion": 2.89,
+                      "percentageSurvey": 2.83,
+                      "entity": {
+                        "name": "tvOS",
+                        "nameClean": "tvOS",
+                        "description": "React Native for Apple TV devices.",
+                        "descriptionClean": "React Native for Apple TV devices.",
+                        "id": "developer_background_target_platforms_tvos",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://www.apple.com/tv-home/"
+                        },
+                        "github": {
+                          "url": "https://github.com/https://github.com/react-native-tvos/react-native-tvos"
+                        }
+                      }
+                    },
+                    {
+                      "count": 35,
+                      "id": "developer_background_target_platforms_visionos",
+                      "percentageQuestion": 1.02,
+                      "percentageSurvey": 1,
+                      "entity": {
+                        "name": "visionOS",
+                        "nameClean": "visionOS",
+                        "description": "Native Apple's visionOS apps with React.",
+                        "descriptionHtml": "Native Apple's visionOS apps with React.",
+                        "descriptionClean": "Native Apple's visionOS apps with React.",
+                        "id": "developer_background_target_platforms_visionos",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://developer.apple.com/visionos"
+                        },
+                        "github": {
+                          "url": "https://github.com/callstack/react-native-visionos"
+                        }
+                      }
+                    },
+                    {
+                      "count": 20,
+                      "id": "developer_background_target_platforms_skia",
+                      "percentageQuestion": 0.58,
+                      "percentageSurvey": 0.57,
+                      "entity": {
+                        "name": "Linux (via Skia)",
+                        "nameClean": "Linux (via Skia)",
+                        "description": "Linux (Ubuntu 18) apps using Skia as a renderer.",
+                        "descriptionClean": "Linux (Ubuntu 18) apps using Skia as a renderer.",
+                        "id": "developer_background_target_platforms_skia",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://github.com/react-native-skia/react-native-skia"
+                        },
+                        "github": {
+                          "url": "https://github.com/react-native-skia/react-native-skia"
+                        }
+                      }
+                    },
+                    {
+                      "count": 70,
+                      "id": "no_answer",
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 2
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

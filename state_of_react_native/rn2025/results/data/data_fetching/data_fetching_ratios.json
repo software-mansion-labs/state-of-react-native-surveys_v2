@@ -1,0 +1,561 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2024": {
+          "data_fetching": {
+            "data_fetching_ratios": [
+              {
+                "id": "data_fetching_apollo",
+                "entity": {
+                  "name": "Apollo Client",
+                  "nameClean": "Apollo Client",
+                  "entityType": "library",
+                  "description": "A library enabling managing both local and remote data with GraphQL. Used for fetching, caching, and modifying application data, all while automatically updating the app's UI.",
+                  "descriptionClean": "A library enabling managing both local and remote data with GraphQL. Used for fetching, caching, and modifying application data, all while automatically updating the app's UI.",
+                  "descriptionHtml": "A library enabling managing both local and remote data with GraphQL. Used for fetching, caching, and modifying application data, all while automatically updating the app's UI.",
+                  "homepage": {
+                    "url": "https://www.apollographql.com/docs/react"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "const client = new ApolloClient({ uri, cache })\nconst query = gql`\n  query Example {\n    // ...\n  }\n`\n\nfunction Component() {\n  const { loading, error, data } = useQuery(query)\n  // ...\n}\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> client = <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">ApolloClient</span>({ uri, cache })\n<span class=\"hljs-keyword\">const</span> query = gql`<span class=\"language-graphql\">\n  <span class=\"hljs-keyword\">query</span> Example <span class=\"hljs-punctuation\">{</span>\n    // <span class=\"hljs-punctuation\">...</span>\n  <span class=\"hljs-punctuation\">}</span>\n`</span>\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Component</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> { loading, error, data } = <span class=\"hljs-title function_\">useQuery</span>(query)\n  <span class=\"hljs-comment\">// ...</span>\n}"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.9,
+                        "interest": 0.55,
+                        "usage": 0.45,
+                        "retention": 0.78,
+                        "positivity": 0.66
+                      },
+                      "completion": {
+                        "count": 1538,
+                        "percentageSurvey": 81.46,
+                        "total": 1888
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.84,
+                        "interest": 0.43,
+                        "usage": 0.38,
+                        "retention": 0.72,
+                        "positivity": 0.56
+                      },
+                      "completion": {
+                        "count": 1925,
+                        "percentageSurvey": 80.34,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 0.83,
+                        "interest": 0.31,
+                        "usage": 0.34,
+                        "retention": 0.61,
+                        "positivity": 0.48
+                      },
+                      "completion": {
+                        "count": 2269,
+                        "percentageSurvey": 64.81,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "data_fetching_axios",
+                "entity": {
+                  "name": "Axios",
+                  "nameClean": "Axios",
+                  "entityType": "library",
+                  "description": "Promise based HTTP client based on XMLHttpRequests.",
+                  "descriptionClean": "Promise based HTTP client based on XMLHttpRequests.",
+                  "homepage": {
+                    "url": "https://axios-http.com/docs/intro"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "const response = await axios.get(url)\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> response = <span class=\"hljs-keyword\">await</span> axios.<span class=\"hljs-title function_\">get</span>(url)"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.99,
+                        "interest": 0.36,
+                        "usage": 0.88,
+                        "retention": 0.87,
+                        "positivity": 0.81
+                      },
+                      "completion": {
+                        "count": 1543,
+                        "percentageSurvey": 81.73,
+                        "total": 1888
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.98,
+                        "interest": 0.33,
+                        "usage": 0.88,
+                        "retention": 0.86,
+                        "positivity": 0.8
+                      },
+                      "completion": {
+                        "count": 1957,
+                        "percentageSurvey": 81.68,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 0.98,
+                        "interest": 0.12,
+                        "usage": 0.87,
+                        "retention": 0.89,
+                        "positivity": 0.84
+                      },
+                      "completion": {
+                        "count": 2300,
+                        "percentageSurvey": 65.7,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "data_fetching_fetch",
+                "entity": {
+                  "name": "Fetch API",
+                  "nameClean": "Fetch API",
+                  "entityType": "library",
+                  "description": "An interface for fetching resources.",
+                  "descriptionClean": "An interface for fetching resources.",
+                  "homepage": {
+                    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "const response = await fetch(url)\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> response = <span class=\"hljs-keyword\">await</span> <span class=\"hljs-title function_\">fetch</span>(url)"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.98,
+                        "interest": 0.31,
+                        "usage": 0.9,
+                        "retention": 0.86,
+                        "positivity": 0.81
+                      },
+                      "completion": {
+                        "count": 1542,
+                        "percentageSurvey": 81.67,
+                        "total": 1888
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.98,
+                        "interest": 0.46,
+                        "usage": 0.9,
+                        "retention": 0.83,
+                        "positivity": 0.8
+                      },
+                      "completion": {
+                        "count": 1943,
+                        "percentageSurvey": 81.09,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 0.99,
+                        "interest": 0.45,
+                        "usage": 0.91,
+                        "retention": 0.87,
+                        "positivity": 0.86
+                      },
+                      "completion": {
+                        "count": 2296,
+                        "percentageSurvey": 65.58,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "data_fetching_relay",
+                "entity": {
+                  "name": "Relay",
+                  "nameClean": "Relay",
+                  "entityType": "library",
+                  "description": "The GraphQL client that scales with you. A framework for building data-driven React applications.",
+                  "descriptionClean": "The GraphQL client that scales with you. A framework for building data-driven React applications.",
+                  "homepage": {
+                    "url": "https://relay.dev/"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "const query = graphql`\n  query Example {\n    // ...\n  }\n`\n\nfunction Component() {\n  const data = useLazyLoadQuery(query)\n  // ...\n}\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> query = graphql<span class=\"hljs-string\">`\n  query Example {\n    // ...\n  }\n`</span>\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Component</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> data = <span class=\"hljs-title function_\">useLazyLoadQuery</span>(query)\n  <span class=\"hljs-comment\">// ...</span>\n}"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.64,
+                        "interest": 0.45,
+                        "usage": 0.06,
+                        "retention": 0.49,
+                        "positivity": 0.45
+                      },
+                      "completion": {
+                        "count": 1526,
+                        "percentageSurvey": 80.83,
+                        "total": 1888
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.58,
+                        "interest": 0.43,
+                        "usage": 0.05,
+                        "retention": 0.59,
+                        "positivity": 0.44
+                      },
+                      "completion": {
+                        "count": 1909,
+                        "percentageSurvey": 79.67,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 0.5,
+                        "interest": 0.25,
+                        "usage": 0.06,
+                        "retention": 0.44,
+                        "positivity": 0.29
+                      },
+                      "completion": {
+                        "count": 2245,
+                        "percentageSurvey": 64.12,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "data_fetching_rtk_query",
+                "entity": {
+                  "name": "RTK Query",
+                  "nameClean": "RTK Query",
+                  "entityType": "library",
+                  "description": "A powerful data fetching and caching tool. It is designed to simplify common cases for loading data in an application, eliminating the need to hand-write data fetching & caching logic yourself.",
+                  "descriptionClean": "A powerful data fetching and caching tool. It is designed to simplify common cases for loading data in an application, eliminating the need to hand-write data fetching  caching logic yourself.",
+                  "descriptionHtml": "A powerful data fetching and caching tool. It is designed to simplify common cases for loading data in an application, eliminating the need to hand-write data fetching &amp; caching logic yourself.",
+                  "homepage": {
+                    "url": "https://redux-toolkit.js.org/rtk-query/overview"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "const exampleApi = createApi({\n  baseQuery: fetchBaseQuery({ baseUrl }),\n  endpoints: (builder) => ({\n    exampleQuery: builder.query({\n      query: () => `examplePath`\n    })\n  }),\n  // ...\n})\n\nconst store = configureStore({\n  reducer: {\n    [exampleApi.reducerPath]: exampleApi.reducer\n  },\n  // ...\n})\n\nfunction Component() {\n  const { data, error, isLoading } = exampleApi.useExampleQuery()\n  // ...\n}\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> exampleApi = <span class=\"hljs-title function_\">createApi</span>({\n  <span class=\"hljs-attr\">baseQuery</span>: <span class=\"hljs-title function_\">fetchBaseQuery</span>({ baseUrl }),\n  <span class=\"hljs-attr\">endpoints</span>: <span class=\"hljs-function\">(<span class=\"hljs-params\">builder</span>) =&gt;</span> ({\n    <span class=\"hljs-attr\">exampleQuery</span>: builder.<span class=\"hljs-title function_\">query</span>({\n      <span class=\"hljs-attr\">query</span>: <span class=\"hljs-function\">() =&gt;</span> <span class=\"hljs-string\">`examplePath`</span>\n    })\n  }),\n  <span class=\"hljs-comment\">// ...</span>\n})\n\n<span class=\"hljs-keyword\">const</span> store = <span class=\"hljs-title function_\">configureStore</span>({\n  <span class=\"hljs-attr\">reducer</span>: {\n    [exampleApi.<span class=\"hljs-property\">reducerPath</span>]: exampleApi.<span class=\"hljs-property\">reducer</span>\n  },\n  <span class=\"hljs-comment\">// ...</span>\n})\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Component</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> { data, error, isLoading } = exampleApi.<span class=\"hljs-title function_\">useExampleQuery</span>()\n  <span class=\"hljs-comment\">// ...</span>\n}"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.64,
+                        "interest": 0.52,
+                        "usage": 0.2,
+                        "retention": 0.73,
+                        "positivity": 0.59
+                      },
+                      "completion": {
+                        "count": 1918,
+                        "percentageSurvey": 80.05,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 0.6,
+                        "interest": 0.29,
+                        "usage": 0.23,
+                        "retention": 0.71,
+                        "positivity": 0.46
+                      },
+                      "completion": {
+                        "count": 2269,
+                        "percentageSurvey": 64.81,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "data_fetching_swr",
+                "entity": {
+                  "name": "SWR",
+                  "nameClean": "SWR",
+                  "entityType": "library",
+                  "description": "React Hooks for Data Fetching. A strategy to first return the data from cache (stale), then send the fetch request (revalidate), and finally come with the up-to-date data.",
+                  "descriptionClean": "React Hooks for Data Fetching. A strategy to first return the data from cache (stale), then send the fetch request (revalidate), and finally come with the up-to-date data.",
+                  "homepage": {
+                    "url": "https://swr.vercel.app/"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "function Component() {\n  const { data, error, isLoading } = useSWR(url, fetcher)\n  // ...\n}\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Component</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> { data, error, isLoading } = <span class=\"hljs-title function_\">useSWR</span>(url, fetcher)\n  <span class=\"hljs-comment\">// ...</span>\n}"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.65,
+                        "interest": 0.59,
+                        "usage": 0.19,
+                        "retention": 0.77,
+                        "positivity": 0.64
+                      },
+                      "completion": {
+                        "count": 1527,
+                        "percentageSurvey": 80.88,
+                        "total": 1888
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.63,
+                        "interest": 0.5,
+                        "usage": 0.17,
+                        "retention": 0.67,
+                        "positivity": 0.55
+                      },
+                      "completion": {
+                        "count": 1914,
+                        "percentageSurvey": 79.88,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 0.59,
+                        "interest": 0.41,
+                        "usage": 0.16,
+                        "retention": 0.68,
+                        "positivity": 0.5
+                      },
+                      "completion": {
+                        "count": 2245,
+                        "percentageSurvey": 64.12,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "data_fetching_tan_stack",
+                "entity": {
+                  "name": "TanStack Query",
+                  "nameClean": "TanStack Query",
+                  "entityType": "library",
+                  "description": "(former React Query) A data-fetching library that makes fetching, caching, synchronizing and updating server state in the application a breeze.",
+                  "descriptionClean": "(former React Query) A data-fetching library that makes fetching, caching, synchronizing and updating server state in the application a breeze.",
+                  "homepage": {
+                    "url": "https://tanstack.com/query/latest"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "const queryClient = new QueryClient()\n\nfunction Component() {\n  const { isPending, error, data } = useQuery({ queryKey: ['example'], queryFn })\n  // ...\n}\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> queryClient = <span class=\"hljs-keyword\">new</span> <span class=\"hljs-title class_\">QueryClient</span>()\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Component</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> { isPending, error, data } = <span class=\"hljs-title function_\">useQuery</span>({ <span class=\"hljs-attr\">queryKey</span>: [<span class=\"hljs-string\">&#x27;example&#x27;</span>], queryFn })\n  <span class=\"hljs-comment\">// ...</span>\n}"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.79,
+                        "interest": 0.78,
+                        "usage": 0.44,
+                        "retention": 0.97,
+                        "positivity": 0.88
+                      },
+                      "completion": {
+                        "count": 1534,
+                        "percentageSurvey": 81.25,
+                        "total": 1888
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.81,
+                        "interest": 0.7,
+                        "usage": 0.54,
+                        "retention": 0.97,
+                        "positivity": 0.88
+                      },
+                      "completion": {
+                        "count": 1931,
+                        "percentageSurvey": 80.59,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 0.84,
+                        "interest": 0.78,
+                        "usage": 0.59,
+                        "retention": 0.96,
+                        "positivity": 0.91
+                      },
+                      "completion": {
+                        "count": 2265,
+                        "percentageSurvey": 64.7,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "data_fetching_trpc",
+                "entity": {
+                  "name": "tRPC",
+                  "nameClean": "tRPC",
+                  "entityType": "library",
+                  "description": "A solution that allows you to easily build & consume fully typesafe APIs without schemas or code generation.",
+                  "descriptionClean": "A solution that allows you to easily build  consume fully typesafe APIs without schemas or code generation.",
+                  "descriptionHtml": "A solution that allows you to easily build &amp; consume fully typesafe APIs without schemas or code generation.",
+                  "homepage": {
+                    "url": "https://trpc.io/"
+                  },
+                  "example": {
+                    "language": "js",
+                    "code": "const trpc = createTRPCClient<AppRouter>()\n\nfunction Component() {\n  const result = trpc.hello.useQuery()\n  // ...\n}\n",
+                    "codeHighlighted": "<span class=\"hljs-keyword\">const</span> trpc = createTRPCClient&lt;<span class=\"hljs-title class_\">AppRouter</span>&gt;()\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">Component</span>(<span class=\"hljs-params\"></span>) {\n  <span class=\"hljs-keyword\">const</span> result = trpc.<span class=\"hljs-property\">hello</span>.<span class=\"hljs-title function_\">useQuery</span>()\n  <span class=\"hljs-comment\">// ...</span>\n}"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.62,
+                        "interest": 0.8,
+                        "usage": 0.07,
+                        "retention": 0.9,
+                        "positivity": 0.81
+                      },
+                      "completion": {
+                        "count": 1531,
+                        "percentageSurvey": 81.09,
+                        "total": 1888
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.63,
+                        "interest": 0.75,
+                        "usage": 0.12,
+                        "retention": 0.91,
+                        "positivity": 0.78
+                      },
+                      "completion": {
+                        "count": 1904,
+                        "percentageSurvey": 79.47,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2024",
+                      "ratios": {
+                        "awareness": 0.61,
+                        "interest": 0.65,
+                        "usage": 0.12,
+                        "retention": 0.89,
+                        "positivity": 0.69
+                      },
+                      "completion": {
+                        "count": 2238,
+                        "percentageSurvey": 63.92,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
