@@ -1,0 +1,482 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2025": {
+          "build_and_publish": {
+            "build_and_publish_ratios": [
+              {
+                "id": "build_and_publish_app_center",
+                "entity": {
+                  "name": "App Center",
+                  "nameClean": "App Center",
+                  "entityType": "default",
+                  "description": "Continuously build, test, release, and monitor apps for every platform.",
+                  "descriptionClean": "Continuously build, test, release, and monitor apps for every platform.",
+                  "homepage": {
+                    "url": "https://appcenter.ms/"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.77,
+                        "interest": 0.53,
+                        "usage": 0.42,
+                        "retention": 0.78,
+                        "positivity": 0.67
+                      },
+                      "completion": {
+                        "count": 1260,
+                        "percentageSurvey": 66.74,
+                        "total": 1888
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.78,
+                        "interest": 0.56,
+                        "usage": 0.5,
+                        "retention": 0.73,
+                        "positivity": 0.67
+                      },
+                      "completion": {
+                        "count": 1530,
+                        "percentageSurvey": 63.86,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2025",
+                      "ratios": {
+                        "awareness": 0.72,
+                        "interest": 0.23,
+                        "usage": 0.34,
+                        "retention": 0.58,
+                        "positivity": 0.44
+                      },
+                      "completion": {
+                        "count": 1704,
+                        "percentageSurvey": 48.67,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "build_and_publish_bitrise",
+                "entity": {
+                  "name": "Bitrise",
+                  "nameClean": "Bitrise",
+                  "entityType": "default",
+                  "description": "The CI/CD Platform built for Mobile DevOps.",
+                  "descriptionClean": "The CI/CD Platform built for Mobile DevOps.",
+                  "homepage": {
+                    "url": "https://bitrise.io/"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.49,
+                        "interest": 0.53,
+                        "usage": 0.2,
+                        "retention": 0.73,
+                        "positivity": 0.61
+                      },
+                      "completion": {
+                        "count": 1495,
+                        "percentageSurvey": 62.4,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2025",
+                      "ratios": {
+                        "awareness": 0.42,
+                        "interest": 0.38,
+                        "usage": 0.14,
+                        "retention": 0.73,
+                        "positivity": 0.5
+                      },
+                      "completion": {
+                        "count": 1678,
+                        "percentageSurvey": 47.93,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "build_and_publish_eas_build",
+                "entity": {
+                  "name": "EAS Build",
+                  "nameClean": "EAS Build",
+                  "entityType": "default",
+                  "description": "A hosted service for building app binaries for your Expo and React Native projects. Compile and sign Android/iOS apps with custom native code in the cloud.",
+                  "descriptionClean": "A hosted service for building app binaries for your Expo and React Native projects. Compile and sign Android/iOS apps with custom native code in the cloud.",
+                  "homepage": {
+                    "url": "https://expo.dev/eas#build"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.76,
+                        "interest": 0.74,
+                        "usage": 0.4,
+                        "retention": 0.94,
+                        "positivity": 0.85
+                      },
+                      "completion": {
+                        "count": 1257,
+                        "percentageSurvey": 66.58,
+                        "total": 1888
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.86,
+                        "interest": 0.74,
+                        "usage": 0.55,
+                        "retention": 0.94,
+                        "positivity": 0.87
+                      },
+                      "completion": {
+                        "count": 1523,
+                        "percentageSurvey": 63.56,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2025",
+                      "ratios": {
+                        "awareness": 0.95,
+                        "interest": 0.7,
+                        "usage": 0.7,
+                        "retention": 0.95,
+                        "positivity": 0.91
+                      },
+                      "completion": {
+                        "count": 1746,
+                        "percentageSurvey": 49.87,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "build_and_publish_eas_submit",
+                "entity": {
+                  "name": "EAS Submit",
+                  "nameClean": "EAS Submit",
+                  "entityType": "default",
+                  "description": "A hosted service for uploading and submitting an app binary to the app stores. Upload your app to the Play Store or App Store from the cloud with a single command.",
+                  "descriptionClean": "A hosted service for uploading and submitting an app binary to the app stores. Upload your app to the Play Store or App Store from the cloud with a single command.",
+                  "homepage": {
+                    "url": "https://expo.dev/eas#submit"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.72,
+                        "interest": 0.76,
+                        "usage": 0.32,
+                        "retention": 0.94,
+                        "positivity": 0.84
+                      },
+                      "completion": {
+                        "count": 1258,
+                        "percentageSurvey": 66.63,
+                        "total": 1888
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.83,
+                        "interest": 0.76,
+                        "usage": 0.45,
+                        "retention": 0.94,
+                        "positivity": 0.86
+                      },
+                      "completion": {
+                        "count": 1516,
+                        "percentageSurvey": 63.27,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2025",
+                      "ratios": {
+                        "awareness": 0.92,
+                        "interest": 0.76,
+                        "usage": 0.54,
+                        "retention": 0.96,
+                        "positivity": 0.9
+                      },
+                      "completion": {
+                        "count": 1735,
+                        "percentageSurvey": 49.56,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "build_and_publish_fastlane",
+                "entity": {
+                  "name": "Fastlane",
+                  "nameClean": "Fastlane",
+                  "entityType": "default",
+                  "description": "An open source platform aimed at simplifying Android and iOS deployment. Automate every aspect of your development and release workflow.",
+                  "descriptionClean": "An open source platform aimed at simplifying Android and iOS deployment. Automate every aspect of your development and release workflow.",
+                  "homepage": {
+                    "url": "https://fastlane.tools/"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.84,
+                        "interest": 0.71,
+                        "usage": 0.5,
+                        "retention": 0.87,
+                        "positivity": 0.81
+                      },
+                      "completion": {
+                        "count": 1258,
+                        "percentageSurvey": 66.63,
+                        "total": 1888
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.85,
+                        "interest": 0.7,
+                        "usage": 0.52,
+                        "retention": 0.81,
+                        "positivity": 0.76
+                      },
+                      "completion": {
+                        "count": 1514,
+                        "percentageSurvey": 63.19,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2025",
+                      "ratios": {
+                        "awareness": 0.81,
+                        "interest": 0.61,
+                        "usage": 0.47,
+                        "retention": 0.72,
+                        "positivity": 0.69
+                      },
+                      "completion": {
+                        "count": 1711,
+                        "percentageSurvey": 48.87,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "build_and_publish_manually_android_studio",
+                "entity": {
+                  "name": "Manually with Android Studio",
+                  "nameClean": "Manually with Android Studio",
+                  "entityType": "default",
+                  "homepage": {
+                    "url": "https://developer.android.com/studio"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.95,
+                        "interest": 0.26,
+                        "usage": 0.65,
+                        "retention": 0.57,
+                        "positivity": 0.48
+                      },
+                      "completion": {
+                        "count": 1259,
+                        "percentageSurvey": 66.68,
+                        "total": 1888
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.93,
+                        "interest": 0.23,
+                        "usage": 0.61,
+                        "retention": 0.54,
+                        "positivity": 0.44
+                      },
+                      "completion": {
+                        "count": 1510,
+                        "percentageSurvey": 63.02,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2025",
+                      "ratios": {
+                        "awareness": 0.92,
+                        "interest": 0.16,
+                        "usage": 0.54,
+                        "retention": 0.44,
+                        "positivity": 0.35
+                      },
+                      "completion": {
+                        "count": 1704,
+                        "percentageSurvey": 48.67,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "build_and_publish_manually_xcode",
+                "entity": {
+                  "name": "Manually with Xcode",
+                  "nameClean": "Manually with Xcode",
+                  "entityType": "default",
+                  "homepage": {
+                    "url": "https://developer.apple.com/xcode/"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.95,
+                        "interest": 0.3,
+                        "usage": 0.72,
+                        "retention": 0.6,
+                        "positivity": 0.52
+                      },
+                      "completion": {
+                        "count": 1258,
+                        "percentageSurvey": 66.63,
+                        "total": 1888
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.94,
+                        "interest": 0.24,
+                        "usage": 0.66,
+                        "retention": 0.57,
+                        "positivity": 0.48
+                      },
+                      "completion": {
+                        "count": 1515,
+                        "percentageSurvey": 63.23,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2025",
+                      "ratios": {
+                        "awareness": 0.92,
+                        "interest": 0.21,
+                        "usage": 0.59,
+                        "retention": 0.46,
+                        "positivity": 0.4
+                      },
+                      "completion": {
+                        "count": 1691,
+                        "percentageSurvey": 48.3,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "build_and_publish_workflows",
+                "entity": {
+                  "name": "EAS Workflows",
+                  "nameClean": "EAS Workflows",
+                  "entityType": "default",
+                  "description": "A service that allows you and your team to do things like build your project, run end-to-end tests on them, submit those builds to the app stores, then run custom scripts after the submissions are complete.",
+                  "descriptionClean": "A service that allows you and your team to do things like build your project, run end-to-end tests on them, submit those builds to the app stores, then run custom scripts after the submissions are complete.",
+                  "homepage": {
+                    "url": "https://docs.expo.dev/workflows/get-started/"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2024,
+                      "editionId": "rn2025",
+                      "ratios": {
+                        "awareness": 0.56,
+                        "interest": 0.85,
+                        "usage": 0.09,
+                        "retention": 0.88,
+                        "positivity": 0.83
+                      },
+                      "completion": {
+                        "count": 1682,
+                        "percentageSurvey": 48.04,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

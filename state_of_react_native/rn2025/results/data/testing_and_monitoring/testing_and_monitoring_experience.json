@@ -1,0 +1,854 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2025": {
+          "testing_and_monitoring": {
+            "testing_and_monitoring_experience": [
+              {
+                "id": "testing_and_monitoring_testing_appium",
+                "entity": {
+                  "name": "Appium",
+                  "nameClean": "Appium",
+                  "entityType": "library",
+                  "description": "Cross-platform automation framework for all kinds of your apps built on top of W3C WebDriver protocol.",
+                  "descriptionClean": "Cross-platform automation framework for all kinds of your apps built on top of W3C WebDriver protocol.",
+                  "npm": {
+                    "url": "https://www.npmjs.com/package/appium"
+                  },
+                  "homepage": {
+                    "url": "https://appium.io/"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 3
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.52,
+                      "interest": 0.34,
+                      "usage": 0.13,
+                      "retention": 0.21,
+                      "positivity": 0.31
+                    },
+                    "buckets": [
+                      {
+                        "count": 826,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 31,
+                            "id": "positive",
+                            "percentageBucket": 3.75,
+                            "percentageQuestion": 1.78,
+                            "percentageSurvey": 0.89
+                          },
+                          {
+                            "count": 739,
+                            "id": "neutral",
+                            "percentageBucket": 89.47,
+                            "percentageQuestion": 42.4,
+                            "percentageSurvey": 21.11
+                          },
+                          {
+                            "count": 56,
+                            "id": "negative",
+                            "percentageBucket": 6.78,
+                            "percentageQuestion": 3.21,
+                            "percentageSurvey": 1.6
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 47.39,
+                        "percentageSurvey": 23.59
+                      },
+                      {
+                        "count": 673,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 42,
+                            "id": "positive",
+                            "percentageBucket": 6.24,
+                            "percentageQuestion": 2.41,
+                            "percentageSurvey": 1.2
+                          },
+                          {
+                            "count": 79,
+                            "id": "negative",
+                            "percentageBucket": 11.74,
+                            "percentageQuestion": 4.53,
+                            "percentageSurvey": 2.26
+                          },
+                          {
+                            "count": 552,
+                            "id": "neutral",
+                            "percentageBucket": 82.02,
+                            "percentageQuestion": 31.67,
+                            "percentageSurvey": 15.77
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 38.61,
+                        "percentageSurvey": 19.22
+                      },
+                      {
+                        "count": 241,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 154,
+                            "id": "neutral",
+                            "percentageBucket": 63.9,
+                            "percentageQuestion": 8.84,
+                            "percentageSurvey": 4.4
+                          },
+                          {
+                            "count": 68,
+                            "id": "negative",
+                            "percentageBucket": 28.22,
+                            "percentageQuestion": 3.9,
+                            "percentageSurvey": 1.94
+                          },
+                          {
+                            "count": 19,
+                            "id": "positive",
+                            "percentageBucket": 7.88,
+                            "percentageQuestion": 1.09,
+                            "percentageSurvey": 0.54
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 13.83,
+                        "percentageSurvey": 6.88
+                      }
+                    ],
+                    "completion": {
+                      "count": 1743,
+                      "percentageSurvey": 49.79,
+                      "total": 3501
+                    }
+                  }
+                }
+              },
+              {
+                "id": "testing_and_monitoring_testing_detox",
+                "entity": {
+                  "name": "Detox",
+                  "nameClean": "Detox",
+                  "entityType": "library",
+                  "description": "Gray box end-to-end testing and automation framework for React Native apps.",
+                  "descriptionClean": "Gray box end-to-end testing and automation framework for React Native apps.",
+                  "npm": {
+                    "url": "https://www.npmjs.com/package/detox"
+                  },
+                  "homepage": {
+                    "url": "https://wix.github.io/Detox/"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 9
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.6,
+                      "interest": 0.55,
+                      "usage": 0.26,
+                      "retention": 0.38,
+                      "positivity": 0.45
+                    },
+                    "buckets": [
+                      {
+                        "count": 685,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 617,
+                            "id": "neutral",
+                            "percentageBucket": 90.07,
+                            "percentageQuestion": 35.22,
+                            "percentageSurvey": 17.62
+                          },
+                          {
+                            "count": 34,
+                            "id": "positive",
+                            "percentageBucket": 4.96,
+                            "percentageQuestion": 1.94,
+                            "percentageSurvey": 0.97
+                          },
+                          {
+                            "count": 34,
+                            "id": "negative",
+                            "percentageBucket": 4.96,
+                            "percentageQuestion": 1.94,
+                            "percentageSurvey": 0.97
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 39.1,
+                        "percentageSurvey": 19.57
+                      },
+                      {
+                        "count": 601,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 492,
+                            "id": "neutral",
+                            "percentageBucket": 81.86,
+                            "percentageQuestion": 28.08,
+                            "percentageSurvey": 14.05
+                          },
+                          {
+                            "count": 48,
+                            "id": "negative",
+                            "percentageBucket": 7.99,
+                            "percentageQuestion": 2.74,
+                            "percentageSurvey": 1.37
+                          },
+                          {
+                            "count": 61,
+                            "id": "positive",
+                            "percentageBucket": 10.15,
+                            "percentageQuestion": 3.48,
+                            "percentageSurvey": 1.74
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 34.3,
+                        "percentageSurvey": 17.17
+                      },
+                      {
+                        "count": 460,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 121,
+                            "id": "negative",
+                            "percentageBucket": 26.3,
+                            "percentageQuestion": 6.91,
+                            "percentageSurvey": 3.46
+                          },
+                          {
+                            "count": 77,
+                            "id": "positive",
+                            "percentageBucket": 16.74,
+                            "percentageQuestion": 4.39,
+                            "percentageSurvey": 2.2
+                          },
+                          {
+                            "count": 262,
+                            "id": "neutral",
+                            "percentageBucket": 56.96,
+                            "percentageQuestion": 14.95,
+                            "percentageSurvey": 7.48
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 26.26,
+                        "percentageSurvey": 13.14
+                      }
+                    ],
+                    "completion": {
+                      "count": 1752,
+                      "percentageSurvey": 50.04,
+                      "total": 3501
+                    }
+                  }
+                }
+              },
+              {
+                "id": "testing_and_monitoring_testing_jest",
+                "entity": {
+                  "name": "Jest",
+                  "nameClean": "Jest",
+                  "entityType": "library",
+                  "description": "A delightful JavaScript Testing Framework with a focus on simplicity.",
+                  "descriptionClean": "A delightful JavaScript Testing Framework with a focus on simplicity.",
+                  "npm": {
+                    "url": "https://www.npmjs.com/package/jest"
+                  },
+                  "homepage": {
+                    "url": "https://jestjs.io/"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 11
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.96,
+                      "interest": 0.73,
+                      "usage": 0.71,
+                      "retention": 0.76,
+                      "positivity": 0.76
+                    },
+                    "buckets": [
+                      {
+                        "count": 61,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 8,
+                            "id": "positive",
+                            "percentageBucket": 13.11,
+                            "percentageQuestion": 0.45,
+                            "percentageSurvey": 0.23
+                          },
+                          {
+                            "count": 1,
+                            "id": "negative",
+                            "percentageBucket": 1.64,
+                            "percentageQuestion": 0.06,
+                            "percentageSurvey": 0.03
+                          },
+                          {
+                            "count": 52,
+                            "id": "neutral",
+                            "percentageBucket": 85.25,
+                            "percentageQuestion": 2.94,
+                            "percentageSurvey": 1.49
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 3.44,
+                        "percentageSurvey": 1.74
+                      },
+                      {
+                        "count": 445,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 50,
+                            "id": "positive",
+                            "percentageBucket": 11.24,
+                            "percentageQuestion": 2.82,
+                            "percentageSurvey": 1.43
+                          },
+                          {
+                            "count": 18,
+                            "id": "negative",
+                            "percentageBucket": 4.04,
+                            "percentageQuestion": 1.02,
+                            "percentageSurvey": 0.51
+                          },
+                          {
+                            "count": 377,
+                            "id": "neutral",
+                            "percentageBucket": 84.72,
+                            "percentageQuestion": 21.29,
+                            "percentageSurvey": 10.77
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 25.13,
+                        "percentageSurvey": 12.71
+                      },
+                      {
+                        "count": 1250,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 334,
+                            "id": "positive",
+                            "percentageBucket": 26.72,
+                            "percentageQuestion": 18.86,
+                            "percentageSurvey": 9.54
+                          },
+                          {
+                            "count": 104,
+                            "id": "negative",
+                            "percentageBucket": 8.32,
+                            "percentageQuestion": 5.87,
+                            "percentageSurvey": 2.97
+                          },
+                          {
+                            "count": 812,
+                            "id": "neutral",
+                            "percentageBucket": 64.96,
+                            "percentageQuestion": 45.85,
+                            "percentageSurvey": 23.19
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 70.58,
+                        "percentageSurvey": 35.7
+                      }
+                    ],
+                    "completion": {
+                      "count": 1771,
+                      "percentageSurvey": 50.59,
+                      "total": 3501
+                    }
+                  }
+                }
+              },
+              {
+                "id": "testing_and_monitoring_testing_maestro",
+                "entity": {
+                  "name": "Maestro",
+                  "nameClean": "Maestro",
+                  "entityType": "library",
+                  "description": "The easiest way to automate UI testing for your mobile app.",
+                  "descriptionClean": "The easiest way to automate UI testing for your mobile app.",
+                  "homepage": {
+                    "url": "https://maestro.mobile.dev/"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 12
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.58,
+                      "interest": 0.93,
+                      "usage": 0.23,
+                      "retention": 0.88,
+                      "positivity": 0.84
+                    },
+                    "buckets": [
+                      {
+                        "count": 729,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 648,
+                            "id": "neutral",
+                            "percentageBucket": 88.89,
+                            "percentageQuestion": 36.92,
+                            "percentageSurvey": 18.51
+                          },
+                          {
+                            "count": 49,
+                            "id": "positive",
+                            "percentageBucket": 6.72,
+                            "percentageQuestion": 2.79,
+                            "percentageSurvey": 1.4
+                          },
+                          {
+                            "count": 32,
+                            "id": "negative",
+                            "percentageBucket": 4.39,
+                            "percentageQuestion": 1.82,
+                            "percentageSurvey": 0.91
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 41.54,
+                        "percentageSurvey": 20.82
+                      },
+                      {
+                        "count": 613,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 482,
+                            "id": "neutral",
+                            "percentageBucket": 78.63,
+                            "percentageQuestion": 27.46,
+                            "percentageSurvey": 13.77
+                          },
+                          {
+                            "count": 9,
+                            "id": "negative",
+                            "percentageBucket": 1.47,
+                            "percentageQuestion": 0.51,
+                            "percentageSurvey": 0.26
+                          },
+                          {
+                            "count": 122,
+                            "id": "positive",
+                            "percentageBucket": 19.9,
+                            "percentageQuestion": 6.95,
+                            "percentageSurvey": 3.48
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 34.93,
+                        "percentageSurvey": 17.51
+                      },
+                      {
+                        "count": 409,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 224,
+                            "id": "neutral",
+                            "percentageBucket": 54.77,
+                            "percentageQuestion": 12.76,
+                            "percentageSurvey": 6.4
+                          },
+                          {
+                            "count": 163,
+                            "id": "positive",
+                            "percentageBucket": 39.85,
+                            "percentageQuestion": 9.29,
+                            "percentageSurvey": 4.66
+                          },
+                          {
+                            "count": 22,
+                            "id": "negative",
+                            "percentageBucket": 5.38,
+                            "percentageQuestion": 1.25,
+                            "percentageSurvey": 0.63
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 23.3,
+                        "percentageSurvey": 11.68
+                      }
+                    ],
+                    "completion": {
+                      "count": 1755,
+                      "percentageSurvey": 50.13,
+                      "total": 3501
+                    }
+                  }
+                }
+              },
+              {
+                "id": "testing_and_monitoring_testing_react_native_testing_library",
+                "entity": {
+                  "name": "React Native Testing Library",
+                  "nameClean": "React Native Testing Library",
+                  "entityType": "library",
+                  "description": "A lightweight solution for testing React Native components. It provides light utility functions on top of React Test Renderer, in a way that encourages better testing practices.",
+                  "descriptionClean": "A lightweight solution for testing React Native components. It provides light utility functions on top of React Test Renderer, in a way that encourages better testing practices.",
+                  "npm": {
+                    "url": "https://www.npmjs.com/package/@testing-library/react-native"
+                  },
+                  "homepage": {
+                    "url": "https://callstack.github.io/react-native-testing-library/"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 2
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.77,
+                      "interest": 0.86,
+                      "usage": 0.47,
+                      "retention": 0.9,
+                      "positivity": 0.87
+                    },
+                    "buckets": [
+                      {
+                        "count": 401,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 369,
+                            "id": "neutral",
+                            "percentageBucket": 92.02,
+                            "percentageQuestion": 21.01,
+                            "percentageSurvey": 10.54
+                          },
+                          {
+                            "count": 13,
+                            "id": "negative",
+                            "percentageBucket": 3.24,
+                            "percentageQuestion": 0.74,
+                            "percentageSurvey": 0.37
+                          },
+                          {
+                            "count": 19,
+                            "id": "positive",
+                            "percentageBucket": 4.74,
+                            "percentageQuestion": 1.08,
+                            "percentageSurvey": 0.54
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 22.84,
+                        "percentageSurvey": 11.45
+                      },
+                      {
+                        "count": 518,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 68,
+                            "id": "positive",
+                            "percentageBucket": 13.13,
+                            "percentageQuestion": 3.87,
+                            "percentageSurvey": 1.94
+                          },
+                          {
+                            "count": 439,
+                            "id": "neutral",
+                            "percentageBucket": 84.75,
+                            "percentageQuestion": 25,
+                            "percentageSurvey": 12.54
+                          },
+                          {
+                            "count": 11,
+                            "id": "negative",
+                            "percentageBucket": 2.12,
+                            "percentageQuestion": 0.63,
+                            "percentageSurvey": 0.31
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 29.5,
+                        "percentageSurvey": 14.8
+                      },
+                      {
+                        "count": 831,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 31,
+                            "id": "negative",
+                            "percentageBucket": 3.73,
+                            "percentageQuestion": 1.77,
+                            "percentageSurvey": 0.89
+                          },
+                          {
+                            "count": 291,
+                            "id": "positive",
+                            "percentageBucket": 35.02,
+                            "percentageQuestion": 16.57,
+                            "percentageSurvey": 8.31
+                          },
+                          {
+                            "count": 509,
+                            "id": "neutral",
+                            "percentageBucket": 61.25,
+                            "percentageQuestion": 28.99,
+                            "percentageSurvey": 14.54
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 47.32,
+                        "percentageSurvey": 23.74
+                      }
+                    ],
+                    "completion": {
+                      "count": 1756,
+                      "percentageSurvey": 50.16,
+                      "total": 3501
+                    }
+                  }
+                }
+              },
+              {
+                "id": "testing_and_monitoring_testing_storybook",
+                "entity": {
+                  "name": "Storybook",
+                  "nameClean": "Storybook",
+                  "entityType": "library",
+                  "description": "A development environment for UI components that allows for isolated testing and documentation of React Native components.",
+                  "descriptionClean": "A development environment for UI components that allows for isolated testing and documentation of React Native components.",
+                  "homepage": {
+                    "url": "https://storybook.js.org/"
+                  }
+                },
+                "comments": {
+                  "currentEdition": {
+                    "count": 22
+                  }
+                },
+                "responses": {
+                  "currentEdition": {
+                    "ratios": {
+                      "awareness": 0.87,
+                      "interest": 0.63,
+                      "usage": 0.46,
+                      "retention": 0.61,
+                      "positivity": 0.62
+                    },
+                    "buckets": [
+                      {
+                        "count": 222,
+                        "id": "never_heard",
+                        "facetBuckets": [
+                          {
+                            "count": 204,
+                            "id": "neutral",
+                            "percentageBucket": 91.89,
+                            "percentageQuestion": 11.62,
+                            "percentageSurvey": 5.83
+                          },
+                          {
+                            "count": 12,
+                            "id": "positive",
+                            "percentageBucket": 5.41,
+                            "percentageQuestion": 0.68,
+                            "percentageSurvey": 0.34
+                          },
+                          {
+                            "count": 6,
+                            "id": "negative",
+                            "percentageBucket": 2.7,
+                            "percentageQuestion": 0.34,
+                            "percentageSurvey": 0.17
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 12.64,
+                        "percentageSurvey": 6.34
+                      },
+                      {
+                        "count": 712,
+                        "id": "heard",
+                        "facetBuckets": [
+                          {
+                            "count": 92,
+                            "id": "positive",
+                            "percentageBucket": 12.92,
+                            "percentageQuestion": 5.24,
+                            "percentageSurvey": 2.63
+                          },
+                          {
+                            "count": 53,
+                            "id": "negative",
+                            "percentageBucket": 7.44,
+                            "percentageQuestion": 3.02,
+                            "percentageSurvey": 1.51
+                          },
+                          {
+                            "count": 567,
+                            "id": "neutral",
+                            "percentageBucket": 79.63,
+                            "percentageQuestion": 32.29,
+                            "percentageSurvey": 16.2
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 40.55,
+                        "percentageSurvey": 20.34
+                      },
+                      {
+                        "count": 818,
+                        "id": "used",
+                        "facetBuckets": [
+                          {
+                            "count": 495,
+                            "id": "neutral",
+                            "percentageBucket": 60.51,
+                            "percentageQuestion": 28.19,
+                            "percentageSurvey": 14.14
+                          },
+                          {
+                            "count": 125,
+                            "id": "negative",
+                            "percentageBucket": 15.28,
+                            "percentageQuestion": 7.12,
+                            "percentageSurvey": 3.57
+                          },
+                          {
+                            "count": 198,
+                            "id": "positive",
+                            "percentageBucket": 24.21,
+                            "percentageQuestion": 11.28,
+                            "percentageSurvey": 5.66
+                          },
+                          {
+                            "count": 0,
+                            "id": "insufficient_data",
+                            "percentageBucket": 0
+                          }
+                        ],
+                        "percentageQuestion": 46.58,
+                        "percentageSurvey": 23.36
+                      }
+                    ],
+                    "completion": {
+                      "count": 1756,
+                      "percentageSurvey": 50.16,
+                      "total": 3501
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

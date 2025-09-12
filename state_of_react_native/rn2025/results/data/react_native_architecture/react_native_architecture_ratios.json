@@ -1,0 +1,860 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2025": {
+          "react_native_architecture": {
+            "react_native_architecture_ratios": [
+              {
+                "id": "react_native_architecture_codegen",
+                "entity": {
+                  "name": "Codegen",
+                  "nameClean": "Codegen",
+                  "entityType": "default",
+                  "description": "A tool that automates the generation of code for native modules and components.",
+                  "descriptionClean": "A tool that automates the generation of code for native modules and components.",
+                  "homepage": {
+                    "url": "https://reactnative.dev/docs/the-new-architecture/what-is-codegen"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.73,
+                        "interest": 0.93,
+                        "usage": 0.16,
+                        "retention": 0.94,
+                        "positivity": 0.93
+                      },
+                      "completion": {
+                        "count": 1309,
+                        "percentageSurvey": 69.33,
+                        "total": 1888
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.64,
+                        "interest": 0.89,
+                        "usage": 0.18,
+                        "retention": 0.92,
+                        "positivity": 0.9
+                      },
+                      "completion": {
+                        "count": 1562,
+                        "percentageSurvey": 65.19,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2025",
+                      "ratios": {
+                        "awareness": 0.75,
+                        "interest": 0.81,
+                        "usage": 0.23,
+                        "retention": 0.81,
+                        "positivity": 0.8
+                      },
+                      "completion": {
+                        "count": 1758,
+                        "percentageSurvey": 50.21,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "react_native_architecture_concurrent_react",
+                "entity": {
+                  "name": "Concurrent React",
+                  "nameClean": "Concurrent React",
+                  "entityType": "default",
+                  "description": "React 18 concurrent features that are enabled in New Architecture",
+                  "descriptionClean": "React 18 concurrent features that are enabled in New Architecture",
+                  "homepage": {
+                    "url": "https://react.dev/blog/2022/03/29/react-v18#what-is-concurrent-react"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2024,
+                      "editionId": "rn2025",
+                      "ratios": {
+                        "awareness": 0.72,
+                        "interest": 0.97,
+                        "usage": 0.15,
+                        "retention": 0.93,
+                        "positivity": 0.95
+                      },
+                      "completion": {
+                        "count": 1755,
+                        "percentageSurvey": 50.13,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "react_native_architecture_dom_components",
+                "entity": {
+                  "name": "DOM components",
+                  "nameClean": "DOM components",
+                  "entityType": "default",
+                  "description": "Components allowing existing React web components directly within native apps. By using the \"use dom\" directive, these components can leverage web technologies while maintaining compatibility with native functionality.",
+                  "descriptionClean": "Components allowing existing React web components directly within native apps. By using the \"use dom\" directive, these components can leverage web technologies while maintaining compatibility with native functionality.",
+                  "descriptionHtml": "Components allowing existing React web components directly within native apps. By using the \"use dom\" directive, these components can leverage web technologies while maintaining compatibility with native functionality.",
+                  "homepage": {
+                    "url": "https://expo.dev/blog/the-magic-of-expo-dom-components"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2024,
+                      "editionId": "rn2025",
+                      "ratios": {
+                        "awareness": 0.79,
+                        "interest": 0.77,
+                        "usage": 0.13,
+                        "retention": 0.89,
+                        "positivity": 0.8
+                      },
+                      "completion": {
+                        "count": 1755,
+                        "percentageSurvey": 50.13,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "react_native_architecture_expo_modules",
+                "entity": {
+                  "name": "Expo Modules API",
+                  "nameClean": "Expo Modules API",
+                  "entityType": "default",
+                  "description": "API for creating native modules and views for React Native leveraging Kotlin and Swift languages modern features, consistency between platforms, minimal boilerplate and performance.",
+                  "descriptionClean": "API for creating native modules and views for React Native leveraging Kotlin and Swift languages modern features, consistency between platforms, minimal boilerplate and performance.",
+                  "homepage": {
+                    "url": "https://docs.expo.dev/modules/overview/"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.87,
+                        "interest": 0.76,
+                        "usage": 0.3,
+                        "retention": 0.93,
+                        "positivity": 0.82
+                      },
+                      "completion": {
+                        "count": 1307,
+                        "percentageSurvey": 69.23,
+                        "total": 1888
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.9,
+                        "interest": 0.77,
+                        "usage": 0.42,
+                        "retention": 0.94,
+                        "positivity": 0.85
+                      },
+                      "completion": {
+                        "count": 1574,
+                        "percentageSurvey": 65.69,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2025",
+                      "ratios": {
+                        "awareness": 0.88,
+                        "interest": 0.86,
+                        "usage": 0.37,
+                        "retention": 0.9,
+                        "positivity": 0.87
+                      },
+                      "completion": {
+                        "count": 1759,
+                        "percentageSurvey": 50.24,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "react_native_architecture_fabric",
+                "entity": {
+                  "name": "Fabric",
+                  "nameClean": "Fabric",
+                  "entityType": "default",
+                  "description": "A new rendering system for React Native that consolidates rendering logic in C++ and enhances compatibility with host platforms.",
+                  "descriptionClean": "A new rendering system for React Native that consolidates rendering logic in C++ and enhances compatibility with host platforms.",
+                  "homepage": {
+                    "url": "https://reactnative.dev/architecture/fabric-renderer"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.89,
+                        "interest": 0.97,
+                        "usage": 0.19,
+                        "retention": 0.95,
+                        "positivity": 0.97
+                      },
+                      "completion": {
+                        "count": 1316,
+                        "percentageSurvey": 69.7,
+                        "total": 1888
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.8,
+                        "interest": 0.91,
+                        "usage": 0.17,
+                        "retention": 0.91,
+                        "positivity": 0.91
+                      },
+                      "completion": {
+                        "count": 1556,
+                        "percentageSurvey": 64.94,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2025",
+                      "ratios": {
+                        "awareness": 0.82,
+                        "interest": 0.95,
+                        "usage": 0.25,
+                        "retention": 0.87,
+                        "positivity": 0.9
+                      },
+                      "completion": {
+                        "count": 1753,
+                        "percentageSurvey": 50.07,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "react_native_architecture_hermes_runtime",
+                "entity": {
+                  "name": "Hermes runtime",
+                  "nameClean": "Hermes runtime",
+                  "entityType": "default",
+                  "description": "A JavaScript engine optimized for fast start-up of React Native apps. It features ahead-of-time static optimization and compact bytecode.",
+                  "descriptionClean": "A JavaScript engine optimized for fast start-up of React Native apps. It features ahead-of-time static optimization and compact bytecode.",
+                  "homepage": {
+                    "url": "https://hermesengine.dev/"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.92,
+                        "interest": 0.94,
+                        "usage": 0.59,
+                        "retention": 0.98,
+                        "positivity": 0.96
+                      },
+                      "completion": {
+                        "count": 1303,
+                        "percentageSurvey": 69.01,
+                        "total": 1888
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.93,
+                        "interest": 0.9,
+                        "usage": 0.58,
+                        "retention": 0.98,
+                        "positivity": 0.95
+                      },
+                      "completion": {
+                        "count": 1555,
+                        "percentageSurvey": 64.9,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2025",
+                      "ratios": {
+                        "awareness": 0.92,
+                        "interest": 0.92,
+                        "usage": 0.64,
+                        "retention": 0.94,
+                        "positivity": 0.92
+                      },
+                      "completion": {
+                        "count": 1757,
+                        "percentageSurvey": 50.19,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "react_native_architecture_jsc_runtime",
+                "entity": {
+                  "name": "JSC runtime",
+                  "nameClean": "JSC runtime",
+                  "entityType": "default",
+                  "description": "A JavaScript engine coming from Apple that provides runtime support for executing JavaScript code in React Native applications.",
+                  "descriptionClean": "A JavaScript engine coming from Apple that provides runtime support for executing JavaScript code in React Native applications.",
+                  "homepage": {
+                    "url": "https://developer.apple.com/documentation/javascriptcore"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.72,
+                        "interest": 0.86,
+                        "usage": 0.32,
+                        "retention": 0.67,
+                        "positivity": 0.78
+                      },
+                      "completion": {
+                        "count": 1289,
+                        "percentageSurvey": 68.27,
+                        "total": 1888
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.72,
+                        "interest": 0.83,
+                        "usage": 0.29,
+                        "retention": 0.61,
+                        "positivity": 0.74
+                      },
+                      "completion": {
+                        "count": 1530,
+                        "percentageSurvey": 63.86,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2025",
+                      "ratios": {
+                        "awareness": 0.8,
+                        "interest": 0.74,
+                        "usage": 0.42,
+                        "retention": 0.65,
+                        "positivity": 0.68
+                      },
+                      "completion": {
+                        "count": 1731,
+                        "percentageSurvey": 49.44,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "react_native_architecture_jsi",
+                "entity": {
+                  "name": "JSI",
+                  "nameClean": "JSI",
+                  "entityType": "default",
+                  "description": "A JavaScript Interface that allows for direct communication between JavaScript and native code in React Native.",
+                  "descriptionClean": "A JavaScript Interface that allows for direct communication between JavaScript and native code in React Native.",
+                  "homepage": {
+                    "url": "https://reactnative.dev/architecture/glossary#javascript-interfaces-jsi"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.76,
+                        "interest": 0.93,
+                        "usage": 0.29,
+                        "retention": 0.92,
+                        "positivity": 0.93
+                      },
+                      "completion": {
+                        "count": 1288,
+                        "percentageSurvey": 68.22,
+                        "total": 1888
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.71,
+                        "interest": 0.89,
+                        "usage": 0.24,
+                        "retention": 0.91,
+                        "positivity": 0.9
+                      },
+                      "completion": {
+                        "count": 1534,
+                        "percentageSurvey": 64.02,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2025",
+                      "ratios": {
+                        "awareness": 0.79,
+                        "interest": 0.93,
+                        "usage": 0.37,
+                        "retention": 0.88,
+                        "positivity": 0.89
+                      },
+                      "completion": {
+                        "count": 1729,
+                        "percentageSurvey": 49.39,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "react_native_architecture_custom_native_modules",
+                "entity": {
+                  "name": "Native modules (legacy architecture)",
+                  "nameClean": "Native modules (legacy architecture)",
+                  "entityType": "default",
+                  "description": "Custom modules written in platform-specific native code (Java/Kotlin or Objective-C/Swift) that allow accessing platform-specific APIs and functionalities not available in JavaScript.",
+                  "descriptionClean": "Custom modules written in platform-specific native code (Java/Kotlin or Objective-C/Swift) that allow accessing platform-specific APIs and functionalities not available in JavaScript.",
+                  "homepage": {
+                    "url": "https://reactnative.dev/docs/legacy/native-modules-intro"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.85,
+                        "interest": 0.92,
+                        "usage": 0.37,
+                        "retention": 0.95,
+                        "positivity": 0.93
+                      },
+                      "completion": {
+                        "count": 1308,
+                        "percentageSurvey": 69.28,
+                        "total": 1888
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.85,
+                        "interest": 0.91,
+                        "usage": 0.43,
+                        "retention": 0.93,
+                        "positivity": 0.92
+                      },
+                      "completion": {
+                        "count": 1566,
+                        "percentageSurvey": 65.36,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2025",
+                      "ratios": {
+                        "awareness": 0.88,
+                        "interest": 0.42,
+                        "usage": 0.49,
+                        "retention": 0.57,
+                        "positivity": 0.51
+                      },
+                      "completion": {
+                        "count": 1715,
+                        "percentageSurvey": 48.99,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "react_native_architecture_custom_native_views",
+                "entity": {
+                  "name": "Native views (legacy architecture)",
+                  "nameClean": "Native views (legacy architecture)",
+                  "entityType": "default",
+                  "description": "Components that are implemented in platform-specific native code (Java/Kotlin or Objective-C/Swift) and are used to render UI elements that require platform-specific functionality or performance optimizations.",
+                  "descriptionClean": "Components that are implemented in platform-specific native code (Java/Kotlin or Objective-C/Swift) and are used to render UI elements that require platform-specific functionality or performance optimizations.",
+                  "homepage": {
+                    "url": "https://reactnative.dev/docs/native-components-android"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.64,
+                        "interest": 0.87,
+                        "usage": 0.2,
+                        "retention": 0.92,
+                        "positivity": 0.89
+                      },
+                      "completion": {
+                        "count": 1298,
+                        "percentageSurvey": 68.75,
+                        "total": 1888
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.72,
+                        "interest": 0.88,
+                        "usage": 0.23,
+                        "retention": 0.89,
+                        "positivity": 0.88
+                      },
+                      "completion": {
+                        "count": 1557,
+                        "percentageSurvey": 64.98,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2025",
+                      "ratios": {
+                        "awareness": 0.79,
+                        "interest": 0.34,
+                        "usage": 0.32,
+                        "retention": 0.55,
+                        "positivity": 0.45
+                      },
+                      "completion": {
+                        "count": 1693,
+                        "percentageSurvey": 48.36,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "react_native_architecture_new_architecture",
+                "entity": {
+                  "name": "New Architecture",
+                  "nameClean": "New Architecture",
+                  "entityType": "default",
+                  "description": "A modern framework for React Native that enhances support for advanced React features and improves native module integration.",
+                  "descriptionClean": "A modern framework for React Native that enhances support for advanced React features and improves native module integration.",
+                  "homepage": {
+                    "url": "https://reactnative.dev/architecture/landing-page"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.92,
+                        "interest": 0.98,
+                        "usage": 0.21,
+                        "retention": 0.97,
+                        "positivity": 0.98
+                      },
+                      "completion": {
+                        "count": 1322,
+                        "percentageSurvey": 70.02,
+                        "total": 1888
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.85,
+                        "interest": 0.96,
+                        "usage": 0.27,
+                        "retention": 0.95,
+                        "positivity": 0.96
+                      },
+                      "completion": {
+                        "count": 1550,
+                        "percentageSurvey": 64.69,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2025",
+                      "ratios": {
+                        "awareness": 0.94,
+                        "interest": 0.97,
+                        "usage": 0.47,
+                        "retention": 0.81,
+                        "positivity": 0.88
+                      },
+                      "completion": {
+                        "count": 1744,
+                        "percentageSurvey": 49.81,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "react_native_architecture_ota",
+                "entity": {
+                  "name": "Over-the-air updates",
+                  "nameClean": "Over-the-air updates",
+                  "entityType": "default",
+                  "description": "A feature enabling deploying updates, bug fixes, and new content directly to users' devices without going through the app store review process, enabling faster iteration and delivery of improvements to React Native applications.",
+                  "descriptionClean": "A feature enabling deploying updates, bug fixes, and new content directly to users' devices without going through the app store review process, enabling faster iteration and delivery of improvements to React Native applications.",
+                  "descriptionHtml": "A feature enabling deploying updates, bug fixes, and new content directly to users' devices without going through the app store review process, enabling faster iteration and delivery of improvements to React Native applications.",
+                  "homepage": {
+                    "url": "https://en.wikipedia.org/wiki/Over-the-air_update"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2024,
+                      "editionId": "rn2025",
+                      "ratios": {
+                        "awareness": 0.9,
+                        "interest": 0.94,
+                        "usage": 0.51,
+                        "retention": 0.89,
+                        "positivity": 0.91
+                      },
+                      "completion": {
+                        "count": 1746,
+                        "percentageSurvey": 49.87,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "react_native_architecture_server_components",
+                "entity": {
+                  "name": "Server components",
+                  "nameClean": "Server components",
+                  "entityType": "default",
+                  "description": "A new type of Component that renders ahead of time, before bundling, in an environment separate from your client app.",
+                  "descriptionClean": "A new type of Component that renders ahead of time, before bundling, in an environment separate from your client app.",
+                  "homepage": {
+                    "url": "https://react.dev/reference/rsc/server-components"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2024,
+                      "editionId": "rn2025",
+                      "ratios": {
+                        "awareness": 0.91,
+                        "interest": 0.7,
+                        "usage": 0.12,
+                        "retention": 0.71,
+                        "positivity": 0.71
+                      },
+                      "completion": {
+                        "count": 1745,
+                        "percentageSurvey": 49.84,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "react_native_architecture_turbo_modules",
+                "entity": {
+                  "name": "Turbo Native Modules",
+                  "nameClean": "Turbo Native Modules",
+                  "entityType": "default",
+                  "description": "An advanced iteration of Native Modules that offers strongly typed interfaces, lazy loading, and JSI integration.",
+                  "descriptionClean": "An advanced iteration of Native Modules that offers strongly typed interfaces, lazy loading, and JSI integration.",
+                  "homepage": {
+                    "url": "https://github.com/reactwg/react-native-new-architecture/blob/main/docs/turbo-modules.md"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.79,
+                        "interest": 0.95,
+                        "usage": 0.13,
+                        "retention": 0.93,
+                        "positivity": 0.95
+                      },
+                      "completion": {
+                        "count": 1304,
+                        "percentageSurvey": 69.07,
+                        "total": 1888
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.78,
+                        "interest": 0.94,
+                        "usage": 0.21,
+                        "retention": 0.94,
+                        "positivity": 0.94
+                      },
+                      "completion": {
+                        "count": 1533,
+                        "percentageSurvey": 63.98,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2025",
+                      "ratios": {
+                        "awareness": 0.78,
+                        "interest": 0.93,
+                        "usage": 0.17,
+                        "retention": 0.88,
+                        "positivity": 0.9
+                      },
+                      "completion": {
+                        "count": 1720,
+                        "percentageSurvey": 49.13,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "react_native_architecture_v8_runtime",
+                "entity": {
+                  "name": "V8 runtime",
+                  "nameClean": "V8 runtime",
+                  "entityType": "default",
+                  "description": "A high-performance JavaScript engine used in React Native, known for its speed and efficiency.",
+                  "descriptionClean": "A high-performance JavaScript engine used in React Native, known for its speed and efficiency."
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2022,
+                      "editionId": "rn2022",
+                      "ratios": {
+                        "awareness": 0.8,
+                        "interest": 0.71,
+                        "usage": 0.28,
+                        "retention": 0.76,
+                        "positivity": 0.72
+                      },
+                      "completion": {
+                        "count": 1286,
+                        "percentageSurvey": 68.11,
+                        "total": 1888
+                      }
+                    },
+                    {
+                      "year": 2023,
+                      "editionId": "rn2023",
+                      "ratios": {
+                        "awareness": 0.75,
+                        "interest": 0.7,
+                        "usage": 0.23,
+                        "retention": 0.77,
+                        "positivity": 0.72
+                      },
+                      "completion": {
+                        "count": 1512,
+                        "percentageSurvey": 63.11,
+                        "total": 2396
+                      }
+                    },
+                    {
+                      "year": 2024,
+                      "editionId": "rn2025",
+                      "ratios": {
+                        "awareness": 0.86,
+                        "interest": 0.66,
+                        "usage": 0.29,
+                        "retention": 0.88,
+                        "positivity": 0.75
+                      },
+                      "completion": {
+                        "count": 1716,
+                        "percentageSurvey": 49.01,
+                        "total": 3501
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

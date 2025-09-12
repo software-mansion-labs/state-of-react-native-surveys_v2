@@ -1,0 +1,86 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2025": {
+          "react_native_architecture": {
+            "react_native_architecture_ota_updates": {
+              "combined": {
+                "currentEdition": {
+                  "completion": {
+                    "count": 1251,
+                    "percentageSurvey": 35.73,
+                    "total": 3501
+                  },
+                  "buckets": [
+                    {
+                      "count": 957,
+                      "id": "react_native_architecture_ota_updates_eas_update",
+                      "percentageQuestion": 76.5,
+                      "percentageSurvey": 27.34,
+                      "entity": {
+                        "name": "EAS Update",
+                        "nameClean": "EAS Update",
+                        "description": "A hosted service that serves updates for projects using the expo-updates library. Seamlessly deliver live app updates, critical bug fixes, content changes, beta features, and more to give your users the best experience possible.",
+                        "descriptionClean": "A hosted service that serves updates for projects using the expo-updates library. Seamlessly deliver live app updates, critical bug fixes, content changes, beta features, and more to give your users the best experience possible.",
+                        "id": "react_native_architecture_ota_updates_eas_update",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://expo.dev/eas#update"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/expo-updates"
+                        }
+                      },
+                      "percentagePositive": 23,
+                      "percentageNegative": 2
+                    },
+                    {
+                      "count": 457,
+                      "id": "react_native_architecture_ota_updates_code_push",
+                      "percentageQuestion": 36.53,
+                      "percentageSurvey": 13.05,
+                      "entity": {
+                        "name": "CodePush",
+                        "nameClean": "CodePush",
+                        "description": "An App Center cloud service that enables React Native developers to deploy mobile app updates directly to their users’ devices.",
+                        "descriptionClean": "An App Center cloud service that enables React Native developers to deploy mobile app updates directly to their users’ devices.",
+                        "id": "react_native_architecture_ota_updates_code_push",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://learn.microsoft.com/en-us/appcenter/distribution/codepush/"
+                        },
+                        "github": {
+                          "url": "https://github.com/https://github.com/microsoft/react-native-code-push"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/react-native-code-push"
+                        }
+                      },
+                      "percentagePositive": 14,
+                      "percentageNegative": 7
+                    },
+                    {
+                      "count": 131,
+                      "id": "react_native_architecture_ota_updates_self_hosted",
+                      "percentageQuestion": 10.47,
+                      "percentageSurvey": 3.74,
+                      "percentagePositive": 18,
+                      "percentageNegative": 3
+                    },
+                    {
+                      "count": 7,
+                      "id": "other_answers",
+                      "percentageQuestion": 0.56,
+                      "percentageSurvey": 0.2
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
