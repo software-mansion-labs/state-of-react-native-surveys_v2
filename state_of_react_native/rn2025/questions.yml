@@ -74,9 +74,12 @@
         - id: developer_background_target_platforms_android_tv
         - id: developer_background_target_platforms_tvos
         - id: developer_background_target_platforms_skia
+        - id: developer_background_target_platforms_vegaos
+        - id: developer_background_target_platforms_harmonyos
+        - id: developer_background_target_platforms_carplay_androidauto
 
     - id: developer_background_main_daily_platforms
-      yearAdded: 2024
+    # yearAdded: 2024
       template: multipleWithOther
       options:
         - id: developer_background_main_daily_platforms_ios_device
@@ -97,22 +100,24 @@
         - id: answer_yes
         - id: answer_no
 
-    - id: developer_background_releases_count
-      template: singleWithOther
-      options:
-        - id: developer_background_releases_count_none
-        - id: developer_background_releases_count_one
-        - id: developer_background_releases_count_2_5
-        - id: developer_background_releases_count_5_10
-        - id: developer_background_releases_count_more_than_10
+    # removed to shorten the survey, as it provided low-value data
+    # - id: developer_background_releases_count
+    #   template: singleWithOther
+    #   options:
+    #     - id: developer_background_releases_count_none
+    #     - id: developer_background_releases_count_one
+    #     - id: developer_background_releases_count_2_5
+    #     - id: developer_background_releases_count_5_10
+    #     - id: developer_background_releases_count_more_than_10
 
-    - id: developer_background_os_target
-      template: singleWithOther
-      options:
-        - id: developer_background_os_target_most_recent
-        - id: developer_background_os_target_reasonably_current
-        - id: developer_background_os_target_old
-        - id: developer_background_os_target_as_old_as_possible
+    # removed to shorten the survey, as it provided low-value data
+    # - id: developer_background_os_target
+    #   template: singleWithOther
+    #   options:
+    #     - id: developer_background_os_target_most_recent
+    #     - id: developer_background_os_target_reasonably_current
+    #     - id: developer_background_os_target_old
+    #     - id: developer_background_os_target_as_old_as_possible
 
     - id: developer_background_industry_sector
       template: multipleWithOther
@@ -134,11 +139,13 @@
         - id: developer_background_industry_sector_events
         - id: developer_background_industry_sector_finance
         - id: developer_background_industry_sector_food_drink
-        - id: developer_background_industry_sector_government
+        - id: developer_background_industry_sector_gambling
         - id: developer_background_industry_sector_games
+        - id: developer_background_industry_sector_government
         - id: developer_background_industry_sector_health_fitness
         - id: developer_background_industry_sector_house_home
         - id: developer_background_industry_sector_insurance
+        - id: developer_background_industry_sector_legal_compliance
         - id: developer_background_industry_sector_logistics
         - id: developer_background_industry_sector_lifestyle
         - id: developer_background_industry_sector_manufacturing
@@ -147,6 +154,8 @@
         - id: developer_background_industry_sector_music_audio
         - id: developer_background_industry_sector_navigation
         - id: developer_background_industry_sector_news_media
+        - id: developer_background_industry_sector_nonprofit_social_good
+        - id: developer_background_industry_sector_parenting_kids
         - id: developer_background_industry_sector_programming_tools
         - id: developer_background_industry_sector_photo
         - id: developer_background_industry_sector_productivity
@@ -159,6 +168,7 @@
         - id: developer_background_industry_sector_travel
         - id: developer_background_industry_sector_weather
         - id: developer_background_industry_sector_video
+        - id: developer_background_industry_sector_vr_ar
 
 ######################################################
 #########           PLATFORM APIS            #########
@@ -217,80 +227,86 @@
         # - id: platform_apis_security     # too ambiguous
         # - id: platform_apis_encryption   # too ambiguous
         # - id: platform_apis_ads          # too ambiguous
+        - id: platform_apis_on_device_ai
+        - id: platform_apis_voice_recognition
 
     - id: platform_apis_pain_points
       matchTags: [common_pain_points, platform_api_paint_points, react_features]
-      disallowedTokenIds: [state_management]
+      # disallowedTokenIds: [state_management]
       template: textList
 
-######################################################
-#########        STATE MANAGEMENT        #########
-######################################################
 
-- id: state_management
-  template: toolv3
-  slug: state_management
-  messageId: state_management.intro_message
-  questions:
-    - id: state_management_jotai
-    - id: state_management_legend_state
-      yearAdded: 2024
-    - id: state_management_mobx
-    - id: state_management_mobx_state_tree
-    - id: state_management_rn_built_in
-    - id: state_management_recoil
-    - id: state_management_redux
-    - id: state_management_redux_toolkit
-    - id: state_management_xstate
-    - id: state_management_zustand
+# removed to shorten the survey, as this segment duplicates content from the State of React survey
+# ######################################################
+# #########        STATE MANAGEMENT        #########
+# ######################################################
 
-    - id: state_management_others
-      template: projects
+# - id: state_management
+#   template: toolv3
+#   slug: state_management
+#   messageId: state_management.intro_message
+#   questions:
+#     - id: state_management_jotai
+#     - id: state_management_legend_state
+#     # yearAdded: 2024
+#     - id: state_management_mobx
+#     - id: state_management_mobx_state_tree
+#     - id: state_management_rn_built_in
+#     - id: state_management_recoil
+#     - id: state_management_redux
+#     - id: state_management_redux_toolkit
+#     - id: state_management_xstate
+#     - id: state_management_zustand
 
-    - id: state_management_storage
-      template: multipleWithOtherSentiment
-      options:
-        - id: state_management_storage_expo_sqlite
-        - id: state_management_storage_react_native_async_storage
-        - id: state_management_storage_react_native_mmkv
-        - id: state_management_storage_react_native_mmkv_storage
-        - id: state_management_storage_react_native_sqlite_storage
-        - id: state_management_storage_realm
-        - id: state_management_storage_watermelondb
+#     - id: state_management_others
+#       template: projects
 
-    - id: state_management_pain_points
-      matchTags: [common_pain_points, state_management_pain_points]
-      template: textList
+#     - id: state_management_storage
+#       template: multipleWithOtherSentiment
+#       options:
+#         - id: state_management_storage_expo_sqlite
+#         - id: state_management_storage_react_native_async_storage
+#         - id: state_management_storage_react_native_mmkv
+#         - id: state_management_storage_react_native_mmkv_storage
+#         - id: state_management_storage_react_native_sqlite_storage
+#         - id: state_management_storage_realm
+#         - id: state_management_storage_watermelondb
 
-    - id: state_management_app_architecture_pattern_local_first
-      template: featurev3
+#     - id: state_management_pain_points
+#       matchTags: [common_pain_points, state_management_pain_points]
+#       template: textList
 
-######################################################
-#########           DATA FETCHING            #########
-######################################################
+#     - id: state_management_app_architecture_pattern_local_first
+#       template: featurev3
 
-- id: data_fetching
-  template: toolv3
-  slug: data_fetching
-  messageId: data_fetching.intro_message
-  questions:
-    - id: data_fetching_apollo
-    - id: data_fetching_axios
-    - id: data_fetching_fetch
-    - id: data_fetching_relay
-    - id: data_fetching_rtk_query
-    - id: data_fetching_swr
-    - id: data_fetching_tan_stack
-    - id: data_fetching_trpc
-      year: 2023
 
-    - id: data_fetching_others
-      template: projects
+# removed to shorten the survey, as this segment duplicates content from the State of React survey
+# ######################################################
+# #########           DATA FETCHING            #########
+# ######################################################
 
-    - id: data_fetching_pain_points
-      matchTags: [common_pain_points, data_fetching_pain_points, react_features]
-      disallowedTokenIds: [data_fetching]
-      template: textList
+# - id: data_fetching
+#   template: toolv3
+#   slug: data_fetching
+#   messageId: data_fetching.intro_message
+#   questions:
+#     - id: data_fetching_apollo
+#     - id: data_fetching_axios
+#     - id: data_fetching_fetch
+#     - id: data_fetching_relay
+#     - id: data_fetching_rtk_query
+#     - id: data_fetching_swr
+#     - id: data_fetching_tan_stack
+#     - id: data_fetching_trpc
+#       year: 2023
+
+#     - id: data_fetching_others
+#       template: projects
+
+#     - id: data_fetching_pain_points
+#       matchTags: [common_pain_points, data_fetching_pain_points, react_features]
+#       disallowedTokenIds: [data_fetching]
+#       template: textList
 
 ######################################################
 #########               NAVIGATION           #########
@@ -303,11 +319,13 @@
     - id: navigation_expo_router
     - id: navigation_react_native_navigation
     - id: navigation_react_native_screens
-      yearAdded: 2024
+    # yearAdded: 2024
     - id: navigation_react_navigation
-    - id: navigation_react_router
+    # removed due to low usage (<20k weekly downloads on 2025-09-01, ref: https://npmtrends.com/react-router-native)
+    # - id: navigation_react_router
     - id: navigation_solito
-    - id: navigation_navigation
+    # removed due to low usage (<20k weekly downloads on 2025-09-01, ref: https://npmtrends.com/navigation-react-native)
+    # - id: navigation_navigation
 
     - id: navigation_others
       template: projects
@@ -329,18 +347,19 @@
   slug: styling
   messageId: styling.intro_message
   questions:
-    - id: styling_techniques_dripsy
+    # removed due to low usage (<20k weekly downloads on 2025-09-01, ref: https://npmtrends.com/dripsy)
+    # - id: styling_techniques_dripsy
     - id: styling_techniques_emotion
     - id: styling_techniques_inline
     - id: styling_techniques_nativewind
     - id: styling_techniques_react_native_unistyles
     - id: styling_techniques_react_strict_dom
-      yearAdded: 2024
+    # yearAdded: 2024
     - id: styling_techniques_restyle
     - id: styling_techniques_style_sheet
     - id: styling_techniques_styled_components
     - id: styling_techniques_stylex
-      yearAdded: 2024
+    # yearAdded: 2024
     - id: styling_techniques_tamagui
     - id: styling_techniques_twrnc
 
@@ -409,24 +428,25 @@
         - id: component_libraries_data_visualisation_recharts
         - id: component_libraries_data_visualisation_victory_native
 
-    - id: component_libraries_other_libraries
-      template: multipleWithOtherSentiment
-      options:
-        - id: component_libraries_other_libraries_expo_image
-        - id: component_libraries_other_libraries_expo_vector_icons
-        - id: component_libraries_other_libraries_formik
-        - id: component_libraries_other_libraries_gorhom_bottom_sheet
-        - id: component_libraries_other_libraries_react_hook_form
-        - id: component_libraries_other_libraries_react_native_camera
-        - id: component_libraries_other_libraries_react_native_fast_image
-        - id: component_libraries_other_libraries_react_native_gesture_handler
-        - id: component_libraries_other_libraries_react_native_maps
-        - id: component_libraries_other_libraries_react_native_safe_area_context
-        - id: component_libraries_other_libraries_react_native_vector_icons
-        - id: component_libraries_other_libraries_react_native_video
-        - id: component_libraries_other_libraries_react_native_vision_camera
-        - id: component_libraries_other_libraries_react_native_webview
-        - id: component_libraries_other_libraries_shopify_flash_list
+    # removed to shorten the survey, as it provided low-value data
+    # - id: component_libraries_other_libraries
+    #   template: multipleWithOtherSentiment
+    #   options:
+    #     - id: component_libraries_other_libraries_expo_image
+    #     - id: component_libraries_other_libraries_expo_vector_icons
+    #     - id: component_libraries_other_libraries_formik
+    #     - id: component_libraries_other_libraries_gorhom_bottom_sheet
+    #     - id: component_libraries_other_libraries_react_hook_form
+    #     - id: component_libraries_other_libraries_react_native_camera
+    #     - id: component_libraries_other_libraries_react_native_fast_image
+    #     - id: component_libraries_other_libraries_react_native_gesture_handler
+    #     - id: component_libraries_other_libraries_react_native_maps
+    #     - id: component_libraries_other_libraries_react_native_safe_area_context
+    #     - id: component_libraries_other_libraries_react_native_vector_icons
+    #     - id: component_libraries_other_libraries_react_native_video
+    #     - id: component_libraries_other_libraries_react_native_vision_camera
+    #     - id: component_libraries_other_libraries_react_native_webview
+    #     - id: component_libraries_other_libraries_shopify_flash_list
 
     - id: component_libraries_pain_points
       matchTags: [common_pain_points, component_libraries_pain_points, react_features]
@@ -445,12 +465,14 @@
       template: subheading
 
     - id: debugging_profiling_react_native_devtools
-      yearAdded: 2024
+    # yearAdded: 2024
     - id: debugging_profiling_reactotron
     - id: debugging_profiling_radon_ide
-      yearAdded: 2024
-    - id: debugging_profiling_legacy_javascript_hermes_debugging
-    - id: debugging_profiling_flipper
+    # yearAdded: 2024
+    # removed to focus on current tools as legacy options are now outdated
+    # - id: debugging_profiling_legacy_javascript_hermes_debugging
+    # removed due to a consistent downward trend in usage (as of 2025-09-01, ref: https://npmtrends.com/react-native-flipper)
+    # - id: debugging_profiling_flipper
 
     - id: debugging_profiling_native_debugging
     - id: debugging_profiling_native_profiling
@@ -471,17 +493,18 @@
       matchTags: [debugging_profiling_others]
       template: textList
 
-    - id: debugging_profiling_intent
-      yearAdded: 2024
-      template: multipleWithOtherSentiment
-      options:
-        - id: debugging_profiling_intent_view_app_logs
-        - id: debugging_profiling_intent_inspect_layout_and_styles
-        - id: debugging_profiling_intent_inspect_code_behavior
-        - id: debugging_profiling_intent_understand_react_behavior
-        - id: debugging_profiling_intent_inspect_network_requests
-        - id: debugging_profiling_intent_profile_the_app
-        - id: debugging_profiling_intent_understand_3rd_party_libraries
+    # removed to shorten the survey, as it provided low-value data
+    # - id: debugging_profiling_intent
+    #   yearAdded: 2024
+    #   template: multipleWithOtherSentiment
+    #   options:
+    #     - id: debugging_profiling_intent_view_app_logs
+    #     - id: debugging_profiling_intent_inspect_layout_and_styles
+    #     - id: debugging_profiling_intent_inspect_code_behavior
+    #     - id: debugging_profiling_intent_understand_react_behavior
+    #     - id: debugging_profiling_intent_inspect_network_requests
+    #     - id: debugging_profiling_intent_profile_the_app
+    #     - id: debugging_profiling_intent_understand_3rd_party_libraries
 
     - id: debugging_profiling_pain_points
       matchTags: [common_pain_points, debugging_profiling_pain_points, react_features]
@@ -495,12 +518,15 @@
   template: featurev3
   slug: testing_and_monitoring
   questions:
-    - id: testing_and_monitoring_testing_appium
-    - id: testing_and_monitoring_testing_detox
-    - id: testing_and_monitoring_testing_jest
-    - id: testing_and_monitoring_testing_maestro
-    - id: testing_and_monitoring_testing_react_native_testing_library
-    - id: testing_and_monitoring_testing_storybook
+    - id: testing_and_monitoring_testing
+      template: multipleWithOtherSentiment
+      options:
+        - id: testing_and_monitoring_testing_appium
+        - id: testing_and_monitoring_testing_detox
+        - id: testing_and_monitoring_testing_jest
+        - id: testing_and_monitoring_testing_maestro
+        - id: testing_and_monitoring_testing_react_native_testing_library
+        - id: testing_and_monitoring_testing_storybook
 
     - id: testing_and_monitoring_testing_others
       template: projects
@@ -509,7 +535,7 @@
       template: multipleWithOtherSentiment
       options:
         - id: testing_and_monitoring_analytics_adobe_analytics
-          yearAdded: 2024
+        # yearAdded: 2024
         - id: testing_and_monitoring_analytics_amplify_analytics
         - id: testing_and_monitoring_analytics_amplitude
         - id: testing_and_monitoring_analytics_appcenter_analytics
@@ -517,7 +543,7 @@
         - id: testing_and_monitoring_analytics_firebase_analytics
         - id: testing_and_monitoring_analytics_mixpanel
         - id: testing_and_monitoring_analytics_posthog
-          yearAdded: 2024
+        # yearAdded: 2024
         - id: testing_and_monitoring_analytics_segment
 
     - id: testing_and_monitoring_crash_reporting
@@ -548,6 +574,11 @@
       options:
         - id: react_native_architecture_version_nightly
         - id: react_native_architecture_version_next
+        - id: react_native_architecture_version_0_81
+        - id: react_native_architecture_version_0_80
+        - id: react_native_architecture_version_0_79
+        - id: react_native_architecture_version_0_78
+        - id: react_native_architecture_version_0_77
         - id: react_native_architecture_version_0_76
         - id: react_native_architecture_version_0_75
         - id: react_native_architecture_version_0_74
@@ -566,6 +597,15 @@
         - id: react_native_architecture_strategies_upgrade_parallel_with_expo
         - id: react_native_architecture_strategies_upgrade_if_necessary
 
+    - id: react_native_architecture_new_architecture_migration
+      yearAdded: 2025
+      template: single
+      options:
+        - id: react_native_architecture_new_architecture_migration_yes
+        - id: react_native_architecture_new_architecture_migration_no
+        - id: react_native_architecture_new_architecture_migration_planned
+        - id: react_native_architecture_new_arch_migration_not_planned
+
     - id: react_native_architecture_brownfield
       template: single
       options:
@@ -575,9 +615,9 @@
 
     - id: react_native_architecture_codegen
     - id: react_native_architecture_concurrent_react
-      yearAdded: 2024
+    # yearAdded: 2024
     - id: react_native_architecture_dom_components
-      yearAdded: 2024
+    # yearAdded: 2024
     - id: react_native_architecture_expo_modules
     - id: react_native_architecture_fabric
     - id: react_native_architecture_hermes_runtime
@@ -587,11 +627,27 @@
     - id: react_native_architecture_custom_native_views
     - id: react_native_architecture_new_architecture
     - id: react_native_architecture_ota
-      yearAdded: 2024
+    # yearAdded: 2024
     - id: react_native_architecture_server_components
-      yearAdded: 2024
+    # yearAdded: 2024
     - id: react_native_architecture_turbo_modules
     - id: react_native_architecture_v8_runtime
+
+    - id: react_native_architecture_nitro_modules
+      yearAdded: 2025
+      template: single
+      options:
+        - id: react_native_architecture_nitro_modules_yes
+        - id: react_native_architecture_nitro_modules_partial
+        - id: react_native_architecture_nitro_modules_no
+
+    - id: react_native_architecture_framework_usage
+      yearAdded: 2025
+      template: multipleWithOtherSentiment
+      options:
+        - id: react_native_architecture_framework_usage_react_native_rock
+        - id: react_native_architecture_framework_usage_expo_cli
+        - id: react_native_architecture_framework_usage_react_native_cli
 
     - id: react_native_architecture_ota_updates
       template: multipleWithOtherSentiment
@@ -610,14 +666,15 @@
         - id: react_native_architecture_mobile_web_code_sharing_independent_projects
 
 ######################################################
-#########            BUILD & PUBLISH              #########
+#########            BUILD & PUBLISH         #########
 ######################################################
 
 - id: build_and_publish
   template: featurev3
   slug: build_and_publish
   questions:
-    - id: build_and_publish_app_center
+    # removed as the App Center service was retired in March 2025
+    # - id: build_and_publish_app_center
     - id: build_and_publish_bitrise
     - id: build_and_publish_eas_build
     - id: build_and_publish_eas_submit
@@ -625,7 +682,7 @@
     - id: build_and_publish_manually_android_studio
     - id: build_and_publish_manually_xcode
     - id: build_and_publish_workflows
-      yearAdded: 2024
+    # yearAdded: 2024
 
     - id: build_and_publish_others
       matchTags: [build_and_publish_others]
@@ -647,7 +704,7 @@
       template: slider
 
     - id: dev_tools_ai_generated_code_balance
-      yearAdded: 2024
+    # yearAdded: 2024
       template: slider
 
     - id: dev_tools_package_managers
@@ -690,30 +747,31 @@
       matchTags: [dev_tools_other_tools]
       template: textList
 
-######################################################
-#########            ALTERNATIVES            #########
-######################################################
+# removed to shorten the survey, as it provided low-value data
+# ######################################################
+# #########            ALTERNATIVES            #########
+# ######################################################
 
-- id: react_native_alternatives
-  template: featurev3
-  slug: react_native_alternatives
-  questions:
-    - id: react_native_alternatives_capacitor
-      yearAdded: 2024
-    - id: react_native_alternatives_cordova
-    - id: react_native_alternatives_flutter
-    - id: react_native_alternatives_ionic
-    - id: react_native_alternatives_jetpack_compose
-    - id: react_native_alternatives_kotlin
-    - id: react_native_alternatives_native_script
-    - id: react_native_alternatives_swiftui
-    - id: react_native_alternatives_tauri
-      yearAdded: 2024
-    - id: react_native_alternatives_xamarin
+# - id: react_native_alternatives
+#   template: featurev3
+#   slug: react_native_alternatives
+#   questions:
+#     - id: react_native_alternatives_capacitor
+#     # yearAdded: 2024
+#     - id: react_native_alternatives_cordova
+#     - id: react_native_alternatives_flutter
+#     - id: react_native_alternatives_ionic
+#     - id: react_native_alternatives_jetpack_compose
+#     - id: react_native_alternatives_kotlin
+#     - id: react_native_alternatives_native_script
+#     - id: react_native_alternatives_swiftui
+#     - id: react_native_alternatives_tauri
+#     # yearAdded: 2024
+#     - id: react_native_alternatives_xamarin
 
-    - id: react_native_alternatives_other
-      matchTags: [react_native_alternatives_other]
-      template: textList
+#     - id: react_native_alternatives_other
+#       matchTags: [react_native_alternatives_other]
+#       template: textList
 
 ######################################################
 #########             RESOURCES              #########
