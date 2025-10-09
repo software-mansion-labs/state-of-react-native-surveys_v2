@@ -335,8 +335,9 @@
       disallowedTokenIds: [navigation]
       template: textList
 
-    - id: navigation_app_architecture_pattern_file_based_routing
-      template: featurev3
+    # moved to REACT NATIVE ARCHITECTURE section
+    # - id: navigation_app_architecture_pattern_file_based_routing
+    #   template: featurev3
 
 ######################################################
 #########               STYLING              #########
@@ -665,6 +666,12 @@
         - id: react_native_architecture_mobile_web_code_sharing_webview
         - id: react_native_architecture_mobile_web_code_sharing_common_logic_independent_ui
         - id: react_native_architecture_mobile_web_code_sharing_independent_projects
+
+    - id: react_native_architecture_app_architecture_pattern_file_based_routing
+      template: featurev3
+
+    - id: react_native_architecture_app_architecture_pattern_local_first
+      template: featurev3
 
 ######################################################
 #########            BUILD & PUBLISH         #########
