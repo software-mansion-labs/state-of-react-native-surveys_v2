@@ -1,4 +1,3 @@
----
 id: rn2025
 slug: rn2025
 surveyId: state_of_react_native
@@ -10,26 +9,23 @@ prettySlug: state-of-react-native
 hashtag: StateOfReactNative
 shareUrl: https://stateofreactnative.com
 questionsUrl: https://survey.stateofreactnative.com/
-# resultsUrl: https://2022.stateofjs.com/
 faviconUrl: https://stateofreactnative.com/favicon.ico
-socialImageUrl: https://survey.stateofreactnative.com/surveys/stateofreactnative2024.png  # TODO: update url
-name: "State of React Native"
+socialImageUrl: https://survey.stateofreactnative.com/surveys/stateofreactnative2024.png
+name: State of React Native
 year: 2025
-status: 1 # preview/open/closed/hidden - in order to change the status go to monorepo/surverform/src/surverys/stateofreactnative/rnXXXX
+status: 2
 domain: stateofreactnative.com
-tags: [rn]
-
+tags:
+  - rn
 enableReadingList: true
 enableChartSponsorships: false
 enableSkip: true
-
 colors:
   primary: rgb(71, 207, 237)
-  secondary: "#8D4CA8"
+  secondary: '#8D4CA8'
   text: rgb(255, 246, 230)
   background: rgb(255, 255, 255)
   backgroundSecondary: rgb(48, 52, 53)
-
 faq:
   - is_answering_every_question_mandatory
   - will_my_data_be_public
