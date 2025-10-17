@@ -531,8 +531,9 @@
         - id: testing_and_monitoring_testing_react_native_testing_library
         - id: testing_and_monitoring_testing_storybook
 
-    - id: testing_and_monitoring_testing_others
-      template: projects
+    # removed to shorten the survey, these options were redundant with a previous question
+    # - id: testing_and_monitoring_testing_others
+    #   template: projects
 
     - id: testing_and_monitoring_analytics
       template: multipleWithOtherSentiment
