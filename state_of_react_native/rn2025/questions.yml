@@ -484,7 +484,9 @@
       template: subheading
 
     - id: debugging_profiling_console
-    - id: debugging_profiling_react_devtools
+    # - id: debugging_profiling_react_devtools
+    - id: debugging_profiling_react_devtools_components_tab
+    - id: debugging_profiling_react_devtools_profiler_tab
     - id: debugging_profiling_element_inspector
     - id: debugging_profiling_performance_monitor
     - id: debugging_profiling_react_native_performance
@@ -529,8 +531,9 @@
         - id: testing_and_monitoring_testing_react_native_testing_library
         - id: testing_and_monitoring_testing_storybook
 
-    - id: testing_and_monitoring_testing_others
-      template: projects
+    # removed to shorten the survey, these options were redundant with a previous question
+    # - id: testing_and_monitoring_testing_others
+    #   template: projects
 
     - id: testing_and_monitoring_analytics
       template: multipleWithOtherSentiment
