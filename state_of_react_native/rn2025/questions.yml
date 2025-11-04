@@ -211,12 +211,13 @@
         - id: platform_apis_ml
         - id: platform_apis_nfc
         - id: platform_apis_notifications
+        - id: platform_apis_on_device_ai
         - id: platform_apis_permissions
+        - id: platform_apis_storage
         - id: platform_apis_printer
         - id: platform_apis_rtl
         - id: platform_apis_screen_orientation
         - id: platform_apis_sensors
-        - id: platform_apis_storage
         - id: platform_apis_telephony
         - id: platform_apis_video_playback
         - id: platform_apis_webview
@@ -227,7 +228,6 @@
         # - id: platform_apis_security     # too ambiguous
         # - id: platform_apis_encryption   # too ambiguous
         # - id: platform_apis_ads          # too ambiguous
-        - id: platform_apis_on_device_ai
         - id: platform_apis_voice_recognition
 
     - id: platform_apis_pain_points
@@ -236,7 +236,8 @@
       template: textList
 
 
-# removed to shorten the survey, as this segment duplicates content from the State of React survey
+# 2025: removed to shorten the survey, as this segment duplicates content from the State of React survey
+# 
 # ######################################################
 # #########        STATE MANAGEMENT        #########
 # ######################################################
@@ -280,7 +281,8 @@
 #       template: featurev3
 
 
-# removed to shorten the survey, as this segment duplicates content from the State of React survey
+# 2025: removed to shorten the survey, as this segment duplicates content from the State of React survey
+# 
 # ######################################################
 # #########           DATA FETCHING            #########
 # ######################################################
@@ -321,8 +323,7 @@
     - id: navigation_react_native_screens
     # yearAdded: 2024
     - id: navigation_react_navigation
-    # removed due to low usage (<20k weekly downloads on 2025-09-01, ref: https://npmtrends.com/react-router-native)
-    # - id: navigation_react_router
+    - id: navigation_react_router
     - id: navigation_solito
     # removed due to low usage (<20k weekly downloads on 2025-09-01, ref: https://npmtrends.com/navigation-react-native)
     # - id: navigation_navigation
@@ -373,7 +374,7 @@
       template: textList
 
 ######################################################
-#########             ANIMATIONS             #########
+#########             Animations             #########
 ######################################################
 
 - id: animations
@@ -386,10 +387,12 @@
     - id: animations_moti
     - id: animations_react_native_animatable
     - id: animations_react_native_reanimated
+    # it's not a react native library
     - id: animations_react_three_fiber
     - id: animations_rive
     - id: animations_skia
-    - id: animations_threejs
+    # it's not a react native library
+    # - id: animations_threejs
 
     - id: animations_other
       template: projects
@@ -410,13 +413,18 @@
     - id: component_libraries_gluestack_ui
     - id: component_libraries_native_base
     - id: component_libraries_rn_elements
-    - id: component_libraries_react_native_material_kit
-    - id: component_libraries_react_native_material_ui
     - id: component_libraries_rn_paper
     - id: component_libraries_rn_ui_lib
-    - id: component_libraries_shoutem_ui
-    - id: component_libraries_ui_kitten
     - id: component_libraries_tamagui
+
+    # 2025: removed due to low usage (<20k weekly downloads on 2025-09-01, ref: https://npmtrends.com/react-native-material-kit)
+    # - id: component_libraries_react_native_material_kit
+    # 2025: removed due to low usage (<20k weekly downloads on 2025-09-01, ref: https://npmtrends.com/react-native-material-ui)
+    # - id: component_libraries_react_native_material_ui
+    # 2025: removed due to low usage (<20k weekly downloads on 2025-09-01, ref: https://npmtrends.com/@shoutem/ui)
+    # - id: component_libraries_shoutem_ui
+    # 2025: removed due to low usage (<20k weekly downloads on 2025-09-01, ref: https://npmtrends.com/@ui-kitten/components)
+    # - id: component_libraries_ui_kitten
 
     - id: component_libraries_others
       template: projects
@@ -425,8 +433,11 @@
       template: multipleWithOtherSentiment
       options:
         - id: component_libraries_data_visualisation_react_native_charts_kit
+        - id: component_libraries_data_visualisation_react_native_gifted_charts
+        - id: animations_skia
         - id: component_libraries_data_visualisation_react_native_svg
-        - id: component_libraries_data_visualisation_recharts
+        # 2025: removed as its not compatible with React Native 
+        # - id: component_libraries_data_visualisation_recharts
         - id: component_libraries_data_visualisation_victory_native
 
     # removed to shorten the survey, as it provided low-value data
@@ -538,9 +549,11 @@
     - id: testing_and_monitoring_analytics
       template: multipleWithOtherSentiment
       options:
-        - id: testing_and_monitoring_analytics_adobe_analytics
+        # 2025: removed due to low usage in responses previous year
+        # - id: testing_and_monitoring_analytics_adobe_analytics
         # yearAdded: 2024
-        - id: testing_and_monitoring_analytics_amplify_analytics
+        # 2025: removed due to low usage in responses previous year
+        # - id: testing_and_monitoring_analytics_amplify_analytics
         - id: testing_and_monitoring_analytics_amplitude
         - id: testing_and_monitoring_analytics_appcenter_analytics
         - id: testing_and_monitoring_analytics_appsflyer
@@ -557,8 +570,10 @@
         - id: testing_and_monitoring_crash_reporting_bugsnag
         - id: testing_and_monitoring_crash_reporting_datadog
         - id: testing_and_monitoring_crash_reporting_firebase_crashlytics
-        - id: testing_and_monitoring_crash_reporting_instabug
-        - id: testing_and_monitoring_crash_reporting_new_relic
+        # 2025: removed due to low usage in responses previous year
+        # - id: testing_and_monitoring_crash_reporting_instabug
+        # 2025: removed due to low usage in responses previous year
+        # - id: testing_and_monitoring_crash_reporting_new_relic
         - id: testing_and_monitoring_crash_reporting_sentry
 
     - id: testing_and_monitoring_pain_points
@@ -576,18 +591,21 @@
     - id: react_native_architecture_version
       template: single
       options:
+        # consult to check the versions popularity: https://wctiger.github.io/npm-version-popularity/?q=react-native
         - id: react_native_architecture_version_nightly
         - id: react_native_architecture_version_next
+        - id: react_native_architecture_version_0_83
+        - id: react_native_architecture_version_0_82
         - id: react_native_architecture_version_0_81
         - id: react_native_architecture_version_0_80
         - id: react_native_architecture_version_0_79
         - id: react_native_architecture_version_0_78
         - id: react_native_architecture_version_0_77
         - id: react_native_architecture_version_0_76
-        - id: react_native_architecture_version_0_75
-        - id: react_native_architecture_version_0_74
-        - id: react_native_architecture_version_0_73
-        - id: react_native_architecture_version_0_72_or_lower
+        - id: react_native_architecture_version_0_75_or_lower
+        # - id: react_native_architecture_version_0_74
+        # - id: react_native_architecture_version_0_73
+        # - id: react_native_architecture_version_0_72_or_lower
         # - id: react_native_architecture_version_0_72
         # - id: react_native_architecture_version_0_71
         # - id: react_native_architecture_version_0_70
@@ -618,8 +636,20 @@
         - id: react_native_architecture_brownfield_brown
         - id: react_native_architecture_brownfield_both
 
+    - id: react_native_architecture_framework_usage
+      yearAdded: 2025
+      template: multipleWithOtherSentiment
+      options:
+        - id: react_native_architecture_framework_usage_expo_cli
+        - id: react_native_architecture_framework_usage_react_native_cli
+        - id: react_native_architecture_framework_usage_react_native_rock
+
+    - id: react_native_architecture_subheading_architectural_apis
+      template: subheading
+
     - id: react_native_architecture_codegen
-    - id: react_native_architecture_concurrent_react
+    # 2025: it's React not React Native specific feature
+    # - id: react_native_architecture_concurrent_react
     # yearAdded: 2024
     - id: react_native_architecture_dom_components
     # yearAdded: 2024
@@ -628,31 +658,20 @@
     - id: react_native_architecture_hermes_runtime
     - id: react_native_architecture_jsc_runtime
     - id: react_native_architecture_jsi
-    - id: react_native_architecture_custom_native_modules
-    - id: react_native_architecture_custom_native_views
+    # - id: react_native_architecture_custom_native_modules
+    # - id: react_native_architecture_custom_native_views
     - id: react_native_architecture_new_architecture
+    - id: react_native_architecture_nitro_modules
+      yearAdded: 2025
     - id: react_native_architecture_ota
     # yearAdded: 2024
     - id: react_native_architecture_server_components
     # yearAdded: 2024
     - id: react_native_architecture_turbo_modules
     - id: react_native_architecture_v8_runtime
-
-    - id: react_native_architecture_nitro_modules
-      yearAdded: 2025
-      template: single
-      options:
-        - id: react_native_architecture_nitro_modules_yes
-        - id: react_native_architecture_nitro_modules_partial
-        - id: react_native_architecture_nitro_modules_no
-
-    - id: react_native_architecture_framework_usage
-      yearAdded: 2025
-      template: multipleWithOtherSentiment
-      options:
-        - id: react_native_architecture_framework_usage_react_native_rock
-        - id: react_native_architecture_framework_usage_expo_cli
-        - id: react_native_architecture_framework_usage_react_native_cli
+    
+    - id: react_native_architecture_subheading_application_architecture
+      template: subheading
 
     - id: react_native_architecture_ota_updates
       template: multipleWithOtherSentiment
