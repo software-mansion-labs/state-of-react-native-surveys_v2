@@ -35,12 +35,14 @@
         - id: developer_background_usage_type_student
         - id: developer_background_usage_type_hobby
 
-    - id: developer_background_primarily_system
-      template: singleWithOther
+    # was: developer_background_primarily_system
+    - id: developer_background_desktop_os
+      template: multipleWithOther
+      
       options:
-        - id: developer_background_primarily_system_macos
-        - id: developer_background_primarily_system_linux
-        - id: developer_background_primarily_system_windows
+        - id: developer_background_desktop_os_macos
+        - id: developer_background_desktop_os_linux
+        - id: developer_background_desktop_os_windows
 
     - id: developer_background_users_count
       template: singleWithOther
@@ -63,7 +65,7 @@
         - id: developer_background_team_size_more_than_10
 
     - id: developer_background_target_platforms
-      template: multipleWithOther
+      template: multipleWithOtherSentiment
       options:
         - id: developer_background_target_platforms_ios
         - id: developer_background_target_platforms_android
@@ -75,12 +77,13 @@
         - id: developer_background_target_platforms_tvos
         - id: developer_background_target_platforms_skia
         - id: developer_background_target_platforms_vegaos
-        - id: developer_background_target_platforms_harmonyos
+        # removed as there were no answers collected in the past year and there's no clear sign it even works
+        # - id: developer_background_target_platforms_harmonyos
         - id: developer_background_target_platforms_carplay_androidauto
 
     - id: developer_background_main_daily_platforms
     # yearAdded: 2024
-      template: multipleWithOther
+      template: multipleWithOtherSentiment
       options:
         - id: developer_background_main_daily_platforms_ios_device
         - id: developer_background_main_daily_platforms_android_device
@@ -355,7 +358,7 @@
     - id: styling_techniques_inline
     - id: styling_techniques_nativewind
     - id: styling_techniques_react_native_unistyles
-    - id: styling_techniques_react_strict_dom
+    # - id: styling_techniques_react_strict_dom
     # yearAdded: 2024
     - id: styling_techniques_restyle
     - id: styling_techniques_style_sheet
@@ -403,7 +406,7 @@
       template: textList
 
 ######################################################
-#########        COMPONENT LIBRARIES         #########
+#########        COMPONENTS LIBRARIES         #########
 ######################################################
 
 - id: component_libraries
@@ -414,8 +417,10 @@
     - id: component_libraries_native_base
     - id: component_libraries_rn_elements
     - id: component_libraries_rn_paper
+    - id: component_libraries_react_native_reusables
     - id: component_libraries_rn_ui_lib
     - id: component_libraries_tamagui
+    - id: component_libraries_nativewindui
 
     # 2025: removed due to low usage (<20k weekly downloads on 2025-09-01, ref: https://npmtrends.com/react-native-material-kit)
     # - id: component_libraries_react_native_material_kit
@@ -470,42 +475,43 @@
 ######################################################
 
 - id: debugging_and_profiling
-  template: featurev3
+  template: feature
   slug: debugging_and_profiling
   questions:
-    - id: debugging_and_profiling_subheading_clients_and_tools
-      template: subheading
+    - id: debugging_and_profiling_clients_and_tools
+      template: multipleWithOtherSentiment
+      options:
+      - id: debugging_profiling_react_native_devtools
+      # yearAdded: 2024
+      - id: debugging_profiling_reactotron
+      - id: debugging_profiling_radon_ide
+      # yearAdded: 2024
+      - id: debugging_profiling_rozenite
+      - id: debugging_profiling_native_debugging
+      - id: debugging_profiling_native_profiling
+      - id: debugging_profiling_expo_devtools_plugins
+      - id: debugging_profiling_flashlight
+      - id: debugging_profiling_expo_tools
+      # removed to focus on current tools as legacy options are now outdated
+      # - id: debugging_profiling_legacy_javascript_hermes_debugging
+      # removed due to a consistent downward trend in usage (as of 2025-09-01, ref: https://npmtrends.com/react-native-flipper)
+      # - id: debugging_profiling_flipper
 
-    - id: debugging_profiling_react_native_devtools
-    # yearAdded: 2024
-    - id: debugging_profiling_reactotron
-    - id: debugging_profiling_radon_ide
-    # yearAdded: 2024
-    # removed to focus on current tools as legacy options are now outdated
-    # - id: debugging_profiling_legacy_javascript_hermes_debugging
-    # removed due to a consistent downward trend in usage (as of 2025-09-01, ref: https://npmtrends.com/react-native-flipper)
-    # - id: debugging_profiling_flipper
-
-    - id: debugging_profiling_native_debugging
-    - id: debugging_profiling_native_profiling
-    - id: debugging_profiling_expo_devtools_plugins
-    - id: debugging_profiling_flashlight
-
-    - id: debugging_and_profiling_subheading_features
-      template: subheading
-
-    - id: debugging_profiling_console
-    # - id: debugging_profiling_react_devtools
-    - id: debugging_profiling_react_devtools_components_tab
-    - id: debugging_profiling_react_devtools_profiler_tab
-    - id: debugging_profiling_element_inspector
-    - id: debugging_profiling_performance_monitor
-    - id: debugging_profiling_react_native_performance
-    - id: debugging_profiling_network_inspector_expo
-
-    - id: debugging_profiling_others
-      matchTags: [debugging_profiling_others]
-      template: textList
+    - id: debugging_profiling_features
+      template: multipleWithOtherSentiment
+      options:
+        - id: debugging_profiling_console
+        - id: debugging_profiling_breakpoints
+        - id: debugging_profiling_web_performance_api
+        - id: debugging_profiling_network_panel
+        - id: debugging_profiling_memory_panel
+        - id: debugging_profiling_performance_panel
+        - id: debugging_profiling_react_devtools_components_panel
+        - id: debugging_profiling_react_devtools_profiler_panel
+        - id: debugging_profiling_element_inspector
+        - id: debugging_profiling_performance_monitor
+        - id: debugging_profiling_react_native_performance
+      # - id: debugging_profiling_react_devtools
 
     # removed to shorten the survey, as it provided low-value data
     # - id: debugging_profiling_intent
@@ -562,6 +568,7 @@
         - id: testing_and_monitoring_analytics_posthog
         # yearAdded: 2024
         - id: testing_and_monitoring_analytics_segment
+        - id: testing_and_monitoring_analytics_logrocket
 
     - id: testing_and_monitoring_crash_reporting
       template: multipleWithOtherSentiment
@@ -575,6 +582,7 @@
         # 2025: removed due to low usage in responses previous year
         # - id: testing_and_monitoring_crash_reporting_new_relic
         - id: testing_and_monitoring_crash_reporting_sentry
+        - id: testing_and_monitoring_crash_reporting_logrocket
 
     - id: testing_and_monitoring_pain_points
       matchTags: [common_pain_points, testing_and_monitoring_pain_points, react_features]
@@ -644,40 +652,39 @@
         - id: react_native_architecture_framework_usage_react_native_cli
         - id: react_native_architecture_framework_usage_react_native_rock
 
-    - id: react_native_architecture_subheading_architectural_apis
-      template: subheading
-
-    - id: react_native_architecture_codegen
-    # 2025: it's React not React Native specific feature
-    # - id: react_native_architecture_concurrent_react
-    # yearAdded: 2024
-    - id: react_native_architecture_dom_components
-    # yearAdded: 2024
-    - id: react_native_architecture_expo_modules
-    - id: react_native_architecture_fabric
-    - id: react_native_architecture_hermes_runtime
-    - id: react_native_architecture_jsc_runtime
-    - id: react_native_architecture_jsi
-    # - id: react_native_architecture_custom_native_modules
-    # - id: react_native_architecture_custom_native_views
-    - id: react_native_architecture_new_architecture
-    - id: react_native_architecture_nitro_modules
-      yearAdded: 2025
-    - id: react_native_architecture_ota
-    # yearAdded: 2024
-    - id: react_native_architecture_server_components
-    # yearAdded: 2024
-    - id: react_native_architecture_turbo_modules
-    - id: react_native_architecture_v8_runtime
-    
-    - id: react_native_architecture_subheading_application_architecture
-      template: subheading
+    - id: react_native_architecture_platform_specific_apis
+      template: multipleWithOtherSentiment
+      options:
+        - id: react_native_architecture_codegen
+        # 2025: it's React not React Native specific feature
+        # - id: react_native_architecture_concurrent_react
+        # yearAdded: 2024
+        - id: react_native_architecture_dom_components
+        # yearAdded: 2024
+        - id: react_native_architecture_expo_modules
+        - id: react_native_architecture_fabric
+        - id: react_native_architecture_hermes_runtime
+        - id: react_native_architecture_jsc_runtime
+        - id: react_native_architecture_jsi
+        # - id: react_native_architecture_custom_native_modules
+        # - id: react_native_architecture_custom_native_views
+        - id: react_native_architecture_new_architecture
+        - id: react_native_architecture_nitro_modules
+          yearAdded: 2025
+        - id: react_native_architecture_ota
+        # yearAdded: 2024
+        - id: react_native_architecture_server_components
+        # yearAdded: 2024
+        - id: react_native_architecture_turbo_modules
+        - id: react_native_architecture_v8_runtime
 
     - id: react_native_architecture_ota_updates
       template: multipleWithOtherSentiment
       options:
         - id: react_native_architecture_ota_updates_code_push
         - id: react_native_architecture_ota_updates_eas_update
+        - id: react_native_architecture_ota_updates_bitrise_codepush
+        - id: react_native_architecture_ota_updates_codemagic_codepush
         - id: react_native_architecture_ota_updates_self_hosted
 
     - id: react_native_architecture_mobile_web_code_sharing
@@ -686,14 +693,18 @@
         - id: react_native_architecture_mobile_web_code_sharing_react_native_web
         - id: react_native_architecture_mobile_web_code_sharing_solito
         - id: react_native_architecture_mobile_web_code_sharing_webview
+        - id: react_native_architecture_mobile_web_code_sharing_react_strict_dom
+        - id: react_native_architecture_mobile_web_code_sharing_dom_components
         - id: react_native_architecture_mobile_web_code_sharing_common_logic_independent_ui
         - id: react_native_architecture_mobile_web_code_sharing_independent_projects
 
-    - id: react_native_architecture_app_architecture_pattern_file_based_routing
-      template: featurev3
+    # removed to shorten the survey, as it provided low-value data
+    # - id: react_native_architecture_app_architecture_pattern_file_based_routing
+    #   template: featurev3
 
-    - id: react_native_architecture_app_architecture_pattern_local_first
-      template: featurev3
+    # removed to shorten the survey, as it provided low-value data
+    # - id: react_native_architecture_app_architecture_pattern_local_first
+    #   template: featurev3
 
 ######################################################
 #########            BUILD & PUBLISH         #########
@@ -709,6 +720,7 @@
     - id: build_and_publish_eas_build
     - id: build_and_publish_eas_submit
     - id: build_and_publish_fastlane
+    - id: build_and_publish_github_actions
     - id: build_and_publish_manually_android_studio
     - id: build_and_publish_manually_xcode
     - id: build_and_publish_workflows
@@ -759,17 +771,20 @@
         - id: dev_tools_starter_templates_react_native_template_obytes
         - id: dev_tools_starter_tamagui
 
-    - id: dev_tools_config_plugins
-    - id: dev_tools_expo_dev_client
-    - id: dev_tools_eas_cli
-    - id: dev_tools_expo_cli
-    - id: dev_tools_expo_go
-    - id: dev_tools_expo_snack
-    - id: dev_tools_ignite_cli
-    - id: dev_tools_react_native_cli
-    - id: dev_tools_react_native_test_app
-    - id: dev_tools_rnx_kit
-    - id: dev_tools_upgrade_helper
+    - id: dev_tools_development_tools
+      template: multipleWithOtherSentiment
+      options: 
+        - id: dev_tools_config_plugins
+        - id: dev_tools_expo_dev_client
+        - id: dev_tools_eas_cli
+        - id: dev_tools_expo_cli
+        - id: dev_tools_expo_go
+        - id: dev_tools_expo_snack
+        - id: dev_tools_ignite_cli
+        - id: dev_tools_react_native_cli
+        - id: dev_tools_react_native_test_app
+        - id: dev_tools_rnx_kit
+        - id: dev_tools_upgrade_helper
     # - id: dev_tools_setup_ci # too niche
     #   yearAdded: 2024
 
@@ -850,8 +865,9 @@
         - id: resources_learn_more_frontend_masters
         - id: resources_learn_more_galaxies_dev
         - id: resources_learn_more_react_native_mastery
-
         - id: resources_learn_more_animate_react_native
+
+        - id: resources_learn_more_makeitanimated_dev
         - id: resources_learn_more_book_react_native_optimization
         - id: resources_learn_more_stack_overflow
         - id: resources_learn_more_youtube
@@ -863,6 +879,7 @@
         - id: resources_stay_up_to_date_react_native_newsletter
         - id: resources_stay_up_to_date_callstack_newsletter
         - id: resources_stay_up_to_date_this_week_in_react
+        - id: resources_stay_up_to_date_the_react_native_rewind
         - id: resources_stay_up_to_date_notjustdev
         - id: resources_stay_up_to_date_expo_newsletter
         - id: resources_stay_up_to_date_expo_changelog
@@ -894,17 +911,18 @@
       disallowedTokenIds: [twitter]
       matchTags: [people]
 
-    - id: resources_surveys
-      template: multipleWithOther
-      options:
-        - id: resources_surveys_design_tools
-        - id: resources_surveys_jetbrains
-        - id: resources_surveys_postman
-        - id: resources_surveys_stack_overflow
-        - id: resources_surveys_state_of_css
-        - id: resources_surveys_state_of_js
-        - id: resources_surveys_state_of_html
-        - id: resources_surveys_state_of_react
+    # comment: removed to shorten the survey, as it provided low-value data
+    # - id: resources_surveys
+    #   template: multipleWithOther
+    #   options:
+    #     - id: resources_surveys_design_tools
+    #     - id: resources_surveys_jetbrains
+    #     - id: resources_surveys_postman
+    #     - id: resources_surveys_stack_overflow
+    #     - id: resources_surveys_state_of_css
+    #     - id: resources_surveys_state_of_js
+    #     - id: resources_surveys_state_of_html
+    #     - id: resources_surveys_state_of_react
 
 ######################################################
 #########             OPINIONS               #########
@@ -919,75 +937,81 @@
     - id: opinions_changing_too_fast
 
     - id: opinions_pain_points_multiple
-      template: multipleWithOther
-      options:
-        - id: opinions_pain_points_multiple_app_building
-        - id: opinions_pain_points_multiple_app_deployment
-        - id: opinions_pain_points_multiple_build_times
-        - id: opinions_pain_points_multiple_bundle_size
-        - id: opinions_pain_points_multiple_code_sharing_with_web
-        - id: opinions_pain_points_multiple_continuous_deployment
-        - id: opinions_pain_points_multiple_dealing_with_native_code
-        - id: opinions_pain_points_multiple_debugging
-        - id: opinions_pain_points_multiple_documentation
-        - id: opinions_pain_points_multiple_end_to_end_testing
-        - id: opinions_pain_points_multiple_graphics_and_animations
-        - id: opinions_pain_points_multiple_keyboard_handling
-        - id: opinions_pain_points_multiple_managing_secrets
-        - id: opinions_pain_points_multiple_navigation_solutions
-        - id: opinions_pain_points_multiple_new_architecture
-        - id: opinions_pain_points_multiple_pain_monorepos
-        - id: opinions_pain_points_multiple_performance
-        - id: opinions_pain_points_multiple_platforms_inconsistencies
-        - id: opinions_pain_points_multiple_project_setup
-        - id: opinions_pain_points_multiple_reliance_on_third_party_modules
-        - id: opinions_pain_points_multiple_setting_up_servers
-        - id: opinions_pain_points_multiple_stability
-        - id: opinions_pain_points_multiple_styling_limitations
-        - id: opinions_pain_points_multiple_unmaintained_packages
-        - id: opinions_pain_points_multiple_unusable_error_messages
-        - id: opinions_pain_points_multiple_upgrades
+      matchTags: []
+      template: textList
+
+    # - id: opinions_pain_points_multiple
+    #   template: multipleWithOther
+    #   options:
+    #     - id: opinions_pain_points_multiple_app_building
+    #     - id: opinions_pain_points_multiple_app_deployment
+    #     - id: opinions_pain_points_multiple_build_times
+    #     - id: opinions_pain_points_multiple_bundle_size
+    #     - id: opinions_pain_points_multiple_code_sharing_with_web
+    #     - id: opinions_pain_points_multiple_continuous_deployment
+    #     - id: opinions_pain_points_multiple_dealing_with_native_code
+    #     - id: opinions_pain_points_multiple_debugging
+    #     - id: opinions_pain_points_multiple_documentation
+    #     - id: opinions_pain_points_multiple_end_to_end_testing
+    #     - id: opinions_pain_points_multiple_graphics_and_animations
+    #     - id: opinions_pain_points_multiple_keyboard_handling
+    #     - id: opinions_pain_points_multiple_managing_secrets
+    #     - id: opinions_pain_points_multiple_navigation_solutions
+    #     - id: opinions_pain_points_multiple_new_architecture
+    #     - id: opinions_pain_points_multiple_pain_monorepos
+    #     - id: opinions_pain_points_multiple_performance
+    #     - id: opinions_pain_points_multiple_platforms_inconsistencies
+    #     - id: opinions_pain_points_multiple_project_setup
+    #     - id: opinions_pain_points_multiple_reliance_on_third_party_modules
+    #     - id: opinions_pain_points_multiple_setting_up_servers
+    #     - id: opinions_pain_points_multiple_stability
+    #     - id: opinions_pain_points_multiple_styling_limitations
+    #     - id: opinions_pain_points_multiple_unmaintained_packages
+    #     - id: opinions_pain_points_multiple_unusable_error_messages
+    #     - id: opinions_pain_points_multiple_upgrades
 
     - id: opinions_missing_multiple
-      template: multipleWithOther
-      options:
-        - id: opinions_missing_multiple_better_animations_gestures
-        - id: opinions_missing_multiple_better_debugging
-        - id: opinions_missing_multiple_better_profiling
-        - id: opinions_missing_multiple_better_documentation
-        - id: opinions_missing_multiple_better_flatlist
-        - id: opinions_missing_multiple_better_keyboard_handling
-        - id: opinions_missing_multiple_better_performance
-        - id: opinions_missing_multiple_better_testing
-        - id: opinions_missing_multiple_better_web_compatibility
-        - id: opinions_missing_multiple_css_features
-        - id: opinions_missing_multiple_first_party_libraries
-        - id: opinions_missing_multiple_fetch_stream_support
-        - id: opinions_missing_multiple_multithreading
-        - id: opinions_missing_multiple_swiftui_jetpack_compose_integration
+      matchTags: []
+      template: textList
+      # options:
+      #   - id: opinions_missing_multiple_better_animations_gestures
+      #   - id: opinions_missing_multiple_better_debugging
+      #   - id: opinions_missing_multiple_better_profiling
+      #   - id: opinions_missing_multiple_better_documentation
+      #   - id: opinions_missing_multiple_better_flatlist
+      #   - id: opinions_missing_multiple_better_keyboard_handling
+      #   - id: opinions_missing_multiple_better_performance
+      #   - id: opinions_missing_multiple_better_testing
+      #   - id: opinions_missing_multiple_better_web_compatibility
+      #   - id: opinions_missing_multiple_css_features
+      #   - id: opinions_missing_multiple_first_party_libraries
+      #   - id: opinions_missing_multiple_fetch_stream_support
+      #   - id: opinions_missing_multiple_multithreading
+      #   - id: opinions_missing_multiple_swiftui_jetpack_compose_integration
 
     - id: opinions_advantages_multiple
-      template: multipleWithOther
-      options:
-        - id: opinions_advantages_multiple_code_sharing
-        - id: opinions_advantages_multiple_community
-        - id: opinions_advantages_multiple_cost_effective
-        - id: opinions_advantages_multiple_cross_platform
-        - id: opinions_advantages_multiple_developer_experience
-        - id: opinions_advantages_multiple_documentation
-        - id: opinions_advantages_multiple_easy_to_learn
-        - id: opinions_advantages_multiple_ecosystem
-        - id: opinions_advantages_multiple_expo
-        - id: opinions_advantages_multiple_fast_iteration
-        - id: opinions_advantages_multiple_hot_reloading
-        - id: opinions_advantages_multiple_learn_once
-        - id: opinions_advantages_multiple_native_feel_of_app
-        - id: opinions_advantages_multiple_over_the_air_updates
-        - id: opinions_advantages_multiple_performance
-        - id: opinions_advantages_multiple_single_codebase
-        - id: opinions_advantages_multiple_stable
-        - id: opinions_advantages_multiple_time_to_market
-        - id: opinions_advantages_multiple_web_technologies
+      matchTags: []
+      template: textList
+      # options:
+      #   - id: opinions_advantages_multiple_code_sharing
+      #   - id: opinions_advantages_multiple_community
+      #   - id: opinions_advantages_multiple_cost_effective
+      #   - id: opinions_advantages_multiple_cross_platform
+      #   - id: opinions_advantages_multiple_developer_experience
+      #   - id: opinions_advantages_multiple_documentation
+      #   - id: opinions_advantages_multiple_easy_to_learn
+      #   - id: opinions_advantages_multiple_ecosystem
+      #   - id: opinions_advantages_multiple_expo
+      #   - id: opinions_advantages_multiple_fast_iteration
+      #   - id: opinions_advantages_multiple_hot_reloading
+      #   - id: opinions_advantages_multiple_learn_once
+      #   - id: opinions_advantages_multiple_native_feel_of_app
+      #   - id: opinions_advantages_multiple_over_the_air_updates
+      #   - id: opinions_advantages_multiple_performance
+      #   - id: opinions_advantages_multiple_single_codebase
+      #   - id: opinions_advantages_multiple_stable
+      #   - id: opinions_advantages_multiple_time_to_market
+      #   - id: opinions_advantages_multiple_web_technologies
 
 ######################################################
 #########             ABOUT YOU              #########
