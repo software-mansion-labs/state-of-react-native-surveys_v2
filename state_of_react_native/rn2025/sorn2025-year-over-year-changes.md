@@ -1085,7 +1085,7 @@ What sites or courses do you consult to learn React Native? Check all that apply
 
 What podcasts about React Native or programming in general do you listen to? Check all that apply
 
-- PodRocker (by LogRocket) <!-- https://podrocket.logrocket.com/
+- PodRocket (by LogRocket) <!-- https://podrocket.logrocket.com/
 - React Native Radio (by Infinite Red) <!-- https://reactnativeradio.com/
 - Rocket Ship (by Simon Grimm)
 - Syntax.fm <!-- https://syntax.fm/

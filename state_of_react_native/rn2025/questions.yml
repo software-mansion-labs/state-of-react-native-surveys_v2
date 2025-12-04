@@ -415,12 +415,14 @@
   questions:
     - id: component_libraries_gluestack_ui
     - id: component_libraries_native_base
+    - id: component_libraries_nativewindui
+      yearAdded: 2025
     - id: component_libraries_rn_elements
     - id: component_libraries_rn_paper
     - id: component_libraries_react_native_reusables
+      yearAdded: 2025
     - id: component_libraries_rn_ui_lib
     - id: component_libraries_tamagui
-    - id: component_libraries_nativewindui
 
     # 2025: removed due to low usage (<20k weekly downloads on 2025-09-01, ref: https://npmtrends.com/react-native-material-kit)
     # - id: component_libraries_react_native_material_kit
@@ -891,7 +893,7 @@
     - id: resources_podcasts
       template: multipleWithOtherSentiment
       options:
-        - id: resources_podcasts_podrocker
+        - id: resources_podcasts_podrocket
         - id: resources_podcasts_react_native_radio
         - id: resources_podcasts_rocket_ship
         - id: resources_podcasts_syntax_fm
