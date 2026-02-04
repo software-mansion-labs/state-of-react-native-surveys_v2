@@ -1,0 +1,273 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2025": {
+          "debugging_and_profiling": {
+            "debugging_and_profiling_clients_and_tools": {
+              "id": "debugging_and_profiling_clients_and_tools",
+              "combined": {
+                "currentEdition": {
+                  "_metadata": {
+                    "axis1Sort": {
+                      "property": "count",
+                      "order": "desc"
+                    },
+                    "limit": 50,
+                    "cutoff": 1
+                  },
+                  "completion": {
+                    "count": 934,
+                    "percentageSurvey": 61.25,
+                    "total": 1525
+                  },
+                  "buckets": [
+                    {
+                      "count": 888,
+                      "id": "debugging_profiling_react_native_devtools",
+                      "index": 0,
+                      "percentageQuestion": 95.07,
+                      "percentageSurvey": 58.23,
+                      "entity": {
+                        "name": "React Native DevTools",
+                        "nameClean": "React Native DevTools",
+                        "description": "Default React Native debugging experience built on top of Chrome DevTools Protocol and providing integrated React DevTools functionality as a core feature.",
+                        "descriptionClean": "Default React Native debugging experience built on top of Chrome DevTools Protocol and providing integrated React DevTools functionality as a core feature.",
+                        "id": "debugging_profiling_react_native_devtools",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://github.com/react-native-community/discussions-and-proposals/discussions/819"
+                        }
+                      },
+                      "percentagePositive": 17,
+                      "percentageNegative": 5
+                    },
+                    {
+                      "count": 440,
+                      "id": "debugging_profiling_native_debugging",
+                      "index": 1,
+                      "percentageQuestion": 47.11,
+                      "percentageSurvey": 28.85,
+                      "entity": {
+                        "name": "Native debugging",
+                        "nameClean": "Native debugging",
+                        "description": "(Xcode, Android Studio) Platform-native tools for debugging app behavior, variables, and execution flow.",
+                        "descriptionClean": "(Xcode, Android Studio) Platform-native tools for debugging app behavior, variables, and execution flow.",
+                        "id": "debugging_profiling_native_debugging",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://developer.android.com/studio/debug"
+                        }
+                      },
+                      "percentagePositive": 10,
+                      "percentageNegative": 7
+                    },
+                    {
+                      "count": 386,
+                      "id": "debugging_profiling_expo_devtools_plugins",
+                      "index": 2,
+                      "percentageQuestion": 41.33,
+                      "percentageSurvey": 25.31,
+                      "entity": {
+                        "name": "Expo DevTools Plugins",
+                        "nameClean": "Expo DevTools Plugins",
+                        "description": "A plugin system for Expo DevTools that enables developers to create custom debugging and development tools. Allows integration of third-party debugging tools and custom functionality directly into the Expo development environment.",
+                        "descriptionClean": "A plugin system for Expo DevTools that enables developers to create custom debugging and development tools. Allows integration of third-party debugging tools and custom functionality directly into the Expo development environment.",
+                        "id": "debugging_profiling_expo_devtools_plugins",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://docs.expo.dev/debugging/devtools-plugins/"
+                        },
+                        "github": {
+                          "url": "https://github.com/expo/dev-plugins"
+                        }
+                      },
+                      "percentagePositive": 16,
+                      "percentageNegative": 2
+                    },
+                    {
+                      "count": 299,
+                      "id": "debugging_profiling_native_profiling",
+                      "index": 3,
+                      "percentageQuestion": 32.01,
+                      "percentageSurvey": 19.61,
+                      "entity": {
+                        "name": "Native profiling",
+                        "nameClean": "Native profiling",
+                        "description": "(Xcode, Android Studio) Platform-native tools for profiling app performance, memory usage, and resource consumption.",
+                        "descriptionClean": "(Xcode, Android Studio) Platform-native tools for profiling app performance, memory usage, and resource consumption.",
+                        "id": "debugging_profiling_native_profiling",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://developer.android.com/studio/profile"
+                        }
+                      },
+                      "percentagePositive": 10,
+                      "percentageNegative": 7
+                    },
+                    {
+                      "count": 256,
+                      "id": "debugging_profiling_reactotron",
+                      "index": 4,
+                      "percentageQuestion": 27.41,
+                      "percentageSurvey": 16.79,
+                      "entity": {
+                        "name": "Reactotron",
+                        "nameClean": "Reactotron",
+                        "description": "A desktop application for inspecting your React and React Native projects. Enables monitoring application's state, network requests, and performance metrics.",
+                        "descriptionHtml": "A desktop application for inspecting your React and React Native projects. Enables monitoring application's state, network requests, and performance metrics.",
+                        "descriptionClean": "A desktop application for inspecting your React and React Native projects. Enables monitoring application's state, network requests, and performance metrics.",
+                        "id": "debugging_profiling_reactotron",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://docs.infinite.red/reactotron/"
+                        },
+                        "github": {
+                          "url": "https://github.com/infinitered/reactotron"
+                        }
+                      },
+                      "percentagePositive": 24,
+                      "percentageNegative": 11
+                    },
+                    {
+                      "count": 220,
+                      "id": "debugging_profiling_expo_tools",
+                      "index": 5,
+                      "percentageQuestion": 23.55,
+                      "percentageSurvey": 14.43,
+                      "entity": {
+                        "name": "Expo Tools",
+                        "nameClean": "Expo Tools",
+                        "description": "VSCode extension for Expo projects.",
+                        "descriptionClean": "VSCode extension for Expo projects.",
+                        "id": "debugging_profiling_expo_tools",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://marketplace.visualstudio.com/items?itemName=expo.vscode-expo-tools"
+                        },
+                        "github": {
+                          "url": "https://github.com/expo/vscode-expo"
+                        }
+                      },
+                      "percentagePositive": 18,
+                      "percentageNegative": 3
+                    },
+                    {
+                      "count": 171,
+                      "id": "debugging_profiling_radon_ide",
+                      "index": 6,
+                      "percentageQuestion": 18.31,
+                      "percentageSurvey": 11.21,
+                      "entity": {
+                        "name": "Radon IDE",
+                        "nameClean": "Radon IDE",
+                        "description": "A better developer experience for React Native developers. A Visual Studio Code / Cursor IDE extension that aims to simplify the development of React Native applications.",
+                        "descriptionClean": "A better developer experience for React Native developers. A Visual Studio Code / Cursor IDE extension that aims to simplify the development of React Native applications.",
+                        "id": "debugging_profiling_radon_ide",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://ide.swmansion.com/"
+                        }
+                      },
+                      "percentagePositive": 23,
+                      "percentageNegative": 19
+                    },
+                    {
+                      "count": 110,
+                      "id": "debugging_profiling_flashlight",
+                      "index": 7,
+                      "percentageQuestion": 11.78,
+                      "percentageSurvey": 7.21,
+                      "entity": {
+                        "name": "Flashlight",
+                        "nameClean": "Flashlight",
+                        "description": "Lighthouse for Mobile - a web service that audits your app and gives a performance score to your Android apps.",
+                        "descriptionClean": "Lighthouse for Mobile - a web service that audits your app and gives a performance score to your Android apps.",
+                        "id": "debugging_profiling_flashlight",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://flashlight.dev/"
+                        },
+                        "github": {
+                          "url": "https://github.com/bamlab/flashlight"
+                        }
+                      },
+                      "percentagePositive": 22,
+                      "percentageNegative": 1
+                    },
+                    {
+                      "count": 73,
+                      "id": "debugging_profiling_rozenite",
+                      "index": 8,
+                      "percentageQuestion": 7.82,
+                      "percentageSurvey": 4.79,
+                      "entity": {
+                        "name": "Rozenite",
+                        "nameClean": "Rozenite",
+                        "description": "Plug-and-play panels for React Native DevTools. Install, enable, and start debugging in minutes.",
+                        "descriptionClean": "Plug-and-play panels for React Native DevTools. Install, enable, and start debugging in minutes.",
+                        "id": "debugging_profiling_rozenite",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://www.rozenite.dev/"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/rozenite"
+                        }
+                      },
+                      "percentagePositive": 25,
+                      "percentageNegative": 4
+                    },
+                    {
+                      "count": 11,
+                      "id": "console_log",
+                      "index": 9,
+                      "percentageQuestion": 1.18,
+                      "percentageSurvey": 0.72,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "Console logging",
+                        "nameClean": "Console logging",
+                        "id": "console_log",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 3,
+                      "id": "debugging_profiling_flipper",
+                      "index": 10,
+                      "percentageQuestion": 0.32,
+                      "percentageSurvey": 0.2,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "Flipper",
+                        "nameClean": "Flipper",
+                        "description": "A desktop debugging platform for mobile developers. Visualize, inspect, and control your React Native apps.",
+                        "descriptionClean": "A desktop debugging platform for mobile developers. Visualize, inspect, and control your React Native apps.",
+                        "id": "debugging_profiling_flipper",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://fbflipper.com/"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/react-native-flipper"
+                        }
+                      }
+                    },
+                    {
+                      "count": 11,
+                      "id": "other_answers",
+                      "index": 11,
+                      "percentageQuestion": 1.18,
+                      "percentageSurvey": 0.72
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

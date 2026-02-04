@@ -1,17 +1,24 @@
-query rn2025testingAndMonitoringTestingOthersQuery {
+query {
   surveys {
     state_of_react_native {
       rn2025 {
         testing_and_monitoring {
-          testing_and_monitoring_testing_others {
-            prenormalized(
-              parameters: {
-                limit: 10
-                cutoff: 2
-                enableCache: false
-              }
-            ) {
+          testing_and_monitoring_testing_others: testing_and_monitoring_testing_others {
+            id
+            prenormalized(parameters: { limit: 10, cutoff: 2 }) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
                 completion {
                   count
                   percentageSurvey
@@ -24,6 +31,8 @@ query rn2025testingAndMonitoringTestingOthersQuery {
                 buckets {
                   count
                   id
+                  value
+                  index
                   percentageQuestion
                   percentageSurvey
                   isFreeformData
@@ -56,6 +65,12 @@ query rn2025testingAndMonitoringTestingOthersQuery {
                     twitter {
                       url
                     }
+                    bluesky {
+                      url
+                    }
+                    threads {
+                      url
+                    }
                     twitch {
                       url
                     }
@@ -74,9 +89,6 @@ query rn2025testingAndMonitoringTestingOthersQuery {
                     npm {
                       url
                     }
-                    bluesky {
-                      url
-                    }
                     mdn {
                       url
                     }
@@ -86,6 +98,27 @@ query rn2025testingAndMonitoringTestingOthersQuery {
                     resources {
                       url
                       title
+                    }
+                    webFeature {
+                      id
+                      description_html
+                      group
+                      name
+                      spec
+                      url
+                      status {
+                        baseline
+                        baseline_low_date
+                        support {
+                          chrome
+                          chrome_android
+                          edge
+                          firefox
+                          firefox_android
+                          safari
+                          safari_ios
+                        }
+                      }
                     }
                   }
                 }

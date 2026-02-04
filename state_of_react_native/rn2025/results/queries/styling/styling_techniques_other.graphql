@@ -1,17 +1,24 @@
-query rn2025stylingTechniquesOtherQuery {
+query {
   surveys {
     state_of_react_native {
       rn2025 {
         styling {
-          styling_techniques_other {
-            prenormalized(
-              parameters: {
-                limit: 10
-                cutoff: 5
-                enableCache: false
-              }
-            ) {
+          styling_techniques_other: styling_techniques_other {
+            id
+            prenormalized(parameters: { limit: 10, cutoff: 5 }) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
                 completion {
                   count
                   percentageSurvey
@@ -24,6 +31,8 @@ query rn2025stylingTechniquesOtherQuery {
                 buckets {
                   count
                   id
+                  value
+                  index
                   percentageQuestion
                   percentageSurvey
                   isFreeformData
@@ -56,6 +65,12 @@ query rn2025stylingTechniquesOtherQuery {
                     twitter {
                       url
                     }
+                    bluesky {
+                      url
+                    }
+                    threads {
+                      url
+                    }
                     twitch {
                       url
                     }
@@ -74,9 +89,6 @@ query rn2025stylingTechniquesOtherQuery {
                     npm {
                       url
                     }
-                    bluesky {
-                      url
-                    }
                     mdn {
                       url
                     }
@@ -86,6 +98,27 @@ query rn2025stylingTechniquesOtherQuery {
                     resources {
                       url
                       title
+                    }
+                    webFeature {
+                      id
+                      description_html
+                      group
+                      name
+                      spec
+                      url
+                      status {
+                        baseline
+                        baseline_low_date
+                        support {
+                          chrome
+                          chrome_android
+                          edge
+                          firefox
+                          firefox_android
+                          safari
+                          safari_ios
+                        }
+                      }
                     }
                   }
                 }

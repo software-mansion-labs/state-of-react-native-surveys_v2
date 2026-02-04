@@ -5,19 +5,29 @@
         "rn2025": {
           "resources": {
             "resources_podcasts": {
+              "id": "resources_podcasts",
               "combined": {
                 "currentEdition": {
+                  "_metadata": {
+                    "axis1Sort": {
+                      "property": "count",
+                      "order": "desc"
+                    },
+                    "limit": 50,
+                    "cutoff": 1
+                  },
                   "completion": {
-                    "count": 554,
-                    "percentageSurvey": 15.82,
-                    "total": 3501
+                    "count": 337,
+                    "percentageSurvey": 22.1,
+                    "total": 1525
                   },
                   "buckets": [
                     {
-                      "count": 351,
+                      "count": 188,
                       "id": "resources_podcasts_react_native_radio",
-                      "percentageQuestion": 63.36,
-                      "percentageSurvey": 10.03,
+                      "index": 0,
+                      "percentageQuestion": 55.79,
+                      "percentageSurvey": 12.33,
                       "entity": {
                         "name": "React Native Radio (by Infinite Red)",
                         "nameClean": "React Native Radio (by Infinite Red)",
@@ -27,14 +37,15 @@
                           "url": "https://reactnativeradio.com/"
                         }
                       },
-                      "percentagePositive": 19,
-                      "percentageNegative": 1
+                      "percentagePositive": 20,
+                      "percentageNegative": 0
                     },
                     {
-                      "count": 205,
+                      "count": 156,
                       "id": "resources_podcasts_rocket_ship",
-                      "percentageQuestion": 37,
-                      "percentageSurvey": 5.86,
+                      "index": 1,
+                      "percentageQuestion": 46.29,
+                      "percentageSurvey": 10.23,
                       "entity": {
                         "name": "Rocket Ship (by Simon Grimm)",
                         "nameClean": "Rocket Ship (by Simon Grimm)",
@@ -44,14 +55,15 @@
                           "url": "https://podcast.galaxies.dev/"
                         }
                       },
-                      "percentagePositive": 19,
+                      "percentagePositive": 23,
                       "percentageNegative": 1
                     },
                     {
-                      "count": 154,
+                      "count": 103,
                       "id": "resources_podcasts_react_universe_on_air",
-                      "percentageQuestion": 27.8,
-                      "percentageSurvey": 4.4,
+                      "index": 2,
+                      "percentageQuestion": 30.56,
+                      "percentageSurvey": 6.75,
                       "entity": {
                         "name": "React Universe On Air (by Callstack)",
                         "nameClean": "React Universe On Air (by Callstack)",
@@ -61,14 +73,15 @@
                           "url": "https://www.callstack.com/podcast"
                         }
                       },
-                      "percentagePositive": 16,
-                      "percentageNegative": 2
+                      "percentagePositive": 13,
+                      "percentageNegative": 1
                     },
                     {
-                      "count": 139,
+                      "count": 97,
                       "id": "resources_podcasts_syntax_fm",
-                      "percentageQuestion": 25.09,
-                      "percentageSurvey": 3.97,
+                      "index": 3,
+                      "percentageQuestion": 28.78,
+                      "percentageSurvey": 6.36,
                       "entity": {
                         "name": "Syntax.fm",
                         "nameClean": "Syntax.fm",
@@ -78,35 +91,19 @@
                           "url": "https://syntax.fm/"
                         }
                       },
-                      "percentagePositive": 19,
-                      "percentageNegative": 1
+                      "percentagePositive": 18,
+                      "percentageNegative": 0
                     },
                     {
-                      "count": 73,
-                      "id": "resources_podcasts_the_changelog",
-                      "percentageQuestion": 13.18,
-                      "percentageSurvey": 2.09,
+                      "count": 39,
+                      "id": "resources_podcasts_podrocket",
+                      "index": 4,
+                      "percentageQuestion": 11.57,
+                      "percentageSurvey": 2.56,
                       "entity": {
-                        "name": "The Changelog",
-                        "nameClean": "The Changelog",
-                        "id": "resources_podcasts_the_changelog",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://changelog.com/"
-                        }
-                      },
-                      "percentagePositive": 14,
-                      "percentageNegative": 3
-                    },
-                    {
-                      "count": 62,
-                      "id": "resources_podcasts_podrocker",
-                      "percentageQuestion": 11.19,
-                      "percentageSurvey": 1.77,
-                      "entity": {
-                        "name": "PodRocker (by LogRocket)",
-                        "nameClean": "PodRocker (by LogRocket)",
-                        "id": "resources_podcasts_podrocker",
+                        "name": "PodRocket (by LogRocket)",
+                        "nameClean": "PodRocket (by LogRocket)",
+                        "id": "resources_podcasts_podrocket",
                         "entityType": "default",
                         "homepage": {
                           "url": "https://podrocket.logrocket.com/"
@@ -116,23 +113,29 @@
                       "percentageNegative": 0
                     },
                     {
-                      "count": 1,
-                      "id": "expo_router",
-                      "percentageQuestion": 0.18,
-                      "percentageSurvey": 0.03,
-                      "isFreeformData": true,
+                      "count": 28,
+                      "id": "resources_podcasts_the_changelog",
+                      "index": 5,
+                      "percentageQuestion": 8.31,
+                      "percentageSurvey": 1.84,
                       "entity": {
-                        "name": "Expo Router",
-                        "nameClean": "Expo Router",
-                        "id": "expo_router",
-                        "entityType": "default"
-                      }
+                        "name": "The Changelog",
+                        "nameClean": "The Changelog",
+                        "id": "resources_podcasts_the_changelog",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://changelog.com/"
+                        }
+                      },
+                      "percentagePositive": 21,
+                      "percentageNegative": 0
                     },
                     {
-                      "count": 14,
+                      "count": 5,
                       "id": "other_answers",
-                      "percentageQuestion": 2.53,
-                      "percentageSurvey": 0.4
+                      "index": 6,
+                      "percentageQuestion": 1.48,
+                      "percentageSurvey": 0.33
                     }
                   ]
                 }

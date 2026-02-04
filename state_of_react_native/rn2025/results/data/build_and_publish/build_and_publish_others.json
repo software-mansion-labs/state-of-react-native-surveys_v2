@@ -5,31 +5,42 @@
         "rn2025": {
           "build_and_publish": {
             "build_and_publish_others": {
+              "id": "build_and_publish_others",
               "freeform": {
                 "currentEdition": {
+                  "_metadata": {
+                    "axis1Sort": {
+                      "property": "count",
+                      "order": "desc"
+                    },
+                    "limit": 20,
+                    "cutoff": 5
+                  },
                   "completion": {
-                    "count": 42,
-                    "percentageSurvey": 1.2,
-                    "total": 3501
+                    "count": 36,
+                    "percentageSurvey": 2.36,
+                    "total": 1525
                   },
                   "buckets": [
                     {
-                      "count": 8,
-                      "id": "Github Actions",
-                      "percentageQuestion": 19.05,
-                      "percentageSurvey": 0.23,
+                      "count": 11,
+                      "id": "locally",
+                      "index": 0,
+                      "percentageQuestion": 30.56,
+                      "percentageSurvey": 0.72,
                       "entity": {
-                        "name": "Github Actions",
-                        "nameClean": "Github Actions",
-                        "id": "Github Actions",
+                        "name": "Local/Manual building and publishing",
+                        "nameClean": "Local/Manual building and publishing",
+                        "id": "locally",
                         "entityType": "default"
                       }
                     },
                     {
                       "count": 5,
                       "id": "Codemagic",
-                      "percentageQuestion": 11.9,
-                      "percentageSurvey": 0.14,
+                      "index": 1,
+                      "percentageQuestion": 13.89,
+                      "percentageSurvey": 0.33,
                       "entity": {
                         "name": "Codemagic",
                         "nameClean": "Codemagic",
@@ -38,28 +49,30 @@
                       }
                     },
                     {
-                      "count": 3459,
+                      "count": 1489,
                       "id": "no_answer",
+                      "index": 2,
                       "percentageQuestion": 0,
-                      "percentageSurvey": 98.8
+                      "percentageSurvey": 97.64
                     },
                     {
-                      "count": 34,
+                      "count": 26,
                       "id": "other_answers",
-                      "percentageQuestion": 80.94,
-                      "percentageSurvey": 0.97,
+                      "index": 3,
+                      "percentageQuestion": 72.22,
+                      "percentageSurvey": 1.71,
                       "groupedBuckets": [
                         {
-                          "count": 16,
+                          "count": 14,
                           "id": "cutoff_answers",
-                          "percentageQuestion": 38.08,
-                          "percentageSurvey": 0.46
+                          "percentageQuestion": 38.89,
+                          "percentageSurvey": 0.92
                         },
                         {
-                          "count": 18,
+                          "count": 12,
                           "id": "no_match",
-                          "percentageQuestion": 42.86,
-                          "percentageSurvey": 0.51
+                          "percentageQuestion": 33.33,
+                          "percentageSurvey": 0.79
                         }
                       ]
                     }

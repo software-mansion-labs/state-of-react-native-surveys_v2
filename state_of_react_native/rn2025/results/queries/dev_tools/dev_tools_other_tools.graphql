@@ -1,19 +1,31 @@
-query rn2025devToolsOtherToolsQuery {
+query {
   surveys {
     state_of_react_native {
       rn2025 {
         dev_tools {
-          dev_tools_other_tools {
+          dev_tools_other_tools: dev_tools_other_tools {
+            id
             freeform(
               parameters: {
                 showNoAnswer: true
                 cutoff: 10
                 limit: 20
                 mergeOtherBuckets: true
-                enableCache: false
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
                 completion {
                   count
                   percentageSurvey
@@ -26,6 +38,8 @@ query rn2025devToolsOtherToolsQuery {
                 buckets {
                   count
                   id
+                  value
+                  index
                   percentageQuestion
                   percentageSurvey
                   isFreeformData
@@ -58,6 +72,12 @@ query rn2025devToolsOtherToolsQuery {
                     twitter {
                       url
                     }
+                    bluesky {
+                      url
+                    }
+                    threads {
+                      url
+                    }
                     twitch {
                       url
                     }
@@ -86,10 +106,33 @@ query rn2025devToolsOtherToolsQuery {
                       url
                       title
                     }
+                    webFeature {
+                      id
+                      description_html
+                      group
+                      name
+                      spec
+                      url
+                      status {
+                        baseline
+                        baseline_low_date
+                        support {
+                          chrome
+                          chrome_android
+                          edge
+                          firefox
+                          firefox_android
+                          safari
+                          safari_ios
+                        }
+                      }
+                    }
                   }
                   groupedBuckets {
                     count
                     id
+                    value
+                    index
                     percentageQuestion
                     percentageSurvey
                     isFreeformData
@@ -122,6 +165,12 @@ query rn2025devToolsOtherToolsQuery {
                       twitter {
                         url
                       }
+                      bluesky {
+                        url
+                      }
+                      threads {
+                        url
+                      }
                       twitch {
                         url
                       }
@@ -149,6 +198,27 @@ query rn2025devToolsOtherToolsQuery {
                       resources {
                         url
                         title
+                      }
+                      webFeature {
+                        id
+                        description_html
+                        group
+                        name
+                        spec
+                        url
+                        status {
+                          baseline
+                          baseline_low_date
+                          support {
+                            chrome
+                            chrome_android
+                            edge
+                            firefox
+                            firefox_android
+                            safari
+                            safari_ios
+                          }
+                        }
                       }
                     }
                   }

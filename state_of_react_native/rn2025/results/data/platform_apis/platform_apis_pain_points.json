@@ -5,369 +5,94 @@
         "rn2025": {
           "platform_apis": {
             "platform_apis_pain_points": {
+              "id": "platform_apis_pain_points",
               "freeform": {
                 "currentEdition": {
+                  "_metadata": {
+                    "axis1Sort": {
+                      "property": "count",
+                      "order": "desc"
+                    },
+                    "limit": 30,
+                    "cutoff": 5
+                  },
                   "completion": {
-                    "count": 544,
-                    "percentageSurvey": 15.54,
-                    "total": 3501
+                    "count": 226,
+                    "percentageSurvey": 14.82,
+                    "total": 1525
                   },
                   "buckets": [
                     {
-                      "count": 71,
+                      "count": 41,
+                      "id": "android",
+                      "index": 0,
+                      "percentageQuestion": 18.14,
+                      "percentageSurvey": 2.69,
+                      "entity": {
+                        "name": "Android",
+                        "nameClean": "Android",
+                        "id": "android",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 18,
                       "id": "notifications",
-                      "percentageQuestion": 13.05,
-                      "percentageSurvey": 2.03,
+                      "index": 1,
+                      "percentageQuestion": 7.96,
+                      "percentageSurvey": 1.18,
                       "entity": {
                         "name": "Notifications",
                         "nameClean": "Notifications",
-                        "description": "Control user-facing notifications",
-                        "descriptionClean": "Control user-facing notifications",
-                        "id": "platform_apis_notifications",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/usernotifications",
-                            "title": "iOS"
-                          },
-                          {
-                            "url": "https://developer.android.com/guide/topics/ui/notifiers/notifications",
-                            "title": "Android"
-                          },
-                          {
-                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API",
-                            "title": "Web API"
-                          }
-                        ]
-                      }
-                    },
-                    {
-                      "count": 48,
-                      "id": "background_processing",
-                      "percentageQuestion": 8.82,
-                      "percentageSurvey": 1.37,
-                      "entity": {
-                        "name": "Background processing",
-                        "nameClean": "Background processing",
-                        "id": "background_processing",
+                        "id": "notifications",
                         "entityType": "default"
                       }
                     },
                     {
-                      "count": 45,
-                      "id": "deep_linking",
-                      "percentageQuestion": 8.27,
-                      "percentageSurvey": 1.29,
-                      "entity": {
-                        "name": "Deep linking",
-                        "nameClean": "Deep linking",
-                        "id": "deep_linking",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 40,
-                      "id": "maps",
-                      "percentageQuestion": 7.35,
-                      "percentageSurvey": 1.14,
-                      "entity": {
-                        "name": "Maps",
-                        "nameClean": "Maps",
-                        "description": "Render map component in the app",
-                        "descriptionClean": "Render map component in the app",
-                        "id": "platform_apis_maps",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/maps/",
-                            "title": "iOS"
-                          },
-                          {
-                            "url": "https://developers.google.com/maps/documentation/android-sdk",
-                            "title": "Android"
-                          }
-                        ]
-                      }
-                    },
-                    {
-                      "count": 38,
-                      "id": "permissions",
-                      "percentageQuestion": 6.99,
-                      "percentageSurvey": 1.09,
-                      "entity": {
-                        "name": "Permissions",
-                        "nameClean": "Permissions",
-                        "description": "Access protected APIs and data",
-                        "descriptionClean": "Access protected APIs and data",
-                        "id": "platform_apis_permissions",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/uikit/protecting_the_user_s_privacy",
-                            "title": "iOS"
-                          },
-                          {
-                            "url": "https://developer.android.com/guide/topics/permissions/overview",
-                            "title": "Android"
-                          }
-                        ]
-                      }
-                    },
-                    {
-                      "count": 34,
+                      "count": 18,
                       "id": "webview",
-                      "percentageQuestion": 6.25,
-                      "percentageSurvey": 0.97,
+                      "index": 2,
+                      "percentageQuestion": 7.96,
+                      "percentageSurvey": 1.18,
                       "entity": {
-                        "name": "WebView",
-                        "nameClean": "WebView",
-                        "description": "Deliver web page as a part of the app",
-                        "descriptionClean": "Deliver web page as a part of the app",
-                        "id": "platform_apis_webview",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/webkit/wkwebview",
-                            "title": "iOS"
-                          },
-                          {
-                            "url": "https://developer.android.com/guide/webapps/webview",
-                            "title": "Android"
-                          }
-                        ]
-                      }
-                    },
-                    {
-                      "count": 33,
-                      "id": "excessive_complexity",
-                      "percentageQuestion": 6.07,
-                      "percentageSurvey": 0.94,
-                      "entity": {
-                        "name": "Excessive complexity",
-                        "nameClean": "Excessive complexity",
-                        "description": "Too much complexity",
-                        "descriptionClean": "Too much complexity",
-                        "id": "excessive_complexity",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 33,
-                      "id": "lack_of_documentation",
-                      "percentageQuestion": 6.07,
-                      "percentageSurvey": 0.94,
-                      "entity": {
-                        "name": "Lack of documentation",
-                        "nameClean": "Lack of documentation",
-                        "description": "Lack of documentation or code examples",
-                        "descriptionClean": "Lack of documentation or code examples",
-                        "id": "lack_of_documentation",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 33,
-                      "id": "video",
-                      "percentageQuestion": 6.07,
-                      "percentageSurvey": 0.94,
-                      "entity": {
-                        "name": "Video",
-                        "nameClean": "Video",
-                        "id": "video",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 31,
-                      "id": "camera",
-                      "percentageQuestion": 5.7,
-                      "percentageSurvey": 0.89,
-                      "entity": {
-                        "name": "Camera",
-                        "nameClean": "Camera",
-                        "description": "Capture photos and videos",
-                        "descriptionClean": "Capture photos and videos",
-                        "id": "platform_apis_camera",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/avfoundation/cameras_and_media_capture",
-                            "title": "iOS"
-                          },
-                          {
-                            "url": "https://developer.android.com/media/camera/get-started-with-camera",
-                            "title": "Android"
-                          },
-                          {
-                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Media_Capture_and_Streams_API",
-                            "title": "Web API"
-                          }
-                        ]
-                      }
-                    },
-                    {
-                      "count": 29,
-                      "id": "audio",
-                      "percentageQuestion": 5.33,
-                      "percentageSurvey": 0.83,
-                      "entity": {
-                        "name": "Audio",
-                        "nameClean": "Audio",
-                        "id": "audio",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 26,
-                      "id": "bluetooth",
-                      "percentageQuestion": 4.78,
-                      "percentageSurvey": 0.74,
-                      "entity": {
-                        "name": "Bluetooth",
-                        "nameClean": "Bluetooth",
-                        "description": "Communicate with bluetooth devices",
-                        "descriptionClean": "Communicate with bluetooth devices",
-                        "id": "platform_apis_bluetooth",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/corebluetooth",
-                            "title": "iOS"
-                          },
-                          {
-                            "url": "https://developer.android.com/guide/topics/connectivity/bluetooth",
-                            "title": "Android"
-                          },
-                          {
-                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API",
-                            "title": "Web API"
-                          }
-                        ]
-                      }
-                    },
-                    {
-                      "count": 26,
-                      "id": "configuration",
-                      "percentageQuestion": 4.78,
-                      "percentageSurvey": 0.74,
-                      "entity": {
-                        "name": "Configuration",
-                        "nameClean": "Configuration",
-                        "description": "Difficulties with set-up and configuration",
-                        "descriptionClean": "Difficulties with set-up and configuration",
-                        "id": "configuration",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 25,
-                      "id": "performance",
-                      "percentageQuestion": 4.6,
-                      "percentageSurvey": 0.71,
-                      "entity": {
-                        "name": "Performance",
-                        "nameClean": "Performance",
-                        "description": "Performance issues",
-                        "descriptionClean": "Performance issues",
-                        "id": "performance",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 24,
-                      "id": "location",
-                      "percentageQuestion": 4.41,
-                      "percentageSurvey": 0.69,
-                      "entity": {
-                        "name": "Location",
-                        "nameClean": "Location",
-                        "description": "Access device geographic location",
-                        "descriptionClean": "Access device geographic location",
-                        "id": "platform_apis_location",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/corelocation",
-                            "title": "iOS"
-                          },
-                          {
-                            "url": "https://developer.android.com/training/location",
-                            "title": "Android"
-                          },
-                          {
-                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API",
-                            "title": "Web API"
-                          }
-                        ]
-                      }
-                    },
-                    {
-                      "count": 22,
-                      "id": "in_app_payment_library",
-                      "percentageQuestion": 4.04,
-                      "percentageSurvey": 0.63,
-                      "entity": {
-                        "name": "In-app payment library",
-                        "nameClean": "In-app payment library",
-                        "id": "in_app_payment_library",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 22,
-                      "id": "version_updates",
-                      "percentageQuestion": 4.04,
-                      "percentageSurvey": 0.63,
-                      "entity": {
-                        "name": "Version changes",
-                        "nameClean": "Version changes",
-                        "description": "Breaking changes and other updating issues",
-                        "descriptionClean": "Breaking changes and other updating issues",
-                        "id": "version_updates",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 20,
-                      "id": "filesystem",
-                      "percentageQuestion": 3.68,
-                      "percentageSurvey": 0.57,
-                      "entity": {
-                        "name": "Filesystem",
-                        "nameClean": "Filesystem",
-                        "id": "filesystem",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 19,
-                      "id": "maintenance",
-                      "percentageQuestion": 3.49,
-                      "percentageSurvey": 0.54,
-                      "entity": {
-                        "name": "Maintenance",
-                        "nameClean": "Maintenance",
-                        "id": "maintenance",
+                        "name": "Webview",
+                        "nameClean": "Webview",
+                        "id": "webview",
                         "entityType": "default"
                       }
                     },
                     {
                       "count": 17,
-                      "id": "screen_orientation",
-                      "percentageQuestion": 3.13,
-                      "percentageSurvey": 0.49,
+                      "id": "maps",
+                      "index": 3,
+                      "percentageQuestion": 7.52,
+                      "percentageSurvey": 1.11,
                       "entity": {
-                        "name": "Screen orientation",
-                        "nameClean": "Screen orientation",
-                        "id": "screen_orientation",
+                        "name": "Maps",
+                        "nameClean": "Maps",
+                        "id": "maps",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 16,
+                      "id": "permissions",
+                      "index": 4,
+                      "percentageQuestion": 7.08,
+                      "percentageSurvey": 1.05,
+                      "entity": {
+                        "name": "Permissions",
+                        "nameClean": "Permissions",
+                        "id": "permissions",
                         "entityType": "default"
                       }
                     },
                     {
                       "count": 15,
                       "id": "accessibility",
-                      "percentageQuestion": 2.76,
-                      "percentageSurvey": 0.43,
+                      "index": 5,
+                      "percentageQuestion": 6.64,
+                      "percentageSurvey": 0.98,
                       "entity": {
                         "name": "Accessibility",
                         "nameClean": "Accessibility",
@@ -378,64 +103,242 @@
                       }
                     },
                     {
-                      "count": 13,
-                      "id": "navigation_state",
-                      "percentageQuestion": 2.39,
-                      "percentageSurvey": 0.37,
+                      "count": 15,
+                      "id": "background_processing",
+                      "index": 6,
+                      "percentageQuestion": 6.64,
+                      "percentageSurvey": 0.98,
                       "entity": {
-                        "name": "Navigation state",
-                        "nameClean": "Navigation state",
-                        "id": "navigation_state",
+                        "name": "Background processing",
+                        "nameClean": "Background processing",
+                        "id": "background_processing",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 14,
+                      "id": "version_updates",
+                      "index": 7,
+                      "percentageQuestion": 6.19,
+                      "percentageSurvey": 0.92,
+                      "entity": {
+                        "name": "Version changes",
+                        "nameClean": "Version changes",
+                        "description": "Breaking changes and other updating issues",
+                        "descriptionClean": "Breaking changes and other updating issues",
+                        "id": "version_updates",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 12,
+                      "id": "deep_linking",
+                      "index": 8,
+                      "percentageQuestion": 5.31,
+                      "percentageSurvey": 0.79,
+                      "entity": {
+                        "name": "Deep linking",
+                        "nameClean": "Deep linking",
+                        "id": "deep_linking",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 12,
+                      "id": "excessive_complexity",
+                      "index": 9,
+                      "percentageQuestion": 5.31,
+                      "percentageSurvey": 0.79,
+                      "entity": {
+                        "name": "Excessive complexity",
+                        "nameClean": "Excessive complexity",
+                        "description": "Too much complexity",
+                        "descriptionClean": "Too much complexity",
+                        "id": "excessive_complexity",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 12,
+                      "id": "maintenance",
+                      "index": 10,
+                      "percentageQuestion": 5.31,
+                      "percentageSurvey": 0.79,
+                      "entity": {
+                        "name": "Maintenance",
+                        "nameClean": "Maintenance",
+                        "id": "maintenance",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 12,
+                      "id": "video",
+                      "index": 11,
+                      "percentageQuestion": 5.31,
+                      "percentageSurvey": 0.79,
+                      "entity": {
+                        "name": "Video",
+                        "nameClean": "Video",
+                        "id": "video",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 11,
+                      "id": "configuration",
+                      "index": 12,
+                      "percentageQuestion": 4.87,
+                      "percentageSurvey": 0.72,
+                      "entity": {
+                        "name": "Configuration",
+                        "nameClean": "Configuration",
+                        "description": "Difficulties with set-up and configuration",
+                        "descriptionClean": "Difficulties with set-up and configuration",
+                        "id": "configuration",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 11,
+                      "id": "debugging",
+                      "index": 13,
+                      "percentageQuestion": 4.87,
+                      "percentageSurvey": 0.72,
+                      "entity": {
+                        "name": "Debugging",
+                        "nameClean": "Debugging",
+                        "id": "debugging",
                         "entityType": "default"
                       }
                     },
                     {
                       "count": 10,
-                      "id": "contacts",
-                      "percentageQuestion": 1.84,
-                      "percentageSurvey": 0.29,
+                      "id": "camera",
+                      "index": 14,
+                      "percentageQuestion": 4.42,
+                      "percentageSurvey": 0.66,
                       "entity": {
-                        "name": "Contacts",
-                        "nameClean": "Contacts",
-                        "description": "Access the user's contacts",
-                        "descriptionHtml": "Access the user's contacts",
-                        "descriptionClean": "Access the user's contacts",
-                        "id": "platform_apis_contacts",
-                        "entityType": "feature",
-                        "resources": [
-                          {
-                            "url": "https://developer.apple.com/documentation/contacts",
-                            "title": "iOS"
-                          },
-                          {
-                            "url": "https://developer.android.com/identity/providers/contacts-provider",
-                            "title": "Android"
-                          },
-                          {
-                            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Contact_Picker_API",
-                            "title": "Web API"
-                          }
-                        ]
-                      }
-                    },
-                    {
-                      "count": 10,
-                      "id": "files_and_assets_manipulation",
-                      "percentageQuestion": 1.84,
-                      "percentageSurvey": 0.29,
-                      "entity": {
-                        "name": "Files & assets manipulation",
-                        "nameHtml": "Files &amp; assets manipulation",
-                        "nameClean": "Files  assets manipulation",
-                        "id": "files_and_assets_manipulation",
+                        "name": "Camera",
+                        "nameClean": "Camera",
+                        "id": "camera",
                         "entityType": "default"
                       }
                     },
                     {
                       "count": 10,
+                      "id": "third_party_libraries",
+                      "index": 15,
+                      "percentageQuestion": 4.42,
+                      "percentageSurvey": 0.66,
+                      "entity": {
+                        "name": "Third-party libraries",
+                        "nameClean": "Third-party libraries",
+                        "id": "third_party_libraries",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 9,
+                      "id": "audio",
+                      "index": 16,
+                      "percentageQuestion": 3.98,
+                      "percentageSurvey": 0.59,
+                      "entity": {
+                        "name": "Audio",
+                        "nameClean": "Audio",
+                        "id": "audio",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 8,
+                      "id": "performance",
+                      "index": 17,
+                      "percentageQuestion": 3.54,
+                      "percentageSurvey": 0.52,
+                      "entity": {
+                        "name": "Performance",
+                        "nameClean": "Performance",
+                        "description": "Performance issues",
+                        "descriptionClean": "Performance issues",
+                        "id": "performance",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 7,
+                      "id": "bluetooth",
+                      "index": 18,
+                      "percentageQuestion": 3.1,
+                      "percentageSurvey": 0.46,
+                      "entity": {
+                        "name": "Bluetooth",
+                        "nameClean": "Bluetooth",
+                        "id": "bluetooth",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 7,
+                      "id": "bugs_and_stability_issues",
+                      "index": 19,
+                      "percentageQuestion": 3.1,
+                      "percentageSurvey": 0.46,
+                      "entity": {
+                        "name": "Bugs and stability issues",
+                        "nameClean": "Bugs and stability issues",
+                        "id": "bugs_and_stability_issues",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 7,
+                      "id": "cross_platform_compatibility",
+                      "index": 20,
+                      "percentageQuestion": 3.1,
+                      "percentageSurvey": 0.46,
+                      "entity": {
+                        "name": "Cross-platform compatibility",
+                        "nameClean": "Cross-platform compatibility",
+                        "id": "cross_platform_compatibility",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 7,
+                      "id": "lack_of_documentation",
+                      "index": 21,
+                      "percentageQuestion": 3.1,
+                      "percentageSurvey": 0.46,
+                      "entity": {
+                        "name": "Lack of documentation",
+                        "nameClean": "Lack of documentation",
+                        "description": "Lack of documentation or code examples",
+                        "descriptionClean": "Lack of documentation or code examples",
+                        "id": "lack_of_documentation",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 6,
+                      "id": "haptics",
+                      "index": 22,
+                      "percentageQuestion": 2.65,
+                      "percentageSurvey": 0.39,
+                      "entity": {
+                        "name": "Haptics",
+                        "nameClean": "Haptics",
+                        "id": "haptics",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 6,
                       "id": "keyboard",
-                      "percentageQuestion": 1.84,
-                      "percentageSurvey": 0.29,
+                      "index": 23,
+                      "percentageQuestion": 2.65,
+                      "percentageSurvey": 0.39,
                       "entity": {
                         "name": "Keyboard",
                         "nameClean": "Keyboard",
@@ -444,10 +347,50 @@
                       }
                     },
                     {
-                      "count": 10,
+                      "count": 6,
+                      "id": "location",
+                      "index": 24,
+                      "percentageQuestion": 2.65,
+                      "percentageSurvey": 0.39,
+                      "entity": {
+                        "name": "Location",
+                        "nameClean": "Location",
+                        "id": "location",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 6,
+                      "id": "screen_orientation",
+                      "index": 25,
+                      "percentageQuestion": 2.65,
+                      "percentageSurvey": 0.39,
+                      "entity": {
+                        "name": "Screen orientation",
+                        "nameClean": "Screen orientation",
+                        "id": "screen_orientation",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 5,
+                      "id": "authentication",
+                      "index": 26,
+                      "percentageQuestion": 2.21,
+                      "percentageSurvey": 0.33,
+                      "entity": {
+                        "name": "Authentication",
+                        "nameClean": "Authentication",
+                        "id": "authentication",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 5,
                       "id": "rtl",
-                      "percentageQuestion": 1.84,
-                      "percentageSurvey": 0.29,
+                      "index": 27,
+                      "percentageQuestion": 2.21,
+                      "percentageSurvey": 0.33,
                       "entity": {
                         "name": "RTL",
                         "nameClean": "RTL",
@@ -456,10 +399,11 @@
                       }
                     },
                     {
-                      "count": 9,
+                      "count": 5,
                       "id": "unusable",
-                      "percentageQuestion": 1.65,
-                      "percentageSurvey": 0.26,
+                      "index": 28,
+                      "percentageQuestion": 2.21,
+                      "percentageSurvey": 0.33,
                       "entity": {
                         "name": "Unusable",
                         "nameClean": "Unusable",
@@ -468,64 +412,23 @@
                       }
                     },
                     {
-                      "count": 8,
-                      "id": "3D_graphics",
-                      "percentageQuestion": 1.47,
-                      "percentageSurvey": 0.23,
-                      "entity": {
-                        "name": "3D graphics",
-                        "nameClean": "3D graphics",
-                        "id": "3D_graphics",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 8,
-                      "id": "animations",
-                      "percentageQuestion": 1.47,
-                      "percentageSurvey": 0.23,
-                      "entity": {
-                        "name": "Animations",
-                        "nameClean": "Animations",
-                        "id": "animations",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 8,
-                      "id": "calendar",
-                      "percentageQuestion": 1.47,
-                      "percentageSurvey": 0.23,
-                      "entity": {
-                        "name": "Calendar",
-                        "nameClean": "Calendar",
-                        "id": "calendar",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 295,
+                      "count": 115,
                       "id": "other_answers",
-                      "percentageQuestion": 54.23,
-                      "percentageSurvey": 8.43,
+                      "index": 29,
+                      "percentageQuestion": 50.82,
+                      "percentageSurvey": 7.58,
                       "groupedBuckets": [
-                        {
-                          "count": 67,
-                          "id": "overlimit_answers",
-                          "percentageQuestion": 12.31,
-                          "percentageSurvey": 1.9
-                        },
                         {
                           "count": 59,
                           "id": "cutoff_answers",
-                          "percentageQuestion": 10.85,
-                          "percentageSurvey": 1.7
+                          "percentageQuestion": 26.04,
+                          "percentageSurvey": 3.91
                         },
                         {
-                          "count": 169,
+                          "count": 56,
                           "id": "no_match",
-                          "percentageQuestion": 31.07,
-                          "percentageSurvey": 4.83
+                          "percentageQuestion": 24.78,
+                          "percentageSurvey": 3.67
                         }
                       ]
                     }

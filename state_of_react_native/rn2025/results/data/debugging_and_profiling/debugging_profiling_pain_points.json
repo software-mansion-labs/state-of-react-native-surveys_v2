@@ -5,19 +5,55 @@
         "rn2025": {
           "debugging_and_profiling": {
             "debugging_profiling_pain_points": {
+              "id": "debugging_profiling_pain_points",
               "freeform": {
                 "currentEdition": {
+                  "_metadata": {
+                    "axis1Sort": {
+                      "property": "count",
+                      "order": "desc"
+                    },
+                    "limit": 20,
+                    "cutoff": 5
+                  },
                   "completion": {
-                    "count": 146,
-                    "percentageSurvey": 4.17,
-                    "total": 3501
+                    "count": 91,
+                    "percentageSurvey": 5.97,
+                    "total": 1525
                   },
                   "buckets": [
                     {
-                      "count": 27,
+                      "count": 22,
+                      "id": "debugging",
+                      "index": 0,
+                      "percentageQuestion": 24.18,
+                      "percentageSurvey": 1.44,
+                      "entity": {
+                        "name": "Debugging",
+                        "nameClean": "Debugging",
+                        "id": "debugging",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 13,
+                      "id": "profiling",
+                      "index": 1,
+                      "percentageQuestion": 14.29,
+                      "percentageSurvey": 0.85,
+                      "entity": {
+                        "name": "Profiling",
+                        "nameClean": "Profiling",
+                        "id": "profiling",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 11,
                       "id": "network",
-                      "percentageQuestion": 18.49,
-                      "percentageSurvey": 0.77,
+                      "index": 2,
+                      "percentageQuestion": 12.09,
+                      "percentageSurvey": 0.72,
                       "entity": {
                         "name": "Network",
                         "nameClean": "Network",
@@ -26,10 +62,11 @@
                       }
                     },
                     {
-                      "count": 19,
+                      "count": 9,
                       "id": "reliability",
-                      "percentageQuestion": 13.01,
-                      "percentageSurvey": 0.54,
+                      "index": 3,
+                      "percentageQuestion": 9.89,
+                      "percentageSurvey": 0.59,
                       "entity": {
                         "name": "Reliability",
                         "nameClean": "Reliability",
@@ -38,22 +75,40 @@
                       }
                     },
                     {
-                      "count": 13,
-                      "id": "debugging_in_general",
-                      "percentageQuestion": 8.9,
-                      "percentageSurvey": 0.37,
+                      "count": 8,
+                      "id": "breakpoints",
+                      "index": 4,
+                      "percentageQuestion": 8.79,
+                      "percentageSurvey": 0.52,
                       "entity": {
-                        "name": "Debugging in general",
-                        "nameClean": "Debugging in general",
-                        "id": "debugging_in_general",
+                        "name": "Breakpoints",
+                        "nameClean": "Breakpoints",
+                        "id": "breakpoints",
                         "entityType": "default"
                       }
                     },
                     {
-                      "count": 12,
+                      "count": 8,
+                      "id": "memory_management",
+                      "index": 5,
+                      "percentageQuestion": 8.79,
+                      "percentageSurvey": 0.52,
+                      "entity": {
+                        "name": "Memory management",
+                        "nameClean": "Memory management",
+                        "description": "Memory usage & management",
+                        "descriptionHtml": "Memory usage &amp; management",
+                        "descriptionClean": "Memory usage & management",
+                        "id": "memory_management",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 8,
                       "id": "performance",
-                      "percentageQuestion": 8.22,
-                      "percentageSurvey": 0.34,
+                      "index": 6,
+                      "percentageQuestion": 8.79,
+                      "percentageSurvey": 0.52,
                       "entity": {
                         "name": "Performance",
                         "nameClean": "Performance",
@@ -64,154 +119,56 @@
                       }
                     },
                     {
-                      "count": 11,
-                      "id": "excessive_complexity",
-                      "percentageQuestion": 7.53,
-                      "percentageSurvey": 0.31,
+                      "count": 5,
+                      "id": "tough_learning_curve",
+                      "index": 7,
+                      "percentageQuestion": 5.49,
+                      "percentageSurvey": 0.33,
                       "entity": {
-                        "name": "Excessive complexity",
-                        "nameClean": "Excessive complexity",
-                        "description": "Too much complexity",
-                        "descriptionClean": "Too much complexity",
-                        "id": "excessive_complexity",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 11,
-                      "id": "separate_window",
-                      "percentageQuestion": 7.53,
-                      "percentageSurvey": 0.31,
-                      "entity": {
-                        "name": "Separate window",
-                        "nameClean": "Separate window",
-                        "id": "separate_window",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 11,
-                      "id": "version_updates",
-                      "percentageQuestion": 7.53,
-                      "percentageSurvey": 0.31,
-                      "entity": {
-                        "name": "Version changes",
-                        "nameClean": "Version changes",
-                        "description": "Breaking changes and other updating issues",
-                        "descriptionClean": "Breaking changes and other updating issues",
-                        "id": "version_updates",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 10,
-                      "id": "breakpoints",
-                      "percentageQuestion": 6.85,
-                      "percentageSurvey": 0.29,
-                      "entity": {
-                        "name": "Breakpoints",
-                        "nameClean": "Breakpoints",
-                        "id": "breakpoints",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 10,
-                      "id": "fliper",
-                      "percentageQuestion": 6.85,
-                      "percentageSurvey": 0.29,
-                      "entity": {
-                        "name": "Fliper",
-                        "nameClean": "Fliper",
-                        "id": "fliper",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 9,
-                      "id": "configuration",
-                      "percentageQuestion": 6.16,
-                      "percentageSurvey": 0.26,
-                      "entity": {
-                        "name": "Configuration",
-                        "nameClean": "Configuration",
-                        "description": "Difficulties with set-up and configuration",
-                        "descriptionClean": "Difficulties with set-up and configuration",
-                        "id": "configuration",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 8,
-                      "id": "launching",
-                      "percentageQuestion": 5.48,
-                      "percentageSurvey": 0.23,
-                      "entity": {
-                        "name": "Launching",
-                        "nameClean": "Launching",
-                        "id": "launching",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 6,
-                      "id": "react_dev_tools",
-                      "percentageQuestion": 4.11,
-                      "percentageSurvey": 0.17,
-                      "entity": {
-                        "name": "React Dev Tools",
-                        "nameClean": "React Dev Tools",
-                        "id": "react_dev_tools",
+                        "name": "Tough learning curve",
+                        "nameClean": "Tough learning curve",
+                        "id": "tough_learning_curve",
                         "entityType": "default"
                       }
                     },
                     {
                       "count": 5,
-                      "id": "styles",
-                      "percentageQuestion": 3.42,
-                      "percentageSurvey": 0.14,
+                      "id": "unusable",
+                      "index": 8,
+                      "percentageQuestion": 5.49,
+                      "percentageSurvey": 0.33,
                       "entity": {
-                        "name": "Styles",
-                        "nameClean": "Styles",
-                        "id": "styles",
+                        "name": "Unusable",
+                        "nameClean": "Unusable",
+                        "id": "unusable",
                         "entityType": "default"
                       }
                     },
                     {
-                      "count": 5,
-                      "id": "web_devtools_parity",
-                      "percentageQuestion": 3.42,
-                      "percentageSurvey": 0.14,
-                      "entity": {
-                        "name": "Web devtools parity",
-                        "nameClean": "Web devtools parity",
-                        "id": "web_devtools_parity",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 3355,
+                      "count": 1434,
                       "id": "no_answer",
+                      "index": 9,
                       "percentageQuestion": 0,
-                      "percentageSurvey": 95.83
+                      "percentageSurvey": 94.03
                     },
                     {
-                      "count": 85,
+                      "count": 73,
                       "id": "other_answers",
-                      "percentageQuestion": 58.17,
-                      "percentageSurvey": 2.45,
+                      "index": 10,
+                      "percentageQuestion": 80.27,
+                      "percentageSurvey": 4.82,
                       "groupedBuckets": [
                         {
-                          "count": 37,
+                          "count": 42,
                           "id": "cutoff_answers",
-                          "percentageQuestion": 25.29,
-                          "percentageSurvey": 1.08
+                          "percentageQuestion": 46.2,
+                          "percentageSurvey": 2.79
                         },
                         {
-                          "count": 48,
+                          "count": 31,
                           "id": "no_match",
-                          "percentageQuestion": 32.88,
-                          "percentageSurvey": 1.37
+                          "percentageQuestion": 34.07,
+                          "percentageSurvey": 2.03
                         }
                       ]
                     }

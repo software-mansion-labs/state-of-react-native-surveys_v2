@@ -5,103 +5,223 @@
         "rn2025": {
           "opinions": {
             "opinions_missing_multiple": {
-              "responses": {
+              "id": "opinions_missing_multiple",
+              "combined": {
                 "currentEdition": {
+                  "_metadata": {
+                    "axis1Sort": {
+                      "property": "count",
+                      "order": "desc"
+                    },
+                    "limit": 50,
+                    "cutoff": 4
+                  },
                   "completion": {
-                    "count": 1574,
-                    "percentageSurvey": 44.96,
-                    "total": 3501
+                    "count": 194,
+                    "percentageSurvey": 12.72,
+                    "total": 1525
                   },
                   "buckets": [
                     {
-                      "count": 846,
-                      "id": "opinions_missing_multiple_better_debugging",
-                      "percentageQuestion": 53.75,
-                      "percentageSurvey": 24.16
+                      "count": 43,
+                      "id": "native_features",
+                      "index": 0,
+                      "percentageQuestion": 22.16,
+                      "percentageSurvey": 2.82,
+                      "entity": {
+                        "name": "Native features",
+                        "nameClean": "Native features",
+                        "description": "Requests for more native features and modules",
+                        "descriptionClean": "Requests for more native features and modules",
+                        "id": "native_features",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 702,
-                      "id": "opinions_missing_multiple_better_keyboard_handling",
-                      "percentageQuestion": 44.6,
-                      "percentageSurvey": 20.05
+                      "count": 32,
+                      "id": "ui_styling_and_animations",
+                      "index": 1,
+                      "percentageQuestion": 16.49,
+                      "percentageSurvey": 2.1,
+                      "entity": {
+                        "name": "Better UI solutions",
+                        "nameClean": "Better UI solutions",
+                        "description": "Requests for better styling solutions and libraries.",
+                        "descriptionClean": "Requests for better styling solutions and libraries.",
+                        "id": "ui_styling_and_animations",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 567,
-                      "id": "opinions_missing_multiple_better_flatlist",
-                      "percentageQuestion": 36.02,
-                      "percentageSurvey": 16.2
+                      "count": 29,
+                      "id": "performance_and_threading",
+                      "index": 2,
+                      "percentageQuestion": 14.95,
+                      "percentageSurvey": 1.9,
+                      "entity": {
+                        "name": "Performance",
+                        "nameClean": "Performance",
+                        "description": "Requests for multi-threading, worklets, and lighter bundle sizes.",
+                        "descriptionClean": "Requests for multi-threading, worklets, and lighter bundle sizes.",
+                        "id": "performance_and_threading",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 518,
-                      "id": "opinions_missing_multiple_better_performance",
-                      "percentageQuestion": 32.91,
-                      "percentageSurvey": 14.8
+                      "count": 26,
+                      "id": "libraries",
+                      "index": 3,
+                      "percentageQuestion": 13.4,
+                      "percentageSurvey": 1.7,
+                      "entity": {
+                        "name": "Missing libraries",
+                        "nameClean": "Missing libraries",
+                        "description": "Missing good libraries",
+                        "descriptionClean": "Missing good libraries",
+                        "id": "libraries",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 504,
-                      "id": "opinions_missing_multiple_better_profiling",
-                      "percentageQuestion": 32.02,
-                      "percentageSurvey": 14.4
+                      "count": 18,
+                      "id": "cross_platform_expansion",
+                      "index": 4,
+                      "percentageQuestion": 9.28,
+                      "percentageSurvey": 1.18,
+                      "entity": {
+                        "name": "Improved cross-platform support",
+                        "nameClean": "Improved cross-platform support",
+                        "description": "Requests for better support on Web, Windows, MacOS, TV, and WatchOS.",
+                        "descriptionClean": "Requests for better support on Web, Windows, MacOS, TV, and WatchOS.",
+                        "id": "cross_platform_expansion",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 502,
-                      "id": "opinions_missing_multiple_first_party_libraries",
-                      "percentageQuestion": 31.89,
-                      "percentageSurvey": 14.34
+                      "count": 17,
+                      "id": "android_features",
+                      "index": 5,
+                      "percentageQuestion": 8.76,
+                      "percentageSurvey": 1.11,
+                      "entity": {
+                        "name": "Android features",
+                        "nameClean": "Android features",
+                        "description": "Requests for Android features and attention.",
+                        "descriptionClean": "Requests for Android features and attention.",
+                        "id": "android_features",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 484,
-                      "id": "opinions_missing_multiple_multithreading",
-                      "percentageQuestion": 30.75,
-                      "percentageSurvey": 13.82
+                      "count": 17,
+                      "id": "debugging_and_profiling",
+                      "index": 6,
+                      "percentageQuestion": 8.76,
+                      "percentageSurvey": 1.11,
+                      "entity": {
+                        "name": "Debugging and profiling",
+                        "nameClean": "Debugging and profiling",
+                        "description": "Requests for better debugging tools, network inspection, and performance profiling.",
+                        "descriptionClean": "Requests for better debugging tools, network inspection, and performance profiling.",
+                        "id": "debugging_and_profiling",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 392,
-                      "id": "opinions_missing_multiple_better_animations_gestures",
-                      "percentageQuestion": 24.9,
-                      "percentageSurvey": 11.2
+                      "count": 15,
+                      "id": "standard_library_and_official_solutions",
+                      "index": 7,
+                      "percentageQuestion": 7.73,
+                      "percentageSurvey": 0.98,
+                      "entity": {
+                        "name": "Standarized solutions",
+                        "nameClean": "Standarized solutions",
+                        "description": "Requests for official, built-in solutions (Navigation, Router, State Management) to reduce fragmentation.",
+                        "descriptionClean": "Requests for official, built-in solutions (Navigation, Router, State Management) to reduce fragmentation.",
+                        "id": "standard_library_and_official_solutions",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 365,
-                      "id": "opinions_missing_multiple_css_features",
-                      "percentageQuestion": 23.19,
-                      "percentageSurvey": 10.43
+                      "count": 12,
+                      "id": "native_language_support",
+                      "index": 8,
+                      "percentageQuestion": 6.19,
+                      "percentageSurvey": 0.79,
+                      "entity": {
+                        "name": "Native support",
+                        "nameClean": "Native support",
+                        "description": "Requests for better support of native segments.",
+                        "descriptionClean": "Requests for better support of native segments.",
+                        "id": "native_language_support",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 361,
-                      "id": "opinions_missing_multiple_better_testing",
-                      "percentageQuestion": 22.94,
-                      "percentageSurvey": 10.31
+                      "count": 10,
+                      "id": "documentation_and_guides",
+                      "index": 9,
+                      "percentageQuestion": 5.15,
+                      "percentageSurvey": 0.66,
+                      "entity": {
+                        "name": "Documentation",
+                        "nameClean": "Documentation",
+                        "description": "Requests for better docs on advanced topics (Native Modules, Architecture).",
+                        "descriptionClean": "Requests for better docs on advanced topics (Native Modules, Architecture).",
+                        "id": "documentation_and_guides",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 310,
-                      "id": "opinions_missing_multiple_better_web_compatibility",
-                      "percentageQuestion": 19.7,
-                      "percentageSurvey": 8.85
+                      "count": 7,
+                      "id": "routing_navigation",
+                      "index": 10,
+                      "percentageQuestion": 3.61,
+                      "percentageSurvey": 0.46,
+                      "entity": {
+                        "name": "Routing and navigation",
+                        "nameClean": "Routing and navigation",
+                        "description": "Requests for better routing and navigation solutions.",
+                        "descriptionClean": "Requests for better routing and navigation solutions.",
+                        "id": "routing_navigation",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 292,
-                      "id": "opinions_missing_multiple_swiftui_jetpack_compose_integration",
-                      "percentageQuestion": 18.55,
-                      "percentageSurvey": 8.34
+                      "count": 4,
+                      "id": "ios_features",
+                      "index": 11,
+                      "percentageQuestion": 2.06,
+                      "percentageSurvey": 0.26,
+                      "entity": {
+                        "name": "iOS features",
+                        "nameClean": "iOS features",
+                        "description": "Requests for iOS features and attention.",
+                        "descriptionClean": "Requests for iOS features and attention.",
+                        "id": "ios_features",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 291,
-                      "id": "opinions_missing_multiple_better_documentation",
-                      "percentageQuestion": 18.49,
-                      "percentageSurvey": 8.31
+                      "count": 7,
+                      "id": "cutoff_answers",
+                      "index": 12,
+                      "percentageQuestion": 3.62,
+                      "percentageSurvey": 0.47
                     },
                     {
-                      "count": 259,
-                      "id": "opinions_missing_multiple_fetch_stream_support",
-                      "percentageQuestion": 16.45,
-                      "percentageSurvey": 7.4
+                      "count": 73,
+                      "id": "no_match",
+                      "index": 13,
+                      "percentageQuestion": 37.63,
+                      "percentageSurvey": 4.79
                     },
                     {
-                      "count": 1918,
+                      "count": 1331,
                       "id": "no_answer",
+                      "index": 14,
                       "percentageQuestion": 0,
-                      "percentageSurvey": 54.78
+                      "percentageSurvey": 87.28
                     }
                   ]
                 }

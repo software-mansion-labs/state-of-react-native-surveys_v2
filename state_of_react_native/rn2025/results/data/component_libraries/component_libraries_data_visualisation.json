@@ -5,22 +5,32 @@
         "rn2025": {
           "component_libraries": {
             "component_libraries_data_visualisation": {
+              "id": "component_libraries_data_visualisation",
               "combined": {
                 "currentEdition": {
+                  "_metadata": {
+                    "axis1Sort": {
+                      "property": "count",
+                      "order": "desc"
+                    },
+                    "limit": 50,
+                    "cutoff": 5
+                  },
                   "completion": {
-                    "count": 1465,
-                    "percentageSurvey": 41.85,
-                    "total": 3501
+                    "count": 763,
+                    "percentageSurvey": 50.03,
+                    "total": 1525
                   },
                   "buckets": [
                     {
-                      "count": 1283,
+                      "count": 646,
                       "id": "component_libraries_data_visualisation_react_native_svg",
-                      "percentageQuestion": 87.58,
-                      "percentageSurvey": 36.65,
+                      "index": 0,
+                      "percentageQuestion": 84.67,
+                      "percentageSurvey": 42.36,
                       "entity": {
-                        "name": "react-native-svg",
-                        "nameClean": "react-native-svg",
+                        "name": "React Native SVG",
+                        "nameClean": "React Native SVG",
                         "description": "SVG library for React Native, React Native Web, and plain React web projects.",
                         "descriptionClean": "SVG library for React Native, React Native Web, and plain React web projects.",
                         "id": "component_libraries_data_visualisation_react_native_svg",
@@ -32,14 +42,41 @@
                           "url": "https://www.npmjs.com/package/react-native-svg"
                         }
                       },
+                      "percentagePositive": 16,
+                      "percentageNegative": 1
+                    },
+                    {
+                      "count": 367,
+                      "id": "animations_skia",
+                      "index": 1,
+                      "percentageQuestion": 48.1,
+                      "percentageSurvey": 24.07,
+                      "entity": {
+                        "name": "React Native Skia",
+                        "nameClean": "React Native Skia",
+                        "description": "High-performance React Native Graphics using Skia (2D graphics engine).",
+                        "descriptionClean": "High-performance React Native Graphics using Skia (2D graphics engine).",
+                        "id": "animations_skia",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://shopify.github.io/react-native-skia/"
+                        },
+                        "github": {
+                          "url": "https://github.com/Shopify/react-native-skia"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/@shopify/react-native-skia"
+                        }
+                      },
                       "percentagePositive": 18,
                       "percentageNegative": 1
                     },
                     {
-                      "count": 409,
+                      "count": 203,
                       "id": "component_libraries_data_visualisation_victory_native",
-                      "percentageQuestion": 27.92,
-                      "percentageSurvey": 11.68,
+                      "index": 2,
+                      "percentageQuestion": 26.61,
+                      "percentageSurvey": 13.31,
                       "entity": {
                         "name": "Victory Native",
                         "nameClean": "Victory Native",
@@ -57,14 +94,41 @@
                           "url": "https://www.npmjs.com/package/victory-native"
                         }
                       },
-                      "percentagePositive": 20,
+                      "percentagePositive": 15,
+                      "percentageNegative": 7
+                    },
+                    {
+                      "count": 141,
+                      "id": "component_libraries_data_visualisation_react_native_gifted_charts",
+                      "index": 3,
+                      "percentageQuestion": 18.48,
+                      "percentageSurvey": 9.25,
+                      "entity": {
+                        "name": "React Native Gifted Charts",
+                        "nameClean": "React Native Gifted Charts",
+                        "description": "A fast and flexible charts library for React Native.",
+                        "descriptionClean": "A fast and flexible charts library for React Native.",
+                        "id": "component_libraries_data_visualisation_react_native_gifted_charts",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://github.com/n4kz/react-native-gifted-charts"
+                        },
+                        "github": {
+                          "url": "https://github.com/n4kz/react-native-gifted-charts"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/react-native-gifted-charts"
+                        }
+                      },
+                      "percentagePositive": 11,
                       "percentageNegative": 6
                     },
                     {
-                      "count": 312,
+                      "count": 126,
                       "id": "component_libraries_data_visualisation_react_native_charts_kit",
-                      "percentageQuestion": 21.3,
-                      "percentageSurvey": 8.91,
+                      "index": 4,
+                      "percentageQuestion": 16.51,
+                      "percentageSurvey": 8.26,
                       "entity": {
                         "name": "React Native Charts Kit",
                         "nameClean": "React Native Charts Kit",
@@ -79,104 +143,37 @@
                           "url": "https://www.npmjs.com/package/react-native-chart-kit"
                         }
                       },
-                      "percentagePositive": 13,
-                      "percentageNegative": 4
-                    },
-                    {
-                      "count": 251,
-                      "id": "component_libraries_data_visualisation_recharts",
-                      "percentageQuestion": 17.13,
-                      "percentageSurvey": 7.17,
-                      "entity": {
-                        "name": "Recharts",
-                        "nameClean": "Recharts",
-                        "description": "Redefined chart library built with React and D3.",
-                        "descriptionClean": "Redefined chart library built with React and D3.",
-                        "id": "component_libraries_data_visualisation_recharts",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://recharts.org/en-US/"
-                        },
-                        "github": {
-                          "url": "https://github.com/recharts/recharts"
-                        },
-                        "npm": {
-                          "url": "https://www.npmjs.com/package/recharts"
-                        }
-                      },
-                      "percentagePositive": 14,
+                      "percentagePositive": 10,
                       "percentageNegative": 2
                     },
                     {
-                      "count": 23,
-                      "id": "gifted_charts",
-                      "percentageQuestion": 1.57,
-                      "percentageSurvey": 0.66,
-                      "isFreeformData": true,
-                      "entity": {
-                        "name": "react-native-gifted-charts",
-                        "nameClean": "react-native-gifted-charts",
-                        "id": "gifted_charts",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 18,
-                      "id": "react_native_skia",
-                      "percentageQuestion": 1.23,
-                      "percentageSurvey": 0.51,
-                      "isFreeformData": true,
-                      "entity": {
-                        "name": "react-native-skia",
-                        "nameClean": "react-native-skia",
-                        "id": "react_native_skia",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 13,
-                      "id": "echarts",
-                      "percentageQuestion": 0.89,
-                      "percentageSurvey": 0.37,
-                      "isFreeformData": true,
-                      "entity": {
-                        "name": "react-native-echarts",
-                        "nameClean": "react-native-echarts",
-                        "id": "echarts",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 9,
-                      "id": "d3",
-                      "percentageQuestion": 0.61,
-                      "percentageSurvey": 0.26,
-                      "isFreeformData": true,
-                      "entity": {
-                        "name": "D3.js",
-                        "nameClean": "D3.js",
-                        "id": "d3",
-                        "entityType": "default"
-                      }
-                    },
-                    {
                       "count": 6,
-                      "id": "react_native_charts_wrapper",
-                      "percentageQuestion": 0.41,
-                      "percentageSurvey": 0.17,
+                      "id": "component_libraries_data_visualisation_echarts",
+                      "index": 5,
+                      "percentageQuestion": 0.79,
+                      "percentageSurvey": 0.39,
                       "isFreeformData": true,
                       "entity": {
-                        "name": "react-native-charts-wrapper",
-                        "nameClean": "react-native-charts-wrapper",
-                        "id": "react_native_charts_wrapper",
-                        "entityType": "default"
+                        "name": "Echarts",
+                        "nameClean": "Echarts",
+                        "description": "An awesome charting library for React Native.",
+                        "descriptionClean": "An awesome charting library for React Native.",
+                        "id": "component_libraries_data_visualisation_echarts",
+                        "entityType": "library",
+                        "github": {
+                          "url": "https://github.com/wuba/react-native-echarts"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/@wuba/react-native-echarts"
+                        }
                       }
                     },
                     {
-                      "count": 18,
+                      "count": 19,
                       "id": "other_answers",
-                      "percentageQuestion": 1.24,
-                      "percentageSurvey": 0.52
+                      "index": 6,
+                      "percentageQuestion": 2.48,
+                      "percentageSurvey": 1.25
                     }
                   ]
                 }

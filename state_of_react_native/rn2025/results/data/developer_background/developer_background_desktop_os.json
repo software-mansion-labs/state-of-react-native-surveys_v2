@@ -1,0 +1,70 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2025": {
+          "developer_background": {
+            "developer_background_desktop_os": {
+              "id": "developer_background_desktop_os",
+              "combined": {
+                "currentEdition": {
+                  "_metadata": {
+                    "axis1Sort": {
+                      "property": "count",
+                      "order": "desc"
+                    },
+                    "limit": 50,
+                    "cutoff": 1
+                  },
+                  "completion": {
+                    "count": 1470,
+                    "percentageSurvey": 96.39,
+                    "total": 1525
+                  },
+                  "buckets": [
+                    {
+                      "count": 1261,
+                      "id": "developer_background_desktop_os_macos",
+                      "index": 0,
+                      "percentageQuestion": 85.78,
+                      "percentageSurvey": 82.69
+                    },
+                    {
+                      "count": 267,
+                      "id": "developer_background_desktop_os_windows",
+                      "index": 1,
+                      "percentageQuestion": 18.16,
+                      "percentageSurvey": 17.51
+                    },
+                    {
+                      "count": 148,
+                      "id": "developer_background_desktop_os_linux",
+                      "index": 2,
+                      "percentageQuestion": 10.07,
+                      "percentageSurvey": 9.7
+                    },
+                    {
+                      "count": 4,
+                      "id": "no_match",
+                      "index": 3,
+                      "percentageQuestion": 0.27,
+                      "percentageSurvey": 0.26,
+                      "isFreeformData": true
+                    },
+                    {
+                      "count": 55,
+                      "id": "no_answer",
+                      "index": 4,
+                      "percentageQuestion": 0,
+                      "percentageSurvey": 3.61
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

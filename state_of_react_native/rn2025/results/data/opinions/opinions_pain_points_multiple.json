@@ -5,175 +5,363 @@
         "rn2025": {
           "opinions": {
             "opinions_pain_points_multiple": {
-              "responses": {
+              "id": "opinions_pain_points_multiple",
+              "combined": {
                 "currentEdition": {
+                  "_metadata": {
+                    "axis1Sort": {
+                      "property": "count",
+                      "order": "desc"
+                    },
+                    "limit": 50,
+                    "cutoff": 7
+                  },
                   "completion": {
-                    "count": 1657,
-                    "percentageSurvey": 47.33,
-                    "total": 3501
+                    "count": 260,
+                    "percentageSurvey": 17.05,
+                    "total": 1525
                   },
                   "buckets": [
                     {
-                      "count": 822,
-                      "id": "opinions_pain_points_multiple_unmaintained_packages",
-                      "percentageQuestion": 49.61,
-                      "percentageSurvey": 23.48
+                      "count": 82,
+                      "id": "ecosystem_and_dependencies",
+                      "index": 0,
+                      "percentageQuestion": 31.54,
+                      "percentageSurvey": 5.38,
+                      "entity": {
+                        "name": "Ecosystem and dependencies",
+                        "nameClean": "Ecosystem and dependencies",
+                        "description": "Issues with third-party libraries being unmaintained, abandoned, or fragmented.",
+                        "descriptionClean": "Issues with third-party libraries being unmaintained, abandoned, or fragmented.",
+                        "id": "ecosystem_and_dependencies",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 782,
-                      "id": "opinions_pain_points_multiple_debugging",
-                      "percentageQuestion": 47.19,
-                      "percentageSurvey": 22.34
+                      "count": 38,
+                      "id": "version_updates",
+                      "index": 1,
+                      "percentageQuestion": 14.62,
+                      "percentageSurvey": 2.49,
+                      "entity": {
+                        "name": "Version changes",
+                        "nameClean": "Version changes",
+                        "description": "Breaking changes and other updating issues",
+                        "descriptionClean": "Breaking changes and other updating issues",
+                        "id": "version_updates",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 641,
-                      "id": "opinions_pain_points_multiple_keyboard_handling",
-                      "percentageQuestion": 38.68,
-                      "percentageSurvey": 18.31
+                      "count": 36,
+                      "id": "build_tooling",
+                      "index": 2,
+                      "percentageQuestion": 13.85,
+                      "percentageSurvey": 2.36,
+                      "entity": {
+                        "name": "Building",
+                        "nameClean": "Building",
+                        "description": "Issues with build times, Xcode, Gradle, and compilation.",
+                        "descriptionClean": "Issues with build times, Xcode, Gradle, and compilation.",
+                        "id": "build_tooling",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 577,
-                      "id": "opinions_pain_points_multiple_unusable_error_messages",
-                      "percentageQuestion": 34.82,
-                      "percentageSurvey": 16.48
+                      "count": 35,
+                      "id": "upgrades_and_maintenance",
+                      "index": 3,
+                      "percentageQuestion": 13.46,
+                      "percentageSurvey": 2.3,
+                      "entity": {
+                        "name": "Upgrades and maintenance",
+                        "nameClean": "Upgrades and maintenance",
+                        "description": "Pain points related to upgrading RN versions, breaking changes, and version mismatch.",
+                        "descriptionClean": "Pain points related to upgrading RN versions, breaking changes, and version mismatch.",
+                        "id": "upgrades_and_maintenance",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 565,
-                      "id": "opinions_pain_points_multiple_dealing_with_native_code",
-                      "percentageQuestion": 34.1,
-                      "percentageSurvey": 16.14
+                      "count": 34,
+                      "id": "android_experience",
+                      "index": 4,
+                      "percentageQuestion": 13.08,
+                      "percentageSurvey": 2.23,
+                      "entity": {
+                        "name": "Android experience",
+                        "nameClean": "Android experience",
+                        "description": "Specific complaints about Android development, emulators, and fragmentation.",
+                        "descriptionClean": "Specific complaints about Android development, emulators, and fragmentation.",
+                        "id": "android_experience",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 538,
-                      "id": "opinions_pain_points_multiple_build_times",
-                      "percentageQuestion": 32.47,
-                      "percentageSurvey": 15.37
+                      "count": 30,
+                      "id": "expo_specifics",
+                      "index": 5,
+                      "percentageQuestion": 11.54,
+                      "percentageSurvey": 1.97,
+                      "entity": {
+                        "name": "Expo",
+                        "nameClean": "Expo",
+                        "description": "Complaints specifically about Expo, EAS, or lock-in.",
+                        "descriptionClean": "Complaints specifically about Expo, EAS, or lock-in.",
+                        "id": "expo_specifics",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 499,
-                      "id": "opinions_pain_points_multiple_platforms_inconsistencies",
-                      "percentageQuestion": 30.11,
-                      "percentageSurvey": 14.25
+                      "count": 29,
+                      "id": "performance",
+                      "index": 6,
+                      "percentageQuestion": 11.15,
+                      "percentageSurvey": 1.9,
+                      "entity": {
+                        "name": "Performance",
+                        "nameClean": "Performance",
+                        "description": "Performance issues",
+                        "descriptionClean": "Performance issues",
+                        "id": "performance",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 497,
-                      "id": "opinions_pain_points_multiple_reliance_on_third_party_modules",
-                      "percentageQuestion": 29.99,
-                      "percentageSurvey": 14.2
+                      "count": 28,
+                      "id": "debugging",
+                      "index": 7,
+                      "percentageQuestion": 10.77,
+                      "percentageSurvey": 1.84,
+                      "entity": {
+                        "name": "Debugging",
+                        "nameClean": "Debugging",
+                        "id": "debugging",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 475,
-                      "id": "opinions_pain_points_multiple_end_to_end_testing",
-                      "percentageQuestion": 28.67,
-                      "percentageSurvey": 13.57
+                      "count": 26,
+                      "id": "ui_styling_navigation",
+                      "index": 8,
+                      "percentageQuestion": 10,
+                      "percentageSurvey": 1.7,
+                      "entity": {
+                        "name": "UI",
+                        "nameClean": "UI",
+                        "description": "Issues with styling, layout, keyboard handling, and navigation.",
+                        "descriptionClean": "Issues with styling, layout, keyboard handling, and navigation.",
+                        "id": "ui_styling_navigation",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 472,
-                      "id": "opinions_pain_points_multiple_upgrades",
-                      "percentageQuestion": 28.49,
-                      "percentageSurvey": 13.48
+                      "count": 24,
+                      "id": "ios_experience",
+                      "index": 9,
+                      "percentageQuestion": 9.23,
+                      "percentageSurvey": 1.57,
+                      "entity": {
+                        "name": "iOS experience",
+                        "nameClean": "iOS experience",
+                        "description": "Specific complaints about iOS development, simulators.",
+                        "descriptionClean": "Specific complaints about iOS development, simulators.",
+                        "id": "ios_experience",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 445,
-                      "id": "opinions_pain_points_multiple_performance",
-                      "percentageQuestion": 26.86,
-                      "percentageSurvey": 12.71
+                      "count": 20,
+                      "id": "bugs_and_stability_issues",
+                      "index": 10,
+                      "percentageQuestion": 7.69,
+                      "percentageSurvey": 1.31,
+                      "entity": {
+                        "name": "Bugs and stability issues",
+                        "nameClean": "Bugs and stability issues",
+                        "id": "bugs_and_stability_issues",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 396,
-                      "id": "opinions_pain_points_multiple_app_building",
-                      "percentageQuestion": 23.9,
-                      "percentageSurvey": 11.31
+                      "count": 19,
+                      "id": "web_support",
+                      "index": 11,
+                      "percentageQuestion": 7.31,
+                      "percentageSurvey": 1.25,
+                      "entity": {
+                        "name": "Web support",
+                        "nameClean": "Web support",
+                        "description": "Issues with React Native Web parity and support.",
+                        "descriptionClean": "Issues with React Native Web parity and support.",
+                        "id": "web_support",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 382,
-                      "id": "opinions_pain_points_multiple_app_deployment",
-                      "percentageQuestion": 23.05,
-                      "percentageSurvey": 10.91
+                      "count": 16,
+                      "id": "native_interop",
+                      "index": 12,
+                      "percentageQuestion": 6.15,
+                      "percentageSurvey": 1.05,
+                      "entity": {
+                        "name": "Native code",
+                        "nameClean": "Native code",
+                        "description": "Difficulty writing native code, bridging, and dealing with native modules.",
+                        "descriptionClean": "Difficulty writing native code, bridging, and dealing with native modules.",
+                        "id": "native_interop",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 343,
-                      "id": "opinions_pain_points_multiple_code_sharing_with_web",
-                      "percentageQuestion": 20.7,
-                      "percentageSurvey": 9.8
+                      "count": 15,
+                      "id": "error_handling",
+                      "index": 13,
+                      "percentageQuestion": 5.77,
+                      "percentageSurvey": 0.98,
+                      "entity": {
+                        "name": "Error handling",
+                        "nameClean": "Error handling",
+                        "id": "error_handling",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 320,
-                      "id": "opinions_pain_points_multiple_styling_limitations",
-                      "percentageQuestion": 19.31,
-                      "percentageSurvey": 9.14
+                      "count": 15,
+                      "id": "maintenance",
+                      "index": 14,
+                      "percentageQuestion": 5.77,
+                      "percentageSurvey": 0.98,
+                      "entity": {
+                        "name": "Maintenance",
+                        "nameClean": "Maintenance",
+                        "id": "maintenance",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 282,
-                      "id": "opinions_pain_points_multiple_graphics_and_animations",
-                      "percentageQuestion": 17.02,
-                      "percentageSurvey": 8.05
+                      "count": 15,
+                      "id": "new_architecture",
+                      "index": 15,
+                      "percentageQuestion": 5.77,
+                      "percentageSurvey": 0.98,
+                      "entity": {
+                        "name": "New architecture",
+                        "nameClean": "New architecture",
+                        "description": "Friction related to the New Architecture (Fabric, TurboModules).",
+                        "descriptionClean": "Friction related to the New Architecture (Fabric, TurboModules).",
+                        "id": "new_architecture",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 280,
-                      "id": "opinions_pain_points_multiple_bundle_size",
-                      "percentageQuestion": 16.9,
-                      "percentageSurvey": 8
+                      "count": 13,
+                      "id": "cross_platform_compatibility",
+                      "index": 16,
+                      "percentageQuestion": 5,
+                      "percentageSurvey": 0.85,
+                      "entity": {
+                        "name": "Cross-platform compatibility",
+                        "nameClean": "Cross-platform compatibility",
+                        "id": "cross_platform_compatibility",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 278,
-                      "id": "opinions_pain_points_multiple_pain_monorepos",
-                      "percentageQuestion": 16.78,
-                      "percentageSurvey": 7.94
+                      "count": 13,
+                      "id": "excessive_complexity",
+                      "index": 17,
+                      "percentageQuestion": 5,
+                      "percentageSurvey": 0.85,
+                      "entity": {
+                        "name": "Excessive complexity",
+                        "nameClean": "Excessive complexity",
+                        "description": "Too much complexity",
+                        "descriptionClean": "Too much complexity",
+                        "id": "excessive_complexity",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 266,
-                      "id": "opinions_pain_points_multiple_new_architecture",
-                      "percentageQuestion": 16.05,
-                      "percentageSurvey": 7.6
+                      "count": 8,
+                      "id": "dev_tools",
+                      "index": 18,
+                      "percentageQuestion": 3.08,
+                      "percentageSurvey": 0.52,
+                      "entity": {
+                        "name": "Developer tools",
+                        "nameClean": "Developer tools",
+                        "description": "Developer experience tools.",
+                        "descriptionClean": "Developer experience tools.",
+                        "id": "dev_tools",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 259,
-                      "id": "opinions_pain_points_multiple_managing_secrets",
-                      "percentageQuestion": 15.63,
-                      "percentageSurvey": 7.4
+                      "count": 8,
+                      "id": "lack_of_documentation",
+                      "index": 19,
+                      "percentageQuestion": 3.08,
+                      "percentageSurvey": 0.52,
+                      "entity": {
+                        "name": "Lack of documentation",
+                        "nameClean": "Lack of documentation",
+                        "description": "Lack of documentation or code examples",
+                        "descriptionClean": "Lack of documentation or code examples",
+                        "id": "lack_of_documentation",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 235,
-                      "id": "opinions_pain_points_multiple_navigation_solutions",
-                      "percentageQuestion": 14.18,
-                      "percentageSurvey": 6.71
+                      "count": 7,
+                      "id": "configuration",
+                      "index": 20,
+                      "percentageQuestion": 2.69,
+                      "percentageSurvey": 0.46,
+                      "entity": {
+                        "name": "Configuration",
+                        "nameClean": "Configuration",
+                        "description": "Difficulties with set-up and configuration",
+                        "descriptionClean": "Difficulties with set-up and configuration",
+                        "id": "configuration",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 220,
-                      "id": "opinions_pain_points_multiple_continuous_deployment",
-                      "percentageQuestion": 13.28,
-                      "percentageSurvey": 6.28
+                      "count": 7,
+                      "id": "speed_of_change",
+                      "index": 21,
+                      "percentageQuestion": 2.69,
+                      "percentageSurvey": 0.46,
+                      "entity": {
+                        "name": "Speed of change",
+                        "nameClean": "Speed of change",
+                        "description": "Features, libraries, and APIs changing too fast",
+                        "descriptionClean": "Features, libraries, and APIs changing too fast",
+                        "id": "speed_of_change",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 199,
-                      "id": "opinions_pain_points_multiple_stability",
-                      "percentageQuestion": 12.01,
-                      "percentageSurvey": 5.68
+                      "count": 35,
+                      "id": "cutoff_answers",
+                      "index": 22,
+                      "percentageQuestion": 13.42,
+                      "percentageSurvey": 2.33
                     },
                     {
-                      "count": 180,
-                      "id": "opinions_pain_points_multiple_documentation",
-                      "percentageQuestion": 10.86,
-                      "percentageSurvey": 5.14
+                      "count": 57,
+                      "id": "no_match",
+                      "index": 23,
+                      "percentageQuestion": 21.92,
+                      "percentageSurvey": 3.74
                     },
                     {
-                      "count": 138,
-                      "id": "opinions_pain_points_multiple_project_setup",
-                      "percentageQuestion": 8.33,
-                      "percentageSurvey": 3.94
-                    },
-                    {
-                      "count": 49,
-                      "id": "opinions_pain_points_multiple_setting_up_servers",
-                      "percentageQuestion": 2.96,
-                      "percentageSurvey": 1.4
-                    },
-                    {
-                      "count": 1838,
+                      "count": 1264,
                       "id": "no_answer",
+                      "index": 24,
                       "percentageQuestion": 0,
-                      "percentageSurvey": 52.5
+                      "percentageSurvey": 82.89
                     }
                   ]
                 }

@@ -1,0 +1,116 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2025": {
+          "react_native_architecture": {
+            "react_native_architecture_framework_usage": {
+              "id": "react_native_architecture_framework_usage",
+              "combined": {
+                "currentEdition": {
+                  "_metadata": {
+                    "axis1Sort": {
+                      "property": "count",
+                      "order": "desc"
+                    },
+                    "limit": 50,
+                    "cutoff": 1
+                  },
+                  "completion": {
+                    "count": 926,
+                    "percentageSurvey": 60.72,
+                    "total": 1525
+                  },
+                  "buckets": [
+                    {
+                      "count": 798,
+                      "id": "react_native_architecture_framework_usage_expo_cli",
+                      "index": 0,
+                      "percentageQuestion": 86.18,
+                      "percentageSurvey": 52.33,
+                      "entity": {
+                        "name": "Expo CLI",
+                        "nameClean": "Expo CLI",
+                        "description": "Command-line tool that is the primary interface between a developer and other Expo tools.",
+                        "descriptionClean": "Command-line tool that is the primary interface between a developer and other Expo tools.",
+                        "id": "react_native_architecture_framework_usage_expo_cli",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://docs.expo.dev/more/expo-cli/"
+                        },
+                        "github": {
+                          "url": "https://github.com/expo/expo/tree/main/packages/@expo/cli"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/@expo/cli"
+                        }
+                      },
+                      "percentagePositive": 24,
+                      "percentageNegative": 1
+                    },
+                    {
+                      "count": 442,
+                      "id": "react_native_architecture_framework_usage_react_native_cli",
+                      "index": 1,
+                      "percentageQuestion": 47.73,
+                      "percentageSurvey": 28.98,
+                      "entity": {
+                        "name": "React Native Community CLI",
+                        "nameClean": "React Native Community CLI",
+                        "description": "Command line tools that help you build apps with React Native.",
+                        "descriptionClean": "Command line tools that help you build apps with React Native.",
+                        "id": "react_native_architecture_framework_usage_react_native_cli",
+                        "entityType": "default",
+                        "github": {
+                          "url": "https://github.com/react-native-community/cli"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/@react-native-community/cli"
+                        }
+                      },
+                      "percentagePositive": 17,
+                      "percentageNegative": 2
+                    },
+                    {
+                      "count": 24,
+                      "id": "react_native_architecture_framework_usage_react_native_rock",
+                      "index": 2,
+                      "percentageQuestion": 2.59,
+                      "percentageSurvey": 1.57,
+                      "entity": {
+                        "name": "Rock",
+                        "nameClean": "Rock",
+                        "description": "Cross-platform React Native app development and build toolchain built for modularity, build reuse, and incremental adoption.",
+                        "descriptionClean": "Cross-platform React Native app development and build toolchain built for modularity, build reuse, and incremental adoption.",
+                        "id": "react_native_architecture_framework_usage_react_native_rock",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://www.rockjs.dev/"
+                        },
+                        "github": {
+                          "url": "https://github.com/callstackincubator/rock"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/rock"
+                        }
+                      },
+                      "percentagePositive": 33,
+                      "percentageNegative": 17
+                    },
+                    {
+                      "count": 1,
+                      "id": "other_answers",
+                      "index": 3,
+                      "percentageQuestion": 0.11,
+                      "percentageSurvey": 0.07
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

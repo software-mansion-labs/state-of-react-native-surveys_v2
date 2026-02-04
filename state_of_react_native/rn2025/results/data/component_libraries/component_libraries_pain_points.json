@@ -5,19 +5,29 @@
         "rn2025": {
           "component_libraries": {
             "component_libraries_pain_points": {
+              "id": "component_libraries_pain_points",
               "freeform": {
                 "currentEdition": {
+                  "_metadata": {
+                    "axis1Sort": {
+                      "property": "count",
+                      "order": "desc"
+                    },
+                    "limit": 20,
+                    "cutoff": 5
+                  },
                   "completion": {
-                    "count": 109,
-                    "percentageSurvey": 3.11,
-                    "total": 3501
+                    "count": 73,
+                    "percentageSurvey": 4.79,
+                    "total": 1525
                   },
                   "buckets": [
                     {
-                      "count": 19,
+                      "count": 12,
                       "id": "unusable",
-                      "percentageQuestion": 17.43,
-                      "percentageSurvey": 0.54,
+                      "index": 0,
+                      "percentageQuestion": 16.44,
+                      "percentageSurvey": 0.79,
                       "entity": {
                         "name": "Unusable",
                         "nameClean": "Unusable",
@@ -26,34 +36,24 @@
                       }
                     },
                     {
-                      "count": 15,
-                      "id": "list",
-                      "percentageQuestion": 13.76,
-                      "percentageSurvey": 0.43,
+                      "count": 10,
+                      "id": "customization",
+                      "index": 1,
+                      "percentageQuestion": 13.7,
+                      "percentageSurvey": 0.66,
                       "entity": {
-                        "name": "List",
-                        "nameClean": "List",
-                        "id": "list",
+                        "name": "Customization",
+                        "nameClean": "Customization",
+                        "id": "customization",
                         "entityType": "default"
                       }
                     },
                     {
-                      "count": 15,
-                      "id": "maintenance",
-                      "percentageQuestion": 13.76,
-                      "percentageSurvey": 0.43,
-                      "entity": {
-                        "name": "Maintenance",
-                        "nameClean": "Maintenance",
-                        "id": "maintenance",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 15,
+                      "count": 8,
                       "id": "performance",
-                      "percentageQuestion": 13.76,
-                      "percentageSurvey": 0.43,
+                      "index": 2,
+                      "percentageQuestion": 10.96,
+                      "percentageSurvey": 0.52,
                       "entity": {
                         "name": "Performance",
                         "nameClean": "Performance",
@@ -64,118 +64,56 @@
                       }
                     },
                     {
-                      "count": 12,
-                      "id": "customization",
-                      "percentageQuestion": 11.01,
-                      "percentageSurvey": 0.34,
-                      "entity": {
-                        "name": "Customization",
-                        "nameClean": "Customization",
-                        "id": "customization",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 9,
-                      "id": "cross_platform_consistency",
-                      "percentageQuestion": 8.26,
-                      "percentageSurvey": 0.26,
-                      "entity": {
-                        "name": "Cross platform support",
-                        "nameClean": "Cross platform support",
-                        "id": "cross_platform_consistency",
-                        "entityType": "default"
-                      }
-                    },
-                    {
                       "count": 7,
-                      "id": "excessive_complexity",
-                      "percentageQuestion": 6.42,
-                      "percentageSurvey": 0.2,
+                      "id": "shadcn_equivelent",
+                      "index": 3,
+                      "percentageQuestion": 9.59,
+                      "percentageSurvey": 0.46,
                       "entity": {
-                        "name": "Excessive complexity",
-                        "nameClean": "Excessive complexity",
-                        "description": "Too much complexity",
-                        "descriptionClean": "Too much complexity",
-                        "id": "excessive_complexity",
+                        "name": "No shadcn equivalent",
+                        "nameClean": "No shadcn equivalent",
+                        "id": "shadcn_equivelent",
                         "entityType": "default"
                       }
                     },
                     {
                       "count": 6,
-                      "id": "bottom_sheet",
-                      "percentageQuestion": 5.5,
-                      "percentageSurvey": 0.17,
+                      "id": "maintenance",
+                      "index": 4,
+                      "percentageQuestion": 8.22,
+                      "percentageSurvey": 0.39,
                       "entity": {
-                        "name": "Bottom sheet",
-                        "nameClean": "Bottom sheet",
-                        "id": "bottom_sheet",
+                        "name": "Maintenance",
+                        "nameClean": "Maintenance",
+                        "id": "maintenance",
                         "entityType": "default"
                       }
                     },
                     {
-                      "count": 6,
-                      "id": "debugging_in_general",
-                      "percentageQuestion": 5.5,
-                      "percentageSurvey": 0.17,
-                      "entity": {
-                        "name": "Debugging in general",
-                        "nameClean": "Debugging in general",
-                        "id": "debugging_in_general",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 6,
-                      "id": "version_updates",
-                      "percentageQuestion": 5.5,
-                      "percentageSurvey": 0.17,
-                      "entity": {
-                        "name": "Version changes",
-                        "nameClean": "Version changes",
-                        "description": "Breaking changes and other updating issues",
-                        "descriptionClean": "Breaking changes and other updating issues",
-                        "id": "version_updates",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 5,
-                      "id": "lack_of_documentation",
-                      "percentageQuestion": 4.59,
-                      "percentageSurvey": 0.14,
-                      "entity": {
-                        "name": "Lack of documentation",
-                        "nameClean": "Lack of documentation",
-                        "description": "Lack of documentation or code examples",
-                        "descriptionClean": "Lack of documentation or code examples",
-                        "id": "lack_of_documentation",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 3392,
+                      "count": 1452,
                       "id": "no_answer",
+                      "index": 5,
                       "percentageQuestion": 0,
-                      "percentageSurvey": 96.89
+                      "percentageSurvey": 95.21
                     },
                     {
-                      "count": 50,
+                      "count": 52,
                       "id": "other_answers",
-                      "percentageQuestion": 45.89,
-                      "percentageSurvey": 1.44,
+                      "index": 6,
+                      "percentageQuestion": 71.24,
+                      "percentageSurvey": 3.44,
                       "groupedBuckets": [
                         {
-                          "count": 21,
+                          "count": 27,
                           "id": "cutoff_answers",
-                          "percentageQuestion": 19.28,
-                          "percentageSurvey": 0.61
+                          "percentageQuestion": 36.99,
+                          "percentageSurvey": 1.8
                         },
                         {
-                          "count": 29,
+                          "count": 25,
                           "id": "no_match",
-                          "percentageQuestion": 26.61,
-                          "percentageSurvey": 0.83
+                          "percentageQuestion": 34.25,
+                          "percentageSurvey": 1.64
                         }
                       ]
                     }

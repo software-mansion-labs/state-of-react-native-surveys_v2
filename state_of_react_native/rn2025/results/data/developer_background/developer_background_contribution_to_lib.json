@@ -5,31 +5,43 @@
         "rn2025": {
           "developer_background": {
             "developer_background_contribution_to_lib": {
-              "responses": {
+              "id": "developer_background_contribution_to_lib",
+              "combined": {
                 "currentEdition": {
+                  "_metadata": {
+                    "axis1Sort": {
+                      "property": "options",
+                      "order": "desc"
+                    },
+                    "limit": 50,
+                    "cutoff": 1
+                  },
                   "completion": {
-                    "count": 3392,
-                    "percentageSurvey": 96.89,
-                    "total": 3501
+                    "count": 1470,
+                    "percentageSurvey": 96.39,
+                    "total": 1525
                   },
                   "buckets": [
                     {
-                      "count": 837,
+                      "count": 459,
                       "id": "answer_yes",
-                      "percentageQuestion": 24.68,
-                      "percentageSurvey": 23.91
+                      "index": 0,
+                      "percentageQuestion": 31.22,
+                      "percentageSurvey": 30.1
                     },
                     {
-                      "count": 2555,
+                      "count": 1011,
                       "id": "answer_no",
-                      "percentageQuestion": 75.32,
-                      "percentageSurvey": 72.98
+                      "index": 1,
+                      "percentageQuestion": 68.78,
+                      "percentageSurvey": 66.3
                     },
                     {
-                      "count": 109,
+                      "count": 55,
                       "id": "no_answer",
+                      "index": 2,
                       "percentageQuestion": 0,
-                      "percentageSurvey": 3.11
+                      "percentageSurvey": 3.61
                     }
                   ]
                 }

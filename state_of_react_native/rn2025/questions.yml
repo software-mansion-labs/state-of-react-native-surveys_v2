@@ -15,6 +15,7 @@
   questions:
     - id: developer_background_before
       template: multipleWithOther
+      matchTags: [developer_background_before_freeform]
       options:
         - id: developer_background_before_react
         - id: developer_background_before_ios
@@ -38,7 +39,7 @@
     # was: developer_background_primarily_system
     - id: developer_background_desktop_os
       template: multipleWithOther
-      
+
       options:
         - id: developer_background_desktop_os_macos
         - id: developer_background_desktop_os_linux
@@ -82,7 +83,7 @@
         - id: developer_background_target_platforms_carplay_androidauto
 
     - id: developer_background_main_daily_platforms
-    # yearAdded: 2024
+      # yearAdded: 2024
       template: multipleWithOtherSentiment
       options:
         - id: developer_background_main_daily_platforms_ios_device
@@ -123,6 +124,7 @@
     #     - id: developer_background_os_target_as_old_as_possible
 
     - id: developer_background_industry_sector
+      matchTags: [industry_sectors]
       template: multipleWithOther
       options:
         - id: developer_background_industry_sector_art_design
@@ -234,13 +236,12 @@
         - id: platform_apis_voice_recognition
 
     - id: platform_apis_pain_points
-      matchTags: [common_pain_points, platform_api_paint_points, react_features]
+      matchTags: [common_pain_points, platform_api_pain_points, react_features]
       # disallowedTokenIds: [state_management]
       template: textList
 
-
 # 2025: removed to shorten the survey, as this segment duplicates content from the State of React survey
-# 
+#
 # ######################################################
 # #########        STATE MANAGEMENT        #########
 # ######################################################
@@ -283,9 +284,8 @@
 #     - id: state_management_app_architecture_pattern_local_first
 #       template: featurev3
 
-
 # 2025: removed to shorten the survey, as this segment duplicates content from the State of React survey
-# 
+#
 # ######################################################
 # #########           DATA FETCHING            #########
 # ######################################################
@@ -443,7 +443,7 @@
         - id: component_libraries_data_visualisation_react_native_gifted_charts
         - id: animations_skia
         - id: component_libraries_data_visualisation_react_native_svg
-        # 2025: removed as its not compatible with React Native 
+        # 2025: removed as its not compatible with React Native
         # - id: component_libraries_data_visualisation_recharts
         - id: component_libraries_data_visualisation_victory_native
 
@@ -468,7 +468,8 @@
     #     - id: component_libraries_other_libraries_shopify_flash_list
 
     - id: component_libraries_pain_points
-      matchTags: [common_pain_points, component_libraries_pain_points, react_features]
+      matchTags:
+        [common_pain_points, component_libraries_pain_points, react_features]
       disallowedTokenIds: [component_libraries]
       template: textList
 
@@ -481,19 +482,20 @@
   slug: debugging_and_profiling
   questions:
     - id: debugging_and_profiling_clients_and_tools
+      matchTags: [debugging_and_profiling_clients_and_tools]
       template: multipleWithOtherSentiment
       options:
-      - id: debugging_profiling_react_native_devtools
-      # yearAdded: 2024
-      - id: debugging_profiling_reactotron
-      - id: debugging_profiling_radon_ide
-      # yearAdded: 2024
-      - id: debugging_profiling_rozenite
-      - id: debugging_profiling_native_debugging
-      - id: debugging_profiling_native_profiling
-      - id: debugging_profiling_expo_devtools_plugins
-      - id: debugging_profiling_flashlight
-      - id: debugging_profiling_expo_tools
+        - id: debugging_profiling_react_native_devtools
+        # yearAdded: 2024
+        - id: debugging_profiling_reactotron
+        - id: debugging_profiling_radon_ide
+        # yearAdded: 2024
+        - id: debugging_profiling_rozenite
+        - id: debugging_profiling_native_debugging
+        - id: debugging_profiling_native_profiling
+        - id: debugging_profiling_expo_devtools_plugins
+        - id: debugging_profiling_flashlight
+        - id: debugging_profiling_expo_tools
       # removed to focus on current tools as legacy options are now outdated
       # - id: debugging_profiling_legacy_javascript_hermes_debugging
       # removed due to a consistent downward trend in usage (as of 2025-09-01, ref: https://npmtrends.com/react-native-flipper)
@@ -529,7 +531,8 @@
     #     - id: debugging_profiling_intent_understand_3rd_party_libraries
 
     - id: debugging_profiling_pain_points
-      matchTags: [common_pain_points, debugging_profiling_pain_points, react_features]
+      matchTags:
+        [common_pain_points, debugging_profiling_pain_points, react_features]
       template: textList
 
 # ######################################################
@@ -587,7 +590,8 @@
         - id: testing_and_monitoring_crash_reporting_logrocket
 
     - id: testing_and_monitoring_pain_points
-      matchTags: [common_pain_points, testing_and_monitoring_pain_points, react_features]
+      matchTags:
+        [common_pain_points, testing_and_monitoring_pain_points, react_features]
       template: textList
 
 ######################################################
@@ -733,7 +737,8 @@
       template: textList
 
     - id: build_and_publish_pain_points
-      matchTags: [common_pain_points, build_and_publish_pain_points, react_features]
+      matchTags:
+        [common_pain_points, build_and_publish_pain_points, react_features]
       template: textList
 
 ######################################################
@@ -748,7 +753,7 @@
       template: slider
 
     - id: dev_tools_ai_generated_code_balance
-    # yearAdded: 2024
+      # yearAdded: 2024
       template: slider
 
     - id: dev_tools_package_managers
@@ -775,7 +780,7 @@
 
     - id: dev_tools_development_tools
       template: multipleWithOtherSentiment
-      options: 
+      options:
         - id: dev_tools_config_plugins
         - id: dev_tools_expo_dev_client
         - id: dev_tools_eas_cli
@@ -828,6 +833,7 @@
   slug: resources
   questions:
     - id: resources_learn_initially
+      matchTags: [sources, sites]
       template: multipleWithOtherSentiment
       options:
         - id: resources_learn_initially_ai_tools
@@ -845,6 +851,7 @@
         - id: resources_learn_initially_videos
 
     - id: resources_learn_more
+      matchTags: [sources, sites, people]
       template: multipleWithOtherSentiment
       options:
         - id: resources_learn_more_react_native_docs
@@ -876,6 +883,7 @@
         - id: resources_learn_more_ai_tools
 
     - id: resources_stay_up_to_date
+      matchTags: [sources, sites, people]
       template: multipleWithOtherSentiment
       options:
         - id: resources_stay_up_to_date_react_native_newsletter
@@ -906,7 +914,7 @@
     - id: resources_video_creators
       template: textList
       disallowedTokenIds: [twitter]
-      matchTags: [people]
+      matchTags: [people, podcasts]
 
     - id: resources_people
       template: textList
@@ -939,7 +947,7 @@
     - id: opinions_changing_too_fast
 
     - id: opinions_pain_points_multiple
-      matchTags: []
+      matchTags: [common_pain_points, react_native_pain_points]
       template: textList
 
     # - id: opinions_pain_points_multiple
@@ -971,9 +979,8 @@
     #     - id: opinions_pain_points_multiple_unmaintained_packages
     #     - id: opinions_pain_points_multiple_unusable_error_messages
     #     - id: opinions_pain_points_multiple_upgrades
-
     - id: opinions_missing_multiple
-      matchTags: []
+      matchTags: [react_native_missing]
       template: textList
       # options:
       #   - id: opinions_missing_multiple_better_animations_gestures
@@ -992,7 +999,7 @@
       #   - id: opinions_missing_multiple_swiftui_jetpack_compose_integration
 
     - id: opinions_advantages_multiple
-      matchTags: []
+      matchTags: [react_native_advantages]
       template: textList
       # options:
       #   - id: opinions_advantages_multiple_code_sharing
@@ -1069,6 +1076,7 @@
 
     - id: how_can_we_improve
       template: longtext
+
     - id: receive_notifications
       template: receive_notifications
 

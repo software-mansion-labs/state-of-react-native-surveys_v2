@@ -1,17 +1,30 @@
-query rn2025developerBackgroundBeforeQuery {
+query {
   surveys {
     state_of_react_native {
       rn2025 {
         developer_background {
-          developer_background_before {
-            responses(
+          developer_background_before: developer_background_before {
+            id
+            combined(
               parameters: {
                 showNoAnswer: true
                 mergeOtherBuckets: false
-                enableCache: false
+                cutoff: 5
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
                 completion {
                   count
                   percentageSurvey
@@ -24,6 +37,8 @@ query rn2025developerBackgroundBeforeQuery {
                 buckets {
                   count
                   id
+                  value
+                  index
                   percentageQuestion
                   percentageSurvey
                   isFreeformData
@@ -56,6 +71,12 @@ query rn2025developerBackgroundBeforeQuery {
                     twitter {
                       url
                     }
+                    bluesky {
+                      url
+                    }
+                    threads {
+                      url
+                    }
                     twitch {
                       url
                     }
@@ -74,9 +95,6 @@ query rn2025developerBackgroundBeforeQuery {
                     npm {
                       url
                     }
-                    bluesky {
-                      url
-                    }
                     mdn {
                       url
                     }
@@ -86,6 +104,27 @@ query rn2025developerBackgroundBeforeQuery {
                     resources {
                       url
                       title
+                    }
+                    webFeature {
+                      id
+                      description_html
+                      group
+                      name
+                      spec
+                      url
+                      status {
+                        baseline
+                        baseline_low_date
+                        support {
+                          chrome
+                          chrome_android
+                          edge
+                          firefox
+                          firefox_android
+                          safari
+                          safari_ios
+                        }
+                      }
                     }
                   }
                 }

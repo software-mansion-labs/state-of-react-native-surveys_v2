@@ -1,19 +1,31 @@
-query rn2025buildAndPublishOthersQuery {
+query {
   surveys {
     state_of_react_native {
       rn2025 {
         build_and_publish {
-          build_and_publish_others {
+          build_and_publish_others: build_and_publish_others {
+            id
             freeform(
               parameters: {
                 showNoAnswer: true
                 cutoff: 5
                 limit: 20
                 mergeOtherBuckets: true
-                enableCache: false
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
                 completion {
                   count
                   percentageSurvey
@@ -26,6 +38,8 @@ query rn2025buildAndPublishOthersQuery {
                 buckets {
                   count
                   id
+                  value
+                  index
                   percentageQuestion
                   percentageSurvey
                   isFreeformData
@@ -58,6 +72,12 @@ query rn2025buildAndPublishOthersQuery {
                     twitter {
                       url
                     }
+                    bluesky {
+                      url
+                    }
+                    threads {
+                      url
+                    }
                     twitch {
                       url
                     }
@@ -76,9 +96,6 @@ query rn2025buildAndPublishOthersQuery {
                     npm {
                       url
                     }
-                    bluesky {
-                      url
-                    }
                     mdn {
                       url
                     }
@@ -89,10 +106,33 @@ query rn2025buildAndPublishOthersQuery {
                       url
                       title
                     }
+                    webFeature {
+                      id
+                      description_html
+                      group
+                      name
+                      spec
+                      url
+                      status {
+                        baseline
+                        baseline_low_date
+                        support {
+                          chrome
+                          chrome_android
+                          edge
+                          firefox
+                          firefox_android
+                          safari
+                          safari_ios
+                        }
+                      }
+                    }
                   }
                   groupedBuckets {
                     count
                     id
+                    value
+                    index
                     percentageQuestion
                     percentageSurvey
                     isFreeformData
@@ -125,6 +165,12 @@ query rn2025buildAndPublishOthersQuery {
                       twitter {
                         url
                       }
+                      bluesky {
+                        url
+                      }
+                      threads {
+                        url
+                      }
                       twitch {
                         url
                       }
@@ -143,9 +189,6 @@ query rn2025buildAndPublishOthersQuery {
                       npm {
                         url
                       }
-                      bluesky {
-                        url
-                      }
                       mdn {
                         url
                       }
@@ -155,6 +198,27 @@ query rn2025buildAndPublishOthersQuery {
                       resources {
                         url
                         title
+                      }
+                      webFeature {
+                        id
+                        description_html
+                        group
+                        name
+                        spec
+                        url
+                        status {
+                          baseline
+                          baseline_low_date
+                          support {
+                            chrome
+                            chrome_android
+                            edge
+                            firefox
+                            firefox_android
+                            safari
+                            safari_ios
+                          }
+                        }
                       }
                     }
                   }

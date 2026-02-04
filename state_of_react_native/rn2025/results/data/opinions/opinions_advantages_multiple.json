@@ -5,133 +5,141 @@
         "rn2025": {
           "opinions": {
             "opinions_advantages_multiple": {
-              "responses": {
+              "id": "opinions_advantages_multiple",
+              "combined": {
                 "currentEdition": {
+                  "_metadata": {
+                    "axis1Sort": {
+                      "property": "count",
+                      "order": "desc"
+                    },
+                    "limit": 50,
+                    "cutoff": 1
+                  },
                   "completion": {
-                    "count": 1631,
-                    "percentageSurvey": 46.59,
-                    "total": 3501
+                    "count": 208,
+                    "percentageSurvey": 13.64,
+                    "total": 1525
                   },
                   "buckets": [
                     {
-                      "count": 1387,
-                      "id": "opinions_advantages_multiple_cross_platform",
-                      "percentageQuestion": 85.04,
-                      "percentageSurvey": 39.62
+                      "count": 94,
+                      "id": "easy_to_learn",
+                      "index": 0,
+                      "percentageQuestion": 45.19,
+                      "percentageSurvey": 6.16,
+                      "entity": {
+                        "name": "Ease to learn",
+                        "nameClean": "Ease to learn",
+                        "description": "Ease to learn and leverage existing Ract, Javascript skills",
+                        "descriptionClean": "Ease to learn and leverage existing Ract, Javascript skills",
+                        "id": "easy_to_learn",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 1278,
-                      "id": "opinions_advantages_multiple_expo",
-                      "percentageQuestion": 78.36,
-                      "percentageSurvey": 36.5
+                      "count": 80,
+                      "id": "cross_platform_efficiency",
+                      "index": 1,
+                      "percentageQuestion": 38.46,
+                      "percentageSurvey": 5.25,
+                      "entity": {
+                        "name": "Cross-platform features",
+                        "nameClean": "Cross-platform features",
+                        "description": "Advantages related to code sharing, write-once-run-anywhere, and single codebase efficiency.",
+                        "descriptionClean": "Advantages related to code sharing, write-once-run-anywhere, and single codebase efficiency.",
+                        "id": "cross_platform_efficiency",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 1129,
-                      "id": "opinions_advantages_multiple_hot_reloading",
-                      "percentageQuestion": 69.22,
-                      "percentageSurvey": 32.25
+                      "count": 57,
+                      "id": "ecosystem_and_community",
+                      "index": 2,
+                      "percentageQuestion": 27.4,
+                      "percentageSurvey": 3.74,
+                      "entity": {
+                        "name": "Ecosystem and community",
+                        "nameClean": "Ecosystem and community",
+                        "description": "The size of the community, availability of libraries, and resources.",
+                        "descriptionClean": "The size of the community, availability of libraries, and resources.",
+                        "id": "ecosystem_and_community",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 1124,
-                      "id": "opinions_advantages_multiple_developer_experience",
-                      "percentageQuestion": 68.91,
-                      "percentageSurvey": 32.11
+                      "count": 52,
+                      "id": "native_performance_and_feel",
+                      "index": 3,
+                      "percentageQuestion": 25,
+                      "percentageSurvey": 3.41,
+                      "entity": {
+                        "name": "Native performance and feel",
+                        "nameClean": "Native performance and feel",
+                        "description": "Access to native primitives, native look and feel, and performance compared to webviews/hybrid.",
+                        "descriptionClean": "Access to native primitives, native look and feel, and performance compared to webviews/hybrid.",
+                        "id": "native_performance_and_feel",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 1086,
-                      "id": "opinions_advantages_multiple_community",
-                      "percentageQuestion": 66.58,
-                      "percentageSurvey": 31.02
+                      "count": 43,
+                      "id": "developer_experience",
+                      "index": 4,
+                      "percentageQuestion": 20.67,
+                      "percentageSurvey": 2.82,
+                      "entity": {
+                        "name": "Developer experience",
+                        "nameClean": "Developer experience",
+                        "description": "Speed of development, Hot Reloading, OTA updates and general developer experience.",
+                        "descriptionClean": "Speed of development, Hot Reloading, OTA updates and general developer experience.",
+                        "id": "developer_experience",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 1030,
-                      "id": "opinions_advantages_multiple_code_sharing",
-                      "percentageQuestion": 63.15,
-                      "percentageSurvey": 29.42
+                      "count": 17,
+                      "id": "expo_ecosystem",
+                      "index": 5,
+                      "percentageQuestion": 8.17,
+                      "percentageSurvey": 1.11,
+                      "entity": {
+                        "name": "Expo ecosystem",
+                        "nameClean": "Expo ecosystem",
+                        "description": "Specific praise for Expo and its tools (EAS, Go, Router).",
+                        "descriptionClean": "Specific praise for Expo and its tools (EAS, Go, Router).",
+                        "id": "expo_ecosystem",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 1023,
-                      "id": "opinions_advantages_multiple_easy_to_learn",
-                      "percentageQuestion": 62.72,
-                      "percentageSurvey": 29.22
+                      "count": 15,
+                      "id": "cost_and_hiring",
+                      "index": 6,
+                      "percentageQuestion": 7.21,
+                      "percentageSurvey": 0.98,
+                      "entity": {
+                        "name": "Job market position",
+                        "nameClean": "Job market position",
+                        "description": "Advantages regarding hiring availability, team size, and cost effectiveness.",
+                        "descriptionClean": "Advantages regarding hiring availability, team size, and cost effectiveness.",
+                        "id": "cost_and_hiring",
+                        "entityType": "default"
+                      }
                     },
                     {
-                      "count": 917,
-                      "id": "opinions_advantages_multiple_cost_effective",
-                      "percentageQuestion": 56.22,
-                      "percentageSurvey": 26.19
+                      "count": 40,
+                      "id": "no_match",
+                      "index": 7,
+                      "percentageQuestion": 19.23,
+                      "percentageSurvey": 2.62
                     },
                     {
-                      "count": 864,
-                      "id": "opinions_advantages_multiple_single_codebase",
-                      "percentageQuestion": 52.97,
-                      "percentageSurvey": 24.68
-                    },
-                    {
-                      "count": 857,
-                      "id": "opinions_advantages_multiple_native_feel_of_app",
-                      "percentageQuestion": 52.54,
-                      "percentageSurvey": 24.48
-                    },
-                    {
-                      "count": 833,
-                      "id": "opinions_advantages_multiple_learn_once",
-                      "percentageQuestion": 51.07,
-                      "percentageSurvey": 23.79
-                    },
-                    {
-                      "count": 812,
-                      "id": "opinions_advantages_multiple_over_the_air_updates",
-                      "percentageQuestion": 49.79,
-                      "percentageSurvey": 23.19
-                    },
-                    {
-                      "count": 753,
-                      "id": "opinions_advantages_multiple_documentation",
-                      "percentageQuestion": 46.17,
-                      "percentageSurvey": 21.51
-                    },
-                    {
-                      "count": 739,
-                      "id": "opinions_advantages_multiple_ecosystem",
-                      "percentageQuestion": 45.31,
-                      "percentageSurvey": 21.11
-                    },
-                    {
-                      "count": 735,
-                      "id": "opinions_advantages_multiple_time_to_market",
-                      "percentageQuestion": 45.06,
-                      "percentageSurvey": 20.99
-                    },
-                    {
-                      "count": 723,
-                      "id": "opinions_advantages_multiple_fast_iteration",
-                      "percentageQuestion": 44.33,
-                      "percentageSurvey": 20.65
-                    },
-                    {
-                      "count": 516,
-                      "id": "opinions_advantages_multiple_web_technologies",
-                      "percentageQuestion": 31.64,
-                      "percentageSurvey": 14.74
-                    },
-                    {
-                      "count": 377,
-                      "id": "opinions_advantages_multiple_stable",
-                      "percentageQuestion": 23.11,
-                      "percentageSurvey": 10.77
-                    },
-                    {
-                      "count": 339,
-                      "id": "opinions_advantages_multiple_performance",
-                      "percentageQuestion": 20.78,
-                      "percentageSurvey": 9.68
-                    },
-                    {
-                      "count": 1868,
+                      "count": 1316,
                       "id": "no_answer",
+                      "index": 8,
                       "percentageQuestion": 0,
-                      "percentageSurvey": 53.36
+                      "percentageSurvey": 86.3
                     }
                   ]
                 }

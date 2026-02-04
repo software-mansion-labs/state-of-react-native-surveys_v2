@@ -6,71 +6,6 @@
           "build_and_publish": {
             "build_and_publish_ratios": [
               {
-                "id": "build_and_publish_app_center",
-                "entity": {
-                  "name": "App Center",
-                  "nameClean": "App Center",
-                  "entityType": "default",
-                  "description": "Continuously build, test, release, and monitor apps for every platform.",
-                  "descriptionClean": "Continuously build, test, release, and monitor apps for every platform.",
-                  "homepage": {
-                    "url": "https://appcenter.ms/"
-                  }
-                },
-                "responses": {
-                  "allEditions": [
-                    {
-                      "year": 2022,
-                      "editionId": "rn2022",
-                      "ratios": {
-                        "awareness": 0.77,
-                        "interest": 0.53,
-                        "usage": 0.42,
-                        "retention": 0.78,
-                        "positivity": 0.67
-                      },
-                      "completion": {
-                        "count": 1260,
-                        "percentageSurvey": 66.74,
-                        "total": 1888
-                      }
-                    },
-                    {
-                      "year": 2023,
-                      "editionId": "rn2023",
-                      "ratios": {
-                        "awareness": 0.78,
-                        "interest": 0.56,
-                        "usage": 0.5,
-                        "retention": 0.73,
-                        "positivity": 0.67
-                      },
-                      "completion": {
-                        "count": 1530,
-                        "percentageSurvey": 63.86,
-                        "total": 2396
-                      }
-                    },
-                    {
-                      "year": 2024,
-                      "editionId": "rn2025",
-                      "ratios": {
-                        "awareness": 0.72,
-                        "interest": 0.23,
-                        "usage": 0.34,
-                        "retention": 0.58,
-                        "positivity": 0.44
-                      },
-                      "completion": {
-                        "count": 1704,
-                        "percentageSurvey": 48.67,
-                        "total": 3501
-                      }
-                    }
-                  ]
-                }
-              },
-              {
                 "id": "build_and_publish_bitrise",
                 "entity": {
                   "name": "Bitrise",
@@ -92,7 +27,7 @@
                         "interest": 0.53,
                         "usage": 0.2,
                         "retention": 0.73,
-                        "positivity": 0.61
+                        "positivity": 0.3
                       },
                       "completion": {
                         "count": 1495,
@@ -102,18 +37,34 @@
                     },
                     {
                       "year": 2024,
-                      "editionId": "rn2025",
+                      "editionId": "rn2024",
                       "ratios": {
                         "awareness": 0.42,
                         "interest": 0.38,
                         "usage": 0.14,
                         "retention": 0.73,
-                        "positivity": 0.5
+                        "positivity": 0.08
                       },
                       "completion": {
                         "count": 1678,
                         "percentageSurvey": 47.93,
                         "total": 3501
+                      }
+                    },
+                    {
+                      "year": 2025,
+                      "editionId": "rn2025",
+                      "ratios": {
+                        "awareness": 0.48,
+                        "interest": 0.3,
+                        "usage": 0.18,
+                        "retention": 0.74,
+                        "positivity": 0.09
+                      },
+                      "completion": {
+                        "count": 911,
+                        "percentageSurvey": 59.74,
+                        "total": 1525
                       }
                     }
                   ]
@@ -141,7 +92,7 @@
                         "interest": 0.74,
                         "usage": 0.4,
                         "retention": 0.94,
-                        "positivity": 0.85
+                        "positivity": 0.65
                       },
                       "completion": {
                         "count": 1257,
@@ -157,7 +108,7 @@
                         "interest": 0.74,
                         "usage": 0.55,
                         "retention": 0.94,
-                        "positivity": 0.87
+                        "positivity": 0.75
                       },
                       "completion": {
                         "count": 1523,
@@ -167,18 +118,34 @@
                     },
                     {
                       "year": 2024,
-                      "editionId": "rn2025",
+                      "editionId": "rn2024",
                       "ratios": {
                         "awareness": 0.95,
                         "interest": 0.7,
                         "usage": 0.7,
                         "retention": 0.95,
-                        "positivity": 0.91
+                        "positivity": 0.34
                       },
                       "completion": {
                         "count": 1746,
                         "percentageSurvey": 49.87,
                         "total": 3501
+                      }
+                    },
+                    {
+                      "year": 2025,
+                      "editionId": "rn2025",
+                      "ratios": {
+                        "awareness": 0.96,
+                        "interest": 0.66,
+                        "usage": 0.68,
+                        "retention": 0.94,
+                        "positivity": 0.29
+                      },
+                      "completion": {
+                        "count": 929,
+                        "percentageSurvey": 60.92,
+                        "total": 1525
                       }
                     }
                   ]
@@ -206,7 +173,7 @@
                         "interest": 0.76,
                         "usage": 0.32,
                         "retention": 0.94,
-                        "positivity": 0.84
+                        "positivity": 0.61
                       },
                       "completion": {
                         "count": 1258,
@@ -222,7 +189,7 @@
                         "interest": 0.76,
                         "usage": 0.45,
                         "retention": 0.94,
-                        "positivity": 0.86
+                        "positivity": 0.71
                       },
                       "completion": {
                         "count": 1516,
@@ -232,18 +199,34 @@
                     },
                     {
                       "year": 2024,
-                      "editionId": "rn2025",
+                      "editionId": "rn2024",
                       "ratios": {
                         "awareness": 0.92,
                         "interest": 0.76,
                         "usage": 0.54,
                         "retention": 0.96,
-                        "positivity": 0.9
+                        "positivity": 0.32
                       },
                       "completion": {
                         "count": 1735,
                         "percentageSurvey": 49.56,
                         "total": 3501
+                      }
+                    },
+                    {
+                      "year": 2025,
+                      "editionId": "rn2025",
+                      "ratios": {
+                        "awareness": 0.92,
+                        "interest": 0.76,
+                        "usage": 0.54,
+                        "retention": 0.98,
+                        "positivity": 0.27
+                      },
+                      "completion": {
+                        "count": 921,
+                        "percentageSurvey": 60.39,
+                        "total": 1525
                       }
                     }
                   ]
@@ -271,7 +254,7 @@
                         "interest": 0.71,
                         "usage": 0.5,
                         "retention": 0.87,
-                        "positivity": 0.81
+                        "positivity": 0.68
                       },
                       "completion": {
                         "count": 1258,
@@ -287,7 +270,7 @@
                         "interest": 0.7,
                         "usage": 0.52,
                         "retention": 0.81,
-                        "positivity": 0.76
+                        "positivity": 0.65
                       },
                       "completion": {
                         "count": 1514,
@@ -297,18 +280,67 @@
                     },
                     {
                       "year": 2024,
-                      "editionId": "rn2025",
+                      "editionId": "rn2024",
                       "ratios": {
                         "awareness": 0.81,
                         "interest": 0.61,
                         "usage": 0.47,
                         "retention": 0.72,
-                        "positivity": 0.69
+                        "positivity": 0.17
                       },
                       "completion": {
                         "count": 1711,
                         "percentageSurvey": 48.87,
                         "total": 3501
+                      }
+                    },
+                    {
+                      "year": 2025,
+                      "editionId": "rn2025",
+                      "ratios": {
+                        "awareness": 0.83,
+                        "interest": 0.48,
+                        "usage": 0.47,
+                        "retention": 0.77,
+                        "positivity": 0.16
+                      },
+                      "completion": {
+                        "count": 907,
+                        "percentageSurvey": 59.48,
+                        "total": 1525
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "build_and_publish_github_actions",
+                "entity": {
+                  "name": "GitHub Actions",
+                  "nameClean": "GitHub Actions",
+                  "entityType": "default",
+                  "description": "Automate, customize, and execute your software development workflows right in your repository with GitHub Actions.",
+                  "descriptionClean": "Automate, customize, and execute your software development workflows right in your repository with GitHub Actions.",
+                  "homepage": {
+                    "url": "https://docs.github.com/en/actions"
+                  }
+                },
+                "responses": {
+                  "allEditions": [
+                    {
+                      "year": 2025,
+                      "editionId": "rn2025",
+                      "ratios": {
+                        "awareness": 0.97,
+                        "interest": 0.61,
+                        "usage": 0.62,
+                        "retention": 0.88,
+                        "positivity": 0.19
+                      },
+                      "completion": {
+                        "count": 916,
+                        "percentageSurvey": 60.07,
+                        "total": 1525
                       }
                     }
                   ]
@@ -334,7 +366,7 @@
                         "interest": 0.26,
                         "usage": 0.65,
                         "retention": 0.57,
-                        "positivity": 0.48
+                        "positivity": 0.45
                       },
                       "completion": {
                         "count": 1259,
@@ -350,7 +382,7 @@
                         "interest": 0.23,
                         "usage": 0.61,
                         "retention": 0.54,
-                        "positivity": 0.44
+                        "positivity": 0.41
                       },
                       "completion": {
                         "count": 1510,
@@ -360,18 +392,34 @@
                     },
                     {
                       "year": 2024,
-                      "editionId": "rn2025",
+                      "editionId": "rn2024",
                       "ratios": {
                         "awareness": 0.92,
                         "interest": 0.16,
                         "usage": 0.54,
                         "retention": 0.44,
-                        "positivity": 0.35
+                        "positivity": 0.09
                       },
                       "completion": {
                         "count": 1704,
                         "percentageSurvey": 48.67,
                         "total": 3501
+                      }
+                    },
+                    {
+                      "year": 2025,
+                      "editionId": "rn2025",
+                      "ratios": {
+                        "awareness": 0.91,
+                        "interest": 0.09,
+                        "usage": 0.56,
+                        "retention": 0.45,
+                        "positivity": 0.07
+                      },
+                      "completion": {
+                        "count": 893,
+                        "percentageSurvey": 58.56,
+                        "total": 1525
                       }
                     }
                   ]
@@ -397,7 +445,7 @@
                         "interest": 0.3,
                         "usage": 0.72,
                         "retention": 0.6,
-                        "positivity": 0.52
+                        "positivity": 0.5
                       },
                       "completion": {
                         "count": 1258,
@@ -412,8 +460,8 @@
                         "awareness": 0.94,
                         "interest": 0.24,
                         "usage": 0.66,
-                        "retention": 0.57,
-                        "positivity": 0.48
+                        "retention": 0.58,
+                        "positivity": 0.45
                       },
                       "completion": {
                         "count": 1515,
@@ -423,18 +471,34 @@
                     },
                     {
                       "year": 2024,
-                      "editionId": "rn2025",
+                      "editionId": "rn2024",
                       "ratios": {
                         "awareness": 0.92,
                         "interest": 0.21,
                         "usage": 0.59,
                         "retention": 0.46,
-                        "positivity": 0.4
+                        "positivity": 0.11
                       },
                       "completion": {
                         "count": 1691,
                         "percentageSurvey": 48.3,
                         "total": 3501
+                      }
+                    },
+                    {
+                      "year": 2025,
+                      "editionId": "rn2025",
+                      "ratios": {
+                        "awareness": 0.93,
+                        "interest": 0.09,
+                        "usage": 0.6,
+                        "retention": 0.5,
+                        "positivity": 0.08
+                      },
+                      "completion": {
+                        "count": 897,
+                        "percentageSurvey": 58.82,
+                        "total": 1525
                       }
                     }
                   ]
@@ -456,18 +520,34 @@
                   "allEditions": [
                     {
                       "year": 2024,
-                      "editionId": "rn2025",
+                      "editionId": "rn2024",
                       "ratios": {
                         "awareness": 0.56,
                         "interest": 0.85,
                         "usage": 0.09,
                         "retention": 0.88,
-                        "positivity": 0.83
+                        "positivity": 0.19
                       },
                       "completion": {
                         "count": 1682,
                         "percentageSurvey": 48.04,
                         "total": 3501
+                      }
+                    },
+                    {
+                      "year": 2025,
+                      "editionId": "rn2025",
+                      "ratios": {
+                        "awareness": 0.85,
+                        "interest": 0.78,
+                        "usage": 0.25,
+                        "retention": 0.88,
+                        "positivity": 0.16
+                      },
+                      "completion": {
+                        "count": 899,
+                        "percentageSurvey": 58.95,
+                        "total": 1525
                       }
                     }
                   ]

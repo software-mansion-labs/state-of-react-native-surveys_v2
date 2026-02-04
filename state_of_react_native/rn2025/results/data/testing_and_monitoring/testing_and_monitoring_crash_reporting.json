@@ -5,19 +5,29 @@
         "rn2025": {
           "testing_and_monitoring": {
             "testing_and_monitoring_crash_reporting": {
+              "id": "testing_and_monitoring_crash_reporting",
               "combined": {
                 "currentEdition": {
+                  "_metadata": {
+                    "axis1Sort": {
+                      "property": "count",
+                      "order": "desc"
+                    },
+                    "limit": 50,
+                    "cutoff": 4
+                  },
                   "completion": {
-                    "count": 1404,
-                    "percentageSurvey": 40.1,
-                    "total": 3501
+                    "count": 767,
+                    "percentageSurvey": 50.3,
+                    "total": 1525
                   },
                   "buckets": [
                     {
-                      "count": 1062,
+                      "count": 618,
                       "id": "testing_and_monitoring_crash_reporting_sentry",
-                      "percentageQuestion": 75.64,
-                      "percentageSurvey": 30.33,
+                      "index": 0,
+                      "percentageQuestion": 80.57,
+                      "percentageSurvey": 40.52,
                       "entity": {
                         "name": "Sentry",
                         "nameClean": "Sentry",
@@ -29,14 +39,15 @@
                           "url": "https://sentry.io/"
                         }
                       },
-                      "percentagePositive": 27,
+                      "percentagePositive": 22,
                       "percentageNegative": 2
                     },
                     {
-                      "count": 687,
+                      "count": 322,
                       "id": "testing_and_monitoring_crash_reporting_firebase_crashlytics",
-                      "percentageQuestion": 48.93,
-                      "percentageSurvey": 19.62,
+                      "index": 1,
+                      "percentageQuestion": 41.98,
+                      "percentageSurvey": 21.11,
                       "entity": {
                         "name": "Firebase Crashlytics",
                         "nameClean": "Firebase Crashlytics",
@@ -48,14 +59,15 @@
                           "url": "https://firebase.google.com/products/crashlytics"
                         }
                       },
-                      "percentagePositive": 11,
-                      "percentageNegative": 7
+                      "percentagePositive": 9,
+                      "percentageNegative": 8
                     },
                     {
-                      "count": 211,
+                      "count": 124,
                       "id": "testing_and_monitoring_crash_reporting_datadog",
-                      "percentageQuestion": 15.03,
-                      "percentageSurvey": 6.03,
+                      "index": 2,
+                      "percentageQuestion": 16.17,
+                      "percentageSurvey": 8.13,
                       "entity": {
                         "name": "Datadog",
                         "nameClean": "Datadog",
@@ -67,33 +79,15 @@
                           "url": "https://www.datadoghq.com/"
                         }
                       },
-                      "percentagePositive": 13,
-                      "percentageNegative": 3
-                    },
-                    {
-                      "count": 166,
-                      "id": "testing_and_monitoring_crash_reporting_appcenter_crashes",
-                      "percentageQuestion": 11.82,
-                      "percentageSurvey": 4.74,
-                      "entity": {
-                        "name": "AppCenter Crashes",
-                        "nameClean": "AppCenter Crashes",
-                        "description": "A service that provides crash reporting and diagnostics for applications built with Microsoft App Center.",
-                        "descriptionClean": "A service that provides crash reporting and diagnostics for applications built with Microsoft App Center.",
-                        "id": "testing_and_monitoring_crash_reporting_appcenter_crashes",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://learn.microsoft.com/en-us/appcenter/sdk/crashes/react-native"
-                        }
-                      },
-                      "percentagePositive": 7,
+                      "percentagePositive": 15,
                       "percentageNegative": 8
                     },
                     {
-                      "count": 159,
+                      "count": 65,
                       "id": "testing_and_monitoring_crash_reporting_bugsnag",
-                      "percentageQuestion": 11.32,
-                      "percentageSurvey": 4.54,
+                      "index": 3,
+                      "percentageQuestion": 8.47,
+                      "percentageSurvey": 4.26,
                       "entity": {
                         "name": "Bugsnag",
                         "nameClean": "Bugsnag",
@@ -105,14 +99,56 @@
                           "url": "https://www.bugsnag.com/"
                         }
                       },
-                      "percentagePositive": 13,
-                      "percentageNegative": 6
+                      "percentagePositive": 11,
+                      "percentageNegative": 8
                     },
                     {
-                      "count": 83,
+                      "count": 52,
+                      "id": "testing_and_monitoring_crash_reporting_appcenter_crashes",
+                      "index": 4,
+                      "percentageQuestion": 6.78,
+                      "percentageSurvey": 3.41,
+                      "entity": {
+                        "name": "AppCenter Crashes",
+                        "nameClean": "AppCenter Crashes",
+                        "description": "A service that provides crash reporting and diagnostics for applications built with Microsoft App Center.",
+                        "descriptionClean": "A service that provides crash reporting and diagnostics for applications built with Microsoft App Center.",
+                        "id": "testing_and_monitoring_crash_reporting_appcenter_crashes",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://learn.microsoft.com/en-us/appcenter/sdk/crashes/react-native"
+                        }
+                      },
+                      "percentagePositive": 4,
+                      "percentageNegative": 4
+                    },
+                    {
+                      "count": 31,
+                      "id": "testing_and_monitoring_crash_reporting_logrocket",
+                      "index": 5,
+                      "percentageQuestion": 4.04,
+                      "percentageSurvey": 2.03,
+                      "entity": {
+                        "name": "LogRocket",
+                        "nameClean": "LogRocket",
+                        "description": "Separate signal from noise so you can proactively identify, triage, and resolve the most impactful user issues.",
+                        "descriptionClean": "Separate signal from noise so you can proactively identify, triage, and resolve the most impactful user issues.",
+                        "id": "testing_and_monitoring_crash_reporting_logrocket",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://logrocket.com/"
+                        }
+                      },
+                      "percentagePositive": 16,
+                      "percentageNegative": 0
+                    },
+                    {
+                      "count": 6,
                       "id": "testing_and_monitoring_crash_reporting_new_relic",
-                      "percentageQuestion": 5.91,
-                      "percentageSurvey": 2.37,
+                      "index": 6,
+                      "percentageQuestion": 0.78,
+                      "percentageSurvey": 0.39,
+                      "isFreeformData": true,
                       "entity": {
                         "name": "New Relic",
                         "nameClean": "New Relic",
@@ -123,65 +159,39 @@
                         "homepage": {
                           "url": "https://newrelic.com/"
                         }
-                      },
-                      "percentagePositive": 7,
-                      "percentageNegative": 11
-                    },
-                    {
-                      "count": 61,
-                      "id": "testing_and_monitoring_crash_reporting_instabug",
-                      "percentageQuestion": 4.34,
-                      "percentageSurvey": 1.74,
-                      "entity": {
-                        "name": "Instabug",
-                        "nameClean": "Instabug",
-                        "description": "A bug reporting and in-app feedback tool that allows users to report issues directly from the application.",
-                        "descriptionClean": "A bug reporting and in-app feedback tool that allows users to report issues directly from the application.",
-                        "id": "testing_and_monitoring_crash_reporting_instabug",
-                        "entityType": "library",
-                        "homepage": {
-                          "url": "https://instabug.com/"
-                        }
-                      },
-                      "percentagePositive": 11,
-                      "percentageNegative": 11
-                    },
-                    {
-                      "count": 5,
-                      "id": "logrocket",
-                      "percentageQuestion": 0.36,
-                      "percentageSurvey": 0.14,
-                      "isFreeformData": true,
-                      "entity": {
-                        "name": "LogRocket",
-                        "nameClean": "LogRocket",
-                        "description": "A blog that shares insights, tutorials, and best practices for React Native and web development.",
-                        "descriptionClean": "A blog that shares insights, tutorials, and best practices for React Native and web development.",
-                        "id": "resources_learn_more_log_rocket",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://blog.logrocket.com/"
-                        }
                       }
                     },
                     {
                       "count": 4,
-                      "id": "dynatrace",
-                      "percentageQuestion": 0.28,
-                      "percentageSurvey": 0.11,
+                      "id": "testing_and_monitoring_crash_reporting_dynatrace",
+                      "index": 7,
+                      "percentageQuestion": 0.52,
+                      "percentageSurvey": 0.26,
                       "isFreeformData": true,
                       "entity": {
                         "name": "Dynatrace",
                         "nameClean": "Dynatrace",
-                        "id": "dynatrace",
-                        "entityType": "default"
+                        "description": "AI-powered full-stack observability platform providing real user monitoring (RUM), crash analysis, and application performance monitoring.",
+                        "descriptionClean": "AI-powered full-stack observability platform providing real user monitoring (RUM), crash analysis, and application performance monitoring.",
+                        "id": "testing_and_monitoring_crash_reporting_dynatrace",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://www.dynatrace.com/"
+                        },
+                        "github": {
+                          "url": "https://github.com/Dynatrace/dynatrace-react-native-plugin"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/@dynatrace/react-native-plugin"
+                        }
                       }
                     },
                     {
-                      "count": 21,
+                      "count": 19,
                       "id": "other_answers",
-                      "percentageQuestion": 1.49,
-                      "percentageSurvey": 0.61
+                      "index": 8,
+                      "percentageQuestion": 2.48,
+                      "percentageSurvey": 1.25
                     }
                   ]
                 }
