@@ -5,19 +5,29 @@
         "rn2025": {
           "dev_tools": {
             "dev_tools_starter_templates": {
+              "id": "dev_tools_starter_templates",
               "combined": {
                 "currentEdition": {
+                  "_metadata": {
+                    "axis1Sort": {
+                      "property": "count",
+                      "order": "desc"
+                    },
+                    "limit": 50,
+                    "cutoff": 1
+                  },
                   "completion": {
-                    "count": 1568,
-                    "percentageSurvey": 44.79,
-                    "total": 3501
+                    "count": 801,
+                    "percentageSurvey": 52.52,
+                    "total": 1525
                   },
                   "buckets": [
                     {
-                      "count": 1210,
+                      "count": 658,
                       "id": "dev_tools_starter_templates_expo",
-                      "percentageQuestion": 77.17,
-                      "percentageSurvey": 34.56,
+                      "index": 0,
+                      "percentageQuestion": 82.15,
+                      "percentageSurvey": 43.15,
                       "entity": {
                         "name": "create-expo-app",
                         "nameClean": "create-expo-app",
@@ -35,14 +45,15 @@
                           "url": "https://www.npmjs.com/package/create-expo-app"
                         }
                       },
-                      "percentagePositive": 22,
-                      "percentageNegative": 1
+                      "percentagePositive": 21,
+                      "percentageNegative": 0
                     },
                     {
-                      "count": 453,
+                      "count": 198,
                       "id": "dev_tools_starter_templates_react_native_cli",
-                      "percentageQuestion": 28.89,
-                      "percentageSurvey": 12.94,
+                      "index": 1,
+                      "percentageQuestion": 24.72,
+                      "percentageSurvey": 12.98,
                       "entity": {
                         "name": "react-native init (by React Native Community CLI)",
                         "nameClean": "react-native init (by React Native Community CLI)",
@@ -54,14 +65,15 @@
                           "url": "https://github.com/react-native-community/cli"
                         }
                       },
-                      "percentagePositive": 18,
-                      "percentageNegative": 3
+                      "percentagePositive": 16,
+                      "percentageNegative": 4
                     },
                     {
-                      "count": 391,
+                      "count": 155,
                       "id": "dev_tools_starter_templates_create_react_native_app",
-                      "percentageQuestion": 24.94,
-                      "percentageSurvey": 11.17,
+                      "index": 2,
+                      "percentageQuestion": 19.35,
+                      "percentageSurvey": 10.16,
                       "entity": {
                         "name": "create-react-native-app",
                         "nameClean": "create-react-native-app",
@@ -73,14 +85,15 @@
                           "url": "https://github.com/expo/create-react-native-app"
                         }
                       },
-                      "percentagePositive": 14,
-                      "percentageNegative": 2
+                      "percentagePositive": 15,
+                      "percentageNegative": 3
                     },
                     {
-                      "count": 178,
+                      "count": 72,
                       "id": "dev_tools_create_expo_stack",
-                      "percentageQuestion": 11.35,
-                      "percentageSurvey": 5.08,
+                      "index": 3,
+                      "percentageQuestion": 8.99,
+                      "percentageSurvey": 4.72,
                       "entity": {
                         "name": "create-expo-stack",
                         "nameClean": "create-expo-stack",
@@ -95,14 +108,15 @@
                           "url": "https://github.com/roninoss/create-expo-stack"
                         }
                       },
-                      "percentagePositive": 25,
-                      "percentageNegative": 4
+                      "percentagePositive": 31,
+                      "percentageNegative": 3
                     },
                     {
-                      "count": 115,
+                      "count": 47,
                       "id": "dev_tools_starter_templates_ignite_cli",
-                      "percentageQuestion": 7.33,
-                      "percentageSurvey": 3.28,
+                      "index": 4,
+                      "percentageQuestion": 5.87,
+                      "percentageSurvey": 3.08,
                       "entity": {
                         "name": "ignite-cli",
                         "nameClean": "ignite-cli",
@@ -121,14 +135,15 @@
                           "url": "https://www.npmjs.com/package/ignite-cli"
                         }
                       },
-                      "percentagePositive": 24,
-                      "percentageNegative": 5
+                      "percentagePositive": 23,
+                      "percentageNegative": 6
                     },
                     {
-                      "count": 111,
+                      "count": 39,
                       "id": "dev_tools_starter_tamagui",
-                      "percentageQuestion": 7.08,
-                      "percentageSurvey": 3.17,
+                      "index": 5,
+                      "percentageQuestion": 4.87,
+                      "percentageSurvey": 2.56,
                       "entity": {
                         "name": "tamagui",
                         "nameClean": "tamagui",
@@ -146,14 +161,15 @@
                           "url": "https://www.npmjs.com/package/tamagui"
                         }
                       },
-                      "percentagePositive": 17,
-                      "percentageNegative": 20
+                      "percentagePositive": 10,
+                      "percentageNegative": 23
                     },
                     {
-                      "count": 79,
+                      "count": 28,
                       "id": "dev_tools_starter_templates_create_t3_turbo",
-                      "percentageQuestion": 5.04,
-                      "percentageSurvey": 2.26,
+                      "index": 6,
+                      "percentageQuestion": 3.5,
+                      "percentageSurvey": 1.84,
                       "entity": {
                         "name": "create-t3-turbo",
                         "nameClean": "create-t3-turbo",
@@ -168,14 +184,38 @@
                           "url": "https://github.com/t3-oss/create-t3-turbo"
                         }
                       },
-                      "percentagePositive": 28,
-                      "percentageNegative": 9
+                      "percentagePositive": 7,
+                      "percentageNegative": 7
                     },
                     {
-                      "count": 41,
+                      "count": 15,
+                      "id": "dev_tools_starter_templates_react_native_template_obytes",
+                      "index": 7,
+                      "percentageQuestion": 1.87,
+                      "percentageSurvey": 0.98,
+                      "entity": {
+                        "name": "create-obytes-app",
+                        "nameClean": "create-obytes-app",
+                        "description": "A template for your next React Native project, Made with developer experience and performance first.",
+                        "descriptionClean": "A template for your next React Native project, Made with developer experience and performance first.",
+                        "id": "dev_tools_starter_templates_react_native_template_obytes",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://starter.obytes.com/"
+                        },
+                        "github": {
+                          "url": "https://github.com/obytes/react-native-template-obytes"
+                        }
+                      },
+                      "percentagePositive": 13,
+                      "percentageNegative": 7
+                    },
+                    {
+                      "count": 15,
                       "id": "dev_tools_starter_templates_solito",
-                      "percentageQuestion": 2.61,
-                      "percentageSurvey": 1.17,
+                      "index": 8,
+                      "percentageQuestion": 1.87,
+                      "percentageSurvey": 0.98,
                       "entity": {
                         "name": "create-solito-app",
                         "nameClean": "create-solito-app",
@@ -193,36 +233,54 @@
                           "url": "https://www.npmjs.com/package/solito"
                         }
                       },
-                      "percentagePositive": 10,
-                      "percentageNegative": 5
+                      "percentagePositive": 0,
+                      "percentageNegative": 20
                     },
                     {
-                      "count": 38,
-                      "id": "dev_tools_starter_templates_react_native_template_obytes",
-                      "percentageQuestion": 2.42,
-                      "percentageSurvey": 1.09,
+                      "count": 9,
+                      "id": "custom",
+                      "index": 9,
+                      "percentageQuestion": 1.12,
+                      "percentageSurvey": 0.59,
+                      "isFreeformData": true,
                       "entity": {
-                        "name": "create-obytes-app",
-                        "nameClean": "create-obytes-app",
-                        "description": "A template for your next React Native project, Made with developer experience and performance first.",
-                        "descriptionClean": "A template for your next React Native project, Made with developer experience and performance first.",
-                        "id": "dev_tools_starter_templates_react_native_template_obytes",
+                        "name": "Custom template",
+                        "nameClean": "Custom template",
+                        "id": "custom",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 2,
+                      "id": "dev_tools_better_t_stack",
+                      "index": 10,
+                      "percentageQuestion": 0.25,
+                      "percentageSurvey": 0.13,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "better-t-stack",
+                        "nameClean": "better-t-stack",
+                        "description": "A modern CLI tool for scaffolding end-to-end TypeScript projects.",
+                        "descriptionClean": "A modern CLI tool for scaffolding end-to-end TypeScript projects.",
+                        "id": "dev_tools_better_t_stack",
                         "entityType": "library",
                         "homepage": {
-                          "url": "https://starter.obytes.com/"
+                          "url": "https://better-t-stack.dev/"
                         },
                         "github": {
-                          "url": "https://github.com/obytes/react-native-template-obytes"
+                          "url": "https://github.com/AmanVarshney01/create-better-t-stack"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/create-better-t-stack"
                         }
-                      },
-                      "percentagePositive": 32,
-                      "percentageNegative": 0
+                      }
                     },
                     {
-                      "count": 27,
+                      "count": 8,
                       "id": "other_answers",
-                      "percentageQuestion": 1.72,
-                      "percentageSurvey": 0.77
+                      "index": 11,
+                      "percentageQuestion": 1,
+                      "percentageSurvey": 0.52
                     }
                   ]
                 }

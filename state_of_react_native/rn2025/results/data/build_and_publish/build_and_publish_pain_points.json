@@ -5,105 +5,43 @@
         "rn2025": {
           "build_and_publish": {
             "build_and_publish_pain_points": {
+              "id": "build_and_publish_pain_points",
               "freeform": {
                 "currentEdition": {
+                  "_metadata": {
+                    "axis1Sort": {
+                      "property": "count",
+                      "order": "desc"
+                    },
+                    "limit": 20,
+                    "cutoff": 3
+                  },
                   "completion": {
-                    "count": 116,
-                    "percentageSurvey": 3.31,
-                    "total": 3501
+                    "count": 52,
+                    "percentageSurvey": 3.41,
+                    "total": 1525
                   },
                   "buckets": [
                     {
-                      "count": 20,
-                      "id": "stores",
-                      "percentageQuestion": 17.24,
-                      "percentageSurvey": 0.57,
-                      "entity": {
-                        "name": "Stores",
-                        "nameClean": "Stores",
-                        "id": "stores",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 18,
-                      "id": "time_of_build",
-                      "percentageQuestion": 15.52,
-                      "percentageSurvey": 0.51,
-                      "entity": {
-                        "name": "Build time",
-                        "nameClean": "Build time",
-                        "id": "time_of_build",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 17,
-                      "id": "signing",
-                      "percentageQuestion": 14.66,
-                      "percentageSurvey": 0.49,
-                      "entity": {
-                        "name": "Signing",
-                        "nameClean": "Signing",
-                        "id": "signing",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 11,
-                      "id": "lack_of_documentation",
-                      "percentageQuestion": 9.48,
-                      "percentageSurvey": 0.31,
-                      "entity": {
-                        "name": "Lack of documentation",
-                        "nameClean": "Lack of documentation",
-                        "description": "Lack of documentation or code examples",
-                        "descriptionClean": "Lack of documentation or code examples",
-                        "id": "lack_of_documentation",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 10,
-                      "id": "failures",
-                      "percentageQuestion": 8.62,
-                      "percentageSurvey": 0.29,
-                      "entity": {
-                        "name": "Failures",
-                        "nameClean": "Failures",
-                        "id": "failures",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 10,
-                      "id": "xcode_builds",
-                      "percentageQuestion": 8.62,
-                      "percentageSurvey": 0.29,
-                      "entity": {
-                        "name": "Xcode builds",
-                        "nameClean": "Xcode builds",
-                        "id": "xcode_builds",
-                        "entityType": "default"
-                      }
-                    },
-                    {
                       "count": 9,
-                      "id": "review_process",
-                      "percentageQuestion": 7.76,
-                      "percentageSurvey": 0.26,
+                      "id": "ci_cd_workflows",
+                      "index": 0,
+                      "percentageQuestion": 17.31,
+                      "percentageSurvey": 0.59,
                       "entity": {
-                        "name": "Review process",
-                        "nameClean": "Review process",
-                        "id": "review_process",
+                        "name": "CI/CD & Workflows",
+                        "nameHtml": "CI/CD &amp; Workflows",
+                        "nameClean": "CI/CD & Workflows",
+                        "id": "ci_cd_workflows",
                         "entityType": "default"
                       }
                     },
                     {
                       "count": 8,
                       "id": "configuration",
-                      "percentageQuestion": 6.9,
-                      "percentageSurvey": 0.23,
+                      "index": 1,
+                      "percentageQuestion": 15.38,
+                      "percentageSurvey": 0.52,
                       "entity": {
                         "name": "Configuration",
                         "nameClean": "Configuration",
@@ -115,23 +53,75 @@
                     },
                     {
                       "count": 8,
-                      "id": "excessive_complexity",
-                      "percentageQuestion": 6.9,
-                      "percentageSurvey": 0.23,
+                      "id": "env_management",
+                      "index": 2,
+                      "percentageQuestion": 15.38,
+                      "percentageSurvey": 0.52,
                       "entity": {
-                        "name": "Excessive complexity",
-                        "nameClean": "Excessive complexity",
-                        "description": "Too much complexity",
-                        "descriptionClean": "Too much complexity",
-                        "id": "excessive_complexity",
+                        "name": "Environment management",
+                        "nameClean": "Environment management",
+                        "id": "env_management",
                         "entityType": "default"
                       }
                     },
                     {
                       "count": 8,
+                      "id": "stores",
+                      "index": 3,
+                      "percentageQuestion": 15.38,
+                      "percentageSurvey": 0.52,
+                      "entity": {
+                        "name": "Stores",
+                        "nameClean": "Stores",
+                        "id": "stores",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 8,
+                      "id": "time_of_build",
+                      "index": 4,
+                      "percentageQuestion": 15.38,
+                      "percentageSurvey": 0.52,
+                      "entity": {
+                        "name": "Build time",
+                        "nameClean": "Build time",
+                        "id": "time_of_build",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 5,
+                      "id": "failures",
+                      "index": 5,
+                      "percentageQuestion": 9.62,
+                      "percentageSurvey": 0.33,
+                      "entity": {
+                        "name": "Failures",
+                        "nameClean": "Failures",
+                        "id": "failures",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 4,
+                      "id": "signing",
+                      "index": 6,
+                      "percentageQuestion": 7.69,
+                      "percentageSurvey": 0.26,
+                      "entity": {
+                        "name": "Signing",
+                        "nameClean": "Signing",
+                        "id": "signing",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 4,
                       "id": "submitting",
-                      "percentageQuestion": 6.9,
-                      "percentageSurvey": 0.23,
+                      "index": 7,
+                      "percentageQuestion": 7.69,
+                      "percentageSurvey": 0.26,
                       "entity": {
                         "name": "Submitting",
                         "nameClean": "Submitting",
@@ -140,74 +130,11 @@
                       }
                     },
                     {
-                      "count": 8,
-                      "id": "version_updates",
-                      "percentageQuestion": 6.9,
-                      "percentageSurvey": 0.23,
-                      "entity": {
-                        "name": "Version changes",
-                        "nameClean": "Version changes",
-                        "description": "Breaking changes and other updating issues",
-                        "descriptionClean": "Breaking changes and other updating issues",
-                        "id": "version_updates",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 7,
-                      "id": "pricing",
-                      "percentageQuestion": 6.03,
-                      "percentageSurvey": 0.2,
-                      "entity": {
-                        "name": "Pricing",
-                        "nameClean": "Pricing",
-                        "id": "pricing",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 6,
-                      "id": "performance",
-                      "percentageQuestion": 5.17,
-                      "percentageSurvey": 0.17,
-                      "entity": {
-                        "name": "Performance",
-                        "nameClean": "Performance",
-                        "description": "Performance issues",
-                        "descriptionClean": "Performance issues",
-                        "id": "performance",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 5,
-                      "id": "navigation_state",
-                      "percentageQuestion": 4.31,
-                      "percentageSurvey": 0.14,
-                      "entity": {
-                        "name": "Navigation state",
-                        "nameClean": "Navigation state",
-                        "id": "navigation_state",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 4,
-                      "id": "debugging_in_general",
-                      "percentageQuestion": 3.45,
-                      "percentageSurvey": 0.11,
-                      "entity": {
-                        "name": "Debugging in general",
-                        "nameClean": "Debugging in general",
-                        "id": "debugging_in_general",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 4,
+                      "count": 3,
                       "id": "error_handling",
-                      "percentageQuestion": 3.45,
-                      "percentageSurvey": 0.11,
+                      "index": 8,
+                      "percentageQuestion": 5.77,
+                      "percentageSurvey": 0.2,
                       "entity": {
                         "name": "Error handling",
                         "nameClean": "Error handling",
@@ -216,28 +143,30 @@
                       }
                     },
                     {
-                      "count": 3384,
+                      "count": 1471,
                       "id": "no_answer",
+                      "index": 9,
                       "percentageQuestion": 0,
-                      "percentageSurvey": 96.66
+                      "percentageSurvey": 96.46
                     },
                     {
-                      "count": 47,
+                      "count": 20,
                       "id": "other_answers",
-                      "percentageQuestion": 40.48,
-                      "percentageSurvey": 1.37,
+                      "index": 10,
+                      "percentageQuestion": 38.47,
+                      "percentageSurvey": 1.32,
                       "groupedBuckets": [
                         {
-                          "count": 17,
+                          "count": 10,
                           "id": "cutoff_answers",
-                          "percentageQuestion": 14.62,
-                          "percentageSurvey": 0.51
+                          "percentageQuestion": 19.24,
+                          "percentageSurvey": 0.66
                         },
                         {
-                          "count": 30,
+                          "count": 10,
                           "id": "no_match",
-                          "percentageQuestion": 25.86,
-                          "percentageSurvey": 0.86
+                          "percentageQuestion": 19.23,
+                          "percentageSurvey": 0.66
                         }
                       ]
                     }

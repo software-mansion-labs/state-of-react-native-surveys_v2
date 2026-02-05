@@ -5,19 +5,38 @@
         "rn2025": {
           "react_native_architecture": {
             "react_native_architecture_mobile_web_code_sharing": {
+              "id": "react_native_architecture_mobile_web_code_sharing",
               "combined": {
                 "currentEdition": {
+                  "_metadata": {
+                    "axis1Sort": {
+                      "property": "count",
+                      "order": "desc"
+                    },
+                    "limit": 50,
+                    "cutoff": 4
+                  },
                   "completion": {
-                    "count": 1345,
-                    "percentageSurvey": 38.42,
-                    "total": 3501
+                    "count": 706,
+                    "percentageSurvey": 46.3,
+                    "total": 1525
                   },
                   "buckets": [
                     {
-                      "count": 600,
+                      "count": 303,
+                      "id": "react_native_architecture_mobile_web_code_sharing_independent_projects",
+                      "index": 0,
+                      "percentageQuestion": 42.92,
+                      "percentageSurvey": 19.87,
+                      "percentagePositive": 6,
+                      "percentageNegative": 1
+                    },
+                    {
+                      "count": 278,
                       "id": "react_native_architecture_mobile_web_code_sharing_react_native_web",
-                      "percentageQuestion": 44.61,
-                      "percentageSurvey": 17.14,
+                      "index": 1,
+                      "percentageQuestion": 39.38,
+                      "percentageSurvey": 18.23,
                       "entity": {
                         "name": "React Native Web",
                         "nameClean": "React Native Web",
@@ -30,44 +49,86 @@
                           "url": "https://necolas.github.io/react-native-web/"
                         },
                         "github": {
-                          "url": "https://github.com/https://github.com/necolas/react-native-web"
+                          "url": "https://github.com/necolas/react-native-web"
                         },
                         "npm": {
                           "url": "https://www.npmjs.com/package/react-native-web"
                         }
                       },
-                      "percentagePositive": 13,
-                      "percentageNegative": 3
-                    },
-                    {
-                      "count": 542,
-                      "id": "react_native_architecture_mobile_web_code_sharing_independent_projects",
-                      "percentageQuestion": 40.3,
-                      "percentageSurvey": 15.48,
-                      "percentagePositive": 5,
-                      "percentageNegative": 3
-                    },
-                    {
-                      "count": 349,
-                      "id": "react_native_architecture_mobile_web_code_sharing_common_logic_independent_ui",
-                      "percentageQuestion": 25.95,
-                      "percentageSurvey": 9.97,
                       "percentagePositive": 15,
-                      "percentageNegative": 1
+                      "percentageNegative": 3
                     },
                     {
-                      "count": 300,
+                      "count": 159,
+                      "id": "react_native_architecture_mobile_web_code_sharing_common_logic_independent_ui",
+                      "index": 2,
+                      "percentageQuestion": 22.52,
+                      "percentageSurvey": 10.43,
+                      "percentagePositive": 11,
+                      "percentageNegative": 0
+                    },
+                    {
+                      "count": 130,
                       "id": "react_native_architecture_mobile_web_code_sharing_webview",
-                      "percentageQuestion": 22.3,
-                      "percentageSurvey": 8.57,
-                      "percentagePositive": 10,
-                      "percentageNegative": 6
+                      "index": 3,
+                      "percentageQuestion": 18.41,
+                      "percentageSurvey": 8.52,
+                      "percentagePositive": 11,
+                      "percentageNegative": 3
                     },
                     {
-                      "count": 80,
+                      "count": 53,
+                      "id": "react_native_architecture_mobile_web_code_sharing_dom_components",
+                      "index": 4,
+                      "percentageQuestion": 7.51,
+                      "percentageSurvey": 3.48,
+                      "entity": {
+                        "name": "DOM components",
+                        "nameClean": "DOM components",
+                        "description": "Using Web React DOM components in Expo native apps using the 'use dom' directive.",
+                        "descriptionHtml": "Using Web React DOM components in Expo native apps using the 'use dom' directive.",
+                        "descriptionClean": "Using Web React DOM components in Expo native apps using the 'use dom' directive.",
+                        "id": "react_native_architecture_mobile_web_code_sharing_dom_components",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://expo.dev/blog/the-magic-of-expo-dom-components"
+                        }
+                      },
+                      "percentagePositive": 19,
+                      "percentageNegative": 4
+                    },
+                    {
+                      "count": 28,
+                      "id": "react_native_architecture_mobile_web_code_sharing_react_strict_dom",
+                      "index": 5,
+                      "percentageQuestion": 3.97,
+                      "percentageSurvey": 1.84,
+                      "entity": {
+                        "name": "React Strict DOM",
+                        "nameClean": "React Strict DOM",
+                        "description": "Cross-platform, platform-native interfaces using web APIs.",
+                        "descriptionClean": "Cross-platform, platform-native interfaces using web APIs.",
+                        "id": "react_native_architecture_mobile_web_code_sharing_react_strict_dom",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://facebook.github.io/react-strict-dom/"
+                        },
+                        "github": {
+                          "url": "https://github.com/facebook/react-strict-dom"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/react-strict-dom"
+                        }
+                      },
+                      "percentagePositive": 11,
+                      "percentageNegative": 7
+                    },
+                    {
+                      "count": 23,
                       "id": "react_native_architecture_mobile_web_code_sharing_solito",
-                      "percentageQuestion": 5.95,
-                      "percentageSurvey": 2.29,
+                      "index": 6,
+                      "percentageQuestion": 3.26,
+                      "percentageSurvey": 1.51,
                       "entity": {
                         "name": "Solito",
                         "nameClean": "Solito",
@@ -79,29 +140,29 @@
                           "url": "https://solito.dev/"
                         },
                         "github": {
-                          "url": "https://github.com/https://github.com/nandorojo/solito"
+                          "url": "https://github.com/nandorojo/solito"
                         },
                         "npm": {
                           "url": "https://www.npmjs.com/package/solito"
                         }
                       },
-                      "percentagePositive": 19,
-                      "percentageNegative": 8
+                      "percentagePositive": 17,
+                      "percentageNegative": 9
                     },
                     {
-                      "count": 7,
-                      "id": "tamagui",
-                      "percentageQuestion": 0.52,
-                      "percentageSurvey": 0.2,
+                      "count": 6,
+                      "id": "react_native_architecture_mobile_web_code_sharing_tamagui",
+                      "index": 7,
+                      "percentageQuestion": 0.85,
+                      "percentageSurvey": 0.39,
                       "isFreeformData": true,
                       "entity": {
                         "name": "Tamagui",
                         "nameClean": "Tamagui",
-                        "description": "All the components you'd want, cross platform and adaptable to each other. Compound Component APIs, styled or unstyled, sizable, themeable, and more.",
-                        "descriptionHtml": "All the components you'd want, cross platform and adaptable to each other. Compound Component APIs, styled or unstyled, sizable, themeable, and more.",
-                        "descriptionClean": "All the components you'd want, cross platform and adaptable to each other. Compound Component APIs, styled or unstyled, sizable, themeable, and more.",
-                        "id": "component_libraries_tamagui",
-                        "entityType": "library",
+                        "description": "A universal UI kit and style system for React Native and Web that features an optimizing compiler for zero-runtime performance.",
+                        "descriptionClean": "A universal UI kit and style system for React Native and Web that features an optimizing compiler for zero-runtime performance.",
+                        "id": "react_native_architecture_mobile_web_code_sharing_tamagui",
+                        "entityType": "default",
                         "homepage": {
                           "url": "https://tamagui.dev/"
                         },
@@ -114,36 +175,11 @@
                       }
                     },
                     {
-                      "count": 5,
-                      "id": "monorepo",
-                      "percentageQuestion": 0.37,
-                      "percentageSurvey": 0.14,
-                      "isFreeformData": true,
-                      "entity": {
-                        "name": "monorepo",
-                        "nameClean": "monorepo",
-                        "id": "monorepo",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 4,
-                      "id": "expo_router",
-                      "percentageQuestion": 0.3,
-                      "percentageSurvey": 0.11,
-                      "isFreeformData": true,
-                      "entity": {
-                        "name": "Expo Router",
-                        "nameClean": "Expo Router",
-                        "id": "expo_router",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 19,
+                      "count": 11,
                       "id": "other_answers",
-                      "percentageQuestion": 1.41,
-                      "percentageSurvey": 0.55
+                      "index": 8,
+                      "percentageQuestion": 1.55,
+                      "percentageSurvey": 0.73
                     }
                   ]
                 }

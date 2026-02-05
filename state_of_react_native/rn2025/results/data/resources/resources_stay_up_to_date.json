@@ -5,19 +5,29 @@
         "rn2025": {
           "resources": {
             "resources_stay_up_to_date": {
+              "id": "resources_stay_up_to_date",
               "combined": {
                 "currentEdition": {
+                  "_metadata": {
+                    "axis1Sort": {
+                      "property": "count",
+                      "order": "desc"
+                    },
+                    "limit": 50,
+                    "cutoff": 3
+                  },
                   "completion": {
-                    "count": 1279,
-                    "percentageSurvey": 36.53,
-                    "total": 3501
+                    "count": 713,
+                    "percentageSurvey": 46.75,
+                    "total": 1525
                   },
                   "buckets": [
                     {
-                      "count": 675,
+                      "count": 408,
                       "id": "resources_stay_up_to_date_x",
-                      "percentageQuestion": 52.78,
-                      "percentageSurvey": 19.28,
+                      "index": 0,
+                      "percentageQuestion": 57.22,
+                      "percentageSurvey": 26.75,
                       "entity": {
                         "name": "X",
                         "nameClean": "X",
@@ -29,14 +39,15 @@
                           "url": "https://x.com/hashtag/reactnative"
                         }
                       },
-                      "percentagePositive": 17,
-                      "percentageNegative": 4
+                      "percentagePositive": 19,
+                      "percentageNegative": 1
                     },
                     {
-                      "count": 585,
+                      "count": 372,
                       "id": "resources_stay_up_to_date_this_week_in_react",
-                      "percentageQuestion": 45.74,
-                      "percentageSurvey": 16.71,
+                      "index": 1,
+                      "percentageQuestion": 52.17,
+                      "percentageSurvey": 24.39,
                       "entity": {
                         "name": "This Week In React Newsletter (by Sébastien Lorber)",
                         "nameClean": "This Week In React Newsletter (by Sébastien Lorber)",
@@ -48,33 +59,15 @@
                           "url": "https://thisweekinreact.com/?utm_source=state_of_rn"
                         }
                       },
-                      "percentagePositive": 24,
-                      "percentageNegative": 1
+                      "percentagePositive": 21,
+                      "percentageNegative": 0
                     },
                     {
-                      "count": 418,
-                      "id": "resources_stay_up_to_date_reddit",
-                      "percentageQuestion": 32.68,
-                      "percentageSurvey": 11.94,
-                      "entity": {
-                        "name": "r/reactnative",
-                        "nameClean": "r/reactnative",
-                        "description": "React Native sub-Reddit.",
-                        "descriptionClean": "React Native sub-Reddit.",
-                        "id": "resources_stay_up_to_date_reddit",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.reddit.com/r/reactnative/"
-                        }
-                      },
-                      "percentagePositive": 11,
-                      "percentageNegative": 4
-                    },
-                    {
-                      "count": 409,
+                      "count": 256,
                       "id": "resources_stay_up_to_date_react_native_newsletter",
-                      "percentageQuestion": 31.98,
-                      "percentageSurvey": 11.68,
+                      "index": 2,
+                      "percentageQuestion": 35.9,
+                      "percentageSurvey": 16.79,
                       "entity": {
                         "name": "React Native Newsletter (by Infinite Red)",
                         "nameClean": "React Native Newsletter (by Infinite Red)",
@@ -87,13 +80,14 @@
                         }
                       },
                       "percentagePositive": 12,
-                      "percentageNegative": 2
+                      "percentageNegative": 1
                     },
                     {
-                      "count": 383,
+                      "count": 232,
                       "id": "resources_stay_up_to_date_expo_changelog",
-                      "percentageQuestion": 29.95,
-                      "percentageSurvey": 10.94,
+                      "index": 3,
+                      "percentageQuestion": 32.54,
+                      "percentageSurvey": 15.21,
                       "entity": {
                         "name": "Changelog (by Expo)",
                         "nameClean": "Changelog (by Expo)",
@@ -109,10 +103,73 @@
                       "percentageNegative": 0
                     },
                     {
-                      "count": 351,
+                      "count": 192,
+                      "id": "resources_stay_up_to_date_reddit",
+                      "index": 4,
+                      "percentageQuestion": 26.93,
+                      "percentageSurvey": 12.59,
+                      "entity": {
+                        "name": "r/reactnative",
+                        "nameClean": "r/reactnative",
+                        "description": "React Native sub-Reddit.",
+                        "descriptionClean": "React Native sub-Reddit.",
+                        "id": "resources_stay_up_to_date_reddit",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://www.reddit.com/r/reactnative/"
+                        }
+                      },
+                      "percentagePositive": 16,
+                      "percentageNegative": 2
+                    },
+                    {
+                      "count": 118,
+                      "id": "resources_stay_up_to_date_expo_discord",
+                      "index": 5,
+                      "percentageQuestion": 16.55,
+                      "percentageSurvey": 7.74,
+                      "entity": {
+                        "name": "Expo Developers Discord",
+                        "nameClean": "Expo Developers Discord",
+                        "description": "Discussions, Q&A, explanations and talking about topic related to React Native and Expo.",
+                        "descriptionHtml": "Discussions, Q&amp;A, explanations and talking about topic related to React Native and Expo.",
+                        "descriptionClean": "Discussions, Q&A, explanations and talking about topic related to React Native and Expo.",
+                        "id": "resources_stay_up_to_date_expo_discord",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://discord.com/invite/expo"
+                        }
+                      },
+                      "percentagePositive": 19,
+                      "percentageNegative": 3
+                    },
+                    {
+                      "count": 108,
+                      "id": "resources_stay_up_to_date_callstack_newsletter",
+                      "index": 6,
+                      "percentageQuestion": 15.15,
+                      "percentageSurvey": 7.08,
+                      "entity": {
+                        "name": "React Universe Journals (by Callstack)",
+                        "nameClean": "React Universe Journals (by Callstack)",
+                        "description": "Newsletter to keep your finger on the pulse of the React & React Native ecosystem.",
+                        "descriptionHtml": "Newsletter to keep your finger on the pulse of the React &amp; React Native ecosystem.",
+                        "descriptionClean": "Newsletter to keep your finger on the pulse of the React & React Native ecosystem.",
+                        "id": "resources_stay_up_to_date_callstack_newsletter",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://www.callstack.com/newsletter"
+                        }
+                      },
+                      "percentagePositive": 13,
+                      "percentageNegative": 0
+                    },
+                    {
+                      "count": 95,
                       "id": "resources_stay_up_to_date_bluesky",
-                      "percentageQuestion": 27.44,
-                      "percentageSurvey": 10.03,
+                      "index": 7,
+                      "percentageQuestion": 13.32,
+                      "percentageSurvey": 6.23,
                       "entity": {
                         "name": "Bluesky",
                         "nameClean": "Bluesky",
@@ -124,34 +181,15 @@
                           "url": "https://bsky.app/search?q=%23reactnative"
                         }
                       },
-                      "percentagePositive": 23,
-                      "percentageNegative": 1
-                    },
-                    {
-                      "count": 306,
-                      "id": "resources_stay_up_to_date_expo_discord",
-                      "percentageQuestion": 23.92,
-                      "percentageSurvey": 8.74,
-                      "entity": {
-                        "name": "Expo Developers Discord",
-                        "nameClean": "Expo Developers Discord",
-                        "description": "Discussions, Q&A, explanations and talking about topic related to React Native and Expo.",
-                        "descriptionHtml": "Discussions, Q&amp;A, explanations and talking about topic related to React Native and Expo.",
-                        "descriptionClean": "Discussions, QA, explanations and talking about topic related to React Native and Expo.",
-                        "id": "resources_stay_up_to_date_expo_discord",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://discord.com/invite/expo"
-                        }
-                      },
-                      "percentagePositive": 13,
+                      "percentagePositive": 19,
                       "percentageNegative": 3
                     },
                     {
-                      "count": 193,
+                      "count": 91,
                       "id": "resources_stay_up_to_date_expo_newsletter",
-                      "percentageQuestion": 15.09,
-                      "percentageSurvey": 5.51,
+                      "index": 8,
+                      "percentageQuestion": 12.76,
+                      "percentageSurvey": 5.97,
                       "entity": {
                         "name": "Optimistic Updates (by Expo)",
                         "nameClean": "Optimistic Updates (by Expo)",
@@ -165,33 +203,34 @@
                         }
                       },
                       "percentagePositive": 20,
-                      "percentageNegative": 1
+                      "percentageNegative": 2
                     },
                     {
-                      "count": 135,
-                      "id": "resources_stay_up_to_date_callstack_newsletter",
-                      "percentageQuestion": 10.56,
-                      "percentageSurvey": 3.86,
+                      "count": 85,
+                      "id": "resources_stay_up_to_date_the_react_native_rewind",
+                      "index": 9,
+                      "percentageQuestion": 11.92,
+                      "percentageSurvey": 5.57,
                       "entity": {
-                        "name": "React Universe Journals (by Callstack)",
-                        "nameClean": "React Universe Journals (by Callstack)",
-                        "description": "Newsletter to keep your finger on the pulse of the React & React Native ecosystem.",
-                        "descriptionHtml": "Newsletter to keep your finger on the pulse of the React &amp; React Native ecosystem.",
-                        "descriptionClean": "Newsletter to keep your finger on the pulse of the React  React Native ecosystem.",
-                        "id": "resources_stay_up_to_date_callstack_newsletter",
+                        "name": "The React Native Rewind",
+                        "nameClean": "The React Native Rewind",
+                        "description": "A bi-weekly newsletter breaking down the latest and upcoming in React Native, highlighting what’s worth your time with humor, occasional rants, and memes.",
+                        "descriptionClean": "A bi-weekly newsletter breaking down the latest and upcoming in React Native, highlighting what’s worth your time with humor, occasional rants, and memes.",
+                        "id": "resources_stay_up_to_date_the_react_native_rewind",
                         "entityType": "default",
                         "homepage": {
-                          "url": "https://www.callstack.com/newsletter"
+                          "url": "https://thereactnativerewind.com/"
                         }
                       },
-                      "percentagePositive": 11,
+                      "percentagePositive": 20,
                       "percentageNegative": 1
                     },
                     {
-                      "count": 127,
+                      "count": 58,
                       "id": "resources_stay_up_to_date_notjustdev",
-                      "percentageQuestion": 9.93,
-                      "percentageSurvey": 3.63,
+                      "index": 10,
+                      "percentageQuestion": 8.13,
+                      "percentageSurvey": 3.8,
                       "entity": {
                         "name": "notJust Newsletter (by Vadim Savin)",
                         "nameClean": "notJust Newsletter (by Vadim Savin)",
@@ -203,53 +242,49 @@
                           "url": "https://www.notjust.dev/newsletter"
                         }
                       },
-                      "percentagePositive": 9,
-                      "percentageNegative": 3
+                      "percentagePositive": 16,
+                      "percentageNegative": 2
                     },
                     {
-                      "count": 1,
-                      "id": "debugging_in_general",
-                      "percentageQuestion": 0.08,
-                      "percentageSurvey": 0.03,
+                      "count": 4,
+                      "id": "nativeweekly",
+                      "index": 11,
+                      "percentageQuestion": 0.56,
+                      "percentageSurvey": 0.26,
                       "isFreeformData": true,
                       "entity": {
-                        "name": "Debugging in general",
-                        "nameClean": "Debugging in general",
-                        "id": "debugging_in_general",
-                        "entityType": "default"
+                        "name": "Nativeweekly",
+                        "nameClean": "Nativeweekly",
+                        "id": "nativeweekly",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "nativeweekly.beehiiv.com"
+                        }
                       }
                     },
                     {
-                      "count": 1,
-                      "id": "styles",
-                      "percentageQuestion": 0.08,
-                      "percentageSurvey": 0.03,
+                      "count": 3,
+                      "id": "bytes",
+                      "index": 12,
+                      "percentageQuestion": 0.42,
+                      "percentageSurvey": 0.2,
                       "isFreeformData": true,
                       "entity": {
-                        "name": "Styles",
-                        "nameClean": "Styles",
-                        "id": "styles",
-                        "entityType": "default"
+                        "name": "Bytes",
+                        "nameClean": "Bytes",
+                        "id": "bytes",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://bytes.dev/"
+                        }
                       }
                     },
                     {
-                      "count": 1,
-                      "id": "unusable",
-                      "percentageQuestion": 0.08,
-                      "percentageSurvey": 0.03,
-                      "isFreeformData": true,
-                      "entity": {
-                        "name": "Unusable",
-                        "nameClean": "Unusable",
-                        "id": "unusable",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 21,
+                      "count": 20,
                       "id": "other_answers",
-                      "percentageQuestion": 1.64,
-                      "percentageSurvey": 0.6
+                      "index": 13,
+                      "percentageQuestion": 2.8,
+                      "percentageSurvey": 1.36
                     }
                   ]
                 }

@@ -5,49 +5,79 @@
         "rn2025": {
           "developer_background": {
             "developer_background_main_daily_platforms": {
-              "responses": {
+              "id": "developer_background_main_daily_platforms",
+              "combined": {
                 "currentEdition": {
+                  "_metadata": {
+                    "axis1Sort": {
+                      "property": "count",
+                      "order": "desc"
+                    },
+                    "limit": 50,
+                    "cutoff": 5
+                  },
                   "completion": {
-                    "count": 3401,
-                    "percentageSurvey": 97.14,
-                    "total": 3501
+                    "count": 1477,
+                    "percentageSurvey": 96.85,
+                    "total": 1525
                   },
                   "buckets": [
                     {
-                      "count": 2314,
+                      "count": 1093,
                       "id": "developer_background_main_daily_platforms_ios_simulator",
-                      "percentageQuestion": 68.04,
-                      "percentageSurvey": 66.1
+                      "index": 0,
+                      "percentageQuestion": 74,
+                      "percentageSurvey": 71.67
                     },
                     {
-                      "count": 2013,
+                      "count": 903,
                       "id": "developer_background_main_daily_platforms_android_device",
-                      "percentageQuestion": 59.19,
-                      "percentageSurvey": 57.5
+                      "index": 1,
+                      "percentageQuestion": 61.14,
+                      "percentageSurvey": 59.21
                     },
                     {
-                      "count": 1797,
-                      "id": "developer_background_main_daily_platforms_android_emulator",
-                      "percentageQuestion": 52.84,
-                      "percentageSurvey": 51.33
-                    },
-                    {
-                      "count": 1731,
+                      "count": 863,
                       "id": "developer_background_main_daily_platforms_ios_device",
-                      "percentageQuestion": 50.9,
-                      "percentageSurvey": 49.44
+                      "index": 2,
+                      "percentageQuestion": 58.43,
+                      "percentageSurvey": 56.59
                     },
                     {
-                      "count": 576,
+                      "count": 856,
+                      "id": "developer_background_main_daily_platforms_android_emulator",
+                      "index": 3,
+                      "percentageQuestion": 57.96,
+                      "percentageSurvey": 56.13
+                    },
+                    {
+                      "count": 241,
                       "id": "developer_background_main_daily_platforms_web_browser",
-                      "percentageQuestion": 16.94,
-                      "percentageSurvey": 16.45
+                      "index": 4,
+                      "percentageQuestion": 16.32,
+                      "percentageSurvey": 15.8
                     },
                     {
-                      "count": 98,
+                      "count": 7,
+                      "id": "cutoff_answers",
+                      "index": 5,
+                      "percentageQuestion": 0.47,
+                      "percentageSurvey": 0.46
+                    },
+                    {
+                      "count": 6,
+                      "id": "no_match",
+                      "index": 6,
+                      "percentageQuestion": 0.41,
+                      "percentageSurvey": 0.39,
+                      "isFreeformData": true
+                    },
+                    {
+                      "count": 48,
                       "id": "no_answer",
+                      "index": 7,
                       "percentageQuestion": 0,
-                      "percentageSurvey": 2.8
+                      "percentageSurvey": 3.15
                     }
                   ]
                 }

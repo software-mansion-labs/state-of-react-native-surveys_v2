@@ -5,19 +5,29 @@
         "rn2025": {
           "navigation": {
             "navigation_pain_points": {
+              "id": "navigation_pain_points",
               "freeform": {
                 "currentEdition": {
+                  "_metadata": {
+                    "axis1Sort": {
+                      "property": "count",
+                      "order": "desc"
+                    },
+                    "limit": 20,
+                    "cutoff": 5
+                  },
                   "completion": {
-                    "count": 233,
-                    "percentageSurvey": 6.66,
-                    "total": 3501
+                    "count": 228,
+                    "percentageSurvey": 14.95,
+                    "total": 1525
                   },
                   "buckets": [
                     {
-                      "count": 45,
+                      "count": 38,
                       "id": "expo_router",
-                      "percentageQuestion": 19.31,
-                      "percentageSurvey": 1.29,
+                      "index": 0,
+                      "percentageQuestion": 16.67,
+                      "percentageSurvey": 2.49,
                       "entity": {
                         "name": "Expo Router",
                         "nameClean": "Expo Router",
@@ -26,10 +36,63 @@
                       }
                     },
                     {
+                      "count": 34,
+                      "id": "stack",
+                      "index": 1,
+                      "percentageQuestion": 14.91,
+                      "percentageSurvey": 2.23,
+                      "entity": {
+                        "name": "Stack",
+                        "nameClean": "Stack",
+                        "id": "stack",
+                        "entityType": "default"
+                      }
+                    },
+                    {
                       "count": 32,
+                      "id": "react_navigation",
+                      "index": 2,
+                      "percentageQuestion": 14.04,
+                      "percentageSurvey": 2.1,
+                      "entity": {
+                        "name": "React Navigation",
+                        "nameClean": "React Navigation",
+                        "id": "react_navigation",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 25,
+                      "id": "types_problems",
+                      "index": 3,
+                      "percentageQuestion": 10.96,
+                      "percentageSurvey": 1.64,
+                      "entity": {
+                        "name": "Types problems",
+                        "nameClean": "Types problems",
+                        "id": "types_problems",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 16,
+                      "id": "animations",
+                      "index": 4,
+                      "percentageQuestion": 7.02,
+                      "percentageSurvey": 1.05,
+                      "entity": {
+                        "name": "Animations",
+                        "nameClean": "Animations",
+                        "id": "animations",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 15,
                       "id": "deeplinks",
-                      "percentageQuestion": 13.73,
-                      "percentageSurvey": 0.91,
+                      "index": 5,
+                      "percentageQuestion": 6.58,
+                      "percentageSurvey": 0.98,
                       "entity": {
                         "name": "Deep links",
                         "nameClean": "Deep links",
@@ -38,10 +101,11 @@
                       }
                     },
                     {
-                      "count": 29,
+                      "count": 14,
                       "id": "excessive_complexity",
-                      "percentageQuestion": 12.45,
-                      "percentageSurvey": 0.83,
+                      "index": 6,
+                      "percentageQuestion": 6.14,
+                      "percentageSurvey": 0.92,
                       "entity": {
                         "name": "Excessive complexity",
                         "nameClean": "Excessive complexity",
@@ -52,172 +116,11 @@
                       }
                     },
                     {
-                      "count": 26,
-                      "id": "navigation_state",
-                      "percentageQuestion": 11.16,
-                      "percentageSurvey": 0.74,
-                      "entity": {
-                        "name": "Navigation state",
-                        "nameClean": "Navigation state",
-                        "id": "navigation_state",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 24,
-                      "id": "stack",
-                      "percentageQuestion": 10.3,
-                      "percentageSurvey": 0.69,
-                      "entity": {
-                        "name": "Stack",
-                        "nameClean": "Stack",
-                        "id": "stack",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 24,
-                      "id": "types_problems",
-                      "percentageQuestion": 10.3,
-                      "percentageSurvey": 0.69,
-                      "entity": {
-                        "name": "Types problems",
-                        "nameClean": "Types problems",
-                        "id": "types_problems",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 20,
-                      "id": "lack_of_documentation",
-                      "percentageQuestion": 8.58,
-                      "percentageSurvey": 0.57,
-                      "entity": {
-                        "name": "Lack of documentation",
-                        "nameClean": "Lack of documentation",
-                        "description": "Lack of documentation or code examples",
-                        "descriptionClean": "Lack of documentation or code examples",
-                        "id": "lack_of_documentation",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 15,
-                      "id": "configuration",
-                      "percentageQuestion": 6.44,
-                      "percentageSurvey": 0.43,
-                      "entity": {
-                        "name": "Configuration",
-                        "nameClean": "Configuration",
-                        "description": "Difficulties with set-up and configuration",
-                        "descriptionClean": "Difficulties with set-up and configuration",
-                        "id": "configuration",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 15,
-                      "id": "modals",
-                      "percentageQuestion": 6.44,
-                      "percentageSurvey": 0.43,
-                      "entity": {
-                        "name": "Modals",
-                        "nameClean": "Modals",
-                        "id": "modals",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 14,
-                      "id": "animations",
-                      "percentageQuestion": 6.01,
-                      "percentageSurvey": 0.4,
-                      "entity": {
-                        "name": "Animations",
-                        "nameClean": "Animations",
-                        "id": "animations",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 13,
-                      "id": "performance",
-                      "percentageQuestion": 5.58,
-                      "percentageSurvey": 0.37,
-                      "entity": {
-                        "name": "Performance",
-                        "nameClean": "Performance",
-                        "description": "Performance issues",
-                        "descriptionClean": "Performance issues",
-                        "id": "performance",
-                        "entityType": "default"
-                      }
-                    },
-                    {
                       "count": 12,
-                      "id": "file_based_routing",
-                      "percentageQuestion": 5.15,
-                      "percentageSurvey": 0.34,
-                      "entity": {
-                        "name": "File Based Routing",
-                        "nameClean": "File Based Routing",
-                        "id": "file_based_routing",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 11,
-                      "id": "customization",
-                      "percentageQuestion": 4.72,
-                      "percentageSurvey": 0.31,
-                      "entity": {
-                        "name": "Customization",
-                        "nameClean": "Customization",
-                        "id": "customization",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 11,
-                      "id": "nested_screens",
-                      "percentageQuestion": 4.72,
-                      "percentageSurvey": 0.31,
-                      "entity": {
-                        "name": "Nested screens",
-                        "nameClean": "Nested screens",
-                        "id": "nested_screens",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 11,
-                      "id": "web_issues",
-                      "percentageQuestion": 4.72,
-                      "percentageSurvey": 0.31,
-                      "entity": {
-                        "name": "Web platform",
-                        "nameClean": "Web platform",
-                        "id": "web_issues",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 7,
-                      "id": "drawer",
-                      "percentageQuestion": 3,
-                      "percentageSurvey": 0.2,
-                      "entity": {
-                        "name": "Drawer",
-                        "nameClean": "Drawer",
-                        "id": "drawer",
-                        "entityType": "default"
-                      }
-                    },
-                    {
-                      "count": 7,
                       "id": "version_updates",
-                      "percentageQuestion": 3,
-                      "percentageSurvey": 0.2,
+                      "index": 7,
+                      "percentageQuestion": 5.26,
+                      "percentageSurvey": 0.79,
                       "entity": {
                         "name": "Version changes",
                         "nameClean": "Version changes",
@@ -228,70 +131,164 @@
                       }
                     },
                     {
-                      "count": 6,
-                      "id": "debugging",
-                      "percentageQuestion": 2.58,
-                      "percentageSurvey": 0.17,
+                      "count": 12,
+                      "id": "web_issues",
+                      "index": 8,
+                      "percentageQuestion": 5.26,
+                      "percentageSurvey": 0.79,
                       "entity": {
-                        "name": "Debugging",
-                        "nameClean": "Debugging",
-                        "id": "debugging",
+                        "name": "Web platform",
+                        "nameClean": "Web platform",
+                        "id": "web_issues",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 10,
+                      "id": "modals",
+                      "index": 9,
+                      "percentageQuestion": 4.39,
+                      "percentageSurvey": 0.66,
+                      "entity": {
+                        "name": "Modals",
+                        "nameClean": "Modals",
+                        "id": "modals",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 10,
+                      "id": "nested_screens",
+                      "index": 10,
+                      "percentageQuestion": 4.39,
+                      "percentageSurvey": 0.66,
+                      "entity": {
+                        "name": "Nested screens",
+                        "nameClean": "Nested screens",
+                        "id": "nested_screens",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 10,
+                      "id": "performance",
+                      "index": 11,
+                      "percentageQuestion": 4.39,
+                      "percentageSurvey": 0.66,
+                      "entity": {
+                        "name": "Performance",
+                        "nameClean": "Performance",
+                        "description": "Performance issues",
+                        "descriptionClean": "Performance issues",
+                        "id": "performance",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 9,
+                      "id": "back_navigation",
+                      "index": 12,
+                      "percentageQuestion": 3.95,
+                      "percentageSurvey": 0.59,
+                      "entity": {
+                        "name": "Back navigation",
+                        "nameClean": "Back navigation",
+                        "id": "back_navigation",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 8,
+                      "id": "bottom_sheet",
+                      "index": 13,
+                      "percentageQuestion": 3.51,
+                      "percentageSurvey": 0.52,
+                      "entity": {
+                        "name": "Bottom sheet",
+                        "nameClean": "Bottom sheet",
+                        "id": "bottom_sheet",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 8,
+                      "id": "bugs_and_stability_issues",
+                      "index": 14,
+                      "percentageQuestion": 3.51,
+                      "percentageSurvey": 0.52,
+                      "entity": {
+                        "name": "Bugs and stability issues",
+                        "nameClean": "Bugs and stability issues",
+                        "id": "bugs_and_stability_issues",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 7,
+                      "id": "customization",
+                      "index": 15,
+                      "percentageQuestion": 3.07,
+                      "percentageSurvey": 0.46,
+                      "entity": {
+                        "name": "Customization",
+                        "nameClean": "Customization",
+                        "id": "customization",
                         "entityType": "default"
                       }
                     },
                     {
                       "count": 6,
-                      "id": "debugging_in_general",
-                      "percentageQuestion": 2.58,
-                      "percentageSurvey": 0.17,
+                      "id": "configuration",
+                      "index": 16,
+                      "percentageQuestion": 2.63,
+                      "percentageSurvey": 0.39,
                       "entity": {
-                        "name": "Debugging in general",
-                        "nameClean": "Debugging in general",
-                        "id": "debugging_in_general",
+                        "name": "Configuration",
+                        "nameClean": "Configuration",
+                        "description": "Difficulties with set-up and configuration",
+                        "descriptionClean": "Difficulties with set-up and configuration",
+                        "id": "configuration",
                         "entityType": "default"
                       }
                     },
                     {
-                      "count": 5,
-                      "id": "authentication",
-                      "percentageQuestion": 2.15,
-                      "percentageSurvey": 0.14,
+                      "count": 6,
+                      "id": "nested_navigation",
+                      "index": 17,
+                      "percentageQuestion": 2.63,
+                      "percentageSurvey": 0.39,
                       "entity": {
-                        "name": "Authentication",
-                        "nameClean": "Authentication",
-                        "id": "authentication",
+                        "name": "Nested navigation",
+                        "nameClean": "Nested navigation",
+                        "id": "nested_navigation",
                         "entityType": "default"
                       }
                     },
                     {
-                      "count": 3267,
+                      "count": 1296,
                       "id": "no_answer",
+                      "index": 18,
                       "percentageQuestion": 0,
-                      "percentageSurvey": 93.32
+                      "percentageSurvey": 84.98
                     },
                     {
-                      "count": 89,
+                      "count": 132,
                       "id": "other_answers",
-                      "percentageQuestion": 38.24,
-                      "percentageSurvey": 2.56,
+                      "index": 19,
+                      "percentageQuestion": 57.92,
+                      "percentageSurvey": 8.71,
                       "groupedBuckets": [
                         {
-                          "count": 20,
-                          "id": "overlimit_answers",
-                          "percentageQuestion": 8.6,
-                          "percentageSurvey": 0.56
-                        },
-                        {
-                          "count": 27,
+                          "count": 50,
                           "id": "cutoff_answers",
-                          "percentageQuestion": 11.61,
-                          "percentageSurvey": 0.8
+                          "percentageQuestion": 21.96,
+                          "percentageSurvey": 3.33
                         },
                         {
-                          "count": 42,
+                          "count": 82,
                           "id": "no_match",
-                          "percentageQuestion": 18.03,
-                          "percentageSurvey": 1.2
+                          "percentageQuestion": 35.96,
+                          "percentageSurvey": 5.38
                         }
                       ]
                     }

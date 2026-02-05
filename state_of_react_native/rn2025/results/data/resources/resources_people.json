@@ -5,24 +5,37 @@
         "rn2025": {
           "resources": {
             "resources_people": {
+              "id": "resources_people",
               "freeform": {
                 "currentEdition": {
+                  "_metadata": {
+                    "axis1Sort": {
+                      "property": "count",
+                      "order": "desc"
+                    },
+                    "limit": 40,
+                    "cutoff": 5
+                  },
                   "completion": {
-                    "count": 195,
-                    "percentageSurvey": 5.57,
-                    "total": 3501
+                    "count": 112,
+                    "percentageSurvey": 7.34,
+                    "total": 1525
                   },
                   "buckets": [
                     {
-                      "count": 70,
+                      "count": 38,
                       "id": "evan_bacon",
-                      "percentageQuestion": 35.9,
-                      "percentageSurvey": 2,
+                      "index": 0,
+                      "percentageQuestion": 33.93,
+                      "percentageSurvey": 2.49,
                       "entity": {
                         "name": "Evan Bacon",
                         "nameClean": "Evan Bacon",
                         "id": "evan_bacon",
                         "entityType": "people",
+                        "avatar": {
+                          "url": "undefined/avatars/evan_bacon.jpg"
+                        },
                         "homepage": {
                           "url": "https://evanbacon.dev/"
                         },
@@ -35,15 +48,19 @@
                       }
                     },
                     {
-                      "count": 32,
+                      "count": 15,
                       "id": "marc_rousavy",
-                      "percentageQuestion": 16.41,
-                      "percentageSurvey": 0.91,
+                      "index": 1,
+                      "percentageQuestion": 13.39,
+                      "percentageSurvey": 0.98,
                       "entity": {
                         "name": "Marc Rousavy",
                         "nameClean": "Marc Rousavy",
                         "id": "marc_rousavy",
                         "entityType": "people",
+                        "avatar": {
+                          "url": "undefined/avatars/marc_rousavy.jpg"
+                        },
                         "homepage": {
                           "url": "https://mrousavy.com/"
                         },
@@ -53,15 +70,70 @@
                       }
                     },
                     {
-                      "count": 29,
+                      "count": 14,
+                      "id": "code_with_beto",
+                      "index": 2,
+                      "percentageQuestion": 12.5,
+                      "percentageSurvey": 0.92,
+                      "entity": {
+                        "name": "Beto Moedano",
+                        "nameClean": "Beto Moedano",
+                        "alias": "Code with Beto",
+                        "id": "code_with_beto",
+                        "entityType": "people",
+                        "avatar": {
+                          "url": "undefined/avatars/code_with_beto.jpg"
+                        },
+                        "homepage": {
+                          "url": "https://beto.vercel.app/"
+                        },
+                        "youtube": {
+                          "url": "https://www.youtube.com/@codewithbeto"
+                        },
+                        "twitter": {
+                          "url": "https://twitter.com/betomoedano"
+                        }
+                      }
+                    },
+                    {
+                      "count": 12,
+                      "id": "fernando_rojo",
+                      "index": 3,
+                      "percentageQuestion": 10.71,
+                      "percentageSurvey": 0.79,
+                      "entity": {
+                        "name": "Fernando Rojo",
+                        "nameClean": "Fernando Rojo",
+                        "id": "fernando_rojo",
+                        "entityType": "people",
+                        "avatar": {
+                          "url": "undefined/avatars/fernando_rojo.jpg"
+                        },
+                        "homepage": {
+                          "url": "https://fernandorojo.co/"
+                        },
+                        "twitter": {
+                          "url": "https://twitter.com/FernandoTheRojo"
+                        },
+                        "bluesky": {
+                          "url": "https://bsky.app/profile/rojo.bsky.social"
+                        }
+                      }
+                    },
+                    {
+                      "count": 12,
                       "id": "william_candillion",
-                      "percentageQuestion": 14.87,
-                      "percentageSurvey": 0.83,
+                      "index": 4,
+                      "percentageQuestion": 10.71,
+                      "percentageSurvey": 0.79,
                       "entity": {
                         "name": "William Candillion",
                         "nameClean": "William Candillion",
                         "id": "william_candillion",
                         "entityType": "people",
+                        "avatar": {
+                          "url": "undefined/avatars/william_candillion.jpg"
+                        },
                         "youtube": {
                           "url": "https://www.youtube.com/wcandillon"
                         },
@@ -71,36 +143,19 @@
                       }
                     },
                     {
-                      "count": 24,
-                      "id": "dan_abramov",
-                      "percentageQuestion": 12.31,
-                      "percentageSurvey": 0.69,
-                      "entity": {
-                        "name": "Dan Abramov",
-                        "nameClean": "Dan Abramov",
-                        "id": "dan_abramov",
-                        "entityType": "people",
-                        "homepage": {
-                          "url": "https://overreacted.io/"
-                        },
-                        "twitter": {
-                          "url": "https://twitter.com/dan_abramov"
-                        },
-                        "bluesky": {
-                          "url": "https://bsky.app/profile/danabra.mov"
-                        }
-                      }
-                    },
-                    {
-                      "count": 24,
+                      "count": 11,
                       "id": "simon_grimm",
-                      "percentageQuestion": 12.31,
-                      "percentageSurvey": 0.69,
+                      "index": 5,
+                      "percentageQuestion": 9.82,
+                      "percentageSurvey": 0.72,
                       "entity": {
                         "name": "Simon Grimm",
                         "nameClean": "Simon Grimm",
                         "id": "simon_grimm",
                         "entityType": "people",
+                        "avatar": {
+                          "url": "undefined/avatars/simon_grimm.jpg"
+                        },
                         "homepage": {
                           "url": "https://devdactic.com/"
                         },
@@ -116,202 +171,19 @@
                       }
                     },
                     {
-                      "count": 15,
-                      "id": "catalin_miron",
-                      "percentageQuestion": 7.69,
-                      "percentageSurvey": 0.43,
-                      "entity": {
-                        "name": "Catalin Miron",
-                        "nameClean": "Catalin Miron",
-                        "id": "catalin_miron",
-                        "entityType": "people",
-                        "homepage": {
-                          "url": "https://www.animatereactnative.com/"
-                        },
-                        "youtube": {
-                          "url": "https://www.youtube.com/c/catalinmirondev"
-                        },
-                        "twitter": {
-                          "url": "https://twitter.com/mironcatalin"
-                        }
-                      }
-                    },
-                    {
-                      "count": 12,
-                      "id": "vadim_savin",
-                      "percentageQuestion": 6.15,
-                      "percentageSurvey": 0.34,
-                      "entity": {
-                        "name": "Vadim Savin",
-                        "nameClean": "Vadim Savin",
-                        "id": "vadim_savin",
-                        "entityType": "people",
-                        "homepage": {
-                          "url": "https://www.notjust.dev/"
-                        },
-                        "youtube": {
-                          "url": "https://www.youtube.com/c/notjustdev"
-                        },
-                        "twitter": {
-                          "url": "https://twitter.com/VadimNotJustDev"
-                        },
-                        "bluesky": {
-                          "url": "https://bsky.app/profile/notjust.dev"
-                        }
-                      }
-                    },
-                    {
-                      "count": 11,
-                      "id": "jamon_holmgren",
-                      "percentageQuestion": 5.64,
-                      "percentageSurvey": 0.31,
-                      "entity": {
-                        "name": "Jamon Holmgren",
-                        "nameClean": "Jamon Holmgren",
-                        "id": "jamon_holmgren",
-                        "entityType": "people",
-                        "homepage": {
-                          "url": "https://jamon.dev/"
-                        },
-                        "twitter": {
-                          "url": "https://twitter.com/jamonholmgren"
-                        }
-                      }
-                    },
-                    {
-                      "count": 9,
-                      "id": "expo",
-                      "percentageQuestion": 4.62,
-                      "percentageSurvey": 0.26,
-                      "entity": {
-                        "name": "Expo",
-                        "nameClean": "Expo",
-                        "id": "expo",
-                        "entityType": "people",
-                        "homepage": {
-                          "url": "https://expo.dev"
-                        },
-                        "youtube": {
-                          "url": "https://www.youtube.com/@ExpoDevelopers"
-                        },
-                        "twitter": {
-                          "url": "https://twitter.com/expo"
-                        },
-                        "bluesky": {
-                          "url": "https://bsky.app/profile/expo.dev"
-                        }
-                      }
-                    },
-                    {
-                      "count": 9,
-                      "id": "theo_browne",
-                      "percentageQuestion": 4.62,
-                      "percentageSurvey": 0.26,
-                      "entity": {
-                        "name": "Theo Browne",
-                        "nameClean": "Theo Browne",
-                        "alias": "Theo",
-                        "id": "theo_browne",
-                        "entityType": "people",
-                        "homepage": {
-                          "url": "https://t3.gg/"
-                        },
-                        "youtube": {
-                          "url": "https://www.youtube.com/@t3dotgg"
-                        },
-                        "twitter": {
-                          "url": "https://twitter.com/theo"
-                        },
-                        "twitch": {
-                          "url": "https://www.twitch.tv/theo"
-                        },
-                        "bluesky": {
-                          "url": "https://bsky.app/profile/t3.gg"
-                        }
-                      }
-                    },
-                    {
-                      "count": 7,
-                      "id": "callstack",
-                      "percentageQuestion": 3.59,
-                      "percentageSurvey": 0.2,
-                      "entity": {
-                        "name": "Callstack",
-                        "nameClean": "Callstack",
-                        "id": "callstack",
-                        "entityType": "people",
-                        "homepage": {
-                          "url": "https://www.callstack.com/"
-                        },
-                        "youtube": {
-                          "url": "https://www.youtube.com/c/CallstackEngineers"
-                        },
-                        "twitter": {
-                          "url": "https://twitter.com/callstackio"
-                        }
-                      }
-                    },
-                    {
-                      "count": 7,
-                      "id": "krzysztof_magiera",
-                      "percentageQuestion": 3.59,
-                      "percentageSurvey": 0.2,
-                      "entity": {
-                        "name": "Krzysztof Magiera",
-                        "nameClean": "Krzysztof Magiera",
-                        "id": "krzysztof_magiera",
-                        "entityType": "people",
-                        "twitter": {
-                          "url": "https://twitter.com/kzzzf"
-                        }
-                      }
-                    },
-                    {
-                      "count": 7,
-                      "id": "sebastien_lorber",
-                      "percentageQuestion": 3.59,
-                      "percentageSurvey": 0.2,
-                      "entity": {
-                        "name": "Sebastien Lorber",
-                        "nameClean": "Sebastien Lorber",
-                        "id": "sebastien_lorber",
-                        "entityType": "people",
-                        "homepage": {
-                          "url": "https://thisweekinreact.com/"
-                        },
-                        "twitter": {
-                          "url": "https://twitter.com/sebastienlorber"
-                        }
-                      }
-                    },
-                    {
-                      "count": 6,
-                      "id": "jacek_pudysz",
-                      "percentageQuestion": 3.08,
-                      "percentageSurvey": 0.17,
-                      "entity": {
-                        "name": "Jacek Pudysz",
-                        "nameClean": "Jacek Pudysz",
-                        "id": "jacek_pudysz",
-                        "entityType": "people",
-                        "homepage": {
-                          "url": "https://www.reactnativecrossroads.com/"
-                        },
-                        "twitch": {
-                          "url": "https://www.twitch.tv/jpudysz"
-                        }
-                      }
-                    },
-                    {
-                      "count": 6,
+                      "count": 8,
                       "id": "software_mansion",
-                      "percentageQuestion": 3.08,
-                      "percentageSurvey": 0.17,
+                      "index": 6,
+                      "percentageQuestion": 7.14,
+                      "percentageSurvey": 0.52,
                       "entity": {
                         "name": "Software Mansion",
                         "nameClean": "Software Mansion",
                         "id": "software_mansion",
                         "entityType": "people",
+                        "avatar": {
+                          "url": "undefined/avatars/software_mansion.jpg"
+                        },
                         "homepage": {
                           "url": "https://swmansion.com/"
                         },
@@ -327,129 +199,134 @@
                       }
                     },
                     {
+                      "count": 7,
+                      "id": "theo_browne",
+                      "index": 7,
+                      "percentageQuestion": 6.25,
+                      "percentageSurvey": 0.46,
+                      "entity": {
+                        "name": "Theo Browne",
+                        "nameClean": "Theo Browne",
+                        "alias": "Theo",
+                        "id": "theo_browne",
+                        "entityType": "people",
+                        "avatar": {
+                          "url": "undefined/avatars/theo_browne.jpg"
+                        },
+                        "homepage": {
+                          "url": "https://t3.gg/"
+                        },
+                        "youtube": {
+                          "url": "https://www.youtube.com/@t3dotgg"
+                        },
+                        "twitter": {
+                          "url": "https://twitter.com/theo"
+                        },
+                        "bluesky": {
+                          "url": "https://bsky.app/profile/t3.gg"
+                        },
+                        "twitch": {
+                          "url": "https://www.twitch.tv/theo"
+                        }
+                      }
+                    },
+                    {
                       "count": 6,
-                      "id": "tkdodo",
-                      "percentageQuestion": 3.08,
-                      "percentageSurvey": 0.17,
+                      "id": "callstack",
+                      "index": 8,
+                      "percentageQuestion": 5.36,
+                      "percentageSurvey": 0.39,
                       "entity": {
-                        "name": "Dominik Dorfmeister",
-                        "nameClean": "Dominik Dorfmeister",
-                        "alias": "TKDodo",
-                        "id": "tkdodo",
+                        "name": "Callstack",
+                        "nameClean": "Callstack",
+                        "id": "callstack",
                         "entityType": "people",
-                        "homepage": {
-                          "url": "https://tkdodo.eu"
+                        "avatar": {
+                          "url": "undefined/avatars/callstack.jpg"
                         },
-                        "bluesky": {
-                          "url": "https://bsky.app/profile/tkdodo.eu"
-                        }
-                      }
-                    },
-                    {
-                      "count": 5,
-                      "id": "enzo",
-                      "percentageQuestion": 2.56,
-                      "percentageSurvey": 0.14,
-                      "entity": {
-                        "name": "Enzo Manuel Mangano",
-                        "nameClean": "Enzo Manuel Mangano",
-                        "alias": "Reactiive",
-                        "id": "enzo",
-                        "entityType": "people",
                         "homepage": {
-                          "url": "https://reactiive.io/"
+                          "url": "https://www.callstack.com/"
                         },
                         "youtube": {
-                          "url": "https://www.youtube.com/@Reactiive"
+                          "url": "https://www.youtube.com/c/CallstackEngineers"
                         },
                         "twitter": {
-                          "url": "https://twitter.com/reactiive_"
+                          "url": "https://twitter.com/callstackio"
                         }
                       }
                     },
                     {
                       "count": 5,
-                      "id": "kent_c_dodds",
-                      "percentageQuestion": 2.56,
-                      "percentageSurvey": 0.14,
+                      "id": "catalin_miron",
+                      "index": 9,
+                      "percentageQuestion": 4.46,
+                      "percentageSurvey": 0.33,
                       "entity": {
-                        "name": "Kent C. Dodds",
-                        "nameClean": "Kent C. Dodds",
-                        "id": "kent_c_dodds",
+                        "name": "Catalin Miron",
+                        "nameClean": "Catalin Miron",
+                        "id": "catalin_miron",
                         "entityType": "people",
+                        "avatar": {
+                          "url": "undefined/avatars/catalin_miron.jpg"
+                        },
                         "homepage": {
-                          "url": "https://kentcdodds.com/"
+                          "url": "https://www.animatereactnative.com/"
                         },
                         "youtube": {
-                          "url": "https://www.youtube.com/@KentCDodds-vids"
+                          "url": "https://www.youtube.com/c/catalinmirondev"
                         },
                         "twitter": {
-                          "url": "https://twitter.com/kentcdodds"
-                        },
-                        "bluesky": {
-                          "url": "https://bsky.app/profile/kentcdodds.com"
+                          "url": "https://twitter.com/mironcatalin"
                         }
                       }
                     },
                     {
                       "count": 5,
-                      "id": "nate_wienert",
-                      "percentageQuestion": 2.56,
-                      "percentageSurvey": 0.14,
+                      "id": "oskar_kwasniewski",
+                      "index": 10,
+                      "percentageQuestion": 4.46,
+                      "percentageSurvey": 0.33,
                       "entity": {
-                        "name": "Nate Wienert",
-                        "nameClean": "Nate Wienert",
-                        "id": "nate_wienert",
+                        "name": "Oskar Kwaśniewski",
+                        "nameClean": "Oskar Kwaśniewski",
+                        "id": "oskar_kwasniewski",
                         "entityType": "people",
+                        "avatar": {
+                          "url": "undefined/avatars/oskar_kwasniewski.jpg"
+                        },
                         "homepage": {
-                          "url": "https://tamagui.dev/"
+                          "url": "https://kwasniew.ski/"
                         },
                         "twitter": {
-                          "url": "https://twitter.com/natebirdman"
+                          "url": "https://twitter.com/o_kwasniewski"
                         }
                       }
                     },
                     {
-                      "count": 5,
-                      "id": "tanner_linsley",
-                      "percentageQuestion": 2.56,
-                      "percentageSurvey": 0.14,
-                      "entity": {
-                        "name": "Tanner Linsley",
-                        "nameClean": "Tanner Linsley",
-                        "id": "tanner_linsley",
-                        "entityType": "people",
-                        "homepage": {
-                          "url": "https://tanstack.com/"
-                        },
-                        "twitter": {
-                          "url": "https://twitter.com/tannerlinsley"
-                        }
-                      }
-                    },
-                    {
-                      "count": 3306,
+                      "count": 1413,
                       "id": "no_answer",
+                      "index": 11,
                       "percentageQuestion": 0,
-                      "percentageSurvey": 94.43
+                      "percentageSurvey": 92.66
                     },
                     {
-                      "count": 141,
+                      "count": 106,
                       "id": "other_answers",
-                      "percentageQuestion": 72.3,
-                      "percentageSurvey": 4.07,
+                      "index": 12,
+                      "percentageQuestion": 94.65,
+                      "percentageSurvey": 7,
                       "groupedBuckets": [
                         {
-                          "count": 59,
+                          "count": 52,
                           "id": "cutoff_answers",
-                          "percentageQuestion": 30.25,
-                          "percentageSurvey": 1.73
+                          "percentageQuestion": 46.44,
+                          "percentageSurvey": 3.46
                         },
                         {
-                          "count": 82,
+                          "count": 54,
                           "id": "no_match",
-                          "percentageQuestion": 42.05,
-                          "percentageSurvey": 2.34
+                          "percentageQuestion": 48.21,
+                          "percentageSurvey": 3.54
                         }
                       ]
                     }

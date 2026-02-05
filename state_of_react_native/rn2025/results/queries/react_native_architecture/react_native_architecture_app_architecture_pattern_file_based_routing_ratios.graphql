@@ -1,9 +1,9 @@
-query rn2025resourcesRatiosQuery {
+query {
   surveys {
     state_of_react_native {
       rn2025 {
-        resources {
-          resources_react_native_directory {
+        react_native_architecture {
+          react_native_architecture_app_architecture_pattern_file_based_routing {
             id
             entity {
               name

@@ -5,43 +5,57 @@
         "rn2025": {
           "user_info": {
             "gender": {
-              "responses": {
+              "id": "gender",
+              "combined": {
                 "currentEdition": {
+                  "_metadata": {
+                    "axis1Sort": {
+                      "property": "options",
+                      "order": "desc"
+                    },
+                    "limit": 50,
+                    "cutoff": 1
+                  },
                   "completion": {
-                    "count": 1710,
-                    "percentageSurvey": 48.84,
-                    "total": 3501
+                    "count": 901,
+                    "percentageSurvey": 59.08,
+                    "total": 1525
                   },
                   "buckets": [
                     {
-                      "count": 1633,
+                      "count": 857,
                       "id": "male",
-                      "percentageQuestion": 95.5,
-                      "percentageSurvey": 46.64
+                      "index": 0,
+                      "percentageQuestion": 95.12,
+                      "percentageSurvey": 56.2
                     },
                     {
-                      "count": 55,
+                      "count": 32,
                       "id": "female",
-                      "percentageQuestion": 3.22,
-                      "percentageSurvey": 1.57
+                      "index": 1,
+                      "percentageQuestion": 3.55,
+                      "percentageSurvey": 2.1
                     },
                     {
-                      "count": 18,
+                      "count": 10,
                       "id": "non_binary",
-                      "percentageQuestion": 1.05,
-                      "percentageSurvey": 0.51
+                      "index": 2,
+                      "percentageQuestion": 1.11,
+                      "percentageSurvey": 0.66
                     },
                     {
-                      "count": 4,
+                      "count": 2,
                       "id": "not_listed",
-                      "percentageQuestion": 0.23,
-                      "percentageSurvey": 0.11
+                      "index": 3,
+                      "percentageQuestion": 0.22,
+                      "percentageSurvey": 0.13
                     },
                     {
-                      "count": 1791,
+                      "count": 624,
                       "id": "no_answer",
+                      "index": 4,
                       "percentageQuestion": 0,
-                      "percentageSurvey": 51.16
+                      "percentageSurvey": 40.92
                     }
                   ]
                 }

@@ -5,65 +5,82 @@
         "rn2025": {
           "user_info": {
             "yearly_salary": {
-              "responses": {
+              "id": "yearly_salary",
+              "combined": {
                 "currentEdition": {
-                  "completion": {
-                    "count": 1641,
-                    "percentageSurvey": 46.87,
-                    "total": 3501
+                  "_metadata": {
+                    "axis1Sort": {
+                      "property": "options",
+                      "order": "desc"
+                    },
+                    "limit": 50,
+                    "cutoff": 1
                   },
-                  "average": 71942.7,
+                  "completion": {
+                    "count": 858,
+                    "percentageSurvey": 56.26,
+                    "total": 1525
+                  },
+                  "average": 77687.8,
                   "percentiles": {
                     "p50": 75000
                   },
                   "buckets": [
                     {
-                      "count": 189,
+                      "count": 97,
                       "id": "range_0_10",
-                      "percentageQuestion": 11.52,
-                      "percentageSurvey": 5.4
+                      "index": 0,
+                      "percentageQuestion": 11.31,
+                      "percentageSurvey": 6.36
                     },
                     {
-                      "count": 236,
+                      "count": 104,
                       "id": "range_10_30",
-                      "percentageQuestion": 14.38,
-                      "percentageSurvey": 6.74
+                      "index": 1,
+                      "percentageQuestion": 12.12,
+                      "percentageSurvey": 6.82
                     },
                     {
-                      "count": 242,
+                      "count": 112,
                       "id": "range_30_50",
-                      "percentageQuestion": 14.75,
-                      "percentageSurvey": 6.91
+                      "index": 2,
+                      "percentageQuestion": 13.05,
+                      "percentageSurvey": 7.34
                     },
                     {
-                      "count": 429,
+                      "count": 234,
                       "id": "range_50_100",
-                      "percentageQuestion": 26.14,
-                      "percentageSurvey": 12.25
+                      "index": 3,
+                      "percentageQuestion": 27.27,
+                      "percentageSurvey": 15.34
                     },
                     {
-                      "count": 300,
+                      "count": 182,
                       "id": "range_100_200",
-                      "percentageQuestion": 18.28,
-                      "percentageSurvey": 8.57
+                      "index": 4,
+                      "percentageQuestion": 21.21,
+                      "percentageSurvey": 11.93
                     },
                     {
-                      "count": 71,
+                      "count": 43,
                       "id": "range_more_than_200",
-                      "percentageQuestion": 4.33,
-                      "percentageSurvey": 2.03
+                      "index": 5,
+                      "percentageQuestion": 5.01,
+                      "percentageSurvey": 2.82
                     },
                     {
-                      "count": 174,
+                      "count": 86,
                       "id": "na",
-                      "percentageQuestion": 10.6,
-                      "percentageSurvey": 4.97
+                      "index": 6,
+                      "percentageQuestion": 10.02,
+                      "percentageSurvey": 5.64
                     },
                     {
-                      "count": 1860,
+                      "count": 667,
                       "id": "no_answer",
+                      "index": 7,
                       "percentageQuestion": 0,
-                      "percentageSurvey": 53.13
+                      "percentageSurvey": 43.74
                     }
                   ]
                 }

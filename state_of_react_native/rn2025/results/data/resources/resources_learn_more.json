@@ -5,19 +5,29 @@
         "rn2025": {
           "resources": {
             "resources_learn_more": {
+              "id": "resources_learn_more",
               "combined": {
                 "currentEdition": {
+                  "_metadata": {
+                    "axis1Sort": {
+                      "property": "count",
+                      "order": "desc"
+                    },
+                    "limit": 50,
+                    "cutoff": 5
+                  },
                   "completion": {
-                    "count": 1684,
-                    "percentageSurvey": 48.1,
-                    "total": 3501
+                    "count": 904,
+                    "percentageSurvey": 59.28,
+                    "total": 1525
                   },
                   "buckets": [
                     {
-                      "count": 1537,
+                      "count": 783,
                       "id": "resources_learn_more_react_native_docs",
-                      "percentageQuestion": 91.27,
-                      "percentageSurvey": 43.9,
+                      "index": 0,
+                      "percentageQuestion": 86.62,
+                      "percentageSurvey": 51.34,
                       "entity": {
                         "name": "React Native docs",
                         "nameClean": "React Native docs",
@@ -29,14 +39,15 @@
                           "url": "https://reactnative.dev/docs/getting-started"
                         }
                       },
-                      "percentagePositive": 15,
-                      "percentageNegative": 1
+                      "percentagePositive": 14,
+                      "percentageNegative": 0
                     },
                     {
-                      "count": 1420,
+                      "count": 735,
                       "id": "resources_learn_more_expo_docs",
-                      "percentageQuestion": 84.32,
-                      "percentageSurvey": 40.56,
+                      "index": 1,
+                      "percentageQuestion": 81.31,
+                      "percentageSurvey": 48.2,
                       "entity": {
                         "name": "Expo docs",
                         "nameClean": "Expo docs",
@@ -49,70 +60,14 @@
                         }
                       },
                       "percentagePositive": 16,
-                      "percentageNegative": 1
+                      "percentageNegative": 0
                     },
                     {
-                      "count": 1134,
-                      "id": "resources_learn_more_youtube",
-                      "percentageQuestion": 67.34,
-                      "percentageSurvey": 32.39,
-                      "entity": {
-                        "name": "YouTube",
-                        "nameClean": "YouTube",
-                        "description": "React Native tutorials, commentary, how-to videos and similar.",
-                        "descriptionClean": "React Native tutorials, commentary, how-to videos and similar.",
-                        "id": "resources_learn_more_youtube",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.youtube.com/results?search_query=react+native"
-                        }
-                      },
-                      "percentagePositive": 15,
-                      "percentageNegative": 1
-                    },
-                    {
-                      "count": 976,
-                      "id": "resources_learn_more_medium",
-                      "percentageQuestion": 57.96,
-                      "percentageSurvey": 27.88,
-                      "entity": {
-                        "name": "Medium",
-                        "nameClean": "Medium",
-                        "description": "A platform where you can find articles and tutorials on React Native, written by industry experts and enthusiasts.",
-                        "descriptionClean": "A platform where you can find articles and tutorials on React Native, written by industry experts and enthusiasts.",
-                        "id": "resources_learn_more_medium",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://medium.com/tag/react-native"
-                        }
-                      },
-                      "percentagePositive": 10,
-                      "percentageNegative": 4
-                    },
-                    {
-                      "count": 966,
-                      "id": "resources_learn_more_stack_overflow",
-                      "percentageQuestion": 57.36,
-                      "percentageSurvey": 27.59,
-                      "entity": {
-                        "name": "Stack Overflow",
-                        "nameClean": "Stack Overflow",
-                        "description": "A question-and-answer site where developers can seek help and share knowledge about React Native and other programming topics.",
-                        "descriptionClean": "A question-and-answer site where developers can seek help and share knowledge about React Native and other programming topics.",
-                        "id": "resources_learn_more_stack_overflow",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://stackoverflow.com/questions/tagged/react-native"
-                        }
-                      },
-                      "percentagePositive": 12,
-                      "percentageNegative": 2
-                    },
-                    {
-                      "count": 964,
+                      "count": 563,
                       "id": "resources_learn_more_expo_blog",
-                      "percentageQuestion": 57.24,
-                      "percentageSurvey": 27.53,
+                      "index": 2,
+                      "percentageQuestion": 62.28,
+                      "percentageSurvey": 36.92,
                       "entity": {
                         "name": "Expo blog",
                         "nameClean": "Expo blog",
@@ -124,14 +79,35 @@
                           "url": "https://blog.expo.dev/"
                         }
                       },
-                      "percentagePositive": 16,
+                      "percentagePositive": 17,
                       "percentageNegative": 0
                     },
                     {
-                      "count": 932,
+                      "count": 544,
+                      "id": "resources_learn_more_youtube",
+                      "index": 3,
+                      "percentageQuestion": 60.18,
+                      "percentageSurvey": 35.67,
+                      "entity": {
+                        "name": "YouTube",
+                        "nameClean": "YouTube",
+                        "description": "React Native tutorials, commentary, how-to videos and similar.",
+                        "descriptionClean": "React Native tutorials, commentary, how-to videos and similar.",
+                        "id": "resources_learn_more_youtube",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://www.youtube.com/results?search_query=react+native"
+                        }
+                      },
+                      "percentagePositive": 18,
+                      "percentageNegative": 0
+                    },
+                    {
+                      "count": 515,
                       "id": "resources_learn_more_react_native_blog",
-                      "percentageQuestion": 55.34,
-                      "percentageSurvey": 26.62,
+                      "index": 4,
+                      "percentageQuestion": 56.97,
+                      "percentageSurvey": 33.77,
                       "entity": {
                         "name": "React Native blog",
                         "nameClean": "React Native blog",
@@ -143,41 +119,15 @@
                           "url": "https://reactnative.dev/blog"
                         }
                       },
-                      "percentagePositive": 15,
+                      "percentagePositive": 14,
                       "percentageNegative": 0
                     },
                     {
-                      "count": 752,
-                      "id": "resources_learn_more_ai_tools",
-                      "percentageQuestion": 44.66,
-                      "percentageSurvey": 21.48,
-                      "percentagePositive": 15,
-                      "percentageNegative": 2
-                    },
-                    {
-                      "count": 696,
-                      "id": "resources_learn_more_dev_to",
-                      "percentageQuestion": 41.33,
-                      "percentageSurvey": 19.88,
-                      "entity": {
-                        "name": "DEV Community (dev.to)",
-                        "nameClean": "DEV Community (dev.to)",
-                        "description": "A community-driven platform where developers share articles, tutorials, and discussions about React Native.",
-                        "descriptionClean": "A community-driven platform where developers share articles, tutorials, and discussions about React Native.",
-                        "id": "resources_learn_more_dev_to",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://dev.to/t/reactnative"
-                        }
-                      },
-                      "percentagePositive": 10,
-                      "percentageNegative": 2
-                    },
-                    {
-                      "count": 646,
+                      "count": 453,
                       "id": "resources_learn_more_software_mansion_blog",
-                      "percentageQuestion": 38.36,
-                      "percentageSurvey": 18.45,
+                      "index": 5,
+                      "percentageQuestion": 50.11,
+                      "percentageSurvey": 29.7,
                       "entity": {
                         "name": "Software Mansion blog",
                         "nameClean": "Software Mansion blog",
@@ -189,14 +139,144 @@
                           "url": "https://blog.swmansion.com/"
                         }
                       },
-                      "percentagePositive": 13,
+                      "percentagePositive": 15,
                       "percentageNegative": 0
                     },
                     {
-                      "count": 487,
+                      "count": 430,
+                      "id": "resources_learn_more_ai_tools",
+                      "index": 6,
+                      "percentageQuestion": 47.57,
+                      "percentageSurvey": 28.2,
+                      "percentagePositive": 17,
+                      "percentageNegative": 2
+                    },
+                    {
+                      "count": 415,
+                      "id": "resources_learn_more_medium",
+                      "index": 7,
+                      "percentageQuestion": 45.91,
+                      "percentageSurvey": 27.21,
+                      "entity": {
+                        "name": "Medium",
+                        "nameClean": "Medium",
+                        "description": "A platform where you can find articles and tutorials on React Native, written by industry experts and enthusiasts.",
+                        "descriptionClean": "A platform where you can find articles and tutorials on React Native, written by industry experts and enthusiasts.",
+                        "id": "resources_learn_more_medium",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://medium.com/tag/react-native"
+                        }
+                      },
+                      "percentagePositive": 11,
+                      "percentageNegative": 2
+                    },
+                    {
+                      "count": 351,
+                      "id": "resources_learn_more_callstack_blog",
+                      "index": 8,
+                      "percentageQuestion": 38.83,
+                      "percentageSurvey": 23.02,
+                      "entity": {
+                        "name": "Callstack blog",
+                        "nameClean": "Callstack blog",
+                        "description": "A blog by Callstack that shares knowledge, tutorials, and updates on React Native and related technologies.",
+                        "descriptionClean": "A blog by Callstack that shares knowledge, tutorials, and updates on React Native and related technologies.",
+                        "id": "resources_learn_more_callstack_blog",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://www.callstack.com/blog"
+                        }
+                      },
+                      "percentagePositive": 14,
+                      "percentageNegative": 0
+                    },
+                    {
+                      "count": 323,
+                      "id": "resources_learn_more_stack_overflow",
+                      "index": 9,
+                      "percentageQuestion": 35.73,
+                      "percentageSurvey": 21.18,
+                      "entity": {
+                        "name": "Stack Overflow",
+                        "nameClean": "Stack Overflow",
+                        "description": "A question-and-answer site where developers can seek help and share knowledge about React Native and other programming topics.",
+                        "descriptionClean": "A question-and-answer site where developers can seek help and share knowledge about React Native and other programming topics.",
+                        "id": "resources_learn_more_stack_overflow",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://stackoverflow.com/questions/tagged/react-native"
+                        }
+                      },
+                      "percentagePositive": 10,
+                      "percentageNegative": 2
+                    },
+                    {
+                      "count": 273,
+                      "id": "resources_learn_more_dev_to",
+                      "index": 10,
+                      "percentageQuestion": 30.2,
+                      "percentageSurvey": 17.9,
+                      "entity": {
+                        "name": "DEV Community (dev.to)",
+                        "nameClean": "DEV Community (dev.to)",
+                        "description": "A community-driven platform where developers share articles, tutorials, and discussions about React Native.",
+                        "descriptionClean": "A community-driven platform where developers share articles, tutorials, and discussions about React Native.",
+                        "id": "resources_learn_more_dev_to",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://dev.to/t/reactnative"
+                        }
+                      },
+                      "percentagePositive": 12,
+                      "percentageNegative": 1
+                    },
+                    {
+                      "count": 189,
+                      "id": "resources_learn_more_book_react_native_optimization",
+                      "index": 11,
+                      "percentageQuestion": 20.91,
+                      "percentageSurvey": 12.39,
+                      "entity": {
+                        "name": "The Ultimate Guide to React Native Optimization (by Callstack)",
+                        "nameClean": "The Ultimate Guide to React Native Optimization (by Callstack)",
+                        "description": "Your complete compendium for peak performance from React Native experts.",
+                        "descriptionClean": "Your complete compendium for peak performance from React Native experts.",
+                        "id": "resources_learn_more_book_react_native_optimization",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://www.callstack.com/ebook/the-ultimate-guide-to-react-native-optimization"
+                        }
+                      },
+                      "percentagePositive": 20,
+                      "percentageNegative": 0
+                    },
+                    {
+                      "count": 155,
+                      "id": "resources_learn_more_galaxies_dev",
+                      "index": 12,
+                      "percentageQuestion": 17.15,
+                      "percentageSurvey": 10.16,
+                      "entity": {
+                        "name": "Galaxies.dev (by Simon Grimm)",
+                        "nameClean": "Galaxies.dev (by Simon Grimm)",
+                        "description": "Learn React Native without wasting your time. Jump into fast-paced courses you actually enjoy to quickly fix bugs and understand the core concepts of React Native.",
+                        "descriptionClean": "Learn React Native without wasting your time. Jump into fast-paced courses you actually enjoy to quickly fix bugs and understand the core concepts of React Native.",
+                        "id": "resources_learn_more_galaxies_dev",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://galaxies.dev/"
+                        }
+                      },
+                      "percentagePositive": 26,
+                      "percentageNegative": 1
+                    },
+                    {
+                      "count": 151,
                       "id": "resources_learn_more_log_rocket",
-                      "percentageQuestion": 28.92,
-                      "percentageSurvey": 13.91,
+                      "index": 13,
+                      "percentageQuestion": 16.7,
+                      "percentageSurvey": 9.9,
                       "entity": {
                         "name": "LogRocket",
                         "nameClean": "LogRocket",
@@ -212,29 +292,31 @@
                       "percentageNegative": 2
                     },
                     {
-                      "count": 455,
-                      "id": "resources_learn_more_callstack_blog",
-                      "percentageQuestion": 27.02,
-                      "percentageSurvey": 13,
+                      "count": 134,
+                      "id": "resources_learn_more_animate_react_native",
+                      "index": 14,
+                      "percentageQuestion": 14.82,
+                      "percentageSurvey": 8.79,
                       "entity": {
-                        "name": "Callstack blog",
-                        "nameClean": "Callstack blog",
-                        "description": "A blog by Callstack that shares knowledge, tutorials, and updates on React Native and related technologies.",
-                        "descriptionClean": "A blog by Callstack that shares knowledge, tutorials, and updates on React Native and related technologies.",
-                        "id": "resources_learn_more_callstack_blog",
+                        "name": "Animate React Native (by Catalin Miron)",
+                        "nameClean": "Animate React Native (by Catalin Miron)",
+                        "description": "Ready to use React Native animations. An extensive collection of more than 133+ react native animations.",
+                        "descriptionClean": "Ready to use React Native animations. An extensive collection of more than 133+ react native animations.",
+                        "id": "resources_learn_more_animate_react_native",
                         "entityType": "default",
                         "homepage": {
-                          "url": "https://www.callstack.com/blog"
+                          "url": "https://www.animatereactnative.com/"
                         }
                       },
-                      "percentagePositive": 13,
+                      "percentagePositive": 19,
                       "percentageNegative": 0
                     },
                     {
-                      "count": 284,
+                      "count": 88,
                       "id": "resources_learn_more_udemy",
-                      "percentageQuestion": 16.86,
-                      "percentageSurvey": 8.11,
+                      "index": 15,
+                      "percentageQuestion": 9.73,
+                      "percentageSurvey": 5.77,
                       "entity": {
                         "name": "Udemy",
                         "nameClean": "Udemy",
@@ -250,125 +332,72 @@
                       "percentageNegative": 2
                     },
                     {
-                      "count": 268,
-                      "id": "resources_learn_more_book_react_native_optimization",
-                      "percentageQuestion": 15.91,
-                      "percentageSurvey": 7.65,
+                      "count": 78,
+                      "id": "resources_learn_more_makeitanimated_dev",
+                      "index": 16,
+                      "percentageQuestion": 8.63,
+                      "percentageSurvey": 5.11,
                       "entity": {
-                        "name": "The Ultimate Guide to React Native Optimization (by Callstack)",
-                        "nameClean": "The Ultimate Guide to React Native Optimization (by Callstack)",
-                        "description": "Your complete compendium for peak performance from React Native experts.",
-                        "descriptionClean": "Your complete compendium for peak performance from React Native experts.",
-                        "id": "resources_learn_more_book_react_native_optimization",
+                        "name": "Make It Animated (by Volodymyr Serbulenko)",
+                        "nameClean": "Make It Animated (by Volodymyr Serbulenko)",
+                        "description": "Fast growing collection of React Native animations for inspiration and practical usage.",
+                        "descriptionClean": "Fast growing collection of React Native animations for inspiration and practical usage.",
+                        "id": "resources_learn_more_makeitanimated_dev",
                         "entityType": "default",
                         "homepage": {
-                          "url": "https://www.callstack.com/ebook/the-ultimate-guide-to-react-native-optimization"
+                          "url": "https://www.makeitanimated.dev/"
                         }
                       },
-                      "percentagePositive": 19,
-                      "percentageNegative": 0
-                    },
-                    {
-                      "count": 252,
-                      "id": "resources_learn_more_galaxies_dev",
-                      "percentageQuestion": 14.96,
-                      "percentageSurvey": 7.2,
-                      "entity": {
-                        "name": "Galaxies.dev (by Simon Grimm)",
-                        "nameClean": "Galaxies.dev (by Simon Grimm)",
-                        "description": "Learn React Native without wasting your time. Jump into fast-paced courses you actually enjoy to quickly fix bugs and understand the core concepts of React Native.",
-                        "descriptionClean": "Learn React Native without wasting your time. Jump into fast-paced courses you actually enjoy to quickly fix bugs and understand the core concepts of React Native.",
-                        "id": "resources_learn_more_galaxies_dev",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://galaxies.dev/"
-                        }
-                      },
-                      "percentagePositive": 20,
-                      "percentageNegative": 0
-                    },
-                    {
-                      "count": 228,
-                      "id": "resources_learn_more_animate_react_native",
-                      "percentageQuestion": 13.54,
-                      "percentageSurvey": 6.51,
-                      "entity": {
-                        "name": "Animate React Native (by Catalin Miron)",
-                        "nameClean": "Animate React Native (by Catalin Miron)",
-                        "description": "Ready to use React Native animations. An extensive collection of more than 133+ react native animations.",
-                        "descriptionClean": "Ready to use React Native animations. An extensive collection of more than 133+ react native animations.",
-                        "id": "resources_learn_more_animate_react_native",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.animatereactnative.com/"
-                        }
-                      },
-                      "percentagePositive": 16,
-                      "percentageNegative": 0
-                    },
-                    {
-                      "count": 148,
-                      "id": "resources_learn_more_react_native_mastery",
-                      "percentageQuestion": 8.79,
-                      "percentageSurvey": 4.23,
-                      "entity": {
-                        "name": "React Native Mastery (by Vadim Savin)",
-                        "nameClean": "React Native Mastery (by Vadim Savin)",
-                        "description": "The only course you need to Master mobile development with React Native & Expo.",
-                        "descriptionHtml": "The only course you need to Master mobile development with React Native &amp; Expo.",
-                        "descriptionClean": "The only course you need to Master mobile development with React Native  Expo.",
-                        "id": "resources_learn_more_react_native_mastery",
-                        "entityType": "default",
-                        "homepage": {
-                          "url": "https://www.notjust.dev/react-native-mastery"
-                        }
-                      },
-                      "percentagePositive": 17,
+                      "percentagePositive": 21,
                       "percentageNegative": 1
                     },
                     {
-                      "count": 147,
+                      "count": 67,
                       "id": "resources_learn_more_frontend_masters",
-                      "percentageQuestion": 8.73,
-                      "percentageSurvey": 4.2,
+                      "index": 17,
+                      "percentageQuestion": 7.41,
+                      "percentageSurvey": 4.39,
                       "entity": {
                         "name": "Frontend Masters",
                         "nameClean": "Frontend Masters",
                         "description": "In-Depth Frontend & Fullstack Courses. Your Path to Senior Developer and Beyond.",
                         "descriptionHtml": "In-Depth Frontend &amp; Fullstack Courses. Your Path to Senior Developer and Beyond.",
-                        "descriptionClean": "In-Depth Frontend  Fullstack Courses. Your Path to Senior Developer and Beyond.",
+                        "descriptionClean": "In-Depth Frontend & Fullstack Courses. Your Path to Senior Developer and Beyond.",
                         "id": "resources_learn_more_frontend_masters",
                         "entityType": "default",
                         "homepage": {
                           "url": "https://frontendmasters.com/?q=react+native"
                         }
                       },
-                      "percentagePositive": 16,
-                      "percentageNegative": 1
+                      "percentagePositive": 18,
+                      "percentageNegative": 0
                     },
                     {
-                      "count": 116,
-                      "id": "resources_learn_more_egghead",
-                      "percentageQuestion": 6.89,
-                      "percentageSurvey": 3.31,
+                      "count": 63,
+                      "id": "resources_learn_more_react_native_mastery",
+                      "index": 18,
+                      "percentageQuestion": 6.97,
+                      "percentageSurvey": 4.13,
                       "entity": {
-                        "name": "Egghead.io",
-                        "nameClean": "Egghead.io",
-                        "description": "Bite-Sized Screencasts for Web Developers that Hate Long Boring Videos.",
-                        "descriptionClean": "Bite-Sized Screencasts for Web Developers that Hate Long Boring Videos.",
-                        "id": "resources_learn_more_egghead",
+                        "name": "React Native Mastery (by Vadim Savin)",
+                        "nameClean": "React Native Mastery (by Vadim Savin)",
+                        "description": "The only course you need to Master mobile development with React Native & Expo.",
+                        "descriptionHtml": "The only course you need to Master mobile development with React Native &amp; Expo.",
+                        "descriptionClean": "The only course you need to Master mobile development with React Native & Expo.",
+                        "id": "resources_learn_more_react_native_mastery",
                         "entityType": "default",
                         "homepage": {
-                          "url": "https://egghead.io/q/react-native"
+                          "url": "https://www.notjust.dev/react-native-mastery"
                         }
                       },
-                      "percentagePositive": 11,
-                      "percentageNegative": 4
+                      "percentagePositive": 21,
+                      "percentageNegative": 0
                     },
                     {
-                      "count": 115,
+                      "count": 50,
                       "id": "resources_learn_more_microsoft_react_native_blog",
-                      "percentageQuestion": 6.83,
+                      "index": 19,
+                      "percentageQuestion": 5.53,
                       "percentageSurvey": 3.28,
                       "entity": {
                         "name": "Microsoft React Native blog",
@@ -381,14 +410,35 @@
                           "url": "https://devblogs.microsoft.com/react-native/"
                         }
                       },
-                      "percentagePositive": 10,
+                      "percentagePositive": 14,
                       "percentageNegative": 0
                     },
                     {
-                      "count": 102,
+                      "count": 37,
+                      "id": "resources_learn_more_egghead",
+                      "index": 20,
+                      "percentageQuestion": 4.09,
+                      "percentageSurvey": 2.43,
+                      "entity": {
+                        "name": "Egghead.io",
+                        "nameClean": "Egghead.io",
+                        "description": "Bite-Sized Screencasts for Web Developers that Hate Long Boring Videos.",
+                        "descriptionClean": "Bite-Sized Screencasts for Web Developers that Hate Long Boring Videos.",
+                        "id": "resources_learn_more_egghead",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://egghead.io/q/react-native"
+                        }
+                      },
+                      "percentagePositive": 24,
+                      "percentageNegative": 0
+                    },
+                    {
+                      "count": 24,
                       "id": "resources_learn_more_codecademy",
-                      "percentageQuestion": 6.06,
-                      "percentageSurvey": 2.91,
+                      "index": 21,
+                      "percentageQuestion": 2.65,
+                      "percentageSurvey": 1.57,
                       "entity": {
                         "name": "Codecademy",
                         "nameClean": "Codecademy",
@@ -400,14 +450,15 @@
                           "url": "https://www.codecademy.com/learn/learn-react-native"
                         }
                       },
-                      "percentagePositive": 12,
-                      "percentageNegative": 3
+                      "percentagePositive": 29,
+                      "percentageNegative": 8
                     },
                     {
-                      "count": 54,
+                      "count": 16,
                       "id": "resources_learn_more_coursera",
-                      "percentageQuestion": 3.21,
-                      "percentageSurvey": 1.54,
+                      "index": 22,
+                      "percentageQuestion": 1.77,
+                      "percentageSurvey": 1.05,
                       "entity": {
                         "name": "Coursera",
                         "nameClean": "Coursera",
@@ -419,14 +470,42 @@
                           "url": "https://www.coursera.org/courses?query=react%20native"
                         }
                       },
-                      "percentagePositive": 9,
-                      "percentageNegative": 4
+                      "percentagePositive": 19,
+                      "percentageNegative": 6
                     },
                     {
-                      "count": 41,
+                      "count": 5,
+                      "id": "code_with_beto",
+                      "index": 23,
+                      "percentageQuestion": 0.55,
+                      "percentageSurvey": 0.33,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "Beto Moedano",
+                        "nameClean": "Beto Moedano",
+                        "alias": "Code with Beto",
+                        "id": "code_with_beto",
+                        "entityType": "people",
+                        "avatar": {
+                          "url": "undefined/avatars/code_with_beto.jpg"
+                        },
+                        "homepage": {
+                          "url": "https://beto.vercel.app/"
+                        },
+                        "youtube": {
+                          "url": "https://www.youtube.com/@codewithbeto"
+                        },
+                        "twitter": {
+                          "url": "https://twitter.com/betomoedano"
+                        }
+                      }
+                    },
+                    {
+                      "count": 24,
                       "id": "other_answers",
-                      "percentageQuestion": 2.43,
-                      "percentageSurvey": 1.17
+                      "index": 24,
+                      "percentageQuestion": 2.64,
+                      "percentageSurvey": 1.61
                     }
                   ]
                 }

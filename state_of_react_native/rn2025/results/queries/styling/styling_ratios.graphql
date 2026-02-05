@@ -1,4 +1,4 @@
-query rn2025itemsQuery {
+query {
   surveys {
     state_of_react_native {
       rn2025 {
@@ -44,6 +44,8 @@ query rn2025itemsQuery {
                   usage
                   retention
                   positivity
+                  positivityRelative
+                  appreciation
                 }
                 completion {
                   count

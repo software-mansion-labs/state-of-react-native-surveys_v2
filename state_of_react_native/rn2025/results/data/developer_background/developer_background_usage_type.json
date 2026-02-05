@@ -5,37 +5,58 @@
         "rn2025": {
           "developer_background": {
             "developer_background_usage_type": {
-              "responses": {
+              "id": "developer_background_usage_type",
+              "combined": {
                 "currentEdition": {
+                  "_metadata": {
+                    "axis1Sort": {
+                      "property": "options",
+                      "order": "desc"
+                    },
+                    "limit": 50,
+                    "cutoff": 1
+                  },
                   "completion": {
-                    "count": 3402,
-                    "percentageSurvey": 97.17,
-                    "total": 3501
+                    "count": 1479,
+                    "percentageSurvey": 96.98,
+                    "total": 1525
                   },
                   "buckets": [
                     {
-                      "count": 2898,
+                      "count": 1300,
                       "id": "developer_background_usage_type_professional",
-                      "percentageQuestion": 85.19,
-                      "percentageSurvey": 82.78
+                      "index": 0,
+                      "percentageQuestion": 87.9,
+                      "percentageSurvey": 85.25
                     },
                     {
-                      "count": 155,
+                      "count": 51,
                       "id": "developer_background_usage_type_student",
-                      "percentageQuestion": 4.56,
-                      "percentageSurvey": 4.43
+                      "index": 1,
+                      "percentageQuestion": 3.45,
+                      "percentageSurvey": 3.34
                     },
                     {
-                      "count": 349,
+                      "count": 128,
                       "id": "developer_background_usage_type_hobby",
-                      "percentageQuestion": 10.26,
-                      "percentageSurvey": 9.97
+                      "index": 2,
+                      "percentageQuestion": 8.65,
+                      "percentageSurvey": 8.39
                     },
                     {
-                      "count": 99,
+                      "count": 8,
+                      "id": "no_match",
+                      "index": 3,
+                      "percentageQuestion": 0.54,
+                      "percentageSurvey": 0.52,
+                      "isFreeformData": true
+                    },
+                    {
+                      "count": 46,
                       "id": "no_answer",
+                      "index": 4,
                       "percentageQuestion": 0,
-                      "percentageSurvey": 2.83
+                      "percentageSurvey": 3.02
                     }
                   ]
                 }

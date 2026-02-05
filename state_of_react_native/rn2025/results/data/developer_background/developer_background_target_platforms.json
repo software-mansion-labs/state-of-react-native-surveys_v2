@@ -5,36 +5,49 @@
         "rn2025": {
           "developer_background": {
             "developer_background_target_platforms": {
-              "responses": {
+              "id": "developer_background_target_platforms",
+              "combined": {
                 "currentEdition": {
+                  "_metadata": {
+                    "axis1Sort": {
+                      "property": "count",
+                      "order": "desc"
+                    },
+                    "limit": 50,
+                    "cutoff": 1
+                  },
                   "completion": {
-                    "count": 3426,
-                    "percentageSurvey": 97.86,
-                    "total": 3501
+                    "count": 1488,
+                    "percentageSurvey": 97.57,
+                    "total": 1525
                   },
                   "buckets": [
                     {
-                      "count": 3303,
+                      "count": 1430,
                       "id": "developer_background_target_platforms_android",
-                      "percentageQuestion": 96.41,
-                      "percentageSurvey": 94.34
+                      "index": 0,
+                      "percentageQuestion": 96.1,
+                      "percentageSurvey": 93.77
                     },
                     {
-                      "count": 3170,
+                      "count": 1380,
                       "id": "developer_background_target_platforms_ios",
-                      "percentageQuestion": 92.53,
-                      "percentageSurvey": 90.55
+                      "index": 1,
+                      "percentageQuestion": 92.74,
+                      "percentageSurvey": 90.49
                     },
                     {
-                      "count": 740,
+                      "count": 350,
                       "id": "developer_background_target_platforms_web",
-                      "percentageQuestion": 21.6,
-                      "percentageSurvey": 21.14,
+                      "index": 2,
+                      "percentageQuestion": 23.52,
+                      "percentageSurvey": 22.95,
                       "entity": {
                         "name": "Web",
                         "nameClean": "Web",
-                        "description": "React Native on the web using React DOM.",
-                        "descriptionClean": "React Native on the web using React DOM.",
+                        "description": "_(react-native-web)_ React Native on the web using React DOM.",
+                        "descriptionHtml": "<em>(react-native-web)</em> React Native on the web using React DOM.",
+                        "descriptionClean": "(react-native-web) React Native on the web using React DOM.",
                         "id": "developer_background_target_platforms_web",
                         "entityType": "default",
                         "homepage": {
@@ -46,19 +59,21 @@
                       }
                     },
                     {
-                      "count": 137,
+                      "count": 61,
                       "id": "developer_background_target_platforms_macos",
-                      "percentageQuestion": 4,
-                      "percentageSurvey": 3.91,
+                      "index": 3,
+                      "percentageQuestion": 4.1,
+                      "percentageSurvey": 4,
                       "entity": {
                         "name": "macOS",
                         "nameClean": "macOS",
-                        "description": "Native macOS apps with React.",
-                        "descriptionClean": "Native macOS apps with React.",
+                        "description": "_(react-native-macos)_ React Native for macOS and Cocoa.",
+                        "descriptionHtml": "<em>(react-native-macos)</em> React Native for macOS and Cocoa.",
+                        "descriptionClean": "(react-native-macos) React Native for macOS and Cocoa.",
                         "id": "developer_background_target_platforms_macos",
                         "entityType": "default",
                         "homepage": {
-                          "url": "https://microsoft.github.io/react-native-windows"
+                          "url": "https://microsoft.github.io/react-native-macos"
                         },
                         "github": {
                           "url": "https://github.com/microsoft/react-native-macos"
@@ -66,15 +81,17 @@
                       }
                     },
                     {
-                      "count": 120,
+                      "count": 46,
                       "id": "developer_background_target_platforms_android_tv",
-                      "percentageQuestion": 3.5,
-                      "percentageSurvey": 3.43,
+                      "index": 4,
+                      "percentageQuestion": 3.09,
+                      "percentageSurvey": 3.02,
                       "entity": {
                         "name": "Android TV",
                         "nameClean": "Android TV",
-                        "description": "React Native for Android TV devices.",
-                        "descriptionClean": "React Native for Android TV devices.",
+                        "description": "_(react-native-tvos)_ React Native for Android TV devices.",
+                        "descriptionHtml": "<em>(react-native-tvos)</em> React Native for Android TV devices.",
+                        "descriptionClean": "(react-native-tvos) React Native for Android TV devices.",
                         "id": "developer_background_target_platforms_android_tv",
                         "entityType": "default",
                         "homepage": {
@@ -86,16 +103,17 @@
                       }
                     },
                     {
-                      "count": 109,
+                      "count": 46,
                       "id": "developer_background_target_platforms_windows",
-                      "percentageQuestion": 3.18,
-                      "percentageSurvey": 3.11,
+                      "index": 5,
+                      "percentageQuestion": 3.09,
+                      "percentageSurvey": 3.02,
                       "entity": {
                         "name": "Windows",
                         "nameClean": "Windows",
-                        "description": "Native Windows (Microsoft's Universal Windows Platform (UWP)) apps with React.",
-                        "descriptionHtml": "Native Windows (Microsoft's Universal Windows Platform (UWP)) apps with React.",
-                        "descriptionClean": "Native Windows (Microsoft's Universal Windows Platform (UWP)) apps with React.",
+                        "description": "_(react-native-windows)_ React Native for Microsoft's Universal Windows Platform (UWP).",
+                        "descriptionHtml": "<em>(react-native-windows)</em> React Native for Microsoft's Universal Windows Platform (UWP).",
+                        "descriptionClean": "(react-native-windows) React Native for Microsoft's Universal Windows Platform (UWP).",
                         "id": "developer_background_target_platforms_windows",
                         "entityType": "default",
                         "homepage": {
@@ -107,15 +125,17 @@
                       }
                     },
                     {
-                      "count": 99,
+                      "count": 45,
                       "id": "developer_background_target_platforms_tvos",
-                      "percentageQuestion": 2.89,
-                      "percentageSurvey": 2.83,
+                      "index": 6,
+                      "percentageQuestion": 3.02,
+                      "percentageSurvey": 2.95,
                       "entity": {
                         "name": "tvOS",
                         "nameClean": "tvOS",
-                        "description": "React Native for Apple TV devices.",
-                        "descriptionClean": "React Native for Apple TV devices.",
+                        "description": "_(react-native-tvos)_ React Native for Apple TV devices.",
+                        "descriptionHtml": "<em>(react-native-tvos)</em> React Native for Apple TV devices.",
+                        "descriptionClean": "(react-native-tvos) React Native for Apple TV devices.",
                         "id": "developer_background_target_platforms_tvos",
                         "entityType": "default",
                         "homepage": {
@@ -127,16 +147,57 @@
                       }
                     },
                     {
-                      "count": 35,
+                      "count": 25,
+                      "id": "developer_background_target_platforms_vegaos",
+                      "index": 7,
+                      "percentageQuestion": 1.68,
+                      "percentageSurvey": 1.64,
+                      "entity": {
+                        "name": "Vega OS",
+                        "nameClean": "Vega OS",
+                        "description": "React Native for Vega OS.",
+                        "descriptionClean": "React Native for Vega OS.",
+                        "id": "developer_background_target_platforms_vegaos",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://developer.amazon.com/docs/react-native-vega/0.72/react_overview.html"
+                        }
+                      }
+                    },
+                    {
+                      "count": 22,
+                      "id": "developer_background_target_platforms_carplay_androidauto",
+                      "index": 8,
+                      "percentageQuestion": 1.48,
+                      "percentageSurvey": 1.44,
+                      "entity": {
+                        "name": "CarPlay / Android Auto",
+                        "nameClean": "CarPlay / Android Auto",
+                        "description": "_(react-native-carplay)_ React Native for car infotainment systems (CarPlay / Android Auto).",
+                        "descriptionHtml": "<em>(react-native-carplay)</em> React Native for car infotainment systems (CarPlay / Android Auto).",
+                        "descriptionClean": "(react-native-carplay) React Native for car infotainment systems (CarPlay / Android Auto).",
+                        "id": "developer_background_target_platforms_carplay_androidauto",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://birkir.dev/react-native-carplay/"
+                        },
+                        "github": {
+                          "url": "https://github.com/birkir/react-native-carplay"
+                        }
+                      }
+                    },
+                    {
+                      "count": 18,
                       "id": "developer_background_target_platforms_visionos",
-                      "percentageQuestion": 1.02,
-                      "percentageSurvey": 1,
+                      "index": 9,
+                      "percentageQuestion": 1.21,
+                      "percentageSurvey": 1.18,
                       "entity": {
                         "name": "visionOS",
                         "nameClean": "visionOS",
-                        "description": "Native Apple's visionOS apps with React.",
-                        "descriptionHtml": "Native Apple's visionOS apps with React.",
-                        "descriptionClean": "Native Apple's visionOS apps with React.",
+                        "description": "_(react-native-visionos)_ React Native for Apple's visionOS.",
+                        "descriptionHtml": "<em>(react-native-visionos)</em> React Native for Apple's visionOS.",
+                        "descriptionClean": "(react-native-visionos) React Native for Apple's visionOS.",
                         "id": "developer_background_target_platforms_visionos",
                         "entityType": "default",
                         "homepage": {
@@ -148,15 +209,18 @@
                       }
                     },
                     {
-                      "count": 20,
+                      "count": 16,
                       "id": "developer_background_target_platforms_skia",
-                      "percentageQuestion": 0.58,
-                      "percentageSurvey": 0.57,
+                      "index": 10,
+                      "percentageQuestion": 1.08,
+                      "percentageSurvey": 1.05,
                       "entity": {
-                        "name": "Linux (via Skia)",
-                        "nameClean": "Linux (via Skia)",
-                        "description": "Linux (Ubuntu 18) apps using Skia as a renderer.",
-                        "descriptionClean": "Linux (Ubuntu 18) apps using Skia as a renderer.",
+                        "name": "Linux & macOS via Skia",
+                        "nameHtml": "Linux &amp; macOS via Skia",
+                        "nameClean": "Linux & macOS via Skia",
+                        "description": "_(react-native-skia)_ React Native using Skia as a renderer. Currently supports Linux and macOS.",
+                        "descriptionHtml": "<em>(react-native-skia)</em> React Native using Skia as a renderer. Currently supports Linux and macOS.",
+                        "descriptionClean": "(react-native-skia) React Native using Skia as a renderer. Currently supports Linux and macOS.",
                         "id": "developer_background_target_platforms_skia",
                         "entityType": "default",
                         "homepage": {
@@ -168,10 +232,33 @@
                       }
                     },
                     {
-                      "count": 70,
+                      "count": 7,
+                      "id": "harmony_os",
+                      "index": 11,
+                      "percentageQuestion": 0.47,
+                      "percentageSurvey": 0.46,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "HarmonyOS",
+                        "nameClean": "HarmonyOS",
+                        "id": "harmony_os",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 8,
+                      "id": "no_match",
+                      "index": 12,
+                      "percentageQuestion": 0.54,
+                      "percentageSurvey": 0.52,
+                      "isFreeformData": true
+                    },
+                    {
+                      "count": 37,
                       "id": "no_answer",
+                      "index": 13,
                       "percentageQuestion": 0,
-                      "percentageSurvey": 2
+                      "percentageSurvey": 2.43
                     }
                   ]
                 }

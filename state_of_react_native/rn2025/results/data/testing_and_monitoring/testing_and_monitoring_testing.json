@@ -1,0 +1,216 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2025": {
+          "testing_and_monitoring": {
+            "testing_and_monitoring_testing": {
+              "id": "testing_and_monitoring_testing",
+              "combined": {
+                "currentEdition": {
+                  "_metadata": {
+                    "axis1Sort": {
+                      "property": "count",
+                      "order": "desc"
+                    },
+                    "limit": 50,
+                    "cutoff": 4
+                  },
+                  "completion": {
+                    "count": 728,
+                    "percentageSurvey": 47.74,
+                    "total": 1525
+                  },
+                  "buckets": [
+                    {
+                      "count": 562,
+                      "id": "testing_and_monitoring_testing_jest",
+                      "index": 0,
+                      "percentageQuestion": 77.2,
+                      "percentageSurvey": 36.85,
+                      "entity": {
+                        "name": "Jest",
+                        "nameClean": "Jest",
+                        "description": "A delightful JavaScript Testing Framework with a focus on simplicity.",
+                        "descriptionClean": "A delightful JavaScript Testing Framework with a focus on simplicity.",
+                        "id": "testing_and_monitoring_testing_jest",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://jestjs.io/"
+                        },
+                        "github": {
+                          "url": "https://github.com/facebook/jest"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/jest"
+                        }
+                      },
+                      "percentagePositive": 17,
+                      "percentageNegative": 4
+                    },
+                    {
+                      "count": 431,
+                      "id": "testing_and_monitoring_testing_react_native_testing_library",
+                      "index": 1,
+                      "percentageQuestion": 59.2,
+                      "percentageSurvey": 28.26,
+                      "entity": {
+                        "name": "React Native Testing Library",
+                        "nameClean": "React Native Testing Library",
+                        "description": "A lightweight solution for testing React Native components. It provides light utility functions on top of React Test Renderer, in a way that encourages better testing practices.",
+                        "descriptionClean": "A lightweight solution for testing React Native components. It provides light utility functions on top of React Test Renderer, in a way that encourages better testing practices.",
+                        "id": "testing_and_monitoring_testing_react_native_testing_library",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://callstack.github.io/react-native-testing-library/"
+                        },
+                        "github": {
+                          "url": "https://github.com/callstack/react-native-testing-library"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/@testing-library/react-native"
+                        }
+                      },
+                      "percentagePositive": 20,
+                      "percentageNegative": 2
+                    },
+                    {
+                      "count": 333,
+                      "id": "testing_and_monitoring_testing_maestro",
+                      "index": 2,
+                      "percentageQuestion": 45.74,
+                      "percentageSurvey": 21.84,
+                      "entity": {
+                        "name": "Maestro",
+                        "nameClean": "Maestro",
+                        "description": "The easiest way to automate UI testing for your mobile app.",
+                        "descriptionClean": "The easiest way to automate UI testing for your mobile app.",
+                        "id": "testing_and_monitoring_testing_maestro",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://maestro.mobile.dev/"
+                        },
+                        "github": {
+                          "url": "https://github.com/mobile-dev-inc/maestro"
+                        }
+                      },
+                      "percentagePositive": 22,
+                      "percentageNegative": 6
+                    },
+                    {
+                      "count": 278,
+                      "id": "testing_and_monitoring_testing_storybook",
+                      "index": 3,
+                      "percentageQuestion": 38.19,
+                      "percentageSurvey": 18.23,
+                      "entity": {
+                        "name": "Storybook",
+                        "nameClean": "Storybook",
+                        "description": "A development environment for UI components that allows for isolated testing and documentation of React Native components.",
+                        "descriptionClean": "A development environment for UI components that allows for isolated testing and documentation of React Native components.",
+                        "id": "testing_and_monitoring_testing_storybook",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://storybook.js.org/"
+                        },
+                        "github": {
+                          "url": "https://github.com/storybookjs/react-native"
+                        }
+                      },
+                      "percentagePositive": 17,
+                      "percentageNegative": 7
+                    },
+                    {
+                      "count": 186,
+                      "id": "testing_and_monitoring_testing_detox",
+                      "index": 4,
+                      "percentageQuestion": 25.55,
+                      "percentageSurvey": 12.2,
+                      "entity": {
+                        "name": "Detox",
+                        "nameClean": "Detox",
+                        "description": "Gray box end-to-end testing and automation framework for React Native apps.",
+                        "descriptionClean": "Gray box end-to-end testing and automation framework for React Native apps.",
+                        "id": "testing_and_monitoring_testing_detox",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://wix.github.io/Detox/"
+                        },
+                        "github": {
+                          "url": "https://github.com/wix/Detox"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/detox"
+                        }
+                      },
+                      "percentagePositive": 10,
+                      "percentageNegative": 21
+                    },
+                    {
+                      "count": 130,
+                      "id": "testing_and_monitoring_testing_appium",
+                      "index": 5,
+                      "percentageQuestion": 17.86,
+                      "percentageSurvey": 8.52,
+                      "entity": {
+                        "name": "Appium",
+                        "nameClean": "Appium",
+                        "description": "Cross-platform automation framework for all kinds of your apps built on top of W3C WebDriver protocol.",
+                        "descriptionClean": "Cross-platform automation framework for all kinds of your apps built on top of W3C WebDriver protocol.",
+                        "id": "testing_and_monitoring_testing_appium",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://appium.io/"
+                        },
+                        "github": {
+                          "url": "https://github.com/appium/appium"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/appium"
+                        }
+                      },
+                      "percentagePositive": 8,
+                      "percentageNegative": 22
+                    },
+                    {
+                      "count": 5,
+                      "id": "testing_and_monitoring_testing_vitest",
+                      "index": 6,
+                      "percentageQuestion": 0.69,
+                      "percentageSurvey": 0.33,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "Vitest",
+                        "nameClean": "Vitest",
+                        "description": "Blazing fast unit test framework powered by Vite with out-of-the-box support for ESM, TypeScript, and JSX, featuring a Jest-compatible API.",
+                        "descriptionClean": "Blazing fast unit test framework powered by Vite with out-of-the-box support for ESM, TypeScript, and JSX, featuring a Jest-compatible API.",
+                        "id": "testing_and_monitoring_testing_vitest",
+                        "entityType": "library",
+                        "homepage": {
+                          "url": "https://vitest.dev/"
+                        },
+                        "github": {
+                          "url": "https://github.com/vitest-dev/vitest"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/vitest"
+                        }
+                      }
+                    },
+                    {
+                      "count": 12,
+                      "id": "other_answers",
+                      "index": 7,
+                      "percentageQuestion": 1.65,
+                      "percentageSurvey": 0.79
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -5,19 +5,29 @@
         "rn2025": {
           "react_native_architecture": {
             "react_native_architecture_ota_updates": {
+              "id": "react_native_architecture_ota_updates",
               "combined": {
                 "currentEdition": {
+                  "_metadata": {
+                    "axis1Sort": {
+                      "property": "count",
+                      "order": "desc"
+                    },
+                    "limit": 50,
+                    "cutoff": 4
+                  },
                   "completion": {
-                    "count": 1251,
-                    "percentageSurvey": 35.73,
-                    "total": 3501
+                    "count": 582,
+                    "percentageSurvey": 38.16,
+                    "total": 1525
                   },
                   "buckets": [
                     {
-                      "count": 957,
+                      "count": 467,
                       "id": "react_native_architecture_ota_updates_eas_update",
-                      "percentageQuestion": 76.5,
-                      "percentageSurvey": 27.34,
+                      "index": 0,
+                      "percentageQuestion": 80.24,
+                      "percentageSurvey": 30.62,
                       "entity": {
                         "name": "EAS Update",
                         "nameClean": "EAS Update",
@@ -32,14 +42,15 @@
                           "url": "https://www.npmjs.com/package/expo-updates"
                         }
                       },
-                      "percentagePositive": 23,
-                      "percentageNegative": 2
+                      "percentagePositive": 21,
+                      "percentageNegative": 1
                     },
                     {
-                      "count": 457,
+                      "count": 118,
                       "id": "react_native_architecture_ota_updates_code_push",
-                      "percentageQuestion": 36.53,
-                      "percentageSurvey": 13.05,
+                      "index": 1,
+                      "percentageQuestion": 20.27,
+                      "percentageSurvey": 7.74,
                       "entity": {
                         "name": "CodePush",
                         "nameClean": "CodePush",
@@ -51,28 +62,120 @@
                           "url": "https://learn.microsoft.com/en-us/appcenter/distribution/codepush/"
                         },
                         "github": {
-                          "url": "https://github.com/https://github.com/microsoft/react-native-code-push"
+                          "url": "https://github.com/microsoft/react-native-code-push"
                         },
                         "npm": {
                           "url": "https://www.npmjs.com/package/react-native-code-push"
                         }
                       },
-                      "percentagePositive": 14,
-                      "percentageNegative": 7
+                      "percentagePositive": 8,
+                      "percentageNegative": 10
                     },
                     {
-                      "count": 131,
+                      "count": 67,
                       "id": "react_native_architecture_ota_updates_self_hosted",
-                      "percentageQuestion": 10.47,
-                      "percentageSurvey": 3.74,
+                      "index": 2,
+                      "percentageQuestion": 11.51,
+                      "percentageSurvey": 4.39,
                       "percentagePositive": 18,
                       "percentageNegative": 3
                     },
                     {
+                      "count": 13,
+                      "id": "react_native_architecture_ota_updates_bitrise_codepush",
+                      "index": 3,
+                      "percentageQuestion": 2.23,
+                      "percentageSurvey": 0.85,
+                      "entity": {
+                        "name": "Bitrise CodePush",
+                        "nameClean": "Bitrise CodePush",
+                        "description": "App Center CodePush fork for Bitrise Release Management.",
+                        "descriptionClean": "App Center CodePush fork for Bitrise Release Management.",
+                        "id": "react_native_architecture_ota_updates_bitrise_codepush",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://docs.bitrise.io/en/release-management/codepush/about-codepush.html"
+                        }
+                      },
+                      "percentagePositive": 8,
+                      "percentageNegative": 8
+                    },
+                    {
+                      "count": 11,
+                      "id": "react_native_architecture_ota_updates_codemagic_codepush",
+                      "index": 4,
+                      "percentageQuestion": 1.89,
+                      "percentageSurvey": 0.72,
+                      "entity": {
+                        "name": "Codemagic CodePush",
+                        "nameClean": "Codemagic CodePush",
+                        "description": "A drop-in replacement for App Center CodePush.",
+                        "descriptionClean": "A drop-in replacement for App Center CodePush.",
+                        "id": "react_native_architecture_ota_updates_codemagic_codepush",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://codemagic.io/codepush/"
+                        }
+                      },
+                      "percentagePositive": 27,
+                      "percentageNegative": 0
+                    },
+                    {
+                      "count": 4,
+                      "id": "react_native_architecture_ota_updates_hot_updater",
+                      "index": 5,
+                      "percentageQuestion": 0.69,
+                      "percentageSurvey": 0.26,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "Hot Updater",
+                        "nameClean": "Hot Updater",
+                        "description": "Self-hostable OTA solution supporting multiple providers (AWS, Supabase, Cloudflare) with a plugin-based architecture.",
+                        "descriptionClean": "Self-hostable OTA solution supporting multiple providers (AWS, Supabase, Cloudflare) with a plugin-based architecture.",
+                        "id": "react_native_architecture_ota_updates_hot_updater",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://hot-updater.dev/"
+                        },
+                        "github": {
+                          "url": "https://github.com/gronxb/hot-updater"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/@hot-updater/react-native"
+                        }
+                      }
+                    },
+                    {
+                      "count": 4,
+                      "id": "react_native_architecture_ota_updates_stallion",
+                      "index": 6,
+                      "percentageQuestion": 0.69,
+                      "percentageSurvey": 0.26,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "Stallion",
+                        "nameClean": "Stallion",
+                        "description": "Fully managed OTA platform offering efficient patch updates, rollbacks, and a dedicated CLI for React Native apps.",
+                        "descriptionClean": "Fully managed OTA platform offering efficient patch updates, rollbacks, and a dedicated CLI for React Native apps.",
+                        "id": "react_native_architecture_ota_updates_stallion",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://stalliontech.io/"
+                        },
+                        "github": {
+                          "url": "https://github.com/stallion-tech/react-native-stallion"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/react-native-stallion"
+                        }
+                      }
+                    },
+                    {
                       "count": 7,
                       "id": "other_answers",
-                      "percentageQuestion": 0.56,
-                      "percentageSurvey": 0.2
+                      "index": 7,
+                      "percentageQuestion": 1.21,
+                      "percentageSurvey": 0.46
                     }
                   ]
                 }

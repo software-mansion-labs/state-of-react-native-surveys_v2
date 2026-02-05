@@ -1,19 +1,31 @@
-query rn2025reactNativeArchitectureStrategiesQuery {
+query {
   surveys {
     state_of_react_native {
       rn2025 {
         react_native_architecture {
-          react_native_architecture_strategies {
+          react_native_architecture_strategies: react_native_architecture_strategies {
+            id
             combined(
               parameters: {
                 showNoAnswer: true
                 cutoff: 4
                 limit: 20
                 mergeOtherBuckets: true
-                enableCache: false
               }
             ) {
               currentEdition {
+                _metadata {
+                  axis1Sort {
+                    property
+                    order
+                  }
+                  axis2Sort {
+                    property
+                    order
+                  }
+                  limit
+                  cutoff
+                }
                 completion {
                   count
                   percentageSurvey
@@ -26,6 +38,8 @@ query rn2025reactNativeArchitectureStrategiesQuery {
                 buckets {
                   count
                   id
+                  value
+                  index
                   percentageQuestion
                   percentageSurvey
                   isFreeformData
@@ -58,6 +72,12 @@ query rn2025reactNativeArchitectureStrategiesQuery {
                     twitter {
                       url
                     }
+                    bluesky {
+                      url
+                    }
+                    threads {
+                      url
+                    }
                     twitch {
                       url
                     }
@@ -76,9 +96,6 @@ query rn2025reactNativeArchitectureStrategiesQuery {
                     npm {
                       url
                     }
-                    bluesky {
-                      url
-                    }
                     mdn {
                       url
                     }
@@ -89,10 +106,33 @@ query rn2025reactNativeArchitectureStrategiesQuery {
                       url
                       title
                     }
+                    webFeature {
+                      id
+                      description_html
+                      group
+                      name
+                      spec
+                      url
+                      status {
+                        baseline
+                        baseline_low_date
+                        support {
+                          chrome
+                          chrome_android
+                          edge
+                          firefox
+                          firefox_android
+                          safari
+                          safari_ios
+                        }
+                      }
+                    }
                   }
                   groupedBuckets {
                     count
                     id
+                    value
+                    index
                     percentageQuestion
                     percentageSurvey
                     isFreeformData
@@ -125,6 +165,12 @@ query rn2025reactNativeArchitectureStrategiesQuery {
                       twitter {
                         url
                       }
+                      bluesky {
+                        url
+                      }
+                      threads {
+                        url
+                      }
                       twitch {
                         url
                       }
@@ -143,9 +189,6 @@ query rn2025reactNativeArchitectureStrategiesQuery {
                       npm {
                         url
                       }
-                      bluesky {
-                        url
-                      }
                       mdn {
                         url
                       }
@@ -155,6 +198,27 @@ query rn2025reactNativeArchitectureStrategiesQuery {
                       resources {
                         url
                         title
+                      }
+                      webFeature {
+                        id
+                        description_html
+                        group
+                        name
+                        spec
+                        url
+                        status {
+                          baseline
+                          baseline_low_date
+                          support {
+                            chrome
+                            chrome_android
+                            edge
+                            firefox
+                            firefox_android
+                            safari
+                            safari_ios
+                          }
+                        }
                       }
                     }
                   }

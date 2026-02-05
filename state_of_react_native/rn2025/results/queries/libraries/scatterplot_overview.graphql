@@ -1,4 +1,4 @@
-query rn2025scatterplotOverviewQuery {
+query {
   surveys {
     state_of_react_native {
       rn2025 {
@@ -47,6 +47,8 @@ query rn2025scatterplotOverviewQuery {
                   usage
                   retention
                   positivity
+                  positivityRelative
+                  appreciation
                 }
                 buckets {
                   count

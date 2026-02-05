@@ -1,0 +1,321 @@
+{
+  "dataAPI": {
+    "surveys": {
+      "state_of_react_native": {
+        "rn2025": {
+          "react_native_architecture": {
+            "react_native_architecture_platform_specific_apis": {
+              "id": "react_native_architecture_platform_specific_apis",
+              "combined": {
+                "currentEdition": {
+                  "_metadata": {
+                    "axis1Sort": {
+                      "property": "count",
+                      "order": "desc"
+                    },
+                    "limit": 50,
+                    "cutoff": 1
+                  },
+                  "completion": {
+                    "count": 848,
+                    "percentageSurvey": 55.61,
+                    "total": 1525
+                  },
+                  "buckets": [
+                    {
+                      "count": 631,
+                      "id": "react_native_architecture_new_architecture",
+                      "index": 0,
+                      "percentageQuestion": 74.41,
+                      "percentageSurvey": 41.38,
+                      "entity": {
+                        "name": "New Architecture",
+                        "nameClean": "New Architecture",
+                        "description": "A modern framework for React Native that enhances support for advanced React features and improves native module integration.",
+                        "descriptionClean": "A modern framework for React Native that enhances support for advanced React features and improves native module integration.",
+                        "id": "react_native_architecture_new_architecture",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://reactnative.dev/architecture/landing-page"
+                        }
+                      },
+                      "percentagePositive": 15,
+                      "percentageNegative": 0
+                    },
+                    {
+                      "count": 510,
+                      "id": "react_native_architecture_hermes_runtime",
+                      "index": 1,
+                      "percentageQuestion": 60.14,
+                      "percentageSurvey": 33.44,
+                      "entity": {
+                        "name": "Hermes runtime",
+                        "nameClean": "Hermes runtime",
+                        "description": "A JavaScript engine optimized for fast start-up of React Native apps. It features ahead-of-time static optimization and compact bytecode.",
+                        "descriptionClean": "A JavaScript engine optimized for fast start-up of React Native apps. It features ahead-of-time static optimization and compact bytecode.",
+                        "id": "react_native_architecture_hermes_runtime",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://hermesengine.dev/"
+                        }
+                      },
+                      "percentagePositive": 14,
+                      "percentageNegative": 0
+                    },
+                    {
+                      "count": 449,
+                      "id": "react_native_architecture_expo_modules",
+                      "index": 2,
+                      "percentageQuestion": 52.95,
+                      "percentageSurvey": 29.44,
+                      "entity": {
+                        "name": "Expo Modules API",
+                        "nameClean": "Expo Modules API",
+                        "description": "API for creating native modules and views for React Native leveraging Kotlin and Swift languages modern features, consistency between platforms, minimal boilerplate and performance.",
+                        "descriptionClean": "API for creating native modules and views for React Native leveraging Kotlin and Swift languages modern features, consistency between platforms, minimal boilerplate and performance.",
+                        "id": "react_native_architecture_expo_modules",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://docs.expo.dev/modules/overview/"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/expo-modules-core"
+                        }
+                      },
+                      "percentagePositive": 17,
+                      "percentageNegative": 0
+                    },
+                    {
+                      "count": 357,
+                      "id": "react_native_architecture_ota",
+                      "index": 3,
+                      "percentageQuestion": 42.1,
+                      "percentageSurvey": 23.41,
+                      "entity": {
+                        "name": "Over-the-air updates",
+                        "nameClean": "Over-the-air updates",
+                        "description": "A feature enabling deploying updates, bug fixes, and new content directly to users' devices without going through the app store review process, enabling faster iteration and delivery of improvements to React Native applications.",
+                        "descriptionHtml": "A feature enabling deploying updates, bug fixes, and new content directly to users' devices without going through the app store review process, enabling faster iteration and delivery of improvements to React Native applications.",
+                        "descriptionClean": "A feature enabling deploying updates, bug fixes, and new content directly to users' devices without going through the app store review process, enabling faster iteration and delivery of improvements to React Native applications.",
+                        "id": "react_native_architecture_ota",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://en.wikipedia.org/wiki/Over-the-air_update"
+                        }
+                      },
+                      "percentagePositive": 18,
+                      "percentageNegative": 2
+                    },
+                    {
+                      "count": 318,
+                      "id": "react_native_architecture_fabric",
+                      "index": 4,
+                      "percentageQuestion": 37.5,
+                      "percentageSurvey": 20.85,
+                      "entity": {
+                        "name": "Fabric",
+                        "nameClean": "Fabric",
+                        "description": "A new rendering system for React Native that consolidates rendering logic in C++ and enhances compatibility with host platforms.",
+                        "descriptionClean": "A new rendering system for React Native that consolidates rendering logic in C++ and enhances compatibility with host platforms.",
+                        "id": "react_native_architecture_fabric",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://reactnative.dev/architecture/fabric-renderer"
+                        }
+                      },
+                      "percentagePositive": 13,
+                      "percentageNegative": 1
+                    },
+                    {
+                      "count": 294,
+                      "id": "react_native_architecture_nitro_modules",
+                      "index": 5,
+                      "percentageQuestion": 34.67,
+                      "percentageSurvey": 19.28,
+                      "entity": {
+                        "name": "Nitro Modules",
+                        "nameClean": "Nitro Modules",
+                        "description": "A framework to build mindblowingly fast native modules with type-safe statically compiled JS bindings.",
+                        "descriptionClean": "A framework to build mindblowingly fast native modules with type-safe statically compiled JS bindings.",
+                        "id": "react_native_architecture_nitro_modules",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://nitro.margelo.com/"
+                        },
+                        "github": {
+                          "url": "https://github.com/mrousavy/nitro"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/react-native-nitro-modules"
+                        }
+                      },
+                      "percentagePositive": 17,
+                      "percentageNegative": 1
+                    },
+                    {
+                      "count": 283,
+                      "id": "react_native_architecture_jsi",
+                      "index": 6,
+                      "percentageQuestion": 33.37,
+                      "percentageSurvey": 18.56,
+                      "entity": {
+                        "name": "JSI",
+                        "nameClean": "JSI",
+                        "description": "A JavaScript Interface that allows for direct communication between JavaScript and native code in React Native.",
+                        "descriptionClean": "A JavaScript Interface that allows for direct communication between JavaScript and native code in React Native.",
+                        "id": "react_native_architecture_jsi",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://reactnative.dev/architecture/glossary#javascript-interfaces-jsi"
+                        }
+                      },
+                      "percentagePositive": 13,
+                      "percentageNegative": 1
+                    },
+                    {
+                      "count": 231,
+                      "id": "react_native_architecture_codegen",
+                      "index": 7,
+                      "percentageQuestion": 27.24,
+                      "percentageSurvey": 15.15,
+                      "entity": {
+                        "name": "Codegen",
+                        "nameClean": "Codegen",
+                        "description": "A tool that automates the generation of code for native modules and components.",
+                        "descriptionClean": "A tool that automates the generation of code for native modules and components.",
+                        "id": "react_native_architecture_codegen",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://reactnative.dev/docs/the-new-architecture/what-is-codegen"
+                        }
+                      },
+                      "percentagePositive": 13,
+                      "percentageNegative": 3
+                    },
+                    {
+                      "count": 204,
+                      "id": "react_native_architecture_turbo_modules",
+                      "index": 8,
+                      "percentageQuestion": 24.06,
+                      "percentageSurvey": 13.38,
+                      "entity": {
+                        "name": "Turbo Native Modules",
+                        "nameClean": "Turbo Native Modules",
+                        "description": "An advanced iteration of Native Modules that offers strongly typed interfaces, lazy loading, and JSI integration.",
+                        "descriptionClean": "An advanced iteration of Native Modules that offers strongly typed interfaces, lazy loading, and JSI integration.",
+                        "id": "react_native_architecture_turbo_modules",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "reactwg/react-native-new-architecture/blob/main/docs/turbo-modules.md"
+                        }
+                      },
+                      "percentagePositive": 13,
+                      "percentageNegative": 3
+                    },
+                    {
+                      "count": 133,
+                      "id": "react_native_architecture_jsc_runtime",
+                      "index": 9,
+                      "percentageQuestion": 15.68,
+                      "percentageSurvey": 8.72,
+                      "entity": {
+                        "name": "JSC runtime",
+                        "nameClean": "JSC runtime",
+                        "description": "A JavaScript engine coming from Apple that provides runtime support for executing JavaScript code in React Native applications.",
+                        "descriptionClean": "A JavaScript engine coming from Apple that provides runtime support for executing JavaScript code in React Native applications.",
+                        "id": "react_native_architecture_jsc_runtime",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://developer.apple.com/documentation/javascriptcore"
+                        }
+                      },
+                      "percentagePositive": 14,
+                      "percentageNegative": 0
+                    },
+                    {
+                      "count": 125,
+                      "id": "react_native_architecture_dom_components",
+                      "index": 10,
+                      "percentageQuestion": 14.74,
+                      "percentageSurvey": 8.2,
+                      "entity": {
+                        "name": "DOM components",
+                        "nameClean": "DOM components",
+                        "description": "Components allowing existing React web components directly within native apps. By using the \"use dom\" directive, these components can leverage web technologies while maintaining compatibility with native functionality.",
+                        "descriptionHtml": "Components allowing existing React web components directly within native apps. By using the \"use dom\" directive, these components can leverage web technologies while maintaining compatibility with native functionality.",
+                        "descriptionClean": "Components allowing existing React web components directly within native apps. By using the \"use dom\" directive, these components can leverage web technologies while maintaining compatibility with native functionality.",
+                        "id": "react_native_architecture_dom_components",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://expo.dev/blog/the-magic-of-expo-dom-components"
+                        }
+                      },
+                      "percentagePositive": 18,
+                      "percentageNegative": 2
+                    },
+                    {
+                      "count": 41,
+                      "id": "react_native_architecture_v8_runtime",
+                      "index": 11,
+                      "percentageQuestion": 4.83,
+                      "percentageSurvey": 2.69,
+                      "entity": {
+                        "name": "V8 runtime",
+                        "nameClean": "V8 runtime",
+                        "description": "A high-performance JavaScript engine optionally used in React Native, known for its speed and efficiency.",
+                        "descriptionClean": "A high-performance JavaScript engine optionally used in React Native, known for its speed and efficiency.",
+                        "id": "react_native_architecture_v8_runtime",
+                        "entityType": "default",
+                        "github": {
+                          "url": "https://github.com/Kudo/react-native-v8"
+                        },
+                        "npm": {
+                          "url": "https://www.npmjs.com/package/react-native-v8"
+                        }
+                      },
+                      "percentagePositive": 7,
+                      "percentageNegative": 2
+                    },
+                    {
+                      "count": 37,
+                      "id": "react_native_architecture_server_components",
+                      "index": 12,
+                      "percentageQuestion": 4.36,
+                      "percentageSurvey": 2.43,
+                      "entity": {
+                        "name": "Server components",
+                        "nameClean": "Server components",
+                        "description": "A new type of Component that renders ahead of time, before bundling, in an environment separate from your client app.",
+                        "descriptionClean": "A new type of Component that renders ahead of time, before bundling, in an environment separate from your client app.",
+                        "id": "react_native_architecture_server_components",
+                        "entityType": "default",
+                        "homepage": {
+                          "url": "https://react.dev/reference/rsc/server-components"
+                        },
+                        "resources": [
+                          {
+                            "url": "https://docs.expo.dev/guides/server-components/",
+                            "title": "Expo docs"
+                          }
+                        ]
+                      },
+                      "percentagePositive": 11,
+                      "percentageNegative": 16
+                    },
+                    {
+                      "count": 2,
+                      "id": "other_answers",
+                      "index": 13,
+                      "percentageQuestion": 0.24,
+                      "percentageSurvey": 0.13
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

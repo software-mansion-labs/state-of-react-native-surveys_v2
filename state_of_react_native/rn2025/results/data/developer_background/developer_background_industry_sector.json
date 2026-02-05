@@ -5,271 +5,387 @@
         "rn2025": {
           "developer_background": {
             "developer_background_industry_sector": {
-              "responses": {
+              "id": "developer_background_industry_sector",
+              "combined": {
                 "currentEdition": {
+                  "_metadata": {
+                    "axis1Sort": {
+                      "property": "count",
+                      "order": "desc"
+                    },
+                    "limit": 50,
+                    "cutoff": 5
+                  },
                   "completion": {
-                    "count": 3154,
-                    "percentageSurvey": 90.09,
-                    "total": 3501
+                    "count": 1387,
+                    "percentageSurvey": 90.95,
+                    "total": 1525
                   },
                   "buckets": [
                     {
-                      "count": 608,
+                      "count": 276,
                       "id": "developer_background_industry_sector_finance",
-                      "percentageQuestion": 19.28,
-                      "percentageSurvey": 17.37
+                      "index": 0,
+                      "percentageQuestion": 19.9,
+                      "percentageSurvey": 18.1
                     },
                     {
-                      "count": 539,
+                      "count": 239,
                       "id": "developer_background_industry_sector_health_fitness",
-                      "percentageQuestion": 17.09,
-                      "percentageSurvey": 15.4
+                      "index": 1,
+                      "percentageQuestion": 17.23,
+                      "percentageSurvey": 15.67
                     },
                     {
-                      "count": 524,
+                      "count": 209,
                       "id": "developer_background_industry_sector_education",
-                      "percentageQuestion": 16.61,
-                      "percentageSurvey": 14.97
+                      "index": 2,
+                      "percentageQuestion": 15.07,
+                      "percentageSurvey": 13.7
                     },
                     {
-                      "count": 467,
+                      "count": 157,
                       "id": "developer_background_industry_sector_entertainment",
-                      "percentageQuestion": 14.81,
-                      "percentageSurvey": 13.34
+                      "index": 3,
+                      "percentageQuestion": 11.32,
+                      "percentageSurvey": 10.3
                     },
                     {
-                      "count": 382,
-                      "id": "developer_background_industry_sector_communication",
-                      "percentageQuestion": 12.11,
-                      "percentageSurvey": 10.91
-                    },
-                    {
-                      "count": 335,
-                      "id": "developer_background_industry_sector_productivity",
-                      "percentageQuestion": 10.62,
-                      "percentageSurvey": 9.57
-                    },
-                    {
-                      "count": 329,
-                      "id": "developer_background_industry_sector_shopping",
-                      "percentageQuestion": 10.43,
-                      "percentageSurvey": 9.4
-                    },
-                    {
-                      "count": 322,
-                      "id": "developer_background_industry_sector_food_drink",
-                      "percentageQuestion": 10.21,
-                      "percentageSurvey": 9.2
-                    },
-                    {
-                      "count": 304,
+                      "count": 157,
                       "id": "developer_background_industry_sector_lifestyle",
-                      "percentageQuestion": 9.64,
-                      "percentageSurvey": 8.68
+                      "index": 4,
+                      "percentageQuestion": 11.32,
+                      "percentageSurvey": 10.3
                     },
                     {
-                      "count": 282,
-                      "id": "developer_background_industry_sector_consulting",
-                      "percentageQuestion": 8.94,
-                      "percentageSurvey": 8.05
-                    },
-                    {
-                      "count": 280,
-                      "id": "developer_background_industry_sector_social_media",
-                      "percentageQuestion": 8.88,
-                      "percentageSurvey": 8
-                    },
-                    {
-                      "count": 227,
-                      "id": "developer_background_industry_sector_medical",
-                      "percentageQuestion": 7.2,
-                      "percentageSurvey": 6.48
-                    },
-                    {
-                      "count": 207,
-                      "id": "developer_background_industry_sector_logistics",
-                      "percentageQuestion": 6.56,
-                      "percentageSurvey": 5.91
-                    },
-                    {
-                      "count": 205,
-                      "id": "developer_background_industry_sector_automotive",
-                      "percentageQuestion": 6.5,
-                      "percentageSurvey": 5.86
-                    },
-                    {
-                      "count": 198,
-                      "id": "developer_background_industry_sector_travel",
-                      "percentageQuestion": 6.28,
-                      "percentageSurvey": 5.66
-                    },
-                    {
-                      "count": 184,
-                      "id": "developer_background_industry_sector_events",
-                      "percentageQuestion": 5.83,
-                      "percentageSurvey": 5.26
-                    },
-                    {
-                      "count": 184,
-                      "id": "developer_background_industry_sector_transport",
-                      "percentageQuestion": 5.83,
-                      "percentageSurvey": 5.26
-                    },
-                    {
-                      "count": 179,
-                      "id": "developer_background_industry_sector_games",
-                      "percentageQuestion": 5.68,
-                      "percentageSurvey": 5.11
-                    },
-                    {
-                      "count": 179,
-                      "id": "developer_background_industry_sector_programming_tools",
-                      "percentageQuestion": 5.68,
-                      "percentageSurvey": 5.11
-                    },
-                    {
-                      "count": 176,
-                      "id": "developer_background_industry_sector_sports",
-                      "percentageQuestion": 5.58,
-                      "percentageSurvey": 5.03
-                    },
-                    {
-                      "count": 173,
-                      "id": "developer_background_industry_sector_crypto",
-                      "percentageQuestion": 5.49,
-                      "percentageSurvey": 4.94
-                    },
-                    {
-                      "count": 137,
-                      "id": "developer_background_industry_sector_news_media",
-                      "percentageQuestion": 4.34,
-                      "percentageSurvey": 3.91
-                    },
-                    {
-                      "count": 135,
-                      "id": "developer_background_industry_sector_real_estate",
-                      "percentageQuestion": 4.28,
-                      "percentageSurvey": 3.86
+                      "count": 138,
+                      "id": "developer_background_industry_sector_communication",
+                      "index": 5,
+                      "percentageQuestion": 9.95,
+                      "percentageSurvey": 9.05
                     },
                     {
                       "count": 131,
-                      "id": "developer_background_industry_sector_navigation",
-                      "percentageQuestion": 4.15,
-                      "percentageSurvey": 3.74
+                      "id": "developer_background_industry_sector_productivity",
+                      "index": 6,
+                      "percentageQuestion": 9.44,
+                      "percentageSurvey": 8.59
                     },
                     {
                       "count": 126,
-                      "id": "developer_background_industry_sector_music_audio",
-                      "percentageQuestion": 3.99,
-                      "percentageSurvey": 3.6
+                      "id": "developer_background_industry_sector_food_drink",
+                      "index": 7,
+                      "percentageQuestion": 9.08,
+                      "percentageSurvey": 8.26
                     },
                     {
-                      "count": 125,
-                      "id": "developer_background_industry_sector_student",
-                      "percentageQuestion": 3.96,
-                      "percentageSurvey": 3.57
-                    },
-                    {
-                      "count": 123,
-                      "id": "developer_background_industry_sector_video",
-                      "percentageQuestion": 3.9,
-                      "percentageSurvey": 3.51
-                    },
-                    {
-                      "count": 122,
-                      "id": "developer_background_industry_sector_construction",
-                      "percentageQuestion": 3.87,
-                      "percentageSurvey": 3.48
-                    },
-                    {
-                      "count": 118,
-                      "id": "developer_background_industry_sector_art_design",
-                      "percentageQuestion": 3.74,
-                      "percentageSurvey": 3.37
-                    },
-                    {
-                      "count": 117,
-                      "id": "developer_background_industry_sector_house_home",
-                      "percentageQuestion": 3.71,
-                      "percentageSurvey": 3.34
-                    },
-                    {
-                      "count": 117,
-                      "id": "developer_background_industry_sector_marketing_tools",
-                      "percentageQuestion": 3.71,
-                      "percentageSurvey": 3.34
+                      "count": 124,
+                      "id": "developer_background_industry_sector_shopping",
+                      "index": 8,
+                      "percentageQuestion": 8.94,
+                      "percentageSurvey": 8.13
                     },
                     {
                       "count": 115,
-                      "id": "developer_background_industry_sector_dating",
-                      "percentageQuestion": 3.65,
-                      "percentageSurvey": 3.28
+                      "id": "developer_background_industry_sector_social_media",
+                      "index": 9,
+                      "percentageQuestion": 8.29,
+                      "percentageSurvey": 7.54
                     },
                     {
                       "count": 113,
-                      "id": "developer_background_industry_sector_government",
-                      "percentageQuestion": 3.58,
-                      "percentageSurvey": 3.23
+                      "id": "developer_background_industry_sector_crypto",
+                      "index": 10,
+                      "percentageQuestion": 8.15,
+                      "percentageSurvey": 7.41
                     },
                     {
                       "count": 109,
-                      "id": "developer_background_industry_sector_agriculture",
-                      "percentageQuestion": 3.46,
-                      "percentageSurvey": 3.11
+                      "id": "developer_background_industry_sector_consulting",
+                      "index": 11,
+                      "percentageQuestion": 7.86,
+                      "percentageSurvey": 7.15
                     },
                     {
-                      "count": 98,
-                      "id": "developer_background_industry_sector_energy",
-                      "percentageQuestion": 3.11,
-                      "percentageSurvey": 2.8
+                      "count": 91,
+                      "id": "developer_background_industry_sector_medical",
+                      "index": 12,
+                      "percentageQuestion": 6.56,
+                      "percentageSurvey": 5.97
                     },
                     {
-                      "count": 96,
+                      "count": 90,
+                      "id": "developer_background_industry_sector_sports",
+                      "index": 13,
+                      "percentageQuestion": 6.49,
+                      "percentageSurvey": 5.9
+                    },
+                    {
+                      "count": 84,
+                      "id": "developer_background_industry_sector_events",
+                      "index": 14,
+                      "percentageQuestion": 6.06,
+                      "percentageSurvey": 5.51
+                    },
+                    {
+                      "count": 83,
+                      "id": "developer_background_industry_sector_games",
+                      "index": 15,
+                      "percentageQuestion": 5.98,
+                      "percentageSurvey": 5.44
+                    },
+                    {
+                      "count": 80,
+                      "id": "developer_background_industry_sector_logistics",
+                      "index": 16,
+                      "percentageQuestion": 5.77,
+                      "percentageSurvey": 5.25
+                    },
+                    {
+                      "count": 71,
+                      "id": "developer_background_industry_sector_travel",
+                      "index": 17,
+                      "percentageQuestion": 5.12,
+                      "percentageSurvey": 4.66
+                    },
+                    {
+                      "count": 69,
+                      "id": "developer_background_industry_sector_programming_tools",
+                      "index": 18,
+                      "percentageQuestion": 4.97,
+                      "percentageSurvey": 4.52
+                    },
+                    {
+                      "count": 65,
+                      "id": "developer_background_industry_sector_navigation",
+                      "index": 19,
+                      "percentageQuestion": 4.69,
+                      "percentageSurvey": 4.26
+                    },
+                    {
+                      "count": 61,
+                      "id": "developer_background_industry_sector_art_design",
+                      "index": 20,
+                      "percentageQuestion": 4.4,
+                      "percentageSurvey": 4
+                    },
+                    {
+                      "count": 60,
+                      "id": "developer_background_industry_sector_automotive",
+                      "index": 21,
+                      "percentageQuestion": 4.33,
+                      "percentageSurvey": 3.93
+                    },
+                    {
+                      "count": 58,
+                      "id": "developer_background_industry_sector_news_media",
+                      "index": 22,
+                      "percentageQuestion": 4.18,
+                      "percentageSurvey": 3.8
+                    },
+                    {
+                      "count": 58,
+                      "id": "developer_background_industry_sector_transport",
+                      "index": 23,
+                      "percentageQuestion": 4.18,
+                      "percentageSurvey": 3.8
+                    },
+                    {
+                      "count": 58,
+                      "id": "developer_background_industry_sector_video",
+                      "index": 24,
+                      "percentageQuestion": 4.18,
+                      "percentageSurvey": 3.8
+                    },
+                    {
+                      "count": 57,
+                      "id": "developer_background_industry_sector_dating",
+                      "index": 25,
+                      "percentageQuestion": 4.11,
+                      "percentageSurvey": 3.74
+                    },
+                    {
+                      "count": 56,
+                      "id": "developer_background_industry_sector_real_estate",
+                      "index": 26,
+                      "percentageQuestion": 4.04,
+                      "percentageSurvey": 3.67
+                    },
+                    {
+                      "count": 52,
                       "id": "developer_background_industry_sector_books_reference",
-                      "percentageQuestion": 3.04,
-                      "percentageSurvey": 2.74
+                      "index": 27,
+                      "percentageQuestion": 3.75,
+                      "percentageSurvey": 3.41
                     },
                     {
-                      "count": 84,
-                      "id": "developer_background_industry_sector_beauty",
-                      "percentageQuestion": 2.66,
-                      "percentageSurvey": 2.4
+                      "count": 51,
+                      "id": "developer_background_industry_sector_marketing_tools",
+                      "index": 28,
+                      "percentageQuestion": 3.68,
+                      "percentageSurvey": 3.34
                     },
                     {
-                      "count": 84,
+                      "count": 50,
                       "id": "developer_background_industry_sector_insurance",
-                      "percentageQuestion": 2.66,
-                      "percentageSurvey": 2.4
+                      "index": 29,
+                      "percentageQuestion": 3.6,
+                      "percentageSurvey": 3.28
                     },
                     {
-                      "count": 84,
-                      "id": "developer_background_industry_sector_manufacturing",
-                      "percentageQuestion": 2.66,
-                      "percentageSurvey": 2.4
+                      "count": 48,
+                      "id": "developer_background_industry_sector_music_audio",
+                      "index": 30,
+                      "percentageQuestion": 3.46,
+                      "percentageSurvey": 3.15
                     },
                     {
-                      "count": 73,
+                      "count": 45,
+                      "id": "developer_background_industry_sector_construction",
+                      "index": 31,
+                      "percentageQuestion": 3.24,
+                      "percentageSurvey": 2.95
+                    },
+                    {
+                      "count": 44,
                       "id": "developer_background_industry_sector_photo",
-                      "percentageQuestion": 2.31,
-                      "percentageSurvey": 2.09
+                      "index": 32,
+                      "percentageQuestion": 3.17,
+                      "percentageSurvey": 2.89
                     },
                     {
-                      "count": 40,
-                      "id": "developer_background_industry_sector_weather",
-                      "percentageQuestion": 1.27,
-                      "percentageSurvey": 1.14
+                      "count": 43,
+                      "id": "developer_background_industry_sector_student",
+                      "index": 33,
+                      "percentageQuestion": 3.1,
+                      "percentageSurvey": 2.82
+                    },
+                    {
+                      "count": 41,
+                      "id": "developer_background_industry_sector_agriculture",
+                      "index": 34,
+                      "percentageQuestion": 2.96,
+                      "percentageSurvey": 2.69
+                    },
+                    {
+                      "count": 39,
+                      "id": "developer_background_industry_sector_house_home",
+                      "index": 35,
+                      "percentageQuestion": 2.81,
+                      "percentageSurvey": 2.56
+                    },
+                    {
+                      "count": 38,
+                      "id": "developer_background_industry_sector_energy",
+                      "index": 36,
+                      "percentageQuestion": 2.74,
+                      "percentageSurvey": 2.49
+                    },
+                    {
+                      "count": 37,
+                      "id": "developer_background_industry_sector_beauty",
+                      "index": 37,
+                      "percentageQuestion": 2.67,
+                      "percentageSurvey": 2.43
                     },
                     {
                       "count": 36,
-                      "id": "developer_background_industry_sector_cyber_security",
-                      "percentageQuestion": 1.14,
-                      "percentageSurvey": 1.03
+                      "id": "developer_background_industry_sector_government",
+                      "index": 38,
+                      "percentageQuestion": 2.6,
+                      "percentageSurvey": 2.36
                     },
                     {
-                      "count": 324,
+                      "count": 35,
+                      "id": "developer_background_industry_sector_manufacturing",
+                      "index": 39,
+                      "percentageQuestion": 2.52,
+                      "percentageSurvey": 2.3
+                    },
+                    {
+                      "count": 33,
+                      "id": "developer_background_industry_sector_gambling",
+                      "index": 40,
+                      "percentageQuestion": 2.38,
+                      "percentageSurvey": 2.16
+                    },
+                    {
+                      "count": 33,
+                      "id": "developer_background_industry_sector_nonprofit_social_good",
+                      "index": 41,
+                      "percentageQuestion": 2.38,
+                      "percentageSurvey": 2.16
+                    },
+                    {
+                      "count": 27,
+                      "id": "developer_background_industry_sector_parenting_kids",
+                      "index": 42,
+                      "percentageQuestion": 1.95,
+                      "percentageSurvey": 1.77
+                    },
+                    {
+                      "count": 26,
+                      "id": "developer_background_industry_sector_legal_compliance",
+                      "index": 43,
+                      "percentageQuestion": 1.87,
+                      "percentageSurvey": 1.7
+                    },
+                    {
+                      "count": 25,
+                      "id": "developer_background_industry_sector_cyber_security",
+                      "index": 44,
+                      "percentageQuestion": 1.8,
+                      "percentageSurvey": 1.64
+                    },
+                    {
+                      "count": 21,
+                      "id": "developer_background_industry_sector_weather",
+                      "index": 45,
+                      "percentageQuestion": 1.51,
+                      "percentageSurvey": 1.38
+                    },
+                    {
+                      "count": 19,
+                      "id": "developer_background_industry_sector_vr_ar",
+                      "index": 46,
+                      "percentageQuestion": 1.37,
+                      "percentageSurvey": 1.25
+                    },
+                    {
+                      "count": 5,
+                      "id": "human_resources",
+                      "index": 47,
+                      "percentageQuestion": 0.36,
+                      "percentageSurvey": 0.33,
+                      "isFreeformData": true,
+                      "entity": {
+                        "name": "Human resources",
+                        "nameClean": "Human resources",
+                        "id": "human_resources",
+                        "entityType": "default"
+                      }
+                    },
+                    {
+                      "count": 17,
+                      "id": "cutoff_answers",
+                      "index": 48,
+                      "percentageQuestion": 1.2,
+                      "percentageSurvey": 1.18
+                    },
+                    {
+                      "count": 11,
+                      "id": "no_match",
+                      "index": 49,
+                      "percentageQuestion": 0.79,
+                      "percentageSurvey": 0.72,
+                      "isFreeformData": true
+                    },
+                    {
+                      "count": 138,
                       "id": "no_answer",
+                      "index": 50,
                       "percentageQuestion": 0,
-                      "percentageSurvey": 9.25
+                      "percentageSurvey": 9.05
                     }
                   ]
                 }
