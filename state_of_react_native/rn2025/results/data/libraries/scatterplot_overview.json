@@ -29,13 +29,20 @@
                       "interest": 0.62,
                       "usage": 0.71,
                       "retention": 0.87,
-                      "positivity": 0.27
+                      "positivity": 0.82
                     },
                     "buckets": [
                       {
                         "count": 29,
                         "id": "never_heard",
                         "facetBuckets": [
+                          {
+                            "count": 25,
+                            "id": "neutral",
+                            "percentageBucket": 86.21,
+                            "percentageQuestion": 2.16,
+                            "percentageSurvey": 1.64
+                          },
                           {
                             "count": 3,
                             "id": "negative",
@@ -49,13 +56,6 @@
                             "percentageBucket": 3.45,
                             "percentageQuestion": 0.09,
                             "percentageSurvey": 0.07
-                          },
-                          {
-                            "count": 25,
-                            "id": "neutral",
-                            "percentageBucket": 86.21,
-                            "percentageQuestion": 2.16,
-                            "percentageSurvey": 1.64
                           }
                         ],
                         "percentageQuestion": 2.5,
@@ -65,13 +65,6 @@
                         "count": 300,
                         "id": "heard",
                         "facetBuckets": [
-                          {
-                            "count": 230,
-                            "id": "neutral",
-                            "percentageBucket": 76.67,
-                            "percentageQuestion": 19.86,
-                            "percentageSurvey": 15.08
-                          },
                           {
                             "count": 44,
                             "id": "positive",
@@ -85,6 +78,13 @@
                             "percentageBucket": 8.67,
                             "percentageQuestion": 2.25,
                             "percentageSurvey": 1.7
+                          },
+                          {
+                            "count": 230,
+                            "id": "neutral",
+                            "percentageBucket": 76.67,
+                            "percentageQuestion": 19.86,
+                            "percentageSurvey": 15.08
                           }
                         ],
                         "percentageQuestion": 25.91,
@@ -94,6 +94,13 @@
                         "count": 823,
                         "id": "used",
                         "facetBuckets": [
+                          {
+                            "count": 511,
+                            "id": "neutral",
+                            "percentageBucket": 62.09,
+                            "percentageQuestion": 44.13,
+                            "percentageSurvey": 33.51
+                          },
                           {
                             "count": 40,
                             "id": "negative",
@@ -107,13 +114,6 @@
                             "percentageBucket": 33.05,
                             "percentageQuestion": 23.49,
                             "percentageSurvey": 17.84
-                          },
-                          {
-                            "count": 511,
-                            "id": "neutral",
-                            "percentageBucket": 62.09,
-                            "percentageQuestion": 44.13,
-                            "percentageSurvey": 33.51
                           }
                         ],
                         "percentageQuestion": 71.07,
@@ -152,7 +152,7 @@
                       "interest": 0.15,
                       "usage": 0.42,
                       "retention": 0.74,
-                      "positivity": 0.1
+                      "positivity": 0.48
                     },
                     "buckets": [
                       {
@@ -189,6 +189,13 @@
                         "id": "heard",
                         "facetBuckets": [
                           {
+                            "count": 16,
+                            "id": "positive",
+                            "percentageBucket": 2.97,
+                            "percentageQuestion": 1.4,
+                            "percentageSurvey": 1.05
+                          },
+                          {
                             "count": 86,
                             "id": "negative",
                             "percentageBucket": 15.96,
@@ -201,13 +208,6 @@
                             "percentageBucket": 81.08,
                             "percentageQuestion": 38.17,
                             "percentageSurvey": 28.66
-                          },
-                          {
-                            "count": 16,
-                            "id": "positive",
-                            "percentageBucket": 2.97,
-                            "percentageQuestion": 1.4,
-                            "percentageSurvey": 1.05
                           }
                         ],
                         "percentageQuestion": 47.07,
@@ -225,18 +225,18 @@
                             "percentageSurvey": 2.1
                           },
                           {
-                            "count": 92,
-                            "id": "positive",
-                            "percentageBucket": 19.17,
-                            "percentageQuestion": 8.03,
-                            "percentageSurvey": 6.03
-                          },
-                          {
                             "count": 356,
                             "id": "neutral",
                             "percentageBucket": 74.17,
                             "percentageQuestion": 31.09,
                             "percentageSurvey": 23.34
+                          },
+                          {
+                            "count": 92,
+                            "id": "positive",
+                            "percentageBucket": 19.17,
+                            "percentageQuestion": 8.03,
+                            "percentageSurvey": 6.03
                           }
                         ],
                         "percentageQuestion": 41.92,
@@ -275,7 +275,7 @@
                       "interest": 0.71,
                       "usage": 0.73,
                       "retention": 0.93,
-                      "positivity": 0.18
+                      "positivity": 0.88
                     },
                     "buckets": [
                       {
@@ -283,18 +283,18 @@
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 3,
-                            "id": "negative",
-                            "percentageBucket": 3.7,
-                            "percentageQuestion": 0.26,
-                            "percentageSurvey": 0.2
-                          },
-                          {
                             "count": 77,
                             "id": "neutral",
                             "percentageBucket": 95.06,
                             "percentageQuestion": 6.71,
                             "percentageSurvey": 5.05
+                          },
+                          {
+                            "count": 3,
+                            "id": "negative",
+                            "percentageBucket": 3.7,
+                            "percentageQuestion": 0.26,
+                            "percentageSurvey": 0.2
                           },
                           {
                             "count": 1,
@@ -312,18 +312,18 @@
                         "id": "heard",
                         "facetBuckets": [
                           {
-                            "count": 11,
-                            "id": "negative",
-                            "percentageBucket": 4.98,
-                            "percentageQuestion": 0.96,
-                            "percentageSurvey": 0.72
-                          },
-                          {
                             "count": 27,
                             "id": "positive",
                             "percentageBucket": 12.22,
                             "percentageQuestion": 2.35,
                             "percentageSurvey": 1.77
+                          },
+                          {
+                            "count": 11,
+                            "id": "negative",
+                            "percentageBucket": 4.98,
+                            "percentageQuestion": 0.96,
+                            "percentageSurvey": 0.72
                           },
                           {
                             "count": 183,
@@ -348,18 +348,18 @@
                             "percentageSurvey": 41.84
                           },
                           {
-                            "count": 184,
-                            "id": "positive",
-                            "percentageBucket": 22.04,
-                            "percentageQuestion": 16.03,
-                            "percentageSurvey": 12.07
-                          },
-                          {
                             "count": 13,
                             "id": "negative",
                             "percentageBucket": 1.56,
                             "percentageQuestion": 1.13,
                             "percentageSurvey": 0.85
+                          },
+                          {
+                            "count": 184,
+                            "id": "positive",
+                            "percentageBucket": 22.04,
+                            "percentageQuestion": 16.03,
+                            "percentageSurvey": 12.07
                           }
                         ],
                         "percentageQuestion": 72.74,
@@ -398,13 +398,20 @@
                       "interest": 0.73,
                       "usage": 0.79,
                       "retention": 0.92,
-                      "positivity": 0.23
+                      "positivity": 0.9
                     },
                     "buckets": [
                       {
                         "count": 55,
                         "id": "never_heard",
                         "facetBuckets": [
+                          {
+                            "count": 51,
+                            "id": "neutral",
+                            "percentageBucket": 92.73,
+                            "percentageQuestion": 4.45,
+                            "percentageSurvey": 3.34
+                          },
                           {
                             "count": 1,
                             "id": "negative",
@@ -418,13 +425,6 @@
                             "percentageBucket": 5.45,
                             "percentageQuestion": 0.26,
                             "percentageSurvey": 0.2
-                          },
-                          {
-                            "count": 51,
-                            "id": "neutral",
-                            "percentageBucket": 92.73,
-                            "percentageQuestion": 4.45,
-                            "percentageSurvey": 3.34
                           }
                         ],
                         "percentageQuestion": 4.8,
@@ -434,6 +434,13 @@
                         "count": 181,
                         "id": "heard",
                         "facetBuckets": [
+                          {
+                            "count": 7,
+                            "id": "negative",
+                            "percentageBucket": 3.87,
+                            "percentageQuestion": 0.61,
+                            "percentageSurvey": 0.46
+                          },
                           {
                             "count": 155,
                             "id": "neutral",
@@ -447,13 +454,6 @@
                             "percentageBucket": 10.5,
                             "percentageQuestion": 1.66,
                             "percentageSurvey": 1.25
-                          },
-                          {
-                            "count": 7,
-                            "id": "negative",
-                            "percentageBucket": 3.87,
-                            "percentageQuestion": 0.61,
-                            "percentageSurvey": 0.46
                           }
                         ],
                         "percentageQuestion": 15.78,
@@ -521,7 +521,7 @@
                       "interest": 0.22,
                       "usage": 0.24,
                       "retention": 0.85,
-                      "positivity": 0.05
+                      "positivity": 0.4
                     },
                     "buckets": [
                       {
@@ -558,13 +558,6 @@
                         "id": "heard",
                         "facetBuckets": [
                           {
-                            "count": 590,
-                            "id": "neutral",
-                            "percentageBucket": 85.51,
-                            "percentageQuestion": 52.77,
-                            "percentageSurvey": 38.69
-                          },
-                          {
                             "count": 22,
                             "id": "positive",
                             "percentageBucket": 3.19,
@@ -577,6 +570,13 @@
                             "percentageBucket": 11.3,
                             "percentageQuestion": 6.98,
                             "percentageSurvey": 5.11
+                          },
+                          {
+                            "count": 590,
+                            "id": "neutral",
+                            "percentageBucket": 85.51,
+                            "percentageQuestion": 52.77,
+                            "percentageSurvey": 38.69
                           }
                         ],
                         "percentageQuestion": 61.72,
@@ -587,18 +587,18 @@
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 7,
-                            "id": "negative",
-                            "percentageBucket": 2.59,
-                            "percentageQuestion": 0.63,
-                            "percentageSurvey": 0.46
-                          },
-                          {
                             "count": 40,
                             "id": "positive",
                             "percentageBucket": 14.81,
                             "percentageQuestion": 3.58,
                             "percentageSurvey": 2.62
+                          },
+                          {
+                            "count": 7,
+                            "id": "negative",
+                            "percentageBucket": 2.59,
+                            "percentageQuestion": 0.63,
+                            "percentageSurvey": 0.46
                           },
                           {
                             "count": 223,
@@ -644,20 +644,13 @@
                       "interest": 0.23,
                       "usage": 0.05,
                       "retention": 0.5,
-                      "positivity": 0.04
+                      "positivity": 0.33
                     },
                     "buckets": [
                       {
                         "count": 614,
                         "id": "never_heard",
                         "facetBuckets": [
-                          {
-                            "count": 577,
-                            "id": "neutral",
-                            "percentageBucket": 93.97,
-                            "percentageQuestion": 51.43,
-                            "percentageSurvey": 37.84
-                          },
                           {
                             "count": 17,
                             "id": "positive",
@@ -671,6 +664,13 @@
                             "percentageBucket": 3.26,
                             "percentageQuestion": 1.78,
                             "percentageSurvey": 1.31
+                          },
+                          {
+                            "count": 577,
+                            "id": "neutral",
+                            "percentageBucket": 93.97,
+                            "percentageQuestion": 51.43,
+                            "percentageSurvey": 37.84
                           }
                         ],
                         "percentageQuestion": 54.72,
@@ -680,13 +680,6 @@
                         "count": 445,
                         "id": "heard",
                         "facetBuckets": [
-                          {
-                            "count": 63,
-                            "id": "negative",
-                            "percentageBucket": 14.16,
-                            "percentageQuestion": 5.61,
-                            "percentageSurvey": 4.13
-                          },
                           {
                             "count": 19,
                             "id": "positive",
@@ -700,6 +693,13 @@
                             "percentageBucket": 81.57,
                             "percentageQuestion": 32.35,
                             "percentageSurvey": 23.8
+                          },
+                          {
+                            "count": 63,
+                            "id": "negative",
+                            "percentageBucket": 14.16,
+                            "percentageQuestion": 5.61,
+                            "percentageSurvey": 4.13
                           }
                         ],
                         "percentageQuestion": 39.66,
@@ -711,7 +711,7 @@
                         "facetBuckets": [
                           {
                             "count": 11,
-                            "id": "negative",
+                            "id": "positive",
                             "percentageBucket": 17.74,
                             "percentageQuestion": 0.98,
                             "percentageSurvey": 0.72
@@ -725,7 +725,7 @@
                           },
                           {
                             "count": 11,
-                            "id": "positive",
+                            "id": "negative",
                             "percentageBucket": 17.74,
                             "percentageQuestion": 0.98,
                             "percentageSurvey": 0.72
@@ -772,7 +772,7 @@
                       "interest": 0.12,
                       "usage": 0.18,
                       "retention": 0.43,
-                      "positivity": 0.05
+                      "positivity": 0.27
                     },
                     "buckets": [
                       {
@@ -845,18 +845,18 @@
                             "percentageSurvey": 1.64
                           },
                           {
-                            "count": 146,
-                            "id": "neutral",
-                            "percentageBucket": 71.57,
-                            "percentageQuestion": 13.41,
-                            "percentageSurvey": 9.57
-                          },
-                          {
                             "count": 33,
                             "id": "negative",
                             "percentageBucket": 16.18,
                             "percentageQuestion": 3.03,
                             "percentageSurvey": 2.16
+                          },
+                          {
+                            "count": 146,
+                            "id": "neutral",
+                            "percentageBucket": 71.57,
+                            "percentageQuestion": 13.41,
+                            "percentageSurvey": 9.57
                           }
                         ],
                         "percentageQuestion": 18.73,
@@ -900,7 +900,7 @@
                       "interest": 0.26,
                       "usage": 0.92,
                       "retention": 0.75,
-                      "positivity": 0.18
+                      "positivity": 0.72
                     },
                     "buckets": [
                       {
@@ -937,18 +937,18 @@
                             "percentageSurvey": 0.26
                           },
                           {
-                            "count": 11,
-                            "id": "negative",
-                            "percentageBucket": 13.75,
-                            "percentageQuestion": 1,
-                            "percentageSurvey": 0.72
-                          },
-                          {
                             "count": 65,
                             "id": "neutral",
                             "percentageBucket": 81.25,
                             "percentageQuestion": 5.91,
                             "percentageSurvey": 4.26
+                          },
+                          {
+                            "count": 11,
+                            "id": "negative",
+                            "percentageBucket": 13.75,
+                            "percentageQuestion": 1,
+                            "percentageSurvey": 0.72
                           }
                         ],
                         "percentageQuestion": 7.28,
@@ -1021,7 +1021,7 @@
                       "interest": 0.48,
                       "usage": 0.42,
                       "retention": 0.66,
-                      "positivity": 0.16
+                      "positivity": 0.58
                     },
                     "buckets": [
                       {
@@ -1094,18 +1094,18 @@
                             "percentageSurvey": 7.74
                           },
                           {
-                            "count": 286,
-                            "id": "neutral",
-                            "percentageBucket": 61.77,
-                            "percentageQuestion": 25.98,
-                            "percentageSurvey": 18.75
-                          },
-                          {
                             "count": 59,
                             "id": "negative",
                             "percentageBucket": 12.74,
                             "percentageQuestion": 5.36,
                             "percentageSurvey": 3.87
+                          },
+                          {
+                            "count": 286,
+                            "id": "neutral",
+                            "percentageBucket": 61.77,
+                            "percentageQuestion": 25.98,
+                            "percentageSurvey": 18.75
                           }
                         ],
                         "percentageQuestion": 42.05,
@@ -1149,7 +1149,7 @@
                       "interest": 0.72,
                       "usage": 0.28,
                       "retention": 0.89,
-                      "positivity": 0.19
+                      "positivity": 0.79
                     },
                     "buckets": [
                       {
@@ -1186,13 +1186,6 @@
                         "id": "heard",
                         "facetBuckets": [
                           {
-                            "count": 32,
-                            "id": "negative",
-                            "percentageBucket": 6.04,
-                            "percentageQuestion": 2.92,
-                            "percentageSurvey": 2.1
-                          },
-                          {
                             "count": 84,
                             "id": "positive",
                             "percentageBucket": 15.85,
@@ -1205,6 +1198,13 @@
                             "percentageBucket": 78.11,
                             "percentageQuestion": 37.77,
                             "percentageSurvey": 27.15
+                          },
+                          {
+                            "count": 32,
+                            "id": "negative",
+                            "percentageBucket": 6.04,
+                            "percentageQuestion": 2.92,
+                            "percentageSurvey": 2.1
                           }
                         ],
                         "percentageQuestion": 48.36,
@@ -1215,11 +1215,11 @@
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 13,
-                            "id": "negative",
-                            "percentageBucket": 4.1,
-                            "percentageQuestion": 1.19,
-                            "percentageSurvey": 0.85
+                            "count": 107,
+                            "id": "positive",
+                            "percentageBucket": 33.75,
+                            "percentageQuestion": 9.76,
+                            "percentageSurvey": 7.02
                           },
                           {
                             "count": 197,
@@ -1229,11 +1229,11 @@
                             "percentageSurvey": 12.92
                           },
                           {
-                            "count": 107,
-                            "id": "positive",
-                            "percentageBucket": 33.75,
-                            "percentageQuestion": 9.76,
-                            "percentageSurvey": 7.02
+                            "count": 13,
+                            "id": "negative",
+                            "percentageBucket": 4.1,
+                            "percentageQuestion": 1.19,
+                            "percentageSurvey": 0.85
                           }
                         ],
                         "percentageQuestion": 28.92,
@@ -1278,7 +1278,7 @@
                       "interest": 0.23,
                       "usage": 0.11,
                       "retention": 0.61,
-                      "positivity": 0.06
+                      "positivity": 0.4
                     },
                     "buckets": [
                       {
@@ -1286,11 +1286,11 @@
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 30,
-                            "id": "positive",
-                            "percentageBucket": 5.5,
-                            "percentageQuestion": 2.76,
-                            "percentageSurvey": 1.97
+                            "count": 473,
+                            "id": "neutral",
+                            "percentageBucket": 86.79,
+                            "percentageQuestion": 43.51,
+                            "percentageSurvey": 31.02
                           },
                           {
                             "count": 42,
@@ -1300,11 +1300,11 @@
                             "percentageSurvey": 2.75
                           },
                           {
-                            "count": 473,
-                            "id": "neutral",
-                            "percentageBucket": 86.79,
-                            "percentageQuestion": 43.51,
-                            "percentageSurvey": 31.02
+                            "count": 30,
+                            "id": "positive",
+                            "percentageBucket": 5.5,
+                            "percentageQuestion": 2.76,
+                            "percentageSurvey": 1.97
                           }
                         ],
                         "percentageQuestion": 50.14,
@@ -1322,18 +1322,18 @@
                             "percentageSurvey": 0.92
                           },
                           {
-                            "count": 358,
-                            "id": "neutral",
-                            "percentageBucket": 85.65,
-                            "percentageQuestion": 32.93,
-                            "percentageSurvey": 23.48
-                          },
-                          {
                             "count": 46,
                             "id": "negative",
                             "percentageBucket": 11,
                             "percentageQuestion": 4.23,
                             "percentageSurvey": 3.02
+                          },
+                          {
+                            "count": 358,
+                            "id": "neutral",
+                            "percentageBucket": 85.65,
+                            "percentageQuestion": 32.93,
+                            "percentageSurvey": 23.48
                           }
                         ],
                         "percentageQuestion": 38.45,
@@ -1344,11 +1344,11 @@
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 26,
-                            "id": "positive",
-                            "percentageBucket": 21.31,
-                            "percentageQuestion": 2.39,
-                            "percentageSurvey": 1.7
+                            "count": 80,
+                            "id": "neutral",
+                            "percentageBucket": 65.57,
+                            "percentageQuestion": 7.36,
+                            "percentageSurvey": 5.25
                           },
                           {
                             "count": 16,
@@ -1358,11 +1358,11 @@
                             "percentageSurvey": 1.05
                           },
                           {
-                            "count": 80,
-                            "id": "neutral",
-                            "percentageBucket": 65.57,
-                            "percentageQuestion": 7.36,
-                            "percentageSurvey": 5.25
+                            "count": 26,
+                            "id": "positive",
+                            "percentageBucket": 21.31,
+                            "percentageQuestion": 2.39,
+                            "percentageSurvey": 1.7
                           }
                         ],
                         "percentageQuestion": 11.22,
@@ -1406,7 +1406,7 @@
                       "interest": 0.38,
                       "usage": 0.9,
                       "retention": 0.82,
-                      "positivity": 0.22
+                      "positivity": 0.8
                     },
                     "buckets": [
                       {
@@ -1414,18 +1414,18 @@
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 2,
-                            "id": "negative",
-                            "percentageBucket": 11.76,
-                            "percentageQuestion": 0.18,
-                            "percentageSurvey": 0.13
-                          },
-                          {
                             "count": 15,
                             "id": "neutral",
                             "percentageBucket": 88.24,
                             "percentageQuestion": 1.36,
                             "percentageSurvey": 0.98
+                          },
+                          {
+                            "count": 2,
+                            "id": "negative",
+                            "percentageBucket": 11.76,
+                            "percentageQuestion": 0.18,
+                            "percentageSurvey": 0.13
                           }
                         ],
                         "percentageQuestion": 1.55,
@@ -1436,18 +1436,18 @@
                         "id": "heard",
                         "facetBuckets": [
                           {
-                            "count": 8,
-                            "id": "negative",
-                            "percentageBucket": 9.3,
-                            "percentageQuestion": 0.73,
-                            "percentageSurvey": 0.52
-                          },
-                          {
                             "count": 5,
                             "id": "positive",
                             "percentageBucket": 5.81,
                             "percentageQuestion": 0.45,
                             "percentageSurvey": 0.33
+                          },
+                          {
+                            "count": 8,
+                            "id": "negative",
+                            "percentageBucket": 9.3,
+                            "percentageQuestion": 0.73,
+                            "percentageSurvey": 0.52
                           },
                           {
                             "count": 73,
@@ -1465,13 +1465,6 @@
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 706,
-                            "id": "neutral",
-                            "percentageBucket": 71.17,
-                            "percentageQuestion": 64.24,
-                            "percentageSurvey": 46.3
-                          },
-                          {
                             "count": 236,
                             "id": "positive",
                             "percentageBucket": 23.79,
@@ -1484,6 +1477,13 @@
                             "percentageBucket": 5.04,
                             "percentageQuestion": 4.55,
                             "percentageSurvey": 3.28
+                          },
+                          {
+                            "count": 706,
+                            "id": "neutral",
+                            "percentageBucket": 71.17,
+                            "percentageQuestion": 64.24,
+                            "percentageSurvey": 46.3
                           }
                         ],
                         "percentageQuestion": 90.26,
@@ -1527,7 +1527,7 @@
                       "interest": 0.11,
                       "usage": 0.37,
                       "retention": 0.33,
-                      "positivity": 0.06
+                      "positivity": 0.26
                     },
                     "buckets": [
                       {
@@ -1564,6 +1564,13 @@
                         "id": "heard",
                         "facetBuckets": [
                           {
+                            "count": 10,
+                            "id": "positive",
+                            "percentageBucket": 2.01,
+                            "percentageQuestion": 0.92,
+                            "percentageSurvey": 0.66
+                          },
+                          {
                             "count": 75,
                             "id": "negative",
                             "percentageBucket": 15.09,
@@ -1576,13 +1583,6 @@
                             "percentageBucket": 82.9,
                             "percentageQuestion": 37.9,
                             "percentageSurvey": 27.02
-                          },
-                          {
-                            "count": 10,
-                            "id": "positive",
-                            "percentageBucket": 2.01,
-                            "percentageQuestion": 0.92,
-                            "percentageSurvey": 0.66
                           }
                         ],
                         "percentageQuestion": 45.72,
@@ -1600,18 +1600,18 @@
                             "percentageSurvey": 17.31
                           },
                           {
-                            "count": 48,
-                            "id": "positive",
-                            "percentageBucket": 11.74,
-                            "percentageQuestion": 4.42,
-                            "percentageSurvey": 3.15
-                          },
-                          {
                             "count": 97,
                             "id": "negative",
                             "percentageBucket": 23.72,
                             "percentageQuestion": 8.92,
                             "percentageSurvey": 6.36
+                          },
+                          {
+                            "count": 48,
+                            "id": "positive",
+                            "percentageBucket": 11.74,
+                            "percentageQuestion": 4.42,
+                            "percentageSurvey": 3.15
                           }
                         ],
                         "percentageQuestion": 37.63,
@@ -1650,7 +1650,7 @@
                       "interest": 0.41,
                       "usage": 0.02,
                       "retention": 0.66,
-                      "positivity": 0.07
+                      "positivity": 0.42
                     },
                     "buckets": [
                       {
@@ -1687,6 +1687,13 @@
                         "id": "heard",
                         "facetBuckets": [
                           {
+                            "count": 46,
+                            "id": "positive",
+                            "percentageBucket": 9.81,
+                            "percentageQuestion": 4.26,
+                            "percentageSurvey": 3.02
+                          },
+                          {
                             "count": 65,
                             "id": "negative",
                             "percentageBucket": 13.86,
@@ -1699,13 +1706,6 @@
                             "percentageBucket": 76.33,
                             "percentageQuestion": 33.18,
                             "percentageSurvey": 23.48
-                          },
-                          {
-                            "count": 46,
-                            "id": "positive",
-                            "percentageBucket": 9.81,
-                            "percentageQuestion": 4.26,
-                            "percentageSurvey": 3.02
                           }
                         ],
                         "percentageQuestion": 43.47,
@@ -1723,18 +1723,18 @@
                             "percentageSurvey": 0.2
                           },
                           {
-                            "count": 6,
-                            "id": "positive",
-                            "percentageBucket": 20.69,
-                            "percentageQuestion": 0.56,
-                            "percentageSurvey": 0.39
-                          },
-                          {
                             "count": 20,
                             "id": "neutral",
                             "percentageBucket": 68.97,
                             "percentageQuestion": 1.85,
                             "percentageSurvey": 1.31
+                          },
+                          {
+                            "count": 6,
+                            "id": "positive",
+                            "percentageBucket": 20.69,
+                            "percentageQuestion": 0.56,
+                            "percentageSurvey": 0.39
                           }
                         ],
                         "percentageQuestion": 2.69,
@@ -1778,7 +1778,7 @@
                       "interest": 0.26,
                       "usage": 0.18,
                       "retention": 0.39,
-                      "positivity": 0.07
+                      "positivity": 0.33
                     },
                     "buckets": [
                       {
@@ -1786,11 +1786,11 @@
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 16,
-                            "id": "negative",
-                            "percentageBucket": 6.06,
-                            "percentageQuestion": 1.48,
-                            "percentageSurvey": 1.05
+                            "count": 233,
+                            "id": "neutral",
+                            "percentageBucket": 88.26,
+                            "percentageQuestion": 21.61,
+                            "percentageSurvey": 15.28
                           },
                           {
                             "count": 15,
@@ -1800,11 +1800,11 @@
                             "percentageSurvey": 0.98
                           },
                           {
-                            "count": 233,
-                            "id": "neutral",
-                            "percentageBucket": 88.26,
-                            "percentageQuestion": 21.61,
-                            "percentageSurvey": 15.28
+                            "count": 16,
+                            "id": "negative",
+                            "percentageBucket": 6.06,
+                            "percentageQuestion": 1.48,
+                            "percentageSurvey": 1.05
                           }
                         ],
                         "percentageQuestion": 24.49,
@@ -1815,18 +1815,18 @@
                         "id": "heard",
                         "facetBuckets": [
                           {
-                            "count": 494,
-                            "id": "neutral",
-                            "percentageBucket": 80.19,
-                            "percentageQuestion": 45.83,
-                            "percentageSurvey": 32.39
-                          },
-                          {
                             "count": 32,
                             "id": "positive",
                             "percentageBucket": 5.19,
                             "percentageQuestion": 2.97,
                             "percentageSurvey": 2.1
+                          },
+                          {
+                            "count": 494,
+                            "id": "neutral",
+                            "percentageBucket": 80.19,
+                            "percentageQuestion": 45.83,
+                            "percentageSurvey": 32.39
                           },
                           {
                             "count": 90,
@@ -1844,13 +1844,6 @@
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 50,
-                            "id": "negative",
-                            "percentageBucket": 25.64,
-                            "percentageQuestion": 4.64,
-                            "percentageSurvey": 3.28
-                          },
-                          {
                             "count": 33,
                             "id": "positive",
                             "percentageBucket": 16.92,
@@ -1863,6 +1856,13 @@
                             "percentageBucket": 57.44,
                             "percentageQuestion": 10.39,
                             "percentageSurvey": 7.34
+                          },
+                          {
+                            "count": 50,
+                            "id": "negative",
+                            "percentageBucket": 25.64,
+                            "percentageQuestion": 4.64,
+                            "percentageSurvey": 3.28
                           }
                         ],
                         "percentageQuestion": 18.09,
@@ -1903,7 +1903,7 @@
                       "interest": 0.3,
                       "usage": 0.11,
                       "retention": 0.48,
-                      "positivity": 0.06
+                      "positivity": 0.37
                     },
                     "buckets": [
                       {
@@ -1911,18 +1911,18 @@
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 39,
-                            "id": "negative",
-                            "percentageBucket": 8.14,
-                            "percentageQuestion": 3.63,
-                            "percentageSurvey": 2.56
-                          },
-                          {
                             "count": 24,
                             "id": "positive",
                             "percentageBucket": 5.01,
                             "percentageQuestion": 2.24,
                             "percentageSurvey": 1.57
+                          },
+                          {
+                            "count": 39,
+                            "id": "negative",
+                            "percentageBucket": 8.14,
+                            "percentageQuestion": 3.63,
+                            "percentageSurvey": 2.56
                           },
                           {
                             "count": 416,
@@ -1940,18 +1940,18 @@
                         "id": "heard",
                         "facetBuckets": [
                           {
-                            "count": 380,
-                            "id": "neutral",
-                            "percentageBucket": 81.72,
-                            "percentageQuestion": 35.41,
-                            "percentageSurvey": 24.92
-                          },
-                          {
                             "count": 26,
                             "id": "positive",
                             "percentageBucket": 5.59,
                             "percentageQuestion": 2.42,
                             "percentageSurvey": 1.7
+                          },
+                          {
+                            "count": 380,
+                            "id": "neutral",
+                            "percentageBucket": 81.72,
+                            "percentageQuestion": 35.41,
+                            "percentageSurvey": 24.92
                           },
                           {
                             "count": 59,
@@ -1969,11 +1969,11 @@
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 22,
-                            "id": "negative",
-                            "percentageBucket": 17.32,
-                            "percentageQuestion": 2.05,
-                            "percentageSurvey": 1.44
+                            "count": 84,
+                            "id": "neutral",
+                            "percentageBucket": 66.14,
+                            "percentageQuestion": 7.83,
+                            "percentageSurvey": 5.51
                           },
                           {
                             "count": 21,
@@ -1983,11 +1983,11 @@
                             "percentageSurvey": 1.38
                           },
                           {
-                            "count": 84,
-                            "id": "neutral",
-                            "percentageBucket": 66.14,
-                            "percentageQuestion": 7.83,
-                            "percentageSurvey": 5.51
+                            "count": 22,
+                            "id": "negative",
+                            "percentageBucket": 17.32,
+                            "percentageQuestion": 2.05,
+                            "percentageSurvey": 1.44
                           }
                         ],
                         "percentageQuestion": 11.84,
@@ -2026,13 +2026,20 @@
                       "interest": 0.34,
                       "usage": 0.73,
                       "retention": 0.55,
-                      "positivity": 0.12
+                      "positivity": 0.53
                     },
                     "buckets": [
                       {
                         "count": 72,
                         "id": "never_heard",
                         "facetBuckets": [
+                          {
+                            "count": 64,
+                            "id": "neutral",
+                            "percentageBucket": 88.89,
+                            "percentageQuestion": 6.23,
+                            "percentageSurvey": 4.2
+                          },
                           {
                             "count": 7,
                             "id": "positive",
@@ -2046,13 +2053,6 @@
                             "percentageBucket": 1.39,
                             "percentageQuestion": 0.1,
                             "percentageSurvey": 0.07
-                          },
-                          {
-                            "count": 64,
-                            "id": "neutral",
-                            "percentageBucket": 88.89,
-                            "percentageQuestion": 6.23,
-                            "percentageSurvey": 4.2
                           }
                         ],
                         "percentageQuestion": 7,
@@ -2070,18 +2070,18 @@
                             "percentageSurvey": 11.21
                           },
                           {
-                            "count": 11,
-                            "id": "positive",
-                            "percentageBucket": 5.42,
-                            "percentageQuestion": 1.07,
-                            "percentageSurvey": 0.72
-                          },
-                          {
                             "count": 21,
                             "id": "negative",
                             "percentageBucket": 10.34,
                             "percentageQuestion": 2.04,
                             "percentageSurvey": 1.38
+                          },
+                          {
+                            "count": 11,
+                            "id": "positive",
+                            "percentageBucket": 5.42,
+                            "percentageQuestion": 1.07,
+                            "percentageSurvey": 0.72
                           }
                         ],
                         "percentageQuestion": 19.75,
@@ -2092,18 +2092,18 @@
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 108,
-                            "id": "positive",
-                            "percentageBucket": 14.42,
-                            "percentageQuestion": 10.51,
-                            "percentageSurvey": 7.08
-                          },
-                          {
                             "count": 86,
                             "id": "negative",
                             "percentageBucket": 11.48,
                             "percentageQuestion": 8.37,
                             "percentageSurvey": 5.64
+                          },
+                          {
+                            "count": 108,
+                            "id": "positive",
+                            "percentageBucket": 14.42,
+                            "percentageQuestion": 10.51,
+                            "percentageSurvey": 7.08
                           },
                           {
                             "count": 555,
@@ -2149,13 +2149,20 @@
                       "interest": 0.68,
                       "usage": 0.05,
                       "retention": 0.41,
-                      "positivity": 0.08
+                      "positivity": 0.63
                     },
                     "buckets": [
                       {
                         "count": 471,
                         "id": "never_heard",
                         "facetBuckets": [
+                          {
+                            "count": 410,
+                            "id": "neutral",
+                            "percentageBucket": 87.05,
+                            "percentageQuestion": 40.31,
+                            "percentageSurvey": 26.89
+                          },
                           {
                             "count": 23,
                             "id": "negative",
@@ -2169,13 +2176,6 @@
                             "percentageBucket": 8.07,
                             "percentageQuestion": 3.74,
                             "percentageSurvey": 2.49
-                          },
-                          {
-                            "count": 410,
-                            "id": "neutral",
-                            "percentageBucket": 87.05,
-                            "percentageQuestion": 40.31,
-                            "percentageSurvey": 26.89
                           }
                         ],
                         "percentageQuestion": 46.31,
@@ -2185,13 +2185,6 @@
                         "count": 488,
                         "id": "heard",
                         "facetBuckets": [
-                          {
-                            "count": 421,
-                            "id": "neutral",
-                            "percentageBucket": 86.27,
-                            "percentageQuestion": 41.4,
-                            "percentageSurvey": 27.61
-                          },
                           {
                             "count": 46,
                             "id": "positive",
@@ -2205,6 +2198,13 @@
                             "percentageBucket": 4.3,
                             "percentageQuestion": 2.06,
                             "percentageSurvey": 1.38
+                          },
+                          {
+                            "count": 421,
+                            "id": "neutral",
+                            "percentageBucket": 86.27,
+                            "percentageQuestion": 41.4,
+                            "percentageSurvey": 27.61
                           }
                         ],
                         "percentageQuestion": 47.98,
@@ -2215,18 +2215,18 @@
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 7,
-                            "id": "negative",
-                            "percentageBucket": 12.5,
-                            "percentageQuestion": 0.69,
-                            "percentageSurvey": 0.46
-                          },
-                          {
                             "count": 5,
                             "id": "positive",
                             "percentageBucket": 8.93,
                             "percentageQuestion": 0.49,
                             "percentageSurvey": 0.33
+                          },
+                          {
+                            "count": 7,
+                            "id": "negative",
+                            "percentageBucket": 12.5,
+                            "percentageQuestion": 0.69,
+                            "percentageSurvey": 0.46
                           },
                           {
                             "count": 44,
@@ -2272,7 +2272,7 @@
                       "interest": 0.67,
                       "usage": 0.6,
                       "retention": 0.75,
-                      "positivity": 0.16
+                      "positivity": 0.73
                     },
                     "buckets": [
                       {
@@ -2309,13 +2309,6 @@
                         "id": "heard",
                         "facetBuckets": [
                           {
-                            "count": 272,
-                            "id": "neutral",
-                            "percentageBucket": 84.74,
-                            "percentageQuestion": 26.51,
-                            "percentageSurvey": 17.84
-                          },
-                          {
                             "count": 33,
                             "id": "positive",
                             "percentageBucket": 10.28,
@@ -2328,6 +2321,13 @@
                             "percentageBucket": 4.98,
                             "percentageQuestion": 1.56,
                             "percentageSurvey": 1.05
+                          },
+                          {
+                            "count": 272,
+                            "id": "neutral",
+                            "percentageBucket": 84.74,
+                            "percentageQuestion": 26.51,
+                            "percentageSurvey": 17.84
                           }
                         ],
                         "percentageQuestion": 31.29,
@@ -2395,7 +2395,7 @@
                       "interest": 0.52,
                       "usage": 0.22,
                       "retention": 0.74,
-                      "positivity": 0.1
+                      "positivity": 0.62
                     },
                     "buckets": [
                       {
@@ -2432,13 +2432,6 @@
                         "id": "heard",
                         "facetBuckets": [
                           {
-                            "count": 325,
-                            "id": "neutral",
-                            "percentageBucket": 84.2,
-                            "percentageQuestion": 31.93,
-                            "percentageSurvey": 21.31
-                          },
-                          {
                             "count": 32,
                             "id": "positive",
                             "percentageBucket": 8.29,
@@ -2451,6 +2444,13 @@
                             "percentageBucket": 7.51,
                             "percentageQuestion": 2.85,
                             "percentageSurvey": 1.9
+                          },
+                          {
+                            "count": 325,
+                            "id": "neutral",
+                            "percentageBucket": 84.2,
+                            "percentageQuestion": 31.93,
+                            "percentageSurvey": 21.31
                           }
                         ],
                         "percentageQuestion": 37.92,
@@ -2510,20 +2510,13 @@
                       "interest": 0.29,
                       "usage": 0.11,
                       "retention": 0.66,
-                      "positivity": 0.04
+                      "positivity": 0.42
                     },
                     "buckets": [
                       {
                         "count": 611,
                         "id": "never_heard",
                         "facetBuckets": [
-                          {
-                            "count": 553,
-                            "id": "neutral",
-                            "percentageBucket": 90.51,
-                            "percentageQuestion": 54.48,
-                            "percentageSurvey": 36.26
-                          },
                           {
                             "count": 25,
                             "id": "positive",
@@ -2537,6 +2530,13 @@
                             "percentageBucket": 5.4,
                             "percentageQuestion": 3.25,
                             "percentageSurvey": 2.16
+                          },
+                          {
+                            "count": 553,
+                            "id": "neutral",
+                            "percentageBucket": 90.51,
+                            "percentageQuestion": 54.48,
+                            "percentageSurvey": 36.26
                           }
                         ],
                         "percentageQuestion": 60.2,
@@ -2634,7 +2634,7 @@
                       "interest": 0.8,
                       "usage": 0.93,
                       "retention": 0.94,
-                      "positivity": 0.34
+                      "positivity": 0.94
                     },
                     "buckets": [
                       {
@@ -2642,18 +2642,18 @@
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 3,
-                            "id": "positive",
-                            "percentageBucket": 21.43,
-                            "percentageQuestion": 0.29,
-                            "percentageSurvey": 0.2
-                          },
-                          {
                             "count": 11,
                             "id": "neutral",
                             "percentageBucket": 78.57,
                             "percentageQuestion": 1.07,
                             "percentageSurvey": 0.72
+                          },
+                          {
+                            "count": 3,
+                            "id": "positive",
+                            "percentageBucket": 21.43,
+                            "percentageQuestion": 0.29,
+                            "percentageSurvey": 0.2
                           }
                         ],
                         "percentageQuestion": 1.36,
@@ -2663,13 +2663,6 @@
                         "count": 54,
                         "id": "heard",
                         "facetBuckets": [
-                          {
-                            "count": 8,
-                            "id": "positive",
-                            "percentageBucket": 14.81,
-                            "percentageQuestion": 0.78,
-                            "percentageSurvey": 0.52
-                          },
                           {
                             "count": 44,
                             "id": "neutral",
@@ -2683,6 +2676,13 @@
                             "percentageBucket": 3.7,
                             "percentageQuestion": 0.19,
                             "percentageSurvey": 0.13
+                          },
+                          {
+                            "count": 8,
+                            "id": "positive",
+                            "percentageBucket": 14.81,
+                            "percentageQuestion": 0.78,
+                            "percentageSurvey": 0.52
                           }
                         ],
                         "percentageQuestion": 5.25,
@@ -2693,18 +2693,18 @@
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 340,
-                            "id": "positive",
-                            "percentageBucket": 35.49,
-                            "percentageQuestion": 33.07,
-                            "percentageSurvey": 22.3
-                          },
-                          {
                             "count": 20,
                             "id": "negative",
                             "percentageBucket": 2.09,
                             "percentageQuestion": 1.95,
                             "percentageSurvey": 1.31
+                          },
+                          {
+                            "count": 340,
+                            "id": "positive",
+                            "percentageBucket": 35.49,
+                            "percentageQuestion": 33.07,
+                            "percentageSurvey": 22.3
                           },
                           {
                             "count": 598,
@@ -2750,7 +2750,7 @@
                       "interest": 0.81,
                       "usage": 0.11,
                       "retention": 0.89,
-                      "positivity": 0.13
+                      "positivity": 0.8
                     },
                     "buckets": [
                       {
@@ -2758,18 +2758,18 @@
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 19,
-                            "id": "positive",
-                            "percentageBucket": 6.48,
-                            "percentageQuestion": 1.87,
-                            "percentageSurvey": 1.25
-                          },
-                          {
                             "count": 11,
                             "id": "negative",
                             "percentageBucket": 3.75,
                             "percentageQuestion": 1.08,
                             "percentageSurvey": 0.72
+                          },
+                          {
+                            "count": 19,
+                            "id": "positive",
+                            "percentageBucket": 6.48,
+                            "percentageQuestion": 1.87,
+                            "percentageSurvey": 1.25
                           },
                           {
                             "count": 263,
@@ -2794,18 +2794,18 @@
                             "percentageSurvey": 5.31
                           },
                           {
-                            "count": 503,
-                            "id": "neutral",
-                            "percentageBucket": 83.55,
-                            "percentageQuestion": 49.46,
-                            "percentageSurvey": 32.98
-                          },
-                          {
                             "count": 18,
                             "id": "negative",
                             "percentageBucket": 2.99,
                             "percentageQuestion": 1.77,
                             "percentageSurvey": 1.18
+                          },
+                          {
+                            "count": 503,
+                            "id": "neutral",
+                            "percentageBucket": 83.55,
+                            "percentageQuestion": 49.46,
+                            "percentageSurvey": 32.98
                           }
                         ],
                         "percentageQuestion": 59.19,
@@ -2815,13 +2815,6 @@
                         "count": 120,
                         "id": "used",
                         "facetBuckets": [
-                          {
-                            "count": 34,
-                            "id": "positive",
-                            "percentageBucket": 28.33,
-                            "percentageQuestion": 3.34,
-                            "percentageSurvey": 2.23
-                          },
                           {
                             "count": 4,
                             "id": "negative",
@@ -2835,6 +2828,13 @@
                             "percentageBucket": 68.33,
                             "percentageQuestion": 8.06,
                             "percentageSurvey": 5.38
+                          },
+                          {
+                            "count": 34,
+                            "id": "positive",
+                            "percentageBucket": 28.33,
+                            "percentageQuestion": 3.34,
+                            "percentageSurvey": 2.23
                           }
                         ],
                         "percentageQuestion": 11.8,
@@ -2873,13 +2873,20 @@
                       "interest": 0.85,
                       "usage": 0.11,
                       "retention": 0.76,
-                      "positivity": 0.14
+                      "positivity": 0.76
                     },
                     "buckets": [
                       {
                         "count": 459,
                         "id": "never_heard",
                         "facetBuckets": [
+                          {
+                            "count": 403,
+                            "id": "neutral",
+                            "percentageBucket": 87.8,
+                            "percentageQuestion": 39.94,
+                            "percentageSurvey": 26.43
+                          },
                           {
                             "count": 35,
                             "id": "positive",
@@ -2893,13 +2900,6 @@
                             "percentageBucket": 4.58,
                             "percentageQuestion": 2.08,
                             "percentageSurvey": 1.38
-                          },
-                          {
-                            "count": 403,
-                            "id": "neutral",
-                            "percentageBucket": 87.8,
-                            "percentageQuestion": 39.94,
-                            "percentageSurvey": 26.43
                           }
                         ],
                         "percentageQuestion": 45.49,
@@ -2909,13 +2909,6 @@
                         "count": 434,
                         "id": "heard",
                         "facetBuckets": [
-                          {
-                            "count": 78,
-                            "id": "positive",
-                            "percentageBucket": 17.97,
-                            "percentageQuestion": 7.73,
-                            "percentageSurvey": 5.11
-                          },
                           {
                             "count": 343,
                             "id": "neutral",
@@ -2929,6 +2922,13 @@
                             "percentageBucket": 3,
                             "percentageQuestion": 1.29,
                             "percentageSurvey": 0.85
+                          },
+                          {
+                            "count": 78,
+                            "id": "positive",
+                            "percentageBucket": 17.97,
+                            "percentageQuestion": 7.73,
+                            "percentageSurvey": 5.11
                           }
                         ],
                         "percentageQuestion": 43.01,
@@ -2939,11 +2939,11 @@
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 29,
-                            "id": "positive",
-                            "percentageBucket": 25,
-                            "percentageQuestion": 2.87,
-                            "percentageSurvey": 1.9
+                            "count": 78,
+                            "id": "neutral",
+                            "percentageBucket": 67.24,
+                            "percentageQuestion": 7.73,
+                            "percentageSurvey": 5.11
                           },
                           {
                             "count": 9,
@@ -2953,11 +2953,11 @@
                             "percentageSurvey": 0.59
                           },
                           {
-                            "count": 78,
-                            "id": "neutral",
-                            "percentageBucket": 67.24,
-                            "percentageQuestion": 7.73,
-                            "percentageSurvey": 5.11
+                            "count": 29,
+                            "id": "positive",
+                            "percentageBucket": 25,
+                            "percentageQuestion": 2.87,
+                            "percentageSurvey": 1.9
                           }
                         ],
                         "percentageQuestion": 11.5,
@@ -2996,13 +2996,20 @@
                       "interest": 0.82,
                       "usage": 0.43,
                       "retention": 0.95,
-                      "positivity": 0.22
+                      "positivity": 0.89
                     },
                     "buckets": [
                       {
                         "count": 96,
                         "id": "never_heard",
                         "facetBuckets": [
+                          {
+                            "count": 87,
+                            "id": "neutral",
+                            "percentageBucket": 90.63,
+                            "percentageQuestion": 8.56,
+                            "percentageSurvey": 5.7
+                          },
                           {
                             "count": 2,
                             "id": "negative",
@@ -3016,13 +3023,6 @@
                             "percentageBucket": 7.29,
                             "percentageQuestion": 0.69,
                             "percentageSurvey": 0.46
-                          },
-                          {
-                            "count": 87,
-                            "id": "neutral",
-                            "percentageBucket": 90.63,
-                            "percentageQuestion": 8.56,
-                            "percentageSurvey": 5.7
                           }
                         ],
                         "percentageQuestion": 9.45,
@@ -3032,13 +3032,6 @@
                         "count": 471,
                         "id": "heard",
                         "facetBuckets": [
-                          {
-                            "count": 370,
-                            "id": "neutral",
-                            "percentageBucket": 78.56,
-                            "percentageQuestion": 36.42,
-                            "percentageSurvey": 24.26
-                          },
                           {
                             "count": 83,
                             "id": "positive",
@@ -3052,6 +3045,13 @@
                             "percentageBucket": 3.82,
                             "percentageQuestion": 1.77,
                             "percentageSurvey": 1.18
+                          },
+                          {
+                            "count": 370,
+                            "id": "neutral",
+                            "percentageBucket": 78.56,
+                            "percentageQuestion": 36.42,
+                            "percentageSurvey": 24.26
                           }
                         ],
                         "percentageQuestion": 46.36,
@@ -3061,6 +3061,13 @@
                         "count": 443,
                         "id": "used",
                         "facetBuckets": [
+                          {
+                            "count": 301,
+                            "id": "neutral",
+                            "percentageBucket": 67.95,
+                            "percentageQuestion": 29.63,
+                            "percentageSurvey": 19.74
+                          },
                           {
                             "count": 7,
                             "id": "negative",
@@ -3074,13 +3081,6 @@
                             "percentageBucket": 30.47,
                             "percentageQuestion": 13.29,
                             "percentageSurvey": 8.85
-                          },
-                          {
-                            "count": 301,
-                            "id": "neutral",
-                            "percentageBucket": 67.95,
-                            "percentageQuestion": 29.63,
-                            "percentageSurvey": 19.74
                           }
                         ],
                         "percentageQuestion": 43.6,
@@ -3120,7 +3120,7 @@
                       "interest": 0.32,
                       "usage": 0.1,
                       "retention": 0.5,
-                      "positivity": 0.07
+                      "positivity": 0.37
                     },
                     "buckets": [
                       {
@@ -3128,18 +3128,18 @@
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 370,
-                            "id": "neutral",
-                            "percentageBucket": 88.31,
-                            "percentageQuestion": 37.79,
-                            "percentageSurvey": 24.26
-                          },
-                          {
                             "count": 32,
                             "id": "negative",
                             "percentageBucket": 7.64,
                             "percentageQuestion": 3.27,
                             "percentageSurvey": 2.1
+                          },
+                          {
+                            "count": 370,
+                            "id": "neutral",
+                            "percentageBucket": 88.31,
+                            "percentageQuestion": 37.79,
+                            "percentageSurvey": 24.26
                           },
                           {
                             "count": 17,
@@ -3157,18 +3157,18 @@
                         "id": "heard",
                         "facetBuckets": [
                           {
-                            "count": 62,
-                            "id": "negative",
-                            "percentageBucket": 13.75,
-                            "percentageQuestion": 6.33,
-                            "percentageSurvey": 4.07
-                          },
-                          {
                             "count": 359,
                             "id": "neutral",
                             "percentageBucket": 79.6,
                             "percentageQuestion": 36.67,
                             "percentageSurvey": 23.54
+                          },
+                          {
+                            "count": 62,
+                            "id": "negative",
+                            "percentageBucket": 13.75,
+                            "percentageQuestion": 6.33,
+                            "percentageSurvey": 4.07
                           },
                           {
                             "count": 30,
@@ -3186,18 +3186,18 @@
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 25,
-                            "id": "positive",
-                            "percentageBucket": 23.81,
-                            "percentageQuestion": 2.55,
-                            "percentageSurvey": 1.64
-                          },
-                          {
                             "count": 55,
                             "id": "neutral",
                             "percentageBucket": 52.38,
                             "percentageQuestion": 5.62,
                             "percentageSurvey": 3.61
+                          },
+                          {
+                            "count": 25,
+                            "id": "positive",
+                            "percentageBucket": 23.81,
+                            "percentageQuestion": 2.55,
+                            "percentageSurvey": 1.64
                           },
                           {
                             "count": 25,
@@ -3244,7 +3244,7 @@
                       "interest": 0.17,
                       "usage": 0.18,
                       "retention": 0.31,
-                      "positivity": 0.04
+                      "positivity": 0.22
                     },
                     "buckets": [
                       {
@@ -3252,11 +3252,11 @@
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 279,
-                            "id": "neutral",
-                            "percentageBucket": 91.78,
-                            "percentageQuestion": 28.59,
-                            "percentageSurvey": 18.3
+                            "count": 4,
+                            "id": "positive",
+                            "percentageBucket": 1.32,
+                            "percentageQuestion": 0.41,
+                            "percentageSurvey": 0.26
                           },
                           {
                             "count": 21,
@@ -3266,11 +3266,11 @@
                             "percentageSurvey": 1.38
                           },
                           {
-                            "count": 4,
-                            "id": "positive",
-                            "percentageBucket": 1.32,
-                            "percentageQuestion": 0.41,
-                            "percentageSurvey": 0.26
+                            "count": 279,
+                            "id": "neutral",
+                            "percentageBucket": 91.78,
+                            "percentageQuestion": 28.59,
+                            "percentageSurvey": 18.3
                           }
                         ],
                         "percentageQuestion": 31.15,
@@ -3281,18 +3281,18 @@
                         "id": "heard",
                         "facetBuckets": [
                           {
-                            "count": 404,
-                            "id": "neutral",
-                            "percentageBucket": 83.3,
-                            "percentageQuestion": 41.39,
-                            "percentageSurvey": 26.49
-                          },
-                          {
                             "count": 14,
                             "id": "positive",
                             "percentageBucket": 2.89,
                             "percentageQuestion": 1.43,
                             "percentageSurvey": 0.92
+                          },
+                          {
+                            "count": 404,
+                            "id": "neutral",
+                            "percentageBucket": 83.3,
+                            "percentageQuestion": 41.39,
+                            "percentageSurvey": 26.49
                           },
                           {
                             "count": 67,
@@ -3310,11 +3310,11 @@
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 50,
-                            "id": "negative",
-                            "percentageBucket": 27.32,
-                            "percentageQuestion": 5.12,
-                            "percentageSurvey": 3.28
+                            "count": 110,
+                            "id": "neutral",
+                            "percentageBucket": 60.11,
+                            "percentageQuestion": 11.27,
+                            "percentageSurvey": 7.21
                           },
                           {
                             "count": 23,
@@ -3324,11 +3324,11 @@
                             "percentageSurvey": 1.51
                           },
                           {
-                            "count": 110,
-                            "id": "neutral",
-                            "percentageBucket": 60.11,
-                            "percentageQuestion": 11.27,
-                            "percentageSurvey": 7.21
+                            "count": 50,
+                            "id": "negative",
+                            "percentageBucket": 27.32,
+                            "percentageQuestion": 5.12,
+                            "percentageSurvey": 3.28
                           }
                         ],
                         "percentageQuestion": 18.75,
@@ -3367,7 +3367,7 @@
                       "interest": 0.41,
                       "usage": 0.08,
                       "retention": 0.68,
-                      "positivity": 0.08
+                      "positivity": 0.47
                     },
                     "buckets": [
                       {
@@ -3375,18 +3375,18 @@
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 20,
-                            "id": "positive",
-                            "percentageBucket": 6.04,
-                            "percentageQuestion": 2.05,
-                            "percentageSurvey": 1.31
-                          },
-                          {
                             "count": 22,
                             "id": "negative",
                             "percentageBucket": 6.65,
                             "percentageQuestion": 2.26,
                             "percentageSurvey": 1.44
+                          },
+                          {
+                            "count": 20,
+                            "id": "positive",
+                            "percentageBucket": 6.04,
+                            "percentageQuestion": 2.05,
+                            "percentageSurvey": 1.31
                           },
                           {
                             "count": 289,
@@ -3411,18 +3411,18 @@
                             "percentageSurvey": 2.82
                           },
                           {
-                            "count": 457,
-                            "id": "neutral",
-                            "percentageBucket": 81.61,
-                            "percentageQuestion": 46.92,
-                            "percentageSurvey": 29.97
-                          },
-                          {
                             "count": 60,
                             "id": "negative",
                             "percentageBucket": 10.71,
                             "percentageQuestion": 6.16,
                             "percentageSurvey": 3.93
+                          },
+                          {
+                            "count": 457,
+                            "id": "neutral",
+                            "percentageBucket": 81.61,
+                            "percentageQuestion": 46.92,
+                            "percentageSurvey": 29.97
                           }
                         ],
                         "percentageQuestion": 57.49,
@@ -3432,13 +3432,6 @@
                         "count": 80,
                         "id": "used",
                         "facetBuckets": [
-                          {
-                            "count": 17,
-                            "id": "positive",
-                            "percentageBucket": 21.25,
-                            "percentageQuestion": 1.75,
-                            "percentageSurvey": 1.11
-                          },
                           {
                             "count": 8,
                             "id": "negative",
@@ -3452,6 +3445,13 @@
                             "percentageBucket": 68.75,
                             "percentageQuestion": 5.65,
                             "percentageSurvey": 3.61
+                          },
+                          {
+                            "count": 17,
+                            "id": "positive",
+                            "percentageBucket": 21.25,
+                            "percentageQuestion": 1.75,
+                            "percentageSurvey": 1.11
                           }
                         ],
                         "percentageQuestion": 8.21,
@@ -3490,13 +3490,20 @@
                       "interest": 0.24,
                       "usage": 0.21,
                       "retention": 0.4,
-                      "positivity": 0.05
+                      "positivity": 0.31
                     },
                     "buckets": [
                       {
                         "count": 232,
                         "id": "never_heard",
                         "facetBuckets": [
+                          {
+                            "count": 211,
+                            "id": "neutral",
+                            "percentageBucket": 90.95,
+                            "percentageQuestion": 21.78,
+                            "percentageSurvey": 13.84
+                          },
                           {
                             "count": 7,
                             "id": "positive",
@@ -3510,13 +3517,6 @@
                             "percentageBucket": 6.03,
                             "percentageQuestion": 1.44,
                             "percentageSurvey": 0.92
-                          },
-                          {
-                            "count": 211,
-                            "id": "neutral",
-                            "percentageBucket": 90.95,
-                            "percentageQuestion": 21.78,
-                            "percentageSurvey": 13.84
                           }
                         ],
                         "percentageQuestion": 23.94,
@@ -3534,18 +3534,18 @@
                             "percentageSurvey": 29.05
                           },
                           {
-                            "count": 20,
-                            "id": "positive",
-                            "percentageBucket": 3.8,
-                            "percentageQuestion": 2.06,
-                            "percentageSurvey": 1.31
-                          },
-                          {
                             "count": 63,
                             "id": "negative",
                             "percentageBucket": 11.98,
                             "percentageQuestion": 6.5,
                             "percentageSurvey": 4.13
+                          },
+                          {
+                            "count": 20,
+                            "id": "positive",
+                            "percentageBucket": 3.8,
+                            "percentageQuestion": 2.06,
+                            "percentageSurvey": 1.31
                           }
                         ],
                         "percentageQuestion": 54.28,
@@ -3556,18 +3556,18 @@
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 26,
-                            "id": "positive",
-                            "percentageBucket": 12.44,
-                            "percentageQuestion": 2.68,
-                            "percentageSurvey": 1.7
-                          },
-                          {
                             "count": 39,
                             "id": "negative",
                             "percentageBucket": 18.66,
                             "percentageQuestion": 4.02,
                             "percentageSurvey": 2.56
+                          },
+                          {
+                            "count": 26,
+                            "id": "positive",
+                            "percentageBucket": 12.44,
+                            "percentageQuestion": 2.68,
+                            "percentageSurvey": 1.7
                           },
                           {
                             "count": 144,
@@ -3613,7 +3613,7 @@
                       "interest": 0.23,
                       "usage": 0.37,
                       "retention": 0.53,
-                      "positivity": 0.08
+                      "positivity": 0.4
                     },
                     "buckets": [
                       {
@@ -3628,18 +3628,18 @@
                             "percentageSurvey": 6.3
                           },
                           {
-                            "count": 8,
-                            "id": "negative",
-                            "percentageBucket": 7.48,
-                            "percentageQuestion": 0.82,
-                            "percentageSurvey": 0.52
-                          },
-                          {
                             "count": 3,
                             "id": "positive",
                             "percentageBucket": 2.8,
                             "percentageQuestion": 0.31,
                             "percentageSurvey": 0.2
+                          },
+                          {
+                            "count": 8,
+                            "id": "negative",
+                            "percentageBucket": 7.48,
+                            "percentageQuestion": 0.82,
+                            "percentageSurvey": 0.52
                           }
                         ],
                         "percentageQuestion": 11,
@@ -3650,11 +3650,11 @@
                         "id": "heard",
                         "facetBuckets": [
                           {
-                            "count": 64,
-                            "id": "negative",
-                            "percentageBucket": 12.88,
-                            "percentageQuestion": 6.58,
-                            "percentageSurvey": 4.2
+                            "count": 20,
+                            "id": "positive",
+                            "percentageBucket": 4.02,
+                            "percentageQuestion": 2.06,
+                            "percentageSurvey": 1.31
                           },
                           {
                             "count": 413,
@@ -3664,11 +3664,11 @@
                             "percentageSurvey": 27.08
                           },
                           {
-                            "count": 20,
-                            "id": "positive",
-                            "percentageBucket": 4.02,
-                            "percentageQuestion": 2.06,
-                            "percentageSurvey": 1.31
+                            "count": 64,
+                            "id": "negative",
+                            "percentageBucket": 12.88,
+                            "percentageQuestion": 6.58,
+                            "percentageSurvey": 4.2
                           }
                         ],
                         "percentageQuestion": 51.08,
@@ -3679,18 +3679,18 @@
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 245,
-                            "id": "neutral",
-                            "percentageBucket": 68.06,
-                            "percentageQuestion": 25.18,
-                            "percentageSurvey": 16.07
-                          },
-                          {
                             "count": 62,
                             "id": "positive",
                             "percentageBucket": 17.22,
                             "percentageQuestion": 6.37,
                             "percentageSurvey": 4.07
+                          },
+                          {
+                            "count": 245,
+                            "id": "neutral",
+                            "percentageBucket": 68.06,
+                            "percentageQuestion": 25.18,
+                            "percentageSurvey": 16.07
                           },
                           {
                             "count": 53,
@@ -3731,20 +3731,13 @@
                       "interest": 0.41,
                       "usage": 0.12,
                       "retention": 0.82,
-                      "positivity": 0.08
+                      "positivity": 0.51
                     },
                     "buckets": [
                       {
                         "count": 456,
                         "id": "never_heard",
                         "facetBuckets": [
-                          {
-                            "count": 408,
-                            "id": "neutral",
-                            "percentageBucket": 89.47,
-                            "percentageQuestion": 42.15,
-                            "percentageSurvey": 26.75
-                          },
                           {
                             "count": 31,
                             "id": "negative",
@@ -3758,6 +3751,13 @@
                             "percentageBucket": 3.73,
                             "percentageQuestion": 1.76,
                             "percentageSurvey": 1.11
+                          },
+                          {
+                            "count": 408,
+                            "id": "neutral",
+                            "percentageBucket": 89.47,
+                            "percentageQuestion": 42.15,
+                            "percentageSurvey": 26.75
                           }
                         ],
                         "percentageQuestion": 47.11,
@@ -3797,11 +3797,11 @@
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 76,
-                            "id": "neutral",
-                            "percentageBucket": 62.3,
-                            "percentageQuestion": 7.85,
-                            "percentageSurvey": 4.98
+                            "count": 8,
+                            "id": "negative",
+                            "percentageBucket": 6.56,
+                            "percentageQuestion": 0.83,
+                            "percentageSurvey": 0.52
                           },
                           {
                             "count": 38,
@@ -3811,11 +3811,11 @@
                             "percentageSurvey": 2.49
                           },
                           {
-                            "count": 8,
-                            "id": "negative",
-                            "percentageBucket": 6.56,
-                            "percentageQuestion": 0.83,
-                            "percentageSurvey": 0.52
+                            "count": 76,
+                            "id": "neutral",
+                            "percentageBucket": 62.3,
+                            "percentageQuestion": 7.85,
+                            "percentageSurvey": 4.98
                           }
                         ],
                         "percentageQuestion": 12.6,
@@ -3850,7 +3850,7 @@
                       "interest": 0.15,
                       "usage": 0.06,
                       "retention": 0.45,
-                      "positivity": 0.03
+                      "positivity": 0.27
                     },
                     "buckets": [
                       {
@@ -3858,11 +3858,11 @@
                         "id": "never_heard",
                         "facetBuckets": [
                           {
-                            "count": 19,
-                            "id": "positive",
-                            "percentageBucket": 2.84,
-                            "percentageQuestion": 1.96,
-                            "percentageSurvey": 1.25
+                            "count": 604,
+                            "id": "neutral",
+                            "percentageBucket": 90.28,
+                            "percentageQuestion": 62.33,
+                            "percentageSurvey": 39.61
                           },
                           {
                             "count": 46,
@@ -3872,11 +3872,11 @@
                             "percentageSurvey": 3.02
                           },
                           {
-                            "count": 604,
-                            "id": "neutral",
-                            "percentageBucket": 90.28,
-                            "percentageQuestion": 62.33,
-                            "percentageSurvey": 39.61
+                            "count": 19,
+                            "id": "positive",
+                            "percentageBucket": 2.84,
+                            "percentageQuestion": 1.96,
+                            "percentageSurvey": 1.25
                           }
                         ],
                         "percentageQuestion": 69.04,
@@ -3886,13 +3886,6 @@
                         "count": 240,
                         "id": "heard",
                         "facetBuckets": [
-                          {
-                            "count": 196,
-                            "id": "neutral",
-                            "percentageBucket": 81.67,
-                            "percentageQuestion": 20.23,
-                            "percentageSurvey": 12.85
-                          },
                           {
                             "count": 7,
                             "id": "positive",
@@ -3906,6 +3899,13 @@
                             "percentageBucket": 15.42,
                             "percentageQuestion": 3.82,
                             "percentageSurvey": 2.43
+                          },
+                          {
+                            "count": 196,
+                            "id": "neutral",
+                            "percentageBucket": 81.67,
+                            "percentageQuestion": 20.23,
+                            "percentageSurvey": 12.85
                           }
                         ],
                         "percentageQuestion": 24.77,
@@ -3916,11 +3916,11 @@
                         "id": "used",
                         "facetBuckets": [
                           {
-                            "count": 10,
-                            "id": "positive",
-                            "percentageBucket": 16.67,
-                            "percentageQuestion": 1.03,
-                            "percentageSurvey": 0.66
+                            "count": 38,
+                            "id": "neutral",
+                            "percentageBucket": 63.33,
+                            "percentageQuestion": 3.92,
+                            "percentageSurvey": 2.49
                           },
                           {
                             "count": 12,
@@ -3930,11 +3930,11 @@
                             "percentageSurvey": 0.79
                           },
                           {
-                            "count": 38,
-                            "id": "neutral",
-                            "percentageBucket": 63.33,
-                            "percentageQuestion": 3.92,
-                            "percentageSurvey": 2.49
+                            "count": 10,
+                            "id": "positive",
+                            "percentageBucket": 16.67,
+                            "percentageQuestion": 1.03,
+                            "percentageSurvey": 0.66
                           }
                         ],
                         "percentageQuestion": 6.19,
@@ -3974,7 +3974,7 @@
                       "interest": 0.33,
                       "usage": 0.17,
                       "retention": 0.39,
-                      "positivity": 0.07
+                      "positivity": 0.35
                     },
                     "buckets": [
                       {
@@ -4011,13 +4011,6 @@
                         "id": "heard",
                         "facetBuckets": [
                           {
-                            "count": 66,
-                            "id": "negative",
-                            "percentageBucket": 11.54,
-                            "percentageQuestion": 6.8,
-                            "percentageSurvey": 4.33
-                          },
-                          {
                             "count": 33,
                             "id": "positive",
                             "percentageBucket": 5.77,
@@ -4030,6 +4023,13 @@
                             "percentageBucket": 82.69,
                             "percentageQuestion": 48.76,
                             "percentageSurvey": 31.02
+                          },
+                          {
+                            "count": 66,
+                            "id": "negative",
+                            "percentageBucket": 11.54,
+                            "percentageQuestion": 6.8,
+                            "percentageSurvey": 4.33
                           }
                         ],
                         "percentageQuestion": 58.97,
@@ -4039,13 +4039,6 @@
                         "count": 169,
                         "id": "used",
                         "facetBuckets": [
-                          {
-                            "count": 46,
-                            "id": "negative",
-                            "percentageBucket": 27.22,
-                            "percentageQuestion": 4.74,
-                            "percentageSurvey": 3.02
-                          },
                           {
                             "count": 93,
                             "id": "neutral",
@@ -4059,6 +4052,13 @@
                             "percentageBucket": 17.75,
                             "percentageQuestion": 3.09,
                             "percentageSurvey": 1.97
+                          },
+                          {
+                            "count": 46,
+                            "id": "negative",
+                            "percentageBucket": 27.22,
+                            "percentageQuestion": 4.74,
+                            "percentageSurvey": 3.02
                           }
                         ],
                         "percentageQuestion": 17.42,
